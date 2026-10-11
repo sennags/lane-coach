@@ -750,17 +750,6 @@ main {
 .brief-grid .brief {
   border-top-width:2px
 }
-.opponent-plan {
-  margin-top:17px
-}
-.opponent-plan summary {
-  font-size:11px;
-  color:var(--muted)
-}
-.opponent-plan p {
-  font-size:13px;
-  line-height:1.7
-}
 .abilities-section {
   border-top:1px solid var(--line);
   padding-top:24px
@@ -1005,9 +994,18 @@ details>summary:focus-visible {
 }
 .tabs button { white-space: nowrap; }
 
-.center-controls { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); display:grid; justify-items:center; gap:8px; z-index:1; }
-.center-controls .vs { position:static; transform:none; }
+.center-controls { grid-column:1 / -1; display:grid; justify-items:center; background:var(--bg); padding:14px 0; }
+.center-controls .vs { top:126px; z-index:1; }
+.lane-selector { width:100%; display:grid; justify-items:center; }
+.js .lane-fallback { display:none; }
+.js .lane-bar { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:4px; width:min(350px,100%); padding:4px; background:var(--bg); }
+.lane-button { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:7px; min-width:0; min-height:64px; padding:8px 4px; border:1px solid transparent; border-radius:0; background:var(--surface); color:var(--text); font:11px Consolas,monospace; transition:background .15s,color .15s; }
+.lane-button svg { flex-shrink:0; }
+.lane-button:hover { border-color:var(--red); background:#d8d8d3; }
+.lane-button[aria-pressed="true"] { color:#fff; background:var(--red); border-color:var(--red); }
+.lane-button:focus-visible { outline:3px solid var(--red); outline-offset:2px; position:relative; z-index:2; }
 .lane-selector select { width:128px; min-height:36px; padding:8px 5px; border:1px solid var(--red); border-radius:0; background:var(--bg); color:var(--text); font:11px Consolas,monospace; text-align:center; }
 .lane-selector select:focus-visible { outline:3px solid var(--red); outline-offset:3px; }
 .lane-note { font-size:11px; color:var(--muted); line-height:1.6; margin:18px 0 0; }
-@media(max-width:700px) { .center-controls { top:90px; } .lane-selector select { width:104px; min-height:34px; font-size:9px; } }
+@media(max-width:1000px) { .center-controls .vs { top:119px; } }
+@media(max-width:700px) { .center-controls .vs { top:90px; } .center-controls { padding:10px 0; } .lane-button { font-size:10px; } .lane-selector select { width:128px; min-height:36px; } }

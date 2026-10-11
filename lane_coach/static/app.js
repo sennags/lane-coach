@@ -30,15 +30,31 @@ if (form && dialog && typeof dialog.showModal === 'function') {
     search.value = ''; results(); dialog.showModal(); search.focus();
   }));
   document.querySelector('#lane').addEventListener('change', () => form.requestSubmit());
+  form.querySelectorAll('[data-lane]').forEach(button => button.addEventListener('click', () => {
+    const lane = document.querySelector('#lane');
+    if (lane.value === button.dataset.lane) return;
+    lane.value = button.dataset.lane;
+    form.querySelectorAll('[data-lane]').forEach(option => option.setAttribute('aria-pressed', String(option === button)));
+    form.requestSubmit();
+  }));
   search.addEventListener('input', results);
   document.querySelector('#close-dialog').addEventListener('click', () => dialog.close());
   dialog.addEventListener('keydown', event => { if (event.key === 'Escape') { event.preventDefault(); dialog.close(); } });
   dialog.addEventListener('close', () => opener?.focus());
   form.addEventListener('submit', () => {
-    form.querySelectorAll('[data-pick]').forEach(button => { button.disabled = true; });
+    form.querySelectorAll('[data-pick], [data-lane]').forEach(button => { button.disabled = true; });
     document.querySelector('#selection-status').textContent = 'Carregando perfis…';
   });
-  window.addEventListener('pageshow', () => { form.querySelectorAll('[data-pick]').forEach(button => { button.disabled = false; }); });
+  window.addEventListener('pageshow', () => {
+    form.querySelectorAll('[data-pick], [data-lane]').forEach(button => { button.disabled = false; });
+    // History can restore the form value after pageshow; align the bar with the URL.
+    setTimeout(() => {
+      const lane = document.querySelector('#lane');
+      const value = new URLSearchParams(window.location.search).get('lane') || 'general';
+      lane.value = [...lane.options].some(option => option.value === value) ? value : 'general';
+      form.querySelectorAll('[data-lane]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lane === lane.value)));
+    }, 0);
+  });
   document.documentElement.classList.add('js');
 }
 const phaseButtons = [...document.querySelectorAll('[data-phase-button]')];

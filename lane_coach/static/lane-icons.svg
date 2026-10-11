@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="top" viewBox="0 0 32 32"><path fill="currentColor" d="M4 4h24v6H10v18H4z"/><path fill="currentColor" opacity=".3" d="M22 12h6v16H12v-6h10z"/></symbol>
+  <symbol id="mid" viewBox="0 0 32 32"><path fill="currentColor" opacity=".3" d="M4 4h17l-6 6h-5v5l-6 6zm24 7v17H11l6-6h5v-5z"/><path fill="currentColor" d="m24 3 5 5L8 29l-5-5z"/></symbol>
+  <symbol id="adc" viewBox="0 0 32 32"><path fill="currentColor" opacity=".3" d="M4 4h16v6H10v10H4z"/><path fill="currentColor" d="M22 4h6v24H4v-6h18z"/></symbol>
+  <symbol id="jungle" viewBox="0 0 32 32"><path fill="currentColor" d="M16 29C7 23 5 15 3 5c5 4 8 8 10 13C12 11 11 6 9 2c6 5 8 12 9 18 3-7 6-11 11-14-1 10-5 18-13 23z"/></symbol>
+  <symbol id="support" viewBox="0 0 32 32"><path fill="currentColor" d="m12 3 4 5 4-5zm1 8h6l-1 11 4 5-6 3-6-3 4-5zM2 7l9 3-1 6-5-2zm28 0-9 3 1 6 5-2z"/></symbol>
+</svg>

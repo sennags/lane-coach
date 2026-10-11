@@ -24,8 +24,23 @@
 <select id="{{ field }}" name="{{ field }}" required>{% for option in champions %}<option value="{{ option.id }}" data-image="{{ url_for('static', filename='champions/' + option.id + '.jpg') }}" {{ 'selected' if option.id == champion.id else '' }} {{ 'disabled' if option.id in maintenance_champions else '' }}>{{ option.name }}{{ ' — Em manutenção' if option.id in maintenance_champions else '' }}</option>{% endfor %}</select>
 </div>
 </div>
-</article>{% if loop.first %}<div class="center-controls"><div class="vs" aria-hidden="true">VS</div><div class="lane-selector"><label for="lane" class="sr-only">Sua lane</label><select id="lane" name="lane">{% for value,label in lanes.items() %}<option value="{{ value }}" {{ 'selected' if selected_lane == value else '' }}>{{ label }}</option>{% endfor %}</select></div></div>{% endif %}
-{% endfor %}</section>
+</article>
+{% endfor %}
+<div class="center-controls">
+<div class="vs" aria-hidden="true">VS</div>
+<div class="lane-selector">
+<div class="lane-bar enhanced-only" role="group" aria-label="Sua lane">
+{% for value,label in lanes.items() if value != 'general' %}
+<button type="button" class="lane-button" data-lane="{{ value }}" aria-pressed="{{ 'true' if selected_lane == value else 'false' }}">
+<svg width="24" height="24" aria-hidden="true" focusable="false"><use href="{{ url_for('static', filename='lane-icons.svg') }}#{{ value }}"></use></svg>
+<span>{{ label }}</span>
+</button>
+{% endfor %}
+</div>
+<div class="lane-fallback"><label for="lane" class="sr-only">Sua lane</label><select id="lane" name="lane">{% for value,label in lanes.items() %}<option value="{{ value }}" {{ 'selected' if selected_lane == value else '' }}>{{ label }}</option>{% endfor %}</select></div>
+</div>
+</div>
+</section>
 <button type="submit" class="pick fallback-submit">Ver perfis</button>
 <p id="selection-status" class="sr-only" role="status">
 </p>
@@ -71,10 +86,7 @@
 <div class="behavior">
 <h4>COMPORTAMENTO NESTA FASE</h4>
 <p>{{ phase.typical }}</p>
-</div>{% if profile.side == 'enemy' %}<details class="opponent-plan">
-<summary>Plano para quem joga {{ profile.name }}</summary>
-<p>{{ phase.plan }}</p>
-</details>{% endif %}</section>{% endfor %}</article>{% endfor %}</div>
+</div></section>{% endfor %}</article>{% endfor %}</div>
 </section>
 <p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Os planos atuais são gerais por campeão; ainda não mudam por lane.</p>
 <p class="review">Perfis independentes. Estratégia: {{ guide.patch }}. Revisão especializada pendente. Sem cálculo de vencedor ou observação da partida.</p>
