@@ -182,18 +182,18 @@
         "caution": "Precisa entrar em alcance curto para aproveitar ataques e boa parte do kit. O retorno do E tem um ponto conhecido; uma entrada ruim pode terminar em posição perigosa."
       },
       "mid": {
-        "typical": "Busca pressão lateral ou uma aproximação que alcance alvos vulneráveis com controle.",
-        "plan": "Empurre a lateral somente com visão e tempo para chegar ao próximo objetivo; agrupe quando o time precisar da sua entrada.",
-        "against": "Acompanhe a pressão lateral e o caminho de chegada; evite oferecer vários aliados alinhados na entrada.",
-        "resource": "Pode pressionar a lateral ou acompanhar o time com Q fortalecido e R.",
-        "caution": "Usar E longe do apoio deixa o corpo exposto; não avance sem avaliar quem pode chegar."
+        "typical": "Pode ameaçar alvos expostos a partir de um ângulo de aproximação.",
+        "plan": "Prepare uma entrada com apoio; procure quem está fora de posição e recue se o time não puder acompanhar.",
+        "against": "Proteja a aproximação pelos lados e evite oferecer vários aliados na mesma linha.",
+        "resource": "Pode ameaçar alvos expostos a partir de um ângulo de aproximação.",
+        "caution": "Perseguir além do alcance do time pode transformar uma oportunidade em entrada isolada."
       },
       "late": {
-        "typical": "Procura atingir alvos importantes ou vários inimigos alinhados com a ultimate.",
-        "plan": "Jogue com o time perto do objetivo; procure uma entrada com apoio. Só fique na lateral se houver tempo e caminho de retorno.",
-        "against": "Evite alinhamento do time no R e mantenha proteção para quem recebe a entrada.",
-        "resource": "O R pode abrir uma luta ao atingir inimigos alinhados.",
-        "caution": "Uma entrada isolada pode ser punida antes que o time consiga acompanhar."
+        "typical": "Pode ameaçar alvos importantes ou uma formação alinhada.",
+        "plan": "Espere uma abertura com acompanhamento do time; escolha uma chegada que permita continuar lutando e sobreviver.",
+        "against": "Espalhe os aliados ameaçados e preserve proteção para quem recebe a entrada.",
+        "resource": "Pode ameaçar alvos importantes ou uma formação alinhada.",
+        "caution": "Uma entrada em vários inimigos não compensa se o time não conseguir acompanhar."
       }
     },
     "status": "editorial_unreviewed",

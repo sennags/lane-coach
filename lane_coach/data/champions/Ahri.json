@@ -182,18 +182,18 @@
         "caution": "Errar o Charm deixa uma janela com menos controle disponível. A mobilidade da ultimate é um recurso limitado; gastar avanços reduz opções de reposicionamento."
       },
       "mid": {
-        "typical": "Procura oportunidades de Charm e usa R para ajustar o ângulo ou acompanhar uma jogada.",
-        "plan": "Acompanhe aliados para controlar acessos ao objetivo; procure um alvo separado sem gastar toda a saída.",
-        "against": "Controle acessos sem deixar aliados isolados; observe a mudança de ângulo após os avanços.",
-        "resource": "Charm e avanços do R permitem buscar alvos expostos durante rotações.",
-        "caution": "Buscar alvo sem visão ou apoio pode comprometer os avanços que serviriam para escapar."
+        "typical": "Pode criar uma oportunidade ao pressionar um alvo exposto.",
+        "plan": "Posicione-se com aliados próximos e procure alguém separado; crie a oportunidade sem comprometer toda a saída.",
+        "against": "Mantenha aliados cobertos e observe ângulos laterais; não avance sozinho para alcançá-la.",
+        "resource": "Pode criar uma oportunidade ao pressionar um alvo exposto.",
+        "caution": "Buscar uma captura longe do apoio pode deixá-la sem proteção para continuar a luta."
       },
       "late": {
-        "typical": "Busca controle em um alvo exposto e reposiciona durante a luta para continuar contribuindo.",
-        "plan": "Jogue perto do time e do objetivo; escolha entre capturar um alvo exposto e guardar E para proteger.",
-        "against": "Proteja quem está exposto e evite caminhar sozinho por acessos sem visão.",
-        "resource": "Charm pode criar uma captura ou proteger um aliado durante a luta.",
-        "caution": "Entrar longe do time com todos os avanços gastos dificulta sobreviver à resposta."
+        "typical": "Pode criar uma captura ou ajudar a proteger um aliado pressionado.",
+        "plan": "Jogue perto do time; escolha entre pressionar um alvo exposto e cobrir quem está recebendo a entrada.",
+        "against": "Proteja alvos expostos e pressione seus ângulos com apoio, sem separar a própria formação.",
+        "resource": "Pode criar uma captura ou ajudar a proteger um aliado pressionado.",
+        "caution": "Perseguir uma captura pode deixar o aliado que precisava de proteção sem resposta."
       }
     },
     "status": "editorial_unreviewed",

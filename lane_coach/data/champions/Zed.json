@@ -181,18 +181,18 @@
         "caution": "Parte importante da pressão depende de conectar habilidades após posicionar sombras. Comprometer sombras ou entrar sem uma saída pode limitar o reposicionamento disponível."
       },
       "mid": {
-        "typical": "Busca um alvo isolado ou um ângulo lateral para conectar dano com a marca.",
-        "plan": "Pressione com visão; procure um alvo separado e preserve uma saída. Abandone a lateral a tempo de apoiar o objetivo.",
-        "against": "Proteja as rotações e reduza isolamento; acompanhe sombras e a pressão lateral.",
-        "resource": "Sombras permitem buscar um alvo isolado ou pressionar uma lateral.",
-        "caution": "Ficar na lateral sem visão ou usar sombras sem saída pode impedir a chegada ao time."
+        "typical": "Ameaça um alvo separado por um ângulo lateral.",
+        "plan": "Espere o alvo se expor, aproxime por um ângulo com saída e evite ser o primeiro foco de todo o time inimigo.",
+        "against": "Reduza o isolamento e cubra acessos laterais; mantenha ajuda próxima ao aliado ameaçado.",
+        "resource": "Ameaça um alvo separado por um ângulo lateral.",
+        "caution": "Entrar no centro da formação inimiga pode impedir tanto o dano quanto o recuo."
       },
       "late": {
-        "typical": "Tenta alcançar um alvo importante quando encontra espaço entre as respostas defensivas.",
-        "plan": "Prepare um ângulo perto do objetivo e espere uma janela entre recursos defensivos; não force R contra toda a proteção.",
-        "against": "Mantenha proteção do time para o alvo ameaçado e evite rotações individuais sem visão.",
-        "resource": "Pode ameaçar um alvo importante por um ângulo lateral.",
-        "caution": "R sozinho não garante finalizar; uma entrada sem dano ou saída pode custar a luta."
+        "typical": "Pode pressionar um alvo importante quando a proteção ao redor dele falha.",
+        "plan": "Espere uma abertura na proteção inimiga e prepare um ângulo com saída; recue se não houver acesso ao alvo.",
+        "against": "Mantenha ajuda perto do alvo ameaçado; responda à entrada sem abandonar toda a formação para perseguir.",
+        "resource": "Pode pressionar um alvo importante quando a proteção ao redor dele falha.",
+        "caution": "Forçar um alvo protegido pode gastar a entrada sem conseguir finalizar ou sair."
       }
     },
     "status": "editorial_unreviewed",

@@ -107,18 +107,18 @@
         "caution": "O E depende de terreno; colisão pode encerrar o balanço."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe aliados em rotações com visão e prepare uma parede útil para o E antes de atacar.",
-        "against": "Proteja acessos junto a terreno e arbustos; acompanhe onde o balanço pode terminar.",
-        "resource": "W permite aproximação camuflada junto ao terreno; E permite reposicionar.",
-        "caution": "Camuflagem termina longe das áreas necessárias; terreno sem caminho livre não garante saída."
+        "typical": "Pode pressionar alvos expostos atacando por um ângulo com saída.",
+        "plan": "Busque um alvo separado com apoio próximo; ataque sem ser o primeiro a receber a entrada inimiga.",
+        "against": "Proteja aliados expostos e feche ângulos laterais, sem perseguir sozinho.",
+        "resource": "Pode pressionar alvos expostos atacando por um ângulo com saída.",
+        "caution": "Entrar antes do time ou avançar por uma eliminação pode retirar sua proteção."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque a partir de uma posição com apoio do time; confira a linha do R antes de tentar finalizar.",
-        "against": "Proteja aliados expostos e use unidades ou estruturas que podem interceptar os disparos.",
-        "resource": "Ataques aplicam pressão; R usa a vida perdida do alvo para causar dano.",
-        "caution": "Avançar sozinho por um alvo pode perder a proteção do time e interromper o balanço do E."
+        "typical": "Contribui com dano contínuo quando mantém uma posição segura para atacar.",
+        "plan": "Ataque o alvo acessível com saída e apoio; recue se a linha de frente inimiga chegar até você.",
+        "against": "Reduza seus ângulos de ataque e pressione sua posição com apoio, sem abandonar a proteção dos aliados.",
+        "resource": "Contribui com dano contínuo quando mantém uma posição segura para atacar.",
+        "caution": "Atravessar a luta para perseguir alguém com pouca vida pode interromper todo seu dano."
       }
     },
     "strengths": [

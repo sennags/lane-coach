@@ -106,18 +106,18 @@
         "caution": "Um Q errado não encerra a sequência. Vida baixa não elimina a possibilidade de cura."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Acompanhe o time para disputar espaço no objetivo; use a lateral se consegue recuar e chegar à disputa.",
-        "against": "Acompanhe a pressão lateral e limite o contato quando o R estiver ativo.",
-        "resource": "R aumenta dano, cura e velocidade durante uma janela de luta.",
-        "caution": "Usar a janela do R sem conseguir alcançar alvos pode desperdiçar a oportunidade de luta."
+        "typical": "Ameaça espaço ao aproximar-se de alvos que consegue manter em alcance.",
+        "plan": "Aproxime com apoio e busque uma entrada lateral curta; pressione um alvo acessível sem se separar do time.",
+        "against": "Observe sua aproximação lateral e proteja quem ele tenta alcançar; evite ficar isolado à frente dele.",
+        "resource": "Ameaça espaço ao aproximar-se de alvos que consegue manter em alcance.",
+        "caution": "Perseguir um alvo distante pode deixá-lo recebendo dano sem conseguir responder."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Entre com apoio do time perto do objetivo e procure alvos ao alcance; não persiga sozinho longe da disputa.",
-        "against": "Preserve espaço e reposicionamento para evitar acertos, protegendo quem ele consegue alcançar.",
-        "resource": "Dano a campeões sustenta a cura pelo E; R amplia sua janela de luta.",
-        "caution": "Sem conectar dano, perde sustentação; uma entrada isolada pode receber a resposta de vários inimigos."
+        "typical": "Pressiona os alvos que consegue alcançar e manter próximos durante a luta.",
+        "plan": "Entre com o time e pressione um alvo acessível; recue se a resposta inimiga impedir que continue lutando.",
+        "against": "Evite que ele alcance vários aliados juntos; recue com o alvo pressionado e concentre a resposta quando ele se comprometer.",
+        "resource": "Pressiona os alvos que consegue alcançar e manter próximos durante a luta.",
+        "caution": "Uma entrada profunda sem acompanhamento pode receber a resposta de vários inimigos."
       }
     },
     "strengths": [

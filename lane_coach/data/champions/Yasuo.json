@@ -182,18 +182,18 @@
         "caution": "E precisa de alvos e não pode reutilizar imediatamente o mesmo alvo. Depende de alcance curto e de uma entrada viável; deslocamentos mal planejados podem deixá-lo exposto."
       },
       "mid": {
-        "typical": "Procura pressão lateral ou uma oportunidade de ultimate criada por arremesso ao ar, inclusive de aliados.",
-        "plan": "Combine a chegada ao objetivo com o controle aliado; use a lateral se consegue recuar e chegar a tempo.",
-        "against": "Observe aliados que fornecem arremesso ao ar e a pressão lateral; não acompanhe apenas o tornado.",
-        "resource": "Pode pressionar a lateral ou acompanhar arremessos ao ar do time com R.",
-        "caution": "Sem alvos para E, o caminho de saída pode mudar. Verifique o terreno da luta."
+        "typical": "Pode acompanhar uma entrada aliada e continuar causando dano de perto.",
+        "plan": "Espere uma oportunidade criada pelo time e escolha uma chegada com apoio; recue se não conseguir continuar atacando.",
+        "against": "Observe quem pode preparar sua entrada e proteja os alvos expostos; acompanhe onde ele chega.",
+        "resource": "Pode acompanhar uma entrada aliada e continuar causando dano de perto.",
+        "caution": "Entrar antes do apoio pode deixá-lo cercado sem tempo para continuar causando dano."
       },
       "late": {
-        "typical": "Busca uma entrada com R e tempo em alcance corpo a corpo para continuar atacando.",
-        "plan": "Fique em posição para acompanhar controle do time e reserve W para uma ameaça relevante. Avalie a chegada do R.",
-        "against": "Evite agrupar alvos para controle e acompanhe a posição de chegada após o R.",
-        "resource": "Arremesso ao ar aliado pode abrir sua entrada; W protege contra projéteis.",
-        "caution": "Entrar com R sem apoio pode deixar você exposto antes de continuar atacando."
+        "typical": "Pode acompanhar o controle aliado e continuar atacando em alcance curto.",
+        "plan": "Entre depois da oportunidade do time e avalie onde vai chegar; priorize sobreviver para manter o dano.",
+        "against": "Evite oferecer vários alvos juntos e proteja quem ele tenta alcançar após a entrada.",
+        "resource": "Pode acompanhar o controle aliado e continuar atacando em alcance curto.",
+        "caution": "Entrar sem avaliar a resposta inimiga pode interromper seu dano antes de começar a luta."
       }
     },
     "status": "editorial_unreviewed",
