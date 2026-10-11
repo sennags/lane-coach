@@ -24,7 +24,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Marca detona com outra habilidade.",
+        "limit": "Precisa da continuação para entregar o dano adicional."
+      }
     },
     {
       "id": "Leblanc.W",
@@ -37,7 +41,11 @@
         12.5,
         11.25,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço dá dano e permite voltar ao ponto inicial.",
+        "limit": "O ponto de retorno pode ser ocupado por ameaças."
+      }
     },
     {
       "id": "Leblanc.E",
@@ -50,7 +58,11 @@
         12.5,
         11.75,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Vínculo mantido enraíza e dá outro dano.",
+        "limit": "Romper distância impede o efeito final."
+      }
     },
     {
       "id": "Leblanc.R",
@@ -61,48 +73,64 @@
         45,
         35,
         25
-      ]
+      ],
+      "coaching": {
+        "use": "Copia uma habilidade para ampliar dano ou reposicionamento.",
+        "limit": "A escolha pode comprometer a ferramenta de saída."
+      }
     },
     {
       "id": "Leblanc.P",
       "ability": "P",
       "name": "Imagem-Espelho",
       "description": "Quando a Vida de LeBlanc está abaixo de 40%, ela fica invisível por 1s e cria uma Imagem-Espelho que não causa dano e dura até 8s.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Vida baixa cria breve invisibilidade e imagem sem dano.",
+        "limit": "A imagem não substitui um caminho real de saída."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Pressiona um alvo exposto e recua antes da resposta.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Voltar para uma posição que deixou de ser segura pode anular a entrada.",
+      "A escolha pode comprometer a ferramenta de saída."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Pressiona um alvo exposto e recua antes da resposta.",
+        "plan": "Resolva a wave e o custo de pressão antes de abandonar a rota.",
+        "against": "Cubra o alvo pressionado e acompanhe também o ponto de retorno.",
+        "resource": "Pressiona um alvo exposto e recua antes da resposta.",
+        "caution": "Voltar para uma posição que deixou de ser segura pode anular a entrada."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Pressiona um alvo exposto e recua antes da resposta.",
+        "plan": "Use um ângulo lateral com retorno coberto pelo time.",
+        "against": "Cubra o alvo pressionado e acompanhe também o ponto de retorno.",
+        "resource": "Pressiona um alvo exposto e recua antes da resposta.",
+        "caution": "Voltar para uma posição que deixou de ser segura pode anular a entrada."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Pressiona um alvo exposto e recua antes da resposta.",
+        "plan": "Espere uma borda vulnerável sem gastar todas as saídas para chegar.",
+        "against": "Na luta decisiva, cubra o alvo pressionado e acompanhe também o ponto de retorno.",
+        "resource": "Pressiona um alvo exposto e recua antes da resposta.",
+        "caution": "Voltar para uma posição que deixou de ser segura pode anular a entrada."
       }
     },
     "strengths": [
-      "Sigilo de Malícia: LeBlanc projeta um Sigilo, causando dano e marcando o alvo por 3,5s. Causar dano ao alvo marcado com qualquer Habilidade detona o Sigilo, causando dano adicional. Se qualquer parte dessa combinação abater o alvo, LeBlanc restitui o custo de Mana e parte do Tempo de Recarga restante desta Habilidade.",
-      "Mímica: Leblanc conjura uma versão copiada de uma de suas habilidades."
+      "Pressiona um alvo exposto e recua antes da resposta.",
+      "Copia uma habilidade para ampliar dano ou reposicionamento."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

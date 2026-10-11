@@ -24,7 +24,11 @@
         13,
         13,
         13
-      ]
+      ],
+      "coaching": {
+        "use": "Três golpes oferecem dano e controle na parte final.",
+        "limit": "Gastar todos para chegar reduz a continuação disponível."
+      }
     },
     {
       "id": "Riven.W",
@@ -37,7 +41,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Atordoa inimigos próximos.",
+        "limit": "Exige contato para interromper a ameaça."
+      }
     },
     {
       "id": "Riven.E",
@@ -50,7 +58,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço curto oferece escudo.",
+        "limit": "A proteção é uma janela e pode ser gasta cedo demais."
+      }
     },
     {
       "id": "Riven.R",
@@ -61,48 +73,64 @@
         120,
         90,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Amplia dano e alcance e prepara um disparo posterior.",
+        "limit": "A finalização à distância tem um uso na janela."
+      }
     },
     {
       "id": "Riven.P",
       "ability": "P",
       "name": "Lâmina Rúnica",
       "description": "As habilidades de Riven carregam sua lâmina, e seus ataques básicos consomem cargas para causar dano adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjurações preparam dano adicional nos ataques.",
+        "limit": "Precisa intercalar ataques para consumir as cargas."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Usar todos os movimentos para entrar pode deixar Riven sem continuação ou saída.",
+      "A finalização à distância tem um uso na janela."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+        "plan": "Prepare a wave e intercale farm sem gastar toda a defesa por pressão.",
+        "against": "Limite o espaço de movimento e responda depois da janela de proteção.",
+        "resource": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+        "caution": "Usar todos os movimentos para entrar pode deixar Riven sem continuação ou saída."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+        "plan": "Entre num alvo acessível com apoio e recursos para recuar.",
+        "against": "Limite o espaço de movimento e responda depois da janela de proteção.",
+        "resource": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+        "caution": "Usar todos os movimentos para entrar pode deixar Riven sem continuação ou saída."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+        "plan": "Espere a resposta se comprometer antes de buscar o alvo importante.",
+        "against": "Na luta decisiva, limite o espaço de movimento e responda depois da janela de proteção.",
+        "resource": "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+        "caution": "Usar todos os movimentos para entrar pode deixar Riven sem continuação ou saída."
       }
     },
     "strengths": [
-      "Asas Quebradas: Riven faz uma série rápida de acertos. Esta habilidade pode ser reativada três vezes em um curto período de tempo. O terceiro golpe empurra para trás os inimigos próximos.",
-      "Lâmina do Exílio: Riven fortalece sua arma de recordação com energia, recebendo Dano de Ataque e alcance. Durante este período, ela também pode usar Golpe de Vento, um poderoso ataque à distância, uma vez."
+      "Pressiona uma borda da luta com ataques e reposicionamentos curtos.",
+      "Amplia dano e alcance e prepara um disparo posterior."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

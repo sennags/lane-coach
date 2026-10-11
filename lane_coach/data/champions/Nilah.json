@@ -24,7 +24,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de dano amplia alcance por uma janela.",
+        "limit": "O alcance adicional não dura permanentemente."
+      }
     },
     {
       "id": "Nilah.W",
@@ -37,7 +41,11 @@
         24,
         23,
         22
-      ]
+      ],
+      "coaching": {
+        "use": "Névoa esquiva ataques e pode proteger aliados tocados.",
+        "limit": "Não oferece a mesma proteção contra todo dano de habilidade."
+      }
     },
     {
       "id": "Nilah.E",
@@ -50,7 +58,11 @@
         0.5,
         0.5,
         0.5
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço atravessa um alvo e causa dano no caminho.",
+        "limit": "A chegada pode ficar longe de uma unidade para recuar."
+      }
     },
     {
       "id": "Nilah.R",
@@ -61,48 +73,64 @@
         110,
         95,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo culmina em puxada do grupo.",
+        "limit": "Precisa alcançar os alvos com apoio para continuar."
+      }
     },
     {
       "id": "Nilah.P",
       "ability": "P",
       "name": "Alegria Eterna",
       "description": "Nilah recebe mais experiência ao abater tropas, além de aprimorar e compartilhar curas e Escudos conjurados por aliados próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Farm amplia experiência e apoio próximo compartilha cura e escudo.",
+        "limit": "O benefício depende de renda e proximidade dos aliados."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar antes da proteção pode deixar Nilah cercada sem tempo de ataque.",
+      "Precisa alcançar os alvos com apoio para continuar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+        "plan": "Priorize o farm compartilhado e preserve o recuo antes de disputar a wave.",
+        "against": "Abra espaço e pressione após a janela de esquiva, sem entregar vários alvos juntos.",
+        "resource": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+        "caution": "Entrar antes da proteção pode deixar Nilah cercada sem tempo de ataque."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+        "plan": "Acompanhe uma entrada aliada sem gastar a proteção antes da resposta.",
+        "against": "Abra espaço e pressione após a janela de esquiva, sem entregar vários alvos juntos.",
+        "resource": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+        "caution": "Entrar antes da proteção pode deixar Nilah cercada sem tempo de ataque."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+        "plan": "Escolha alvos próximos com cobertura e preserve sobrevivência para atacar.",
+        "against": "Na luta decisiva, abra espaço e pressione após a janela de esquiva, sem entregar vários alvos juntos.",
+        "resource": "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+        "caution": "Entrar antes da proteção pode deixar Nilah cercada sem tempo de ataque."
       }
     },
     "strengths": [
-      "Lâmina Sem Forma: Com um estalo de sua lâmina-chicote, Nilah causa dano a qualquer inimigo que acertar em linha reta na direção escolhida. A habilidade também aumenta seu Alcance de Ataque por um curto período.",
-      "Apoteose: Girando sua lâmina-chicote com alegre exuberância, Nilah causa dano aos inimigos ao redor antes de puxá-los para perto com a arma."
+      "Mantém dano próximo ao time e ameaça grupos alcançáveis.",
+      "Dano próximo culmina em puxada do grupo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

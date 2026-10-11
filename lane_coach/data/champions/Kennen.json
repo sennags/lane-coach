@@ -23,7 +23,11 @@
         5.5,
         4.75,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil dá dano e aplica marca.",
+        "limit": "O controle completo depende da continuação."
+      }
     },
     {
       "id": "Kennen.W",
@@ -36,7 +40,11 @@
         9.5,
         7.75,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque fortalecido e ativação ampliam marcas.",
+        "limit": "A ativação exige alvos já marcados."
+      }
     },
     {
       "id": "Kennen.E",
@@ -49,7 +57,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Movimento rápido aplica marca ao passar por alvos.",
+        "limit": "Usar a aproximação também compromete a saída."
+      }
     },
     {
       "id": "Kennen.R",
@@ -60,48 +72,64 @@
         120,
         120,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Tempestade causa dano próximo a campeões.",
+        "limit": "Precisa chegar ao grupo e manter presença na área."
+      }
     },
     {
       "id": "Kennen.P",
       "ability": "P",
       "name": "Marca da Tormenta",
       "description": "Kennen atordoa os inimigos que atingir 3 vezes com suas habilidades.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Três marcas preparam atordoamento.",
+        "limit": "Precisa acumular aplicações no alvo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Ameaça uma entrada em grupo seguida de controle acumulado.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Entrar longe do apoio pode gastar a ameaça sem continuação.",
+      "Precisa chegar ao grupo e manter presença na área."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Ameaça uma entrada em grupo seguida de controle acumulado.",
+        "plan": "Use alcance no farm e preserve o movimento para recuar após pressionar.",
+        "against": "Espalhe a formação e observe sua aproximação pelos lados.",
+        "resource": "Ameaça uma entrada em grupo seguida de controle acumulado.",
+        "caution": "Entrar longe do apoio pode gastar a ameaça sem continuação."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Ameaça uma entrada em grupo seguida de controle acumulado.",
+        "plan": "Prepare um ângulo lateral com aliados prontos para acompanhar.",
+        "against": "Espalhe a formação e observe sua aproximação pelos lados.",
+        "resource": "Ameaça uma entrada em grupo seguida de controle acumulado.",
+        "caution": "Entrar longe do apoio pode gastar a ameaça sem continuação."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Ameaça uma entrada em grupo seguida de controle acumulado.",
+        "plan": "Espere alvos próximos sem se mostrar cedo ou entrar antes do time.",
+        "against": "Na luta decisiva, espalhe a formação e observe sua aproximação pelos lados.",
+        "resource": "Ameaça uma entrada em grupo seguida de controle acumulado.",
+        "caution": "Entrar longe do apoio pode gastar a ameaça sem continuação."
       }
     },
     "strengths": [
-      "Shuriken Trovejante: Kennen arremessa um shuriken de alta velocidade em um local, causando dano e adicionando uma Marca da Tormenta a qualquer oponente atingido.",
-      "Turbilhão Cortante: Kennen invoca uma tempestade que atinge campeões inimigos próximos com Dano Mágico."
+      "Ameaça uma entrada em grupo seguida de controle acumulado.",
+      "Tempestade causa dano próximo a campeões."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

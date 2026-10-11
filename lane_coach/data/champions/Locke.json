@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Pregos marcam para dano adicional dos ataques.",
+        "limit": "Precisa atacar os marcados para aproveitar."
+      }
     },
     {
       "id": "Locke.W",
@@ -37,7 +41,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade custa vida e prepara recuperação posterior.",
+        "limit": "O dano em si e o tempo de recuperação exigem planejar a entrada."
+      }
     },
     {
       "id": "Locke.E",
@@ -50,7 +58,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Teleporte seguido de avanço alcança outro alvo.",
+        "limit": "A sequência pode comprometer mais de uma posição de saída."
+      }
     },
     {
       "id": "Locke.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Artefato pode executar e concede poder ao aprisionar campeões.",
+        "limit": "Depende de acertar e cumprir a condição do alvo."
+      }
     },
     {
       "id": "Locke.P",
       "ability": "P",
       "name": "Estaca de Prata",
       "description": "Os Ataques de Locke causam Dano Mágico adicional ao contato, aumentado com base na Vida perdida do inimigo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques ampliam dano conforme a vida perdida inimiga.",
+        "limit": "Vida baixa no alvo não garante acesso seguro."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Pressiona alvos marcados e busca continuidade por finalização.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Comprometer vida e mobilidade ao mesmo tempo pode impedir a recuperação.",
+      "Depende de acertar e cumprir a condição do alvo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Pressiona alvos marcados e busca continuidade por finalização.",
+        "plan": "Preserve renda e vida; não abandone a wave por uma finalização sem saída.",
+        "against": "Mantenha cobertura do alvo fragilizado e responda à posição final do avanço.",
+        "resource": "Pressiona alvos marcados e busca continuidade por finalização.",
+        "caution": "Comprometer vida e mobilidade ao mesmo tempo pode impedir a recuperação."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Pressiona alvos marcados e busca continuidade por finalização.",
+        "plan": "Escolha um alvo acessível com apoio e não avance só porque ele está com pouca vida.",
+        "against": "Mantenha cobertura do alvo fragilizado e responda à posição final do avanço.",
+        "resource": "Pressiona alvos marcados e busca continuidade por finalização.",
+        "caution": "Comprometer vida e mobilidade ao mesmo tempo pode impedir a recuperação."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Pressiona alvos marcados e busca continuidade por finalização.",
+        "plan": "Espere uma abertura para atacar sem comprometer toda a sobrevivência na entrada.",
+        "against": "Na luta decisiva, mantenha cobertura do alvo fragilizado e responda à posição final do avanço.",
+        "resource": "Pressiona alvos marcados e busca continuidade por finalização.",
+        "caution": "Comprometer vida e mobilidade ao mesmo tempo pode impedir a recuperação."
       }
     },
     "strengths": [
-      "Pregos Ritualísticos: Locke prepara um conjunto de Pregos Anímicos para arremessar, causando dano e marcando os inimigos atingidos. Ele pode consumir as marcas para causar dano adicional com seus Ataques.",
-      "Purgatório: Locke arremessa um artefato de restrição que causa dano e pode executar os inimigos atingidos. Locke ganha poder adicional ao aprisionar Campeões inimigos."
+      "Pressiona alvos marcados e busca continuidade por finalização.",
+      "Artefato pode executar e concede poder ao aprisionar campeões."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

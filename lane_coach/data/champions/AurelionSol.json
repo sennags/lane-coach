@@ -23,7 +23,11 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Contato contínuo com o sopro aumenta a pressão no alvo.",
+        "limit": "Precisa manter o alvo na direção do sopro."
+      }
     },
     {
       "id": "AurelionSol.W",
@@ -36,7 +40,11 @@
         18,
         16,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Voo atravessa terreno e permite conjurar durante o deslocamento.",
+        "limit": "Planeje o trajeto; voar na direção do time inimigo pode expor a chegada."
+      }
     },
     {
       "id": "AurelionSol.E",
@@ -49,7 +57,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Área puxa para o centro e coleta poeira conforme as condições.",
+        "limit": "O alvo pode sair; a execução exige vida abaixo do limiar."
+      }
     },
     {
       "id": "AurelionSol.R",
@@ -60,48 +72,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Controle em área; poeira suficiente prepara uma versão maior.",
+        "limit": "A versão fortalecida depende de coletar poeira suficiente."
+      }
     },
     {
       "id": "AurelionSol.P",
       "ability": "P",
       "name": "Criador Cósmico",
       "description": "As Habilidades de dano de Aurelion Sol reduzem inimigos a acúmulos de Poeira Estelar , melhorando permanentemente cada uma das Habilidades dele.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Dano pelas habilidades acumula poeira e melhora o kit.",
+        "limit": "A força depende da poeira coletada; nível sozinho não descreve o crescimento."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona uma região da luta enquanto acumula dano e espaço.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Um trajeto agressivo pode deixar o campeão sem proteção ao chegar.",
+      "A versão fortalecida depende de coletar poeira suficiente."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona uma região da luta enquanto acumula dano e espaço.",
+        "plan": "Planeje o farm para acumular poeira e só saia da rota após resolver a wave.",
+        "against": "Saia das áreas persistentes e ameace sua posição sem reunir todo o time.",
+        "resource": "Pressiona uma região da luta enquanto acumula dano e espaço.",
+        "caution": "Um trajeto agressivo pode deixar o campeão sem proteção ao chegar."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona uma região da luta enquanto acumula dano e espaço.",
+        "plan": "Use cobertura para manter um alvo ao alcance sem voar através de toda a formação.",
+        "against": "Saia das áreas persistentes e ameace sua posição sem reunir todo o time.",
+        "resource": "Pressiona uma região da luta enquanto acumula dano e espaço.",
+        "caution": "Um trajeto agressivo pode deixar o campeão sem proteção ao chegar."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona uma região da luta enquanto acumula dano e espaço.",
+        "plan": "Corte a aproximação inimiga e mantenha uma posição para causar dano por tempo prolongado.",
+        "against": "Na luta decisiva, saia das áreas persistentes e ameace sua posição sem reunir todo o time.",
+        "resource": "Pressiona uma região da luta enquanto acumula dano e espaço.",
+        "caution": "Um trajeto agressivo pode deixar o campeão sem proteção ao chegar."
       }
     },
     "strengths": [
-      "Sopro de Luz: Aurelion Sol canaliza seu hálito de dragão por alguns segundos, causando dano ao primeiro inimigo atingido e espalhando dano reduzido a inimigos próximos. O hálito causará dano adicional para cada segundo que for canalizado diretamente em um inimigo, ficando mais forte à medida que coleta mais Poeira Estelar. Essa habilidade coleta Poeira Estelar se o alvo for um Campeão.",
-      "Estrela Cadente/Os Céus Caem: Estrela Cadente: Aurelion Sol faz uma estrela cair na terra. O impacto causa Dano Mágico e atordoa inimigos, além de conceder Poeira Estelar a cada Campeão inimigo atingido. Coletar Poeira Estelar o suficiente faz a próxima Estrela Cadente de Aurelion Sol se tornar Os Céus Caem. Os Céus Caem: Aurelion Sol faz cair uma estrela gigante dos céus com zona de impacto e dano aumentados, além de arremessar ao ar os inimigos em vez de atordoá-los. Depois, uma onda de choque se espalha a partir do limite da zona de impacto, causando dano e Lentidão aos inimigos atingidos. Poeira Estelar aumenta a área de impacto tanto de Estrela Cadente quanto de Os Céus Caem."
+      "Pressiona uma região da luta enquanto acumula dano e espaço.",
+      "Controle em área; poeira suficiente prepara uma versão maior."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

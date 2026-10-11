@@ -23,7 +23,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Estilhaços atravessam o primeiro alvo atingido.",
+        "limit": "A linha determina quem recebe a continuação."
+      }
     },
     {
       "id": "Lissandra.W",
@@ -36,7 +40,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Controle enraíza inimigos próximos.",
+        "limit": "Precisa de contato próximo para proteger ou capturar."
+      }
     },
     {
       "id": "Lissandra.E",
@@ -49,7 +57,11 @@
         18,
         15,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Garra prepara teleporte para sua posição atual.",
+        "limit": "A chegada pode ficar sem cobertura."
+      }
     },
     {
       "id": "Lissandra.R",
@@ -60,48 +72,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Inimigo recebe controle; em si dá proteção e cura.",
+        "limit": "Escolher controle no alvo retira a mesma proteção para si."
+      }
     },
     {
       "id": "Lissandra.P",
       "ability": "P",
       "name": "Submissão Glacinata",
       "description": "Quando um Campeão inimigo morre próximo a Lissandra, ele vira um Servo Congelado. Servos Congelados reduzem a velocidade de inimigos próximos e, depois de um intervalo, estilhaçam devido ao frio intenso, causando Dano Mágico a alvos próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Morte inimiga próxima cria ameaça atrasada em área.",
+        "limit": "O benefício exige eliminação; não começa disponível em toda luta."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Cria uma captura ou interrompe a entrada sobre um aliado.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Entrar sozinha pode gastar a sobrevivência apenas para aguardar ajuda que não chega.",
+      "Escolher controle no alvo retira a mesma proteção para si."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Cria uma captura ou interrompe a entrada sobre um aliado.",
+        "plan": "Organize a wave antes de sair; preserve uma rota de recuo ao pressionar.",
+        "against": "Cubra o alvo exposto e observe a posição anunciada pela aproximação.",
+        "resource": "Cria uma captura ou interrompe a entrada sobre um aliado.",
+        "caution": "Entrar sozinha pode gastar a sobrevivência apenas para aguardar ajuda que não chega."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Cria uma captura ou interrompe a entrada sobre um aliado.",
+        "plan": "Use um ângulo acompanhado e escolha quem precisa ser controlado.",
+        "against": "Cubra o alvo exposto e observe a posição anunciada pela aproximação.",
+        "resource": "Cria uma captura ou interrompe a entrada sobre um aliado.",
+        "caution": "Entrar sozinha pode gastar a sobrevivência apenas para aguardar ajuda que não chega."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Cria uma captura ou interrompe a entrada sobre um aliado.",
+        "plan": "Priorize uma entrada com continuação ou a proteção do aliado ameaçado.",
+        "against": "Na luta decisiva, cubra o alvo exposto e observe a posição anunciada pela aproximação.",
+        "resource": "Cria uma captura ou interrompe a entrada sobre um aliado.",
+        "caution": "Entrar sozinha pode gastar a sobrevivência apenas para aguardar ajuda que não chega."
       }
     },
     "strengths": [
-      "Estilhaço de Gelo: Arremessa uma lança de gelo que se estilhaça ao atingir um inimigo, causando Dano Mágico e reduzindo sua Velocidade de Movimento. Os estilhaços atravessam o alvo, causando o mesmo dano a outros inimigos atingidos.",
-      "Túmulo Congelado: Se conjurada em um Campeão inimigo, o alvo será congelado e atordoado. Se conjurada em Lissandra, ela se protege em um bloco de gelo sombrio, curando a si mesma enquanto fica inalvejável e invulnerável. Em seguida, o gelo sombrio emana a partir do alvo, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos."
+      "Cria uma captura ou interrompe a entrada sobre um aliado.",
+      "Inimigo recebe controle; em si dá proteção e cura."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

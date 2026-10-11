@@ -24,7 +24,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil reduz defesas do alvo.",
+        "limit": "Precisa acertar para aproveitar a redução."
+      }
     },
     {
       "id": "KogMaw.W",
@@ -37,7 +41,11 @@
         17,
         17,
         17
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques ganham alcance e dano pela vida do alvo.",
+        "limit": "A pressão ampliada depende da janela ativa."
+      }
     },
     {
       "id": "KogMaw.E",
@@ -50,7 +58,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Rastro desacelera aproximações.",
+        "limit": "Não é um avanço livre para escapar de toda entrada."
+      }
     },
     {
       "id": "KogMaw.R",
@@ -61,48 +73,64 @@
         2,
         1.5,
         1
-      ]
+      ],
+      "coaching": {
+        "use": "Artilharia longa pressiona vida baixa e revela.",
+        "limit": "Usos seguidos aumentam o custo de mana."
+      }
     },
     {
       "id": "KogMaw.P",
       "ability": "P",
       "name": "Surpresa Icathiana",
       "description": "Ao morrer, Kog'Maw explode depois de 4s, causando Dano Verdadeiro a inimigos próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Após morrer ameaça explosão em área.",
+        "limit": "É temporária; não compensa perder ataques vivos sem necessidade."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém dano contínuo de trás da proteção.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Sem avanço livre, uma posição exposta pode encerrar toda a contribuição.",
+      "Usos seguidos aumentam o custo de mana."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém dano contínuo de trás da proteção.",
+        "plan": "Preserve renda e espaço de recuo; não pressione a wave sem proteção.",
+        "against": "Pressione o espaço de ataque com acompanhamento, sem entregar contato livre.",
+        "resource": "Mantém dano contínuo de trás da proteção.",
+        "caution": "Sem avanço livre, uma posição exposta pode encerrar toda a contribuição."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém dano contínuo de trás da proteção.",
+        "plan": "Ataque o alvo acessível sem ultrapassar a cobertura aliada.",
+        "against": "Pressione o espaço de ataque com acompanhamento, sem entregar contato livre.",
+        "resource": "Mantém dano contínuo de trás da proteção.",
+        "caution": "Sem avanço livre, uma posição exposta pode encerrar toda a contribuição."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém dano contínuo de trás da proteção.",
+        "plan": "Priorize sobreviver e manter alcance; deixe alvos distantes para quem consegue alcançá-los.",
+        "against": "Na luta decisiva, pressione o espaço de ataque com acompanhamento, sem entregar contato livre.",
+        "resource": "Mantém dano contínuo de trás da proteção.",
+        "caution": "Sem avanço livre, uma posição exposta pode encerrar toda a contribuição."
       }
     },
     "strengths": [
-      "Cusparada Cáustica: Kog'Maw dispara um projétil corrosivo que causa Dano Mágico, corroendo a Armadura e Resistência Mágica do alvo por um curto período de tempo. Kog'Maw também recebe Velocidade de Ataque adicional.",
-      "Artilharia Viva: Kog'Maw dispara uma cápsula de artilharia a uma grande distância, causando Dano Mágico (aumentado drasticamente em inimigos com pouca Vida) e revelando alvos não invisíveis. Além disso, mais de uma Artilharia Viva em um curto período de tempo faz com que custem Mana adicional."
+      "Mantém dano contínuo de trás da proteção.",
+      "Artilharia longa pressiona vida baixa e revela."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

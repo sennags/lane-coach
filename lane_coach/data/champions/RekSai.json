@@ -24,7 +24,11 @@
         3,
         2.5,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques próximos ampliam dano; escavada usa disparo que revela.",
+        "limit": "As duas formas atuam em distâncias diferentes."
+      }
     },
     {
       "id": "RekSai.W",
@@ -37,7 +41,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Escavar muda recursos; emergir controla próximo.",
+        "limit": "Escavada perde visão e não usa ataques comuns."
+      }
     },
     {
       "id": "RekSai.E",
@@ -50,7 +58,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Fúria amplia mordida; escavada cria túnel reutilizável.",
+        "limit": "Inimigos podem destruir as entradas do túnel."
+      }
     },
     {
       "id": "RekSai.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Dano marca para salto breve e inalvejável ao alvo.",
+        "limit": "A chegada ainda pode estar coberta por vários inimigos."
+      }
     },
     {
       "id": "RekSai.P",
       "ability": "P",
       "name": "Fúria dos Xer'Sai",
       "description": "Rek'Sai gera Fúria ao Atacar e atingir inimigos com Habilidades básicas. Enquanto estiver Escavada, ela consome a Fúria para restaurar Vida.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Combate gera fúria; escavada consome para recuperar vida.",
+        "limit": "A recuperação exige fúria e troca de estado."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar contando com um túnel destruído pode retirar a saída.",
+      "A chegada ainda pode estar coberta por vários inimigos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+        "plan": "Priorize renda e caminhos seguros; na rota, resolva a wave antes de sair.",
+        "against": "Observe túneis e proteja alvos marcados, respondendo à chegada.",
+        "resource": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+        "caution": "Entrar contando com um túnel destruído pode retirar a saída."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+        "plan": "Prepare uma chegada acompanhada e um caminho de retorno útil.",
+        "against": "Observe túneis e proteja alvos marcados, respondendo à chegada.",
+        "resource": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+        "caution": "Entrar contando com um túnel destruído pode retirar a saída."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+        "plan": "Espere um alvo acessível na borda sem se comprometer com a formação inteira.",
+        "against": "Na luta decisiva, observe túneis e proteja alvos marcados, respondendo à chegada.",
+        "resource": "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+        "caution": "Entrar contando com um túnel destruído pode retirar a saída."
       }
     },
     "strengths": [
-      "Ira da Rainha / Sondar Presas: Os próximos 3 ataques básicos de Rek'Sai causam Dano Físico adicional a inimigos próximos. Enquanto está enterrada, Rek'Sai lança uma rajada de terra carregada com o poder do Vazio que causa dano e revela os inimigos atingidos.",
-      "Investida do Vazio: Rek'Sai marca seus alvos passivamente ao causar dano. Ela pode ativar essa habilidade para se tornar inalvejável brevemente e saltar até um alvo marcado, causando dano pesado com base na Vida máxima dele."
+      "Cria uma entrada próxima e busca concluir a pressão sobre um alvo.",
+      "Dano marca para salto breve e inalvejável ao alvo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

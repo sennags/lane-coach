@@ -23,7 +23,11 @@
         9.5,
         7.75,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Explosão reage ao terreno e ao tempo de viagem.",
+        "limit": "A posição do alvo muda se ele receber a continuação."
+      }
     },
     {
       "id": "Graves.W",
@@ -36,7 +40,11 @@
         22,
         20,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Fumaça reduz visão e dificulta a resposta do alvo.",
+        "limit": "A pressão depende de manter o alvo no espaço afetado."
+      }
     },
     {
       "id": "Graves.E",
@@ -49,7 +57,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço concede defesas; ataques ajudam a renovar a ferramenta.",
+        "limit": "Precisa acertar ataques para manter a mesma continuidade."
+      }
     },
     {
       "id": "Graves.R",
@@ -60,48 +72,64 @@
         100,
         80,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Primeiro impacto e explosão em cone ameaçam finalização.",
+        "limit": "Outro campeão pode receber o primeiro impacto."
+      }
     },
     {
       "id": "Graves.P",
       "ability": "P",
       "name": "Nova Destino",
       "description": "A escopeta de Graves tem algumas propriedades únicas. Ele precisa recarregar quando sua munição acaba. Ataques disparam 4 projéteis que não podem atravessar unidades. Não Campeões atingidos por mais de um projétil são empurrados para trás.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques usam munição e não atravessam unidades.",
+        "limit": "Recarga e bloqueadores limitam a continuidade do dano."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Pressiona alvos próximos alternando ataques e reposicionamento.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Pouca munição e entrada profunda podem interromper o dano no pior momento.",
+      "Outro campeão pode receber o primeiro impacto."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Pressiona alvos próximos alternando ataques e reposicionamento.",
+        "plan": "Planeje renda e caminho de recuo; na rota, evite perder farm em perseguições longas.",
+        "against": "Use unidades e cobertura para limitar ataques, respondendo quando ele precisa recarregar.",
+        "resource": "Pressiona alvos próximos alternando ataques e reposicionamento.",
+        "caution": "Pouca munição e entrada profunda podem interromper o dano no pior momento."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Pressiona alvos próximos alternando ataques e reposicionamento.",
+        "plan": "Entre no alcance útil com cobertura e considere munição antes de continuar.",
+        "against": "Use unidades e cobertura para limitar ataques, respondendo quando ele precisa recarregar.",
+        "resource": "Pressiona alvos próximos alternando ataques e reposicionamento.",
+        "caution": "Pouca munição e entrada profunda podem interromper o dano no pior momento."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Pressiona alvos próximos alternando ataques e reposicionamento.",
+        "plan": "Ataque o alvo acessível sem atravessar todos os bloqueadores para persegui-lo.",
+        "against": "Na luta decisiva, use unidades e cobertura para limitar ataques, respondendo quando ele precisa recarregar.",
+        "resource": "Pressiona alvos próximos alternando ataques e reposicionamento.",
+        "caution": "Pouca munição e entrada profunda podem interromper o dano no pior momento."
       }
     },
     "strengths": [
-      "Fim da Linha: Graves dispara um projétil explosivo que detona após 1s ou ao colidir com terrenos.",
-      "Efeito Colateral: Graves atira um projétil explosivo que causa muito dano ao primeiro campeão que acertar. Após atingir um campeão ou chegar ao seu alcance máximo, o projétil explode, causando dano em uma área em cone."
+      "Pressiona alvos próximos alternando ataques e reposicionamento.",
+      "Primeiro impacto e explosão em cone ameaçam finalização."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -23,7 +23,11 @@
         0.9,
         0.9,
         0.9
-      ]
+      ],
+      "coaching": {
+        "use": "Metralhadora acelera ataques; foguetes ampliam alcance e área.",
+        "limit": "Foguetes gastam mana e mudam a velocidade dos ataques."
+      }
     },
     {
       "id": "Jinx.W",
@@ -36,7 +40,11 @@
         6,
         5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de dano desacelera e revela o primeiro alvo.",
+        "limit": "Bloqueadores podem receber o golpe."
+      }
     },
     {
       "id": "Jinx.E",
@@ -49,7 +57,11 @@
         17,
         13.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Armadilhas controlam quem cruza a região.",
+        "limit": "Dependem do caminho inimigo, não garantem impedir toda entrada."
+      }
     },
     {
       "id": "Jinx.R",
@@ -60,48 +72,64 @@
         85,
         65,
         45
-      ]
+      ],
+      "coaching": {
+        "use": "Míssil explode em campeão e usa a vida perdida.",
+        "limit": "A trajetória precisa atingir um campeão para a explosão."
+      }
     },
     {
       "id": "Jinx.P",
       "ability": "P",
       "name": "Anime-se!",
       "description": "Jinx recebe um aumento drástico de Velocidade de Movimento e de Velocidade de Ataque sempre que ajuda a destruir uma estrutura ou a abater um Campeão inimigo ou monstro épico da selva.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Participar de abates relevantes concede velocidade para continuar.",
+        "limit": "O benefício exige a eliminação; não está disponível no começo de toda luta."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém dano à distância e amplia pressão após uma eliminação.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Avançar após um abate sem olhar as ameaças restantes pode perder toda a vantagem.",
+      "A trajetória precisa atingir um campeão para a explosão."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém dano à distância e amplia pressão após uma eliminação.",
+        "plan": "Preserve renda e mana; pressione a wave só com proteção contra aproximações.",
+        "against": "Pressione seu espaço de ataque e evite oferecer uma eliminação fácil para a continuação.",
+        "resource": "Mantém dano à distância e amplia pressão após uma eliminação.",
+        "caution": "Avançar após um abate sem olhar as ameaças restantes pode perder toda a vantagem."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém dano à distância e amplia pressão após uma eliminação.",
+        "plan": "Ataque com cobertura e escolha a arma conforme alcance e aproximação.",
+        "against": "Pressione seu espaço de ataque e evite oferecer uma eliminação fácil para a continuação.",
+        "resource": "Mantém dano à distância e amplia pressão após uma eliminação.",
+        "caution": "Avançar após um abate sem olhar as ameaças restantes pode perder toda a vantagem."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém dano à distância e amplia pressão após uma eliminação.",
+        "plan": "Priorize sobreviver até a primeira oportunidade; continue sem ultrapassar a proteção do time.",
+        "against": "Na luta decisiva, pressione seu espaço de ataque e evite oferecer uma eliminação fácil para a continuação.",
+        "resource": "Mantém dano à distância e amplia pressão após uma eliminação.",
+        "caution": "Avançar após um abate sem olhar as ameaças restantes pode perder toda a vantagem."
       }
     },
     "strengths": [
-      "Trocando!: Jinx modifica seus ataques básicos ao trocar entre Pow-Pow, sua metralhadora, e Fishbones, seu lança-mísseis. Ataques com Pow-Pow concedem Velocidade de Ataque, enquanto ataques com Fishbones causam dano em área de ação e recebem aumento de alcance, mas drenam Mana e reduzem a Velocidade de Ataque.",
-      "Super Mega Míssil da Morte!: Jinx dispara um super-míssil no mapa, que acumula dano ao longo de seu trajeto. O míssil explodirá ao colidir com um campeão inimigo, causando dano a ele e a inimigos ao seu redor, com base em sua Vida removida."
+      "Mantém dano à distância e amplia pressão após uma eliminação.",
+      "Míssil explode em campeão e usa a vida perdida."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

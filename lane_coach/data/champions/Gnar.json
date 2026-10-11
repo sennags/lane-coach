@@ -24,7 +24,11 @@
         13,
         11.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Bumerangue ou pedregulho desacelera; coleta reduz recarga.",
+        "limit": "O local de coleta pode ser arriscado."
+      }
     },
     {
       "id": "Gnar.W",
@@ -37,7 +41,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Forma pequena ganha dano e velocidade; grande controla à frente.",
+        "limit": "A função muda com a forma atual."
+      }
     },
     {
       "id": "Gnar.E",
@@ -50,7 +58,11 @@
         17,
         14.5,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Salto usa unidades para prolongar movimento na forma pequena.",
+        "limit": "Mega-Gnar tem uma chegada diferente; não conte com o mesmo percurso."
+      }
     },
     {
       "id": "Gnar.R",
@@ -61,48 +73,64 @@
         90,
         60,
         30
-      ]
+      ],
+      "coaching": {
+        "use": "Mega-Gnar desloca inimigos; parede amplia dano e controle.",
+        "limit": "Exige a forma grande e um alinhamento útil com terreno."
+      }
     },
     {
       "id": "Gnar.P",
       "ability": "P",
       "name": "Fúria Genética",
       "description": "Enquanto está em combate, Gnar gera Fúria. Quando atinge o máximo de Fúria, sua próxima habilidade o transformará em Mega-Gnar, concedendo mais condições de sobrevivência e acesso a novas habilidades.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fúria prepara Mega-Gnar com outro conjunto de recursos.",
+        "limit": "A forma disponível depende da fúria, não só da vontade de entrar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Alterna pressão móvel e entrada em área conforme a forma.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar com a forma errada pode retirar controle ou caminho de saída esperado.",
+      "Exige a forma grande e um alinhamento útil com terreno."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Alterna pressão móvel e entrada em área conforme a forma.",
+        "plan": "Controle a fúria enquanto farma para não perder a forma útil no momento de pressão.",
+        "against": "Observe a mudança de forma e evite agrupar aliados perto de uma parede.",
+        "resource": "Alterna pressão móvel e entrada em área conforme a forma.",
+        "caution": "Entrar com a forma errada pode retirar controle ou caminho de saída esperado."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Alterna pressão móvel e entrada em área conforme a forma.",
+        "plan": "Prepare a aproximação considerando qual forma estará disponível ao chegar.",
+        "against": "Observe a mudança de forma e evite agrupar aliados perto de uma parede.",
+        "resource": "Alterna pressão móvel e entrada em área conforme a forma.",
+        "caution": "Entrar com a forma errada pode retirar controle ou caminho de saída esperado."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Alterna pressão móvel e entrada em área conforme a forma.",
+        "plan": "Na forma grande, busque uma entrada com apoio; na pequena, preserve espaço para atacar.",
+        "against": "Na luta decisiva, observe a mudança de forma e evite agrupar aliados perto de uma parede.",
+        "resource": "Alterna pressão móvel e entrada em área conforme a forma.",
+        "caution": "Entrar com a forma errada pode retirar controle ou caminho de saída esperado."
       }
     },
     "strengths": [
-      "Bumerangue / Pedregulho: Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga.",
-      "GNAR!: Mega Gnar joga tudo o que estiver próximo de si em uma direção escolhida, causando dano e Lentidão. Qualquer inimigo que atingir uma parede fica atordoado e recebe dano adicional."
+      "Alterna pressão móvel e entrada em área conforme a forma.",
+      "Mega-Gnar desloca inimigos; parede amplia dano e controle."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

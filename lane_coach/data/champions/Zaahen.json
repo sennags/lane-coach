@@ -23,7 +23,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque duplo cura e a continuação pode arremessar o alvo.",
+        "limit": "Exige manter contato para usar os ataques preparados."
+      }
     },
     {
       "id": "Zaahen.W",
@@ -36,7 +40,11 @@
         13,
         12.5,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de dano puxa inimigos.",
+        "limit": "A direção pode aproximar ameaças demais."
+      }
     },
     {
       "id": "Zaahen.E",
@@ -49,7 +57,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço causa dano ao redor da chegada.",
+        "limit": "A chegada pode ficar sem saída ou acompanhamento."
+      }
     },
     {
       "id": "Zaahen.R",
@@ -60,48 +72,64 @@
         110,
         95,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe em área cura por parte do dano causado.",
+        "limit": "A recuperação depende de acertar os alvos úteis."
+      }
     },
     {
       "id": "Zaahen.P",
       "ability": "P",
       "name": "Cultivação da Guerra",
       "description": "Os ataques e as habilidades de Zaahen contra Campeões inimigos concedem a ele acúmulos de Determinação, que proporcionam Dano de Ataque adicional por acúmulo. Enquanto está com Determinação, Zaahen ganha mais Dano de Ataque e é capaz de ressuscitar.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertos em campeão acumulam ataque e a condição de ressurreição.",
+        "limit": "O recurso precisa estar preparado para contar com esse benefício."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém pressão próxima ao acumular combate e recuperação.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar sem acúmulos e sem continuação pode retirar a sobrevivência esperada.",
+      "A recuperação depende de acertar os alvos úteis."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém pressão próxima ao acumular combate e recuperação.",
+        "plan": "Preserve renda e espaço de contato na wave sem perseguir para fora da cobertura.",
+        "against": "Reduza o contato prolongado e cubra quem pode ser puxado à frente.",
+        "resource": "Mantém pressão próxima ao acumular combate e recuperação.",
+        "caution": "Entrar sem acúmulos e sem continuação pode retirar a sobrevivência esperada."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém pressão próxima ao acumular combate e recuperação.",
+        "plan": "Entre com apoio e escolha um alvo alcançável para continuar acertando.",
+        "against": "Reduza o contato prolongado e cubra quem pode ser puxado à frente.",
+        "resource": "Mantém pressão próxima ao acumular combate e recuperação.",
+        "caution": "Entrar sem acúmulos e sem continuação pode retirar a sobrevivência esperada."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém pressão próxima ao acumular combate e recuperação.",
+        "plan": "Espere acesso real ao grupo sem depender de ressurreição não preparada.",
+        "against": "Na luta decisiva, reduza o contato prolongado e cubra quem pode ser puxado à frente.",
+        "resource": "Mantém pressão próxima ao acumular combate e recuperação.",
+        "caution": "Entrar sem acúmulos e sem continuação pode retirar a sobrevivência esperada."
       }
     },
     "strengths": [
-      "A Glaive Darkin: Zaahen desfere dois cortes no próximo ataque, causando dano adicional e curando-se. Zaahen pode reconjurar a próxima habilidade para fazer o próximo ataque causar dano adicional e arremessar o alvo ao ar.",
-      "Desfecho Fatídico: Zaahen se ergue e estoca para baixo, causando dano a inimigos e curando uma parte do dano causado."
+      "Mantém pressão próxima ao acumular combate e recuperação.",
+      "Golpe em área cura por parte do dano causado."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

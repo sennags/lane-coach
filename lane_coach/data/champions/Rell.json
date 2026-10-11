@@ -24,7 +24,11 @@
         10,
         9.5,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Linha destrói escudos e atordoa.",
+        "limit": "Precisa conectar o alvo protegido."
+      }
     },
     {
       "id": "Rell.W",
@@ -37,7 +41,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Desmontar controla em área; remontar prepara controle no ataque.",
+        "limit": "Desmontada fica lenta e não mantém a mesma saída."
+      }
     },
     {
       "id": "Rell.E",
@@ -50,7 +58,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Acelera junto de um aliado e prepara ataque em área.",
+        "limit": "A direção entre aliados e inimigos muda o benefício."
+      }
     },
     {
       "id": "Rell.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Atrai e arrasta inimigos próximos.",
+        "limit": "Precisa chegar ao grupo com acompanhamento."
+      }
     },
     {
       "id": "Rell.P",
       "ability": "P",
       "name": "A Ferro e Fogo",
       "description": "Os Ataques e Habilidades de Rell causam Dano Mágico adicional e roubam Armadura e Resistência Mágica ao contato.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertos roubam defesas e aplicam dano adicional.",
+        "limit": "Depende de manter contato com alvos úteis."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Agrupa inimigos para uma resposta coletiva do time.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Desmontar longe do time pode deixar a entrada sem recuo.",
+      "Precisa chegar ao grupo com acompanhamento."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Agrupa inimigos para uma resposta coletiva do time.",
+        "plan": "Cubra o parceiro e não force entrada sem considerar a posição da wave.",
+        "against": "Separe a formação e observe sua chegada antes de todos se comprometerem.",
+        "resource": "Agrupa inimigos para uma resposta coletiva do time.",
+        "caution": "Desmontar longe do time pode deixar a entrada sem recuo."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Agrupa inimigos para uma resposta coletiva do time.",
+        "plan": "Entre quando os aliados possam alcançar a mesma região.",
+        "against": "Separe a formação e observe sua chegada antes de todos se comprometerem.",
+        "resource": "Agrupa inimigos para uma resposta coletiva do time.",
+        "caution": "Desmontar longe do time pode deixar a entrada sem recuo."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Agrupa inimigos para uma resposta coletiva do time.",
+        "plan": "Escolha uma entrada decisiva ou proteja o espaço do aliado ameaçado.",
+        "against": "Na luta decisiva, separe a formação e observe sua chegada antes de todos se comprometerem.",
+        "resource": "Agrupa inimigos para uma resposta coletiva do time.",
+        "caution": "Desmontar longe do time pode deixar a entrada sem recuo."
       }
     },
     "strengths": [
-      "Golpe Estilhaçador: Rell causa Dano Mágico às unidades em linha reta, destruindo o Escudo delas e atordoando-as.",
-      "Tempestade Magnética: Rell explode em uma fúria magnética, Puxando violentamente os inimigos próximos em sua direção. Ela, então, Arrasta esses inimigos em direção a si por um curto período, causando Dano Mágico ao longo do tempo."
+      "Agrupa inimigos para uma resposta coletiva do time.",
+      "Atrai e arrasta inimigos próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

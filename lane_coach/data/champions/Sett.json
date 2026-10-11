@@ -24,7 +24,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dois ataques fortes e movimento em direção a campeão.",
+        "limit": "Precisa alcançar o alvo para usar a sequência."
+      }
     },
     {
       "id": "Sett.W",
@@ -37,7 +41,11 @@
         15,
         13.5,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Dano recebido prepara escudo e golpe com centro verdadeiro.",
+        "limit": "A força depende de ousadia armazenada e do acerto central."
+      }
     },
     {
       "id": "Sett.E",
@@ -50,7 +58,11 @@
         13,
         11.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Puxa dos dois lados e atordoa se houver alvos em ambos.",
+        "limit": "Um único lado oferece lentidão em vez do mesmo controle."
+      }
     },
     {
       "id": "Sett.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Carrega um alvo para uma região e pressiona a chegada.",
+        "limit": "A direção pode separar Sett do apoio."
+      }
     },
     {
       "id": "Sett.P",
       "ability": "P",
       "name": "Ousadia da Arena",
       "description": "Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita são levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com base na Vida perdida.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques alternados e vida perdida sustentam o contato.",
+        "limit": "Recuperação não torna toda troca com vida baixa segura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Chegar isolado pode gastar a defesa sem tempo para a resposta aliada.",
+      "A direção pode separar Sett do apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+        "plan": "Prepare farm e espaço próximo à wave sem forçar perseguição fora do alcance.",
+        "against": "Abra espaço entre aliados e evite alinhar-se com o destino do deslocamento.",
+        "resource": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+        "caution": "Chegar isolado pode gastar a defesa sem tempo para a resposta aliada."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+        "plan": "Receba a entrada com apoio e escolha um deslocamento que exponha um alvo útil.",
+        "against": "Abra espaço entre aliados e evite alinhar-se com o destino do deslocamento.",
+        "resource": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+        "caution": "Chegar isolado pode gastar a defesa sem tempo para a resposta aliada."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+        "plan": "Proteja a formação sem perseguir para longe; espere uma região alcançável para continuar.",
+        "against": "Na luta decisiva, abra espaço entre aliados e evite alinhar-se com o destino do deslocamento.",
+        "resource": "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+        "caution": "Chegar isolado pode gastar a defesa sem tempo para a resposta aliada."
       }
     },
     "strengths": [
-      "Pancadaria: Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo. Ele também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos.",
-      "Hora do Show: Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem."
+      "Ocupa a frente e transforma contato inimigo em contra-pressão.",
+      "Carrega um alvo para uma região e pressiona a chegada."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

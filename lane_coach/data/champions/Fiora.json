@@ -24,7 +24,11 @@
         9.5,
         7.75,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço dá acesso a ataque próximo.",
+        "limit": "A chegada ainda precisa permitir atingir o vital."
+      }
     },
     {
       "id": "Fiora.W",
@@ -37,7 +41,11 @@
         20,
         18,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Bloqueia dano e controle; pode devolver atordoamento.",
+        "limit": "O atordoamento exige bloquear uma imobilização."
+      }
     },
     {
       "id": "Fiora.E",
@@ -50,7 +58,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Dois ataques acelerados aplicam lentidão e crítico.",
+        "limit": "Precisa manter contato para usar os dois ataques."
+      }
     },
     {
       "id": "Fiora.R",
@@ -61,48 +73,64 @@
         110,
         90,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Quatro vitais permitem finalizar a sequência e criar cura em área.",
+        "limit": "A cura exige completar vitais ou a condição de morte do alvo."
+      }
     },
     {
       "id": "Fiora.P",
       "ability": "P",
       "name": "Dança da Duelista",
       "description": "Fiora revelou um Ponto Vital neste Campeão. Se atingir o Ponto Vital , ela restaurará Vida e receberá Velocidade de Movimento .",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertar vital concede cura e velocidade.",
+        "limit": "O benefício depende do lado do alvo atingido."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona um alvo por lados diferentes em combate próximo.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Buscar cada vital pode levar Fiora a uma posição sem proteção.",
+      "A cura exige completar vitais ou a condição de morte do alvo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona um alvo por lados diferentes em combate próximo.",
+        "plan": "Controle a wave para ter espaço de duelo e recuo; não abandone farm por um vital arriscado.",
+        "against": "Cubra o aliado pressionado e negue acesso fácil a todos os seus lados.",
+        "resource": "Pressiona um alvo por lados diferentes em combate próximo.",
+        "caution": "Buscar cada vital pode levar Fiora a uma posição sem proteção."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona um alvo por lados diferentes em combate próximo.",
+        "plan": "Escolha um alvo acessível sem entrar entre todas as ameaças.",
+        "against": "Cubra o aliado pressionado e negue acesso fácil a todos os seus lados.",
+        "resource": "Pressiona um alvo por lados diferentes em combate próximo.",
+        "caution": "Buscar cada vital pode levar Fiora a uma posição sem proteção."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona um alvo por lados diferentes em combate próximo.",
+        "plan": "Use a borda da luta e preserve uma saída após a tentativa.",
+        "against": "Na luta decisiva, cubra o aliado pressionado e negue acesso fácil a todos os seus lados.",
+        "resource": "Pressiona um alvo por lados diferentes em combate próximo.",
+        "caution": "Buscar cada vital pode levar Fiora a uma posição sem proteção."
       }
     },
     "strengths": [
-      "Estocada: Fiora avança em uma direção e golpeia um inimigo próximo, causando Dano Físico e aplicando efeitos de contato.",
-      "Desafio Grandioso: Fiora revela todos os quatro Pontos Vitais de um Campeão inimigo e recebe Velocidade de Movimento enquanto estiver perto dele. Se atingir todos os quatro Pontos Vitais ou se o alvo morrer depois que ela atingir pelo menos um deles, Fiora e os aliados que estiverem na área serão curados pelos próximos segundos."
+      "Pressiona um alvo por lados diferentes em combate próximo.",
+      "Quatro vitais permitem finalizar a sequência e criar cura em área."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

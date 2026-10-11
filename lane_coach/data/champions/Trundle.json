@@ -24,7 +24,11 @@
         3.5,
         3.5,
         3.5
-      ]
+      ],
+      "coaching": {
+        "use": "Mordida reduz ataque inimigo e desacelera.",
+        "limit": "Exige contato próximo."
+      }
     },
     {
       "id": "Trundle.W",
@@ -37,7 +41,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Região melhora ataques, movimento e cura.",
+        "limit": "Sair dela reduz a força preparada."
+      }
     },
     {
       "id": "Trundle.E",
@@ -50,7 +58,11 @@
         18,
         16.5,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Pilar bloqueia passagem e desacelera.",
+        "limit": "Também muda o caminho dos aliados."
+      }
     },
     {
       "id": "Trundle.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Rouba vida e defesas do alvo durante o efeito.",
+        "limit": "O alvo escolhido muda o benefício obtido."
+      }
     },
     {
       "id": "Trundle.P",
       "ability": "P",
       "name": "Tributo do Rei",
       "description": "Quando uma unidade inimiga morre perto de Trundle, ele é curado em um percentual da Vida máxima desta unidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Mortes inimigas próximas recuperam vida.",
+        "limit": "A recuperação depende de unidades morrendo ao alcance."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém pressão em contato e enfraquece uma frente alcançável.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir para fora da área preparada pode gastar contato sem continuação.",
+      "O alvo escolhido muda o benefício obtido."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém pressão em contato e enfraquece uma frente alcançável.",
+        "plan": "Preserve farm e terreno de recuo antes de forçar uma troca longa na wave.",
+        "against": "Mude o ângulo para evitar o bloqueio de caminho e não aceite duelo prolongado sem apoio.",
+        "resource": "Mantém pressão em contato e enfraquece uma frente alcançável.",
+        "caution": "Perseguir para fora da área preparada pode gastar contato sem continuação."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém pressão em contato e enfraquece uma frente alcançável.",
+        "plan": "Ataque um alvo acessível com apoio sem perseguir para fora da região útil.",
+        "against": "Mude o ângulo para evitar o bloqueio de caminho e não aceite duelo prolongado sem apoio.",
+        "resource": "Mantém pressão em contato e enfraquece uma frente alcançável.",
+        "caution": "Perseguir para fora da área preparada pode gastar contato sem continuação."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém pressão em contato e enfraquece uma frente alcançável.",
+        "plan": "Proteja espaço e escolha um alvo cuja perda de defesa o time consiga aproveitar.",
+        "against": "Na luta decisiva, mude o ângulo para evitar o bloqueio de caminho e não aceite duelo prolongado sem apoio.",
+        "resource": "Mantém pressão em contato e enfraquece uma frente alcançável.",
+        "caution": "Perseguir para fora da área preparada pode gastar contato sem continuação."
       }
     },
     "strengths": [
-      "Mordida: Trundle morde seu oponente, causando dano, brevemente reduzindo sua Velocidade de Movimento e drenando parte de seu Dano de Ataque.",
-      "Subjugar: Trundle imediatamente rouba um percentual da Vida, Armadura e Resistência Mágica de seu alvo. Ao longo dos próximos 4 segundos, a quantia de Vida, Armadura e Resistência Mágica roubada é dobrada."
+      "Mantém pressão em contato e enfraquece uma frente alcançável.",
+      "Rouba vida e defesas do alvo durante o efeito."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

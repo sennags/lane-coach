@@ -24,7 +24,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Cegueira reduz pressão dos ataques do alvo.",
+        "limit": "Não impede todo dano de habilidade."
+      }
     },
     {
       "id": "Teemo.W",
@@ -37,7 +41,11 @@
         14,
         14,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Movimento ajuda a manter distância.",
+        "limit": "Não é um salto para atravessar qualquer ameaça."
+      }
     },
     {
       "id": "Teemo.E",
@@ -50,7 +58,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques aplicam veneno persistente.",
+        "limit": "Precisa de contato inicial para iniciar a pressão."
+      }
     },
     {
       "id": "Teemo.R",
@@ -61,48 +73,64 @@
         0.25,
         0.25,
         0.25
-      ]
+      ],
+      "coaching": {
+        "use": "Armadilhas desaceleram e causam dano ao serem ativadas.",
+        "limit": "Exigem preparação em caminhos realmente usados."
+      }
     },
     {
       "id": "Teemo.P",
       "ability": "P",
       "name": "Técnicas de Guerrilha",
       "description": "Se Teemo permanece imóvel e não faz nada por um curto período, fica Invisível por tempo indefinido. Caso esteja em um arbusto, Teemo pode manter sua Invisibilidade enquanto se move. Ao sair da Invisibilidade, Teemo ativa Elemento-Surpresa, aumentando a própria Velocidade de Ataque por alguns segundos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Preparação parado ou no arbusto permite invisibilidade e ataque acelerado ao sair.",
+        "limit": "A emboscada depende do tempo e do terreno preparado."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Dano preparado não torna Teemo resistente a uma entrada direta.",
+      "Exigem preparação em caminhos realmente usados."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+        "plan": "Use alcance para preservar farm e controle caminhos sem empurrar fora da cobertura.",
+        "against": "Confira caminhos preparados e não persiga cegamente pelo terreno ameaçado.",
+        "resource": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+        "caution": "Dano preparado não torna Teemo resistente a uma entrada direta."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+        "plan": "Ataque pela borda coberta sem abandonar a preparação do terreno.",
+        "against": "Confira caminhos preparados e não persiga cegamente pelo terreno ameaçado.",
+        "resource": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+        "caution": "Dano preparado não torna Teemo resistente a uma entrada direta."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+        "plan": "Proteja seu espaço e escolha um alvo acessível sem caminhar para o centro da formação.",
+        "against": "Na luta decisiva, confira caminhos preparados e não persiga cegamente pelo terreno ameaçado.",
+        "resource": "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+        "caution": "Dano preparado não torna Teemo resistente a uma entrada direta."
       }
     },
     "strengths": [
-      "Dardo Ofuscante: Obscurece a visão de um inimigo com um poderoso veneno, causando dano e cegueira ao alvo pela duração do efeito.",
-      "Armadilha Venenosa: Teemo arremessa uma armadilha venenosa explosiva usando um dos cogumelos que guardou na mochila. Se um inimigo pisa na armadilha, ela solta uma nuvem venenosa que causa Lentidão e dano ao longo do tempo. Se Teemo arremessar um cogumelo em cima de outro, ele saltará, recebendo alcance adicional."
+      "Prepara regiões perigosas e limita os ataques de uma ameaça.",
+      "Armadilhas desaceleram e causam dano ao serem ativadas."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

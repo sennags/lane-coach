@@ -23,7 +23,11 @@
         9,
         9,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Rolamento dispara em alvos próximos.",
+        "limit": "A chegada precisa preservar espaço de ataque."
+      }
     },
     {
       "id": "Kindred.W",
@@ -36,7 +40,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Lobo pressiona área; movimentação e ataques preparam cura.",
+        "limit": "A cura depende de completar a preparação."
+      }
     },
     {
       "id": "Kindred.E",
@@ -49,7 +57,11 @@
         11,
         9.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Sequência de ataques no alvo prepara dano adicional.",
+        "limit": "Precisa manter contato para completar."
+      }
     },
     {
       "id": "Kindred.R",
@@ -60,48 +72,64 @@
         160,
         140,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Área impede mortes temporariamente e cura ao terminar.",
+        "limit": "Também protege inimigos; a posição no final importa."
+      }
     },
     {
       "id": "Kindred.P",
       "ability": "P",
       "name": "Marca Familiar",
       "description": "Os Kindred marcam alvos para Caçar. Concluir uma Caçada fortalece permanentemente as habilidades básicas deles. A cada 4 caçadas concluídas, o Alcance de Ataque também aumenta.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Caçadas concluídas fortalecem kit e ampliam alcance conforme os acúmulos.",
+        "limit": "Uma marca não significa que a caça é segura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Salvar um inimigo exposto pode impedir a finalização do próprio time.",
+      "Também protege inimigos; a posição no final importa."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+        "plan": "Não troque renda segura por uma marca sem cobertura; na rota, preserve farm.",
+        "against": "Observe a região e o momento de fim da proteção, sem gastar tudo antes.",
+        "resource": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+        "caution": "Salvar um inimigo exposto pode impedir a finalização do próprio time."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+        "plan": "Ataque com cobertura e use movimento sem abandonar o espaço aliado.",
+        "against": "Observe a região e o momento de fim da proteção, sem gastar tudo antes.",
+        "resource": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+        "caution": "Salvar um inimigo exposto pode impedir a finalização do próprio time."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+        "plan": "Escolha uma região de proteção útil e prepare a resposta quando ela terminar.",
+        "against": "Na luta decisiva, observe a região e o momento de fim da proteção, sem gastar tudo antes.",
+        "resource": "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+        "caution": "Salvar um inimigo exposto pode impedir a finalização do próprio time."
       }
     },
     "strengths": [
-      "Dança de Flechas: Os Kindred rolam e disparam até três flechas em alvos próximos.",
-      "Refúgio da Ovelha: A Ovelha concede refúgio contra a morte para todos os seres vivos em uma área. Até que seu efeito acabe, nada pode morrer. No fim de sua duração, as unidades são curadas."
+      "Mantém ataques enquanto decide quem pode sobreviver à janela de proteção.",
+      "Área impede mortes temporariamente e cura ao terminar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

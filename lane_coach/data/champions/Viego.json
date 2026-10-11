@@ -24,7 +24,11 @@
         4,
         3.5,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques após habilidade ampliam dano e sustentam contato.",
+        "limit": "Precisa intercalar ataques no alcance útil."
+      }
     },
     {
       "id": "Viego.W",
@@ -37,7 +41,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Carga prepara avanço e controle no primeiro alvo.",
+        "limit": "Bloqueador pode mudar quem recebe a entrada."
+      }
     },
     {
       "id": "Viego.E",
@@ -50,7 +58,11 @@
         10,
         8,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Névoa no terreno oferece camuflagem e atributos.",
+        "limit": "A pressão depende da região preparada."
+      }
     },
     {
       "id": "Viego.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Teleporte ameaça finalização e afasta outros alvos.",
+        "limit": "A chegada ainda pode receber a resposta inimiga."
+      }
     },
     {
       "id": "Viego.P",
       "ability": "P",
       "name": "Dominação Monárquica",
       "description": "Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Eliminação permite possuir corpo e recuperar vida.",
+        "limit": "Precisa de espectro disponível; não começa com reinício garantido."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Acompanha uma eliminação para continuar a luta com novos recursos.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar contando com espectro ainda não obtido pode retirar toda a saída.",
+      "A chegada ainda pode receber a resposta inimiga."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Acompanha uma eliminação para continuar a luta com novos recursos.",
+        "plan": "Priorize renda e cobertura; na rota, não abandone farm por uma finalização sem apoio.",
+        "against": "Proteja aliados fragilizados e responda à chegada antes de uma nova eliminação.",
+        "resource": "Acompanha uma eliminação para continuar a luta com novos recursos.",
+        "caution": "Entrar contando com espectro ainda não obtido pode retirar toda a saída."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Acompanha uma eliminação para continuar a luta com novos recursos.",
+        "plan": "Entre depois de uma abertura aliada sem ser o primeiro foco do time inteiro.",
+        "against": "Proteja aliados fragilizados e responda à chegada antes de uma nova eliminação.",
+        "resource": "Acompanha uma eliminação para continuar a luta com novos recursos.",
+        "caution": "Entrar contando com espectro ainda não obtido pode retirar toda a saída."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Acompanha uma eliminação para continuar a luta com novos recursos.",
+        "plan": "Espere uma continuação real e preserve posição entre as posses.",
+        "against": "Na luta decisiva, proteja aliados fragilizados e responda à chegada antes de uma nova eliminação.",
+        "resource": "Acompanha uma eliminação para continuar a luta com novos recursos.",
+        "caution": "Entrar contando com espectro ainda não obtido pode retirar toda a saída."
       }
     },
     "strengths": [
-      "Espada do Rei Destruído: A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida. Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente.",
-      "Destruidor de Corações: Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos."
+      "Acompanha uma eliminação para continuar a luta com novos recursos.",
+      "Teleporte ameaça finalização e afasta outros alvos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

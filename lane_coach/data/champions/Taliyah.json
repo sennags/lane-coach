@@ -24,7 +24,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Rajada permite mover; terreno manipulado prepara pedregulho.",
+        "limit": "A posição do terreno muda a próxima ferramenta."
+      }
     },
     {
       "id": "Taliyah.W",
@@ -37,7 +41,11 @@
         11,
         9.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Desloca a região na direção escolhida.",
+        "limit": "A direção pode trazer ameaça até os aliados."
+      }
     },
     {
       "id": "Taliyah.E",
@@ -50,7 +58,11 @@
         14,
         14,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Campo pune avanços e deslocamentos através dele.",
+        "limit": "Precisa preparar o caminho usado pelo inimigo."
+      }
     },
     {
       "id": "Taliyah.R",
@@ -61,48 +73,64 @@
         180,
         150,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Parede e percurso reorganizam caminhos.",
+        "limit": "Pode bloquear aliados ou levar a uma chegada sem apoio."
+      }
     },
     {
       "id": "Taliyah.P",
       "ability": "P",
       "name": "Deslizar em Pedras",
       "description": "Taliyah recebe Velocidade de Movimento próxima a paredes.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Próximo de paredes recebe movimento.",
+        "limit": "O benefício depende da região, não de um avanço livre."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Controla passagens e dificulta aproximações por avanços.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Uma parede ou deslocamento mal escolhido pode bloquear o próprio time.",
+      "Pode bloquear aliados ou levar a uma chegada sem apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Controla passagens e dificulta aproximações por avanços.",
+        "plan": "Planeje wave e mana antes de sair usando o terreno como caminho.",
+        "against": "Observe o terreno preparado e procure outro ângulo de entrada.",
+        "resource": "Controla passagens e dificulta aproximações por avanços.",
+        "caution": "Uma parede ou deslocamento mal escolhido pode bloquear o próprio time."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Controla passagens e dificulta aproximações por avanços.",
+        "plan": "Prepare espaço ao lado do time e pressione sem ficar à frente da cobertura.",
+        "against": "Observe o terreno preparado e procure outro ângulo de entrada.",
+        "resource": "Controla passagens e dificulta aproximações por avanços.",
+        "caution": "Uma parede ou deslocamento mal escolhido pode bloquear o próprio time."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Controla passagens e dificulta aproximações por avanços.",
+        "plan": "Proteja a aproximação e desloque a ameaça para uma região que aliados alcancem.",
+        "against": "Na luta decisiva, observe o terreno preparado e procure outro ângulo de entrada.",
+        "resource": "Controla passagens e dificulta aproximações por avanços.",
+        "caution": "Uma parede ou deslocamento mal escolhido pode bloquear o próprio time."
       }
     },
     "strengths": [
-      "Voleio Entrelaçado: Taliyah arremessa uma rajada de pedras na direção-alvo, movimentando-se livremente durante a conjuração. Isso cria um Terreno Manipulado sob ela. Se Taliyah conjurar Voleio Entrelaçado em Terreno Manipulado, ela consome o terreno para arremessar um pedregulho fortalecido que causa Lentidão a inimigos.",
-      "Muro da Tecelã: Taliyah cria uma parede comprida e desliza sobre ela."
+      "Controla passagens e dificulta aproximações por avanços.",
+      "Parede e percurso reorganizam caminhos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         4,
         3,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Rolamento prepara ataque com dano adicional.",
+        "limit": "O destino precisa manter espaço para atacar."
+      }
     },
     {
       "id": "Vayne.W",
@@ -37,7 +41,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Terceiro acerto no mesmo alvo causa dano verdadeiro pela vida.",
+        "limit": "Trocar alvo impede aproveitar a mesma sequência acumulada."
+      }
     },
     {
       "id": "Vayne.E",
@@ -50,7 +58,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Empurra alvo; parede prepara controle e dano adicional.",
+        "limit": "A direção pode salvar o alvo do dano aliado."
+      }
     },
     {
       "id": "Vayne.R",
@@ -61,48 +73,64 @@
         100,
         85,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques, rolamento e movimento ficam fortalecidos.",
+        "limit": "A invisibilidade é breve e depende de usar o rolamento."
+      }
     },
     {
       "id": "Vayne.P",
       "ability": "P",
       "name": "Caçadora Noturna",
       "description": "Vayne caça implacavelmente os malfeitores, ganhando Velocidade de Movimento ao se deslocar em direção a Campeões inimigos próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Movimento em direção a campeão facilita alcançar.",
+        "limit": "A velocidade ofensiva não cria automaticamente uma saída."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques num alvo próximo enquanto evita a entrada.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Rolamento agressivo pode colocar Vayne no alcance de várias ameaças.",
+      "A invisibilidade é breve e depende de usar o rolamento."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques num alvo próximo enquanto evita a entrada.",
+        "plan": "Priorize renda e espaço de recuo sem forçar perseguição na wave.",
+        "against": "Limite os caminhos de movimento e evite aceitar ataques contínuos sem resposta.",
+        "resource": "Mantém ataques num alvo próximo enquanto evita a entrada.",
+        "caution": "Rolamento agressivo pode colocar Vayne no alcance de várias ameaças."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques num alvo próximo enquanto evita a entrada.",
+        "plan": "Ataque o alvo seguro, reposicionando sem perder a cobertura.",
+        "against": "Limite os caminhos de movimento e evite aceitar ataques contínuos sem resposta.",
+        "resource": "Mantém ataques num alvo próximo enquanto evita a entrada.",
+        "caution": "Rolamento agressivo pode colocar Vayne no alcance de várias ameaças."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques num alvo próximo enquanto evita a entrada.",
+        "plan": "Priorize sobreviver e continuar a sequência; não atravesse a formação por um alvo distante.",
+        "against": "Na luta decisiva, limite os caminhos de movimento e evite aceitar ataques contínuos sem resposta.",
+        "resource": "Mantém ataques num alvo próximo enquanto evita a entrada.",
+        "caution": "Rolamento agressivo pode colocar Vayne no alcance de várias ameaças."
       }
     },
     "strengths": [
-      "Rolamento: Vayne dá uma cambalhota, equilibrando-se para efetuar seu próximo disparo. Seu próximo ataque causará dano adicional.",
-      "Hora Final: Preparando-se para um confronto épico, Vayne recebe Dano de Ataque aumentado, invisibilidade durante o Rolamento, Tempo de Recarga do Rolamento reduzido e mais Velocidade de Movimento adicional de Caçadora Noturna"
+      "Mantém ataques num alvo próximo enquanto evita a entrada.",
+      "Ataques, rolamento e movimento ficam fortalecidos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

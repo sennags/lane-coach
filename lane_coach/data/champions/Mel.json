@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Área causa dano repetido nos alvos presentes.",
+        "limit": "Sair da região reduz as aplicações."
+      }
     },
     {
       "id": "Mel.W",
@@ -37,7 +41,11 @@
         33,
         29,
         26
-      ]
+      ],
+      "coaching": {
+        "use": "Barreira reflete projéteis, evita dano e concede movimento.",
+        "limit": "A janela é temporária; não presuma reflexão disponível depois de gastá-la."
+      }
     },
     {
       "id": "Mel.E",
@@ -50,7 +58,11 @@
         10,
         9.5,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Centro enraíza e a região ao redor desacelera.",
+        "limit": "O controle mais forte depende do acerto central."
+      }
     },
     {
       "id": "Mel.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Dano alcança os alvos marcados e cresce com acúmulos.",
+        "limit": "Não afeta da mesma forma quem não foi marcado."
+      }
     },
     {
       "id": "Mel.P",
       "ability": "P",
       "name": "Esplendor Calcinante",
       "description": "Sempre que Mel usa uma habilidade, ela recebe três projéteis adicionais (até um máximo de nove) para o próximo ataque. Quando Mel causa dano com uma habilidade ou um ataque, ela aplica Deslumbrar, que pode acumular infinitamente. Se o inimigo for atingido por Mel com dano suficiente de Deslumbrar, os acúmulos serão consumidos para executar o alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjurações preparam ataques adicionais; dano acumula a condição de execução.",
+        "limit": "A execução depende dos acúmulos e do dano suficiente no alvo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Gastar a proteção cedo pode expor o corpo ao foco seguinte.",
+      "Não afeta da mesma forma quem não foi marcado."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+        "plan": "Gerencie wave e recurso defensivo antes de pressionar para além da cobertura.",
+        "against": "Espalhe os aliados e evite oferecer projéteis importantes à barreira ativa.",
+        "resource": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+        "caution": "Gastar a proteção cedo pode expor o corpo ao foco seguinte."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+        "plan": "Ataque com cobertura e preserve uma janela defensiva contra a aproximação.",
+        "against": "Espalhe os aliados e evite oferecer projéteis importantes à barreira ativa.",
+        "resource": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+        "caution": "Gastar a proteção cedo pode expor o corpo ao foco seguinte."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+        "plan": "Priorize posição e dano em alvos acessíveis sem avançar só para aumentar marcas.",
+        "against": "Na luta decisiva, espalhe os aliados e evite oferecer projéteis importantes à barreira ativa.",
+        "resource": "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+        "caution": "Gastar a proteção cedo pode expor o corpo ao foco seguinte."
       }
     },
     "strengths": [
-      "Rajada Radiante: Mel dispara uma saraivada de projéteis que explodem ao redor de um local-alvo, causando dano repetidamente aos inimigos dentro da área.",
-      "Eclipse Dourado: Mel ataca todos os inimigos marcados por Deslumbrar, independentemente da distância, causando dano adicional para cada acúmulo de Deslumbrar. O ranque de Eclipse Dourado aumenta o dano de Deslumbrar."
+      "Mantém pressão à distância e ameaça finalizações em alvos já atingidos.",
+      "Dano alcança os alvos marcados e cresce com acúmulos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -23,7 +23,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Contato próximo fortalece golpe; fora dele permite salto.",
+        "limit": "O salto pode levar a uma posição sem saída."
+      }
     },
     {
       "id": "Talon.W",
@@ -36,7 +40,11 @@
         8,
         7.5,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Lâminas de retorno ampliam dano e desaceleram.",
+        "limit": "O segundo acerto depende do trajeto de volta."
+      }
     },
     {
       "id": "Talon.E",
@@ -49,7 +57,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Atravessa terreno para entrada ou recuo.",
+        "limit": "O mesmo terreno fica indisponível por um período longo."
+      }
     },
     {
       "id": "Talon.R",
@@ -60,48 +72,64 @@
         100,
         80,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Invisibilidade e lâminas permitem aproximar e retornar dano.",
+        "limit": "A posição de saída determina a continuação."
+      }
     },
     {
       "id": "Talon.P",
       "ability": "P",
       "name": "Limiar da Lâmina",
       "description": "As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Três ferimentos seguidos de ataque aplicam sangramento forte.",
+        "limit": "A habilidade sozinha não completa a condição do ataque."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Ameaça alvos separados por caminhos laterais.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Contar com um terreno já usado pode retirar toda a saída.",
+      "A posição de saída determina a continuação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Ameaça alvos separados por caminhos laterais.",
+        "plan": "Resolva a wave antes de buscar outra região para não trocar renda por perseguição.",
+        "against": "Cubra paredes e mantenha ajuda nos aliados isolados.",
+        "resource": "Ameaça alvos separados por caminhos laterais.",
+        "caution": "Contar com um terreno já usado pode retirar toda a saída."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Ameaça alvos separados por caminhos laterais.",
+        "plan": "Prepare uma entrada com terreno de saída que ainda esteja utilizável.",
+        "against": "Cubra paredes e mantenha ajuda nos aliados isolados.",
+        "resource": "Ameaça alvos separados por caminhos laterais.",
+        "caution": "Contar com um terreno já usado pode retirar toda a saída."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Ameaça alvos separados por caminhos laterais.",
+        "plan": "Espere a proteção inimiga se comprometer sem entrar como primeiro foco.",
+        "against": "Na luta decisiva, cubra paredes e mantenha ajuda nos aliados isolados.",
+        "resource": "Ameaça alvos separados por caminhos laterais.",
+        "caution": "Contar com um terreno já usado pode retirar toda a saída."
       }
     },
     "strengths": [
-      "Diplomacia Noxiana: Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo.",
-      "Ataque das Sombras: Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina."
+      "Ameaça alvos separados por caminhos laterais.",
+      "Invisibilidade e lâminas permitem aproximar e retornar dano."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

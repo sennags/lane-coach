@@ -24,7 +24,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Enraíza até dois inimigos na linha.",
+        "limit": "Unidades na frente mudam os alvos controlados."
+      }
     },
     {
       "id": "Lux.W",
@@ -37,7 +41,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Varinha protege aliados atravessados.",
+        "limit": "Precisa alinhar o caminho com quem recebe dano."
+      }
     },
     {
       "id": "Lux.E",
@@ -50,7 +58,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Área desacelera e pode detonar para dar dano.",
+        "limit": "Detonar retira a área de lentidão preparada."
+      }
     },
     {
       "id": "Lux.R",
@@ -61,48 +73,64 @@
         60,
         50,
         40
-      ]
+      ],
+      "coaching": {
+        "use": "Feixe dá dano em linha e interage com as marcas.",
+        "limit": "A trajetória precisa atingir; não substitui uma posição segura."
+      }
     },
     {
       "id": "Lux.P",
       "ability": "P",
       "name": "Iluminação",
       "description": "As habilidades de dano de Lux carregam o alvo com energia por alguns segundos. O próximo ataque de Lux incendeia a energia, causando Dano Mágico adicional (com base no nível de Lux) ao alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataque consome marca das habilidades para dano adicional.",
+        "limit": "Aproximar só para consumir a marca pode ser perigoso."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Cria pressão à distância e uma captura para o time.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Avançar para dano de ataque pode expor o corpo de um kit à distância.",
+      "A trajetória precisa atingir; não substitui uma posição segura."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Cria pressão à distância e uma captura para o time.",
+        "plan": "Controle mana e wave sem perder visão do caminho de aproximação.",
+        "against": "Evite alinhar vários aliados e use cobertura contra a linha de controle.",
+        "resource": "Cria pressão à distância e uma captura para o time.",
+        "caution": "Avançar para dano de ataque pode expor o corpo de um kit à distância."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Cria pressão à distância e uma captura para o time.",
+        "plan": "Pressione com cobertura e preserve uma resposta à aproximação.",
+        "against": "Evite alinhar vários aliados e use cobertura contra a linha de controle.",
+        "resource": "Cria pressão à distância e uma captura para o time.",
+        "caution": "Avançar para dano de ataque pode expor o corpo de um kit à distância."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Cria pressão à distância e uma captura para o time.",
+        "plan": "Ataque alvos acessíveis de trás do time e proteja aliados alinhados com sua posição.",
+        "against": "Na luta decisiva, evite alinhar vários aliados e use cobertura contra a linha de controle.",
+        "resource": "Cria pressão à distância e uma captura para o time.",
+        "caution": "Avançar para dano de ataque pode expor o corpo de um kit à distância."
       }
     },
     "strengths": [
-      "Ligação da Luz: Lux atira uma esfera de luz que se prende e causa dano em até duas unidades inimigas.",
-      "Centelha Final: Após acumular energia, Lux dispara um feixe de luz que causa dano a todos os inimigos na área. Além disso, ativa a habilidade passiva de Lux e reinicia a duração do efeito de Iluminação."
+      "Cria pressão à distância e uma captura para o time.",
+      "Feixe dá dano em linha e interage com as marcas."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

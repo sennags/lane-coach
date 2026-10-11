@@ -24,7 +24,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "O segundo contato com inimigo ou parede transforma lentidão em atordoamento.",
+        "limit": "O controle depende do alinhamento atrás do primeiro alvo."
+      }
     },
     {
       "id": "Bard.W",
@@ -37,7 +41,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Santuário amadurece para oferecer cura e velocidade.",
+        "limit": "Inimigos podem destruir o santuário ao pisar nele."
+      }
     },
     {
       "id": "Bard.E",
@@ -50,7 +58,11 @@
         19,
         17.5,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Portal cria passagem de ida pelo terreno.",
+        "limit": "Inimigos também podem usar a passagem."
+      }
     },
     {
       "id": "Bard.R",
@@ -61,48 +73,64 @@
         110,
         95,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Estase pode interromper dano e preparar reposicionamento.",
+        "limit": "Também afeta aliados e pode interromper uma jogada favorável."
+      }
     },
     {
       "id": "Bard.P",
       "ability": "P",
       "name": "Chamado do Viajante",
       "description": "Mipes: Bardo atrai pequenos espíritos que ajudam em seus ataques básicos e causam Dano Mágico adicional. Quando Bardo coleta sinos o suficiente, os mipes também causam dano em uma área e reduzem a velocidade de inimigos atingidos. Sinos: sinos ancestrais aparecem aleatoriamente para Bardo coletar. Eles concedem experiência, Velocidade de Movimento fora de combate e restauram Mana.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Sinos restauram mana e fortalecem os ataques dos mipes.",
+        "limit": "Buscar um sino não deve deixar um aliado sem proteção."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Congelar a luta ou abrir um portal sem acompanhamento pode beneficiar o inimigo.",
+      "Também afeta aliados e pode interromper uma jogada favorável."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+        "plan": "Resolva a necessidade do parceiro antes de sair para sinos ou rotações.",
+        "against": "Não alinhe aliados junto ao terreno e observe a saída de portais.",
+        "resource": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+        "caution": "Congelar a luta ou abrir um portal sem acompanhamento pode beneficiar o inimigo."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+        "plan": "Fique ao alcance de aliados e use ângulos de terreno sem abandonar a cobertura.",
+        "against": "Não alinhe aliados junto ao terreno e observe a saída de portais.",
+        "resource": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+        "caution": "Congelar a luta ou abrir um portal sem acompanhamento pode beneficiar o inimigo."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+        "plan": "Proteja alvos pressionados e prepare a continuação após a estase.",
+        "against": "Na luta decisiva, não alinhe aliados junto ao terreno e observe a saída de portais.",
+        "resource": "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+        "caution": "Congelar a luta ou abrir um portal sem acompanhamento pode beneficiar o inimigo."
       }
     },
     "strengths": [
-      "Prisão Cósmica: Bardo dispara um projétil que causa Lentidão ao primeiro inimigo atingido, mantendo seu trajeto em seguida. Caso atinja uma parede, atordoará o alvo inicial; caso atinja outro inimigo, ambos serão atordoados.",
-      "Têmpera do Destino: Bardo desfere um arco de energia espiritual em um local-alvo, colocando todos os Campeões, tropas, monstros e torres atingidos em estase por um curto período de tempo."
+      "Cria oportunidades de controle e caminhos para entrada ou recuo.",
+      "Estase pode interromper dano e preparar reposicionamento."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

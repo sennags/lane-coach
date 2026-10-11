@@ -24,7 +24,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil pode se dividir para criar ângulos de lentidão.",
+        "limit": "O momento da divisão muda o acerto."
+      }
     },
     {
       "id": "Velkoz.W",
@@ -37,7 +41,11 @@
         1.5,
         1.5,
         1.5
-      ]
+      ],
+      "coaching": {
+        "use": "Fenda causa dano inicial e outra explosão.",
+        "limit": "O segundo dano exige permanência na região."
+      }
     },
     {
       "id": "Velkoz.E",
@@ -50,7 +58,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Área controla e afasta ameaças próximas.",
+        "limit": "A preparação precisa acompanhar o caminho real da entrada."
+      }
     },
     {
       "id": "Velkoz.R",
@@ -61,48 +73,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Raio canalizado acompanha direção e pode dar dano verdadeiro ao alvo pesquisado.",
+        "limit": "O corpo fica comprometido com a canalização."
+      }
     },
     {
       "id": "Velkoz.P",
       "ability": "P",
       "name": "Desconstrução Orgânica",
       "description": "As habilidades de Vel'Koz aplicam Desconstrução Orgânica nos inimigos ao contato. Ao chegar a 3 acúmulos, o inimigo receberá uma rajada de Dano Verdadeiro.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Três aplicações preparam dano verdadeiro.",
+        "limit": "Precisa conectar a sequência no alvo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Canalizar perto da entrada inimiga pode interromper toda a sequência.",
+      "O corpo fica comprometido com a canalização."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+        "plan": "Gerencie mana e ângulos da wave sem perder o caminho de recuo.",
+        "against": "Ameace o corpo por outro ângulo e evite alinhamento de alvos.",
+        "resource": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+        "caution": "Canalizar perto da entrada inimiga pode interromper toda a sequência."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+        "plan": "Cause dano de uma posição em que aliados cubram a aproximação.",
+        "against": "Ameace o corpo por outro ângulo e evite alinhamento de alvos.",
+        "resource": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+        "caution": "Canalizar perto da entrada inimiga pode interromper toda a sequência."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+        "plan": "Escolha uma região segura de canalização e um alvo que o time mantenha acessível.",
+        "against": "Na luta decisiva, ameace o corpo por outro ângulo e evite alinhamento de alvos.",
+        "resource": "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+        "caution": "Canalizar perto da entrada inimiga pode interromper toda a sequência."
       }
     },
     "strengths": [
-      "Fissão Plasmática: Vel'Koz dispara um projétil de plasma que se divide em dois ao ser reativado ou ao atingir um inimigo. O projétil causa dano e redução de velocidade a inimigos ao contato.",
-      "Raio Desintegrador de Formas de Vida: Vel'Koz desfere um raio canalizado que segue o cursor por 2,5s, causando Dano Mágico. Desconstrução Orgânica pesquisa Campeões inimigos, fazendo com que recebam Dano Verdadeiro em vez de Dano Mágico."
+      "Pressiona alvos por ângulos longos sem abandonar a cobertura.",
+      "Raio canalizado acompanha direção e pode dar dano verdadeiro ao alvo pesquisado."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

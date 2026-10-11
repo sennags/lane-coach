@@ -24,7 +24,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo cura; fúria amplia o benefício.",
+        "limit": "Depende de alvos ao alcance e do recurso disponível."
+      }
     },
     {
       "id": "Renekton.W",
@@ -37,7 +41,11 @@
         12,
         10,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque controla; fortalecido amplia controle e remove escudo.",
+        "limit": "O efeito maior exige fúria e contato."
+      }
     },
     {
       "id": "Renekton.E",
@@ -50,7 +58,11 @@
         13,
         11.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço dá dano; fortalecimento reduz defesa.",
+        "limit": "A chegada pode comprometer o caminho de retorno."
+      }
     },
     {
       "id": "Renekton.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Vida e dano próximo ampliam a janela de contato.",
+        "limit": "Não garantem acesso a um alvo distante."
+      }
     },
     {
       "id": "Renekton.P",
       "ability": "P",
       "name": "Domínio da Ira",
       "description": "Os ataques de Renekton geram Fúria, que aumenta quando ele estiver com a Vida baixa. Essa Fúria pode fortalecer suas habilidades com efeitos adicionais.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques geram fúria para fortalecer habilidades.",
+        "limit": "O recurso precisa ser preparado antes da troca."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona uma entrada curta sobre um alvo alcançável.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Chegar sem recurso ou sem continuação pode gastar toda a defesa na entrada.",
+      "Não garantem acesso a um alvo distante."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona uma entrada curta sobre um alvo alcançável.",
+        "plan": "Prepare fúria pelo farm e mantenha um recuo na wave antes de avançar.",
+        "against": "Observe a fúria e cubra o aliado alcançável antes da sequência próxima.",
+        "resource": "Pressiona uma entrada curta sobre um alvo alcançável.",
+        "caution": "Chegar sem recurso ou sem continuação pode gastar toda a defesa na entrada."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona uma entrada curta sobre um alvo alcançável.",
+        "plan": "Chegue com recurso preparado e apoio para continuar após o contato inicial.",
+        "against": "Observe a fúria e cubra o aliado alcançável antes da sequência próxima.",
+        "resource": "Pressiona uma entrada curta sobre um alvo alcançável.",
+        "caution": "Chegar sem recurso ou sem continuação pode gastar toda a defesa na entrada."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona uma entrada curta sobre um alvo alcançável.",
+        "plan": "Escolha entre cobrir a frente e ameaçar uma borda, sem perseguir para fora do time.",
+        "against": "Na luta decisiva, observe a fúria e cubra o aliado alcançável antes da sequência próxima.",
+        "resource": "Pressiona uma entrada curta sobre um alvo alcançável.",
+        "caution": "Chegar sem recurso ou sem continuação pode gastar toda a defesa na entrada."
       }
     },
     "strengths": [
-      "Abater os Indefesos: Renekton brande sua lâmina, causando Dano Físico moderado em todos os alvos ao seu redor e curando-o em uma pequena quantia do dano causado. Caso tenha mais que 50 pontos de Fúria, seu dano e cura aumentam.",
-      "Dominus: Renekton transforma-se em sua forma Tirana, recebendo Vida adicional e causando dano a inimigos ao seu redor. Enquanto estiver nessa forma, ele recebe Fúria periodicamente."
+      "Pressiona uma entrada curta sobre um alvo alcançável.",
+      "Vida e dano próximo ampliam a janela de contato."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

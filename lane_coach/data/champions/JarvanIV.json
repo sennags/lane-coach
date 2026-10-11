@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Linha reduz armadura e, com bandeira, cria avanço e controle.",
+        "limit": "O avanço depende de alinhar a bandeira."
+      }
     },
     {
       "id": "JarvanIV.W",
@@ -37,7 +41,11 @@
         9,
         9,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Proteção e lentidão ajudam no contato próximo.",
+        "limit": "O efeito não garante sobreviver a entrada isolada."
+      }
     },
     {
       "id": "JarvanIV.E",
@@ -50,7 +58,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Bandeira concede velocidade de ataque aos aliados próximos.",
+        "limit": "O benefício depende de estarem perto da região."
+      }
     },
     {
       "id": "JarvanIV.R",
@@ -61,48 +73,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Arena prende espaço em torno do alvo e dá dano.",
+        "limit": "Também pode limitar o movimento dos aliados."
+      }
     },
     {
       "id": "JarvanIV.P",
       "ability": "P",
       "name": "Cadência Marcial",
       "description": "O primeiro ataque básico de Jarvan a um inimigo causa Dano Físico adicional com base na Vida atual dele. Este efeito não ocorrerá no mesmo inimigo novamente por alguns segundos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Primeiro ataque no alvo aplica dano pela vida atual.",
+        "limit": "Não repete imediatamente no mesmo inimigo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Abre uma entrada e limita o espaço de um alvo para o time.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Uma arena sem acompanhamento pode isolar Jarvan com várias ameaças.",
+      "Também pode limitar o movimento dos aliados."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Abre uma entrada e limita o espaço de um alvo para o time.",
+        "plan": "Planeje farm e visão antes de comprometer a aproximação na wave.",
+        "against": "Observe onde a arena deixaria seus aliados e evite entrar todos pelo mesmo caminho.",
+        "resource": "Abre uma entrada e limita o espaço de um alvo para o time.",
+        "caution": "Uma arena sem acompanhamento pode isolar Jarvan com várias ameaças."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Abre uma entrada e limita o espaço de um alvo para o time.",
+        "plan": "Escolha uma chegada acompanhável e preserve um caminho para sair se a resposta for grande.",
+        "against": "Observe onde a arena deixaria seus aliados e evite entrar todos pelo mesmo caminho.",
+        "resource": "Abre uma entrada e limita o espaço de um alvo para o time.",
+        "caution": "Uma arena sem acompanhamento pode isolar Jarvan com várias ameaças."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Abre uma entrada e limita o espaço de um alvo para o time.",
+        "plan": "Use a entrada para prender um alvo acessível ou proteger contra quem invade sua formação.",
+        "against": "Na luta decisiva, observe onde a arena deixaria seus aliados e evite entrar todos pelo mesmo caminho.",
+        "resource": "Abre uma entrada e limita o espaço de um alvo para o time.",
+        "caution": "Uma arena sem acompanhamento pode isolar Jarvan com várias ameaças."
       }
     },
     "strengths": [
-      "Ataque do Dragão: Jarvan IV estende sua lança, causando Dano Físico e reduzindo a Armadura de inimigos atingidos. Além disto, ela puxará Jarvan na direção de seu Estandarte Demaciano, arremessando inimigos em seu trajeto ao ar.",
-      "Cataclisma: Jarvan IV heroicamente salta em direção ao alvo com força o suficiente para deformar o terreno, criando uma arena ao seu redor. Os inimigos próximos recebem dano no momento do impacto."
+      "Abre uma entrada e limita o espaço de um alvo para o time.",
+      "Arena prende espaço em torno do alvo e dá dano."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

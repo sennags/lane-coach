@@ -24,7 +24,11 @@
         5.5,
         4.25,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Pedregulho fortalece ataques e pode virar projétil.",
+        "limit": "Escolher o arremesso muda a continuação próxima."
+      }
     },
     {
       "id": "Skarner.W",
@@ -37,7 +41,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e onda de lentidão protegem contato.",
+        "limit": "A proteção tem uma janela e alcance próximo."
+      }
     },
     {
       "id": "Skarner.E",
@@ -50,7 +58,11 @@
         20,
         19,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Atravessa terreno e pode empurrar alvo contra parede.",
+        "limit": "A colisão e o terreno determinam o controle."
+      }
     },
     {
       "id": "Skarner.R",
@@ -61,48 +73,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Suprime e arrasta os campeões atingidos.",
+        "limit": "A direção pode levar ameaças para o lugar errado."
+      }
     },
     {
       "id": "Skarner.P",
       "ability": "P",
       "name": "Linhas de Vibração",
       "description": "Os Ataques do Skarner, Terra Arrasada, Sublevação e Empalar, aplicam Tremor. Com o máximo de acúmulos de Tremor, os inimigos sofrem Dano Mágico com base na Vida máxima ao longo da duração.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acúmulos completos aplicam dano pela vida ao longo do tempo.",
+        "limit": "Exige conectar a sequência de efeitos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Separa uma ameaça ou reorganiza a entrada para o time.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Arrastar uma ameaça para perto de aliados frágeis pode facilitar a entrada inimiga.",
+      "A direção pode levar ameaças para o lugar errado."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Separa uma ameaça ou reorganiza a entrada para o time.",
+        "plan": "Priorize renda e terreno preparado; na rota, resolva a wave antes de sair.",
+        "against": "Observe paredes e a direção de arrasto, mantendo aliados separados.",
+        "resource": "Separa uma ameaça ou reorganiza a entrada para o time.",
+        "caution": "Arrastar uma ameaça para perto de aliados frágeis pode facilitar a entrada inimiga."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Separa uma ameaça ou reorganiza a entrada para o time.",
+        "plan": "Prepare uma chegada pelo terreno que aliados possam acompanhar.",
+        "against": "Observe paredes e a direção de arrasto, mantendo aliados separados.",
+        "resource": "Separa uma ameaça ou reorganiza a entrada para o time.",
+        "caution": "Arrastar uma ameaça para perto de aliados frágeis pode facilitar a entrada inimiga."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Separa uma ameaça ou reorganiza a entrada para o time.",
+        "plan": "Priorize proteger quem recebe foco ou trazer um alvo realmente acessível.",
+        "against": "Na luta decisiva, observe paredes e a direção de arrasto, mantendo aliados separados.",
+        "resource": "Separa uma ameaça ou reorganiza a entrada para o time.",
+        "caution": "Arrastar uma ameaça para perto de aliados frágeis pode facilitar a entrada inimiga."
       }
     },
     "strengths": [
-      "Terra Arrasada/Sublevação: Skarner arranca um pedregulho do chão que fortalece seus Ataques e pode ser arremessado como um projétil poderoso.",
-      "Empalar: As caudas de Skarner atacam e suprimem Campeões inimigos. Após serem suprimidas, as vítimas serão arrastadas por Skarner enquanto ele se movimenta."
+      "Separa uma ameaça ou reorganiza a entrada para o time.",
+      "Suprime e arrasta os campeões atingidos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

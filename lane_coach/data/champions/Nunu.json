@@ -24,7 +24,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Mordida causa dano e cura.",
+        "limit": "Exige um alvo ao alcance."
+      }
     },
     {
       "id": "Nunu.W",
@@ -37,7 +41,11 @@
         14,
         14,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Bola cresce durante o percurso e controla na colisão.",
+        "limit": "O trajeto precisa terminar em região acompanhável."
+      }
     },
     {
       "id": "Nunu.E",
@@ -50,7 +58,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Sequência prepara enraizamento nos alvos atingidos.",
+        "limit": "A continuação depende de conectar os acertos."
+      }
     },
     {
       "id": "Nunu.R",
@@ -61,48 +73,64 @@
         110,
         100,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Área desacelera e acumula dano até terminar.",
+        "limit": "Sair ou interromper a preparação reduz o impacto."
+      }
     },
     {
       "id": "Nunu.P",
       "ability": "P",
       "name": "Chamado de Freljord",
       "description": "Nunu aumenta as Velocidades de Ataque e de Movimento de Willump e de um aliado próximo, além de fazer com que os ataques básicos de Willump causem dano a inimigos ao redor do alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fortalece movimento e ataques de aliado próximo.",
+        "limit": "O time precisa estar em posição de aproveitar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Prepara uma entrada e dificulta atravessar uma região próxima.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Canalizar sem cobertura pode interromper toda a ameaça preparada.",
+      "Sair ou interromper a preparação reduz o impacto."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Prepara uma entrada e dificulta atravessar uma região próxima.",
+        "plan": "Priorize renda e caminhos úteis; se disputar rota, resolva a wave antes da aproximação.",
+        "against": "Abra caminho para sair da região e observe o trajeto da aproximação.",
+        "resource": "Prepara uma entrada e dificulta atravessar uma região próxima.",
+        "caution": "Canalizar sem cobertura pode interromper toda a ameaça preparada."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Prepara uma entrada e dificulta atravessar uma região próxima.",
+        "plan": "Chegue com apoio e use o corpo para interromper a aproximação sobre aliados.",
+        "against": "Abra caminho para sair da região e observe o trajeto da aproximação.",
+        "resource": "Prepara uma entrada e dificulta atravessar uma região próxima.",
+        "caution": "Canalizar sem cobertura pode interromper toda a ameaça preparada."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Prepara uma entrada e dificulta atravessar uma região próxima.",
+        "plan": "Proteja a formação ou entre num grupo que não consegue abandonar facilmente a área.",
+        "against": "Na luta decisiva, abra caminho para sair da região e observe o trajeto da aproximação.",
+        "resource": "Prepara uma entrada e dificulta atravessar uma região próxima.",
+        "caution": "Canalizar sem cobertura pode interromper toda a ameaça preparada."
       }
     },
     "strengths": [
-      "Consumir: Willump dá uma mordida em uma tropa, monstro ou Campeão inimigo, causando dano e se curando.",
-      "Zero Absoluto: Nunu e Willump criam uma poderosa nevasca em uma área, causando lentidão aos inimigos e um dano massivo quando se encerrar."
+      "Prepara uma entrada e dificulta atravessar uma região próxima.",
+      "Área desacelera e acumula dano até terminar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

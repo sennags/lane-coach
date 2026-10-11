@@ -24,7 +24,11 @@
         16,
         16,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Enraíza o primeiro alvo e pode arremessá-lo.",
+        "limit": "A direção escolhida pode aproximar uma ameaça do aliado."
+      }
     },
     {
       "id": "Renata.W",
@@ -37,7 +41,11 @@
         26,
         25,
         24
-      ]
+      ],
+      "coaching": {
+        "use": "Fortalece aliado e adia morte com chance de salvar por eliminação.",
+        "limit": "A sobrevivência definitiva depende da eliminação na janela."
+      }
     },
     {
       "id": "Renata.E",
@@ -50,7 +58,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Trajeto protege aliados e desacelera inimigos.",
+        "limit": "Precisa alinhar a ferramenta com quem recebe a ameaça."
+      }
     },
     {
       "id": "Renata.R",
@@ -61,48 +73,64 @@
         150,
         130,
         110
-      ]
+      ],
+      "coaching": {
+        "use": "Onda força inimigos atingidos a atacar em estado de berserk.",
+        "limit": "O caminho e o tempo de chegada permitem reposicionar."
+      }
     },
     {
       "id": "Renata.P",
       "ability": "P",
       "name": "Financiamento",
       "description": "Os Ataques de Renata causam dano adicional e marcam inimigos. Os aliados de Renata podem atacar inimigos marcados para causar dano adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques marcam para dano adicional dos aliados.",
+        "limit": "O time precisa seguir a marca para aproveitar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Responde à entrada e mantém um aliado ativo durante a pressão.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Adiar a morte sem chance de continuação pode apenas atrasar a perda do aliado.",
+      "O caminho e o tempo de chegada permitem reposicionar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Responde à entrada e mantém um aliado ativo durante a pressão.",
+        "plan": "Preserve mana e cobertura do farm em vez de pressionar com todas as defesas.",
+        "against": "Espalhe os aliados e evite entregar vários atacantes à mesma onda.",
+        "resource": "Responde à entrada e mantém um aliado ativo durante a pressão.",
+        "caution": "Adiar a morte sem chance de continuação pode apenas atrasar a perda do aliado."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Responde à entrada e mantém um aliado ativo durante a pressão.",
+        "plan": "Fique perto de quem consegue aproveitar proteção e contra-ataque.",
+        "against": "Espalhe os aliados e evite entregar vários atacantes à mesma onda.",
+        "resource": "Responde à entrada e mantém um aliado ativo durante a pressão.",
+        "caution": "Adiar a morte sem chance de continuação pode apenas atrasar a perda do aliado."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Responde à entrada e mantém um aliado ativo durante a pressão.",
+        "plan": "Espere a formação inimiga se comprometer e use apoio no alvo que pode continuar lutando.",
+        "against": "Na luta decisiva, espalhe os aliados e evite entregar vários atacantes à mesma onda.",
+        "resource": "Responde à entrada e mantém um aliado ativo durante a pressão.",
+        "caution": "Adiar a morte sem chance de continuação pode apenas atrasar a perda do aliado."
       }
     },
     "strengths": [
-      "Negócio Fechado: Renata envia um foguete que enraíza o primeiro inimigo atingido. Ela pode reconjurar a habilidade para arremessar a unidade em uma direção.",
-      "Apropriação Agressiva: Renata envia uma onda de produtos químicos, fazendo com que inimigos atingidos entrem em estado de Berserk."
+      "Responde à entrada e mantém um aliado ativo durante a pressão.",
+      "Onda força inimigos atingidos a atacar em estado de berserk."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

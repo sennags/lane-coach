@@ -24,7 +24,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Rastro causa dano a quem atravessa ou permanece.",
+        "limit": "Quem não segue o caminho pode evitar a pressão."
+      }
     },
     {
       "id": "Singed.W",
@@ -37,7 +41,11 @@
         15,
         14,
         13
-      ]
+      ],
+      "coaching": {
+        "use": "Área prende ao chão e dificulta movimento.",
+        "limit": "Depende de o alvo ocupar a região."
+      }
     },
     {
       "id": "Singed.E",
@@ -50,7 +58,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Arremesso reposiciona alvo e pode enraizar no adesivo.",
+        "limit": "A direção pode levar a ameaça até um aliado."
+      }
     },
     {
       "id": "Singed.R",
@@ -61,48 +73,64 @@
         100,
         100,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Atributos de combate ampliam presença e veneno aplica anti-cura.",
+        "limit": "Ainda precisa sobreviver e manter um caminho útil."
+      }
     },
     {
       "id": "Singed.P",
       "ability": "P",
       "name": "Corrente de Ar Nociva",
       "description": "Ao passar por Campeões próximos, Singed ganha Velocidade de Movimento.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Passar perto de campeões concede movimento.",
+        "limit": "Chegar perto também expõe o corpo à resposta."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Correr sem propósito pode deixar Singed longe de qualquer contribuição útil.",
+      "Ainda precisa sobreviver e manter um caminho útil."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+        "plan": "Controle a wave e planeje recuo sem entregar a vida para prolongar pressão.",
+        "against": "Não persiga pelo rastro e cubra o aliado que pode ser arremessado.",
+        "resource": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+        "caution": "Correr sem propósito pode deixar Singed longe de qualquer contribuição útil."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+        "plan": "Passe pela borda com apoio e escolha um deslocamento que exponha um alvo.",
+        "against": "Não persiga pelo rastro e cubra o aliado que pode ser arremessado.",
+        "resource": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+        "caution": "Correr sem propósito pode deixar Singed longe de qualquer contribuição útil."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+        "plan": "Proteja espaço ou separe uma ameaça sem correr para longe da formação.",
+        "against": "Na luta decisiva, não persiga pelo rastro e cubra o aliado que pode ser arremessado.",
+        "resource": "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+        "caution": "Correr sem propósito pode deixar Singed longe de qualquer contribuição útil."
       }
     },
     "strengths": [
-      "Rastro de Veneno: Deixa um rastro de veneno atrás de Singed, causando dano aos inimigos que passam por este caminho.",
-      "Poção da Insanidade: Singed bebe uma mistura de compostos químicos potentes que concede a ele atributos de combate aumentados e faz com que o Rastro de Veneno aplique Feridas Dolorosas."
+      "Desorganiza a frente e pune perseguição pelo caminho preparado.",
+      "Atributos de combate ampliam presença e veneno aplica anti-cura."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         4,
         3,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil ou golpe próximo muda conforme a distância.",
+        "limit": "O alcance escolhido altera o risco de resposta."
+      }
     },
     {
       "id": "Samira.W",
@@ -37,7 +41,11 @@
         26,
         24,
         22
-      ]
+      ],
+      "coaching": {
+        "use": "Área destrói projéteis próximos.",
+        "limit": "Não bloqueia todo tipo de ameaça e a janela é breve."
+      }
     },
     {
       "id": "Samira.E",
@@ -50,7 +58,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço atravessa inimigo; abate reinicia a ferramenta.",
+        "limit": "Não conte com reinício antes de finalizar."
+      }
     },
     {
       "id": "Samira.R",
@@ -61,48 +73,64 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano ao redor pressiona vários alvos próximos.",
+        "limit": "Precisa preparar a entrada e manter contato sem ser interrompida."
+      }
     },
     {
       "id": "Samira.P",
       "ability": "P",
       "name": "Impulso Audacioso",
       "description": "Samira gera um combo conforme Ataca ou conjura habilidades de forma alternada. Seus Ataques corpo a corpo causam Dano Mágico adicional. Os Ataques de Samira contra inimigos sob efeitos Imobilizadores a farão avançar ao Alcance de Ataque dela. Se o inimigo estiver afetado por Arremesso ao ar , ela mantém o Arremesso ao ar por um curto período.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Alternar ataques e habilidades prepara a sequência de estilo.",
+        "limit": "Repetir ações não aproveita a mesma preparação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Entrar contando com reinício pode prender Samira numa luta sem saída.",
+      "Precisa preparar a entrada e manter contato sem ser interrompida."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+        "plan": "Preserve renda e espaço de recuo antes de avançar por pressão na wave.",
+        "against": "Reserve controle para a chegada e proteja aliados de pouca vida.",
+        "resource": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+        "caution": "Entrar contando com reinício pode prender Samira numa luta sem saída."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+        "plan": "Prepare a sequência com cobertura, sem ser a primeira a receber toda a resposta.",
+        "against": "Reserve controle para a chegada e proteja aliados de pouca vida.",
+        "resource": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+        "caution": "Entrar contando com reinício pode prender Samira numa luta sem saída."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+        "plan": "Espere alvos acessíveis e proteção comprometida antes de entrar no grupo.",
+        "against": "Na luta decisiva, reserve controle para a chegada e proteja aliados de pouca vida.",
+        "resource": "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+        "caution": "Entrar contando com reinício pode prender Samira numa luta sem saída."
       }
     },
     "strengths": [
-      "Talento Natural: Samira dispara um projétil ou golpeia com a espada, causando dano. Se a habilidade for conjurada durante Ímpeto Indomável, ela atinge todos os inimigos no caminho.",
-      "Gatilho Infernal: Samira dispara uma saraivada de tiros, atingindo todos os inimigos ao redor dela."
+      "Acompanha uma oportunidade aliada e busca continuar após uma finalização.",
+      "Dano ao redor pressiona vários alvos próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

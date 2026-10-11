@@ -24,7 +24,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo empurra e desacelera.",
+        "limit": "O deslocamento pode afastar um alvo do dano aliado."
+      }
     },
     {
       "id": "Maokai.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço inalvejável termina em enraizamento.",
+        "limit": "A chegada pode ser longe da cobertura."
+      }
     },
     {
       "id": "Maokai.E",
@@ -50,7 +58,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Muda guarda uma região e ganha eficiência em arbusto.",
+        "limit": "Preparar uma área não impede todas as rotas alternativas."
+      }
     },
     {
       "id": "Maokai.R",
@@ -61,48 +73,64 @@
         130,
         110,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Parede lenta controla quem entra no caminho.",
+        "limit": "O tempo de viagem permite mudar de posição."
+      }
     },
     {
       "id": "Maokai.P",
       "ability": "P",
       "name": "Seiva Mágica",
       "description": "O ataque básico de Maokai também concede cura a ele e causa dano adicional com um Tempo de Recarga moderado. Sempre que ele conjurar uma habilidade ou for atingido por uma habilidade inimiga, o Tempo de Recarga da cura é reduzido.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataque periódico cura; habilidades reduzem o intervalo.",
+        "limit": "Ainda precisa acertar o ataque para receber a cura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Controla uma aproximação e protege o espaço do time.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Seguir um alvo distante pode retirar toda a proteção da formação.",
+      "O tempo de viagem permite mudar de posição."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Controla uma aproximação e protege o espaço do time.",
+        "plan": "Gerencie farm e recuperação sem gastar a aproximação por pressão sem recuo.",
+        "against": "Observe os acessos preparados e evite concentrar todos na mesma linha de controle.",
+        "resource": "Controla uma aproximação e protege o espaço do time.",
+        "caution": "Seguir um alvo distante pode retirar toda a proteção da formação."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Controla uma aproximação e protege o espaço do time.",
+        "plan": "Acompanhe a linha aliada, escolhendo captura ou proteção contra quem entra.",
+        "against": "Observe os acessos preparados e evite concentrar todos na mesma linha de controle.",
+        "resource": "Controla uma aproximação e protege o espaço do time.",
+        "caution": "Seguir um alvo distante pode retirar toda a proteção da formação."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Controla uma aproximação e protege o espaço do time.",
+        "plan": "Fique perto da ameaça aos aliados; não abandone a frente por uma perseguição longa.",
+        "against": "Na luta decisiva, observe os acessos preparados e evite concentrar todos na mesma linha de controle.",
+        "resource": "Controla uma aproximação e protege o espaço do time.",
+        "caution": "Seguir um alvo distante pode retirar toda a proteção da formação."
       }
     },
     "strengths": [
-      "Esmagamento Espinhoso: Maokai empurra inimigos próximos para trás com uma onda de choque, causando Dano Mágico e redução de velocidade.",
-      "Garras da Natureza: Maokai invoca uma parede colossal de espinhos que avança lentamente, causando dano e enraizando inimigos no caminho."
+      "Controla uma aproximação e protege o espaço do time.",
+      "Parede lenta controla quem entra no caminho."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Vida perdida amplia ataque; ativação troca fúria por cura.",
+        "limit": "Vida baixa também expõe a uma finalização."
+      }
     },
     {
       "id": "Tryndamere.W",
@@ -37,7 +41,11 @@
         14,
         14,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Reduz ataque e desacelera alvos de costas.",
+        "limit": "O controle de movimento depende da direção do inimigo."
+      }
     },
     {
       "id": "Tryndamere.E",
@@ -50,7 +58,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço dá dano no percurso.",
+        "limit": "Usar para entrar compromete a saída disponível."
+      }
     },
     {
       "id": "Tryndamere.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Impede morrer durante uma janela.",
+        "limit": "A janela termina; planeje o recuo antes disso."
+      }
     },
     {
       "id": "Tryndamere.P",
       "ability": "P",
       "name": "Fúria da Batalha",
       "description": "Tryndamere recebe Fúria para cada ataque, acerto crítico e golpe fatal que realiza. A Fúria passivamente aumenta a sua Chance de Acerto Crítico e pode ser consumida com a habilidade Sanguinário.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques geram fúria que aumenta crítico.",
+        "limit": "Consumir a fúria para cura muda a pressão ofensiva."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir até o fim da janela pode deixar Tryndamere sem recuo.",
+      "A janela termina; planeje o recuo antes disso."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+        "plan": "Prepare fúria e farm mantendo um caminho de saída após a pressão.",
+        "against": "Abra distância durante a proteção e preserve resposta para quando ela acabar.",
+        "resource": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+        "caution": "Perseguir até o fim da janela pode deixar Tryndamere sem recuo."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+        "plan": "Escolha um contato com saída antes de comprometer a proteção temporária.",
+        "against": "Abra distância durante a proteção e preserve resposta para quando ela acabar.",
+        "resource": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+        "caution": "Perseguir até o fim da janela pode deixar Tryndamere sem recuo."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+        "plan": "Espere acesso real ao alvo e recue antes de a janela terminar.",
+        "against": "Na luta decisiva, abra distância durante a proteção e preserve resposta para quando ela acabar.",
+        "resource": "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+        "caution": "Perseguir até o fim da janela pode deixar Tryndamere sem recuo."
       }
     },
     "strengths": [
-      "Sanguinário: Tryndamere prospera com o calor do combate, aumentando seu próprio Dano de Ataque conforme for ficando mais e mais ferido. Ele pode conjurar Sanguinário para consumir sua Fúria e curar a si mesmo.",
-      "Fúria Sem Fim: O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja."
+      "Pressiona um alvo próximo durante uma janela de sobrevivência.",
+      "Impede morrer durante uma janela."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

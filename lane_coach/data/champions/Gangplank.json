@@ -23,7 +23,11 @@
         4.5,
         4.5,
         4.5
-      ]
+      ],
+      "coaching": {
+        "use": "Disparo que abate unidade concede ouro adicional.",
+        "limit": "O ganho exige finalizar a unidade."
+      }
     },
     {
       "id": "Gangplank.W",
@@ -36,7 +40,11 @@
         18,
         16,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Remove controle e restaura vida.",
+        "limit": "A recarga deixa uma janela sem a mesma defesa."
+      }
     },
     {
       "id": "Gangplank.E",
@@ -49,7 +57,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Barril prepara dano e lentidão em área.",
+        "limit": "Precisa preparar e detonar no espaço útil da luta."
+      }
     },
     {
       "id": "Gangplank.R",
@@ -60,48 +72,64 @@
         160,
         140,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Bombardeio distante pressiona uma região.",
+        "limit": "Inimigos podem sair; use para limitar caminhos, não garantir abate."
+      }
     },
     {
       "id": "Gangplank.P",
       "ability": "P",
       "name": "Julgamento de Fogo",
       "description": "Periodicamente, o ataque corpo a corpo de Gangplank deixará seu inimigo em chamas.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataque próximo aplica queimadura periodicamente.",
+        "limit": "Exige aproximar; o benefício não elimina o risco de contato."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar em alcance curto só para aproveitar dano pode abandonar uma posição segura.",
+      "Inimigos podem sair; use para limitar caminhos, não garantir abate."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+        "plan": "Use o farm eficiente para planejar recuo sem perder o controle da wave.",
+        "against": "Não permaneça em regiões preparadas e pressione sua posição após perder a defesa.",
+        "resource": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+        "caution": "Entrar em alcance curto só para aproveitar dano pode abandonar uma posição segura."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+        "plan": "Prepare espaço ao lado do time e cause dano sem caminhar à frente por um alvo.",
+        "against": "Não permaneça em regiões preparadas e pressione sua posição após perder a defesa.",
+        "resource": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+        "caution": "Entrar em alcance curto só para aproveitar dano pode abandonar uma posição segura."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+        "plan": "Mantenha a região de ataque coberta e use pressão em área para ajudar a formação.",
+        "against": "Na luta decisiva, não permaneça em regiões preparadas e pressione sua posição após perder a defesa.",
+        "resource": "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+        "caution": "Entrar em alcance curto só para aproveitar dano pode abandonar uma posição segura."
       }
     },
     "strengths": [
-      "Negociarrr: Dispara no alvo, saqueando ouro para cada abate de unidade.",
-      "Barragem de Canhão: Gangplank sinaliza para que seu navio bombardeie uma área, causando dano e lentidão aos inimigos."
+      "Controla áreas preparadas e pune grupos que ocupam esses espaços.",
+      "Bombardeio distante pressiona uma região."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

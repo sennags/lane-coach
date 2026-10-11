@@ -24,7 +24,11 @@
         5,
         4.5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque dá dano e cura; condições indicadas preparam cova.",
+        "limit": "O preparo depende de finalizar ou atingir o alvo adequado."
+      }
     },
     {
       "id": "Yorick.W",
@@ -37,7 +41,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Parede bloqueia movimento em uma região.",
+        "limit": "Pode ser destruída; não prende indefinidamente."
+      }
     },
     {
       "id": "Yorick.E",
@@ -50,7 +58,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Marca desacelera e guia invocações ao alvo.",
+        "limit": "Depende de conectar e manter unidades disponíveis."
+      }
     },
     {
       "id": "Yorick.R",
@@ -61,48 +73,64 @@
         160,
         130,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Donzela amplia pressão e prepara mais andarilhos.",
+        "limit": "Perder a invocação muda a força disponível."
+      }
     },
     {
       "id": "Yorick.P",
       "ability": "P",
       "name": "Pastor de Almas",
       "description": "A Horda Maldita: Yorick pode invocar Andarilhos da Névoa e atacar inimigos próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Andarilhos ampliam pressão em alvos próximos.",
+        "limit": "Precisa de invocações disponíveis para aproveitar a força."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém pressão com invocações e uma região limitada por terreno.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar sem unidades pode retirar grande parte da ameaça esperada.",
+      "Perder a invocação muda a força disponível."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém pressão com invocações e uma região limitada por terreno.",
+        "plan": "Planeje covas e wave para preservar renda e não comprometer invocações por pressão arriscada.",
+        "against": "Observe as unidades disponíveis e evite aceitar toda a pressão num caminho bloqueado.",
+        "resource": "Mantém pressão com invocações e uma região limitada por terreno.",
+        "caution": "Entrar sem unidades pode retirar grande parte da ameaça esperada."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém pressão com invocações e uma região limitada por terreno.",
+        "plan": "Acompanhe alvos acessíveis sem separar o corpo de suas unidades úteis.",
+        "against": "Observe as unidades disponíveis e evite aceitar toda a pressão num caminho bloqueado.",
+        "resource": "Mantém pressão com invocações e uma região limitada por terreno.",
+        "caution": "Entrar sem unidades pode retirar grande parte da ameaça esperada."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém pressão com invocações e uma região limitada por terreno.",
+        "plan": "Proteja espaço com preparação e não persiga longe das invocações.",
+        "against": "Na luta decisiva, observe as unidades disponíveis e evite aceitar toda a pressão num caminho bloqueado.",
+        "resource": "Mantém pressão com invocações e uma região limitada por terreno.",
+        "caution": "Entrar sem unidades pode retirar grande parte da ameaça esperada."
       }
     },
     "strengths": [
-      "Extrema-Unção: Yorick causa dano adicional em seu próximo Ataque e se cura. Se o alvo for um Campeão/monstro grande ou se ele for abatido, uma cova será aberta.",
-      "Louvor das Ilhas: Yorick invoca a Donzela da Névoa, que faz com que seus ataques contra os alvos dela causem dano adicional. A Donzela também faz surgir Andarilhos automaticamente a partir de inimigos mortos."
+      "Mantém pressão com invocações e uma região limitada por terreno.",
+      "Donzela amplia pressão e prepara mais andarilhos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

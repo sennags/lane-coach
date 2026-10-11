@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Mísseis buscam alvos próximos.",
+        "limit": "Vários alvos próximos dividem a pressão disponível."
+      }
     },
     {
       "id": "Kaisa.W",
@@ -37,7 +41,11 @@
         17,
         15.5,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil longo aplica plasma; evolução melhora as aplicações.",
+        "limit": "A evolução e o acerto em campeão mudam o benefício de recarga."
+      }
     },
     {
       "id": "Kaisa.E",
@@ -50,7 +58,11 @@
         13,
         11.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade breve prepara ataques mais rápidos.",
+        "limit": "Invisibilidade depende da evolução da habilidade."
+      }
     },
     {
       "id": "Kaisa.R",
@@ -61,48 +73,64 @@
         130,
         100,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Avança para perto de um campeão.",
+        "limit": "A posição escolhida pode separar Kai'Sa do apoio."
+      }
     },
     {
       "id": "Kaisa.P",
       "ability": "P",
       "name": "Segunda Pele",
       "description": "Os ataques básicos de Kai'Sa acumulam Plasma, causando Dano Mágico adicional crescente. Efeitos imobilizadores de aliados ajudam a acumular Plasma. Além disso, as aquisições de itens de Kai'Sa aprimoram suas habilidades básicas, deixando-as mais poderosas.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques e controle aliado acumulam plasma; atributos de itens aprimoram o kit.",
+        "limit": "A evolução depende dos requisitos e não ocorre com qualquer compra."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Aproximar sozinha por uma marca pode comprometer todo o dano contínuo.",
+      "A posição escolhida pode separar Kai'Sa do apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+        "plan": "Priorize farm para preparar atributos e preserve espaço de recuo na wave.",
+        "against": "Cubra alvos expostos e responda ao local em que ela chega.",
+        "resource": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+        "caution": "Aproximar sozinha por uma marca pode comprometer todo o dano contínuo."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+        "plan": "Jogue com cobertura e acompanhe uma entrada apenas se conseguir continuar atacando.",
+        "against": "Cubra alvos expostos e responda ao local em que ela chega.",
+        "resource": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+        "caution": "Aproximar sozinha por uma marca pode comprometer todo o dano contínuo."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+        "plan": "Ataque o alvo seguro; não pule para trás da formação sem avaliar quem pode protegê-la.",
+        "against": "Na luta decisiva, cubra alvos expostos e responda ao local em que ela chega.",
+        "resource": "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+        "caution": "Aproximar sozinha por uma marca pode comprometer todo o dano contínuo."
       }
     },
     "strengths": [
-      "Chuva Icathiana: Kai'Sa dispara uma chuva de projéteis que correm atrás de alvos próximos. Arma Viva: Chuva Icathiana é aprimorada e lança mais mísseis.",
-      "Instinto Assassino: Kai'Sa avança para perto de um Campeão inimigo."
+      "Mantém ataques e pode acompanhar uma oportunidade de finalização.",
+      "Avança para perto de um campeão."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

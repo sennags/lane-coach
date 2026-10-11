@@ -24,7 +24,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dois ataques fortalecidos; esperar entre eles amplia o segundo.",
+        "limit": "Antecipar o segundo golpe perde o bônus do intervalo."
+      }
     },
     {
       "id": "Camille.W",
@@ -37,7 +41,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Borda do cone dá dano adicional, lentidão e cura.",
+        "limit": "O benefício exige acertar a metade exterior."
+      }
     },
     {
       "id": "Camille.E",
@@ -50,7 +58,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Parede permite aproximação e controle na chegada.",
+        "limit": "Precisa de terreno e de uma chegada que o time acompanhe."
+      }
     },
     {
       "id": "Camille.R",
@@ -61,48 +73,64 @@
         140,
         115,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Prende um campeão na região e fortalece ataques contra ele.",
+        "limit": "Isolar o alvo também compromete Camille perto dele."
+      }
     },
     {
       "id": "Camille.P",
       "ability": "P",
       "name": "Defesa Adaptativa",
       "description": "Ataques básicos contra Campeões concedem um Escudo equivalente a uma porcentagem da Vida máxima de Camille contra o tipo de dano deles (Físico ou Mágico) por um breve período.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataque em campeão prepara escudo contra o tipo de dano dele.",
+        "limit": "A proteção não cobre igualmente todo dano inimigo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Cria uma captura ao alcançar e prender um alvo importante.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Prender um alvo protegido sem apoio pode isolar a própria Camille.",
+      "Isolar o alvo também compromete Camille perto dele."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Cria uma captura ao alcançar e prender um alvo importante.",
+        "plan": "Planeje a wave para criar espaço de troca e recuo sem gastar toda aproximação.",
+        "against": "Cubra o aliado ameaçado e acompanhe a aproximação pelas paredes.",
+        "resource": "Cria uma captura ao alcançar e prender um alvo importante.",
+        "caution": "Prender um alvo protegido sem apoio pode isolar a própria Camille."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Cria uma captura ao alcançar e prender um alvo importante.",
+        "plan": "Escolha um alvo sem cobertura imediata e uma entrada com aliados próximos.",
+        "against": "Cubra o aliado ameaçado e acompanhe a aproximação pelas paredes.",
+        "resource": "Cria uma captura ao alcançar e prender um alvo importante.",
+        "caution": "Prender um alvo protegido sem apoio pode isolar a própria Camille."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Cria uma captura ao alcançar e prender um alvo importante.",
+        "plan": "Entre quando o time puder concentrar a resposta no alvo preso; preserve a saída se a captura falhar.",
+        "against": "Na luta decisiva, cubra o aliado ameaçado e acompanhe a aproximação pelas paredes.",
+        "resource": "Cria uma captura ao alcançar e prender um alvo importante.",
+        "caution": "Prender um alvo protegido sem apoio pode isolar a própria Camille."
       }
     },
     "strengths": [
-      "Protocolo de Precisão: O próximo ataque de Camille causa dano adicional e concede Velocidade de Movimento adicional. Esta habilidade pode ser conjurada novamente por um curto período de tempo, causando dano adicional consideravelmente aumentado se Camille criar um intervalo entre os dois ataques.",
-      "Ultimato Hextec: Camille avança em direção ao Campeão alvo, ancorando-o à área. Ela também causa Dano Mágico adicional ao alvo com seus ataques básicos."
+      "Cria uma captura ao alcançar e prender um alvo importante.",
+      "Prende um campeão na região e fortalece ataques contra ele."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

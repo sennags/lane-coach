@@ -23,7 +23,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Explosão atrasada causa mais dano em alvo isolado.",
+        "limit": "Acertar uma região vazia não mantém pressão."
+      }
     },
     {
       "id": "Karthus.W",
@@ -36,7 +40,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Barreira atravessável desacelera e reduz defesa mágica.",
+        "limit": "Não bloqueia fisicamente o caminho."
+      }
     },
     {
       "id": "Karthus.E",
@@ -49,7 +57,11 @@
         0.5,
         0.5,
         0.5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo usa mana; abates ajudam a recuperá-la.",
+        "limit": "Manter a área ativa pode gastar rapidamente o recurso."
+      }
     },
     {
       "id": "Karthus.R",
@@ -60,48 +72,64 @@
         200,
         180,
         160
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização ameaça todos os campeões inimigos.",
+        "limit": "Precisa completar a canalização na condição segura disponível."
+      }
     },
     {
       "id": "Karthus.P",
       "ability": "P",
       "name": "Desafio da Morte",
       "description": "Ao morrer, Karthus entra em forma de espírito e pode continuar conjurando habilidades.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Após morrer pode continuar conjurando na forma espiritual.",
+        "limit": "A continuidade é temporária; não justifica morrer sem alvo útil."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Mantém dano em área e pressiona quem permanece ao alcance.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Morrer longe dos alvos pode desperdiçar inclusive a continuidade espiritual.",
+      "Precisa completar a canalização na condição segura disponível."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Mantém dano em área e pressiona quem permanece ao alcance.",
+        "plan": "Preserve mana e farm; planeje recuo sem ativar dano próximo sem necessidade.",
+        "against": "Não permaneça agrupado na área de dano e interrompa a canalização quando houver acesso seguro.",
+        "resource": "Mantém dano em área e pressiona quem permanece ao alcance.",
+        "caution": "Morrer longe dos alvos pode desperdiçar inclusive a continuidade espiritual."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Mantém dano em área e pressiona quem permanece ao alcance.",
+        "plan": "Cause dano de uma posição acompanhada sem entrar sozinho só para alcançar mais alvos.",
+        "against": "Não permaneça agrupado na área de dano e interrompa a canalização quando houver acesso seguro.",
+        "resource": "Mantém dano em área e pressiona quem permanece ao alcance.",
+        "caution": "Morrer longe dos alvos pode desperdiçar inclusive a continuidade espiritual."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Mantém dano em área e pressiona quem permanece ao alcance.",
+        "plan": "Escolha uma região útil da luta e preserve recurso para continuar contribuindo.",
+        "against": "Na luta decisiva, não permaneça agrupado na área de dano e interrompa a canalização quando houver acesso seguro.",
+        "resource": "Mantém dano em área e pressiona quem permanece ao alcance.",
+        "caution": "Morrer longe dos alvos pode desperdiçar inclusive a continuidade espiritual."
       }
     },
     "strengths": [
-      "Devastar: Karthus desfere uma explosão em um local após um intervalo, causando dano a inimigos próximos. Causa mais dano a inimigos isolados.",
-      "Réquiem: Após canalizar por 3 segundos, Karthus causa dano a todos os Campeões inimigos."
+      "Mantém dano em área e pressiona quem permanece ao alcance.",
+      "Canalização ameaça todos os campeões inimigos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

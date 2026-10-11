@@ -23,7 +23,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de dano ajuda a pressionar e limpar unidades.",
+        "limit": "Alvos depois do primeiro recebem menos dano."
+      }
     },
     {
       "id": "Caitlyn.W",
@@ -36,7 +40,11 @@
         0.5,
         0.5,
         0.5
-      ]
+      ],
+      "coaching": {
+        "use": "Armadilha imobiliza, revela e prepara disparo fortalecido.",
+        "limit": "Precisa que o alvo entre na armadilha."
+      }
     },
     {
       "id": "Caitlyn.E",
@@ -49,7 +57,11 @@
         12,
         10,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Rede desacelera e recua Caitlyn.",
+        "limit": "Confira o espaço atrás de você antes de usar como saída."
+      }
     },
     {
       "id": "Caitlyn.R",
@@ -60,48 +72,64 @@
         90,
         90,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Disparo de longo alcance pressiona um alvo.",
+        "limit": "Outro campeão pode interceptar o projétil."
+      }
     },
     {
       "id": "Caitlyn.P",
       "ability": "P",
       "name": "Bem na Mira",
       "description": "A cada poucos ataques básicos, ou contra um alvo preso em uma armadilha ou rede, Caitlyn fará um disparo Bem na Mira causando dano adicional que escala com sua Chance de Acerto Crítico. Em alvos presos por armadilhas ou pela rede, o alcance de Bem na Mira de Caitlyn é dobrado.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Armadilha e rede preparam disparos fortalecidos com alcance ampliado.",
+        "limit": "O benefício especial depende da condição do alvo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém dano com alcance e prepara zonas de aproximação.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Avançar para um disparo adicional pode perder todo o benefício do alcance.",
+      "Outro campeão pode interceptar o projétil."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém dano com alcance e prepara zonas de aproximação.",
+        "plan": "Use alcance e pressão na wave com visão; prepare um recuo antes de se aproximar da torre.",
+        "against": "Evite passagens preparadas com armadilhas e pressione por ângulos que reduzam sua cobertura.",
+        "resource": "Mantém dano com alcance e prepara zonas de aproximação.",
+        "caution": "Avançar para um disparo adicional pode perder todo o benefício do alcance."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém dano com alcance e prepara zonas de aproximação.",
+        "plan": "Ataque com cobertura e controle os caminhos que chegam até sua posição.",
+        "against": "Evite passagens preparadas com armadilhas e pressione por ângulos que reduzam sua cobertura.",
+        "resource": "Mantém dano com alcance e prepara zonas de aproximação.",
+        "caution": "Avançar para um disparo adicional pode perder todo o benefício do alcance."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém dano com alcance e prepara zonas de aproximação.",
+        "plan": "Mantenha distância da entrada e ataque o alvo seguro; não abandone proteção por uma finalização.",
+        "against": "Na luta decisiva, evite passagens preparadas com armadilhas e pressione por ângulos que reduzam sua cobertura.",
+        "resource": "Mantém dano com alcance e prepara zonas de aproximação.",
+        "caution": "Avançar para um disparo adicional pode perder todo o benefício do alcance."
       }
     },
     "strengths": [
-      "Pacificadora de Piltover: Caitlyn prepara seu rifle por 1s para fazer um disparo penetrante que causa Dano Físico (causa menos dano a alvos subsequentes).",
-      "Ás na Manga: Caitlyn se concentra para fazer o disparo perfeito, causando dano drástico em um único alvo a uma longa distância. Campeões inimigos podem interceptar o projétil e tomar dano no lugar de seu aliado."
+      "Mantém dano com alcance e prepara zonas de aproximação.",
+      "Disparo de longo alcance pressiona um alvo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

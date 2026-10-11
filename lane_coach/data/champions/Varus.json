@@ -24,7 +24,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Carga aumenta alcance e dano do disparo.",
+        "limit": "O alvo tem tempo para reposicionar durante a preparação."
+      }
     },
     {
       "id": "Varus.W",
@@ -37,7 +41,11 @@
         40,
         40,
         40
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques acumulam marcas para dano das habilidades.",
+        "limit": "A detonação exige acertar habilidades depois dos ataques."
+      }
     },
     {
       "id": "Varus.E",
@@ -50,7 +58,11 @@
         14,
         12,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Região reduz movimento e recuperação inimiga.",
+        "limit": "Quem sai da região não mantém a mesma restrição."
+      }
     },
     {
       "id": "Varus.R",
@@ -61,48 +73,64 @@
         100,
         80,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Primeiro controle pode se espalhar a campeões próximos.",
+        "limit": "A propagação depende da posição dos outros alvos."
+      }
     },
     {
       "id": "Varus.P",
       "ability": "P",
       "name": "Vingança Viva",
       "description": "Ao conseguir um abate ou assistência, Varus recebe Dano de Ataque e Poder de Habilidade temporariamente. O efeito é maior se o inimigo for um Campeão.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Eliminações concedem atributos temporários, maiores contra campeão.",
+        "limit": "O benefício exige participação na eliminação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Pressiona à distância e prepara uma captura em linha.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Sem avanço livre, uma entrada inimiga por outro lado pode retirar a segurança.",
+      "A propagação depende da posição dos outros alvos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Pressiona à distância e prepara uma captura em linha.",
+        "plan": "Gerencie mana e pressão na wave preservando um caminho de recuo.",
+        "against": "Abra espaço entre aliados e pressione sua posição sem se alinhar.",
+        "resource": "Pressiona à distância e prepara uma captura em linha.",
+        "caution": "Sem avanço livre, uma entrada inimiga por outro lado pode retirar a segurança."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Pressiona à distância e prepara uma captura em linha.",
+        "plan": "Ataque com cobertura sem gastar todo o controle antes da aproximação.",
+        "against": "Abra espaço entre aliados e pressione sua posição sem se alinhar.",
+        "resource": "Pressiona à distância e prepara uma captura em linha.",
+        "caution": "Sem avanço livre, uma entrada inimiga por outro lado pode retirar a segurança."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Pressiona à distância e prepara uma captura em linha.",
+        "plan": "Mantenha posição para continuar causando dano e use controle na ameaça acessível.",
+        "against": "Na luta decisiva, abra espaço entre aliados e pressione sua posição sem se alinhar.",
+        "resource": "Pressiona à distância e prepara uma captura em linha.",
+        "caution": "Sem avanço livre, uma entrada inimiga por outro lado pode retirar a segurança."
       }
     },
     "strengths": [
-      "Flecha Perfurante: Varus prepara um poderoso disparo, que ganha alcance e dano extra quanto mais demorar para ser lançado.",
-      "Corrente da Corrupção: Varus lança um tentáculo de corrupção que causa dano e imobiliza o primeiro Campeão inimigo atingido, espalhando-se ainda para os Campeões inimigos próximos que ainda não estiverem infectados, imobilizando-os ao contato."
+      "Pressiona à distância e prepara uma captura em linha.",
+      "Primeiro controle pode se espalhar a campeões próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -23,7 +23,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Acertar campeão ou monstro épico permite cura aliada.",
+        "limit": "Precisa do acerto indicado e de proximidade para apoiar."
+      }
     },
     {
       "id": "Rakan.W",
@@ -36,7 +40,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço controla inimigos na chegada.",
+        "limit": "A chegada exige acompanhamento para continuar."
+      }
     },
     {
       "id": "Rakan.E",
@@ -49,7 +57,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Voos a aliado oferecem escudo e um segundo uso breve.",
+        "limit": "Precisa de aliados em posições úteis para entrada e saída."
+      }
     },
     {
       "id": "Rakan.R",
@@ -60,48 +72,64 @@
         130,
         110,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Movimento permite encantar inimigos tocados.",
+        "limit": "Exige chegar perto e preservar caminho de volta."
+      }
     },
     {
       "id": "Rakan.P",
       "ability": "P",
       "name": "Plumas Mágicas",
       "description": "Rakan recebe um escudo periodicamente.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Recebe escudo periodicamente.",
+        "limit": "A proteção tem intervalo e não cobre toda entrada."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Cria uma entrada rápida e retorna para a cobertura aliada.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Sem aliado próximo para voltar, a entrada pode ficar comprometida.",
+      "Exige chegar perto e preservar caminho de volta."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Cria uma entrada rápida e retorna para a cobertura aliada.",
+        "plan": "Fique ao alcance do parceiro e prepare a wave antes de abandonar sua cobertura.",
+        "against": "Observe o trajeto de ida e os aliados que servem de retorno.",
+        "resource": "Cria uma entrada rápida e retorna para a cobertura aliada.",
+        "caution": "Sem aliado próximo para voltar, a entrada pode ficar comprometida."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Cria uma entrada rápida e retorna para a cobertura aliada.",
+        "plan": "Escolha um trajeto com aliados que permitam acompanhar e receber a volta.",
+        "against": "Observe o trajeto de ida e os aliados que servem de retorno.",
+        "resource": "Cria uma entrada rápida e retorna para a cobertura aliada.",
+        "caution": "Sem aliado próximo para voltar, a entrada pode ficar comprometida."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Cria uma entrada rápida e retorna para a cobertura aliada.",
+        "plan": "Entre numa abertura importante ou proteja a resposta sobre o aliado-chave.",
+        "against": "Na luta decisiva, observe o trajeto de ida e os aliados que servem de retorno.",
+        "resource": "Cria uma entrada rápida e retorna para a cobertura aliada.",
+        "caution": "Sem aliado próximo para voltar, a entrada pode ficar comprometida."
       }
     },
     "strengths": [
-      "Pena Reluzente: Lança uma pluma mágica que causa Dano Mágico. Ao atingir um Campeão ou um monstro épico, Rakan pode curar seus aliados.",
-      "Rapidez: Recebe Velocidade de Movimento, encantando e causando Dano Mágico ao tocar nos inimigos."
+      "Cria uma entrada rápida e retorna para a cobertura aliada.",
+      "Movimento permite encantar inimigos tocados."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Barril ganha força enquanto permanece no local.",
+        "limit": "Esperar mais permite ao alvo sair da área."
+      }
     },
     {
       "id": "Gragas.W",
@@ -37,7 +41,11 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Prepara ataque próximo e reduz dano recebido.",
+        "limit": "Precisa de tempo para preparar e contato para usar o ataque."
+      }
     },
     {
       "id": "Gragas.E",
@@ -50,7 +58,11 @@
         13,
         12.5,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço atordoa na primeira colisão.",
+        "limit": "Uma unidade na frente pode encerrar o percurso."
+      }
     },
     {
       "id": "Gragas.R",
@@ -61,48 +73,64 @@
         100,
         85,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Explosão afasta alvos da região escolhida.",
+        "limit": "Pode afastar o alvo do dano dos próprios aliados."
+      }
     },
     {
       "id": "Gragas.P",
       "ability": "P",
       "name": "Happy Hour",
       "description": "Gragas cura a si mesmo periodicamente após utilizar uma habilidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjurar oferece cura periodicamente.",
+        "limit": "A cura não acontece em toda conjuração sem intervalo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Um deslocamento mal escolhido pode salvar o alvo ou levar ameaça ao aliado.",
+      "Pode afastar o alvo do dano dos próprios aliados."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+        "plan": "Use a recuperação e controle de wave para preparar recuo sem gastar tudo em pressão.",
+        "against": "Abra espaço entre aliados e observe em que direção o deslocamento os levaria.",
+        "resource": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+        "caution": "Um deslocamento mal escolhido pode salvar o alvo ou levar ameaça ao aliado."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+        "plan": "Escolha entre uma captura e afastar a entrada sobre um aliado.",
+        "against": "Abra espaço entre aliados e observe em que direção o deslocamento os levaria.",
+        "resource": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+        "caution": "Um deslocamento mal escolhido pode salvar o alvo ou levar ameaça ao aliado."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+        "plan": "Proteja a formação; desloque o alvo para uma região que seu time alcance.",
+        "against": "Na luta decisiva, abra espaço entre aliados e observe em que direção o deslocamento os levaria.",
+        "resource": "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+        "caution": "Um deslocamento mal escolhido pode salvar o alvo ou levar ameaça ao aliado."
       }
     },
     "strengths": [
-      "Jogar o Barril: Gragas rola seu barril até um local, podendo ativá-lo novamente para explodir. Caso isso não aconteça, o barril explodirá sozinho após 4s. A potência da explosão aumenta ao longo do tempo. Os inimigos atingidos pela explosão sofrem Lentidão.",
-      "Barril Explosivo: Gragas arremessa seu barril em um local, causando dano e afastando os inimigos pegos no raio da explosão."
+      "Reorganiza a luta deslocando ameaças ou separando um alvo.",
+      "Explosão afasta alvos da região escolhida."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

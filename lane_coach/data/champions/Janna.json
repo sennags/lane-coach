@@ -24,7 +24,11 @@
         14,
         14,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Tornado controla inimigos na linha e pode ser preparado.",
+        "limit": "O caminho precisa interceptar a aproximação real."
+      }
     },
     {
       "id": "Janna.W",
@@ -37,7 +41,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade passiva e alvo desacelerado ajudam a reposicionar.",
+        "limit": "O dano ao alvo exige entrar no alcance necessário."
+      }
     },
     {
       "id": "Janna.E",
@@ -50,7 +58,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo protege aliado ou torre e aumenta ataque.",
+        "limit": "A proteção precisa coincidir com o dano recebido."
+      }
     },
     {
       "id": "Janna.R",
@@ -61,48 +73,64 @@
         130,
         115,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Empurra inimigos e depois cura aliados próximos.",
+        "limit": "A cura depende de permanecer na região durante o efeito."
+      }
     },
     {
       "id": "Janna.P",
       "ability": "P",
       "name": "Brisa de Impulso",
       "description": "Os aliados de Janna recebem Velocidade de Movimento ao se moverem em direção a ela. Janna causa uma parte da Velocidade de Movimento adicional como Dano Mágico adicional ao contato com Zéfiro.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Aliados que se aproximam dela ganham velocidade.",
+        "limit": "A direção do movimento importa para o benefício."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Mantém aliados vivos e interrompe aproximações sobre eles.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Posicionar à frente sem necessidade pode gastar a defesa para salvar a si mesma.",
+      "A cura depende de permanecer na região durante o efeito."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Mantém aliados vivos e interrompe aproximações sobre eles.",
+        "plan": "Cubra o farm do parceiro e mantenha distância útil para impedir entradas.",
+        "against": "Pressione por mais de um ângulo e espere a defesa se comprometer antes de entrar.",
+        "resource": "Mantém aliados vivos e interrompe aproximações sobre eles.",
+        "caution": "Posicionar à frente sem necessidade pode gastar a defesa para salvar a si mesma."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Mantém aliados vivos e interrompe aproximações sobre eles.",
+        "plan": "Fique perto de quem pode receber a entrada e reserve espaço atrás para recuar.",
+        "against": "Pressione por mais de um ângulo e espere a defesa se comprometer antes de entrar.",
+        "resource": "Mantém aliados vivos e interrompe aproximações sobre eles.",
+        "caution": "Posicionar à frente sem necessidade pode gastar a defesa para salvar a si mesma."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Mantém aliados vivos e interrompe aproximações sobre eles.",
+        "plan": "Proteja o causador de dano; não se afaste dele para perseguir lentidão.",
+        "against": "Na luta decisiva, pressione por mais de um ângulo e espere a defesa se comprometer antes de entrar.",
+        "resource": "Mantém aliados vivos e interrompe aproximações sobre eles.",
+        "caution": "Posicionar à frente sem necessidade pode gastar a defesa para salvar a si mesma."
       }
     },
     "strengths": [
-      "Ventania Uivante: Através de uma alteração pontual de temperatura e pressão, Janna consegue criar uma pequena tempestade que cresce em tamanho ao longo do tempo. Ela pode ativar a habilidade novamente para desferir a tempestade. Ao ser desferida, a tempestade se desloca em linha reta na direção em que foi conjurada, causando dano e arremessando ao ar quaisquer inimigos em seu caminho.",
-      "Monção: Janna se cerca de uma tempestade mágica, empurrando inimigos para trás. Assim que a tempestade se estabelece, ventos suaves curam os aliados próximos enquanto a habilidade estiver ativa."
+      "Mantém aliados vivos e interrompe aproximações sobre eles.",
+      "Empurra inimigos e depois cura aliados próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

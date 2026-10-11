@@ -24,7 +24,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "A borda causa dano adicional; acertar libera outro golpe.",
+        "limit": "O segundo golpe depende de atingir e da janela de reconjuração."
+      }
     },
     {
       "id": "Ambessa.W",
@@ -37,7 +41,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo protege enquanto prepara dano próximo.",
+        "limit": "Dano aumentado exige bloquear dano de unidades que não sejam tropas."
+      }
     },
     {
       "id": "Ambessa.E",
@@ -50,7 +58,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Dano e lentidão próximos; o avanço permite outro golpe.",
+        "limit": "Precisa manter inimigos próximos da área de acerto."
+      }
     },
     {
       "id": "Ambessa.R",
@@ -61,48 +73,64 @@
         130,
         115,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Alcança e controla o campeão mais distante na linha.",
+        "limit": "A linha pode levar a um alvo longe do apoio."
+      }
     },
     {
       "id": "Ambessa.P",
       "ability": "P",
       "name": "Passo do Cão-dragão",
       "description": "Utilizar um comando de ataque ou de movimento enquanto conjura uma habilidade fará com que Ambessa avance a uma curta distância assim que a habilidade for conjurada, recebendo alcance, dano e Velocidade de Ataque adicionais em seu próximo ataque e recuperando energia.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjurar e comandar movimento permite avanço e ataque fortalecido.",
+        "limit": "O ataque também recupera energia; só avançar não mantém o recurso."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Avançar sem ataques nem saída compromete energia e sobrevivência.",
+      "A linha pode levar a um alvo longe do apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+        "plan": "Equilibre habilidades e ataques para preservar energia enquanto disputa a wave.",
+        "against": "Abra distância entre aliados e force a aproximação sem oferecer um alvo isolado.",
+        "resource": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+        "caution": "Avançar sem ataques nem saída compromete energia e sobrevivência."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+        "plan": "Entre por um ângulo que deixe um alvo acessível e preserve o apoio.",
+        "against": "Abra distância entre aliados e force a aproximação sem oferecer um alvo isolado.",
+        "resource": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+        "caution": "Avançar sem ataques nem saída compromete energia e sobrevivência."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+        "plan": "Espere uma abertura e mantenha uma sequência de ataques sem atravessar toda a formação.",
+        "against": "Na luta decisiva, abra distância entre aliados e force a aproximação sem oferecer um alvo isolado.",
+        "resource": "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+        "caution": "Avançar sem ataques nem saída compromete energia e sobrevivência."
       }
     },
     "strengths": [
-      "Golpe Ardiloso / Pancada Cortante: Ambessa golpeia com seus cães-dragão em um semicírculo à frente, causando dano adicional aos inimigos atingidos pelas lâminas. Atingir um inimigo transformará a próxima conjuração desta Habilidade por um curto período, fazendo com que ela golpeie em linha reta com seus cães-dragão, causando dano adicional ao primeiro inimigo atingido.",
-      "Execução Pública: Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado."
+      "Mantém pressão em combate próximo com reposicionamentos sucessivos.",
+      "Alcança e controla o campeão mais distante na linha."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

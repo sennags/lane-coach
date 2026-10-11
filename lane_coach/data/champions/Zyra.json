@@ -24,7 +24,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Área de dano pode criar planta de alcance longo.",
+        "limit": "Exige semente próxima para gerar essa continuação."
+      }
     },
     {
       "id": "Zyra.W",
@@ -37,7 +41,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Sementes armazenadas preparam pressão; abates reduzem recarga.",
+        "limit": "Não atacam sozinhas sem ativação pelas habilidades."
+      }
     },
     {
       "id": "Zyra.E",
@@ -50,7 +58,11 @@
         11,
         11,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Linha enraíza e pode criar planta de alcance curto com lentidão.",
+        "limit": "A trajetória e a semente decidem controle e continuação."
+      }
     },
     {
       "id": "Zyra.R",
@@ -61,48 +73,64 @@
         110,
         100,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Área dá dano, controle posterior e fortalece plantas presentes.",
+        "limit": "O alvo pode sair antes da continuação e as plantas precisam estar ao alcance."
+      }
     },
     {
       "id": "Zyra.P",
       "ability": "P",
       "name": "Jardim de Espinhos",
       "description": "Sementes surgem periodicamente ao redor de Zyra, mais rapidamente dependendo do nível. Zyra pode conjurar Farpas Mortais ou Pântano das Raízes próximo a sementes para fazer surgir plantas que lutarão por ela.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Sementes preparadas viram plantas com as habilidades indicadas.",
+        "limit": "A força depende da preparação e da região das plantas."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Controla uma região preparada e pune grupos que tentam atravessar.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Sem cobertura, preparar dano não garante sobreviver à entrada inimiga.",
+      "O alvo pode sair antes da continuação e as plantas precisam estar ao alcance."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Controla uma região preparada e pune grupos que tentam atravessar.",
+        "plan": "Organize sementes e mana conforme a wave, sem empurrar para fora da proteção.",
+        "against": "Evite ficar no terreno preparado e mude o ângulo para alcançar o corpo.",
+        "resource": "Controla uma região preparada e pune grupos que tentam atravessar.",
+        "caution": "Sem cobertura, preparar dano não garante sobreviver à entrada inimiga."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Controla uma região preparada e pune grupos que tentam atravessar.",
+        "plan": "Prepare a área junto do time e cause dano sem se tornar o primeiro foco.",
+        "against": "Evite ficar no terreno preparado e mude o ângulo para alcançar o corpo.",
+        "resource": "Controla uma região preparada e pune grupos que tentam atravessar.",
+        "caution": "Sem cobertura, preparar dano não garante sobreviver à entrada inimiga."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Controla uma região preparada e pune grupos que tentam atravessar.",
+        "plan": "Proteja os caminhos de aproximação e pressione alvos acessíveis de trás da cobertura.",
+        "against": "Na luta decisiva, evite ficar no terreno preparado e mude o ângulo para alcançar o corpo.",
+        "resource": "Controla uma região preparada e pune grupos que tentam atravessar.",
+        "caution": "Sem cobertura, preparar dano não garante sobreviver à entrada inimiga."
       }
     },
     "strengths": [
-      "Farpas Mortais: Vinhas espessas se espalham pelo chão e explodem em farpas, causando Dano Mágico a inimigos dentro da área. Se conjurada perto de uma semente, Farpas Mortais faz surgir uma planta Cospe-Espinhos, que dispara contra inimigos distantes.",
-      "Espinhos Sufocantes: Zyra invoca raízes retorcidas no local-alvo, causando dano a inimigos conforme elas se expandem e arremessando-os ao ar quando se contraem. Plantas ao alcance das raízes ficam enfurecidas."
+      "Controla uma região preparada e pune grupos que tentam atravessar.",
+      "Área dá dano, controle posterior e fortalece plantas presentes."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         6,
         5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Área desacelera e dá dano inicial e posterior.",
+        "limit": "O segundo impacto depende de o alvo permanecer."
+      }
     },
     {
       "id": "Poppy.W",
@@ -37,7 +41,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Área impede avanços e oferece movimento.",
+        "limit": "Precisa estar na posição certa durante o avanço inimigo."
+      }
     },
     {
       "id": "Poppy.E",
@@ -50,7 +58,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Empurra alvo; parede prepara atordoamento.",
+        "limit": "O controle maior depende do alinhamento com terreno."
+      }
     },
     {
       "id": "Poppy.R",
@@ -61,48 +73,64 @@
         140,
         120,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização pode afastar inimigos da luta.",
+        "limit": "Pode afastar um alvo que o time estava finalizando."
+      }
     },
     {
       "id": "Poppy.P",
       "ability": "P",
       "name": "Embaixadora de Ferro",
       "description": "Poppy arremessa seu broquel, que bate no alvo e cai no chão. Ela pode apanhá-lo para receber um escudo temporário.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Broquel no chão pode conceder escudo ao ser coletado.",
+        "limit": "A coleta pode exigir entrar em região ameaçada."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Impede aproximações e afasta ameaças do espaço aliado.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Buscar controle em uma parede distante pode retirar a proteção da formação.",
+      "Pode afastar um alvo que o time estava finalizando."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Impede aproximações e afasta ameaças do espaço aliado.",
+        "plan": "Controle wave e coleta do escudo sem entregar espaço por um objeto arriscado.",
+        "against": "Observe sua posição perto das paredes e não gaste todos os avanços na área protegida.",
+        "resource": "Impede aproximações e afasta ameaças do espaço aliado.",
+        "caution": "Buscar controle em uma parede distante pode retirar a proteção da formação."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Impede aproximações e afasta ameaças do espaço aliado.",
+        "plan": "Proteja o lado por onde a entrada vem e escolha um deslocamento útil.",
+        "against": "Observe sua posição perto das paredes e não gaste todos os avanços na área protegida.",
+        "resource": "Impede aproximações e afasta ameaças do espaço aliado.",
+        "caution": "Buscar controle em uma parede distante pode retirar a proteção da formação."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Impede aproximações e afasta ameaças do espaço aliado.",
+        "plan": "Priorize manter o causador de dano seguro, sem perseguir coleta ou controle longe dele.",
+        "against": "Na luta decisiva, observe sua posição perto das paredes e não gaste todos os avanços na área protegida.",
+        "resource": "Impede aproximações e afasta ameaças do espaço aliado.",
+        "caution": "Buscar controle em uma parede distante pode retirar a proteção da formação."
       }
     },
     "strengths": [
-      "Choque do Martelo: Poppy golpeia com o martelo, causando dano e criando uma área que reduz a velocidade de inimigos e explode após um intervalo.",
-      "Veredito da Guardiã: Poppy canaliza um golpe com o martelo que empurra inimigos para muito longe."
+      "Impede aproximações e afasta ameaças do espaço aliado.",
+      "Canalização pode afastar inimigos da luta."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

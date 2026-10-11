@@ -23,7 +23,11 @@
         6.5,
         5.75,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Espada puxada através de campeão fortalece ataques.",
+        "limit": "O trajeto da espada decide o benefício."
+      }
     },
     {
       "id": "Shen.W",
@@ -36,7 +40,11 @@
         13,
         11.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Região da espada bloqueia ataques sobre aliados.",
+        "limit": "A proteção depende da posição e não bloqueia todo tipo de dano."
+      }
     },
     {
       "id": "Shen.E",
@@ -49,7 +57,11 @@
         14,
         12,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço provoca quem atravessa.",
+        "limit": "Entrar fundo pode afastar Shen de quem protege."
+      }
     },
     {
       "id": "Shen.R",
@@ -60,48 +72,64 @@
         200,
         180,
         160
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e teleporte apoiam um aliado.",
+        "limit": "A chegada exige tempo e pode acompanhar um aliado já isolado."
+      }
     },
     {
       "id": "Shen.P",
       "ability": "P",
       "name": "Barreira de Ki",
       "description": "Após conjurar uma habilidade, Shen recebe um escudo. Afetar outros Campeões reduz o Tempo de Recarga desse efeito.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjuração prepara escudo, renovado mais cedo ao afetar campeões.",
+        "limit": "A proteção ainda tem uma janela de disponibilidade."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Protege um aliado e interrompe a aproximação sobre ele.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Seguir um aliado sem continuação pode retirar Shen de uma frente necessária.",
+      "A chegada exige tempo e pode acompanhar um aliado já isolado."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Protege um aliado e interrompe a aproximação sobre ele.",
+        "plan": "Prepare a wave antes de apoiar outra posição para não perder renda sem compensação.",
+        "against": "Observe quem recebe apoio e mude o ângulo da ameaça protegida.",
+        "resource": "Protege um aliado e interrompe a aproximação sobre ele.",
+        "caution": "Seguir um aliado sem continuação pode retirar Shen de uma frente necessária."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Protege um aliado e interrompe a aproximação sobre ele.",
+        "plan": "Fique em posição para ajudar a entrada ou cobrir quem recebe foco.",
+        "against": "Observe quem recebe apoio e mude o ângulo da ameaça protegida.",
+        "resource": "Protege um aliado e interrompe a aproximação sobre ele.",
+        "caution": "Seguir um aliado sem continuação pode retirar Shen de uma frente necessária."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Protege um aliado e interrompe a aproximação sobre ele.",
+        "plan": "Priorize o aliado importante e não abandone a cobertura por uma perseguição.",
+        "against": "Na luta decisiva, observe quem recebe apoio e mude o ângulo da ameaça protegida.",
+        "resource": "Protege um aliado e interrompe a aproximação sobre ele.",
+        "caution": "Seguir um aliado sem continuação pode retirar Shen de uma frente necessária."
       }
     },
     "strengths": [
-      "Ataque Crepúsculo: Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo. Os ataques são fortalecidos drasticamente caso ela colida com um Campeão inimigo. Todos os Campeões com quem ela colide têm a velocidade reduzida enquanto fogem de Shen.",
-      "Manter a União: Shen protege o Campeão-alvo aliado do dano recebido e, em seguida, teleporta-se para seu local."
+      "Protege um aliado e interrompe a aproximação sobre ele.",
+      "Escudo e teleporte apoiam um aliado."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

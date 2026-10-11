@@ -23,7 +23,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Apanhar o machado mantém ataques fortalecidos.",
+        "limit": "O ponto de queda pode expor o próximo movimento."
+      }
     },
     {
       "id": "Draven.W",
@@ -36,7 +40,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade temporária e recarga renovada ao apanhar machado.",
+        "limit": "A velocidade de movimento decai e o reinício depende da coleta."
+      }
     },
     {
       "id": "Draven.E",
@@ -49,7 +57,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Empurra para o lado e desacelera na trajetória.",
+        "limit": "Precisa acertar para interromper a aproximação."
+      }
     },
     {
       "id": "Draven.R",
@@ -60,48 +72,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Machados causam dano na ida e volta e podem executar.",
+        "limit": "Unidades atravessadas reduzem dano; o retorno também exige alinhamento."
+      }
     },
     {
       "id": "Draven.P",
       "ability": "P",
       "name": "League of Draven",
       "description": "Draven ganha Adoração de seus fãs quando apanha uma Revolução do Machado ou abate uma tropa, monstro ou torre. Abater Campeões inimigos concede ouro adicional a Draven, com base em quanta Adoração ele tem.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Farm e machados acumulam ouro potencial para abates.",
+        "limit": "O pagamento depende de abater campeão; não justifica perseguição sem saída."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Causa dano com ataques enquanto mantém os machados e a posição.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Buscar um machado em posição ruim pode custar todo o tempo de ataque.",
+      "Unidades atravessadas reduzem dano; o retorno também exige alinhamento."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Causa dano com ataques enquanto mantém os machados e a posição.",
+        "plan": "Planeje a coleta em torno do farm e não empurre para além da cobertura disponível.",
+        "against": "Pressione os caminhos de coleta com apoio sem entregar contato contínuo.",
+        "resource": "Causa dano com ataques enquanto mantém os machados e a posição.",
+        "caution": "Buscar um machado em posição ruim pode custar todo o tempo de ataque."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Causa dano com ataques enquanto mantém os machados e a posição.",
+        "plan": "Ataque de uma região coberta e aceite perder um machado se a coleta for perigosa.",
+        "against": "Pressione os caminhos de coleta com apoio sem entregar contato contínuo.",
+        "resource": "Causa dano com ataques enquanto mantém os machados e a posição.",
+        "caution": "Buscar um machado em posição ruim pode custar todo o tempo de ataque."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Causa dano com ataques enquanto mantém os machados e a posição.",
+        "plan": "Priorize sobreviver e atacar; não atravesse uma ameaça para manter a sequência perfeita.",
+        "against": "Na luta decisiva, pressione os caminhos de coleta com apoio sem entregar contato contínuo.",
+        "resource": "Causa dano com ataques enquanto mantém os machados e a posição.",
+        "caution": "Buscar um machado em posição ruim pode custar todo o tempo de ataque."
       }
     },
     "strengths": [
-      "Revolução do Machado: O próximo ataque de Draven causará Dano Físico adicional. O machado ricocheteará do alvo em direção ao ar. Se Draven o apanhar, ele automaticamente irá preparar outra Revolução do Machado. Draven pode ter duas Revoluções do Machado simultaneamente em ação.",
-      "Reta da Morte: Draven arremessa dois machados gigantes para causar Dano Físico a cada unidade atingida. Reta da Morte lentamente muda de direção e retorna a Draven após atingir um Campeão inimigo. Draven também pode ativar esta habilidade durante o percurso dos machados para fazer com que voltem antecipadamente. Causa menos dano para cada unidade atingida e zera quando os machados mudam de direção. Executa inimigos com Vida inferior ao número de acúmulos de Adoração do Draven."
+      "Causa dano com ataques enquanto mantém os machados e a posição.",
+      "Machados causam dano na ida e volta e podem executar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

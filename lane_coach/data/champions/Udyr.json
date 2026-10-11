@@ -25,7 +25,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Dois ataques ampliados; despertar acrescenta relâmpagos.",
+        "limit": "Precisa alcançar o alvo e aproveitar ambos os ataques."
+      }
     },
     {
       "id": "Udyr.W",
@@ -39,7 +43,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e ataques curam; despertar amplia recuperação.",
+        "limit": "A sustentação depende da janela e do contato."
+      }
     },
     {
       "id": "Udyr.E",
@@ -53,7 +61,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Movimento prepara atordoamento; despertar resiste a imobilização.",
+        "limit": "O controle no mesmo alvo não é uma sequência livre sem intervalo."
+      }
     },
     {
       "id": "Udyr.R",
@@ -67,48 +79,64 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Tempestade próxima desacelera; despertar permite seguir inimigos.",
+        "limit": "A área precisa manter alvos úteis ao alcance."
+      }
     },
     {
       "id": "Udyr.P",
       "ability": "P",
       "name": "Ponte Espiritual",
       "description": "Udyr tem quatro Habilidades básicas que o fazem alternar entre Posturas e pode Reconjurar uma Habilidade para renová-la com efeitos adicionais na ultimate. Além disso, após usar uma Habilidade, os próximos dois Ataques de Udyr recebem Velocidade de Ataque.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Alterna posturas e pode despertar uma com efeito ampliado.",
+        "limit": "Escolher um despertar retira o mesmo recurso das outras funções."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Alterna pressão e proteção em contato próximo conforme a postura.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar sem contato útil pode gastar movimento e defesa sem contribuir.",
+      "A área precisa manter alvos úteis ao alcance."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Alterna pressão e proteção em contato próximo conforme a postura.",
+        "plan": "Priorize renda e recurso do despertar; na rota, resolva a wave antes de sair.",
+        "against": "Mantenha espaço e observe qual função foi fortalecida antes de comprometer a resposta.",
+        "resource": "Alterna pressão e proteção em contato próximo conforme a postura.",
+        "caution": "Entrar sem contato útil pode gastar movimento e defesa sem contribuir."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Alterna pressão e proteção em contato próximo conforme a postura.",
+        "plan": "Aproxime com apoio e escolha entre manter dano ou sobreviver à resposta.",
+        "against": "Mantenha espaço e observe qual função foi fortalecida antes de comprometer a resposta.",
+        "resource": "Alterna pressão e proteção em contato próximo conforme a postura.",
+        "caution": "Entrar sem contato útil pode gastar movimento e defesa sem contribuir."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Alterna pressão e proteção em contato próximo conforme a postura.",
+        "plan": "Pressione o alvo acessível sem gastar o despertar errado antes da ameaça decisiva.",
+        "against": "Na luta decisiva, mantenha espaço e observe qual função foi fortalecida antes de comprometer a resposta.",
+        "resource": "Alterna pressão e proteção em contato próximo conforme a postura.",
+        "caution": "Entrar sem contato útil pode gastar movimento e defesa sem contribuir."
       }
     },
     "strengths": [
-      "Garra Selvagem: Udyr recebe Velocidade de Ataque, e seus próximos dois Ataques causam Dano Físico adicional. Reconjuração: recebe ainda mais Velocidade de Ataque, e seus próximos dois Ataques conjuram relâmpagos no alvo.",
-      "Tempestade Alada: Udyr cerca a si mesmo com uma tempestade glacial, causando dano e Lentidão a inimigos próximos. Reconjuração: fortalece e desencadeia a tempestade, fazendo com que ela siga inimigos e cause dano adicional."
+      "Alterna pressão e proteção em contato próximo conforme a postura.",
+      "Tempestade próxima desacelera; despertar permite seguir inimigos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

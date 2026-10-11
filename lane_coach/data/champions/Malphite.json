@@ -24,7 +24,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Dano rouba velocidade e facilita aproximar ou recuar.",
+        "limit": "A velocidade é temporária, não uma entrada livre."
+      }
     },
     {
       "id": "Malphite.W",
@@ -37,7 +41,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques fortalecidos ameaçam área à frente.",
+        "limit": "Precisa de tempo e alcance para atacar."
+      }
     },
     {
       "id": "Malphite.E",
@@ -50,7 +58,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Área reduz velocidade de ataque e escala dano com armadura.",
+        "limit": "Exige proximidade para afetar os alvos úteis."
+      }
     },
     {
       "id": "Malphite.R",
@@ -61,48 +73,64 @@
         130,
         115,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Entrada rápida controla inimigos na região.",
+        "limit": "O time precisa alcançar a chegada."
+      }
     },
     {
       "id": "Malphite.P",
       "ability": "P",
       "name": "Escudo de Granito",
       "description": "Malphite está protegido por uma camada de rocha que absorve dano equivalente a até 10% de sua Vida máxima. Se Malphite não for atingido por alguns segundos, o efeito é recarregado.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ficar sem receber dano restaura escudo.",
+        "limit": "Pressão repetida impede aproveitar a recuperação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Entrar num grupo distante pode gastar controle sem dano aliado.",
+      "O time precisa alcançar a chegada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+        "plan": "Preserve vida e escudo pelo posicionamento da wave antes de forçar pressão.",
+        "against": "Espalhe os aliados ameaçados e evite uma região que permita atingir todos.",
+        "resource": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+        "caution": "Entrar num grupo distante pode gastar controle sem dano aliado."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+        "plan": "Escolha alvos que o time possa acompanhar sem chegar cedo demais.",
+        "against": "Espalhe os aliados ameaçados e evite uma região que permita atingir todos.",
+        "resource": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+        "caution": "Entrar num grupo distante pode gastar controle sem dano aliado."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+        "plan": "Reserve a entrada para uma abertura importante ou para proteger a formação.",
+        "against": "Na luta decisiva, espalhe os aliados ameaçados e evite uma região que permita atingir todos.",
+        "resource": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+        "caution": "Entrar num grupo distante pode gastar controle sem dano aliado."
       }
     },
     "strengths": [
-      "Fragmento Sísmico: Malphite arremessa um fragmento de terra no inimigo através do chão, causando dano ao impacto e roubando Velocidade de Movimento por 3s.",
-      "Força Incontrolável: Malphite se arremessa em alta velocidade até um local, causando dano aos inimigos e Arremessando-os ao ar."
+      "Cria uma entrada em grupo ou interrompe a ameaça aos aliados.",
+      "Entrada rápida controla inimigos na região."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

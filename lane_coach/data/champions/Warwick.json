@@ -24,7 +24,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Mordida dá dano pela vida e recupera com o dano causado.",
+        "limit": "Precisa alcançar o alvo para sustentar."
+      }
     },
     {
       "id": "Warwick.W",
@@ -37,7 +41,11 @@
         60,
         50,
         40
-      ]
+      ],
+      "coaching": {
+        "use": "Alvos fragilizados dão movimento de perseguição e ataques rápidos.",
+        "limit": "Sentir um alvo não garante que ele esteja sem proteção."
+      }
     },
     {
       "id": "Warwick.E",
@@ -50,7 +58,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Defesa temporária termina em medo próximo.",
+        "limit": "O momento de terminar muda a resposta disponível."
+      }
     },
     {
       "id": "Warwick.R",
@@ -61,48 +73,64 @@
         110,
         90,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Salto suprime o primeiro campeão e usa movimento para alcance.",
+        "limit": "Bloqueadores e direção mudam o alvo de chegada."
+      }
     },
     {
       "id": "Warwick.P",
       "ability": "P",
       "name": "Fome Eterna",
       "description": "Os ataques básicos de Warwick causam Dano Mágico adicional. Se ele estiver com menos de 50% de Vida, cura a si mesmo com a mesma quantia. Se ele estiver com menos de 25% de Vida, a cura é triplicada.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques com vida baixa curam e a condição mais baixa amplia recuperação.",
+        "limit": "Vida baixa também deixa o corpo sujeito a finalização."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona alvos fragilizados mantendo contato e recuperação.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir o alvo errado pode receber foco sem manter cura.",
+      "Bloqueadores e direção mudam o alvo de chegada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona alvos fragilizados mantendo contato e recuperação.",
+        "plan": "Preserve renda e vida sem trocar a wave por uma perseguição longa.",
+        "against": "Proteja aliados fragilizados e reduza contato prolongado sem resposta.",
+        "resource": "Pressiona alvos fragilizados mantendo contato e recuperação.",
+        "caution": "Perseguir o alvo errado pode receber foco sem manter cura."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona alvos fragilizados mantendo contato e recuperação.",
+        "plan": "Escolha uma perseguição curta com apoio e não avance só por detectar pouca vida.",
+        "against": "Proteja aliados fragilizados e reduza contato prolongado sem resposta.",
+        "resource": "Pressiona alvos fragilizados mantendo contato e recuperação.",
+        "caution": "Perseguir o alvo errado pode receber foco sem manter cura."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona alvos fragilizados mantendo contato e recuperação.",
+        "plan": "Espere acesso real ao alvo importante sem atravessar toda a resposta inimiga.",
+        "against": "Na luta decisiva, proteja aliados fragilizados e reduza contato prolongado sem resposta.",
+        "resource": "Pressiona alvos fragilizados mantendo contato e recuperação.",
+        "caution": "Perseguir o alvo errado pode receber foco sem manter cura."
       }
     },
     "strengths": [
-      "Presas da Fera: Warwick lança-se à frente e morde seu alvo, causando dano com base em sua Vida máxima e curando a si mesmo com o dano causado.",
-      "Coerção Infinita: Warwick salta em uma direção (escalando com a Velocidade de Movimento adicional dele), suprimindo o primeiro Campeão atingido por 1,5s."
+      "Pressiona alvos fragilizados mantendo contato e recuperação.",
+      "Salto suprime o primeiro campeão e usa movimento para alcance."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Primeiro golpe prepara uma sequência de espinhos próximos.",
+        "limit": "A pressão depende de conectar os golpes no alcance necessário."
+      }
     },
     {
       "id": "Evelynn.W",
@@ -37,7 +41,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Maldição preparada permite encanto e redução de defesa mágica.",
+        "limit": "Exige aguardar a preparação antes de ativar o efeito completo."
+      }
     },
     {
       "id": "Evelynn.E",
@@ -50,7 +58,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe no alvo concede velocidade temporária.",
+        "limit": "Precisa se aproximar para causar dano; a velocidade não protege toda entrada."
+      }
     },
     {
       "id": "Evelynn.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Dano em área com recuo longo e breve inalvejabilidade.",
+        "limit": "Confira o espaço de chegada do recuo antes da entrada."
+      }
     },
     {
       "id": "Evelynn.P",
       "ability": "P",
       "name": "Sombra Demoníaca",
       "description": "Quando está fora de combate, Evelynn entra em Sombra Demoníaca. A Sombra Demoníaca cura Evelynn quando ela está com pouca Vida e concede Camuflagem após o nível 6.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fora de combate recupera vida e, após nível 6, ganha camuflagem.",
+        "limit": "A camuflagem depende da condição fora de combate."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Ameaça alvos isolados por aproximações ocultas.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Entrar no centro de um grupo protegido pode impedir a finalização e a saída.",
+      "Confira o espaço de chegada do recuo antes da entrada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Ameaça alvos isolados por aproximações ocultas.",
+        "plan": "Priorize renda e caminhos seguros; se estiver na rota, não abandone a wave por uma perseguição.",
+        "against": "Cubra acessos e evite deixar um aliado sozinho na borda da formação.",
+        "resource": "Ameaça alvos isolados por aproximações ocultas.",
+        "caution": "Entrar no centro de um grupo protegido pode impedir a finalização e a saída."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Ameaça alvos isolados por aproximações ocultas.",
+        "plan": "Espere o alvo se afastar do apoio e mantenha um caminho para sair após a tentativa.",
+        "against": "Cubra acessos e evite deixar um aliado sozinho na borda da formação.",
+        "resource": "Ameaça alvos isolados por aproximações ocultas.",
+        "caution": "Entrar no centro de um grupo protegido pode impedir a finalização e a saída."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Ameaça alvos isolados por aproximações ocultas.",
+        "plan": "Prepare um ângulo sem ser o primeiro foco e recue se o alvo permanecer protegido.",
+        "against": "Na luta decisiva, cubra acessos e evite deixar um aliado sozinho na borda da formação.",
+        "resource": "Ameaça alvos isolados por aproximações ocultas.",
+        "caution": "Entrar no centro de um grupo protegido pode impedir a finalização e a saída."
       }
     },
     "strengths": [
-      "Espinho de Ódio: Evelynn ataca com seu Chicote, causando dano ao primeiro inimigo atingido. Depois, ela dispara uma linha de espinhos algumas vezes contra inimigos próximos.",
-      "Última Carícia: Evelynn fica inalvejável por um breve período e dizima a área à sua frente antes de se mover uma longa distância para trás."
+      "Ameaça alvos isolados por aproximações ocultas.",
+      "Dano em área com recuo longo e breve inalvejabilidade."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

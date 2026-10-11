@@ -23,7 +23,11 @@
         3.5,
         3.5,
         3.5
-      ]
+      ],
+      "coaching": {
+        "use": "Acertar campeão concede velocidade além do veneno.",
+        "limit": "Errar não oferece o mesmo recurso de reposicionamento."
+      }
     },
     {
       "id": "Cassiopeia.W",
@@ -36,7 +40,11 @@
         20,
         18,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Veneno no chão impede habilidades de movimentação.",
+        "limit": "O alvo precisa permanecer na área para sofrer essa restrição."
+      }
     },
     {
       "id": "Cassiopeia.E",
@@ -49,7 +57,11 @@
         0.75,
         0.75,
         0.75
-      ]
+      ],
+      "coaching": {
+        "use": "Alvo envenenado sofre dano adicional e gera cura.",
+        "limit": "O dano fortalecido depende de manter veneno no alvo."
+      }
     },
     {
       "id": "Cassiopeia.R",
@@ -60,48 +72,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Atordoa quem olha para ela e desacelera quem olha para fora.",
+        "limit": "A direção do inimigo muda o controle recebido."
+      }
     },
     {
       "id": "Cassiopeia.P",
       "ability": "P",
       "name": "Graça Serpentina",
       "description": "Todos os efeitos de Velocidade de Movimento são mais eficazes em Cassiopeia.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Efeitos de velocidade de movimento têm maior eficácia.",
+        "limit": "Velocidade não equivale a um avanço que atravessa ameaças."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Ficar sem espaço de recuo pode interromper toda a sequência de dano.",
+      "A direção do inimigo muda o controle recebido."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+        "plan": "Gerencie o recurso usado na wave e não pressione sem caminho para recuar.",
+        "against": "Evite a área preparada e mude a direção antes de receber o controle frontal.",
+        "resource": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+        "caution": "Ficar sem espaço de recuo pode interromper toda a sequência de dano."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+        "plan": "Ataque um alvo acessível enquanto recua junto da cobertura aliada.",
+        "against": "Evite a área preparada e mude a direção antes de receber o controle frontal.",
+        "resource": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+        "caution": "Ficar sem espaço de recuo pode interromper toda a sequência de dano."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+        "plan": "Proteja seu espaço para causar dano contínuo; não avance entre várias ameaças por um alvo específico.",
+        "against": "Na luta decisiva, evite a área preparada e mude a direção antes de receber o controle frontal.",
+        "resource": "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+        "caution": "Ficar sem espaço de recuo pode interromper toda a sequência de dano."
       }
     },
     "strengths": [
-      "Explosão Venenosa: Cassiopeia atinge uma área com veneno após um breve intervalo, recebendo Velocidade de Movimento caso atinja um Campeão inimigo.",
-      "Olhar Petrificador: Cassiopeia lança uma espiral de energia mágica de seus olhos, atordoando quaisquer inimigos à sua frente que estiverem de frente para ela e reduzindo a velocidade de quaisquer outros que estiverem de costas."
+      "Mantém pressão prolongada e dificulta a entrada pelo chão controlado.",
+      "Atordoa quem olha para ela e desacelera quem olha para fora."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

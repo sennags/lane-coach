@@ -24,7 +24,11 @@
         6,
         5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe causa mais dano se atingir só um inimigo.",
+        "limit": "Vários alvos mudam o benefício de isolamento."
+      }
     },
     {
       "id": "Mordekaiser.W",
@@ -37,7 +41,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Dano causado e recebido prepara escudo que pode virar cura.",
+        "limit": "O benefício depende do recurso armazenado."
+      }
     },
     {
       "id": "Mordekaiser.E",
@@ -50,7 +58,11 @@
         12,
         10,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Área puxa inimigos para perto.",
+        "limit": "Precisa conectar o caminho da puxada."
+      }
     },
     {
       "id": "Mordekaiser.R",
@@ -61,48 +73,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Separa um alvo e ganha parte dos atributos.",
+        "limit": "Isolar também retira Mordekaiser da proteção do time."
+      }
     },
     {
       "id": "Mordekaiser.P",
       "ability": "P",
       "name": "Ascensão das Trevas",
       "description": "Mordekaiser recebe uma poderosa aura de dano e Velocidade de Movimento depois de acertar 3 Ataques ou Habilidades contra Campeões inimigos ou monstros.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Três acertos ativam área de dano e velocidade.",
+        "limit": "Precisa completar os acertos e manter contato."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Retirar um alvo secundário pode deixar o próprio time sem sua presença.",
+      "Isolar também retira Mordekaiser da proteção do time."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+        "plan": "Use o controle da wave para manter contato útil sem perseguir longe da renda.",
+        "against": "Proteja a formação antes da separação e evite oferecer um duelo favorável sem necessidade.",
+        "resource": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+        "caution": "Retirar um alvo secundário pode deixar o próprio time sem sua presença."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+        "plan": "Escolha um alvo que consiga enfrentar sem abandonar o aliado que precisa de cobertura.",
+        "against": "Proteja a formação antes da separação e evite oferecer um duelo favorável sem necessidade.",
+        "resource": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+        "caution": "Retirar um alvo secundário pode deixar o próprio time sem sua presença."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+        "plan": "Avalie se isolar a ameaça ajuda o time mais do que permanecer na frente.",
+        "against": "Na luta decisiva, proteja a formação antes da separação e evite oferecer um duelo favorável sem necessidade.",
+        "resource": "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+        "caution": "Retirar um alvo secundário pode deixar o próprio time sem sua presença."
       }
     },
     "strengths": [
-      "Obliterar: Mordekaiser golpeia o chão com sua maça, causando dano a cada inimigo atingido. O dano é aumentado quando atingir um único inimigo.",
-      "Reino da Morte: Mordekaiser arrasta sua vítima com ele para uma dimensão diferente e rouba uma porção de seus atributos. Se abater sua vítima, ele mantém os atributos até que ela ressurja."
+      "Pressiona combate próximo e pode retirar uma ameaça da formação.",
+      "Separa um alvo e ganha parte dos atributos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         3.5,
         3.5,
         3.5
-      ]
+      ],
+      "coaching": {
+        "use": "Acúmulos preparam puxada; forma irrestrita muda recarga.",
+        "limit": "A ameaça depende dos acúmulos e da forma."
+      }
     },
     {
       "id": "KSante.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Preparação protege e avança; forma irrestrita muda o controle.",
+        "limit": "Irrestrito não mantém o mesmo empurrão e atordoamento."
+      }
     },
     {
       "id": "KSante.E",
@@ -50,7 +58,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço concede escudo e pode proteger aliado.",
+        "limit": "O alvo e a forma mudam a chegada."
+      }
     },
     {
       "id": "KSante.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Separa um inimigo e transforma o kit para dano e cura.",
+        "limit": "A transformação reduz defesas e pode separar do apoio."
+      }
     },
     {
       "id": "KSante.P",
       "ability": "P",
       "name": "Instinto Valente",
       "description": "As habilidades de K'Sante marcam os alvos para que sofram mais dano do próximo ataque dele. Na Forma Irrestrita, K'Sante causa mais dano com todos os ataques e habilidades.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Habilidades marcam para fortalecer o ataque seguinte.",
+        "limit": "É preciso seguir o acerto com ataque para aproveitar a marca."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Protege a frente e pode separar uma ameaça para combate próximo.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Trocar a defesa da frente por uma perseguição pode expor todos os aliados.",
+      "A transformação reduz defesas e pode separar do apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Protege a frente e pode separar uma ameaça para combate próximo.",
+        "plan": "Prepare acúmulos e posição da wave antes de comprometer o controle.",
+        "against": "Observe quem fica protegido e quem seria isolado perto de uma parede.",
+        "resource": "Protege a frente e pode separar uma ameaça para combate próximo.",
+        "caution": "Trocar a defesa da frente por uma perseguição pode expor todos os aliados."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Protege a frente e pode separar uma ameaça para combate próximo.",
+        "plan": "Escolha entre proteger um aliado e isolar um alvo que possa enfrentar.",
+        "against": "Observe quem fica protegido e quem seria isolado perto de uma parede.",
+        "resource": "Protege a frente e pode separar uma ameaça para combate próximo.",
+        "caution": "Trocar a defesa da frente por uma perseguição pode expor todos os aliados."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Protege a frente e pode separar uma ameaça para combate próximo.",
+        "plan": "Avalie se deixar a formação ajuda o time antes de comprometer a transformação.",
+        "against": "Na luta decisiva, observe quem fica protegido e quem seria isolado perto de uma parede.",
+        "resource": "Protege a frente e pode separar uma ameaça para combate próximo.",
+        "caution": "Trocar a defesa da frente por uma perseguição pode expor todos os aliados."
       }
     },
     "strengths": [
-      "Golpes de Ntofo: K'Sante executa um golpe, causando dano e Lentidão aos inimigos em uma linha curta à frente. Ao contato, concede um acúmulo de Golpes de Ntofo. Com 2 acúmulos, ele dispara uma onda de choque que puxa os inimigos. Na Forma Irrestrita, o Tempo de Recarga é reduzido.",
-      "Forma Irrestrita: K'Sante empurra um inimigo, fazendo-o atravessar qualquer parede no caminho. Depois, K'Sante assume a Forma Irrestrita e avança em direção ao inimigo, recebendo aumento de dano, cura e habilidades transformadas ao custo da redução das defesas."
+      "Protege a frente e pode separar uma ameaça para combate próximo.",
+      "Separa um inimigo e transforma o kit para dano e cura."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

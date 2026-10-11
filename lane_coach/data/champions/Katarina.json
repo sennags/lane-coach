@@ -24,7 +24,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Adaga salta entre alvos e fica disponível no chão.",
+        "limit": "O lugar de queda importa mais do que apenas acertar o primeiro alvo."
+      }
     },
     {
       "id": "Katarina.W",
@@ -37,7 +41,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade e adaga preparam reposicionamento.",
+        "limit": "Coletar a adaga pode exigir entrar na resposta inimiga."
+      }
     },
     {
       "id": "Katarina.E",
@@ -50,7 +58,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Desloca a um alvo e dá dano próximo.",
+        "limit": "A chegada pode ficar cercada de ameaças."
+      }
     },
     {
       "id": "Katarina.R",
@@ -61,48 +73,64 @@
         75,
         60,
         45
-      ]
+      ],
+      "coaching": {
+        "use": "Dano canalizado atinge campeões próximos.",
+        "limit": "Controle ou perda de alcance pode impedir a continuação."
+      }
     },
     {
       "id": "Katarina.P",
       "ability": "P",
       "name": "Voracidade",
       "description": "Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga , Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Eliminações recentes reduzem recargas; coletar adaga dá dano próximo.",
+        "limit": "A continuação depende de abate ou da posição da adaga."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Busca uma eliminação que permita continuar a luta.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Entrar antes de existir uma oportunidade de continuação pode interromper toda a sequência.",
+      "Controle ou perda de alcance pode impedir a continuação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Busca uma eliminação que permita continuar a luta.",
+        "plan": "Organize a wave e a renda antes de seguir uma adaga ou buscar uma saída da rota.",
+        "against": "Proteja quem está com pouca vida e reserve resposta para a chegada.",
+        "resource": "Busca uma eliminação que permita continuar a luta.",
+        "caution": "Entrar antes de existir uma oportunidade de continuação pode interromper toda a sequência."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Busca uma eliminação que permita continuar a luta.",
+        "plan": "Espere alvos expostos e ameaças de controle comprometidas antes de entrar.",
+        "against": "Proteja quem está com pouca vida e reserve resposta para a chegada.",
+        "resource": "Busca uma eliminação que permita continuar a luta.",
+        "caution": "Entrar antes de existir uma oportunidade de continuação pode interromper toda a sequência."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Busca uma eliminação que permita continuar a luta.",
+        "plan": "Escolha uma entrada com continuação real, sem depender de um reinício ainda não obtido.",
+        "against": "Na luta decisiva, proteja quem está com pouca vida e reserve resposta para a chegada.",
+        "resource": "Busca uma eliminação que permita continuar a luta.",
+        "caution": "Entrar antes de existir uma oportunidade de continuação pode interromper toda a sequência."
       }
     },
     "strengths": [
-      "Lâmina Saltitante: Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão.",
-      "Lótus da Morte: Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos."
+      "Busca uma eliminação que permita continuar a luta.",
+      "Dano canalizado atinge campeões próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

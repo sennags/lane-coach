@@ -23,7 +23,11 @@
         9,
         7.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Corrida prepara colisão com dano e lentidão.",
+        "limit": "Bloqueadores podem mudar o alvo de chegada."
+      }
     },
     {
       "id": "Rammus.W",
@@ -36,7 +40,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Defesas aumentadas devolvem dano dos ataques recebidos.",
+        "limit": "Não punem igualmente todo tipo de dano inimigo."
+      }
     },
     {
       "id": "Rammus.E",
@@ -49,7 +57,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Provoca alvo a atacar Rammus.",
+        "limit": "Precisa alcançar a ameaça útil, não apenas qualquer alvo."
+      }
     },
     {
       "id": "Rammus.R",
@@ -60,48 +72,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Salto desacelera; com corrida pode controlar no centro.",
+        "limit": "O controle depende da preparação e do acerto central."
+      }
     },
     {
       "id": "Rammus.P",
       "ability": "P",
       "name": "Casco Espetado",
       "description": "Rammus recebe escalamento de Dano de Ataque adicional com sua Armadura e sua Resistência Mágica.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Defesas ampliam dano de ataque.",
+        "limit": "O benefício ainda depende de alcançar o alvo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Prende uma ameaça de ataques e ocupa a frente.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Chegar no alvo errado pode deixar a ameaça principal livre.",
+      "O controle depende da preparação e do acerto central."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Prende uma ameaça de ataques e ocupa a frente.",
+        "plan": "Priorize renda e caminho de chegada; na rota, preserve farm antes de forçar pressão.",
+        "against": "Evite gastar ataques na defesa ativa sem necessidade e proteja o alvo da provocação.",
+        "resource": "Prende uma ameaça de ataques e ocupa a frente.",
+        "caution": "Chegar no alvo errado pode deixar a ameaça principal livre."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Prende uma ameaça de ataques e ocupa a frente.",
+        "plan": "Escolha um alvo acompanhado sem correr tão longe que o time não alcance.",
+        "against": "Evite gastar ataques na defesa ativa sem necessidade e proteja o alvo da provocação.",
+        "resource": "Prende uma ameaça de ataques e ocupa a frente.",
+        "caution": "Chegar no alvo errado pode deixar a ameaça principal livre."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Prende uma ameaça de ataques e ocupa a frente.",
+        "plan": "Proteja o aliado pressionado e mantenha contato com quem precisa ser interrompido.",
+        "against": "Na luta decisiva, evite gastar ataques na defesa ativa sem necessidade e proteja o alvo da provocação.",
+        "resource": "Prende uma ameaça de ataques e ocupa a frente.",
+        "caution": "Chegar no alvo errado pode deixar a ameaça principal livre."
       }
     },
     "strengths": [
-      "Bola do Poder: Rammus acelera em forma de bola na direção de seus inimigos, causando dano e lentidão nos alvos afetados pelo impacto.",
-      "Colisão Ascendente: Rammus salta e se joga com força na área-alvo, causando Dano Mágico e Lentidão aos inimigos atingidos. Se a Habilidade for conjurada enquanto Rammus estiver com Bola do Poder ativa, ele também arremessará ao ar os inimigos próximos ao centro."
+      "Prende uma ameaça de ataques e ocupa a frente.",
+      "Salto desacelera; com corrida pode controlar no centro."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

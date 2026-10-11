@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Carregar amplia o controle do golpe à frente.",
+        "limit": "A preparação permite sair da área ou interromper."
+      }
     },
     {
       "id": "Sion.W",
@@ -37,7 +41,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo pode explodir; abates aumentam vida máxima.",
+        "limit": "A explosão exige esperar e manter alvos próximos."
+      }
     },
     {
       "id": "Sion.E",
@@ -50,7 +58,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Unidade arremessada amplia dano e lentidão em linha.",
+        "limit": "Depende do alvo inicial e do alinhamento."
+      }
     },
     {
       "id": "Sion.R",
@@ -61,48 +73,64 @@
         140,
         100,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Corrida controla na colisão e ganha força com distância.",
+        "limit": "A direção só pode ser ajustada parcialmente."
+      }
     },
     {
       "id": "Sion.P",
       "ability": "P",
       "name": "In Gloria Mori",
       "description": "Após ser abatido, Sion será reanimado temporariamente, mas sua Vida decairá rapidamente. Seus ataques ficarão muito rápidos, curando e causando dano adicional com base na Vida máxima do alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Após morrer mantém uma breve janela de ataques e cura.",
+        "limit": "A vida decai; não substitui preservar a presença antes da morte."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Ocupa a frente e cria uma entrada em linha com apoio.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Uma corrida que ultrapassa o apoio pode retirar toda a frente do time.",
+      "A direção só pode ser ajustada parcialmente."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Ocupa a frente e cria uma entrada em linha com apoio.",
+        "plan": "Preserve farm para progredir vida e prepare a wave antes de sair da rota.",
+        "against": "Abra caminho para desviar e não alinhe toda a formação com a entrada.",
+        "resource": "Ocupa a frente e cria uma entrada em linha com apoio.",
+        "caution": "Uma corrida que ultrapassa o apoio pode retirar toda a frente do time."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Ocupa a frente e cria uma entrada em linha com apoio.",
+        "plan": "Prepare um caminho que o time alcance sem passar direto de seus aliados.",
+        "against": "Abra caminho para desviar e não alinhe toda a formação com a entrada.",
+        "resource": "Ocupa a frente e cria uma entrada em linha com apoio.",
+        "caution": "Uma corrida que ultrapassa o apoio pode retirar toda a frente do time."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Ocupa a frente e cria uma entrada em linha com apoio.",
+        "plan": "Proteja a aproximação e escolha uma chegada útil em vez de perseguir sozinho.",
+        "against": "Na luta decisiva, abra caminho para desviar e não alinhe toda a formação com a entrada.",
+        "resource": "Ocupa a frente e cria uma entrada em linha com apoio.",
+        "caution": "Uma corrida que ultrapassa o apoio pode retirar toda a frente do time."
       }
     },
     "strengths": [
-      "Golpe Demolidor: Sion carrega um poderoso golpe em uma área à sua frente que causará dano a inimigos quando lançado. Caso carregue por tempo suficiente, também arremessará ao ar e atordoará os inimigos atingidos.",
-      "Investida Incontrolável: Sion avança em linha reta, acelerando ao longo do tempo. Ele pode guiar levemente sua investida com o cursor do mouse na posição. Ao colidir com um inimigo, ele causa dano e o arremessa ao ar com base na distância percorrida."
+      "Ocupa a frente e cria uma entrada em linha com apoio.",
+      "Corrida controla na colisão e ganha força com distância."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

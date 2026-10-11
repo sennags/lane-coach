@@ -23,7 +23,11 @@
         6,
         5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil acelera durante o caminho.",
+        "limit": "Precisa conectar a linha, considerando a mudança de velocidade."
+      }
     },
     {
       "id": "Vex.W",
@@ -36,7 +40,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e dano próximo ajudam a responder à entrada.",
+        "limit": "Usar cedo pode retirar a defesa contra a próxima ameaça."
+      }
     },
     {
       "id": "Vex.E",
@@ -49,7 +57,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Área aplica dano, lentidão e marca.",
+        "limit": "O alvo pode abandonar a região."
+      }
     },
     {
       "id": "Vex.R",
@@ -60,48 +72,64 @@
         140,
         120,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Marca permite avançar até o campeão.",
+        "limit": "Acertar a marca não torna a chegada automaticamente segura."
+      }
     },
     {
       "id": "Vex.P",
       "ability": "P",
       "name": "Destruição e Escuridão",
       "description": "Periodicamente, Vex é fortalecida, fazendo com que a próxima Habilidade básica dela cause Temor aos inimigos e interrompa avanços. Sempre que um inimigo próximo avança, Vex aplica uma marca que é consumida para causar dano adicional, além de reduzir o Tempo de Recarga do estado fortalecido.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Preparação permite medo; avanço inimigo marca para renovar a ameaça.",
+        "limit": "O controle fortalecido não está sempre disponível."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pune aproximações e pode acompanhar uma captura à distância.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Entrar no grupo protegido após uma marca pode perder toda a função defensiva.",
+      "Acertar a marca não torna a chegada automaticamente segura."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pune aproximações e pode acompanhar uma captura à distância.",
+        "plan": "Planeje wave e preparação do controle antes de empurrar ou sair da rota.",
+        "against": "Observe a preparação do controle antes de gastar avanços perto dela.",
+        "resource": "Pune aproximações e pode acompanhar uma captura à distância.",
+        "caution": "Entrar no grupo protegido após uma marca pode perder toda a função defensiva."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pune aproximações e pode acompanhar uma captura à distância.",
+        "plan": "Preserve resposta à entrada e siga uma oportunidade apenas com apoio.",
+        "against": "Observe a preparação do controle antes de gastar avanços perto dela.",
+        "resource": "Pune aproximações e pode acompanhar uma captura à distância.",
+        "caution": "Entrar no grupo protegido após uma marca pode perder toda a função defensiva."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pune aproximações e pode acompanhar uma captura à distância.",
+        "plan": "Escolha entre proteger a formação e alcançar um alvo exposto sem perder a saída.",
+        "against": "Na luta decisiva, observe a preparação do controle antes de gastar avanços perto dela.",
+        "resource": "Pune aproximações e pode acompanhar uma captura à distância.",
+        "caution": "Entrar no grupo protegido após uma marca pode perder toda a função defensiva."
       }
     },
     "strengths": [
-      "Rajada Mistral: Lança um projétil que causa dano e acelera no meio do trajeto.",
-      "Onda Sombria: Dispara um projétil que marca um Campeão inimigo. Reconjure para avançar até o alvo e causar dano."
+      "Pune aproximações e pode acompanhar uma captura à distância.",
+      "Marca permite avançar até o campeão."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

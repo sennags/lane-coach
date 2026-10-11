@@ -24,7 +24,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Salta e controla inimigos atingidos, reduzindo sua armadura.",
+        "limit": "A chegada pode comprometer a posição perto de vários inimigos."
+      }
     },
     {
       "id": "Briar.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Frenesi mantém ataques; a mordida usa a vida perdida do alvo.",
+        "limit": "Persegue o inimigo próximo e não mantém seleção livre de alvo."
+      }
     },
     {
       "id": "Briar.E",
@@ -50,7 +58,11 @@
         16,
         16,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Encerra o frenesi e protege durante a canalização.",
+        "limit": "A pressão na parede exige carregar e alinhar o empurrão."
+      }
     },
     {
       "id": "Briar.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Marca uma presa e inicia perseguição com efeitos fortalecidos.",
+        "limit": "A entrada compromete Briar com a presa até a morte."
+      }
     },
     {
       "id": "Briar.P",
       "ability": "P",
       "name": "Maldição Carmesim",
       "description": "Os Ataques e as Habilidades de Briar acumulam sangramento que cura Briar numa quantidade do dano causado. Constantemente faminta, ela ganha cura aumentada com base na Vida perdida, mas não tem Regeneração de Vida inata.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Sangramento aplicado gera cura e a vida perdida aumenta sua cura.",
+        "limit": "Não tem regeneração inata; precisa criar condições para sustentar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona um alvo próximo em combate comprometido.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir automaticamente pode atravessar toda a formação inimiga.",
+      "A entrada compromete Briar com a presa até a morte."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona um alvo próximo em combate comprometido.",
+        "plan": "Avalie o caminho da wave antes do frenesi para não abandonar farm ou recuo.",
+        "against": "Mantenha proteção da presa e pressione a posição de chegada com aliados próximos.",
+        "resource": "Pressiona um alvo próximo em combate comprometido.",
+        "caution": "Perseguir automaticamente pode atravessar toda a formação inimiga."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona um alvo próximo em combate comprometido.",
+        "plan": "Escolha a entrada com apoio e preserve uma forma de interromper uma perseguição ruim.",
+        "against": "Mantenha proteção da presa e pressione a posição de chegada com aliados próximos.",
+        "resource": "Pressiona um alvo próximo em combate comprometido.",
+        "caution": "Perseguir automaticamente pode atravessar toda a formação inimiga."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona um alvo próximo em combate comprometido.",
+        "plan": "Espere uma abertura real antes de comprometer o corpo com um alvo protegido.",
+        "against": "Na luta decisiva, mantenha proteção da presa e pressione a posição de chegada com aliados próximos.",
+        "resource": "Pressiona um alvo próximo em combate comprometido.",
+        "caution": "Perseguir automaticamente pode atravessar toda a formação inimiga."
       }
     },
     "strengths": [
-      "Vertigem: Briar salta até uma unidade e atinge inimigos com um golpe giratório, atordoando e fragmentando a Armadura de todos que atingir.",
-      "Morte Certa: Briar lança o hemólito da berlinda dela, marcando o primeiro Campeão atingido como sua presa. Depois, ela avança diretamente, causando temor a inimigos próximos ao chegar no alvo e entrando num estado de hemomania total. Ela persegue a presa até a morte, recebendo os benefícios de Frenesi Sanguinário, além de Armadura, Resistência Mágica, Roubo de Vida e Velocidade de Movimento adicionais."
+      "Pressiona um alvo próximo em combate comprometido.",
+      "Marca uma presa e inicia perseguição com efeitos fortalecidos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

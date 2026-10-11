@@ -24,7 +24,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques acumulam foco para ativar rajadas mais rápidas.",
+        "limit": "Precisa do foco máximo antes de ativar."
+      }
     },
     {
       "id": "Ashe.W",
@@ -37,7 +41,11 @@
         11,
         7.5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Cone de flechas aplica dano e lentidão.",
+        "limit": "Depende de acertar a trajetória das flechas."
+      }
     },
     {
       "id": "Ashe.E",
@@ -50,7 +58,11 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Revela um trajeto e uma área do mapa.",
+        "limit": "Visão ajuda a decidir; não impede a aproximação sozinha."
+      }
     },
     {
       "id": "Ashe.R",
@@ -61,48 +73,64 @@
         100,
         80,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Flecha atordoa o primeiro campeão atingido.",
+        "limit": "Distância influencia a duração e há tempo para desviar."
+      }
     },
     {
       "id": "Ashe.P",
       "ability": "P",
       "name": "Tiro Congelado",
       "description": "Os ataques de Ashe reduzem a velocidade do alvo e fazem com que ela cause mais dano a ele. Os Acertos Críticos de Ashe não causam dano adicional, mas reduzem ainda mais a velocidade do alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques desaceleram o alvo e aumentam o dano sobre ele.",
+        "limit": "É preciso manter alcance para continuar a pressão."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Não há um avanço livre no kit para corrigir toda posição ruim.",
+      "Distância influencia a duração e há tempo para desviar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+        "plan": "Dispute farm pelo alcance e confira aproximações antes de empurrar a wave.",
+        "against": "Pressione seu espaço de ataque com apoio e evite uma perseguição prolongada sob lentidão.",
+        "resource": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+        "caution": "Não há um avanço livre no kit para corrigir toda posição ruim."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+        "plan": "Ataque o alvo acessível, reposicionando sem deixar a cobertura do time.",
+        "against": "Pressione seu espaço de ataque com apoio e evite uma perseguição prolongada sob lentidão.",
+        "resource": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+        "caution": "Não há um avanço livre no kit para corrigir toda posição ruim."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+        "plan": "Priorize sobreviver e manter ataques; não avance para um alvo que exige cruzar a luta.",
+        "against": "Na luta decisiva, pressione seu espaço de ataque com apoio e evite uma perseguição prolongada sob lentidão.",
+        "resource": "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+        "caution": "Não há um avanço livre no kit para corrigir toda posição ruim."
       }
     },
     "strengths": [
-      "Concentração: Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito.",
-      "Flecha de Cristal Encantada: Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão."
+      "Causa dano de trás da proteção e ajuda a manter alvos lentos.",
+      "Flecha atordoa o primeiro campeão atingido."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

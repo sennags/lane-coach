@@ -24,7 +24,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Bola empurra e depois desacelera na área.",
+        "limit": "A direção pode afastar o alvo da pressão aliada."
+      }
     },
     {
       "id": "Milio.W",
@@ -37,7 +41,11 @@
         25,
         23,
         21
-      ]
+      ],
+      "coaching": {
+        "use": "Zona cura e aumenta alcance dos aliados dentro dela.",
+        "limit": "O benefício depende de permanecer na região acompanhada."
+      }
     },
     {
       "id": "Milio.E",
@@ -50,7 +58,11 @@
         0.5,
         0.5,
         0.5
-      ]
+      ],
+      "coaching": {
+        "use": "Duas cargas oferecem escudo e velocidade.",
+        "limit": "Gastar ambas reduz a resposta à ameaça seguinte."
+      }
     },
     {
       "id": "Milio.R",
@@ -61,48 +73,64 @@
         160,
         145,
         130
-      ]
+      ],
+      "coaching": {
+        "use": "Cura aliados próximos e remove controle conforme o efeito do kit.",
+        "limit": "A proteção depende de estar ao alcance e disponível para responder."
+      }
     },
     {
       "id": "Milio.P",
       "ability": "P",
       "name": "A Todo Vapor!",
       "description": "As habilidades de Milio encantam aliados ao toque, fazendo com que o próximo ataque deles cause uma explosão de dano adicional e queime o alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Habilidades em aliados preparam dano adicional no próximo ataque.",
+        "limit": "O aliado precisa continuar atacando para aproveitar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Amplia o espaço de ataque de um aliado e responde à entrada.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Ficar longe do parceiro pode impedir que a proteção chegue a tempo.",
+      "A proteção depende de estar ao alcance e disponível para responder."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Amplia o espaço de ataque de um aliado e responde à entrada.",
+        "plan": "Cubra o farm aliado e gerencie as cargas antes de disputar a wave.",
+        "against": "Pressione a cobertura por mais de um lado e observe quando as cargas defensivas foram usadas.",
+        "resource": "Amplia o espaço de ataque de um aliado e responde à entrada.",
+        "caution": "Ficar longe do parceiro pode impedir que a proteção chegue a tempo."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Amplia o espaço de ataque de um aliado e responde à entrada.",
+        "plan": "Acompanhe quem consegue aproveitar alcance e mantenha distância da primeira ameaça.",
+        "against": "Pressione a cobertura por mais de um lado e observe quando as cargas defensivas foram usadas.",
+        "resource": "Amplia o espaço de ataque de um aliado e responde à entrada.",
+        "caution": "Ficar longe do parceiro pode impedir que a proteção chegue a tempo."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Amplia o espaço de ataque de um aliado e responde à entrada.",
+        "plan": "Preserve a resposta defensiva para o aliado-chave, sem gastar tudo por dano evitável.",
+        "against": "Na luta decisiva, pressione a cobertura por mais de um lado e observe quando as cargas defensivas foram usadas.",
+        "resource": "Amplia o espaço de ataque de um aliado e responde à entrada.",
+        "caution": "Ficar longe do parceiro pode impedir que a proteção chegue a tempo."
       }
     },
     "strengths": [
-      "Ultramega Chute Flamejante: Milio chuta uma bola que empurra um inimigo. A bola é lançada para cima ao contato e cai na direção do alvo, causando dano e Lentidão aos inimigos que estiverem na área atingida.",
-      "Sopro de Vida: Milio libera uma onda de chamas reconfortantes que cura os aliados ao alcance, além de remover efeitos de controle de grupo."
+      "Amplia o espaço de ataque de um aliado e responde à entrada.",
+      "Cura aliados próximos e remove controle conforme o efeito do kit."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

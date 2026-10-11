@@ -24,7 +24,11 @@
         4.5,
         4,
         3.5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano ao alvo melhora conforme os acúmulos.",
+        "limit": "A versão disponível depende do progresso atual."
+      }
     },
     {
       "id": "Smolder.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil explode ao atingir campeão.",
+        "limit": "Precisa conectar o alvo para a explosão útil."
+      }
     },
     {
       "id": "Smolder.E",
@@ -50,7 +58,11 @@
         20,
         18,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Voo atravessa terreno e pressiona alvo próximo fragilizado.",
+        "limit": "Usar para entrar compromete o caminho de recuo."
+      }
     },
     {
       "id": "Smolder.R",
@@ -61,48 +73,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Área longa dá dano e centro amplia lentidão e pressão.",
+        "limit": "O centro precisa alinhar com os alvos."
+      }
     },
     {
       "id": "Smolder.P",
       "ability": "P",
       "name": "Treinamento Dracônico",
       "description": "Acertar Campeões com habilidades e abater inimigos com Super-Hálito Flamejante concede um acúmulo de Treinamento Dracônico. Os acúmulos aumentam o dano das habilidades básicas de Smolder.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertos em campeão e abates com Q acumulam força das habilidades.",
+        "limit": "O progresso depende dos acúmulos, não só do nível."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém pressão à distância conforme progride os acúmulos.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Buscar acúmulos em posição perigosa pode interromper todo o progresso.",
+      "O centro precisa alinhar com os alvos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém pressão à distância conforme progride os acúmulos.",
+        "plan": "Priorize abates de farm e vida para acumular sem perder a wave.",
+        "against": "Ameace a posição depois de o voo ser comprometido, sem alinhar todos.",
+        "resource": "Mantém pressão à distância conforme progride os acúmulos.",
+        "caution": "Buscar acúmulos em posição perigosa pode interromper todo o progresso."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém pressão à distância conforme progride os acúmulos.",
+        "plan": "Ataque o alvo seguro sem gastar o recuo para dano inicial.",
+        "against": "Ameace a posição depois de o voo ser comprometido, sem alinhar todos.",
+        "resource": "Mantém pressão à distância conforme progride os acúmulos.",
+        "caution": "Buscar acúmulos em posição perigosa pode interromper todo o progresso."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém pressão à distância conforme progride os acúmulos.",
+        "plan": "Priorize sobrevivência e continuidade junto da proteção aliada.",
+        "against": "Na luta decisiva, ameace a posição depois de o voo ser comprometido, sem alinhar todos.",
+        "resource": "Mantém pressão à distância conforme progride os acúmulos.",
+        "caution": "Buscar acúmulos em posição perigosa pode interromper todo o progresso."
       }
     },
     "strengths": [
-      "Super-Hálito Flamejante: Smolder cospe fogo em um inimigo. Conforme obtém mais acúmulos, a Habilidade se torna ainda mais poderosa.",
-      "MANHÊÊÊ!: Smolder chama sua mãe para cuspir fogo das alturas, causando dano adicional e Lentidão aos inimigos no centro das chamas."
+      "Mantém pressão à distância conforme progride os acúmulos.",
+      "Área longa dá dano e centro amplia lentidão e pressão."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

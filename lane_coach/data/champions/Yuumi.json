@@ -25,7 +25,11 @@
         6.5,
         6.5,
         6.5
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil guiado conectada prepara lentidão ampliada por tempo de viagem.",
+        "limit": "Primeiro alvo e tempo até o impacto mudam o efeito."
+      }
     },
     {
       "id": "Yuumi.W",
@@ -38,7 +42,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Conecta ao aliado e recebe proteção; melhor amigo amplia benefícios.",
+        "limit": "Torres ainda podem atingir e a conexão depende de um aliado disponível."
+      }
     },
     {
       "id": "Yuumi.E",
@@ -51,7 +59,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e atributos apoiam o aliado quando conectada.",
+        "limit": "Gastar cedo pode retirar resposta ao foco seguinte."
+      }
     },
     {
       "id": "Yuumi.R",
@@ -62,48 +74,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Ondas curam aliados e dão dano; pode ajustar durante a sequência.",
+        "limit": "A direção precisa cobrir quem recebe a pressão."
+      }
     },
     {
       "id": "Yuumi.P",
       "ability": "P",
       "name": "Amizade Felina",
       "description": "Periodicamente, quando Yuumi atinge um Campeão com um Ataque ou Habilidade, ela restaura Vida para si e para o próximo aliado a quem ela se Conectar. Enquanto Conectada, Yuumi cria um laço especial com os aliados. O aliado com o laço mais forte aprimora as Habilidades de Yuumi enquanto ela estiver Conectada a ele.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acerto em campeão prepara cura; vínculo forte amplia apoio.",
+        "limit": "Os benefícios dependem do vínculo e do momento da cura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Estar inalvejável não impede que o aliado escolhido receba todo o foco.",
+      "A direção precisa cobrir quem recebe a pressão."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+        "plan": "Cubra o farm do parceiro e preserve a proteção para a entrada, sem abandonar um aliado exposto.",
+        "against": "Pressione o aliado conectado com apoio e evite foco dividido sem finalidade.",
+        "resource": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+        "caution": "Estar inalvejável não impede que o aliado escolhido receba todo o foco."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+        "plan": "Apoie quem pode contribuir sem ficar isolado e preserve defesa para a aproximação.",
+        "against": "Pressione o aliado conectado com apoio e evite foco dividido sem finalidade.",
+        "resource": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+        "caution": "Estar inalvejável não impede que o aliado escolhido receba todo o foco."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+        "plan": "Priorize a sobrevivência do aliado útil e não sustente uma perseguição sem acompanhamento.",
+        "against": "Na luta decisiva, pressione o aliado conectado com apoio e evite foco dividido sem finalidade.",
+        "resource": "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+        "caution": "Estar inalvejável não impede que o aliado escolhido receba todo o foco."
       }
     },
     "strengths": [
-      "Projétil Errante: Yuumi dispara um projétil, causando dano e Lentidão ao primeiro alvo que atingir. O projétil causa dano adicional e a Lentidão é fortalecida se demorar pelo menos 1,35s para chegar até o alvo. Enquanto Yuumi estiver com o Melhor Amigo, a Lentidão sempre será fortalecida e a Campeã concederá dano adicional ao contato para o aliado. Enquanto ela estiver Conectada, o projétil poderá ser controlado pelo cursor do mouse por um breve período.",
-      "Capítulo Final: Yuumi canaliza cinco ondas que causam dano a inimigos e curam aliados. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização. Enquanto estiver com o Melhor Amigo, esta Habilidade também seguirá o cursor do mouse."
+      "Mantém um aliado ativo enquanto acompanha suas decisões de combate.",
+      "Ondas curam aliados e dão dano; pode ajustar durante a sequência."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

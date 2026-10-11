@@ -24,7 +24,11 @@
         14,
         11.5,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Gancho puxa e permite seguir o alvo.",
+        "limit": "Acertar não obriga usar a segunda entrada."
+      }
     },
     {
       "id": "Thresh.W",
@@ -37,7 +41,11 @@
         19,
         18,
         17
-      ]
+      ],
+      "coaching": {
+        "use": "Lanterna protege e oferece retorno ao local de Thresh.",
+        "limit": "A posição do corpo precisa ser segura para quem vem."
+      }
     },
     {
       "id": "Thresh.E",
@@ -50,7 +58,11 @@
         11.5,
         10.75,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque preparado amplia dano; corrente desloca na direção escolhida.",
+        "limit": "O deslocamento pode afastar um alvo da pressão aliada."
+      }
     },
     {
       "id": "Thresh.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Paredes punem quem as atravessa.",
+        "limit": "A região precisa interceptar a aproximação real."
+      }
     },
     {
       "id": "Thresh.P",
       "ability": "P",
       "name": "Condenação",
       "description": "Thresh pode colher a alma de inimigos que morrerem perto dele, recebendo Armadura e Poder de Habilidade permanentemente.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Coletar almas aumenta defesa e poder permanentemente.",
+        "limit": "A coleta pode exigir posição arriscada."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Cria uma captura ou oferece uma saída a um aliado.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Uma lanterna para uma região ameaçada não salva a posição do aliado.",
+      "A região precisa interceptar a aproximação real."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Cria uma captura ou oferece uma saída a um aliado.",
+        "plan": "Cubra o farm do parceiro e não abandone a wave por uma alma perigosa.",
+        "against": "Observe a posição do corpo e evite entregar uma captura com todo o time alinhado.",
+        "resource": "Cria uma captura ou oferece uma saída a um aliado.",
+        "caution": "Uma lanterna para uma região ameaçada não salva a posição do aliado."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Cria uma captura ou oferece uma saída a um aliado.",
+        "plan": "Posicione o corpo para proteger o retorno antes de decidir seguir o alvo.",
+        "against": "Observe a posição do corpo e evite entregar uma captura com todo o time alinhado.",
+        "resource": "Cria uma captura ou oferece uma saída a um aliado.",
+        "caution": "Uma lanterna para uma região ameaçada não salva a posição do aliado."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Cria uma captura ou oferece uma saída a um aliado.",
+        "plan": "Priorize a ameaça à formação e mantenha o aliado importante ao alcance da saída.",
+        "against": "Na luta decisiva, observe a posição do corpo e evite entregar uma captura com todo o time alinhado.",
+        "resource": "Cria uma captura ou oferece uma saída a um aliado.",
+        "caution": "Uma lanterna para uma região ameaçada não salva a posição do aliado."
       }
     },
     "strengths": [
-      "Sentença: Thresh prende um inimigo em suas correntes e puxa em sua direção. Ativar essa habilidade uma segunda vez puxa Thresh em direção ao inimigo.",
-      "A Caixa: Uma prisão de paredes que causam dano e Lentidão se quebradas."
+      "Cria uma captura ou oferece uma saída a um aliado.",
+      "Paredes punem quem as atravessa."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

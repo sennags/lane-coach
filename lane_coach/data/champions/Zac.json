@@ -24,7 +24,11 @@
         11,
         9.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Prende um alvo e ataque em outro aproxima os dois.",
+        "limit": "Precisa de dois alvos para a continuação completa."
+      }
     },
     {
       "id": "Zac.W",
@@ -37,7 +41,11 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo usa a vida máxima inimiga.",
+        "limit": "Exige manter contato na área."
+      }
     },
     {
       "id": "Zac.E",
@@ -50,7 +58,11 @@
         15,
         12,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Preparação lança o corpo até uma região.",
+        "limit": "A chegada deve ter apoio; mostrar preparo permite reação."
+      }
     },
     {
       "id": "Zac.R",
@@ -61,48 +73,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Saltos controlam e desaceleram inimigos próximos.",
+        "limit": "Precisa permanecer perto para continuar afetando."
+      }
     },
     {
       "id": "Zac.P",
       "ability": "P",
       "name": "Divisão Celular",
       "description": "Sempre que Zac atinge um inimigo com uma habilidade, ele perde parte de si mesmo que pode ser reabsorvida para restaurar Vida. Ao receber dano letal, Zac divide-se em 4 pedaços que tentam se recombinar. Se qualquer pedaço permanecer, ele ressuscitará uma quantia de Vida, dependendo da vida dos pedaços sobreviventes. Cada pedaço tem um percentual da Vida máxima de Zac, de sua Armadura e de Resistência Mágica. Essa habilidade tem 5 minutos de Tempo de Recarga.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fragmentos recuperam vida; dano letal pode preparar recomposição.",
+        "limit": "Coletar ou defender fragmentos exige uma região segura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Uma entrada sem apoio pode perder inclusive a proteção dos fragmentos.",
+      "Precisa permanecer perto para continuar afetando."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+        "plan": "Priorize renda e recuperação; na rota, não perca farm por uma coleta ameaçada.",
+        "against": "Cubra os lados e separe alvos antes da região de chegada.",
+        "resource": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+        "caution": "Uma entrada sem apoio pode perder inclusive a proteção dos fragmentos."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+        "plan": "Prepare uma chegada coberta que os aliados possam acompanhar.",
+        "against": "Cubra os lados e separe alvos antes da região de chegada.",
+        "resource": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+        "caution": "Uma entrada sem apoio pode perder inclusive a proteção dos fragmentos."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+        "plan": "Controle a ameaça à formação ou entre numa região com continuação real.",
+        "against": "Na luta decisiva, cubra os lados e separe alvos antes da região de chegada.",
+        "resource": "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+        "caution": "Uma entrada sem apoio pode perder inclusive a proteção dos fragmentos."
       }
     },
     "strengths": [
-      "Esticada: Zac estica um braço, agarrando um inimigo. Atacar um inimigo diferente o fará arremessar ambos os alvos na direção um do outro.",
-      "Vamos pular!: Zac pula quatro vezes, arremessando inimigos atingidos ao ar e reduzindo a velocidade deles."
+      "Entra por um ângulo lateral e desorganiza um grupo próximo.",
+      "Saltos controlam e desaceleram inimigos próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

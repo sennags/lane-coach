@@ -24,7 +24,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Bolha controla inimigos na área.",
+        "limit": "O alvo pode mudar de posição antes do impacto."
+      }
     },
     {
       "id": "Nami.W",
@@ -37,7 +41,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Ressaltos curam aliados e causam dano em inimigos.",
+        "limit": "O alcance entre campeões determina a continuação."
+      }
     },
     {
       "id": "Nami.E",
@@ -50,7 +58,11 @@
         11,
         11,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Fortalece ataques e habilidades aliados com dano e lentidão.",
+        "limit": "O aliado precisa continuar acertando para aproveitar."
+      }
     },
     {
       "id": "Nami.R",
@@ -61,48 +73,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Onda controla inimigos e acelera aliados atingidos.",
+        "limit": "A trajetória deve acompanhar a direção útil da luta."
+      }
     },
     {
       "id": "Nami.P",
       "ability": "P",
       "name": "Maré Oscilante",
       "description": "Quando as Habilidades de Nami atingem Campeões aliados, eles recebem Velocidade de Movimento por um curto período.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Habilidades em aliados concedem movimento temporário.",
+        "limit": "A janela precisa coincidir com a entrada ou recuo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Avançar para acertar controle pode deixar Nami sem cobertura.",
+      "A trajetória deve acompanhar a direção útil da luta."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+        "plan": "Cubra o farm do parceiro e gerencie mana antes de disputar a wave.",
+        "against": "Pressione por ângulos separados e observe quem recebe a proteção.",
+        "resource": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+        "caution": "Avançar para acertar controle pode deixar Nami sem cobertura."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+        "plan": "Fique ao alcance do parceiro e ajude a criar uma captura sem se expor primeiro.",
+        "against": "Pressione por ângulos separados e observe quem recebe a proteção.",
+        "resource": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+        "caution": "Avançar para acertar controle pode deixar Nami sem cobertura."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+        "plan": "Priorize quem recebe foco e preserve posição para continuar apoiando.",
+        "against": "Na luta decisiva, pressione por ângulos separados e observe quem recebe a proteção.",
+        "resource": "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+        "caution": "Avançar para acertar controle pode deixar Nami sem cobertura."
       }
     },
     "strengths": [
-      "Prisão Aquática: Lança uma bolha na área-alvo, causando dano e atordoando todos os inimigos ao impacto.",
-      "Maré Violenta: Invoca uma grande Maré Violenta que arremessa ao ar, reduz a velocidade e causa dano aos inimigos atingidos. Aliados atingidos recebem o efeito dobrado de Maré Oscilante."
+      "Sustenta um aliado ativo e dificulta a aproximação inimiga.",
+      "Onda controla inimigos e acelera aliados atingidos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

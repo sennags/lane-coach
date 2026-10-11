@@ -24,7 +24,11 @@
         5.5,
         4.5,
         3.5
-      ]
+      ],
+      "coaching": {
+        "use": "Abater com o golpe aumenta sua força futura.",
+        "limit": "O crescimento exige finalizar com a habilidade."
+      }
     },
     {
       "id": "Nasus.W",
@@ -37,7 +41,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Reduz movimento e ataques do alvo progressivamente.",
+        "limit": "O efeito não aproxima Nasus instantaneamente."
+      }
     },
     {
       "id": "Nasus.E",
@@ -50,7 +58,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Área reduz armadura e mantém dano.",
+        "limit": "O alvo pode abandonar a região."
+      }
     },
     {
       "id": "Nasus.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Vida, defesas e dano próximo ampliam a janela de contato.",
+        "limit": "Ainda precisa chegar ao alvo para aproveitar."
+      }
     },
     {
       "id": "Nasus.P",
       "ability": "P",
       "name": "Devorador de Almas",
       "description": "Nasus drena a energia espiritual de seu inimigo, acumulando Roubo de Vida adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques sustentam com roubo de vida.",
+        "limit": "Precisa alcançar unidades para recuperar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona um alvo próximo com contato prolongado e lentidão.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir um alvo distante pode entregar foco sem causar pressão.",
+      "Ainda precisa chegar ao alvo para aproveitar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona um alvo próximo com contato prolongado e lentidão.",
+        "plan": "Priorize abates de farm e uma wave que permita recuperar vida sem exposição.",
+        "against": "Preserve espaço e ajude o aliado desacelerado sem aceitar contato prolongado.",
+        "resource": "Pressiona um alvo próximo com contato prolongado e lentidão.",
+        "caution": "Perseguir um alvo distante pode entregar foco sem causar pressão."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona um alvo próximo com contato prolongado e lentidão.",
+        "plan": "Alcance quem ameaça a frente sem perseguir para longe da cobertura.",
+        "against": "Preserve espaço e ajude o aliado desacelerado sem aceitar contato prolongado.",
+        "resource": "Pressiona um alvo próximo com contato prolongado e lentidão.",
+        "caution": "Perseguir um alvo distante pode entregar foco sem causar pressão."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona um alvo próximo com contato prolongado e lentidão.",
+        "plan": "Escolha alvo acessível e mantenha presença enquanto consegue continuar atacando.",
+        "against": "Na luta decisiva, preserve espaço e ajude o aliado desacelerado sem aceitar contato prolongado.",
+        "resource": "Pressiona um alvo próximo com contato prolongado e lentidão.",
+        "caution": "Perseguir um alvo distante pode entregar foco sem causar pressão."
       }
     },
     "strengths": [
-      "Ataque Sifão: Nasus ataca seu inimigo, causando dano e aumentando o poder do próximo Ataque Sifão se o alvo for abatido.",
-      "Fúria das Areias: Nasus libera uma poderosa tempestade de areia que atinge inimigos próximos. Enquanto a tempestade estiver ativa, ele recebe Vida e Alcance de Ataque adicionais, causa dano a inimigos próximos, reduz o Tempo de Recarga de Ataque Sifão e recebe Armadura e Resistência Mágica adicionais."
+      "Pressiona um alvo próximo com contato prolongado e lentidão.",
+      "Vida, defesas e dano próximo ampliam a janela de contato."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

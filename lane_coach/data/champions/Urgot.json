@@ -24,7 +24,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Área de explosão desacelera.",
+        "limit": "O alvo pode mudar de posição antes do impacto."
+      }
     },
     {
       "id": "Urgot.W",
@@ -37,7 +41,11 @@
         6,
         3,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques automáticos priorizam campeões atingidos pelo kit.",
+        "limit": "Urgot fica mais lento e não seleciona qualquer alvo livremente."
+      }
     },
     {
       "id": "Urgot.E",
@@ -50,7 +58,11 @@
         15,
         14.5,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço com escudo desloca o campeão colidido.",
+        "limit": "A chegada pode comprometer a saída."
+      }
     },
     {
       "id": "Urgot.R",
@@ -61,48 +73,64 @@
         100,
         85,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Primeiro campeão atingido pode ser executado abaixo do limiar.",
+        "limit": "A marca só permite execução na condição de vida exigida."
+      }
     },
     {
       "id": "Urgot.P",
       "ability": "P",
       "name": "Chamas Ecoantes",
       "description": "Os ataques básicos de Urgot e Expurgar disparam periodicamente explosões de chamas de suas pernas, causando Dano Físico.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Pernas preparam explosões periódicas nos ataques.",
+        "limit": "A direção e disponibilidade das pernas mudam a pressão."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém pressão próxima enquanto ameaça uma finalização.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Ficar sem movimento útil pode deixar Urgot recebendo dano sem acompanhar o alvo.",
+      "A marca só permite execução na condição de vida exigida."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém pressão próxima enquanto ameaça uma finalização.",
+        "plan": "Planeje a direção de pressão e o farm sem empurrar fora da cobertura.",
+        "against": "Cubra o alvo marcado e abra espaço para reduzir o contato prolongado.",
+        "resource": "Mantém pressão próxima enquanto ameaça uma finalização.",
+        "caution": "Ficar sem movimento útil pode deixar Urgot recebendo dano sem acompanhar o alvo."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém pressão próxima enquanto ameaça uma finalização.",
+        "plan": "Ataque um alvo acessível e acompanhe o movimento da linha aliada.",
+        "against": "Cubra o alvo marcado e abra espaço para reduzir o contato prolongado.",
+        "resource": "Mantém pressão próxima enquanto ameaça uma finalização.",
+        "caution": "Ficar sem movimento útil pode deixar Urgot recebendo dano sem acompanhar o alvo."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém pressão próxima enquanto ameaça uma finalização.",
+        "plan": "Preserve contato útil e posição; não avance em todos por uma marca distante.",
+        "against": "Na luta decisiva, cubra o alvo marcado e abra espaço para reduzir o contato prolongado.",
+        "resource": "Mantém pressão próxima enquanto ameaça uma finalização.",
+        "caution": "Ficar sem movimento útil pode deixar Urgot recebendo dano sem acompanhar o alvo."
       }
     },
     "strengths": [
-      "Carga Corrosiva: Detona uma carga explosiva no local-alvo, causando Dano Físico e reduzindo a velocidade dos inimigos atingidos pela explosão.",
-      "Pior que a Morte: Urgot dispara uma broca química que perfura o primeiro Campeão inimigo atingido. Se esse Campeão ficar abaixo de um limite mínimo de Vida, Urgot o julgará fraco e o executará."
+      "Mantém pressão próxima enquanto ameaça uma finalização.",
+      "Primeiro campeão atingido pode ser executado abaixo do limiar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

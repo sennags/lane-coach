@@ -24,7 +24,11 @@
         18,
         17,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques acelerados sustentam pressão.",
+        "limit": "Precisa permanecer em alcance para aproveitar a duração."
+      }
     },
     {
       "id": "Tristana.W",
@@ -37,7 +41,11 @@
         18,
         16,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Salto dá dano e lentidão ao chegar.",
+        "limit": "Usar o salto para entrar pode retirar a saída necessária."
+      }
     },
     {
       "id": "Tristana.E",
@@ -50,7 +58,11 @@
         15,
         14.5,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Abates dão dano próximo; bomba ativa explode no alvo.",
+        "limit": "A região e o tempo de explosão mudam a continuação."
+      }
     },
     {
       "id": "Tristana.R",
@@ -61,48 +73,64 @@
         100,
         100,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Empurra um alvo e pode ampliar a explosão da bomba.",
+        "limit": "Pode afastar quem o time estava finalizando."
+      }
     },
     {
       "id": "Tristana.P",
       "ability": "P",
       "name": "Tiro Certeiro",
       "description": "Aumenta o Alcance de Ataque de Tristana conforme ela sobe de nível.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Níveis ampliam o alcance de ataque.",
+        "limit": "O alcance atual depende do progresso de nível."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques com alcance e pode acompanhar uma finalização.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Contar com saída ainda não disponível pode comprometer todo o dano contínuo.",
+      "Pode afastar quem o time estava finalizando."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques com alcance e pode acompanhar uma finalização.",
+        "plan": "Planeje o efeito dos abates na wave para não empurrar sem querer para uma região exposta.",
+        "against": "Pressione a posição depois do salto e cubra quem recebe a bomba.",
+        "resource": "Mantém ataques com alcance e pode acompanhar uma finalização.",
+        "caution": "Contar com saída ainda não disponível pode comprometer todo o dano contínuo."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques com alcance e pode acompanhar uma finalização.",
+        "plan": "Ataque com cobertura e preserve o salto para a ameaça que ainda pode chegar.",
+        "against": "Pressione a posição depois do salto e cubra quem recebe a bomba.",
+        "resource": "Mantém ataques com alcance e pode acompanhar uma finalização.",
+        "caution": "Contar com saída ainda não disponível pode comprometer todo o dano contínuo."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques com alcance e pode acompanhar uma finalização.",
+        "plan": "Priorize sobreviver e continuar atacando, sem saltar através da formação por vida baixa.",
+        "against": "Na luta decisiva, pressione a posição depois do salto e cubra quem recebe a bomba.",
+        "resource": "Mantém ataques com alcance e pode acompanhar uma finalização.",
+        "caution": "Contar com saída ainda não disponível pode comprometer todo o dano contínuo."
       }
     },
     "strengths": [
-      "Tiro Rápido: Tristana dispara rapidamente com seu canhão, aumentando sua Velocidade de Ataque por um curto período de tempo.",
-      "Tiro Destruidor: Tristana carrega uma gigantesca bala de canhão em sua arma e a dispara em uma unidade inimiga. Isso causa Dano Mágico e empurra o alvo para trás. Se o alvo estiver carregando uma bomba da Carga Explosiva, o raio de explosão da bomba é dobrado."
+      "Mantém ataques com alcance e pode acompanhar uma finalização.",
+      "Empurra um alvo e pode ampliar a explosão da bomba."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

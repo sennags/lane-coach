@@ -24,7 +24,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Rastro oferece movimento e dano de ataque.",
+        "limit": "Os benefícios dependem de permanecer no rastro."
+      }
     },
     {
       "id": "Nocturne.W",
@@ -37,7 +41,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo bloqueia uma habilidade e pode ampliar velocidade de ataque.",
+        "limit": "Não bloqueia toda a sequência inimiga."
+      }
     },
     {
       "id": "Nocturne.E",
@@ -50,7 +58,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Vínculo mantido prepara medo.",
+        "limit": "Sair do alcance antes do fim evita a continuação."
+      }
     },
     {
       "id": "Nocturne.R",
@@ -61,48 +73,64 @@
         160,
         130,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Reduz visão e permite uma entrada em campeão.",
+        "limit": "Chegar a um alvo protegido pode isolar Nocturne."
+      }
     },
     {
       "id": "Nocturne.P",
       "ability": "P",
       "name": "Lâminas Sombrias",
       "description": "A cada poucos segundos, o próximo ataque de Nocturne atinge os inimigos ao seu redor para causar Dano Físico adicional e curá-lo. Os ataques básicos de Nocturne reduzem esse Tempo de Recarga.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataque periódico causa dano em área e cura.",
+        "limit": "A cura exige conectar o ataque preparado."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Separa a resposta inimiga e pressiona um alvo alcançável.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Uma chegada sem acompanhamento pode gastar toda a ameaça em um alvo protegido.",
+      "Chegar a um alvo protegido pode isolar Nocturne."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Separa a resposta inimiga e pressiona um alvo alcançável.",
+        "plan": "Priorize renda e preparação da entrada; na rota, resolva a wave antes de sair.",
+        "against": "Mantenha os aliados próximos e proteja quem recebe a entrada durante a perda de visão.",
+        "resource": "Separa a resposta inimiga e pressiona um alvo alcançável.",
+        "caution": "Uma chegada sem acompanhamento pode gastar toda a ameaça em um alvo protegido."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Separa a resposta inimiga e pressiona um alvo alcançável.",
+        "plan": "Escolha um alvo que o time também possa pressionar, sem entrar só por alcance.",
+        "against": "Mantenha os aliados próximos e proteja quem recebe a entrada durante a perda de visão.",
+        "resource": "Separa a resposta inimiga e pressiona um alvo alcançável.",
+        "caution": "Uma chegada sem acompanhamento pode gastar toda a ameaça em um alvo protegido."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Separa a resposta inimiga e pressiona um alvo alcançável.",
+        "plan": "Espere a formação se comprometer antes de cortar a visão e alcançar a ameaça.",
+        "against": "Na luta decisiva, mantenha os aliados próximos e proteja quem recebe a entrada durante a perda de visão.",
+        "resource": "Separa a resposta inimiga e pressiona um alvo alcançável.",
+        "caution": "Uma chegada sem acompanhamento pode gastar toda a ameaça em um alvo protegido."
       }
     },
     "strengths": [
-      "Portador do Anoitecer: Nocturne lança uma lâmina de sombras que causa dano, deixa um Rastro do Crepúsculo e faz com que os Campeões deixem um Rastro do Crepúsculo. Enquanto estiver no rastro, Nocturne ignora colisões com unidades e ganha aumento de Velocidade de Movimento e de Dano de Ataque.",
-      "Paranoia: Nocturne reduz o raio de visão de todos os Campeões inimigos e ainda remove a visão que eles têm dos aliados. Depois ele pode se arremessar contra um Campeão inimigo que estiver próximo."
+      "Separa a resposta inimiga e pressiona um alvo alcançável.",
+      "Reduz visão e permite uma entrada em campeão."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

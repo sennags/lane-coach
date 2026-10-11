@@ -24,7 +24,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Corrida prepara ataque com atordoamento.",
+        "limit": "Exige alcançar o alvo antes do ataque."
+      }
     },
     {
       "id": "Volibear.W",
@@ -37,7 +41,11 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Marca prepara outro golpe com cura e dano ampliado.",
+        "limit": "O benefício exige repetir no mesmo alvo."
+      }
     },
     {
       "id": "Volibear.E",
@@ -50,7 +58,11 @@
         16,
         16,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Área desacelera e protege Volibear se ele estiver no impacto.",
+        "limit": "A posição decide se recebe o escudo."
+      }
     },
     {
       "id": "Volibear.R",
@@ -61,48 +73,64 @@
         160,
         135,
         110
-      ]
+      ],
+      "coaching": {
+        "use": "Salto amplia presença e desativa torres próximas temporariamente.",
+        "limit": "A proteção é temporária e não elimina a resposta dos campeões."
+      }
     },
     {
       "id": "Volibear.P",
       "ability": "P",
       "name": "A Tempestade Implacável",
       "description": "Os Ataques e habilidades de Volibear concedem Velocidade de Ataque e, às vezes, fazem com que seus Ataques causem Dano Mágico adicional a inimigos próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Contato acumula ataques rápidos e pressão elétrica próxima.",
+        "limit": "Precisa continuar acertando para aproveitar a sequência."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Uma entrada sem acesso à continuação pode gastar toda a defesa antes da cura.",
+      "A proteção é temporária e não elimina a resposta dos campeões."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+        "plan": "Prepare acúmulos e posição da wave sem aceitar foco sob torre só pela desativação.",
+        "against": "Reduza o contato repetido no mesmo alvo e cubra a posição de chegada.",
+        "resource": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+        "caution": "Uma entrada sem acesso à continuação pode gastar toda a defesa antes da cura."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+        "plan": "Chegue com apoio e escolha um alvo em que possa manter a continuação.",
+        "against": "Reduza o contato repetido no mesmo alvo e cubra a posição de chegada.",
+        "resource": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+        "caution": "Uma entrada sem acesso à continuação pode gastar toda a defesa antes da cura."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+        "plan": "Proteja espaço e não salte para além da formação por um alvo distante.",
+        "against": "Na luta decisiva, reduza o contato repetido no mesmo alvo e cubra a posição de chegada.",
+        "resource": "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+        "caution": "Uma entrada sem acesso à continuação pode gastar toda a defesa antes da cura."
       }
     },
     "strengths": [
-      "Esmagamento Trovejante: Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar.",
-      "Emissário da Tempestade: Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional. Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas."
+      "Pressiona contato próximo e dificulta a permanência na linha de frente.",
+      "Salto amplia presença e desativa torres próximas temporariamente."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

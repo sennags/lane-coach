@@ -23,7 +23,11 @@
         7.5,
         7,
         6.5
-      ]
+      ],
+      "coaching": {
+        "use": "Redirecionar e aumentar percurso amplia dano.",
+        "limit": "O trajeto precisa terminar no alvo."
+      }
     },
     {
       "id": "Zoe.W",
@@ -36,7 +40,11 @@
         0.25,
         0.25,
         0.25
-      ]
+      ],
+      "coaching": {
+        "use": "Fragmentos permitem usar feitiços ou efeitos ativos encontrados.",
+        "limit": "As opções dependem do fragmento disponível, não de uma escolha livre."
+      }
     },
     {
       "id": "Zoe.E",
@@ -49,7 +57,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Sono reduz defesa e prepara dano ampliado ao despertar.",
+        "limit": "Há atraso e limite no dano ampliado do despertar."
+      }
     },
     {
       "id": "Zoe.R",
@@ -60,48 +72,64 @@
         11,
         8,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Reposiciona brevemente e volta ao ponto inicial.",
+        "limit": "Não é uma fuga permanente; a posição de retorno fica conhecida."
+      }
     },
     {
       "id": "Zoe.P",
       "ability": "P",
       "name": "Brililim!",
       "description": "O próximo ataque básico após Zoe conjurar uma habilidade causa Dano Mágico adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Após habilidade, ataque dá dano adicional.",
+        "limit": "Aproximar para atacar pode expor um kit de pressão à distância."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Busca uma captura à distância mantendo uma posição de retorno segura.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Usar o salto como fuga pode devolver Zoe exatamente à ameaça.",
+      "Não é uma fuga permanente; a posição de retorno fica conhecida."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Busca uma captura à distância mantendo uma posição de retorno segura.",
+        "plan": "Resolva a wave e prepare visão antes de buscar um ângulo pela lateral.",
+        "against": "Cubra alvos sonolentos e observe o ponto de retorno antes de perseguir.",
+        "resource": "Busca uma captura à distância mantendo uma posição de retorno segura.",
+        "caution": "Usar o salto como fuga pode devolver Zoe exatamente à ameaça."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Busca uma captura à distância mantendo uma posição de retorno segura.",
+        "plan": "Pressione um alvo exposto por um ângulo coberto sem perder o apoio.",
+        "against": "Cubra alvos sonolentos e observe o ponto de retorno antes de perseguir.",
+        "resource": "Busca uma captura à distância mantendo uma posição de retorno segura.",
+        "caution": "Usar o salto como fuga pode devolver Zoe exatamente à ameaça."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Busca uma captura à distância mantendo uma posição de retorno segura.",
+        "plan": "Escolha uma tentativa acessível e preserve espaço para voltar após o movimento breve.",
+        "against": "Na luta decisiva, cubra alvos sonolentos e observe o ponto de retorno antes de perseguir.",
+        "resource": "Busca uma captura à distância mantendo uma posição de retorno segura.",
+        "caution": "Usar o salto como fuga pode devolver Zoe exatamente à ameaça."
       }
     },
     "strengths": [
-      "Estrela Desviada!: Zoe dispara um projétil que pode ser redirecionado durante o percurso. Causa mais dano quanto maior for a distância percorrida em linha reta.",
-      "Salto Dimensional: Teleporta-se para uma posição próxima por 1s, depois se teleporta de volta."
+      "Busca uma captura à distância mantendo uma posição de retorno segura.",
+      "Reposiciona brevemente e volta ao ponto inicial."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

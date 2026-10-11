@@ -24,7 +24,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Arremessa inimigos próximos ao ar.",
+        "limit": "Precisa alcançar os alvos antes de controlar."
+      }
     },
     {
       "id": "Alistar.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Empurra um alvo e pode afastar uma ameaça.",
+        "limit": "Pode empurrar o alvo para longe do dano aliado."
+      }
     },
     {
       "id": "Alistar.E",
@@ -50,7 +58,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Contato prolongado prepara um ataque com atordoamento.",
+        "limit": "Precisa acumular em campeões e então acertar o ataque."
+      }
     },
     {
       "id": "Alistar.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Remove controle de si e reduz dano recebido.",
+        "limit": "A redução dura uma janela; não protege toda entrada."
+      }
     },
     {
       "id": "Alistar.P",
       "ability": "P",
       "name": "Urro Triunfante",
       "description": "Alistar carrega seu urro ao atordoar, deslocar a posição de Campeões inimigos ou quando inimigos próximos morrem. Quando estiver com o máximo de cargas, ele cura a si mesmo e aos Campeões aliados próximos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Controle e mortes próximas acumulam a cura em aliados.",
+        "limit": "A cura depende de completar as cargas."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Abre espaço com controle ou afasta quem ameaça um aliado.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Iniciar longe do time pode gastar todo o controle sem resposta aliada.",
+      "A redução dura uma janela; não protege toda entrada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Abre espaço com controle ou afasta quem ameaça um aliado.",
+        "plan": "Fique ao alcance do parceiro para disputar farm e preparar uma entrada; não abandone quem precisa de cobertura.",
+        "against": "Não aproxime vários aliados juntos e observe quem fica sem proteção após a entrada.",
+        "resource": "Abre espaço com controle ou afasta quem ameaça um aliado.",
+        "caution": "Iniciar longe do time pode gastar todo o controle sem resposta aliada."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Abre espaço com controle ou afasta quem ameaça um aliado.",
+        "plan": "Escolha entre iniciar com acompanhamento e proteger seu causador de dano.",
+        "against": "Não aproxime vários aliados juntos e observe quem fica sem proteção após a entrada.",
+        "resource": "Abre espaço com controle ou afasta quem ameaça um aliado.",
+        "caution": "Iniciar longe do time pode gastar todo o controle sem resposta aliada."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Abre espaço com controle ou afasta quem ameaça um aliado.",
+        "plan": "Mantenha o alvo protegido; entre só se os aliados conseguirem aproveitar.",
+        "against": "Na luta decisiva, não aproxime vários aliados juntos e observe quem fica sem proteção após a entrada.",
+        "resource": "Abre espaço com controle ou afasta quem ameaça um aliado.",
+        "caution": "Iniciar longe do time pode gastar todo o controle sem resposta aliada."
       }
     },
     "strengths": [
-      "Pulverizar: Alistar golpeia o chão, causando dano a inimigos próximos e arremessando-os ao ar.",
-      "Vontade Indestrutível: Alistar solta um urro selvagem, removendo todos os efeitos de Controle de Grupo de si mesmo, além de reduzir o Dano Físico e Mágico enquanto durar o efeito."
+      "Abre espaço com controle ou afasta quem ameaça um aliado.",
+      "Remove controle de si e reduz dano recebido."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

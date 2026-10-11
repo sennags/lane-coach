@@ -23,7 +23,11 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Outras habilidades renovam o disparo; runas e fluxo ampliam a sequência.",
+        "limit": "Depende de preparar efeitos e acertar a linha."
+      }
     },
     {
       "id": "Ryze.W",
@@ -36,7 +40,11 @@
         10,
         9.5,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Desacelera; alvo com fluxo recebe enraizamento.",
+        "limit": "O controle maior exige preparação."
+      }
     },
     {
       "id": "Ryze.E",
@@ -49,7 +57,11 @@
         3,
         2.75,
         2.5
-      ]
+      ],
+      "coaching": {
+        "use": "Marca e propagação preparam efeitos das outras habilidades.",
+        "limit": "A sequência depende de manter alcance e recursos."
+      }
     },
     {
       "id": "Ryze.R",
@@ -60,48 +72,64 @@
         180,
         160,
         140
-      ]
+      ],
+      "coaching": {
+        "use": "Portal reposiciona aliados após preparação.",
+        "limit": "A chegada pode estar coberta por inimigos."
+      }
     },
     {
       "id": "Ryze.P",
       "ability": "P",
       "name": "Maestria Arcana",
       "description": "As habilidades de Ryze causam dano adicional com base em seu Mana adicional. Ele recebe um percentual de aumento de Mana máximo com base em seu Poder de Habilidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Mana adicional amplia dano e poder de habilidade amplia mana.",
+        "limit": "Os atributos não garantem uma posição para conjurar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Mantém pressão de habilidades em alcance útil com cobertura.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Um portal ou avanço até uma região ameaçada pode comprometer todo o time.",
+      "A chegada pode estar coberta por inimigos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Mantém pressão de habilidades em alcance útil com cobertura.",
+        "plan": "Gerencie mana e propagação na wave antes de preparar recuo ou saída da rota.",
+        "against": "Abra distância entre alvos e pressione seu corpo quando precisar de contato.",
+        "resource": "Mantém pressão de habilidades em alcance útil com cobertura.",
+        "caution": "Um portal ou avanço até uma região ameaçada pode comprometer todo o time."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Mantém pressão de habilidades em alcance útil com cobertura.",
+        "plan": "Ataque o alvo acessível e preserve espaço para conjurar sem receber foco.",
+        "against": "Abra distância entre alvos e pressione seu corpo quando precisar de contato.",
+        "resource": "Mantém pressão de habilidades em alcance útil com cobertura.",
+        "caution": "Um portal ou avanço até uma região ameaçada pode comprometer todo o time."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Mantém pressão de habilidades em alcance útil com cobertura.",
+        "plan": "Priorize posição e continuidade, sem aproximar da formação inteira para ampliar a propagação.",
+        "against": "Na luta decisiva, abra distância entre alvos e pressione seu corpo quando precisar de contato.",
+        "resource": "Mantém pressão de habilidades em alcance útil com cobertura.",
+        "caution": "Um portal ou avanço até uma região ameaçada pode comprometer todo o time."
       }
     },
     "strengths": [
-      "Sobrecarregar: Passivamente, as outras habilidades básicas de Ryze redefinem o Tempo de Recarga de Sobrecarregar e carregam uma runa. Quando Ryze conjura Sobrecarregar com 2 runas carregadas, ele recebe um breve surto de Velocidade de Movimento. Ao conjurar, Ryze arremessa uma carga de energia pura em linha reta, causando dano ao primeiro inimigo atingido. Se o alvo estiver afetado por Fluxo, Sobrecarregar causa dano adicional e rebate para inimigos próximos atingidos por Fluxo.",
-      "Portal de Reinos: Passivamente, Sobrecarregar causa ainda mais dano contra alvos afetados por Fluxo. Ao conjurar, Ryze cria um portal para um local próximo. Após alguns segundos, aliados próximos ao portal são teleportados ao local alvo."
+      "Mantém pressão de habilidades em alcance útil com cobertura.",
+      "Portal reposiciona aliados após preparação."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

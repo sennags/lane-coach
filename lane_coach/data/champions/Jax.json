@@ -23,7 +23,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Salto em unidade reposiciona e dá dano se for inimigo.",
+        "limit": "Precisa de uma unidade útil para a chegada."
+      }
     },
     {
       "id": "Jax.W",
@@ -36,7 +40,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Fortalece próximo ataque ou salto ofensivo.",
+        "limit": "Não gera dano se não houver contato."
+      }
     },
     {
       "id": "Jax.E",
@@ -49,7 +57,11 @@
         13,
         11,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Desvia de ataques e prepara atordoamento próximo.",
+        "limit": "A janela é temporária e não evita todo tipo de dano."
+      }
     },
     {
       "id": "Jax.R",
@@ -60,48 +72,64 @@
         110,
         100,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Terceiro ataque amplia dano; ativação dá dano e defesas.",
+        "limit": "As defesas duram uma janela e exigem planejar o contato."
+      }
     },
     {
       "id": "Jax.P",
       "ability": "P",
       "name": "Investida Implacável",
       "description": "Os ataques básicos consecutivos de Jax continuamente aumentam sua Velocidade de Ataque.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques consecutivos acumulam velocidade de ataque.",
+        "limit": "Precisa de tempo em alcance para aproveitar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona duelo próximo e mantém ataques após a entrada.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar sem poder continuar atacando desperdiça a força do combate prolongado.",
+      "As defesas duram uma janela e exigem planejar o contato."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona duelo próximo e mantém ataques após a entrada.",
+        "plan": "Prepare acúmulos pelo farm e preserve um alvo de recuo antes de pressionar.",
+        "against": "Reduza o contato prolongado e guarde resposta para quando a janela defensiva terminar.",
+        "resource": "Pressiona duelo próximo e mantém ataques após a entrada.",
+        "caution": "Entrar sem poder continuar atacando desperdiça a força do combate prolongado."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona duelo próximo e mantém ataques após a entrada.",
+        "plan": "Ataque quem estiver acessível com apoio e não gaste toda a defesa para aproximar.",
+        "against": "Reduza o contato prolongado e guarde resposta para quando a janela defensiva terminar.",
+        "resource": "Pressiona duelo próximo e mantém ataques após a entrada.",
+        "caution": "Entrar sem poder continuar atacando desperdiça a força do combate prolongado."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona duelo próximo e mantém ataques após a entrada.",
+        "plan": "Espere uma entrada útil e mantenha tempo para atacar sem saltar entre todas as ameaças.",
+        "against": "Na luta decisiva, reduza o contato prolongado e guarde resposta para quando a janela defensiva terminar.",
+        "resource": "Pressiona duelo próximo e mantém ataques após a entrada.",
+        "caution": "Entrar sem poder continuar atacando desperdiça a força do combate prolongado."
       }
     },
     "strengths": [
-      "Salto Atacante: Jax salta em direção a uma unidade. Caso seja um inimigo, ele o atingirá com sua arma.",
-      "Grão-Mestre de Armas: Cada terceiro ataque consecutivo causa Dano Mágico adicional. Além disso, Jax pode ativar essa habilidade para causar dano ao redor de si e fortalecer a própria determinação, ganhando mais Armadura e Resistência Mágica por um curto período."
+      "Pressiona duelo próximo e mantém ataques após a entrada.",
+      "Terceiro ataque amplia dano; ativação dá dano e defesas."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

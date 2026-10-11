@@ -24,7 +24,11 @@
         5,
         5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque fortalecido atordoa.",
+        "limit": "Precisa chegar ao alcance de ataque."
+      }
     },
     {
       "id": "Leona.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Defesas ajudam a entrar; contato na explosão prolonga o efeito.",
+        "limit": "Não conte com prolongamento se não houver alvos próximos."
+      }
     },
     {
       "id": "Leona.E",
@@ -50,7 +58,11 @@
         9,
         7.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Linha prende e aproxima do último campeão atingido.",
+        "limit": "Pode chegar mais fundo do que o time consegue acompanhar."
+      }
     },
     {
       "id": "Leona.R",
@@ -61,48 +73,64 @@
         90,
         75,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Centro atordoa; bordas desaceleram.",
+        "limit": "O controle maior depende do acerto central."
+      }
     },
     {
       "id": "Leona.P",
       "ability": "P",
       "name": "Luz do Sol",
       "description": "Habilidades que causam dano atingem os inimigos com Luz do Sol por 1,5s. Quando Campeões aliados causam dano a esses alvos, a Luz do Sol é consumida para causar Dano Mágico adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Dano aliado consome marcas para dano adicional.",
+        "limit": "Sozinha não aproveita a mesma continuação das marcas."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Inicia com controle próximo e cobertura para a chegada do time.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Controle gasto longe dos aliados pode virar entrada sem retorno.",
+      "O controle maior depende do acerto central."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Inicia com controle próximo e cobertura para a chegada do time.",
+        "plan": "Fique perto do parceiro ao disputar farm; não force entrada com a wave desfavorável.",
+        "against": "Respeite a chegada e pressione quando o acompanhamento dela for insuficiente.",
+        "resource": "Inicia com controle próximo e cobertura para a chegada do time.",
+        "caution": "Controle gasto longe dos aliados pode virar entrada sem retorno."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Inicia com controle próximo e cobertura para a chegada do time.",
+        "plan": "Entre em um alvo que os aliados já consigam atingir.",
+        "against": "Respeite a chegada e pressione quando o acompanhamento dela for insuficiente.",
+        "resource": "Inicia com controle próximo e cobertura para a chegada do time.",
+        "caution": "Controle gasto longe dos aliados pode virar entrada sem retorno."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Inicia com controle próximo e cobertura para a chegada do time.",
+        "plan": "Escolha captura ou proteção, sem abandonar o causador de dano por perseguição.",
+        "against": "Na luta decisiva, respeite a chegada e pressione quando o acompanhamento dela for insuficiente.",
+        "resource": "Inicia com controle próximo e cobertura para a chegada do time.",
+        "caution": "Controle gasto longe dos aliados pode virar entrada sem retorno."
       }
     },
     "strengths": [
-      "Proteção da Aurora: Leona usa seu escudo para fazer seu próximo ataque básico, causando Dano Mágico adicional e atordoando o alvo.",
-      "Labareda Solar: Leona invoca um raio de energia solar do céu, causando dano aos inimigos em uma área. Inimigos no centro da área são atordoados, enquanto inimigos próximos à extremidade sofrem redução de velocidade."
+      "Inicia com controle próximo e cobertura para a chegada do time.",
+      "Centro atordoa; bordas desaceleram."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

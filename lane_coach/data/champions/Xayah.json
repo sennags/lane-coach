@@ -23,7 +23,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Dois disparos deixam plumas para recolher.",
+        "limit": "A trajetória precisa preparar um caminho útil de retorno."
+      }
     },
     {
       "id": "Xayah.W",
@@ -36,7 +40,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques fortes e movimento ajudam a manter pressão.",
+        "limit": "O movimento depende de atacar campeão na janela."
+      }
     },
     {
       "id": "Xayah.E",
@@ -49,7 +57,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Recolhe plumas e pode enraizar no caminho.",
+        "limit": "A posição do corpo decide quem cruza o retorno."
+      }
     },
     {
       "id": "Xayah.R",
@@ -60,48 +72,64 @@
         140,
         120,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Breve inalvejabilidade prepara plumas adicionais.",
+        "limit": "A posição ao aterrissar ainda precisa estar protegida."
+      }
     },
     {
       "id": "Xayah.P",
       "ability": "P",
       "name": "Cortes Certeiros",
       "description": "Depois de usar uma habilidade, os próximos ataques básicos de Xayah acertam todos os alvos pelo caminho e deixam uma Pluma .",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Habilidades preparam ataques que deixam plumas.",
+        "limit": "A posição das plumas determina a continuação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques e prepara uma resposta à aproximação.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Gastar a defesa para dano inicial pode expor o corpo à próxima entrada.",
+      "A posição ao aterrissar ainda precisa estar protegida."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques e prepara uma resposta à aproximação.",
+        "plan": "Planeje wave e plumas sem empurrar além da cobertura do parceiro.",
+        "against": "Observe as plumas e mude o ângulo antes de aproximar.",
+        "resource": "Mantém ataques e prepara uma resposta à aproximação.",
+        "caution": "Gastar a defesa para dano inicial pode expor o corpo à próxima entrada."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques e prepara uma resposta à aproximação.",
+        "plan": "Ataque com cobertura e deixe um caminho de recuo entre plumas.",
+        "against": "Observe as plumas e mude o ângulo antes de aproximar.",
+        "resource": "Mantém ataques e prepara uma resposta à aproximação.",
+        "caution": "Gastar a defesa para dano inicial pode expor o corpo à próxima entrada."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques e prepara uma resposta à aproximação.",
+        "plan": "Priorize sobreviver à entrada sem avançar para uma linha de retorno arriscada.",
+        "against": "Na luta decisiva, observe as plumas e mude o ângulo antes de aproximar.",
+        "resource": "Mantém ataques e prepara uma resposta à aproximação.",
+        "caution": "Gastar a defesa para dano inicial pode expor o corpo à próxima entrada."
       }
     },
     "strengths": [
-      "Punhais Duplos: Xayah arremessa dois punhais que causam dano e deixam cair Plumas que podem retornar para ela.",
-      "Tempestade de Plumas: Xayah salta pelo ar, ficando inalvejável e arremessando um leque de punhais, além de deixar cair Plumas que podem voltar para ela."
+      "Mantém ataques e prepara uma resposta à aproximação.",
+      "Breve inalvejabilidade prepara plumas adicionais."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

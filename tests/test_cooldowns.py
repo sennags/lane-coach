@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from lane_coach.cooldowns import spell_cooldowns
+from lane_coach.cooldowns import spell_cooldowns, cooldown_note
 from lane_coach.knowledge import KnowledgeBase
 
 
@@ -34,3 +34,11 @@ def test_invalid_stored_cooldown_is_rejected(tmp_path):
     (tmp_path / 'Akshan.json').write_text(json.dumps(champion), encoding='utf-8')
     with pytest.raises(ValueError, match='cooldown'):
         KnowledgeBase(tmp_path)
+
+
+def test_scaling_note_requires_explicit_cooldown_relationship():
+    base = {'cooldown': [14] * 5, 'maxrank': 5}
+    assert cooldown_note({**base, 'description': 'O Tempo de Recarga escala com Velocidade de Ataque.'})
+    assert cooldown_note({**base, 'description': 'O dano escala com Velocidade de Ataque.'}) is None
+    assert cooldown_note({**base, 'description': 'Concede Velocidade de Ataque e de Movimento.'}) is None
+    assert cooldown_note({**base, 'cooldown': [14, 13, 12, 11, 10], 'description': 'O Tempo de Recarga escala com Velocidade de Ataque.'}) is None

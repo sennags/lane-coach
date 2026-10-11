@@ -24,7 +24,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Ressaltos ganham dano quando abatem unidades.",
+        "limit": "O ganho depende dos abates e da ordem dos alvos."
+      }
     },
     {
       "id": "Jhin.W",
@@ -37,7 +41,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Alvo previamente atingido pode ser enraizado.",
+        "limit": "Sem a preparação, não oferece o mesmo controle."
+      }
     },
     {
       "id": "Jhin.E",
@@ -50,7 +58,11 @@
         2,
         2,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Armadilha desacelera e explode após ativação.",
+        "limit": "O alvo pode sair antes da explosão."
+      }
     },
     {
       "id": "Jhin.R",
@@ -61,48 +73,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização prepara quatro disparos longos com finalização.",
+        "limit": "Para no primeiro campeão e deixa Jhin comprometido com a canalização."
+      }
     },
     {
       "id": "Jhin.P",
       "ability": "P",
       "name": "Sussurro",
       "description": "Sussurro, o canhão de mão de Jhin, é um instrumento preciso que foi projetado para causar muito dano. Ele dispara com frequência fixa e carrega apenas quatro projéteis. Jhin encanta o projétil final com magia sombria para causar Acerto Crítico e dano de execução adicional. Sempre que causa um Acerto Crítico, Sussurro inspira Jhin com um impulso de Velocidade de Movimento.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Quarto disparo amplifica dano; crítico dá velocidade.",
+        "limit": "Munição acaba e exige recarga entre sequências."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Contribui com ataques espaçados e controle de alvos expostos.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Canalizar ou buscar o quarto ataque sem cobertura pode expor o corpo.",
+      "Para no primeiro campeão e deixa Jhin comprometido com a canalização."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Contribui com ataques espaçados e controle de alvos expostos.",
+        "plan": "Planeje os disparos para o farm e não fique sem munição ao disputar a wave.",
+        "against": "Observe a munição e pressione durante a recarga sem oferecer um alvo isolado.",
+        "resource": "Contribui com ataques espaçados e controle de alvos expostos.",
+        "caution": "Canalizar ou buscar o quarto ataque sem cobertura pode expor o corpo."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Contribui com ataques espaçados e controle de alvos expostos.",
+        "plan": "Ataque de trás da cobertura e reposicione durante a recarga.",
+        "against": "Observe a munição e pressione durante a recarga sem oferecer um alvo isolado.",
+        "resource": "Contribui com ataques espaçados e controle de alvos expostos.",
+        "caution": "Canalizar ou buscar o quarto ataque sem cobertura pode expor o corpo."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Contribui com ataques espaçados e controle de alvos expostos.",
+        "plan": "Escolha uma região segura para continuar contribuindo sem perseguir entre disparos.",
+        "against": "Na luta decisiva, observe a munição e pressione durante a recarga sem oferecer um alvo isolado.",
+        "resource": "Contribui com ataques espaçados e controle de alvos expostos.",
+        "caution": "Canalizar ou buscar o quarto ataque sem cobertura pode expor o corpo."
       }
     },
     "strengths": [
-      "Granada Dançante: Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate.",
-      "Aclamação: Jhin canaliza, transformando a Sussurro em um mega-canhão de ombro. Ela é capaz de fazer 4 super disparos com extremo alcance que atravessam tropas e monstros, mas que param no primeiro campeão atingido. A Sussurro mutila os inimigos atingidos, o que reduz sua velocidade e aumenta o dano de execução. O 4º disparo é feito com perfeição, de poder épico e garante um acerto crítico."
+      "Contribui com ataques espaçados e controle de alvos expostos.",
+      "Canalização prepara quatro disparos longos com finalização."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

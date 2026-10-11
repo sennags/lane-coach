@@ -24,7 +24,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Área oferece pressão à distância.",
+        "limit": "O alvo pode sair da região antes do acerto."
+      }
     },
     {
       "id": "Seraphine.W",
@@ -37,7 +41,11 @@
         22,
         22,
         22
-      ]
+      ],
+      "coaching": {
+        "use": "Proteção em grupo pode curar se já houver escudo.",
+        "limit": "A cura exige a condição de escudo preparado."
+      }
     },
     {
       "id": "Seraphine.E",
@@ -50,7 +58,11 @@
         11,
         11,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Linha limita movimento inimigo.",
+        "limit": "Precisa acertar o caminho; não impede toda aproximação."
+      }
     },
     {
       "id": "Seraphine.R",
@@ -61,48 +73,64 @@
         160,
         140,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Encanto em linha amplia alcance ao tocar campeões.",
+        "limit": "A formação e o alinhamento determinam o alcance útil."
+      }
     },
     {
       "id": "Seraphine.P",
       "ability": "P",
       "name": "Presença de Palco",
       "description": "Cada terceira habilidade básica será conjurada duas vezes por Seraphine. Conjurar habilidades próximas a aliados também concede dano e alcance adicionais a ela no próximo ataque básico.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Terceira habilidade básica repete; aliados próximos ampliam ataque.",
+        "limit": "O efeito depende da sequência e da proximidade."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Acompanha a formação com proteção e controle em linha.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Separar-se dos aliados reduz tanto cobertura quanto benefícios do kit.",
+      "A formação e o alinhamento determinam o alcance útil."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Acompanha a formação com proteção e controle em linha.",
+        "plan": "Gerencie sequência e mana para apoiar o farm sem pressionar cegamente.",
+        "against": "Espalhe a formação e evite oferecer uma linha contínua de campeões.",
+        "resource": "Acompanha a formação com proteção e controle em linha.",
+        "caution": "Separar-se dos aliados reduz tanto cobertura quanto benefícios do kit."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Acompanha a formação com proteção e controle em linha.",
+        "plan": "Fique perto dos aliados e pressione sem se tornar o primeiro alvo.",
+        "against": "Espalhe a formação e evite oferecer uma linha contínua de campeões.",
+        "resource": "Acompanha a formação com proteção e controle em linha.",
+        "caution": "Separar-se dos aliados reduz tanto cobertura quanto benefícios do kit."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Acompanha a formação com proteção e controle em linha.",
+        "plan": "Priorize uma região de apoio e uma captura que o time consiga acompanhar.",
+        "against": "Na luta decisiva, espalhe a formação e evite oferecer uma linha contínua de campeões.",
+        "resource": "Acompanha a formação com proteção e controle em linha.",
+        "caution": "Separar-se dos aliados reduz tanto cobertura quanto benefícios do kit."
       }
     },
     "strengths": [
-      "Nota Aguda: Seraphine causa dano em uma área.",
-      "Bis: Seraphine causa dano e Encanta os inimigos atingidos, ampliando o alcance a cada Campeão aliado ou inimigo atingido."
+      "Acompanha a formação com proteção e controle em linha.",
+      "Encanto em linha amplia alcance ao tocar campeões."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

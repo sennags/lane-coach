@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe em linha usa e amplia o dano dos tentáculos.",
+        "limit": "O movimento do alvo pode evitar a região."
+      }
     },
     {
       "id": "Illaoi.W",
@@ -37,7 +41,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque ao alvo chama golpes de tentáculos próximos.",
+        "limit": "Sem tentáculos úteis, perde parte da continuação."
+      }
     },
     {
       "id": "Illaoi.E",
@@ -50,7 +58,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Espírito transfere parte do dano e pode gerar recipiente.",
+        "limit": "Depende de atingir e aproveitar o espírito exposto."
+      }
     },
     {
       "id": "Illaoi.R",
@@ -61,48 +73,64 @@
         120,
         95,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Acertar campeões cria tentáculos para a luta próxima.",
+        "limit": "Exige alvos próximos; não cria acesso a inimigos distantes."
+      }
     },
     {
       "id": "Illaoi.P",
       "ability": "P",
       "name": "Profetisa de um Deus Ancião",
       "description": "Illaoi e os Recipientes que ela cria fazem surgir Tentáculos em terreno intransponível próximo. Tentáculos golpeiam espíritos, Recipientes e vítimas da Lição Dura de Illaoi. Tentáculos causam Dano Físico a inimigos atingidos e curarão Illaoi caso atinjam um Campeão.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Tentáculos próximos causam dano e curam ao acertar campeões.",
+        "limit": "Depende de terreno preparado e de conectar os golpes."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pune inimigos que aceitam lutar perto de sua preparação.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir quem se afasta pode abandonar toda a força do terreno.",
+      "Exige alvos próximos; não cria acesso a inimigos distantes."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pune inimigos que aceitam lutar perto de sua preparação.",
+        "plan": "Prepare a região da wave com tentáculos e preserve renda antes de forçar uma perseguição.",
+        "against": "Evite concentrar o time perto da preparação e saia do combate próximo quando necessário.",
+        "resource": "Pune inimigos que aceitam lutar perto de sua preparação.",
+        "caution": "Perseguir quem se afasta pode abandonar toda a força do terreno."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pune inimigos que aceitam lutar perto de sua preparação.",
+        "plan": "Mantenha contato em terreno útil e não persiga para longe dos tentáculos.",
+        "against": "Evite concentrar o time perto da preparação e saia do combate próximo quando necessário.",
+        "resource": "Pune inimigos que aceitam lutar perto de sua preparação.",
+        "caution": "Perseguir quem se afasta pode abandonar toda a força do terreno."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pune inimigos que aceitam lutar perto de sua preparação.",
+        "plan": "Proteja uma região da luta e pressione quem entra nela com acompanhamento.",
+        "against": "Na luta decisiva, evite concentrar o time perto da preparação e saia do combate próximo quando necessário.",
+        "resource": "Pune inimigos que aceitam lutar perto de sua preparação.",
+        "caution": "Perseguir quem se afasta pode abandonar toda a força do terreno."
       }
     },
     "strengths": [
-      "Golpe de Tentáculo: Aumenta o dano causado por Tentáculos. Quando ativada, Illaoi golpeia com um Tentáculo que causa Dano Físico.",
-      "Salto de Fé: Illaoi golpeia o chão com seu ídolo, causando Dano Físico a inimigos próximos. Um Tentáculo surge para cada campeão atingido."
+      "Pune inimigos que aceitam lutar perto de sua preparação.",
+      "Acertar campeões cria tentáculos para a luta próxima."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

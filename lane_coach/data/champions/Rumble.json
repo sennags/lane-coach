@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Dano no cone mantém pressão e cresce na zona de perigo.",
+        "limit": "Precisa manter o alvo à frente e observar o calor."
+      }
     },
     {
       "id": "Rumble.W",
@@ -37,7 +41,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e velocidade ajudam a reposicionar.",
+        "limit": "Gastar defesa altera calor e a janela de saída."
+      }
     },
     {
       "id": "Rumble.E",
@@ -50,7 +58,11 @@
         0.5,
         0.5,
         0.5
-      ]
+      ],
+      "coaching": {
+        "use": "Arpão desacelera e reduz defesa mágica.",
+        "limit": "Munição e calor limitam a sequência."
+      }
     },
     {
       "id": "Rumble.R",
@@ -61,48 +73,64 @@
         130,
         105,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de fogo limita caminho e causa dano prolongado.",
+        "limit": "Inimigos podem sair; a direção precisa cortar uma rota útil."
+      }
     },
     {
       "id": "Rumble.P",
       "ability": "P",
       "name": "Titã do Ferro-Velho",
       "description": "Cada habilidade que Rumble conjura lhe concede Aquecimento. Ao chegar em 50% de Aquecimento, ele entra na Zona de Perigo, concedendo efeitos adicionais a todas as suas habilidades. Ao chegar a 100% de Aquecimento, ele começa a superaquecer, recebendo Velocidade de Ataque adicional e dano adicional em seus ataques básicos, mas fica incapaz de conjurar habilidades por alguns segundos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Calor fortalece o kit, mas no máximo impede conjurações temporariamente.",
+        "limit": "Superaquecer muda a ação possível durante a luta."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Controla uma faixa da luta e pressiona contato próximo.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar no calor inadequado pode retirar a ferramenta necessária para responder.",
+      "Inimigos podem sair; a direção precisa cortar uma rota útil."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Controla uma faixa da luta e pressiona contato próximo.",
+        "plan": "Gerencie calor e farm antes de pressionar a wave ou preparar recuo.",
+        "against": "Evite permanecer na faixa de fogo e observe quando ele perde conjuração por calor.",
+        "resource": "Controla uma faixa da luta e pressiona contato próximo.",
+        "caution": "Entrar no calor inadequado pode retirar a ferramenta necessária para responder."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Controla uma faixa da luta e pressiona contato próximo.",
+        "plan": "Prepare calor e região de ataque com cobertura do time.",
+        "against": "Evite permanecer na faixa de fogo e observe quando ele perde conjuração por calor.",
+        "resource": "Controla uma faixa da luta e pressiona contato próximo.",
+        "caution": "Entrar no calor inadequado pode retirar a ferramenta necessária para responder."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Controla uma faixa da luta e pressiona contato próximo.",
+        "plan": "Espere o grupo se comprometer e feche seu caminho sem colocar o corpo no foco inicial.",
+        "against": "Na luta decisiva, evite permanecer na faixa de fogo e observe quando ele perde conjuração por calor.",
+        "resource": "Controla uma faixa da luta e pressiona contato próximo.",
+        "caution": "Entrar no calor inadequado pode retirar a ferramenta necessária para responder."
       }
     },
     "strengths": [
-      "Cospe-Fogo: Rumble incinera os inimigos à sua frente, causando Dano Mágico em área de cone por 3 segundos. O dano aumenta enquanto ele estiver na Zona de Perigo.",
-      "O Equalizador: Rumble dispara um grupo de mísseis, criando uma parede de fogo que causa dano e Lentidão a inimigos."
+      "Controla uma faixa da luta e pressiona contato próximo.",
+      "Linha de fogo limita caminho e causa dano prolongado."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

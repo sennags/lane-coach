@@ -23,7 +23,11 @@
         5,
         4.25,
         3.5
-      ]
+      ],
+      "coaching": {
+        "use": "Centro dos cortes aplica dano verdadeiro e passiva.",
+        "limit": "A posição do alvo decide o benefício do centro."
+      }
     },
     {
       "id": "Gwen.W",
@@ -36,7 +40,11 @@
         20,
         19,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Névoa protege contra inimigos que ficam fora dela.",
+        "limit": "Inimigos que entram na área podem alvejar Gwen."
+      }
     },
     {
       "id": "Gwen.E",
@@ -49,7 +57,11 @@
         12,
         11.5,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço fortalece ataques; acertar devolve parte da recarga.",
+        "limit": "O benefício de recarga exige um acerto."
+      }
     },
     {
       "id": "Gwen.R",
@@ -60,48 +72,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Agulhas aplicam lentidão e passiva em sequência.",
+        "limit": "Precisa conectar as passagens para manter a pressão."
+      }
     },
     {
       "id": "Gwen.P",
       "ability": "P",
       "name": "Mil Retalhos",
       "description": "Os Ataques de Gwen causam Dano Mágico adicional com base na Vida do alvo. Ela se cura em parte do dano causado a Campeões com esse efeito.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques aplicam dano pela vida do alvo e curam contra campeões.",
+        "limit": "Precisa continuar em alcance para sustentar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém pressão próxima enquanto restringe ameaças externas.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "A névoa não protege da mesma forma contra ameaças que entram nela.",
+      "Precisa conectar as passagens para manter a pressão."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém pressão próxima enquanto restringe ameaças externas.",
+        "plan": "Preserve farm e espaço para recuar antes de comprometer a aproximação.",
+        "against": "Respeite a região de proteção e não entregue contato prolongado sem apoio.",
+        "resource": "Mantém pressão próxima enquanto restringe ameaças externas.",
+        "caution": "A névoa não protege da mesma forma contra ameaças que entram nela."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém pressão próxima enquanto restringe ameaças externas.",
+        "plan": "Ataque um alvo alcançável sem abandonar o espaço de proteção.",
+        "against": "Respeite a região de proteção e não entregue contato prolongado sem apoio.",
+        "resource": "Mantém pressão próxima enquanto restringe ameaças externas.",
+        "caution": "A névoa não protege da mesma forma contra ameaças que entram nela."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém pressão próxima enquanto restringe ameaças externas.",
+        "plan": "Espere uma entrada útil e continue atacando, recuando se a proteção deixar de separar as ameaças.",
+        "against": "Na luta decisiva, respeite a região de proteção e não entregue contato prolongado sem apoio.",
+        "resource": "Mantém pressão próxima enquanto restringe ameaças externas.",
+        "caution": "A névoa não protege da mesma forma contra ameaças que entram nela."
       }
     },
     "strengths": [
-      "Corte e Recorte: Gwen corta uma área em cone até seis vezes com a tesoura, causando Dano Mágico. Ela causa Dano Verdadeiro às unidades atingidas no centro e aplica a Passiva a cada corte.",
-      "Ponto-Cruz: Gwen arremessa uma agulha que causa Dano Mágico e Lentidão, aplicando Mil Retalhos aos Campeões atingidos. A Habilidade pode ser conjurada mais duas vezes, e cada conjuração arremessa agulhas adicionais e causa mais dano."
+      "Mantém pressão próxima enquanto restringe ameaças externas.",
+      "Agulhas aplicam lentidão e passiva em sequência."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

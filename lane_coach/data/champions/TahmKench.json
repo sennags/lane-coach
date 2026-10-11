@@ -24,7 +24,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Primeiro acerto desacelera e cura contra campeão; com acúmulos atordoa.",
+        "limit": "Bloqueadores e acúmulos mudam o resultado."
+      }
     },
     {
       "id": "TahmKench.W",
@@ -37,7 +41,11 @@
         19,
         18,
         17
-      ]
+      ],
+      "coaching": {
+        "use": "Mergulho prepara chegada com controle em área.",
+        "limit": "A região de chegada pode ficar sem cobertura."
+      }
     },
     {
       "id": "TahmKench.E",
@@ -50,7 +58,11 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Dano armazenado vira recuperação fora da luta ou escudo.",
+        "limit": "O recurso disponível limita a proteção."
+      }
     },
     {
       "id": "TahmKench.R",
@@ -61,48 +73,64 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Devora inimigo para dano ou aliado para proteção.",
+        "limit": "A escolha muda captura e sobrevivência aliada."
+      }
     },
     {
       "id": "TahmKench.P",
       "ability": "P",
       "name": "Um Gosto Adquirido",
       "description": "Tahm Kench usa o próprio corpo para impulsionar os Ataques, causando dano adicional com base na Vida total dele. Causar dano a Campeões inimigos aumenta os acúmulos de Um Gosto Adquirido . Com três acúmulos, ele pode usar Devorar em um Campeão inimigo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Dano acumula a condição para devorar inimigo.",
+        "limit": "A ameaça de captura exige três acúmulos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Ocupa a frente e pode salvar um aliado do foco.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Sair para capturar alguém pode deixar o aliado importante sem proteção.",
+      "A escolha muda captura e sobrevivência aliada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Ocupa a frente e pode salvar um aliado do foco.",
+        "plan": "Preserve farm e vida para manter presença junto da wave e do parceiro.",
+        "against": "Separe a pressão entre alvos e observe quem pode ser retirado do foco.",
+        "resource": "Ocupa a frente e pode salvar um aliado do foco.",
+        "caution": "Sair para capturar alguém pode deixar o aliado importante sem proteção."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Ocupa a frente e pode salvar um aliado do foco.",
+        "plan": "Fique ao alcance de quem precisa de cobertura sem buscar uma captura distante.",
+        "against": "Separe a pressão entre alvos e observe quem pode ser retirado do foco.",
+        "resource": "Ocupa a frente e pode salvar um aliado do foco.",
+        "caution": "Sair para capturar alguém pode deixar o aliado importante sem proteção."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Ocupa a frente e pode salvar um aliado do foco.",
+        "plan": "Priorize a sobrevivência do aliado-chave ou uma captura com acompanhamento.",
+        "against": "Na luta decisiva, separe a pressão entre alvos e observe quem pode ser retirado do foco.",
+        "resource": "Ocupa a frente e pode salvar um aliado do foco.",
+        "caution": "Sair para capturar alguém pode deixar o aliado importante sem proteção."
       }
     },
     "strengths": [
-      "Língua-chicote: Tahm Kench ataca com a língua, causando dano e Lentidão à primeira unidade atingida, além de se curar se a unidade for um Campeão inimigo. Aplica um acúmulo de Um Gosto Adquirido a Campeões inimigos. Se o Campeão já tiver 3 acúmulos de Um Gosto Adquirido , ele será Atordoado e os acúmulos serão consumidos.",
-      "Devorar: Tahm Kench devora um Campeão por alguns segundos, causando Dano Mágico se for um inimigo ou concedendo Escudo se for um aliado."
+      "Ocupa a frente e pode salvar um aliado do foco.",
+      "Devora inimigo para dano ou aliado para proteção."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

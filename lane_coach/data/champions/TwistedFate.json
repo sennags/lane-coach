@@ -24,7 +24,11 @@
         5.5,
         5.25,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Três linhas de cartas oferecem dano à distância.",
+        "limit": "O alvo precisa ficar numa das trajetórias."
+      }
     },
     {
       "id": "TwistedFate.W",
@@ -37,7 +41,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Carta escolhida prepara um efeito no ataque.",
+        "limit": "A seleção e o momento mudam a resposta disponível."
+      }
     },
     {
       "id": "TwistedFate.E",
@@ -50,7 +58,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Quarto ataque dá dano adicional e há velocidade passiva.",
+        "limit": "Precisa alcançar o alvo e completar a sequência."
+      }
     },
     {
       "id": "TwistedFate.R",
@@ -61,48 +73,64 @@
         170,
         140,
         110
-      ]
+      ],
+      "coaching": {
+        "use": "Revela inimigos e prepara um teleporte.",
+        "limit": "Revelar não garante que a chegada terá apoio."
+      }
     },
     {
       "id": "TwistedFate.P",
       "ability": "P",
       "name": "Dados Viciados",
       "description": "Ao abater uma unidade, Twisted Fate rola seu dado da ''sorte'' e recebe de 1 a 6 de ouro adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Abates de unidades concedem ouro adicional.",
+        "limit": "Precisa manter renda; sair da wave sem resultado perde o benefício."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Um teleporte agressivo pode retirar toda a cobertura do corpo.",
+      "Revelar não garante que a chegada terá apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+        "plan": "Resolva a wave antes de apoiar outra região, preservando o ganho do farm.",
+        "against": "Observe a chegada anunciada e mantenha cobertura dos alvos separados.",
+        "resource": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+        "caution": "Um teleporte agressivo pode retirar toda a cobertura do corpo."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+        "plan": "Pressione uma borda acompanhada sem chegar sozinho numa região protegida.",
+        "against": "Observe a chegada anunciada e mantenha cobertura dos alvos separados.",
+        "resource": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+        "caution": "Um teleporte agressivo pode retirar toda a cobertura do corpo."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+        "plan": "Priorize controle em uma ameaça acessível e preserve a posição após a captura.",
+        "against": "Na luta decisiva, observe a chegada anunciada e mantenha cobertura dos alvos separados.",
+        "resource": "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+        "caution": "Um teleporte agressivo pode retirar toda a cobertura do corpo."
       }
     },
     "strengths": [
-      "Curingas: Twisted Fate arremessa três cartas, causando dano a cada inimigo que elas atravessam.",
-      "Destino: Twisted Fate prevê o futuro de seus adversários, revelando todos os Campeões inimigos e habilitando o uso de Portal, que o teleporta para qualquer local-alvo em 1,5s."
+      "Cria uma captura com alvo escolhido e presença por outro ângulo.",
+      "Revela inimigos e prepara um teleporte."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

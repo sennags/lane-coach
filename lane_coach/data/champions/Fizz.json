@@ -24,7 +24,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Avança ao alvo e aplica efeitos de ataque.",
+        "limit": "Compromete Fizz perto da posição do alvo."
+      }
     },
     {
       "id": "Fizz.W",
@@ -37,7 +41,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques aplicam sangramento e podem ser fortalecidos.",
+        "limit": "Precisa permanecer em alcance de ataque."
+      }
     },
     {
       "id": "Fizz.E",
@@ -50,7 +58,11 @@
         12,
         10,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Breve inalvejabilidade permite evitar uma resposta e reposicionar.",
+        "limit": "Gastar a janela para entrar reduz a defesa restante."
+      }
     },
     {
       "id": "Fizz.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Peixe marca alvo; explosão posterior controla a área.",
+        "limit": "Precisa acertar a marca e esperar a chegada do efeito."
+      }
     },
     {
       "id": "Fizz.P",
       "ability": "P",
       "name": "Lutador Ligeiro",
       "description": "Fizz pode se mover através de unidades e sofre uma quantidade fixa de dano reduzido de todas as origens.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Atravessa unidades e reduz parte do dano recebido.",
+        "limit": "A redução não torna uma entrada sem saída segura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Busca uma entrada curta sobre um alvo exposto.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Usar toda a defesa para aproximar pode deixar Fizz sem resposta ao foco.",
+      "Precisa acertar a marca e esperar a chegada do efeito."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Busca uma entrada curta sobre um alvo exposto.",
+        "plan": "Resolva farm e recurso de saída antes de abandonar a wave.",
+        "against": "Mantenha cobertura do alvo ameaçado e responda à posição depois da esquiva.",
+        "resource": "Busca uma entrada curta sobre um alvo exposto.",
+        "caution": "Usar toda a defesa para aproximar pode deixar Fizz sem resposta ao foco."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Busca uma entrada curta sobre um alvo exposto.",
+        "plan": "Aproxime por um lado com cobertura e preserve a saída após causar dano.",
+        "against": "Mantenha cobertura do alvo ameaçado e responda à posição depois da esquiva.",
+        "resource": "Busca uma entrada curta sobre um alvo exposto.",
+        "caution": "Usar toda a defesa para aproximar pode deixar Fizz sem resposta ao foco."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Busca uma entrada curta sobre um alvo exposto.",
+        "plan": "Espere a proteção inimiga se comprometer antes de alcançar o alvo importante.",
+        "against": "Na luta decisiva, mantenha cobertura do alvo ameaçado e responda à posição depois da esquiva.",
+        "resource": "Busca uma entrada curta sobre um alvo exposto.",
+        "caution": "Usar toda a defesa para aproximar pode deixar Fizz sem resposta ao foco."
       }
     },
     "strengths": [
-      "Ataque do Ouriço: Fizz avança em direção ao alvo, causando Dano Mágico e aplicando efeitos de contato.",
-      "Lançar Isca: Fizz arremessa um peixe em determinada direção, que se prende a qualquer Campeão que tocar, reduzindo a velocidade do alvo. Após um curto intervalo, um tubarão emerge do chão, lançando o alvo ao ar e empurrando outros inimigos para trás. Todos os inimigos atingidos recebem Dano Mágico e têm sua velocidade reduzida."
+      "Busca uma entrada curta sobre um alvo exposto.",
+      "Peixe marca alvo; explosão posterior controla a área."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

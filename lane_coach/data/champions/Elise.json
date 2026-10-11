@@ -24,7 +24,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Humana pressiona vida alta; aranha avança contra vida baixa.",
+        "limit": "A forma muda o alcance e a condição de dano."
+      }
     },
     {
       "id": "Elise.W",
@@ -37,7 +41,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Humana usa explosão; aranha acelera os ataques.",
+        "limit": "Aproveitar velocidade exige permanecer em alcance curto."
+      }
     },
     {
       "id": "Elise.E",
@@ -50,7 +58,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Humana atordoa; aranha suspende o corpo e pode descer no alvo.",
+        "limit": "A forma muda controle e saída; a descida pode comprometer posição."
+      }
     },
     {
       "id": "Elise.R",
@@ -62,48 +74,64 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Troca de forma muda alcance e ferramentas disponíveis.",
+        "limit": "Forma de aranha reduz alcance de ataque e exige maior proximidade."
+      }
     },
     {
       "id": "Elise.P",
       "ability": "P",
       "name": "Aranha Rainha",
       "description": "Forma Humana: Quando as habilidades de Elise atingem um inimigo, ela recebe uma Cria dormente. Forma de Aranha: Ataques básicos causam Dano Mágico adicional e restauram a Vida de Elise.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Humana prepara crias; aranha sustenta com ataques.",
+        "limit": "Os benefícios dependem da forma e de conectar os ataques."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Descer em alvo protegido pode deixar Elise no centro da resposta.",
+      "Forma de aranha reduz alcance de ataque e exige maior proximidade."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+        "plan": "Se disputar rota, controle farm e distância antes de mudar para alcance curto.",
+        "against": "Proteja acessos e alvos separados; responda à posição em que ela desce.",
+        "resource": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+        "caution": "Descer em alvo protegido pode deixar Elise no centro da resposta."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+        "plan": "Comece com cobertura e escolha uma descida que o time consiga acompanhar.",
+        "against": "Proteja acessos e alvos separados; responda à posição em que ela desce.",
+        "resource": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+        "caution": "Descer em alvo protegido pode deixar Elise no centro da resposta."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+        "plan": "Pressione quem sai da formação e recue se a captura não abrir uma continuação segura.",
+        "against": "Na luta decisiva, proteja acessos e alvos separados; responda à posição em que ela desce.",
+        "resource": "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+        "caution": "Descer em alvo protegido pode deixar Elise no centro da resposta."
       }
     },
     "strengths": [
-      "Neurotoxina / Mordida Venenosa: Forma Humana: Causa dano com base em quão alta está a Vida do alvo. Forma de Aranha: Avança até um inimigo e causa dano com base em quão baixa está a Vida do alvo.",
-      "Forma de Aranha: Transforma-se em uma ameaçadora aranha, reduzindo seu alcance de ataque em troca de Velocidade de Movimento, novas habilidades e um aglomerado de Crias que atacarão seus inimigos."
+      "Cria uma captura e procura concluir a entrada em um alvo acessível.",
+      "Troca de forma muda alcance e ferramentas disponíveis."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         8,
         7.5,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Área de dano também revela unidades atingidas.",
+        "limit": "Acertar a região não substitui uma posição segura."
+      }
     },
     {
       "id": "Corki.W",
@@ -37,7 +41,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Voo cria recuo ou aproximação com rastro de dano.",
+        "limit": "Gastar o voo para entrar reduz a opção de sair."
+      }
     },
     {
       "id": "Corki.E",
@@ -50,7 +58,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Contato no cone reduz as defesas inimigas.",
+        "limit": "Precisa manter o alvo à frente durante o efeito."
+      }
     },
     {
       "id": "Corki.R",
@@ -61,48 +73,64 @@
         2,
         2,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Mísseis armazenados permitem pressão; o terceiro causa dano adicional.",
+        "limit": "Depende das munições e da trajetória até o alvo."
+      }
     },
     {
       "id": "Corki.P",
       "ability": "P",
       "name": "Munição Hextec",
       "description": "Uma porcentagem do Dano de Ataque Básico de Corki é causada como Dano Verdadeiro adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques adicionam dano verdadeiro a uma parte do dano físico.",
+        "limit": "Precisa manter tempo e alcance para atacar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Pressiona à distância e mantém ataques quando há cobertura.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Usar o voo como entrada pode deixar Corki no alcance de várias ameaças.",
+      "Depende das munições e da trajetória até o alvo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Pressiona à distância e mantém ataques quando há cobertura.",
+        "plan": "Organize farm e recursos sem comprometer o recuo para empurrar a wave.",
+        "against": "Proteja aliados da pressão à distância e ameace sua posição quando o recuo for comprometido.",
+        "resource": "Pressiona à distância e mantém ataques quando há cobertura.",
+        "caution": "Usar o voo como entrada pode deixar Corki no alcance de várias ameaças."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Pressiona à distância e mantém ataques quando há cobertura.",
+        "plan": "Reduza a vida de alvos acessíveis antes de se aproximar para ataques.",
+        "against": "Proteja aliados da pressão à distância e ameace sua posição quando o recuo for comprometido.",
+        "resource": "Pressiona à distância e mantém ataques quando há cobertura.",
+        "caution": "Usar o voo como entrada pode deixar Corki no alcance de várias ameaças."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Pressiona à distância e mantém ataques quando há cobertura.",
+        "plan": "Fique atrás da proteção e preserve a saída; não atravesse a formação para uma finalização.",
+        "against": "Na luta decisiva, proteja aliados da pressão à distância e ameace sua posição quando o recuo for comprometido.",
+        "resource": "Pressiona à distância e mantém ataques quando há cobertura.",
+        "caution": "Usar o voo como entrada pode deixar Corki no alcance de várias ameaças."
       }
     },
     "strengths": [
-      "Bomba de Fósforo: Corki dispara uma bomba luminosa em um local alvo, causando Dano Mágico a inimigos na área. Este ataque também revela unidades na área por uma curta duração.",
-      "Barragem de Mísseis: Corki dispara um míssil em direção ao local alvo, que explode com o impacto, causando dano aos inimigos na área. Corki armazena mísseis ao longo do tempo, com um limite máximo. O 3º míssil armazenado será um Grandão, que causa dano adicional."
+      "Pressiona à distância e mantém ataques quando há cobertura.",
+      "Mísseis armazenados permitem pressão; o terceiro causa dano adicional."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

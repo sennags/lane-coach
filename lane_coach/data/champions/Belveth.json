@@ -23,7 +23,11 @@
         2.5,
         1.75,
         1
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço atravessa e causa dano aos inimigos.",
+        "limit": "Planeje a chegada antes de comprometer a aproximação."
+      }
     },
     {
       "id": "Belveth.W",
@@ -36,7 +40,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Controle à frente permite alcançar o alvo.",
+        "limit": "Errar deixa menos apoio para continuar a perseguição."
+      }
     },
     {
       "id": "Belveth.E",
@@ -49,7 +57,11 @@
         18,
         15,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização reduz dano e ataca o inimigo com menos vida próximo.",
+        "limit": "Fica parada e não escolhe livremente todo alvo durante os golpes."
+      }
     },
     {
       "id": "Belveth.R",
@@ -60,48 +72,64 @@
         1,
         1,
         1
-      ]
+      ],
+      "coaching": {
+        "use": "Coral ativa a forma verdadeira e amplia seus recursos.",
+        "limit": "Depende de coral; o benefício de rêmoras exige a condição do coral épico."
+      }
     },
     {
       "id": "Belveth.P",
       "ability": "P",
       "name": "Morte em Lavanda ",
       "description": "Bel'Veth recebe acúmulos de Velocidade de Ataque permanente depois de eliminar tropas, monstros grandes e Campeões. Além disso, ela recebe Velocidade de Ataque adicional temporária depois de usar uma Habilidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Abates acumulam velocidade de ataque permanente.",
+        "limit": "Precisa de oportunidades de farm; tempo de partida não garante acúmulos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar antes da proteção pode interromper o dano antes de aproveitar o combate prolongado.",
+      "Depende de coral; o benefício de rêmoras exige a condição do coral épico."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+        "plan": "Priorize renda e acesso seguro ao farm; não abandone recursos por perseguições longas.",
+        "against": "Reduza o tempo de contato e cubra alvos expostos sem perseguir a qualquer custo.",
+        "resource": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+        "caution": "Entrar antes da proteção pode interromper o dano antes de aproveitar o combate prolongado."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+        "plan": "Acompanhe uma abertura do time e pressione um alvo sem gastar todos os caminhos de saída.",
+        "against": "Reduza o tempo de contato e cubra alvos expostos sem perseguir a qualquer custo.",
+        "resource": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+        "caution": "Entrar antes da proteção pode interromper o dano antes de aproveitar o combate prolongado."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+        "plan": "Espere a resposta inimiga se comprometer; preserve a sobrevivência para continuar atacando.",
+        "against": "Na luta decisiva, reduza o tempo de contato e cubra alvos expostos sem perseguir a qualquer custo.",
+        "resource": "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+        "caution": "Entrar antes da proteção pode interromper o dano antes de aproveitar o combate prolongado."
       }
     },
     "strengths": [
-      "Impulso do Vazio: Bel'Veth avança na direção escolhida e causa dano a todos os inimigos atravessados.",
-      "Banquete Eterno: Bel'Veth consome os restos de Coral do Vazio e revela sua Forma Verdadeira, recebendo Vida máxima, Alcance de Ataque e Velocidade de Ataque. Consumir Coral do Vazio dos restos de um monstro épico concederá a ela a capacidade de invocar Rêmoras do Vazio."
+      "Mantém dano próximo quando encontra tempo e espaço para atacar.",
+      "Coral ativa a forma verdadeira e amplia seus recursos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

@@ -24,7 +24,11 @@
         9.5,
         8.75,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe curto ou arremesso oferecem diferentes alcances.",
+        "limit": "A trajetória ainda precisa atingir o alvo."
+      }
     },
     {
       "id": "Pantheon.W",
@@ -37,7 +41,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço no alvo termina em atordoamento.",
+        "limit": "Chegar perto compromete o corpo com a resposta."
+      }
     },
     {
       "id": "Pantheon.E",
@@ -50,7 +58,11 @@
         20,
         19,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo evita dano vindo da frente.",
+        "limit": "A direção importa; não protege igualmente pelos lados."
+      }
     },
     {
       "id": "Pantheon.R",
@@ -61,48 +73,64 @@
         180,
         165,
         150
-      ]
+      ],
+      "coaching": {
+        "use": "Chegada distante prepara presença em uma região.",
+        "limit": "Há preparação e o ponto de chegada pode estar coberto."
+      }
     },
     {
       "id": "Pantheon.P",
       "ability": "P",
       "name": "Determinação Mortal",
       "description": "Após algumas habilidades ou ataques, a próxima habilidade de Pantheon será fortalecida.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques e habilidades preparam uma conjuração fortalecida.",
+        "limit": "A escolha depende de quais acúmulos estão disponíveis."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Cria uma captura curta e protege a resposta com o corpo.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar sem continuação pode gastar a defesa só para sobreviver.",
+      "Há preparação e o ponto de chegada pode estar coberto."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Cria uma captura curta e protege a resposta com o corpo.",
+        "plan": "Resolva a wave antes de apoiar outra região para não perder farm sem resultado.",
+        "against": "Cubra o alvo pressionado e responda pela direção não protegida.",
+        "resource": "Cria uma captura curta e protege a resposta com o corpo.",
+        "caution": "Entrar sem continuação pode gastar a defesa só para sobreviver."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Cria uma captura curta e protege a resposta com o corpo.",
+        "plan": "Escolha um alvo acessível e acompanhamento para aproveitar a entrada.",
+        "against": "Cubra o alvo pressionado e responda pela direção não protegida.",
+        "resource": "Cria uma captura curta e protege a resposta com o corpo.",
+        "caution": "Entrar sem continuação pode gastar a defesa só para sobreviver."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Cria uma captura curta e protege a resposta com o corpo.",
+        "plan": "Espere uma borda vulnerável ou proteja quem recebe a aproximação.",
+        "against": "Na luta decisiva, cubra o alvo pressionado e responda pela direção não protegida.",
+        "resource": "Cria uma captura curta e protege a resposta com o corpo.",
+        "caution": "Entrar sem continuação pode gastar a defesa só para sobreviver."
       }
     },
     "strengths": [
-      "Lança Meteórica: Pantheon pode fazer uma investida com sua lança ou arremessá-la na direção escolhida.",
-      "Constelação Cadente: Pantheon se prepara, salta para o ar e aterrissa como um cometa no local escolhido."
+      "Cria uma captura curta e protege a resposta com o corpo.",
+      "Chegada distante prepara presença em uma região."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

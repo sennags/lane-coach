@@ -24,7 +24,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço e golpe causam dano próximo.",
+        "limit": "A chegada precisa permitir acertar sem perder saída."
+      }
     },
     {
       "id": "Kayn.W",
@@ -37,7 +41,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de dano desacelera.",
+        "limit": "Errar reduz o apoio para continuar contato."
+      }
     },
     {
       "id": "Kayn.E",
@@ -50,7 +58,11 @@
         17,
         15,
         13
-      ]
+      ],
+      "coaching": {
+        "use": "Atravessa terreno para criar caminhos.",
+        "limit": "Sair do terreno pode colocar Kayn no meio de ameaças."
+      }
     },
     {
       "id": "Kayn.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Entra no inimigo e causa dano ao sair.",
+        "limit": "A posição de saída ainda precisa ser segura."
+      }
     },
     {
       "id": "Kayn.P",
       "ability": "P",
       "name": "A Foice Darkin",
       "description": "Kayn empunha uma arma ancestral, lutando contra Rhaast, o darkin que vive dentro dela, pelo controle. Ou o Darkin triunfará ou Kayn dominará Rhaast para se tornar o Assassino das Sombras . Darkin: Cura uma porcentagem do dano de habilidades causado a Campeões. Assassino das Sombras: Causa dano adicional nos primeiros segundos em combate com Campeões inimigos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Darkin sustenta com dano; assassino concentra dano inicial.",
+        "limit": "O papel muda conforme a forma obtida."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Tratar as duas formas como o mesmo tipo de entrada pode comprometer a luta.",
+      "A posição de saída ainda precisa ser segura."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+        "plan": "Priorize renda e aproximação preparada; na rota, resolva a wave antes de sair.",
+        "against": "Cubra acessos pelo terreno e proteja alvos separados conforme a forma inimiga.",
+        "resource": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+        "caution": "Tratar as duas formas como o mesmo tipo de entrada pode comprometer a luta."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+        "plan": "Escolha alvo e ângulo conforme a forma, mantendo acompanhamento.",
+        "against": "Cubra acessos pelo terreno e proteja alvos separados conforme a forma inimiga.",
+        "resource": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+        "caution": "Tratar as duas formas como o mesmo tipo de entrada pode comprometer a luta."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+        "plan": "Darkin procura contato útil; assassino espera proteção comprometida para entrar e sair.",
+        "against": "Na luta decisiva, cubra acessos pelo terreno e proteja alvos separados conforme a forma inimiga.",
+        "resource": "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+        "caution": "Tratar as duas formas como o mesmo tipo de entrada pode comprometer a luta."
       }
     },
     "strengths": [
-      "Corte Ceifador: Kayn avança, depois ataca. Ambos dão dano.",
-      "Transgressão do Umbral: Kayn se esconde no corpo de um inimigo e causa bastante dano quando rasga sua saída."
+      "A forma define pressão prolongada ou entrada curta em alvo exposto.",
+      "Entra no inimigo e causa dano ao sair."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

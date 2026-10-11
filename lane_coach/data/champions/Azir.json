@@ -24,7 +24,11 @@
         10,
         8,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Reposiciona soldados e desacelera quem atravessam.",
+        "limit": "Movê-los pode deixar o alvo anterior fora do alcance."
+      }
     },
     {
       "id": "Azir.W",
@@ -37,7 +41,11 @@
         1.5,
         1.5,
         1.5
-      ]
+      ],
+      "coaching": {
+        "use": "Soldados atacam alvos próximos por Azir.",
+        "limit": "O dano depende de manter o alvo no alcance dos soldados."
+      }
     },
     {
       "id": "Azir.E",
@@ -50,7 +58,11 @@
         19,
         17.5,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Avança até um soldado e recebe escudo.",
+        "limit": "Colidir com um campeão encerra o avanço."
+      }
     },
     {
       "id": "Azir.R",
@@ -61,48 +73,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Parede empurra inimigos e reorganiza a frente da luta.",
+        "limit": "Empurrar não substitui uma posição segura para continuar atacando."
+      }
     },
     {
       "id": "Azir.P",
       "ability": "P",
       "name": "Legado de Shurima",
       "description": "Azir pode invocar o Disco Solar das ruínas de uma torre aliada ou inimiga.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Cria um Disco Solar nas ruínas de uma torre.",
+        "limit": "Precisa de ruínas apropriadas; não cria uma torre em qualquer lugar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Mantém dano à distância controlando o espaço dos soldados.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Uma entrada profunda pode trocar todo seu dano contínuo por um deslocamento.",
+      "Empurrar não substitui uma posição segura para continuar atacando."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Mantém dano à distância controlando o espaço dos soldados.",
+        "plan": "Organize soldados para farmar e pressionar sem perder o caminho de recuo.",
+        "against": "Ameace a posição de Azir por ângulos diferentes, evitando lutar parado entre soldados.",
+        "resource": "Mantém dano à distância controlando o espaço dos soldados.",
+        "caution": "Uma entrada profunda pode trocar todo seu dano contínuo por um deslocamento."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Mantém dano à distância controlando o espaço dos soldados.",
+        "plan": "Posicione uma linha de ataque com cobertura e conserve uma saída.",
+        "against": "Ameace a posição de Azir por ângulos diferentes, evitando lutar parado entre soldados.",
+        "resource": "Mantém dano à distância controlando o espaço dos soldados.",
+        "caution": "Uma entrada profunda pode trocar todo seu dano contínuo por um deslocamento."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Mantém dano à distância controlando o espaço dos soldados.",
+        "plan": "Priorize ataques contínuos e proteja a aproximação; não mergulhe só para deslocar um alvo.",
+        "against": "Na luta decisiva, ameace a posição de Azir por ângulos diferentes, evitando lutar parado entre soldados.",
+        "resource": "Mantém dano à distância controlando o espaço dos soldados.",
+        "caution": "Uma entrada profunda pode trocar todo seu dano contínuo por um deslocamento."
       }
     },
     "strengths": [
-      "Areias da Conquista: Azir comanda todos os Soldados de Areia na direção do local-alvo. Eles causam Dano Mágico aos inimigos que atravessam e aplicam redução de velocidade por 1 segundo.",
-      "Decreto do Imperador: Azir invoca uma parede de soldados que marcha em frente, causando dano e empurrando para trás os inimigos."
+      "Mantém dano à distância controlando o espaço dos soldados.",
+      "Parede empurra inimigos e reorganiza a frente da luta."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Linha longa pressiona alvos à distância.",
+        "limit": "Precisa acertar a trajetória sem perder a posição."
+      }
     },
     {
       "id": "Xerath.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Centro da área amplia dano e lentidão.",
+        "limit": "O inimigo pode sair do centro antes do impacto."
+      }
     },
     {
       "id": "Xerath.E",
@@ -50,7 +58,11 @@
         12,
         11.5,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil atordoa o alvo atingido.",
+        "limit": "Errar pode retirar a resposta à entrada."
+      }
     },
     {
       "id": "Xerath.R",
@@ -61,48 +73,64 @@
         130,
         115,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Disparos longos exigem imobilizar o próprio corpo.",
+        "limit": "Precisa de uma região protegida durante a sequência."
+      }
     },
     {
       "id": "Xerath.P",
       "ability": "P",
       "name": "Oscilação de Mana",
       "description": "Os ataques básicos de Xerath restauram Mana periodicamente. Sempre que Xerath abate uma unidade, esse Tempo de Recarga é reduzido.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques periódicos recuperam mana e abates aceleram disponibilidade.",
+        "limit": "Aproximar para recuperar mana pode expor o corpo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona à distância antes e durante a aproximação dos times.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Canalizar com uma ameaça próxima pode interromper toda a contribuição.",
+      "Precisa de uma região protegida durante a sequência."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona à distância antes e durante a aproximação dos times.",
+        "plan": "Gerencie mana e farm sem buscar recuperação de ataque em posição perigosa.",
+        "against": "Ameace o corpo por outro ângulo e evite previsibilidade no caminho.",
+        "resource": "Pressiona à distância antes e durante a aproximação dos times.",
+        "caution": "Canalizar com uma ameaça próxima pode interromper toda a contribuição."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona à distância antes e durante a aproximação dos times.",
+        "plan": "Enfraqueça alvos acessíveis mantendo cobertura contra entradas laterais.",
+        "against": "Ameace o corpo por outro ângulo e evite previsibilidade no caminho.",
+        "resource": "Pressiona à distância antes e durante a aproximação dos times.",
+        "caution": "Canalizar com uma ameaça próxima pode interromper toda a contribuição."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona à distância antes e durante a aproximação dos times.",
+        "plan": "Escolha uma posição segura para continuar contribuindo sem andar à frente por alcance.",
+        "against": "Na luta decisiva, ameace o corpo por outro ângulo e evite previsibilidade no caminho.",
+        "resource": "Pressiona à distância antes e durante a aproximação dos times.",
+        "caution": "Canalizar com uma ameaça próxima pode interromper toda a contribuição."
       }
     },
     "strengths": [
-      "Pulso Arcano: Dispara um raio de energia de longo alcance, causando Dano Mágico a todos os alvos atingidos.",
-      "Ritual Arcano: Xerath imobiliza a si mesmo e dispara diversas barragens de longa distância."
+      "Pressiona à distância antes e durante a aproximação dos times.",
+      "Disparos longos exigem imobilizar o próprio corpo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

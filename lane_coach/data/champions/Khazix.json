@@ -23,7 +23,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Dano aumenta em alvo isolado; evolução melhora alcance e recarga.",
+        "limit": "A melhoria depende da evolução e do isolamento."
+      }
     },
     {
       "id": "Khazix.W",
@@ -36,7 +40,11 @@
         9,
         9,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Espinhos dão dano; proximidade da explosão oferece cura.",
+        "limit": "A cura exige estar na região da explosão."
+      }
     },
     {
       "id": "Khazix.E",
@@ -49,7 +57,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Salto reposiciona; evolução permite reinício com eliminação.",
+        "limit": "Não conte com reinício antes de obter a eliminação."
+      }
     },
     {
       "id": "Khazix.R",
@@ -60,48 +72,64 @@
         100,
         85,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Invisibilidade permite reposicionar e preparar a passiva.",
+        "limit": "Duração e usos dependem da evolução escolhida."
+      }
     },
     {
       "id": "Khazix.P",
       "ability": "P",
       "name": "Ameaça Invisível",
       "description": "Inimigos próximos que estiverem isolados de seus aliados são marcados. As habilidades de Kha'Zix possuem interações com alvos isolados . Quando Kha'Zix não estiver visível para a equipe inimiga, ele recebe Ameaça Invisível, fazendo com que seu próximo ataque básico contra um Campeão inimigo cause Dano Mágico adicional e reduza a velocidade do alvo por alguns segundos.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Isolamento amplia oportunidades; sair da visão prepara ataque adicional.",
+        "limit": "Um alvo com apoio não oferece o mesmo benefício."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Ameaça alvos separados da proteção do time.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Saltar em um grupo protegido pode negar todo o benefício de isolamento.",
+      "Duração e usos dependem da evolução escolhida."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Ameaça alvos separados da proteção do time.",
+        "plan": "Preserve renda e visão para buscar separação; na rota, não abandone a wave por uma perseguição.",
+        "against": "Mantenha apoio próximo aos aliados frágeis e cubra os lados.",
+        "resource": "Ameaça alvos separados da proteção do time.",
+        "caution": "Saltar em um grupo protegido pode negar todo o benefício de isolamento."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Ameaça alvos separados da proteção do time.",
+        "plan": "Busque uma borda exposta sem gastar a única saída para aproximar.",
+        "against": "Mantenha apoio próximo aos aliados frágeis e cubra os lados.",
+        "resource": "Ameaça alvos separados da proteção do time.",
+        "caution": "Saltar em um grupo protegido pode negar todo o benefício de isolamento."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Ameaça alvos separados da proteção do time.",
+        "plan": "Espere o alvo perder cobertura e só continue após uma oportunidade real.",
+        "against": "Na luta decisiva, mantenha apoio próximo aos aliados frágeis e cubra os lados.",
+        "resource": "Ameaça alvos separados da proteção do time.",
+        "caution": "Saltar em um grupo protegido pode negar todo o benefício de isolamento."
       }
     },
     "strengths": [
-      "Sabor de Medo: Causa Dano Físico ao alvo. Dano aumentado em alvos Isolados . Caso ele escolha Evoluir Garras Aumentadas , recupera um percentual de seu Tempo de Recarga contra alvos Isolados . Kha'Zix também recebe aumento de alcance em seus ataques básicos e em Sabor de Medo.",
-      "Massacre do Vazio: Cada ranque permite que Kha'Zix evolua uma de suas habilidades, dando a elas um efeito único adicional. Quando ativada, Kha'Zix fica Invisível , acionando Ameaça Invisível e aumentando sua Velocidade de Movimento. Caso ele escolha Evoluir Camuflagem Adaptativa , Massacre do Vazio ganha maior duração de Invisibilidade e um uso adicional."
+      "Ameaça alvos separados da proteção do time.",
+      "Invisibilidade permite reposicionar e preparar a passiva."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         0.25,
         0.25,
         0.25
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque ampliado causa dano; ferocidade melhora a sequência.",
+        "limit": "Exige contato e recurso para a versão fortalecida."
+      }
     },
     {
       "id": "Rengar.W",
@@ -37,7 +41,11 @@
         0.25,
         0.25,
         0.25
-      ]
+      ],
+      "coaching": {
+        "use": "Recupera parte do dano recente; fortalecido remove controle.",
+        "limit": "O fortalecimento defensivo depende da ferocidade."
+      }
     },
     {
       "id": "Rengar.E",
@@ -50,7 +58,11 @@
         0.25,
         0.25,
         0.25
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil desacelera; fortalecido enraíza.",
+        "limit": "Controle maior exige recurso e acerto."
+      }
     },
     {
       "id": "Rengar.R",
@@ -61,48 +73,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Camuflagem prepara perseguição e salto sem arbusto.",
+        "limit": "Um alvo revelado pode permanecer protegido pelo time."
+      }
     },
     {
       "id": "Rengar.P",
       "ability": "P",
       "name": "Predador Oculto",
       "description": "Enquanto estiver em um arbusto, Rengar salta até seu alvo ao usar um ataque básico. Rengar gera Ferocidade sempre que conjura uma habilidade. Ao atingir Ferocidade máxima, sua próxima Habilidade é fortalecida. Abater Campeões inimigos acrescenta troféus ao Colar de Presas de Rengar, concedendo Dano de Ataque adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Arbusto permite salto; ferocidade fortalece habilidade escolhida.",
+        "limit": "Sem preparação de terreno ou recurso, a entrada muda."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Saltar em alvo protegido pode comprometer todo o corpo antes da saída.",
+      "Um alvo revelado pode permanecer protegido pelo time."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+        "plan": "Planeje a wave junto do terreno útil, sem abandonar farm por um salto arriscado.",
+        "against": "Cubra os arbustos e mantenha apoio nos aliados frágeis.",
+        "resource": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+        "caution": "Saltar em alvo protegido pode comprometer todo o corpo antes da saída."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+        "plan": "Escolha um alvo separado e preserve recurso para sair após a tentativa.",
+        "against": "Cubra os arbustos e mantenha apoio nos aliados frágeis.",
+        "resource": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+        "caution": "Saltar em alvo protegido pode comprometer todo o corpo antes da saída."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+        "plan": "Espere proteção inimiga comprometida antes de saltar no alvo importante.",
+        "against": "Na luta decisiva, cubra os arbustos e mantenha apoio nos aliados frágeis.",
+        "resource": "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+        "caution": "Saltar em alvo protegido pode comprometer todo o corpo antes da saída."
       }
     },
     "strengths": [
-      "Selvageria: O próximo Ataque de Rengar desfere uma punhalada brutal que causa dano adicional. Efeito de Ferocidade: causa dano aumentado e concede Velocidade de Ataque.",
-      "Furor da Caçada: Rengar ativa seus instintos predatórios, ficando Camuflado e revelando o campeão inimigo mais próximo a ele em um amplo raio ao seu redor. Durante o Furor da Caçada, Rengar recebe Velocidade de Movimento e pode saltar no inimigo perseguido para reduzir sua armadura, mesmo sem estar no arbusto."
+      "Ameaça uma captura a partir de terreno ou aproximação oculta.",
+      "Camuflagem prepara perseguição e salto sem arbusto."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

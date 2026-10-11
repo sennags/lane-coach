@@ -23,7 +23,11 @@
         5,
         4.5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Bomba ameaça dano à distância.",
+        "limit": "Precisa conectar o trajeto no alvo."
+      }
     },
     {
       "id": "Ziggs.W",
@@ -36,7 +40,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Explosão desloca inimigos e o próprio Ziggs; pode destruir torre vulnerável.",
+        "limit": "A direção pode bloquear sua saída ou afastar um alvo aliado."
+      }
     },
     {
       "id": "Ziggs.E",
@@ -49,7 +57,11 @@
         16,
         16,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Minas desaceleram caminhos; várias no mesmo alvo têm dano reduzido.",
+        "limit": "O inimigo pode usar outra rota."
+      }
     },
     {
       "id": "Ziggs.R",
@@ -60,48 +72,64 @@
         120,
         95,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Centro da explosão distante amplia dano.",
+        "limit": "A região precisa alinhar com o movimento dos alvos."
+      }
     },
     {
       "id": "Ziggs.P",
       "ability": "P",
       "name": "Pavio Curto",
       "description": "Periodicamente, o próximo ataque básico de Ziggs causa Dano Mágico adicional. Esse Tempo de Recarga é reduzido sempre que Ziggs usa uma habilidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjurações aceleram a disponibilidade do ataque fortalecido.",
+        "limit": "Aproximar para usá-lo pode retirar a vantagem de distância."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona à distância e limita caminhos de aproximação.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Usar o deslocamento para dano pode retirar a saída da entrada seguinte.",
+      "A região precisa alinhar com o movimento dos alvos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona à distância e limita caminhos de aproximação.",
+        "plan": "Gerencie mana e limpeza da wave sem empurrar para fora da visão disponível.",
+        "against": "Mude o caminho para evitar áreas preparadas e ameace o corpo pelos lados.",
+        "resource": "Pressiona à distância e limita caminhos de aproximação.",
+        "caution": "Usar o deslocamento para dano pode retirar a saída da entrada seguinte."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona à distância e limita caminhos de aproximação.",
+        "plan": "Cause dano com cobertura sem abandonar o corpo para alcançar o centro ideal.",
+        "against": "Mude o caminho para evitar áreas preparadas e ameace o corpo pelos lados.",
+        "resource": "Pressiona à distância e limita caminhos de aproximação.",
+        "caution": "Usar o deslocamento para dano pode retirar a saída da entrada seguinte."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona à distância e limita caminhos de aproximação.",
+        "plan": "Prepare uma região de ataque segura e mantenha pressão no grupo acessível.",
+        "against": "Na luta decisiva, mude o caminho para evitar áreas preparadas e ameace o corpo pelos lados.",
+        "resource": "Pressiona à distância e limita caminhos de aproximação.",
+        "caution": "Usar o deslocamento para dano pode retirar a saída da entrada seguinte."
       }
     },
     "strengths": [
-      "Bomba Saltitante: Ziggs arremessa uma bomba que causa Dano Mágico.",
-      "Bomba Megainfernal: Ziggs põe para funcionar sua maior criação, a Bomba Megainfernal, arremessando-a de uma enorme distância. Inimigos no centro da detonação recebem mais dano do que aqueles mais distantes."
+      "Pressiona à distância e limita caminhos de aproximação.",
+      "Centro da explosão distante amplia dano."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

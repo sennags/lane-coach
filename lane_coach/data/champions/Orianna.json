@@ -24,7 +24,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Reposiciona a esfera para dano no trajeto.",
+        "limit": "Movê-la retira a ameaça do local anterior."
+      }
     },
     {
       "id": "Orianna.W",
@@ -37,7 +41,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Região da esfera desacelera inimigos e acelera aliados.",
+        "limit": "O efeito nasce na esfera, não necessariamente em Orianna."
+      }
     },
     {
       "id": "Orianna.E",
@@ -50,7 +58,11 @@
         9,
         9,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Esfera protege aliado e oferece defesas adicionais.",
+        "limit": "Mudar a esfera também altera a área de ameaça."
+      }
     },
     {
       "id": "Orianna.R",
@@ -61,48 +73,64 @@
         110,
         95,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Controle atrai inimigos para a esfera.",
+        "limit": "Precisa de posicionamento da esfera e continuação aliada."
+      }
     },
     {
       "id": "Orianna.P",
       "ability": "P",
       "name": "Dando Corda",
       "description": "Os Ataques de Orianna causam Dano Mágico adicional. O dano aumenta a cada vez que ela Ataca o mesmo alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques repetidos no alvo ampliam dano adicional.",
+        "limit": "Aproximar só para acumular pode expor Orianna."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Controla uma região e acompanha a entrada ou proteção aliada.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Seguir a esfera para muito perto pode perder a segurança do corpo.",
+      "Precisa de posicionamento da esfera e continuação aliada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Controla uma região e acompanha a entrada ou proteção aliada.",
+        "plan": "Gerencie mana e esfera conforme a wave antes de planejar recuo ou saída.",
+        "against": "Observe corpo e esfera, sem alinhar toda a formação na mesma região.",
+        "resource": "Controla uma região e acompanha a entrada ou proteção aliada.",
+        "caution": "Seguir a esfera para muito perto pode perder a segurança do corpo."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Controla uma região e acompanha a entrada ou proteção aliada.",
+        "plan": "Mantenha corpo coberto e esfera numa posição que pressione alvos acessíveis.",
+        "against": "Observe corpo e esfera, sem alinhar toda a formação na mesma região.",
+        "resource": "Controla uma região e acompanha a entrada ou proteção aliada.",
+        "caution": "Seguir a esfera para muito perto pode perder a segurança do corpo."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Controla uma região e acompanha a entrada ou proteção aliada.",
+        "plan": "Escolha entre cobrir quem recebe foco e preparar controle no grupo alcançável.",
+        "against": "Na luta decisiva, observe corpo e esfera, sem alinhar toda a formação na mesma região.",
+        "resource": "Controla uma região e acompanha a entrada ou proteção aliada.",
+        "caution": "Seguir a esfera para muito perto pode perder a segurança do corpo."
       }
     },
     "strengths": [
-      "Comando: Atacar: Orianna comanda sua Esfera para avançar no local-alvo, causando Dano Mágico ao longo do caminho (causa menos dano a alvos subsequentes). A Esfera permanece no mesmo lugar após o comando.",
-      "Comando: Onda de Choque: Orianna comanda sua Esfera para desferir uma onda de choque, causando Dano Mágico e deslocando inimigos próximos em direção à Esfera após um curto intervalo."
+      "Controla uma região e acompanha a entrada ou proteção aliada.",
+      "Controle atrai inimigos para a esfera."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

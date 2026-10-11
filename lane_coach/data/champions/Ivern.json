@@ -24,7 +24,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Enraizamento permite que aliados avancem ao alvo.",
+        "limit": "A chegada dos aliados ainda precisa ser segura."
+      }
     },
     {
       "id": "Ivern.W",
@@ -37,7 +41,11 @@
         0.5,
         0.5,
         0.5
-      ]
+      ],
+      "coaching": {
+        "use": "Arbustos fortalecem ataques próximos de Ivern e aliados.",
+        "limit": "A posição criada também muda a leitura do terreno."
+      }
     },
     {
       "id": "Ivern.E",
@@ -50,7 +58,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo em aliado explode com dano e lentidão.",
+        "limit": "A explosão exige alvos próximos ao protegido."
+      }
     },
     {
       "id": "Ivern.R",
@@ -61,48 +73,64 @@
         140,
         130,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Margarida recebe comandos para atacar e se mover.",
+        "limit": "Não abandone a posição dos aliados só para acompanhar a invocação."
+      }
     },
     {
       "id": "Ivern.P",
       "ability": "P",
       "name": "Amigo da Floresta",
       "description": "Ivern não pode atacar ou ser atacado por monstros não épicos. Ele pode criar bosques mágicos que crescem ao longo do tempo em acampamentos da selva. Quando o bosque estiver em seu tamanho final, Ivern pode libertar os monstros para receber ouro e experiência.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Bosques maduros permitem receber renda dos acampamentos.",
+        "limit": "Monstros não épicos não são enfrentados por ataques normais."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Avançar sozinho para comandar a frente pode retirar toda a proteção do time.",
+      "Não abandone a posição dos aliados só para acompanhar a invocação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+        "plan": "Planeje a renda e a cobertura dos aliados; não abandone uma rota exposta sem resolver sua necessidade.",
+        "against": "Pressione a posição de Ivern sem reunir todos perto do aliado protegido.",
+        "resource": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+        "caution": "Avançar sozinho para comandar a frente pode retirar toda a proteção do time."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+        "plan": "Acompanhe quem pode entrar ou receber foco sem colocar seu próprio corpo na frente.",
+        "against": "Pressione a posição de Ivern sem reunir todos perto do aliado protegido.",
+        "resource": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+        "caution": "Avançar sozinho para comandar a frente pode retirar toda a proteção do time."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+        "plan": "Proteja o causador de dano e use a invocação para disputar espaço.",
+        "against": "Na luta decisiva, pressione a posição de Ivern sem reunir todos perto do aliado protegido.",
+        "resource": "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+        "caution": "Avançar sozinho para comandar a frente pode retirar toda a proteção do time."
       }
     },
     "strengths": [
-      "Encantador de Raízes: Ivern conjura uma vinha, causando dano e enraizando os alvos inimigos atingidos. Os aliados de Ivern podem avançar rapidamente em direção ao alvo enraizado.",
-      "Margarida!: Ivern invoca sua amiga Margarida para lutar ao seu lado. Reconjure para fazer Margarida atacar ou se mover."
+      "Sustenta um aliado ativo enquanto uma invocação ocupa a frente.",
+      "Margarida recebe comandos para atacar e se mover."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         8,
         7.5,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Marca inimigos e puxa as marcas para causar dano no retorno.",
+        "limit": "Reposicionar altera o caminho; acertar a ida não garante o retorno."
+      }
     },
     {
       "id": "Aurora.W",
@@ -37,7 +41,11 @@
         20,
         19,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Salto concede invisibilidade e velocidade temporárias.",
+        "limit": "A janela é breve; escolha o ponto de aterrissagem."
+      }
     },
     {
       "id": "Aurora.E",
@@ -50,7 +58,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Dano e lentidão à frente com recuo.",
+        "limit": "O recuo não garante uma saída livre atrás de Aurora."
+      }
     },
     {
       "id": "Aurora.R",
@@ -61,48 +73,64 @@
         140,
         120,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Área desacelera inimigos e permite mudar de lado.",
+        "limit": "As opções de reposicionamento dependem da área criada."
+      }
     },
     {
       "id": "Aurora.P",
       "ability": "P",
       "name": "Abjuração Espiritual",
       "description": "As Habilidades e Ataques da Aurora exorcizam espíritos dos inimigos aos quais ela causar dano. Espíritos exorcizados seguem e curam Aurora.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques e habilidades liberam espíritos que curam Aurora.",
+        "limit": "A sustentação depende de causar dano e receber os espíritos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Uma saída breve não compensa chegar no centro da formação inimiga.",
+      "As opções de reposicionamento dependem da área criada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+        "plan": "Dispute a wave sem gastar toda a mobilidade para pressionar.",
+        "against": "Proteja os lados e observe a posição após cada deslocamento.",
+        "resource": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+        "caution": "Uma saída breve não compensa chegar no centro da formação inimiga."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+        "plan": "Pressione um alvo acessível e mantenha um salto ou caminho para sair da resposta.",
+        "against": "Proteja os lados e observe a posição após cada deslocamento.",
+        "resource": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+        "caution": "Uma saída breve não compensa chegar no centro da formação inimiga."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+        "plan": "Use ângulos ao lado do time; não transforme mobilidade em entrada sem cobertura.",
+        "against": "Na luta decisiva, proteja os lados e observe a posição após cada deslocamento.",
+        "resource": "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+        "caution": "Uma saída breve não compensa chegar no centro da formação inimiga."
       }
     },
     "strengths": [
-      "Feitiço Dúplice: Aurora envia um projétil que amaldiçoa qualquer inimigo que atingir. Ela pode reconjurar a Habilidade para puxar de volta as maldições ativas na direção dela, causando dano a inimigos atingidos no caminho.",
-      "Entre Mundos: Aurora salta em uma direção escolhida, liberando uma onda de choque que causa dano e Lentidão a inimigos atingidos. Depois, Aurora cria uma área que causa Lentidão a inimigos, permitindo que ela se teleporte de um lado a outro da área."
+      "Ataca por ângulos móveis e cria espaço de combate na sua área.",
+      "Área desacelera inimigos e permite mudar de lado."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

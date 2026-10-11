@@ -24,7 +24,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Disparo atravessa o alvo em linha.",
+        "limit": "O alinhamento define quem recebe dano atrás dele."
+      }
     },
     {
       "id": "Lucian.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Marca permite ganhar velocidade ao atacar.",
+        "limit": "O benefício exige atingir alvos marcados."
+      }
     },
     {
       "id": "Lucian.E",
@@ -50,7 +58,11 @@
         15,
         14.5,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço reposiciona; ataques da passiva reduzem recarga.",
+        "limit": "Usar para entrar pode retirar a resposta à aproximação."
+      }
     },
     {
       "id": "Lucian.R",
@@ -61,48 +73,64 @@
         110,
         100,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Sequência de disparos pressiona à frente.",
+        "limit": "Precisa manter alvo e trajetória durante a sequência."
+      }
     },
     {
       "id": "Lucian.P",
       "ability": "P",
       "name": "Disparo Iluminado",
       "description": "Sempre que Lucian usa uma Habilidade, seu próximo Ataque se transforma em um disparo duplo. Quando Lucian é curado ou protegido por um aliado, ou quando um Campeão inimigo próximo é imobilizado, os próximos dois Ataques básicos dele causam Dano Mágico adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Habilidade prepara ataque duplo; apoio aliado amplia ataques.",
+        "limit": "Precisa intercalar ataques, não apenas conjurar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Pressiona com ataques curtos alternados com movimento.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Gastar movimento agressivo antes da ameaça aparecer pode retirar toda a defesa.",
+      "Precisa manter alvo e trajetória durante a sequência."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Pressiona com ataques curtos alternados com movimento.",
+        "plan": "Gerencie mana e wave para escolher pressão sem perder recuo.",
+        "against": "Pressione seu espaço quando o avanço for comprometido, mantendo proteção dos aliados.",
+        "resource": "Pressiona com ataques curtos alternados com movimento.",
+        "caution": "Gastar movimento agressivo antes da ameaça aparecer pode retirar toda a defesa."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Pressiona com ataques curtos alternados com movimento.",
+        "plan": "Jogue junto da cobertura e recue após a sequência, sem prolongar contato desfavorável.",
+        "against": "Pressione seu espaço quando o avanço for comprometido, mantendo proteção dos aliados.",
+        "resource": "Pressiona com ataques curtos alternados com movimento.",
+        "caution": "Gastar movimento agressivo antes da ameaça aparecer pode retirar toda a defesa."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Pressiona com ataques curtos alternados com movimento.",
+        "plan": "Ataque um alvo seguro sem avançar para dentro da linha inimiga por dano adicional.",
+        "against": "Na luta decisiva, pressione seu espaço quando o avanço for comprometido, mantendo proteção dos aliados.",
+        "resource": "Pressiona com ataques curtos alternados com movimento.",
+        "caution": "Gastar movimento agressivo antes da ameaça aparecer pode retirar toda a defesa."
       }
     },
     "strengths": [
-      "Luz Perfurante: Lucian faz um disparo de luz perfurante através de um alvo.",
-      "O Expurgo: Lucian desfere uma torrente de disparos de suas armas."
+      "Pressiona com ataques curtos alternados com movimento.",
+      "Sequência de disparos pressiona à frente."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

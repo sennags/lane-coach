@@ -24,7 +24,11 @@
         9,
         7.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Carga prepara avanço com dano e deslocamento.",
+        "limit": "A trajetória e a chegada precisam ser acompanhadas."
+      }
     },
     {
       "id": "Vi.W",
@@ -37,7 +41,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques quebram defesa e ampliam continuidade.",
+        "limit": "Precisa manter contato para aproveitar."
+      }
     },
     {
       "id": "Vi.E",
@@ -50,7 +58,11 @@
         1,
         1,
         1
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque atravessa o alvo e pressiona atrás dele.",
+        "limit": "O alinhamento muda os alvos posteriores."
+      }
     },
     {
       "id": "Vi.R",
@@ -61,48 +73,64 @@
         140,
         115,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Persegue o alvo e controla ao chegar.",
+        "limit": "A chegada pode ficar longe de todo o apoio."
+      }
     },
     {
       "id": "Vi.P",
       "ability": "P",
       "name": "Blindagem",
       "description": "Vi carrega um escudo ao longo do tempo que pode ser ativado ao atingir um inimigo com uma habilidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acerto de habilidade ativa escudo preparado.",
+        "limit": "A defesa exige conectar o acerto e estar disponível."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Perseguir um alvo distante pode isolar Vi antes do dano aliado.",
+      "A chegada pode ficar longe de todo o apoio."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+        "plan": "Priorize renda e chegada preparada; na rota, resolva a wave antes de sair.",
+        "against": "Proteja o alvo escolhido e prepare resposta na região de chegada.",
+        "resource": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+        "caution": "Perseguir um alvo distante pode isolar Vi antes do dano aliado."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+        "plan": "Alcance um alvo que aliados consigam atacar, sem iniciar além do acompanhamento.",
+        "against": "Proteja o alvo escolhido e prepare resposta na região de chegada.",
+        "resource": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+        "caution": "Perseguir um alvo distante pode isolar Vi antes do dano aliado."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+        "plan": "Priorize prender a ameaça importante ou interromper quem invade sua formação.",
+        "against": "Na luta decisiva, proteja o alvo escolhido e prepare resposta na região de chegada.",
+        "resource": "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+        "caution": "Perseguir um alvo distante pode isolar Vi antes do dano aliado."
       }
     },
     "strengths": [
-      "Quebra-Cofres: Vi carrega suas manoplas e desfere um soco capaz de quebrar cofres, empurrando-a para frente. Os inimigos que ela atingir são empurrados para trás e recebem um acúmulo de Pancada Certeira.",
-      "Saque e Enterrada: Vi persegue um inimigo em alta velocidade, empurrando para longe qualquer um em seu trajeto. Ao alcançar o alvo, ela o arremessa ao ar, salta atrás dele e o golpeia de volta ao chão."
+      "Escolhe uma ameaça e cria uma entrada concentrada para o time.",
+      "Persegue o alvo e controla ao chegar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

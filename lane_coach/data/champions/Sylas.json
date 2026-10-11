@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Linha desacelera e explosão posterior pressiona o cruzamento.",
+        "limit": "O alvo pode evitar a região final."
+      }
     },
     {
       "id": "Sylas.W",
@@ -37,7 +41,11 @@
         9,
         7.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço em campeão causa dano e cura.",
+        "limit": "Precisa alcançar o alvo para recuperar vida."
+      }
     },
     {
       "id": "Sylas.E",
@@ -50,7 +58,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço prepara corrente que aproxima ao acerto.",
+        "limit": "Errar a corrente pode interromper a continuação."
+      }
     },
     {
       "id": "Sylas.R",
@@ -61,48 +73,64 @@
         80,
         55,
         30
-      ]
+      ],
+      "coaching": {
+        "use": "Copia a ultimate inimiga.",
+        "limit": "O papel depende da ultimate disponível, não de uma função única."
+      }
     },
     {
       "id": "Sylas.P",
       "ability": "P",
       "name": "Explosão de Petricita",
       "description": "Após conjurar uma habilidade, Sylas armazena uma carga de Explosão de Petricita. Seus ataques básicos gastam uma carga e agitam as correntes energizadas ao redor dele, causando Dano Mágico adicional a inimigos atingidos. Enquanto Sylas tiver pelo menos uma carga de Explosão de Petricita, ele recebe Velocidade de Ataque.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Conjurações preparam ataques fortalecidos em área.",
+        "limit": "Precisa intercalar ataques para consumir as cargas."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Copiar uma ferramenta sem ajustar a posição pode não criar contribuição útil.",
+      "O papel depende da ultimate disponível, não de uma função única."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+        "plan": "Preserve recurso e farm antes de sair da wave ou comprometer a aproximação.",
+        "against": "Observe a ferramenta copiada e mantenha cobertura contra o tipo de entrada disponível.",
+        "resource": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+        "caution": "Copiar uma ferramenta sem ajustar a posição pode não criar contribuição útil."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+        "plan": "Use uma oportunidade acompanhada e preserve contato útil para continuar.",
+        "against": "Observe a ferramenta copiada e mantenha cobertura contra o tipo de entrada disponível.",
+        "resource": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+        "caution": "Copiar uma ferramenta sem ajustar a posição pode não criar contribuição útil."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+        "plan": "Escolha a função que o time precisa sem entrar só por ter uma ultimate forte.",
+        "against": "Na luta decisiva, observe a ferramenta copiada e mantenha cobertura contra o tipo de entrada disponível.",
+        "resource": "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+        "caution": "Copiar uma ferramenta sem ajustar a posição pode não criar contribuição útil."
       }
     },
     "strengths": [
-      "Correntes-Chicote: Sylas chicoteia com suas correntes, que se intersectam no local-alvo, causando dano e reduzindo a velocidade dos inimigos. Após um intervalo, há uma explosão de energia mágica no ponto da intersecção, causando dano.",
-      "Usurpar: Sylas rouba a habilidade ultimate do inimigo e pode conjurá-la sem custo."
+      "Escolhe captura, entrada ou proteção conforme a ferramenta copiada.",
+      "Copia a ultimate inimiga."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -63,9 +63,10 @@ def test_initial_profiles_and_missing_official_advice_are_honest(tmp_path):
         assert len(base.champions[key]['tips']) == 5
     response = app.test_client().get('/matchup?champion=Yuumi&opponent=Singed&lane=general')
     assert response.status_code == 200
-    assert 'Perfil inicial por classe' in response.text
+    assert 'Perfil inicial por classe' not in response.text
     assert '5 decisões para praticar' not in response.text
-    assert 'sem revisão específica do campeão' in response.text
+    assert base.champions['Yuumi']['profile']['status'] == 'editorial_unreviewed'
+    assert response.text.count('class="ability-coaching"') == 10
 
 
 def test_maintenance_blocks_both_perspectives_and_preserves_catalog(tmp_path):

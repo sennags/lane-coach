@@ -24,7 +24,11 @@
         6.8,
         5.7,
         4.6
-      ]
+      ],
+      "coaching": {
+        "use": "Drena vida; reserva cheia prepara uma janela ampliada.",
+        "limit": "O benefício maior depende da reserva disponível."
+      }
     },
     {
       "id": "Vladimir.W",
@@ -37,7 +41,11 @@
         22,
         19,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Poça oferece breve inalvejabilidade e pressão próxima.",
+        "limit": "A saída precisa continuar segura quando a janela terminar."
+      }
     },
     {
       "id": "Vladimir.E",
@@ -50,7 +58,11 @@
         9,
         7,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Vida prepara dano em área.",
+        "limit": "Custo de vida e unidades bloqueadoras mudam a pressão."
+      }
     },
     {
       "id": "Vladimir.R",
@@ -61,48 +73,64 @@
         120,
         120,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Área prepara dano posterior e cura por campeões afetados.",
+        "limit": "A recuperação não é instantânea na aplicação."
+      }
     },
     {
       "id": "Vladimir.P",
       "ability": "P",
       "name": "Pacto Vermelho",
       "description": "Cada 30 pontos de Vida adicional concedem 1 de Poder de Habilidade a Vladimir, e cada 1 ponto de Poder de Habilidade concede a ele 1,6 de Vida adicional (não cumulativos entre si).",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Vida adicional e poder de habilidade ampliam atributos entre si.",
+        "limit": "As conversões não se acumulam indefinidamente uma sobre a outra."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Entrar sem tempo para recuperar pode perder a luta antes de aproveitar o dano atrasado.",
+      "A recuperação não é instantânea na aplicação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+        "plan": "Gerencie vida, reserva e farm antes de comprometer a defesa para empurrar.",
+        "against": "Espalhe os aliados e responda depois da janela defensiva sem oferecer contato livre.",
+        "resource": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+        "caution": "Entrar sem tempo para recuperar pode perder a luta antes de aproveitar o dano atrasado."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+        "plan": "Aproxime por uma borda com apoio e não gaste toda a defesa antes de causar dano.",
+        "against": "Espalhe os aliados e responda depois da janela defensiva sem oferecer contato livre.",
+        "resource": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+        "caution": "Entrar sem tempo para recuperar pode perder a luta antes de aproveitar o dano atrasado."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+        "plan": "Espere um grupo alcançável e preserve a posição para sobreviver até a recuperação.",
+        "against": "Na luta decisiva, espalhe os aliados e responda depois da janela defensiva sem oferecer contato livre.",
+        "resource": "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+        "caution": "Entrar sem tempo para recuperar pode perder a luta antes de aproveitar o dano atrasado."
       }
     },
     "strengths": [
-      "Transfusão: Vladimir rouba vida do inimigo-alvo. Quando sua reserva estiver cheia, Transfusão terá os benefícios de dano e cura drasticamente aumentados por um breve período.",
-      "Hemopraga: Vladimir infecta uma área com uma praga virulenta. Inimigos afetados recebem dano crescente enquanto durar o efeito. Depois de alguns segundos, Hemopraga causa Dano Mágico aos inimigos infectados e cura Vladimir a cada Campeão inimigo atingido."
+      "Pressiona grupos próximos mantendo uma janela de sobrevivência.",
+      "Área prepara dano posterior e cura por campeões afetados."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

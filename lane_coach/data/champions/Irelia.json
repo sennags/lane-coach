@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço cura e reinicia ao abater ou atingir marca.",
+        "limit": "Falhar no abate ou marca compromete a continuação."
+      }
     },
     {
       "id": "Irelia.W",
@@ -37,7 +41,11 @@
         16,
         14,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização reduz dano físico e prepara golpe.",
+        "limit": "Não oferece a mesma proteção contra todo tipo de dano."
+      }
     },
     {
       "id": "Irelia.E",
@@ -50,7 +58,11 @@
         13,
         11.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Duas lâminas controlam e marcam no cruzamento.",
+        "limit": "O controle depende do alinhamento das duas posições."
+      }
     },
     {
       "id": "Irelia.R",
@@ -61,48 +73,64 @@
         125,
         105,
         85
-      ]
+      ],
+      "coaching": {
+        "use": "Área marca e deixa barreira que pune travessia.",
+        "limit": "Não torna toda entrada no grupo inimigo segura."
+      }
     },
     {
       "id": "Irelia.P",
       "ability": "P",
       "name": "Fervor Ioniano",
       "description": "Quando Irelia acerta inimigos com suas habilidades, ela ganha acúmulo de Velocidade de Ataque adicional. Ao atingir o máximo de acúmulos, Irelia também ganha dano adicional ao contato.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertos acumulam velocidade e, no máximo, dano ao contato.",
+        "limit": "Sem acúmulos, os ataques não têm a mesma força."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Uma sequência sem reinício pode terminar no meio de várias ameaças.",
+      "Não torna toda entrada no grupo inimigo segura."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+        "plan": "Prepare a wave e os alvos de farm antes de gastar a sequência de avanços.",
+        "against": "Observe unidades e marcas que permitem deslocamentos; proteja o alvo acessível.",
+        "resource": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+        "caution": "Uma sequência sem reinício pode terminar no meio de várias ameaças."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+        "plan": "Entre quando houver acompanhamento e uma continuação real além do primeiro avanço.",
+        "against": "Observe unidades e marcas que permitem deslocamentos; proteja o alvo acessível.",
+        "resource": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+        "caution": "Uma sequência sem reinício pode terminar no meio de várias ameaças."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+        "plan": "Espere a proteção inimiga se comprometer e mantenha uma saída após a tentativa.",
+        "against": "Na luta decisiva, observe unidades e marcas que permitem deslocamentos; proteja o alvo acessível.",
+        "resource": "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+        "caution": "Uma sequência sem reinício pode terminar no meio de várias ameaças."
       }
     },
     "strengths": [
-      "Surto da Lâmina: Irelia avança para atingir o seu alvo e cura a si mesma. Se ele estiver marcado ou for abatido com Surto da Lâmina, o Tempo de Recarga será restaurado.",
-      "Lâmina da Vanguarda: Irelia lança uma série de lâminas que explodem ao atingir um Campeão inimigo. Inimigos atingidos pelas lâminas sofrem dano e são marcados. Depois, as lâminas formam uma parede que causa dano e reduz a velocidade dos inimigos que a atravessarem."
+      "Pressiona um alvo próximo usando caminhos preparados para continuar.",
+      "Área marca e deixa barreira que pune travessia."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

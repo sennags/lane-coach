@@ -24,7 +24,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Área de tornado mantém dano no caminho.",
+        "limit": "Inimigos podem abandonar a região."
+      }
     },
     {
       "id": "Galio.W",
@@ -37,7 +41,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização prepara provocação próxima.",
+        "limit": "Movimento fica mais lento enquanto prepara."
+      }
     },
     {
       "id": "Galio.E",
@@ -50,7 +58,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço controla o primeiro campeão na trajetória.",
+        "limit": "Um campeão pode interromper a chegada ao alvo mais distante."
+      }
     },
     {
       "id": "Galio.R",
@@ -61,48 +73,64 @@
         180,
         160,
         140
-      ]
+      ],
+      "coaching": {
+        "use": "Chegada em aliado protege contra dano mágico e controla ao aterrissar.",
+        "limit": "Há intervalo antes da chegada; a posição do aliado é importante."
+      }
     },
     {
       "id": "Galio.P",
       "ability": "P",
       "name": "Esmagada Colossal",
       "description": "A cada poucos segundos, o próximo ataque básico de Galio causa Dano Mágico adicional em área.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataque fortalecido dá dano em área periodicamente.",
+        "limit": "Não fortalece todos os ataques consecutivos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Acompanha a entrada aliada e protege contra aproximações.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Apoiar um aliado já isolado pode deixar dois campeões sem acompanhamento.",
+      "Há intervalo antes da chegada; a posição do aliado é importante."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Acompanha a entrada aliada e protege contra aproximações.",
+        "plan": "Resolva a wave antes de apoiar outra posição para não perder renda sem resultado.",
+        "against": "Espalhe alvos perto da chegada e observe quem recebe apoio.",
+        "resource": "Acompanha a entrada aliada e protege contra aproximações.",
+        "caution": "Apoiar um aliado já isolado pode deixar dois campeões sem acompanhamento."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Acompanha a entrada aliada e protege contra aproximações.",
+        "plan": "Fique em posição para apoiar quem inicia ou quem recebe a pressão.",
+        "against": "Espalhe alvos perto da chegada e observe quem recebe apoio.",
+        "resource": "Acompanha a entrada aliada e protege contra aproximações.",
+        "caution": "Apoiar um aliado já isolado pode deixar dois campeões sem acompanhamento."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Acompanha a entrada aliada e protege contra aproximações.",
+        "plan": "Priorize a ameaça próxima aos seus aliados e não persiga além da cobertura.",
+        "against": "Na luta decisiva, espalhe alvos perto da chegada e observe quem recebe apoio.",
+        "resource": "Acompanha a entrada aliada e protege contra aproximações.",
+        "caution": "Apoiar um aliado já isolado pode deixar dois campeões sem acompanhamento."
       }
     },
     "strengths": [
-      "Ventos de Guerra: Galio dispara duas rajadas de vento que convergem em um grande tornado e causam dano ao longo do tempo.",
-      "Entrada Heroica: Galio marca a posição de um aliado como ponto de aterrissagem e concede um escudo mágico a todos os aliados na área. Após um intervalo, ele aterrissa no local, arremessando os inimigos próximos ao ar."
+      "Acompanha a entrada aliada e protege contra aproximações.",
+      "Chegada em aliado protege contra dano mágico e controla ao aterrissar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

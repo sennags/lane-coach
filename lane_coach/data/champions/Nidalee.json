@@ -24,7 +24,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Humana pressiona distância; puma ameaça vida baixa de perto.",
+        "limit": "A forma muda a distância segura de atuação."
+      }
     },
     {
       "id": "Nidalee.W",
@@ -37,7 +41,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Armadilha revela; puma usa salto com dano.",
+        "limit": "Marcar não garante que a chegada será segura."
+      }
     },
     {
       "id": "Nidalee.E",
@@ -50,7 +58,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Humana cura e acelera ataques aliados; puma dá dano próximo.",
+        "limit": "Trocar para dano retira o mesmo apoio imediato."
+      }
     },
     {
       "id": "Nidalee.R",
@@ -62,48 +74,64 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Troca para puma com novas ferramentas.",
+        "limit": "A transformação muda alcance e risco de contato."
+      }
     },
     {
       "id": "Nidalee.P",
       "ability": "P",
       "name": "Espreitar",
       "description": "Mover-se pelos arbustos aumenta a Velocidade de Movimento de Nidalee em 10% por 2 segundos, aumentando para 30% em direção a campeões inimigos visíveis dentre 1400 de alcance. Atingir Campeões ou monstros com Arremessar Lança ou Arapuca aciona uma Caçada , que concede Visão Mágica deles por 4 segundos. Durante esse tempo, Nidalee recebe 10% de Velocidade de Movimento (aumentando para 30% em direção ao alvo Caçado ) e o uso de Bote ou Investida contra o alvo é aprimorado.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Arbusto dá movimento; marca prepara perseguição ampliada.",
+        "limit": "Benefícios dependem de terreno e de marcar o alvo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Pressiona à distância antes de escolher uma entrada curta.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Seguir uma marca sem olhar os aliados inimigos pode abandonar toda a saída.",
+      "A transformação muda alcance e risco de contato."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Pressiona à distância antes de escolher uma entrada curta.",
+        "plan": "Priorize renda e controle de recurso; na rota, resolva a wave antes de perseguir.",
+        "against": "Use cobertura contra disparos e responda à chegada quando ela aproximar.",
+        "resource": "Pressiona à distância antes de escolher uma entrada curta.",
+        "caution": "Seguir uma marca sem olhar os aliados inimigos pode abandonar toda a saída."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Pressiona à distância antes de escolher uma entrada curta.",
+        "plan": "Use cobertura para enfraquecer alvos e só aproxime com uma continuação segura.",
+        "against": "Use cobertura contra disparos e responda à chegada quando ela aproximar.",
+        "resource": "Pressiona à distância antes de escolher uma entrada curta.",
+        "caution": "Seguir uma marca sem olhar os aliados inimigos pode abandonar toda a saída."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Pressiona à distância antes de escolher uma entrada curta.",
+        "plan": "Mantenha pressão e apoio sem saltar em um alvo cercado de proteção.",
+        "against": "Na luta decisiva, use cobertura contra disparos e responda à chegada quando ela aproximar.",
+        "resource": "Pressiona à distância antes de escolher uma entrada curta.",
+        "caution": "Seguir uma marca sem olhar os aliados inimigos pode abandonar toda a saída."
       }
     },
     "strengths": [
-      "Arremessar Lança / Bote: Na forma humana, Nidalee arremessa uma lança perfurante em seu alvo, que acumula dano enquanto está no ar. Como puma, seu próximo ataque irá tentar ferir o inimigo de maneira letal, causando dano inversamente proporcional à Vida do alvo.",
-      "Aspecto do Puma: Nidalee transforma-se em um puma, recebendo novas habilidades."
+      "Pressiona à distância antes de escolher uma entrada curta.",
+      "Troca para puma com novas ferramentas."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

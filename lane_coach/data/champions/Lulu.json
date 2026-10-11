@@ -24,7 +24,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Linhas de Pix e Lulu causam dano e lentidão.",
+        "limit": "A posição de Pix altera os caminhos de acerto."
+      }
     },
     {
       "id": "Lulu.W",
@@ -37,7 +41,11 @@
         18,
         18,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Aliado ganha velocidade; inimigo perde ataque e conjuração temporariamente.",
+        "limit": "A escolha de alvo muda entre apoio e interrupção."
+      }
     },
     {
       "id": "Lulu.E",
@@ -50,7 +58,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Aliado recebe escudo e Pix; inimigo recebe dano e visão.",
+        "limit": "Usar para pressionar retira a mesma proteção imediata."
+      }
     },
     {
       "id": "Lulu.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Aliado recebe vida e controle próximo para sobreviver à entrada.",
+        "limit": "Precisa escolher quem realmente recebe a ameaça."
+      }
     },
     {
       "id": "Lulu.P",
       "ability": "P",
       "name": "Pix, o Silfo Companheiro",
       "description": "Pix faz disparos de energia mágica sempre que o Campeão que estiver seguindo atacar outra unidade inimiga. Os disparos seguem o inimigo, mas podem ser interceptados por outras unidades.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Pix adiciona projéteis aos ataques do aliado seguido.",
+        "limit": "Outras unidades podem interceptar os disparos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Ficar longe do aliado pode impedir uma resposta a tempo.",
+      "Precisa escolher quem realmente recebe a ameaça."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+        "plan": "Cubra o farm do parceiro sem gastar proteção para dano sem continuação.",
+        "against": "Pressione por mais de um ângulo e observe quando a proteção muda de alvo.",
+        "resource": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+        "caution": "Ficar longe do aliado pode impedir uma resposta a tempo."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+        "plan": "Fique perto do causador de dano e proteja a resposta à entrada.",
+        "against": "Pressione por mais de um ângulo e observe quando a proteção muda de alvo.",
+        "resource": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+        "caution": "Ficar longe do aliado pode impedir uma resposta a tempo."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+        "plan": "Priorize sobrevivência do aliado-chave sem gastar tudo por pressão distante.",
+        "against": "Na luta decisiva, pressione por mais de um ângulo e observe quando a proteção muda de alvo.",
+        "resource": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+        "caution": "Ficar longe do aliado pode impedir uma resposta a tempo."
       }
     },
     "strengths": [
-      "Lança-Purpurina: Pix e Lulu disparam um raio de energia mágica que causa dano e muita Lentidão aos inimigos atingidos.",
-      "Crescimento Virente: Lulu aumenta o tamanho de um aliado, arremessando ao ar inimigos próximos e concedendo ao aliado uma grande quantidade de Vida adicional. Pelos próximos segundos, tal aliado recebe uma aura que reduz a velocidade de inimigos próximos."
+      "Mantém um aliado ativo e interrompe quem tenta alcançá-lo.",
+      "Aliado recebe vida e controle próximo para sobreviver à entrada."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

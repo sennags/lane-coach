@@ -25,7 +25,11 @@
         10,
         8,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Canhão pressiona à distância; martelo aproxima e desacelera.",
+        "limit": "A troca de forma altera alcance e exposição."
+      }
     },
     {
       "id": "Jayce.W",
@@ -39,7 +43,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Martelo sustenta mana; canhão prepara ataques rápidos.",
+        "limit": "Precisa acertar ataques para usar esses benefícios."
+      }
     },
     {
       "id": "Jayce.E",
@@ -53,7 +61,11 @@
         14,
         12,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Canhão fortalece disparo pelo portão; martelo empurra.",
+        "limit": "O empurrão pode retirar o alvo do dano aliado."
+      }
     },
     {
       "id": "Jayce.R",
@@ -62,48 +74,64 @@
       "description": "Empunhadura de Martelo: Transforma o Martelo de Mercúrio em Canhão de Mercúrio, recebendo novas habilidades e ataques à distância. O primeiro ataque desta forma reduzirá a Armadura e a Resistência Mágica do alvo. Empunhadura de Canhão: Transforma o Canhão de Mercúrio em Martelo de Mercúrio, recebendo novas habilidades, aumentando a Resistência Mágica e a Armadura. O primeiro ataque desta forma causará Dano Mágico adicional.",
       "cooldown": [
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Troca arma e fortalece o primeiro ataque da nova forma.",
+        "limit": "Cada forma muda defesas e distância de atuação."
+      }
     },
     {
       "id": "Jayce.P",
       "ability": "P",
       "name": "Capacitor Hextec",
       "description": "Quando Jayce troca de arma, ele recebe Velocidade de Movimento por um curto período.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Trocar arma concede velocidade temporária.",
+        "limit": "A mobilidade é breve e não evita toda aproximação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona à distância antes de escolher um contato curto.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Trocar para contato próximo sem vantagem pode perder todo o benefício do alcance.",
+      "Cada forma muda defesas e distância de atuação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona à distância antes de escolher um contato curto.",
+        "plan": "Use a pressão na wave sem ficar sem mana ou recuo para a aproximação inimiga.",
+        "against": "Use cobertura contra os disparos e acompanhe a mudança para alcance curto.",
+        "resource": "Pressiona à distância antes de escolher um contato curto.",
+        "caution": "Trocar para contato próximo sem vantagem pode perder todo o benefício do alcance."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona à distância antes de escolher um contato curto.",
+        "plan": "Reduza a vida de alvos acessíveis e preserve distância antes de aproximar.",
+        "against": "Use cobertura contra os disparos e acompanhe a mudança para alcance curto.",
+        "resource": "Pressiona à distância antes de escolher um contato curto.",
+        "caution": "Trocar para contato próximo sem vantagem pode perder todo o benefício do alcance."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona à distância antes de escolher um contato curto.",
+        "plan": "Mantenha pressão com cobertura; entre próximo apenas quando a resposta estiver comprometida.",
+        "against": "Na luta decisiva, use cobertura contra os disparos e acompanhe a mudança para alcance curto.",
+        "resource": "Pressiona à distância antes de escolher um contato curto.",
+        "caution": "Trocar para contato próximo sem vantagem pode perder todo o benefício do alcance."
       }
     },
     "strengths": [
-      "Aos Céus! / Disparo Chocante: Empunhadura de Martelo: Salta na direção de um inimigo, causando Dano Físico e Lentidão. Empunhadura de Canhão: Dispara um orbe de eletricidade que detona ao atingir um inimigo (ou ao alcançar o fim de seu trajeto), causando Dano Físico a todos os inimigos atingidos.",
-      "Canhão de Mercúrio / Martelo de Mercúrio: Empunhadura de Martelo: Transforma o Martelo de Mercúrio em Canhão de Mercúrio, recebendo novas habilidades e ataques à distância. O primeiro ataque desta forma reduzirá a Armadura e a Resistência Mágica do alvo. Empunhadura de Canhão: Transforma o Canhão de Mercúrio em Martelo de Mercúrio, recebendo novas habilidades, aumentando a Resistência Mágica e a Armadura. O primeiro ataque desta forma causará Dano Mágico adicional."
+      "Pressiona à distância antes de escolher um contato curto.",
+      "Troca arma e fortalece o primeiro ataque da nova forma."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

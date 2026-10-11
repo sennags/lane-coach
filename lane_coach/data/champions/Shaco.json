@@ -23,7 +23,11 @@
         12,
         11.5,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Teleporte invisível prepara ataque fortalecido.",
+        "limit": "Gastar aproximação pode retirar o caminho de fuga."
+      }
     },
     {
       "id": "Shaco.W",
@@ -36,7 +40,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Caixa escondida controla e ataca quando ativada.",
+        "limit": "Exige preparação no caminho usado pelo inimigo."
+      }
     },
     {
       "id": "Shaco.E",
@@ -49,7 +57,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques desaceleram; arremesso pressiona vida baixa.",
+        "limit": "Finalização ainda depende de acesso ao alvo."
+      }
     },
     {
       "id": "Shaco.R",
@@ -60,48 +72,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Clone ataca e ameaça explosão ao morrer.",
+        "limit": "O alvo pode mudar de posição ou evitar a região da explosão."
+      }
     },
     {
       "id": "Shaco.P",
       "ability": "P",
       "name": "Apunhalar",
       "description": "Os ataques básicos de Shaco e Veneno de Dois Gumes causam dano adicional ao atingirem o inimigo por trás.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertos por trás ampliam dano.",
+        "limit": "O lado do alvo importa para aproveitar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Entrada sem caminho preparado pode deixar Shaco sem a mesma saída.",
+      "O alvo pode mudar de posição ou evitar a região da explosão."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+        "plan": "Planeje farm e preparação no terreno antes de abandonar renda para buscar surpresa.",
+        "against": "Cubra os lados e evite perseguir sem visão uma posição preparada.",
+        "resource": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+        "caution": "Entrada sem caminho preparado pode deixar Shaco sem a mesma saída."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+        "plan": "Escolha uma borda exposta e saída preparada, sem receber todo o foco inicial.",
+        "against": "Cubra os lados e evite perseguir sem visão uma posição preparada.",
+        "resource": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+        "caution": "Entrada sem caminho preparado pode deixar Shaco sem a mesma saída."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+        "plan": "Espere a proteção se comprometer e não confunda distração com permissão para entrar.",
+        "against": "Na luta decisiva, cubra os lados e evite perseguir sem visão uma posição preparada.",
+        "resource": "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+        "caution": "Entrada sem caminho preparado pode deixar Shaco sem a mesma saída."
       }
     },
     "strengths": [
-      "Enganar: Shaco fica Invisível e se teleporta para o local-alvo. Seu primeiro ataque enquanto está Invisível é fortalecido, causando dano adicional e crítico ao atingir o inimigo por trás.",
-      "Alucinações: Shaco cria uma ilusão de si mesmo próxima a ele, que pode atacar inimigos próximos (causa dano reduzido a torres). Ao morrer, ela explode, fazendo surgir três Caixinhas-Surpresa e causando dano a todos os inimigos próximos."
+      "Pressiona por surpresa e desorganiza a resposta entre ameaças.",
+      "Clone ataca e ameaça explosão ao morrer."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

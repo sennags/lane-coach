@@ -24,7 +24,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Atordoa se o alvo já estiver incandescente.",
+        "limit": "Sem preparação, o acerto causa dano sem o mesmo controle."
+      }
     },
     {
       "id": "Brand.W",
@@ -37,7 +41,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Dano em área aumenta contra alvos incandescentes.",
+        "limit": "O intervalo de conjuração permite sair da região."
+      }
     },
     {
       "id": "Brand.E",
@@ -50,7 +58,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Espalha dano para inimigos próximos.",
+        "limit": "A propagação depende da proximidade; a versão ampliada exige incandescência."
+      }
     },
     {
       "id": "Brand.R",
@@ -61,48 +73,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Ressaltos pressionam inimigos próximos e acumulam a passiva.",
+        "limit": "A disponibilidade de alvos próximos muda a sequência de ressaltos."
+      }
     },
     {
       "id": "Brand.P",
       "ability": "P",
       "name": "Labareda",
       "description": "As habilidades de Brand deixam seus alvos incandescentes, causando dano ao longo de 4s, acumulando até 3 vezes. Se Brand abate um inimigo que estiver incandescente, ele recupera Mana. Quando Labareda chegar ao máximo de acúmulos em um Campeão ou monstro grande, ela se torna instável. Detona depois de 2s, aplicando efeitos de habilidades e causando muito dano em uma área ao redor da vítima.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Três acúmulos em campeão ou monstro grande preparam explosão em área.",
+        "limit": "Precisa acumular as aplicações e esperar a detonação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Aproximar sem proteção pode impedir a continuação do dano.",
+      "A disponibilidade de alvos próximos muda a sequência de ressaltos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+        "plan": "Controle o uso de recursos na wave e evite empurrar sem visão de aproximações.",
+        "against": "Espalhe os aliados e saia de perto dos alvos que vão detonar.",
+        "resource": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+        "caution": "Aproximar sem proteção pode impedir a continuação do dano."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+        "plan": "Aplique dano de uma posição coberta e mantenha espaço para responder à aproximação.",
+        "against": "Espalhe os aliados e saia de perto dos alvos que vão detonar.",
+        "resource": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+        "caution": "Aproximar sem proteção pode impedir a continuação do dano."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+        "plan": "Priorize os alvos acessíveis e os grupos; não entre no alcance inimigo por um alvo distante.",
+        "against": "Na luta decisiva, espalhe os aliados e saia de perto dos alvos que vão detonar.",
+        "resource": "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+        "caution": "Aproximar sem proteção pode impedir a continuação do dano."
       }
     },
     "strengths": [
-      "Cauterizar: Brand lança uma bola de fogo que causa Dano Mágico. Se o alvo estiver incandescente, Cauterizar o atordoará.",
-      "Piroclasma: Brand desfere uma devastadora torrente de fogo que ressalta 5 vezes, indo de Brand aos inimigos próximos e causando Dano Mágico a cada vez que ressaltar. Os ressaltos priorizam acumular Labareda ao máximo em Campeões. Se o alvo estiver incandescente, Piroclasma causará breve Lentidão a ele."
+      "Pressiona grupos próximos com dano em área e explosões atrasadas.",
+      "Ressaltos pressionam inimigos próximos e acumulam a passiva."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

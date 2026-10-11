@@ -24,7 +24,11 @@
         18,
         17,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Puxa o primeiro inimigo na trajetória.",
+        "limit": "Um bloqueador pode receber o gancho no lugar do alvo desejado."
+      }
     },
     {
       "id": "Blitzcrank.W",
@@ -37,7 +41,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade ajuda a aproximar e pressionar.",
+        "limit": "Depois do impulso há lentidão; prepare o recuo."
+      }
     },
     {
       "id": "Blitzcrank.E",
@@ -50,7 +58,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Próximo ataque arremessa o alvo ao ar.",
+        "limit": "Precisa chegar ao alcance de ataque."
+      }
     },
     {
       "id": "Blitzcrank.R",
@@ -61,48 +73,64 @@
         60,
         40,
         20
-      ]
+      ],
+      "coaching": {
+        "use": "Explosão próxima remove escudos e silencia.",
+        "limit": "Depende de alcançar a área próxima aos alvos."
+      }
     },
     {
       "id": "Blitzcrank.P",
       "ability": "P",
       "name": "Barreira de Mana",
       "description": "Blitzcrank recebe um Escudo com base em seu Mana ao ficar com a Vida baixa.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Vida baixa ativa escudo baseado na mana.",
+        "limit": "O escudo é uma janela; não evita toda resposta após entrar."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Cria capturas puxando um inimigo para perto do time.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Puxar um iniciador pode oferecer a ele a entrada que precisava.",
+      "Depende de alcançar a área próxima aos alvos."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Cria capturas puxando um inimigo para perto do time.",
+        "plan": "Ameace o farm inimigo pelo posicionamento, preservando a cobertura do parceiro.",
+        "against": "Use cobertura na linha do gancho e observe qual aliado seria exposto pela puxada.",
+        "resource": "Cria capturas puxando um inimigo para perto do time.",
+        "caution": "Puxar um iniciador pode oferecer a ele a entrada que precisava."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Cria capturas puxando um inimigo para perto do time.",
+        "plan": "Ameace por um ângulo e escolha um alvo que seus aliados consigam atacar.",
+        "against": "Use cobertura na linha do gancho e observe qual aliado seria exposto pela puxada.",
+        "resource": "Cria capturas puxando um inimigo para perto do time.",
+        "caution": "Puxar um iniciador pode oferecer a ele a entrada que precisava."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Cria capturas puxando um inimigo para perto do time.",
+        "plan": "Proteja quem causa dano; não puxe uma ameaça para o centro dos aliados frágeis.",
+        "against": "Na luta decisiva, use cobertura na linha do gancho e observe qual aliado seria exposto pela puxada.",
+        "resource": "Cria capturas puxando um inimigo para perto do time.",
+        "caution": "Puxar um iniciador pode oferecer a ele a entrada que precisava."
       }
     },
     "strengths": [
-      "Puxão Biônico: Blitzcrank dispara a mão direita para pegar um inimigo no trajeto, causando dano e puxando-o em sua direção.",
-      "Campo Estático: Inimigos atacados por Blitzcrank são marcados e sofrem dano de eletricidade após 1s. Ele também pode ativar esta habilidade para remover escudos de inimigos próximos, causar dano e silenciá-los brevemente."
+      "Cria capturas puxando um inimigo para perto do time.",
+      "Explosão próxima remove escudos e silencia."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

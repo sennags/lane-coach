@@ -24,7 +24,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Serra desacelera o primeiro alvo e usa sua vida atual.",
+        "limit": "Outra unidade pode receber o golpe antes do alvo desejado."
+      }
     },
     {
       "id": "DrMundo.W",
@@ -37,7 +41,11 @@
         16,
         15.5,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Armazena parte do dano e pode recuperar vida ao explodir em inimigo.",
+        "limit": "A recuperação depende de acertar a explosão."
+      }
     },
     {
       "id": "DrMundo.E",
@@ -50,7 +58,11 @@
         7.5,
         6.75,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque fortalecido usa a vida perdida e pode arremessar unidade abatida.",
+        "limit": "A projeção exige finalizar a unidade."
+      }
     },
     {
       "id": "DrMundo.R",
@@ -61,48 +73,64 @@
         120,
         120,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Cura e velocidade sustentam a aproximação durante a duração.",
+        "limit": "Não tornam o campeão invulnerável nem substituem contato com o alvo."
+      }
     },
     {
       "id": "DrMundo.P",
       "ability": "P",
       "name": "Vai Para Onde Quer",
       "description": "Dr. Mundo resiste ao próximo efeito Imobilizador que o atingir, perdendo Vida e derrubando um recipiente químico nas proximidades. Dr. Mundo pode pegar o recipiente ao passar por cima dele, restaurando Vida e reduzindo o Tempo de Recarga da Habilidade. Dr. Mundo também tem Regeneração de Vida significativamente mais alta.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Resiste à próxima imobilização e pode recuperar o recipiente.",
+        "limit": "Perde vida e a coleta exige alcançar um local potencialmente perigoso."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Avançar sozinho para um alvo distante pode receber dano sem ameaçar ninguém.",
+      "Não tornam o campeão invulnerável nem substituem contato com o alvo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+        "plan": "Preserve farm e vida para sustentar a rota; não arrisque tudo para buscar um recipiente.",
+        "against": "Abra espaço e pressione com apoio, sem abandonar aliados frágeis para persegui-lo.",
+        "resource": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+        "caution": "Avançar sozinho para um alvo distante pode receber dano sem ameaçar ninguém."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+        "plan": "Pressione um alvo alcançável junto do time sem perseguir para longe da luta.",
+        "against": "Abra espaço e pressione com apoio, sem abandonar aliados frágeis para persegui-lo.",
+        "resource": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+        "caution": "Avançar sozinho para um alvo distante pode receber dano sem ameaçar ninguém."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+        "plan": "Fique entre ameaças e aliados que causam dano; mantenha contato apenas enquanto consegue sobreviver.",
+        "against": "Na luta decisiva, abra espaço e pressione com apoio, sem abandonar aliados frágeis para persegui-lo.",
+        "resource": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+        "caution": "Avançar sozinho para um alvo distante pode receber dano sem ameaçar ninguém."
       }
     },
     "strengths": [
-      "Serra Infectada: Dr. Mundo arremessa uma serra infectada, causando dano ao primeiro inimigo atingido com base na Vida atual do alvo e causando Lentidão a ele.",
-      "Dosagem Máxima: Dr. Mundo enche-se de produtos químicos, curando instantaneamente uma porcentagem da própria Vida perdida. Depois, ele recebe Velocidade de Movimento e regenera parte da própria Vida máxima ao longo da duração."
+      "Ocupa a frente e força inimigos a gastar tempo com sua aproximação.",
+      "Cura e velocidade sustentam a aproximação durante a duração."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

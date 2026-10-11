@@ -24,7 +24,11 @@
         9,
         9,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Machado desacelera e reduz defesa; coleta renova a ferramenta.",
+        "limit": "O ponto de coleta pode ser perigoso."
+      }
     },
     {
       "id": "Olaf.W",
@@ -37,7 +41,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e ataques acelerados sustentam contato.",
+        "limit": "A proteção é temporária."
+      }
     },
     {
       "id": "Olaf.E",
@@ -50,7 +58,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Dano verdadeiro custa vida e devolve custo ao abater.",
+        "limit": "Sem abate, o custo permanece."
+      }
     },
     {
       "id": "Olaf.R",
@@ -61,48 +73,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Permite ignorar desarmes enquanto mantém ataques.",
+        "limit": "Precisa continuar atacando para sustentar a janela."
+      }
     },
     {
       "id": "Olaf.P",
       "ability": "P",
       "name": "Fúria Berserker",
       "description": "Olaf recebe Velocidade de Ataque e Roubo de Vida com base na sua Vida perdida.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Vida perdida aumenta ataques e sustentação.",
+        "limit": "Vida baixa também aumenta o risco de receber finalização."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Sem contato, a resistência ao controle não garante contribuição.",
+      "Precisa continuar atacando para sustentar a janela."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+        "plan": "Planeje coleta e farm sem atravessar toda a wave por um machado.",
+        "against": "Afaste o aliado pressionado e evite sustentar um duelo próximo sem apoio.",
+        "resource": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+        "caution": "Sem contato, a resistência ao controle não garante contribuição."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+        "plan": "Alcance um alvo acompanhado e preserve espaço para manter ataques.",
+        "against": "Afaste o aliado pressionado e evite sustentar um duelo próximo sem apoio.",
+        "resource": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+        "caution": "Sem contato, a resistência ao controle não garante contribuição."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+        "plan": "Espere acesso real ao alvo; não corra sozinho para dentro da formação.",
+        "against": "Na luta decisiva, afaste o aliado pressionado e evite sustentar um duelo próximo sem apoio.",
+        "resource": "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+        "caution": "Sem contato, a resistência ao controle não garante contribuição."
       }
     },
     "strengths": [
-      "Ressaca: Olaf arremessa um machado no local-alvo, causando dano e reduzindo a Armadura e a Velocidade de Movimento dos inimigos que atravessar. Se Olaf apanhar o machado, o Tempo de Recarga da habilidade é redefinido.",
-      "Ragnarok: Olaf recebe Armadura e Resistência Mágica adicionais passivamente. Ele pode ativar essa habilidade para se tornar imune a desarmes enquanto continuar atacando."
+      "Pressiona contato próximo sem depender de parar a entrada inimiga.",
+      "Permite ignorar desarmes enquanto mantém ataques."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

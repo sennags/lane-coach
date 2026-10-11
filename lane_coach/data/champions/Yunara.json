@@ -23,7 +23,11 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Amplia ataques, contato e pressão sobre alvos próximos.",
+        "limit": "Precisa manter tempo de ataque na janela ativa."
+      }
     },
     {
       "id": "Yunara.W",
@@ -36,7 +40,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil desacelera; transcendência muda para laser.",
+        "limit": "A forma altera trajetória e região de acerto."
+      }
     },
     {
       "id": "Yunara.E",
@@ -49,7 +57,11 @@
         9,
         9,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Movimento e efeito fantasma; transcendência oferece avanço.",
+        "limit": "Fora da forma fortalecida não há a mesma ferramenta de saída."
+      }
     },
     {
       "id": "Yunara.R",
@@ -60,48 +72,64 @@
         100,
         90,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Transcendência fortalece as habilidades básicas.",
+        "limit": "A janela é temporária; planeje a posição antes de terminar."
+      }
     },
     {
       "id": "Yunara.P",
       "ability": "P",
       "name": "Voto às Primeiras Terras",
       "description": "Os Acertos Críticos de Yunara causam Dano Mágico adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Críticos acrescentam dano mágico.",
+        "limit": "O benefício depende de obter e conectar ataques críticos."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Contar com um avanço fora da janela pode deixar a posição sem recuo.",
+      "A janela é temporária; planeje a posição antes de terminar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+        "plan": "Preserve renda e espaço de saída antes de pressionar a wave.",
+        "against": "Observe a transformação e pressione quando a mobilidade fortalecida for comprometida.",
+        "resource": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+        "caution": "Contar com um avanço fora da janela pode deixar a posição sem recuo."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+        "plan": "Ataque o alvo seguro sem gastar toda a mobilidade para aumentar pressão.",
+        "against": "Observe a transformação e pressione quando a mobilidade fortalecida for comprometida.",
+        "resource": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+        "caution": "Contar com um avanço fora da janela pode deixar a posição sem recuo."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+        "plan": "Priorize sobrevivência e continuidade, considerando a forma que estará disponível para sair.",
+        "against": "Na luta decisiva, observe a transformação e pressione quando a mobilidade fortalecida for comprometida.",
+        "resource": "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+        "caution": "Contar com um avanço fora da janela pode deixar a posição sem recuo."
       }
     },
     "strengths": [
-      "Cultivação do Espírito: Yunara recebe Velocidade de Ataque, dano adicional ao contato, e os ataques dela atingem inimigos próximos.",
-      "Transcendência do Eu: Yunara entra em um Estado de Transcendência que aprimora suas habilidades básicas."
+      "Mantém ataques com cobertura e reposiciona na janela fortalecida.",
+      "Transcendência fortalece as habilidades básicas."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

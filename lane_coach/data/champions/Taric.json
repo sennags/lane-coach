@@ -24,7 +24,11 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Cura usa cargas e ataques fortalecidos recuperam carga.",
+        "limit": "O recurso e a proximidade limitam o apoio."
+      }
     },
     {
       "id": "Taric.W",
@@ -37,7 +41,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Vínculo protege e replica ferramentas a partir do aliado.",
+        "limit": "Precisa manter proximidade útil do vínculo."
+      }
     },
     {
       "id": "Taric.E",
@@ -50,7 +58,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Linha atrasada controla a partir das posições relevantes.",
+        "limit": "O atraso permite mudar o ângulo do alvo."
+      }
     },
     {
       "id": "Taric.R",
@@ -61,48 +73,64 @@
         180,
         150,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Invulnerabilidade em grupo surge após intervalo.",
+        "limit": "A proteção não é instantânea; prepare antes do dano decisivo."
+      }
     },
     {
       "id": "Taric.P",
       "ability": "P",
       "name": "Bravata",
       "description": "Conjurações fortalecem os próximos 2 ataques básicos de Taric, causando Dano Mágico adicional, reduzindo Tempos de Recarga e atacando em rápida sucessão.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques após conjuração aceleram recargas e ampliam dano.",
+        "limit": "Precisa conseguir atacar; só conjurar não mantém a continuidade."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Sustenta uma entrada aliada e protege uma janela de combate.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Proteger tarde pode perder aliados antes da janela começar.",
+      "A proteção não é instantânea; prepare antes do dano decisivo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Sustenta uma entrada aliada e protege uma janela de combate.",
+        "plan": "Cubra o farm do parceiro e preserve proximidade sem receber pressão gratuita.",
+        "against": "Mude a distância da luta durante a preparação e evite gastar tudo na invulnerabilidade.",
+        "resource": "Sustenta uma entrada aliada e protege uma janela de combate.",
+        "caution": "Proteger tarde pode perder aliados antes da janela começar."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Sustenta uma entrada aliada e protege uma janela de combate.",
+        "plan": "Acompanhe quem pode manter contato sem colocar seu corpo sozinho na frente.",
+        "against": "Mude a distância da luta durante a preparação e evite gastar tudo na invulnerabilidade.",
+        "resource": "Sustenta uma entrada aliada e protege uma janela de combate.",
+        "caution": "Proteger tarde pode perder aliados antes da janela começar."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Sustenta uma entrada aliada e protege uma janela de combate.",
+        "plan": "Antecipe o foco e mantenha a formação numa região que receba proteção.",
+        "against": "Na luta decisiva, mude a distância da luta durante a preparação e evite gastar tudo na invulnerabilidade.",
+        "resource": "Sustenta uma entrada aliada e protege uma janela de combate.",
+        "caution": "Proteger tarde pode perder aliados antes da janela começar."
       }
     },
     "strengths": [
-      "Fulgor Estelar: Cura Campeões aliados próximos com base nas cargas armazenadas. Ataques fortalecidos por Bravata concedem uma carga de Fulgor Estelar.",
-      "Resplendor Cósmico: Faz pulsar energia cósmica em Campeões aliados próximos após um intervalo, tornando-os invulneráveis por um curto período."
+      "Sustenta uma entrada aliada e protege uma janela de combate.",
+      "Invulnerabilidade em grupo surge após intervalo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

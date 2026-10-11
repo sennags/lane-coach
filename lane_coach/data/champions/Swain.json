@@ -24,7 +24,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Mais raios acertados ampliam dano no alvo.",
+        "limit": "Aproximar para todos os raios pode expor o corpo."
+      }
     },
     {
       "id": "Swain.W",
@@ -37,7 +41,11 @@
         18,
         17,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Área distante revela e oferece alma ao acertar campeão.",
+        "limit": "O alvo pode sair antes do acerto."
+      }
     },
     {
       "id": "Swain.E",
@@ -50,7 +58,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Retorno enraíza e permite puxar campeões.",
+        "limit": "Precisa acertar a passagem de volta."
+      }
     },
     {
       "id": "Swain.R",
@@ -61,48 +73,64 @@
         120,
         120,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Dreno próximo mantém a forma enquanto há campeões afetados.",
+        "limit": "Sem contato com campeões, perde a mesma continuidade."
+      }
     },
     {
       "id": "Swain.P",
       "ability": "P",
       "name": "Bando Voraz",
       "description": "Os corvos de Swain coletam Fragmentos de Alma que o curam e aumentam permanentemente a Vida máxima dele.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Almas curam e aumentam vida máxima.",
+        "limit": "A sustentação depende das condições de coleta."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Perseguir quem se afasta pode receber dano sem sustentar o dreno.",
+      "Sem contato com campeões, perde a mesma continuidade."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+        "plan": "Gerencie wave e recurso para procurar coleta sem perder farm ou recuo.",
+        "against": "Abra distância e não concentre todos numa luta próxima prolongada.",
+        "resource": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+        "caution": "Perseguir quem se afasta pode receber dano sem sustentar o dreno."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+        "plan": "Acompanhe a frente e mantenha contato com um alvo que não exija abandonar os aliados.",
+        "against": "Abra distância e não concentre todos numa luta próxima prolongada.",
+        "resource": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+        "caution": "Perseguir quem se afasta pode receber dano sem sustentar o dreno."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+        "plan": "Proteja uma região de combate e recue se não consegue continuar alcançando ninguém.",
+        "against": "Na luta decisiva, abra distância e não concentre todos numa luta próxima prolongada.",
+        "resource": "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+        "caution": "Perseguir quem se afasta pode receber dano sem sustentar o dreno."
       }
     },
     "strengths": [
-      "Mão da Morte: Swain dispara vários raios de poder sombrio que perfuram os inimigos. Inimigos atingidos sofrem mais dano para cada raio que os atingir.",
-      "Ascensão Demoníaca: Swain se transforma em demônio e drena Vida de Campeões, tropas e monstros neutros próximos. Swain pode conjurar Chama Demoníaca para dizimar e causar Lentidão a inimigos próximos com uma explosão de fogo espiritual. Essa forma é indefinida enquanto Swain drenar Campeões inimigos."
+      "Pressiona luta prolongada perto dos alvos e sustenta presença.",
+      "Dreno próximo mantém a forma enquanto há campeões afetados."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

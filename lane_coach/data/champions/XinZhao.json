@@ -24,7 +24,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Três ataques fortes terminam em arremesso ao ar.",
+        "limit": "O controle exige completar os ataques no alcance útil."
+      }
     },
     {
       "id": "XinZhao.W",
@@ -37,7 +41,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Linha desacelera e prepara alvos desafiados.",
+        "limit": "A marca depende de acertar o trajeto."
+      }
     },
     {
       "id": "XinZhao.E",
@@ -50,7 +58,11 @@
         11,
         11,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço amplia ataques e ganha alcance contra desafiado.",
+        "limit": "Chegar ao alvo não garante acompanhamento."
+      }
     },
     {
       "id": "XinZhao.R",
@@ -61,48 +73,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Afasta outros alvos e protege de dano vindo de fora do círculo.",
+        "limit": "A proteção não impede todo dano de quem entra na região."
+      }
     },
     {
       "id": "XinZhao.P",
       "ability": "P",
       "name": "Determinação",
       "description": "Cada terceiro ataque básico causa dano adicional e cura Xin Zhao.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Terceiro ataque amplia dano e cura.",
+        "limit": "Precisa manter contato até completar a sequência."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Entrar fundo pode aproximar todas as ameaças que atravessam sua proteção.",
+      "A proteção não impede todo dano de quem entra na região."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+        "plan": "Priorize renda e preparação; na rota, mantenha espaço de farm e recuo.",
+        "against": "Observe a região de proteção e cubra o alvo pressionado sem se alinhar todos.",
+        "resource": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+        "caution": "Entrar fundo pode aproximar todas as ameaças que atravessam sua proteção."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+        "plan": "Chegue com apoio e mantenha um alvo que possa continuar atacando.",
+        "against": "Observe a região de proteção e cubra o alvo pressionado sem se alinhar todos.",
+        "resource": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+        "caution": "Entrar fundo pode aproximar todas as ameaças que atravessam sua proteção."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+        "plan": "Escolha entre proteger a frente e separar uma ameaça sem abandonar a formação.",
+        "against": "Na luta decisiva, observe a região de proteção e cubra o alvo pressionado sem se alinhar todos.",
+        "resource": "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+        "caution": "Entrar fundo pode aproximar todas as ameaças que atravessam sua proteção."
       }
     },
     "strengths": [
-      "Golpe de Três Garras: O próximos 3 ataques normais de Xin Zhao causam mais dano. O último arremessa o oponente ao ar.",
-      "Guarda Crescente: Xin Zhao desafia passivamente um inimigo a quem tenha causado dano recentemente. Ao ativar, ele causa dano a inimigos próximos com base na Vida atual deles e Arremessa alvos não Desafiados para trás, tornando-se imune a qualquer dano causado por Campeões fora do círculo criado."
+      "Pressiona uma ameaça próxima e separa a resposta ao redor.",
+      "Afasta outros alvos e protege de dano vindo de fora do círculo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

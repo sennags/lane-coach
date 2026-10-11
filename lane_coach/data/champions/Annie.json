@@ -24,7 +24,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Abater o alvo devolve o custo de mana.",
+        "limit": "O benefício de mana exige que esse golpe finalize."
+      }
     },
     {
       "id": "Annie.W",
@@ -37,7 +41,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Dano em cone pode alcançar vários inimigos.",
+        "limit": "A área exige aproximação; considere a resposta."
+      }
     },
     {
       "id": "Annie.E",
@@ -50,7 +58,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e velocidade ajudam a proteger ou reposicionar um aliado.",
+        "limit": "A proteção é temporária e deve acompanhar a ameaça."
+      }
     },
     {
       "id": "Annie.R",
@@ -61,48 +73,64 @@
         130,
         115,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Dano inicial em área e Tibbers pressionam inimigos próximos.",
+        "limit": "Invocar sem alvos acessíveis pode desperdiçar a entrada."
+      }
     },
     {
       "id": "Annie.P",
       "ability": "P",
       "name": "Piromania",
       "description": "Após conjurar 4 Habilidades, a próxima Habilidade ofensiva de Annie atordoará o alvo. Annie começa a partida e ressurge com Piromania disponível.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Quatro conjurações preparam atordoamento na habilidade ofensiva.",
+        "limit": "O controle depende de ter a carga preparada."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Ameaça uma entrada com controle e dano concentrado.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Caminhar à frente sem controle preparado expõe Annie à resposta.",
+      "Invocar sem alvos acessíveis pode desperdiçar a entrada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Ameaça uma entrada com controle e dano concentrado.",
+        "plan": "Finalize tropas com eficiência e prepare o controle antes de disputar espaço na wave.",
+        "against": "Observe quando o atordoamento está preparado e evite agrupar alvos ao alcance.",
+        "resource": "Ameaça uma entrada com controle e dano concentrado.",
+        "caution": "Caminhar à frente sem controle preparado expõe Annie à resposta."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Ameaça uma entrada com controle e dano concentrado.",
+        "plan": "Espere um alvo exposto com aliados prontos para acompanhar.",
+        "against": "Observe quando o atordoamento está preparado e evite agrupar alvos ao alcance.",
+        "resource": "Ameaça uma entrada com controle e dano concentrado.",
+        "caution": "Caminhar à frente sem controle preparado expõe Annie à resposta."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Ameaça uma entrada com controle e dano concentrado.",
+        "plan": "Escolha entre uma captura segura e guardar controle para quem entra no seu time.",
+        "against": "Na luta decisiva, observe quando o atordoamento está preparado e evite agrupar alvos ao alcance.",
+        "resource": "Ameaça uma entrada com controle e dano concentrado.",
+        "caution": "Caminhar à frente sem controle preparado expõe Annie à resposta."
       }
     },
     "strengths": [
-      "Desintegrar: Annie arremessa uma bola de fogo infundida em Mana, causando dano e recuperando o custo de Mana caso o alvo seja destruído.",
-      "Invocar: Tibbers: Annie dá vida ao urso Tibbers, causando dano a unidades na área. Tibbers pode atacar e também queimar inimigos que ficarem próximos a ele."
+      "Ameaça uma entrada com controle e dano concentrado.",
+      "Dano inicial em área e Tibbers pressionam inimigos próximos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

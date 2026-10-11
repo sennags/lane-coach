@@ -24,7 +24,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Acertos próximos ampliam os usos seguintes e reduzem recarga.",
+        "limit": "Precisa continuar acertando para manter a pressão."
+      }
     },
     {
       "id": "Hecarim.W",
@@ -37,7 +41,11 @@
         14,
         14,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Defesas e cura sustentam contato com inimigos próximos.",
+        "limit": "A sustentação depende de manter os alvos na área."
+      }
     },
     {
       "id": "Hecarim.E",
@@ -50,7 +58,11 @@
         18,
         17,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Corrida prepara ataque que empurra e usa distância percorrida.",
+        "limit": "A direção do empurrão pode afastar o alvo do time."
+      }
     },
     {
       "id": "Hecarim.R",
@@ -61,48 +73,64 @@
         140,
         120,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Entrada em linha provoca medo ao terminar.",
+        "limit": "A chegada precisa ter acompanhamento."
+      }
     },
     {
       "id": "Hecarim.P",
       "ability": "P",
       "name": "Caminho da Guerra",
       "description": "Hecarim recebe Dano de Ataque equivalente a um percentual de sua Velocidade de Movimento adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Velocidade de movimento adicional aumenta dano de ataque.",
+        "limit": "O benefício varia com a velocidade disponível."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Cria uma entrada rápida que desorganiza a formação inimiga.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Chegar muito antes dos aliados pode desperdiçar todo o controle.",
+      "A chegada precisa ter acompanhamento."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Cria uma entrada rápida que desorganiza a formação inimiga.",
+        "plan": "Priorize renda e aproximações preparadas; na rota, preserve a wave antes de sair.",
+        "against": "Cubra os lados e evite alinhar a formação com o caminho de entrada.",
+        "resource": "Cria uma entrada rápida que desorganiza a formação inimiga.",
+        "caution": "Chegar muito antes dos aliados pode desperdiçar todo o controle."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Cria uma entrada rápida que desorganiza a formação inimiga.",
+        "plan": "Entre por um ângulo com apoio, escolhendo onde o alvo será pressionado.",
+        "against": "Cubra os lados e evite alinhar a formação com o caminho de entrada.",
+        "resource": "Cria uma entrada rápida que desorganiza a formação inimiga.",
+        "caution": "Chegar muito antes dos aliados pode desperdiçar todo o controle."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Cria uma entrada rápida que desorganiza a formação inimiga.",
+        "plan": "Espere uma oportunidade de alcançar o grupo sem deixar o próprio time para trás.",
+        "against": "Na luta decisiva, cubra os lados e evite alinhar a formação com o caminho de entrada.",
+        "resource": "Cria uma entrada rápida que desorganiza a formação inimiga.",
+        "caution": "Chegar muito antes dos aliados pode desperdiçar todo o controle."
       }
     },
     "strengths": [
-      "Enfurecido: Hecarim golpeia inimigos próximos, causando Dano Físico. Caso ele cause dano a ao menos um inimigo, os usos subsequentes da habilidade causam mais dano e têm menor Tempo de Recarga.",
-      "Massacre das Sombras: Hecarim invoca cavaleiros espectrais e avança, causando Dano Mágico em linha reta. Hecarim desfere uma onda de choque ao terminar o ataque, fazendo com que inimigos próximos se afastem aterrorizados."
+      "Cria uma entrada rápida que desorganiza a formação inimiga.",
+      "Entrada em linha provoca medo ao terminar."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

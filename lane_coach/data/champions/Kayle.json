@@ -24,7 +24,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Linha de dano reduz velocidade e resistências.",
+        "limit": "Precisa acertar para preparar a continuação."
+      }
     },
     {
       "id": "Kayle.W",
@@ -37,7 +41,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Cura e velocidade ajudam a reposicionar com aliado.",
+        "limit": "O benefício é temporário; preserve um caminho seguro."
+      }
     },
     {
       "id": "Kayle.E",
@@ -50,7 +58,11 @@
         7,
         6.5,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque fortalecido amplia dano contra vida perdida.",
+        "limit": "Não garante acesso a um alvo distante."
+      }
     },
     {
       "id": "Kayle.R",
@@ -61,48 +73,64 @@
         160,
         120,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Invulnerabilidade protege aliado e prepara dano próximo.",
+        "limit": "A janela termina; escolha quem precisa sobreviver ao foco."
+      }
     },
     {
       "id": "Kayle.P",
       "ability": "P",
       "name": "Ascensão Divina",
       "description": "Os ataques de Kayle são fortalecidos pelos céus conforme ela aumenta de nível de Campeão e de habilidades. Suas asas ficam flamejantes conforme ela progressivamente ganha Velocidade de Ataque, Velocidade de Movimento, Alcance de Ataque e ondas de fogo em seus ataques.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Níveis ampliam alcance e recursos dos ataques.",
+        "limit": "A forma disponível depende do progresso, não só do tempo de partida."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Mantém ataques com cobertura e protege uma janela decisiva.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Entrar à frente por uma finalização pode perder todo o tempo de ataque.",
+      "A janela termina; escolha quem precisa sobreviver ao foco."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Mantém ataques com cobertura e protege uma janela decisiva.",
+        "plan": "Preserve farm e vida para progredir sem abandonar renda por perseguições.",
+        "against": "Pressione sua posição sem gastar toda resposta durante a invulnerabilidade.",
+        "resource": "Mantém ataques com cobertura e protege uma janela decisiva.",
+        "caution": "Entrar à frente por uma finalização pode perder todo o tempo de ataque."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Mantém ataques com cobertura e protege uma janela decisiva.",
+        "plan": "Ataque o alvo acessível preservando distância da entrada.",
+        "against": "Pressione sua posição sem gastar toda resposta durante a invulnerabilidade.",
+        "resource": "Mantém ataques com cobertura e protege uma janela decisiva.",
+        "caution": "Entrar à frente por uma finalização pode perder todo o tempo de ataque."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Mantém ataques com cobertura e protege uma janela decisiva.",
+        "plan": "Priorize sobreviver e sustentar dano; proteja quem recebe o foco decisivo.",
+        "against": "Na luta decisiva, pressione sua posição sem gastar toda resposta durante a invulnerabilidade.",
+        "resource": "Mantém ataques com cobertura e protege uma janela decisiva.",
+        "caution": "Entrar à frente por uma finalização pode perder todo o tempo de ataque."
       }
     },
     "strengths": [
-      "Explosão Radiante: Kayle conjura um portal, invocando uma espada celestial que atravessa os inimigos, causando dano e reduzindo a velocidade e as resistências de tudo que atingir.",
-      "Sentença Divina: Kayle torna um aliado invulnerável e evoca os antigos Aspectos da Justiça para purificarem a área ao redor do seu alvo com uma chuva de espadas sagradas."
+      "Mantém ataques com cobertura e protege uma janela decisiva.",
+      "Invulnerabilidade protege aliado e prepara dano próximo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

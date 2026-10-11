@@ -49,6 +49,8 @@ class KnowledgeBase:
             for fact in champion['facts']:
                 if fact.get('cooldown') is not None and not valid_cooldowns(fact['cooldown']):
                     raise ValueError('Invalid cooldown data')
+                if 'cooldown_note' in fact and (not isinstance(fact['cooldown_note'], str) or not fact['cooldown_note'].strip()):
+                    raise ValueError('Invalid cooldown note')
                 if 'coaching' in fact and (
                     not isinstance(fact['coaching'], dict)
                     or set(fact['coaching']) != {'use', 'limit'}

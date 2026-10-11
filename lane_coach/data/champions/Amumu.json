@@ -24,7 +24,11 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Acerto puxa Amumu ao alvo e o atordoa.",
+        "limit": "A chegada pode ser longe demais do time."
+      }
     },
     {
       "id": "Amumu.W",
@@ -37,7 +41,11 @@
         1,
         1,
         1
-      ]
+      ],
+      "coaching": {
+        "use": "Dano contínuo próximo renova a maldição.",
+        "limit": "Precisa manter os inimigos na área."
+      }
     },
     {
       "id": "Amumu.E",
@@ -50,7 +58,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo e redução passiva de dano físico.",
+        "limit": "Ser atingido reduz a recarga, mas não torna toda entrada segura."
+      }
     },
     {
       "id": "Amumu.R",
@@ -61,48 +73,64 @@
         150,
         125,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Controle em área permite prender vários inimigos.",
+        "limit": "Aliados precisam estar em posição para acompanhar."
+      }
     },
     {
       "id": "Amumu.P",
       "ability": "P",
       "name": "Toque Amaldiçoado",
       "description": "Os ataques básicos de Amumu Amaldiçoam seus inimigos, fazendo com que recebam Dano Verdadeiro adicional de qualquer Dano Mágico causado a eles.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Ataques aplicam maldição que aumenta o dano mágico recebido.",
+        "limit": "A maldição precisa estar aplicada para gerar esse benefício."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Prepara entradas em área e ocupa espaço para o dano aliado.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Entrar sem acompanhamento gasta o controle antes de o time chegar.",
+      "Aliados precisam estar em posição para acompanhar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Prepara entradas em área e ocupa espaço para o dano aliado.",
+        "plan": "Se disputar uma rota, controle a aproximação da wave; não force entrada com o parceiro distante.",
+        "against": "Espalhe o time e não siga todos pelo mesmo acesso estreito.",
+        "resource": "Prepara entradas em área e ocupa espaço para o dano aliado.",
+        "caution": "Entrar sem acompanhamento gasta o controle antes de o time chegar."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Prepara entradas em área e ocupa espaço para o dano aliado.",
+        "plan": "Procure uma entrada que o time possa acompanhar, sem perseguir sozinho.",
+        "against": "Espalhe o time e não siga todos pelo mesmo acesso estreito.",
+        "resource": "Prepara entradas em área e ocupa espaço para o dano aliado.",
+        "caution": "Entrar sem acompanhamento gasta o controle antes de o time chegar."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Prepara entradas em área e ocupa espaço para o dano aliado.",
+        "plan": "Controle ameaças agrupadas ou interrompa a entrada sobre seu aliado principal.",
+        "against": "Na luta decisiva, espalhe o time e não siga todos pelo mesmo acesso estreito.",
+        "resource": "Prepara entradas em área e ocupa espaço para o dano aliado.",
+        "caution": "Entrar sem acompanhamento gasta o controle antes de o time chegar."
       }
     },
     "strengths": [
-      "Lançar Bandagens: Amumu lança uma bandagem pegajosa em seu alvo e se lança em sua direção, causando dano e atordoamento.",
-      "A Maldição da Múmia Triste: Amumu amarra unidades inimigas ao seu redor com ataduras, aplicando Maldição , causando dano e atordoando-as."
+      "Prepara entradas em área e ocupa espaço para o dano aliado.",
+      "Controle em área permite prender vários inimigos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

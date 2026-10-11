@@ -24,7 +24,11 @@
         8,
         7.5,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Dano ao alvo interrompe canalização e concede escudo mágico.",
+        "limit": "O escudo protege contra dano mágico, não toda resposta."
+      }
     },
     {
       "id": "Kassadin.W",
@@ -37,7 +41,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque fortalecido restaura mana.",
+        "limit": "Precisa de contato próximo para aproveitar."
+      }
     },
     {
       "id": "Kassadin.E",
@@ -50,7 +58,11 @@
         19,
         18,
         17
-      ]
+      ],
+      "coaching": {
+        "use": "Cone desacelera e pressiona à frente.",
+        "limit": "Considere a condição de disponibilidade antes de aproximar."
+      }
     },
     {
       "id": "Kassadin.R",
@@ -61,48 +73,64 @@
         5,
         3.5,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Teleporte em sequência amplia dano e custo de mana.",
+        "limit": "Repetir entradas pode gastar o recurso necessário para sair."
+      }
     },
     {
       "id": "Kassadin.P",
       "ability": "P",
       "name": "Pedra do Vazio",
       "description": "Kassadin sofre Dano Mágico reduzido e ignora colisão com unidades.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Reduz dano mágico recebido e atravessa unidades.",
+        "limit": "A proteção não reduz igualmente todo dano físico."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Pouca mana pode transformar mobilidade aparente em entrada sem retorno.",
+      "Repetir entradas pode gastar o recurso necessário para sair."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+        "plan": "Preserve renda e vida na wave sem forçar contato que retire o recurso de recuo.",
+        "against": "Cubra alvos separados e pressione quando ele gastar repetidamente o recurso de movimento.",
+        "resource": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+        "caution": "Pouca mana pode transformar mobilidade aparente em entrada sem retorno."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+        "plan": "Escolha uma entrada curta e preserve recurso para sair após o dano.",
+        "against": "Cubra alvos separados e pressione quando ele gastar repetidamente o recurso de movimento.",
+        "resource": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+        "caution": "Pouca mana pode transformar mobilidade aparente em entrada sem retorno."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+        "plan": "Espere a proteção inimiga se comprometer; não use todas as saídas para chegar ao alvo.",
+        "against": "Na luta decisiva, cubra alvos separados e pressione quando ele gastar repetidamente o recurso de movimento.",
+        "resource": "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+        "caution": "Pouca mana pode transformar mobilidade aparente em entrada sem retorno."
       }
     },
     "strengths": [
-      "Esfera Nula: Kassadin dispara um orbe de energia do Vazio em um alvo, causando dano e interrompendo canalizações. A energia excedente toma forma ao seu redor, concedendo um escudo temporário que absorve Dano Mágico.",
-      "Caminhar na Fenda: Kassadin se teleporta para um local próximo, causando dano a unidades inimigas próximas. Múltiplas conjurações de Caminhar na Fenda em um curto período custam Mana adicional e também causam dano adicional."
+      "Busca alvos expostos com aproximação e saída pelo reposicionamento.",
+      "Teleporte em sequência amplia dano e custo de mana."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

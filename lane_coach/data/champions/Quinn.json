@@ -24,7 +24,11 @@
         10,
         9.5,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Área marca e prejudica a visão do alvo.",
+        "limit": "O efeito exige conectar o disparo."
+      }
     },
     {
       "id": "Quinn.W",
@@ -37,7 +41,11 @@
         40,
         35,
         30
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque na marca dá movimento; ativação revela região próxima.",
+        "limit": "Visão não torna a aproximação automaticamente segura."
+      }
     },
     {
       "id": "Quinn.E",
@@ -50,7 +58,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Avança ao alvo e recua para distância de ataque.",
+        "limit": "O lugar de aterrissagem pode estar cercado."
+      }
     },
     {
       "id": "Quinn.R",
@@ -61,48 +73,64 @@
         3,
         3,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Voo amplia deslocamento e o fim aplica dano e marcas.",
+        "limit": "Chegar antes do time pode retirar toda a cobertura."
+      }
     },
     {
       "id": "Quinn.P",
       "ability": "P",
       "name": "Rapina",
       "description": "Valor, a águia demaciana de Quinn, periodicamente marca inimigos com Rapina . O primeiro Ataque básico de Quinn contra alvos marcados com Rapina causará Dano Físico adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Atacar a marca aplica dano adicional.",
+        "limit": "O benefício depende do alvo marcado."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Velocidade para chegar não garante sobreviver à posição final.",
+      "Chegar antes do time pode retirar toda a cobertura."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+        "plan": "Resolva a wave antes de sair, usando visão para não trocar renda por aproximação cega.",
+        "against": "Cubra alvos separados e acompanhe onde ela aterrissa depois de aproximar.",
+        "resource": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+        "caution": "Velocidade para chegar não garante sobreviver à posição final."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+        "plan": "Escolha uma borda acessível sem deixar o apoio para trás.",
+        "against": "Cubra alvos separados e acompanhe onde ela aterrissa depois de aproximar.",
+        "resource": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+        "caution": "Velocidade para chegar não garante sobreviver à posição final."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+        "plan": "Ataque com espaço de recuo e não atravesse a frente para uma marca distante.",
+        "against": "Na luta decisiva, cubra alvos separados e acompanhe onde ela aterrissa depois de aproximar.",
+        "resource": "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+        "caution": "Velocidade para chegar não garante sobreviver à posição final."
       }
     },
     "strengths": [
-      "Investida Anuviante: Quinn chama Valor para marcar um inimigo e prejudicar sua visão antes de causar dano a todos os inimigos na área.",
-      "Retaguarda do Inimigo: Quinn e Valor se juntam para voar em alta velocidade. Encerrar a Habilidade conjura Bombardeio, que causa dano a inimigos próximos e marca Campeões com Rapina."
+      "Pressiona alvos expostos por um lado e mantém distância de ataque.",
+      "Voo amplia deslocamento e o fim aplica dano e marcas."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

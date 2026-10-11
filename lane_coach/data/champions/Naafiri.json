@@ -24,7 +24,11 @@
         8,
         7.5,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Duas adagas aplicam sangramento e dano adicional em alvo já afetado.",
+        "limit": "A continuação exige conectar os golpes."
+      }
     },
     {
       "id": "Naafiri.W",
@@ -37,7 +41,11 @@
         22,
         20,
         18
-      ]
+      ],
+      "coaching": {
+        "use": "Inalvejabilidade fortalece matilha e concede atributos temporários.",
+        "limit": "A janela acaba; prepare a posição em que volta a receber resposta."
+      }
     },
     {
       "id": "Naafiri.E",
@@ -50,7 +58,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço dá dano e reúne a matilha recuperada.",
+        "limit": "Usar para entrar compromete o caminho de saída."
+      }
     },
     {
       "id": "Naafiri.R",
@@ -61,48 +73,64 @@
         110,
         95,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço pode repetir após eliminação, com proteção na segunda entrada.",
+        "limit": "Não conte com a reconjuração antes de obter a eliminação."
+      }
     },
     {
       "id": "Naafiri.P",
       "ability": "P",
       "name": "Em Maior Número",
       "description": "Uma matilha surge e ataca os alvos dos ataques e habilidades de Naafiri.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Matilha acompanha alvos de ataques e habilidades.",
+        "limit": "Precisa marcar a direção da pressão; não cria acesso seguro sozinha."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "identity": "Ameaça uma captura com pressão concentrada da matilha.",
     "weaknesses": [
-      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
-      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+      "Depender de reinício ainda não obtido pode deixar a entrada sem recuo.",
+      "Não conte com a reconjuração antes de obter a eliminação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
-        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
-        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+        "typical": "Ameaça uma captura com pressão concentrada da matilha.",
+        "plan": "Resolva a wave e a matilha disponível antes de abandonar renda por uma perseguição.",
+        "against": "Cubra o alvo separado e responda à chegada sem dar uma eliminação fácil.",
+        "resource": "Ameaça uma captura com pressão concentrada da matilha.",
+        "caution": "Depender de reinício ainda não obtido pode deixar a entrada sem recuo."
       },
       "mid": {
-        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
-        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
-        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+        "typical": "Ameaça uma captura com pressão concentrada da matilha.",
+        "plan": "Escolha um alvo acessível com acompanhamento e preserve saída se a tentativa falhar.",
+        "against": "Cubra o alvo separado e responda à chegada sem dar uma eliminação fácil.",
+        "resource": "Ameaça uma captura com pressão concentrada da matilha.",
+        "caution": "Depender de reinício ainda não obtido pode deixar a entrada sem recuo."
       },
       "late": {
-        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
-        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
-        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+        "typical": "Ameaça uma captura com pressão concentrada da matilha.",
+        "plan": "Espere a proteção inimiga se comprometer antes de buscar a continuação.",
+        "against": "Na luta decisiva, cubra o alvo separado e responda à chegada sem dar uma eliminação fácil.",
+        "resource": "Ameaça uma captura com pressão concentrada da matilha.",
+        "caution": "Depender de reinício ainda não obtido pode deixar a entrada sem recuo."
       }
     },
     "strengths": [
-      "Adagas Darkin: Naafiri arremessa até duas adagas; cada uma causa dano de sangramento ou, caso o alvo já esteja sangrando, dano adicional. A matilha avança para atacar o primeiro Campeão ou monstro atingido pela Habilidade.",
-      "Caça dos Cães: Naafiri e sua matilha avançam contra um Campeão, causando dano. Se conseguir uma eliminação, Naafiri revelará inimigos próximos e poderá reconjurar esta habilidade uma vez. A segunda conjuração concederá um Escudo."
+      "Ameaça uma captura com pressão concentrada da matilha.",
+      "Avanço pode repetir após eliminação, com proteção na segunda entrada."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Assassino",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

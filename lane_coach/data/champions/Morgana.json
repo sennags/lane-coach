@@ -24,7 +24,11 @@
         10,
         10,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil enraíza o alvo atingido.",
+        "limit": "Bloqueadores podem receber o controle."
+      }
     },
     {
       "id": "Morgana.W",
@@ -37,7 +41,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Área dá dano prolongado e amplia pressão sobre vida baixa.",
+        "limit": "O alvo precisa permanecer na região."
+      }
     },
     {
       "id": "Morgana.E",
@@ -50,7 +58,11 @@
         21,
         18.5,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo absorve dano mágico e impede controle enquanto persiste.",
+        "limit": "Quebrar o escudo encerra a proteção; não bloqueia todo dano."
+      }
     },
     {
       "id": "Morgana.R",
@@ -61,48 +73,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Correntes próximas preparam atordoamento após intervalo.",
+        "limit": "Romper o vínculo impede o controle final."
+      }
     },
     {
       "id": "Morgana.P",
       "ability": "P",
       "name": "Sifão da Alma",
       "description": "Morgana drena o espírito dos inimigos, curando-se conforme causa dano a Campeões, tropas grandes e monstros médios e grandes da selva.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Dano nos alvos indicados gera cura.",
+        "limit": "Não recebe a mesma sustentação ao atingir qualquer unidade."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Cria uma captura e protege aliados de uma entrada com controle.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Buscar controle próximo pode gastar a defesa apenas para salvar a si mesma.",
+      "Romper o vínculo impede o controle final."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Cria uma captura e protege aliados de uma entrada com controle.",
+        "plan": "Gerencie mana e cobertura da wave sem consumir proteção por pressão sem continuidade.",
+        "against": "Use cobertura contra o projétil e saia do vínculo sem reunir todo o time.",
+        "resource": "Cria uma captura e protege aliados de uma entrada com controle.",
+        "caution": "Buscar controle próximo pode gastar a defesa apenas para salvar a si mesma."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Cria uma captura e protege aliados de uma entrada com controle.",
+        "plan": "Fique em posição para cobrir o alvo ameaçado sem avançar sozinha para manter vínculos.",
+        "against": "Use cobertura contra o projétil e saia do vínculo sem reunir todo o time.",
+        "resource": "Cria uma captura e protege aliados de uma entrada com controle.",
+        "caution": "Buscar controle próximo pode gastar a defesa apenas para salvar a si mesma."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Cria uma captura e protege aliados de uma entrada com controle.",
+        "plan": "Priorize a defesa decisiva e só aproxime quando o time puder acompanhar.",
+        "against": "Na luta decisiva, use cobertura contra o projétil e saia do vínculo sem reunir todo o time.",
+        "resource": "Cria uma captura e protege aliados de uma entrada com controle.",
+        "caution": "Buscar controle próximo pode gastar a defesa apenas para salvar a si mesma."
       }
     },
     "strengths": [
-      "Ligação das Trevas: Morgana prende um inimigo no lugar com magia sombria, forçando-o a sentir a dor que provocou e causando Dano Mágico.",
-      "Grilhões da Alma: Morgana libera a força total de seu poder celestial conforme desprende suas asas e flutua acima do chão. Ela lança correntes de dor sombria nos Campeões inimigos próximos, ganhando Velocidade de Movimento. As correntes causam Lentidão e um dano inicial. Depois de um intervalo, atordoam quem não conseguir quebrá-las."
+      "Cria uma captura e protege aliados de uma entrada com controle.",
+      "Correntes próximas preparam atordoamento após intervalo."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

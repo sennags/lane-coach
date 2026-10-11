@@ -23,7 +23,11 @@
         5,
         4.5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Linha atinge dois primeiros inimigos e abates concedem poder.",
+        "limit": "Bloqueadores mudam quais alvos recebem dano."
+      }
     },
     {
       "id": "Veigar.W",
@@ -36,7 +40,12 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Área atrasada causa dano e acúmulos reduzem sua recarga.",
+        "limit": "O inimigo pode abandonar a região antes da queda."
+      },
+      "cooldown_note": "Acúmulos de Poder Maligno Fenomenal reduzem a recarga."
     },
     {
       "id": "Veigar.E",
@@ -49,7 +58,11 @@
         17,
         15.5,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Borda da prisão atordoa quem a cruza.",
+        "limit": "Estar dentro não significa receber automaticamente o controle da borda."
+      }
     },
     {
       "id": "Veigar.R",
@@ -60,48 +73,64 @@
         120,
         90,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Dano no alvo aumenta com sua vida perdida.",
+        "limit": "Vida baixa não garante que Veigar possa aproximar com segurança."
+      }
     },
     {
       "id": "Veigar.P",
       "ability": "P",
       "name": "Poder Maligno Fenomenal",
       "description": "Veigar é o maior ser maligno a chegar ao coração de Runeterra - e vai ficar cada vez maior! Atingir um Campeão inimigo com uma habilidade ou executar um golpe final concede a Veigar um aumento permanente de Poder de Habilidade.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Acertos em campeão e abates indicados acumulam poder permanentemente.",
+        "limit": "O progresso depende das aplicações, não só do tempo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Controla espaço para uma captura e ameaça finalização.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Gastar a zona defensiva para pressão pode permitir a aproximação seguinte.",
+      "Vida baixa não garante que Veigar possa aproximar com segurança."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Controla espaço para uma captura e ameaça finalização.",
+        "plan": "Preserve farm e acúmulos sem abandonar a wave por um alvo arriscado.",
+        "against": "Observe a borda do controle e mantenha cobertura dos aliados fragilizados.",
+        "resource": "Controla espaço para uma captura e ameaça finalização.",
+        "caution": "Gastar a zona defensiva para pressão pode permitir a aproximação seguinte."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Controla espaço para uma captura e ameaça finalização.",
+        "plan": "Prepare uma região de pressão atrás da cobertura do time.",
+        "against": "Observe a borda do controle e mantenha cobertura dos aliados fragilizados.",
+        "resource": "Controla espaço para uma captura e ameaça finalização.",
+        "caution": "Gastar a zona defensiva para pressão pode permitir a aproximação seguinte."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Controla espaço para uma captura e ameaça finalização.",
+        "plan": "Ataque o alvo acessível sem andar à frente só para finalizar o ideal.",
+        "against": "Na luta decisiva, observe a borda do controle e mantenha cobertura dos aliados fragilizados.",
+        "resource": "Controla espaço para uma captura e ameaça finalização.",
+        "caution": "Gastar a zona defensiva para pressão pode permitir a aproximação seguinte."
       }
     },
     "strengths": [
-      "Golpe Maligno: Veigar faz um disparo de energia das trevas que causa Dano Mágico aos dois primeiros inimigos atingidos. Unidades abatidas por este disparo concedem a ele um pouco de Poder de Habilidade permanentemente.",
-      "Explosão Primordial: Explode o Campeão-alvo inimigo, causando uma grande quantia de Dano Mágico, que aumenta com base na Vida perdida do alvo."
+      "Controla espaço para uma captura e ameaça finalização.",
+      "Dano no alvo aumenta com sua vida perdida."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

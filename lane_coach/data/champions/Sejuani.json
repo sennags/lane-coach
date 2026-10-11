@@ -23,7 +23,11 @@
         15,
         13.5,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço controla e para no primeiro campeão.",
+        "limit": "Um bloqueador pode mudar a chegada."
+      }
     },
     {
       "id": "Sejuani.W",
@@ -36,7 +40,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dois golpes aplicam dano e acúmulos.",
+        "limit": "Precisa conectar a sequência para preparar o controle."
+      }
     },
     {
       "id": "Sejuani.E",
@@ -49,7 +57,11 @@
         1.5,
         1.5,
         1.5
-      ]
+      ],
+      "coaching": {
+        "use": "Atordoa alvo com acúmulos máximos.",
+        "limit": "Não oferece controle completo sem preparação."
+      }
     },
     {
       "id": "Sejuani.R",
@@ -60,48 +72,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Primeiro campeão é controlado e a região desacelera.",
+        "limit": "A trajetória pode atingir outro alvo antes do desejado."
+      }
     },
     {
       "id": "Sejuani.P",
       "ability": "P",
       "name": "Fúria do Norte",
       "description": "Após ficar fora de combate, Sejuani recebe Armadura Congelada, que concede Armadura, Resistência Mágica e imunidade a reduções de velocidade. Armadura Congelada persiste por um curto período após Sejuani sofrer dano e Sejuani pode causar dano a um inimigo atordoado para estilhaçá-la, causando muito Dano Mágico.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fora de combate prepara defesa; alvo atordoado permite dano ampliado.",
+        "limit": "A proteção não dura toda luta sem intervalo."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Prende uma ameaça para o time e protege a frente.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Chegar cedo demais pode gastar defesa e controle antes do apoio.",
+      "A trajetória pode atingir outro alvo antes do desejado."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Prende uma ameaça para o time e protege a frente.",
+        "plan": "Priorize renda e preparação; na rota, preserve farm sem comprometer toda aproximação.",
+        "against": "Use cobertura e evite alinhar todos atrás de quem recebe a primeira entrada.",
+        "resource": "Prende uma ameaça para o time e protege a frente.",
+        "caution": "Chegar cedo demais pode gastar defesa e controle antes do apoio."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Prende uma ameaça para o time e protege a frente.",
+        "plan": "Escolha uma chegada alcançável para os aliados e acompanhe a resposta.",
+        "against": "Use cobertura e evite alinhar todos atrás de quem recebe a primeira entrada.",
+        "resource": "Prende uma ameaça para o time e protege a frente.",
+        "caution": "Chegar cedo demais pode gastar defesa e controle antes do apoio."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Prende uma ameaça para o time e protege a frente.",
+        "plan": "Priorize controle na ameaça próxima ou uma captura com dano aliado disponível.",
+        "against": "Na luta decisiva, use cobertura e evite alinhar todos atrás de quem recebe a primeira entrada.",
+        "resource": "Prende uma ameaça para o time e protege a frente.",
+        "caution": "Chegar cedo demais pode gastar defesa e controle antes do apoio."
       }
     },
     "strengths": [
-      "Ataque do Ártico: Sejuani avança em investida, lançando os inimigos pelos ares. A investida cessa após acertar um Campeão inimigo.",
-      "Prisão Glacial: Sejuani arremessa sua boleadeira, congelando e atordoando o primeiro Campeão que acertar, criando uma tempestade de gelo que causa lentidão aos demais inimigos."
+      "Prende uma ameaça para o time e protege a frente.",
+      "Primeiro campeão é controlado e a região desacelera."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

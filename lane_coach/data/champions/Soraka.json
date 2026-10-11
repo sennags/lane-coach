@@ -24,7 +24,11 @@
         6,
         5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Acertar campeão prepara regeneração.",
+        "limit": "Errar não oferece a mesma recuperação."
+      }
     },
     {
       "id": "Soraka.W",
@@ -37,7 +41,11 @@
         4,
         3,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Cura um aliado consumindo a vida de Soraka.",
+        "limit": "Repetir a cura pode deixar seu próprio corpo vulnerável."
+      }
     },
     {
       "id": "Soraka.E",
@@ -50,7 +58,11 @@
         18,
         17,
         16
-      ]
+      ],
+      "coaching": {
+        "use": "Área silencia e depois enraíza quem permanecer.",
+        "limit": "O controle final depende da permanência."
+      }
     },
     {
       "id": "Soraka.R",
@@ -61,48 +73,64 @@
         150,
         135,
         120
-      ]
+      ],
+      "coaching": {
+        "use": "Cura o time independentemente da distância.",
+        "limit": "Não protege contra todo dano posterior à cura."
+      }
     },
     {
       "id": "Soraka.P",
       "ability": "P",
       "name": "Salvação",
       "description": "Soraka corre mais rapidamente em direção a aliados com pouca Vida.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Aliado com pouca vida ajuda Soraka a aproximar.",
+        "limit": "Chegar rápido não garante uma posição segura."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Mantém aliados vivos sem se tornar o alvo acessível.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Gastar a própria vida sem proteção pode retirar toda a sustentação do time.",
+      "Não protege contra todo dano posterior à cura."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Mantém aliados vivos sem se tornar o alvo acessível.",
+        "plan": "Cubra o farm aliado mantendo distância útil para acertar recuperação sem exposição.",
+        "against": "Pressione sua posição com apoio sem perseguir para dentro de toda a formação.",
+        "resource": "Mantém aliados vivos sem se tornar o alvo acessível.",
+        "caution": "Gastar a própria vida sem proteção pode retirar toda a sustentação do time."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Mantém aliados vivos sem se tornar o alvo acessível.",
+        "plan": "Posicione atrás da cobertura e preserve sua vida para continuar curando.",
+        "against": "Pressione sua posição com apoio sem perseguir para dentro de toda a formação.",
+        "resource": "Mantém aliados vivos sem se tornar o alvo acessível.",
+        "caution": "Gastar a própria vida sem proteção pode retirar toda a sustentação do time."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Mantém aliados vivos sem se tornar o alvo acessível.",
+        "plan": "Priorize o aliado que pode continuar lutando e mantenha uma rota para sair do foco.",
+        "against": "Na luta decisiva, pressione sua posição com apoio sem perseguir para dentro de toda a formação.",
+        "resource": "Mantém aliados vivos sem se tornar o alvo acessível.",
+        "caution": "Gastar a própria vida sem proteção pode retirar toda a sustentação do time."
       }
     },
     "strengths": [
-      "Chamado Estelar: Uma estrela cai do céu no local-alvo, causando Dano Mágico e reduzindo a velocidade de inimigos. Se um Campeão inimigo for atingido por Chamado Estelar, Soraka regenera Vida.",
-      "Desejo: Soraka enche seus aliados de esperança, instantaneamente restaurando Vida para si mesma e todos os Campeões aliados."
+      "Mantém aliados vivos sem se tornar o alvo acessível.",
+      "Cura o time independentemente da distância."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

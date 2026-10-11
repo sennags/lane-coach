@@ -24,7 +24,11 @@
         1,
         1,
         1
-      ]
+      ],
+      "coaching": {
+        "use": "Torres mantêm dano em uma área.",
+        "limit": "Fora do alcance das torres, a pressão preparada diminui."
+      }
     },
     {
       "id": "Heimerdinger.W",
@@ -37,7 +41,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Mísseis convergem e ameaçam dano à distância.",
+        "limit": "A trajetória e concentração dos acertos importam."
+      }
     },
     {
       "id": "Heimerdinger.E",
@@ -50,7 +58,11 @@
         11,
         11,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Centro da granada atordoa; região próxima desacelera.",
+        "limit": "O controle mais forte exige acertar diretamente."
+      }
     },
     {
       "id": "Heimerdinger.R",
@@ -61,48 +73,64 @@
         100,
         85,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Fortalece a próxima habilidade com novos efeitos.",
+        "limit": "Escolher a ferramenta errada pode perder a melhor resposta à entrada."
+      }
     },
     {
       "id": "Heimerdinger.P",
       "ability": "P",
       "name": "Afinidade Hextec",
       "description": "Recebe Velocidade de Movimento enquanto próxima a torres aliadas e torres posicionadas por Heimerdinger.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Próximo de torres aliadas ou próprias recebe velocidade.",
+        "limit": "A mobilidade depende da região preparada."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Defende uma região preparada e pune aproximações até ela.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Sair longe das torres pode retirar dano e mobilidade esperados.",
+      "Escolher a ferramenta errada pode perder a melhor resposta à entrada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Defende uma região preparada e pune aproximações até ela.",
+        "plan": "Posicione as torres conforme a wave e o risco de aproximação, sem empurrar cegamente.",
+        "against": "Evite lutar dentro de toda a preparação e pressione por um ângulo menos coberto.",
+        "resource": "Defende uma região preparada e pune aproximações até ela.",
+        "caution": "Sair longe das torres pode retirar dano e mobilidade esperados."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Defende uma região preparada e pune aproximações até ela.",
+        "plan": "Prepare sua área junto do time e pressione de trás dessa cobertura.",
+        "against": "Evite lutar dentro de toda a preparação e pressione por um ângulo menos coberto.",
+        "resource": "Defende uma região preparada e pune aproximações até ela.",
+        "caution": "Sair longe das torres pode retirar dano e mobilidade esperados."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Defende uma região preparada e pune aproximações até ela.",
+        "plan": "Proteja o espaço de ataque dos aliados sem perseguir para fora da região preparada.",
+        "against": "Na luta decisiva, evite lutar dentro de toda a preparação e pressione por um ângulo menos coberto.",
+        "resource": "Defende uma região preparada e pune aproximações até ela.",
+        "caution": "Sair longe das torres pode retirar dano e mobilidade esperados."
       }
     },
     "strengths": [
-      "Torre Evolutiva H-28G: Heimerdinger posiciona um canhão-torre automático equipado com um ataque secundário de feixes perfurantes (canhões causam metade do dano a torres).",
-      "MELHORIA!!!: Heimerdinger inventa um aprimoramento, fazendo com que sua próxima habilidade tenha efeitos adicionais."
+      "Defende uma região preparada e pune aproximações até ela.",
+      "Fortalece a próxima habilidade com novos efeitos."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

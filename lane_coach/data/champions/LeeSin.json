@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Acerto prepara avanço que usa vida perdida do alvo.",
+        "limit": "A marca não obriga uma entrada segura."
+      }
     },
     {
       "id": "LeeSin.W",
@@ -37,7 +41,11 @@
         7,
         7,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço em aliado oferece proteção e continuação defensiva.",
+        "limit": "Precisa de alvo útil para a saída."
+      }
     },
     {
       "id": "LeeSin.E",
@@ -50,7 +58,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Dano próximo prepara lentidão nos atingidos.",
+        "limit": "A segunda etapa depende dos alvos alcançados."
+      }
     },
     {
       "id": "LeeSin.R",
@@ -61,48 +73,64 @@
         110,
         85,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Chute desloca o alvo e controla quem recebe a colisão.",
+        "limit": "A direção pode salvar o inimigo ou expor um aliado."
+      }
     },
     {
       "id": "LeeSin.P",
       "ability": "P",
       "name": "Agitação",
       "description": "Após Lee Sin usar uma habilidade, seus próximos 2 ataques básicos recebem Velocidade de Ataque e recuperam Energia.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Após habilidade, ataques acelerados recuperam energia.",
+        "limit": "Conjurar sem ataques pode esgotar o recurso."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Reposiciona uma ameaça ou cria uma captura para o time.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Um deslocamento sem acompanhamento pode entregar a entrada ao adversário.",
+      "A direção pode salvar o inimigo ou expor um aliado."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Reposiciona uma ameaça ou cria uma captura para o time.",
+        "plan": "Preserve renda e energia; na rota, resolva a wave antes de seguir um avanço.",
+        "against": "Observe a direção do deslocamento e não alinhe aliados atrás do alvo.",
+        "resource": "Reposiciona uma ameaça ou cria uma captura para o time.",
+        "caution": "Um deslocamento sem acompanhamento pode entregar a entrada ao adversário."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Reposiciona uma ameaça ou cria uma captura para o time.",
+        "plan": "Escolha uma direção de entrada e saída antes de se aproximar.",
+        "against": "Observe a direção do deslocamento e não alinhe aliados atrás do alvo.",
+        "resource": "Reposiciona uma ameaça ou cria uma captura para o time.",
+        "caution": "Um deslocamento sem acompanhamento pode entregar a entrada ao adversário."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Reposiciona uma ameaça ou cria uma captura para o time.",
+        "plan": "Priorize proteger um aliado ou trazer um alvo alcançável, sem buscar uma jogada isolada.",
+        "against": "Na luta decisiva, observe a direção do deslocamento e não alinhe aliados atrás do alvo.",
+        "resource": "Reposiciona uma ameaça ou cria uma captura para o time.",
+        "caution": "Um deslocamento sem acompanhamento pode entregar a entrada ao adversário."
       }
     },
     "strengths": [
-      "Onda Sônica / Ataque Ressonante: Onda Sônica: Lee Sin projeta uma onda sonora para localizar seus inimigos, causando Dano Físico ao primeiro que encontrar. Se Onda Sônica atingir um inimigo, Lee Sin pode conjurar Ataque Ressonante nos próximos 3 segundos. Ataque Ressonante: Lee Sin avança no inimigo atingido por Onda Sônica, causando Dano Físico baseado na Vida perdida do alvo.",
-      "Fúria do Dragão: Lee Sin executa um poderoso chute giratório, arremessando seu alvo para trás e causando Dano Físico ao alvo e a qualquer inimigo com quem ele colidir. Esses inimigos são lançados ao ar durante um curto período. Essa técnica foi ensinada a ele por Jesse Perring, mas Lee Sin não chuta os jogadores para fora do mapa."
+      "Reposiciona uma ameaça ou cria uma captura para o time.",
+      "Chute desloca o alvo e controla quem recebe a colisão."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

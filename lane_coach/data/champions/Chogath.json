@@ -24,7 +24,11 @@
         6,
         6,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Área atrasada arremessa e desacelera.",
+        "limit": "O atraso permite abandonar o local antes do impacto."
+      }
     },
     {
       "id": "Chogath.W",
@@ -37,7 +41,11 @@
         10,
         9.5,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Cone de dano silencia alvos à frente.",
+        "limit": "Depende de posicionar o cone sobre quem precisa ser interrompido."
+      }
     },
     {
       "id": "Chogath.E",
@@ -50,7 +58,11 @@
         6,
         5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Ataques lançam espinhos e desaceleram à frente.",
+        "limit": "A pressão depende do alcance e alinhamento dos ataques."
+      }
     },
     {
       "id": "Chogath.R",
@@ -61,48 +73,64 @@
         80,
         70,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Dano verdadeiro pode finalizar e conceder vida máxima.",
+        "limit": "O crescimento exige abater; não é garantido apenas por conjurar."
+      }
     },
     {
       "id": "Chogath.P",
       "ability": "P",
       "name": "Carnívoro",
       "description": "Sempre que Cho'Gath abate uma unidade, ele recupera Vida e Mana. Os valores restaurados aumentam com o nível de Cho'Gath.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Abater unidades recupera vida e mana.",
+        "limit": "Precisa dos abates; não é cura automática em combate."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Ocupa a frente e dificulta a aproximação sobre aliados.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Perseguir longe pode retirar toda a proteção que o time esperava.",
+      "O crescimento exige abater; não é garantido apenas por conjurar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Ocupa a frente e dificulta a aproximação sobre aliados.",
+        "plan": "Preserve farm para sustentar vida e mana antes de disputar a wave.",
+        "against": "Não agrupe alvos ao alcance do controle; mantenha espaço para sair da área atrasada.",
+        "resource": "Ocupa a frente e dificulta a aproximação sobre aliados.",
+        "caution": "Perseguir longe pode retirar toda a proteção que o time esperava."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Ocupa a frente e dificulta a aproximação sobre aliados.",
+        "plan": "Pressione o espaço com apoio e interrompa quem tenta passar até seu time.",
+        "against": "Não agrupe alvos ao alcance do controle; mantenha espaço para sair da área atrasada.",
+        "resource": "Ocupa a frente e dificulta a aproximação sobre aliados.",
+        "caution": "Perseguir longe pode retirar toda a proteção que o time esperava."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Ocupa a frente e dificulta a aproximação sobre aliados.",
+        "plan": "Proteja o aliado ameaçado e finalize um alvo acessível sem abandonar a frente inteira.",
+        "against": "Na luta decisiva, não agrupe alvos ao alcance do controle; mantenha espaço para sair da área atrasada.",
+        "resource": "Ocupa a frente e dificulta a aproximação sobre aliados.",
+        "caution": "Perseguir longe pode retirar toda a proteção que o time esperava."
       }
     },
     "strengths": [
-      "Ruptura: Rompe o chão num local-alvo, lançando unidades inimigas ao ar e causando dano e redução de velocidade.",
-      "Banquete: Devora uma unidade inimiga, causando uma grande quantidade de Dano Verdadeiro. Se o alvo for abatido, Cho'Gath cresce, recebendo Vida máxima."
+      "Ocupa a frente e dificulta a aproximação sobre aliados.",
+      "Dano verdadeiro pode finalizar e conceder vida máxima."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

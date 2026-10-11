@@ -24,7 +24,11 @@
         5,
         4,
         3
-      ]
+      ],
+      "coaching": {
+        "use": "Disparo atinge um alvo e outro atrás dele.",
+        "limit": "O alinhamento define quem recebe o ressalto."
+      }
     },
     {
       "id": "MissFortune.W",
@@ -37,7 +41,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Movimento fora da pressão e ataques acelerados ajudam a reposicionar.",
+        "limit": "Ser atacada remove parte da mobilidade; não é um avanço livre."
+      }
     },
     {
       "id": "MissFortune.E",
@@ -50,7 +58,11 @@
         16,
         15,
         14
-      ]
+      ],
+      "coaching": {
+        "use": "Área revela e desacelera durante o dano.",
+        "limit": "O inimigo pode sair da região."
+      }
     },
     {
       "id": "MissFortune.R",
@@ -61,48 +73,64 @@
         120,
         110,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Canalização causa dano em cone.",
+        "limit": "Precisa de cobertura e alvos mantidos na trajetória."
+      }
     },
     {
       "id": "MissFortune.P",
       "ability": "P",
       "name": "Batida do Amor",
       "description": "Miss Fortune causa Dano Físico adicional sempre que usar um ataque básico em um novo alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Trocar o alvo do ataque aplica dano adicional.",
+        "limit": "Repetir o mesmo alvo não renova esse benefício."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "identity": "Pressiona grupos alinhados a partir de uma posição coberta.",
     "weaknesses": [
-      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
-      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+      "Parar à frente para causar dano pode entregar uma entrada sobre si.",
+      "Precisa de cobertura e alvos mantidos na trajetória."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "typical": "Pressiona grupos alinhados a partir de uma posição coberta.",
+        "plan": "Use o alinhamento da wave para pressionar sem perder o caminho de recuo.",
+        "against": "Separe os aliados e ameace o corpo durante uma canalização acessível.",
+        "resource": "Pressiona grupos alinhados a partir de uma posição coberta.",
+        "caution": "Parar à frente para causar dano pode entregar uma entrada sobre si."
       },
       "mid": {
-        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "typical": "Pressiona grupos alinhados a partir de uma posição coberta.",
+        "plan": "Ataque alvos acessíveis e escolha um ângulo protegido para a sequência em área.",
+        "against": "Separe os aliados e ameace o corpo durante uma canalização acessível.",
+        "resource": "Pressiona grupos alinhados a partir de uma posição coberta.",
+        "caution": "Parar à frente para causar dano pode entregar uma entrada sobre si."
       },
       "late": {
-        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "typical": "Pressiona grupos alinhados a partir de uma posição coberta.",
+        "plan": "Espere a entrada aliada manter alvos próximos antes de comprometer sua posição.",
+        "against": "Na luta decisiva, separe os aliados e ameace o corpo durante uma canalização acessível.",
+        "resource": "Pressiona grupos alinhados a partir de uma posição coberta.",
+        "caution": "Parar à frente para causar dano pode entregar uma entrada sobre si."
       }
     },
     "strengths": [
-      "Dois por Um: Miss Fortune dispara contra um inimigo, causando dano a ele e a um alvo atrás dele. Ambos os acertos também podem aplicar Batida do Amor.",
-      "Metendo Bala: Miss Fortune canaliza uma saraivada de balas em formato de cone à sua frente, causando muito dano aos inimigos. Cada remessa de Metendo Bala pode causar Acerto Crítico."
+      "Pressiona grupos alinhados a partir de uma posição coberta.",
+      "Canalização causa dano em cone."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -23,7 +23,11 @@
         7,
         6,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Dano concede escudo e fortalece ataque; evolução amplia proteção e movimento.",
+        "limit": "Aproximar para o ataque pode gastar toda a segurança."
+      }
     },
     {
       "id": "Viktor.W",
@@ -36,7 +40,11 @@
         15,
         14,
         13
-      ]
+      ],
+      "coaching": {
+        "use": "Campo desacelera e controla quem permanece.",
+        "limit": "O atordoamento exige permanência, não apenas entrada breve."
+      }
     },
     {
       "id": "Viktor.E",
@@ -49,7 +57,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Linha dá dano e a evolução prepara outra explosão.",
+        "limit": "O segundo impacto depende de manter o alvo no rastro."
+      }
     },
     {
       "id": "Viktor.R",
@@ -60,48 +72,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Área móvel dá dano e interrompe canalizações na chegada.",
+        "limit": "Precisa redirecionar para uma região útil sem expor o corpo."
+      }
     },
     {
       "id": "Viktor.P",
       "ability": "P",
       "name": "Gloriosa Evolução",
       "description": "Viktor receberá Fragmentos Hex sempre que abater um inimigo. Com 100 Fragmentos Hex obtidos, ele receberá permanentemente o Aprimoramento de uma habilidade ativa. Depois de aprimorar todas as habilidades básicas, ele pode obter 100 Fragmentos Hex para aprimorar a ultimate.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fragmentos por abates aprimoram ferramentas.",
+        "limit": "A versão disponível depende dos fragmentos coletados."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Mantém dano por uma região preparada e freia aproximações.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Buscar ataque fortalecido em alcance perigoso pode perder toda a posição.",
+      "Precisa redirecionar para uma região útil sem expor o corpo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Mantém dano por uma região preparada e freia aproximações.",
+        "plan": "Gerencie mana e renda para evoluir, resolvendo a wave antes de sair.",
+        "against": "Mude o ângulo para sair da preparação e evite permanecer agrupado no campo de dano.",
+        "resource": "Mantém dano por uma região preparada e freia aproximações.",
+        "caution": "Buscar ataque fortalecido em alcance perigoso pode perder toda a posição."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Mantém dano por uma região preparada e freia aproximações.",
+        "plan": "Ataque com cobertura e controle a área em que a entrada tentaria chegar.",
+        "against": "Mude o ângulo para sair da preparação e evite permanecer agrupado no campo de dano.",
+        "resource": "Mantém dano por uma região preparada e freia aproximações.",
+        "caution": "Buscar ataque fortalecido em alcance perigoso pode perder toda a posição."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Mantém dano por uma região preparada e freia aproximações.",
+        "plan": "Preserve espaço e continuidade sem andar à frente por um alvo ideal.",
+        "against": "Na luta decisiva, mude o ângulo para sair da preparação e evite permanecer agrupado no campo de dano.",
+        "resource": "Mantém dano por uma região preparada e freia aproximações.",
+        "caution": "Buscar ataque fortalecido em alcance perigoso pode perder toda a posição."
       }
     },
     "strengths": [
-      "Poder do Sifão: Viktor explode uma unidade inimiga com Dano Mágico, recebendo um Escudo e fortalecendo seu próximo ataque básico. Aprimoramento: o Escudo de Poder do Sifão aumenta em 60% e Viktor recebe Velocidade de Movimento adicional depois de conjurar a habilidade.",
-      "Tempestade Arcana: Viktor conjura uma Tempestade Arcana no campo, causando Dano Mágico e interrompendo canalizações inimigas. A Tempestade causa Dano Mágico periodicamente a todos os inimigos próximos e pode ser redirecionada por Viktor. Aprimoramento: A Tempestade Arcana se move 25% mais rapidamente e, sempre que Campeões morrem após sofrer dano dela, aumenta de tamanho e duração."
+      "Mantém dano por uma região preparada e freia aproximações.",
+      "Área móvel dá dano e interrompe canalizações na chegada."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

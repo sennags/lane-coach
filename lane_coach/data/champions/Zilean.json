@@ -24,7 +24,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Bomba dá dano atrasado; outra bomba antecipa e atordoa.",
+        "limit": "O controle depende da sequência e da posição das unidades."
+      }
     },
     {
       "id": "Zilean.W",
@@ -37,7 +41,11 @@
         10,
         8,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Reduz recargas das outras habilidades básicas.",
+        "limit": "Não renova livremente a ultimate."
+      }
     },
     {
       "id": "Zilean.E",
@@ -50,7 +58,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Acelera aliado ou desacelera inimigo.",
+        "limit": "A escolha muda entre apoio de movimento e limitação da ameaça."
+      }
     },
     {
       "id": "Zilean.R",
@@ -61,48 +73,64 @@
         120,
         90,
         60
-      ]
+      ],
+      "coaching": {
+        "use": "Proteção devolve um aliado após dano letal.",
+        "limit": "O retorno depende de receber dano letal durante a janela."
+      }
     },
     {
       "id": "Zilean.P",
       "ability": "P",
       "name": "Tempo Engarrafado",
       "description": "Zilean armazena tempo como Experiência, podendo concedê-la aos aliados. Quando tiver Experiência o suficiente para completar o nível de um aliado, Zilean pode clicar com o botão direito nele para conceder os pontos. Zilean recebe a mesma quantidade de Experiência que concede.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Experiência armazenada pode completar o nível de um aliado.",
+        "limit": "Precisa atingir o valor necessário antes de transferir."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Usar a proteção cedo sem ameaça pode deixar a resposta decisiva indisponível.",
+      "O retorno depende de receber dano letal durante a janela."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+        "plan": "Cubra farm e movimento do parceiro, preservando mana para recuo e defesa.",
+        "against": "Mude o foco durante a proteção e cubra a chegada do aliado que retornar.",
+        "resource": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+        "caution": "Usar a proteção cedo sem ameaça pode deixar a resposta decisiva indisponível."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+        "plan": "Acompanhe o aliado útil sem avançar sozinho para preparar controle.",
+        "against": "Mude o foco durante a proteção e cubra a chegada do aliado que retornar.",
+        "resource": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+        "caution": "Usar a proteção cedo sem ameaça pode deixar a resposta decisiva indisponível."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+        "plan": "Antecipe o foco importante e prepare apoio para a posição de retorno.",
+        "against": "Na luta decisiva, mude o foco durante a proteção e cubra a chegada do aliado que retornar.",
+        "resource": "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+        "caution": "Usar a proteção cedo sem ameaça pode deixar a resposta decisiva indisponível."
       }
     },
     "strengths": [
-      "Bomba-relógio: Arremessa uma bomba no local-alvo, que gruda em unidades que se aproximarem (priorizando Campeões). Ela detona após 3 segundos, causando dano em área. Se uma Bomba-relógio for detonada antecipadamente por outra, o efeito também atordoa inimigos.",
-      "Alteração Temporal: Zilean coloca uma runa protetora do tempo em um Campeão aliado, teletransportando-o de volta no tempo se ele receber um dano letal."
+      "Protege uma janela de sobrevivência e ajusta a distância da luta.",
+      "Proteção devolve um aliado após dano letal."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

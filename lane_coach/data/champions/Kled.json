@@ -23,7 +23,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Vínculo puxa se mantido; desmontado usa disparo com recuo.",
+        "limit": "A ferramenta muda conforme a montaria."
+      }
     },
     {
       "id": "Kled.W",
@@ -36,7 +40,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Quatro ataques rápidos culminam em dano ampliado.",
+        "limit": "Precisa manter o alvo ao alcance até o quarto."
+      }
     },
     {
       "id": "Kled.E",
@@ -49,7 +57,11 @@
         11,
         10,
         9
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço pode ser repetido através do alvo inicial.",
+        "limit": "A continuação depende daquele alvo e de uma chegada útil."
+      }
     },
     {
       "id": "Kled.R",
@@ -60,48 +72,64 @@
         140,
         125,
         110
-      ]
+      ],
+      "coaching": {
+        "use": "Corrida abre caminho e alcança o primeiro campeão encontrado.",
+        "limit": "Um alvo diferente pode interceptar a chegada."
+      }
     },
     {
       "id": "Kled.P",
       "ability": "P",
       "name": "Skaarl, a Lagarto Covarde",
       "description": "Kled fica em sua possante montaria, Skaarl, que toma dano por ele. Quando a Vida dela acaba, Kled desmonta. Enquanto desmontado, as habilidades de Kled mudam e ele causa menos dano a Campeões. Kled pode restaurar a coragem de Skaarl ao enfrentar inimigos. Quando a coragem chega ao máximo, Kled volta a montar em Skaarl com uma parte de sua Vida.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Skaarl absorve dano; coragem pode recuperar a montaria.",
+        "limit": "Desmontado perde recursos e não remonta sem completar coragem."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "A perda da montaria pode mudar toda a continuação esperada.",
+      "Um alvo diferente pode interceptar a chegada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+        "plan": "Planeje farm e coragem sem perseguir através da wave só para remontar.",
+        "against": "Observe a montaria e proteja quem intercepta a entrada.",
+        "resource": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+        "caution": "A perda da montaria pode mudar toda a continuação esperada."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+        "plan": "Escolha uma corrida que aliados acompanhem e um alvo ao alcance.",
+        "against": "Observe a montaria e proteja quem intercepta a entrada.",
+        "resource": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+        "caution": "A perda da montaria pode mudar toda a continuação esperada."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+        "plan": "Entre quando a formação puder continuar a pressão, avaliando montaria e saída.",
+        "against": "Na luta decisiva, observe a montaria e proteja quem intercepta a entrada.",
+        "resource": "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+        "caution": "A perda da montaria pode mudar toda a continuação esperada."
       }
     },
     "strengths": [
-      "Armadilha na Corda: Kled arremessa uma armadilha de urso que causa dano e se prende a um Campeão inimigo. Caso fique preso por um curto período, o alvo recebe Dano Físico adicional e é puxado em direção a Kled. Quando desmontado, esta habilidade é substituída por Pistola de Bolso, um disparo a distância que empurra Kled para trás e restaura coragem.",
-      "Avançaaaaaaar!!!: Kled e Skaarl avançam em direção a um local, deixando um rastro que concede velocidade e criando um escudo. Skaarl marca e vai de encontro ao primeiro Campeão inimigo encontrado."
+      "Compromete uma entrada próxima e mantém pressão enquanto montado.",
+      "Corrida abre caminho e alcança o primeiro campeão encontrado."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

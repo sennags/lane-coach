@@ -24,7 +24,11 @@
         8,
         7,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Ataque em área pode repetir; dragão amplia reconjurações.",
+        "limit": "A sequência depende da forma disponível."
+      }
     },
     {
       "id": "Shyvana.W",
@@ -37,7 +41,11 @@
         11.5,
         10.75,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo e movimento preparam explosão próxima.",
+        "limit": "Cura na explosão exige forma de dragão e acerto em campeão."
+      }
     },
     {
       "id": "Shyvana.E",
@@ -50,7 +58,11 @@
         10,
         9,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Projétil explode em alvo grande; dragão deixa pressão no caminho.",
+        "limit": "Forma e bloqueadores mudam a região ameaçada."
+      }
     },
     {
       "id": "Shyvana.R",
@@ -61,48 +73,64 @@
         0,
         0,
         0
-      ]
+      ],
+      "coaching": {
+        "use": "Transformação dá entrada e fortalece habilidades.",
+        "limit": "A função muda com a forma; planeje a chegada."
+      }
     },
     {
       "id": "Shyvana.P",
       "ability": "P",
       "name": "Armadura de Escamas",
       "description": "Eliminar Campeões inimigos, tropas grandes e monstros grandes concede a Shyvana acúmulos de Armadura de Escamas, melhorando suas defesas.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Abates dos alvos indicados acumulam defesas.",
+        "limit": "O crescimento exige renda e participação nas eliminações."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Transformar e chegar sem acesso aos alvos pode desperdiçar toda a janela.",
+      "A função muda com a forma; planeje a chegada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+        "plan": "Priorize renda para preparar defesas; na rota, resolva a wave antes de sair.",
+        "against": "Abra espaço entre aliados e acompanhe a região de chegada.",
+        "resource": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+        "caution": "Transformar e chegar sem acesso aos alvos pode desperdiçar toda a janela."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+        "plan": "Entre com apoio e mantenha um alvo alcançável sem perseguir longe.",
+        "against": "Abra espaço entre aliados e acompanhe a região de chegada.",
+        "resource": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+        "caution": "Transformar e chegar sem acesso aos alvos pode desperdiçar toda a janela."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+        "plan": "Espere a formação permitir contato útil antes de comprometer a transformação.",
+        "against": "Na luta decisiva, abra espaço entre aliados e acompanhe a região de chegada.",
+        "resource": "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+        "caution": "Transformar e chegar sem acesso aos alvos pode desperdiçar toda a janela."
       }
     },
     "strengths": [
-      "Golpe de Brasas: O próximo ataque de Shyvana atinge tanto o alvo quanto a área ao redor. A Habilidade pode ser reconjurada. Quando assume a Forma de Dragão, ela ganha uma reconjuração adicional, causando muito dano a um único alvo.",
-      "Descida do Dragão: Shyvana se transforma em um Dragão e avança, fazendo os inimigos no caminho fugirem. Durante a Forma de Dragão, ela fica maior e suas habilidades básicas são fortalecidas."
+      "Pressiona alvos próximos com entrada fortalecida pela transformação.",
+      "Transformação dá entrada e fortalece habilidades."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

@@ -24,7 +24,11 @@
         9,
         8.5,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe curto ou puxada cria oportunidade no alvo.",
+        "limit": "A puxada pode entregar uma ameaça perto dos aliados."
+      }
     },
     {
       "id": "Pyke.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Camuflagem e movimento preparam aproximação.",
+        "limit": "O movimento decai; não garante toda saída."
+      }
     },
     {
       "id": "Pyke.E",
@@ -50,7 +58,11 @@
         13,
         12,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Avanço deixa trajeto de controle atrás do corpo.",
+        "limit": "O caminho de retorno precisa atravessar o inimigo."
+      }
     },
     {
       "id": "Pyke.R",
@@ -61,48 +73,64 @@
         100,
         85,
         70
-      ]
+      ],
+      "coaching": {
+        "use": "Executa alvos fragilizados e permite continuação.",
+        "limit": "A continuação exige finalizar; não entre contando com reinício sem abate."
+      }
     },
     {
       "id": "Pyke.P",
       "ability": "P",
       "name": "Dádiva dos Afogados",
       "description": "Quando Pyke está escondido dos inimigos, ele regenera o dano recebido recentemente de Campeões. Pyke também não ganha Vida máxima adicional de nenhuma fonte, mas ganha DdA adicional.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fora da visão recupera dano recente; vida adicional vira ataque.",
+        "limit": "Não recebe a mesma resistência de vida que uma frente convencional."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Cria uma captura e procura uma finalização com saída.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Tratar mobilidade como resistência pode resultar em entrada sem sobrevivência.",
+      "A continuação exige finalizar; não entre contando com reinício sem abate."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Cria uma captura e procura uma finalização com saída.",
+        "plan": "Ameace farm inimigo sem abandonar cobertura do parceiro ou renda da wave.",
+        "against": "Proteja aliados de pouca vida e acompanhe o caminho depois da entrada.",
+        "resource": "Cria uma captura e procura uma finalização com saída.",
+        "caution": "Tratar mobilidade como resistência pode resultar em entrada sem sobrevivência."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Cria uma captura e procura uma finalização com saída.",
+        "plan": "Pressione um ângulo sem ser o primeiro corpo a receber foco.",
+        "against": "Proteja aliados de pouca vida e acompanhe o caminho depois da entrada.",
+        "resource": "Cria uma captura e procura uma finalização com saída.",
+        "caution": "Tratar mobilidade como resistência pode resultar em entrada sem sobrevivência."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Cria uma captura e procura uma finalização com saída.",
+        "plan": "Espere alvo fragilizado e preserve recuo caso a execução não aconteça.",
+        "against": "Na luta decisiva, proteja aliados de pouca vida e acompanhe o caminho depois da entrada.",
+        "resource": "Cria uma captura e procura uma finalização com saída.",
+        "caution": "Tratar mobilidade como resistência pode resultar em entrada sem sobrevivência."
       }
     },
     "strengths": [
-      "Espeto de Osso: Pyke esfaqueia um inimigo à sua frente ou puxa um inimigo em direção a si mesmo.",
-      "Morte das Profundezas: Pyke teleporta até inimigos com Vida baixa e os executa, permitindo que ele conjure a habilidade novamente e concedendo ouro adicional ao aliado que der assistência."
+      "Cria uma captura e procura uma finalização com saída.",
+      "Executa alvos fragilizados e permite continuação."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

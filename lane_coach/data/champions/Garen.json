@@ -24,7 +24,11 @@
         8,
         8,
         8
-      ]
+      ],
+      "coaching": {
+        "use": "Velocidade remove lentidão e prepara ataque que silencia.",
+        "limit": "Precisa alcançar o alvo para aplicar o ataque."
+      }
     },
     {
       "id": "Garen.W",
@@ -37,7 +41,11 @@
         17,
         14.5,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Farm aumenta defesas; ativa proteção temporária.",
+        "limit": "A defesa ativa depende da janela de uso."
+      }
     },
     {
       "id": "Garen.E",
@@ -50,7 +58,11 @@
         7.5,
         6.75,
         6
-      ]
+      ],
+      "coaching": {
+        "use": "Dano contínuo ao redor acompanha contato próximo.",
+        "limit": "O alvo pode sair do alcance."
+      }
     },
     {
       "id": "Garen.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Golpe busca finalizar um campeão.",
+        "limit": "Ter a execução disponível não garante acesso ao alvo."
+      }
     },
     {
       "id": "Garen.P",
       "ability": "P",
       "name": "Perseverança",
       "description": "Se Garen não tiver sido atingido recentemente por dano ou habilidades inimigas, ele regenera um percentual de sua Vida total a cada segundo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Fora da pressão inimiga regenera vida.",
+        "limit": "Receber dano impede aproveitar essa recuperação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Sem acesso ao alvo, correr para dentro da formação só entrega foco.",
+      "Ter a execução disponível não garante acesso ao alvo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+        "plan": "Use janelas fora da pressão para recuperar vida e preservar farm.",
+        "against": "Mantenha distância e cubra quem ele tenta alcançar, evitando perseguição curta isolada.",
+        "resource": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+        "caution": "Sem acesso ao alvo, correr para dentro da formação só entrega foco."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+        "plan": "Acompanhe a aproximação do time sem perseguir um alvo que se afasta de todos.",
+        "against": "Mantenha distância e cubra quem ele tenta alcançar, evitando perseguição curta isolada.",
+        "resource": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+        "caution": "Sem acesso ao alvo, correr para dentro da formação só entrega foco."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+        "plan": "Proteja espaço e procure uma finalização acessível sem abandonar o apoio.",
+        "against": "Na luta decisiva, mantenha distância e cubra quem ele tenta alcançar, evitando perseguição curta isolada.",
+        "resource": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+        "caution": "Sem acesso ao alvo, correr para dentro da formação só entrega foco."
       }
     },
     "strengths": [
-      "Acerto Decisivo: Garen recebe um impulso de Velocidade de Movimento, libertando-se de todos os efeitos de Lentidão. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o.",
-      "Justiça Demaciana: Garen evoca o Poder de Demacia para tentar executar um Campeão inimigo."
+      "Pressiona um alvo alcançável e recua para recuperar capacidade de combate.",
+      "Golpe busca finalizar um campeão."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

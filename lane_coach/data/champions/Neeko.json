@@ -24,7 +24,11 @@
         8,
         7.5,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Área repete dano ao atingir campeão ou abater unidade.",
+        "limit": "As flores adicionais dependem dessas condições."
+      }
     },
     {
       "id": "Neeko.W",
@@ -37,7 +41,11 @@
         14,
         13,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Terceiro ataque fortalece dano; clone distrai por um caminho.",
+        "limit": "Clone não substitui saída real para Neeko."
+      }
     },
     {
       "id": "Neeko.E",
@@ -50,7 +58,11 @@
         11,
         10.5,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Linha enraíza e pode fortalecer ao atravessar os alvos indicados.",
+        "limit": "O caminho e a primeira passagem mudam a força do controle."
+      }
     },
     {
       "id": "Neeko.R",
@@ -61,48 +73,64 @@
         120,
         105,
         90
-      ]
+      ],
+      "coaching": {
+        "use": "Preparação próxima leva a arremesso e atordoamento.",
+        "limit": "É preciso chegar ao grupo e sobreviver à preparação."
+      }
     },
     {
       "id": "Neeko.P",
       "ability": "P",
       "name": "Encanto Inerente",
       "description": "Neeko pode imitar um Campeão aliado ou outras unidades no mapa. O disfarce será quebrado ao sofrer efeitos de Controle de Grupo imobilizantes, conjurar habilidades de dano, causar dano a torres inimigas como um não Campeão ou sofrer dano equivalente à barra de Vida do disfarce.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Disfarce oculta identidade e pode esconder preparação da entrada.",
+        "limit": "Controle e ações indicadas no kit quebram o disfarce."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Ameaça uma entrada inesperada e controle em grupo.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Chegar sozinha sem continuação pode gastar o controle sem resultado.",
+      "É preciso chegar ao grupo e sobreviver à preparação."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Ameaça uma entrada inesperada e controle em grupo.",
+        "plan": "Organize a wave antes de sair ou preparar uma aproximação disfarçada.",
+        "against": "Observe unidades e acessos incomuns, evitando reunir toda a formação.",
+        "resource": "Ameaça uma entrada inesperada e controle em grupo.",
+        "caution": "Chegar sozinha sem continuação pode gastar o controle sem resultado."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Ameaça uma entrada inesperada e controle em grupo.",
+        "plan": "Prepare um ângulo acompanhado sem revelar cedo a aproximação.",
+        "against": "Observe unidades e acessos incomuns, evitando reunir toda a formação.",
+        "resource": "Ameaça uma entrada inesperada e controle em grupo.",
+        "caution": "Chegar sozinha sem continuação pode gastar o controle sem resultado."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Ameaça uma entrada inesperada e controle em grupo.",
+        "plan": "Espere um grupo alcançável e apoio para continuar depois da entrada.",
+        "against": "Na luta decisiva, observe unidades e acessos incomuns, evitando reunir toda a formação.",
+        "resource": "Ameaça uma entrada inesperada e controle em grupo.",
+        "caution": "Chegar sozinha sem continuação pode gastar o controle sem resultado."
       }
     },
     "strengths": [
-      "Explosão Florescente: Neeko arremessa uma semente, causando Dano Mágico. A semente floresce novamente ao atingir Campeões ou abater unidades.",
-      "Florescer Repentino: Após uma curta preparação, Neeko salta, arremessando ao ar todos os inimigos próximos. Ao aterrissar, inimigos próximos sofrem dano e atordoamento. A preparação fica oculta se Neeko estiver disfarçada."
+      "Ameaça uma entrada inesperada e controle em grupo.",
+      "Preparação próxima leva a arremesso e atordoamento."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

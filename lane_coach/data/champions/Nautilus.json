@@ -24,7 +24,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Âncora aproxima inimigo ou puxa Nautilus ao terreno.",
+        "limit": "A colisão determina a posição de chegada."
+      }
     },
     {
       "id": "Nautilus.W",
@@ -37,7 +41,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Escudo fortalece os ataques enquanto persiste.",
+        "limit": "Quebrar a proteção retira a mesma janela ofensiva."
+      }
     },
     {
       "id": "Nautilus.E",
@@ -50,7 +58,11 @@
         6,
         5.5,
         5
-      ]
+      ],
+      "coaching": {
+        "use": "Ondas próximas dão dano e lentidão.",
+        "limit": "Precisa manter alvos perto."
+      }
     },
     {
       "id": "Nautilus.R",
@@ -61,48 +73,64 @@
         120,
         100,
         80
-      ]
+      ],
+      "coaching": {
+        "use": "Controle persegue o alvo e afeta o caminho.",
+        "limit": "A posição dos outros inimigos muda o impacto em grupo."
+      }
     },
     {
       "id": "Nautilus.P",
       "ability": "P",
       "name": "Âncora Impactante",
       "description": "O primeiro Ataque de Nautilus a um alvo causa Dano Físico aumentado e Enraíza-o brevemente.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Primeiro ataque enraíza o alvo.",
+        "limit": "Exige contato; não substitui alcançar a ameaça."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "identity": "Prende uma ameaça para o time ou protege contra entrada.",
     "weaknesses": [
-      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
-      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+      "Entrada sem apoio pode gastar toda a proteção antes da resposta aliada.",
+      "A posição dos outros inimigos muda o impacto em grupo."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
-        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
-        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+        "typical": "Prende uma ameaça para o time ou protege contra entrada.",
+        "plan": "Mantenha cobertura do parceiro ao disputar espaço e farm.",
+        "against": "Observe a linha do controle e não alinhe a formação atrás do alvo marcado.",
+        "resource": "Prende uma ameaça para o time ou protege contra entrada.",
+        "caution": "Entrada sem apoio pode gastar toda a proteção antes da resposta aliada."
       },
       "mid": {
-        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
-        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
-        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+        "typical": "Prende uma ameaça para o time ou protege contra entrada.",
+        "plan": "Inicie em alvo que os aliados alcancem sem avançar sozinho demais.",
+        "against": "Observe a linha do controle e não alinhe a formação atrás do alvo marcado.",
+        "resource": "Prende uma ameaça para o time ou protege contra entrada.",
+        "caution": "Entrada sem apoio pode gastar toda a proteção antes da resposta aliada."
       },
       "late": {
-        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
-        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
-        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+        "typical": "Prende uma ameaça para o time ou protege contra entrada.",
+        "plan": "Fique perto da ameaça ao causador de dano e escolha controle com continuação.",
+        "against": "Na luta decisiva, observe a linha do controle e não alinhe a formação atrás do alvo marcado.",
+        "resource": "Prende uma ameaça para o time ou protege contra entrada.",
+        "caution": "Entrada sem apoio pode gastar toda a proteção antes da resposta aliada."
       }
     },
     "strengths": [
-      "Lançar Âncora: Nautilus arremessa sua âncora à frente. Se acertar um inimigo, ele puxa a si mesmo e ao alvo para perto um do outro, causando Dano Mágico. Se acertar um terreno, Nautilus avança em direção a ele.",
-      "Carga de Profundidade: Nautilus lança uma onda de choque na terra que persegue o oponente. Essa onda rasga a terra em cima dela, arremessando os inimigos ao ar. Quando ela alcança o oponente, a onda de choque explode, arremessando o alvo ao ar e atordoando ele."
+      "Prende uma ameaça para o time ou protege contra entrada.",
+      "Controle persegue o alvo e afeta o caminho."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Tanque",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

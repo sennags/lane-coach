@@ -23,7 +23,11 @@
         9,
         8,
         7
-      ]
+      ],
+      "coaching": {
+        "use": "Explosão da esfera atordoa inimigos na área.",
+        "limit": "O controle depende de posicionar a explosão."
+      }
     },
     {
       "id": "Anivia.W",
@@ -36,7 +40,11 @@
         17,
         17,
         17
-      ]
+      ],
+      "coaching": {
+        "use": "Parede bloqueia o movimento e separa caminhos.",
+        "limit": "Também pode bloquear a saída de um aliado."
+      }
     },
     {
       "id": "Anivia.E",
@@ -49,7 +57,11 @@
         4,
         4,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Dano dobrado após os efeitos de gelo indicados no kit.",
+        "limit": "O bônus depende da preparação com Q ou tempestade formada."
+      }
     },
     {
       "id": "Anivia.R",
@@ -60,48 +72,64 @@
         4,
         3,
         2
-      ]
+      ],
+      "coaching": {
+        "use": "Área contínua reduz velocidade e causa dano.",
+        "limit": "O inimigo precisa permanecer na região ameaçada."
+      }
     },
     {
       "id": "Anivia.P",
       "ability": "P",
       "name": "Renascimento",
       "description": "Ao receber dano letal, Anivia volta à forma de ovo e renasce com a Vida completa.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Dano letal transforma em ovo, permitindo renascer.",
+        "limit": "O ovo ainda precisa sobreviver para completar o retorno."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "identity": "Controla passagens e dificulta a aproximação inimiga.",
     "weaknesses": [
-      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
-      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+      "Uma parede mal colocada pode fechar o recuo do próprio time.",
+      "O inimigo precisa permanecer na região ameaçada."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
-        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
-        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+        "typical": "Controla passagens e dificulta a aproximação inimiga.",
+        "plan": "Use controle da wave para planejar recuo; preserve recursos para defender aproximações.",
+        "against": "Evite reunir o time em um acesso estreito e mantenha uma rota alternativa.",
+        "resource": "Controla passagens e dificulta a aproximação inimiga.",
+        "caution": "Uma parede mal colocada pode fechar o recuo do próprio time."
       },
       "mid": {
-        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
-        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
-        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+        "typical": "Controla passagens e dificulta a aproximação inimiga.",
+        "plan": "Jogue atrás de cobertura e separe quem avança do restante do time.",
+        "against": "Evite reunir o time em um acesso estreito e mantenha uma rota alternativa.",
+        "resource": "Controla passagens e dificulta a aproximação inimiga.",
+        "caution": "Uma parede mal colocada pode fechar o recuo do próprio time."
       },
       "late": {
-        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
-        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
-        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+        "typical": "Controla passagens e dificulta a aproximação inimiga.",
+        "plan": "Proteja o espaço de ataque dos aliados; não abandone sua posição por um alvo distante.",
+        "against": "Na luta decisiva, evite reunir o time em um acesso estreito e mantenha uma rota alternativa.",
+        "resource": "Controla passagens e dificulta a aproximação inimiga.",
+        "caution": "Uma parede mal colocada pode fechar o recuo do próprio time."
       }
     },
     "strengths": [
-      "Lampejo Gelado: Anivia junta suas asas e invoca uma esfera de gelo que voa em direção ao oponente, congelando e causando dano a qualquer um em seu caminho. Ao explodir, ela causa dano moderado em um raio, atordoando qualquer um dentro da área.",
-      "Tempestade Glacial: Anivia invoca uma chuva torrencial de gelo e granizo para causar dano aos inimigos e atrasar seu avanço."
+      "Controla passagens e dificulta a aproximação inimiga.",
+      "Área contínua reduz velocidade e causa dano."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Mago",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [

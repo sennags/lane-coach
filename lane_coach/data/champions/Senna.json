@@ -24,7 +24,11 @@
         15,
         15,
         15
-      ]
+      ],
+      "coaching": {
+        "use": "Linha cura aliados e causa dano a inimigos.",
+        "limit": "Precisa alinhar unidades para aproveitar os dois efeitos."
+      }
     },
     {
       "id": "Senna.W",
@@ -37,7 +41,11 @@
         11,
         11,
         11
-      ]
+      ],
+      "coaching": {
+        "use": "Marca prepara enraizamento próximo após intervalo.",
+        "limit": "O alvo pode se afastar dos aliados antes do controle."
+      }
     },
     {
       "id": "Senna.E",
@@ -50,7 +58,11 @@
         23,
         21.5,
         20
-      ]
+      ],
+      "coaching": {
+        "use": "Névoa ajuda aliados próximos a ocultar a aproximação.",
+        "limit": "A cobertura depende da região e não garante toda entrada segura."
+      }
     },
     {
       "id": "Senna.R",
@@ -61,48 +73,64 @@
         140,
         120,
         100
-      ]
+      ],
+      "coaching": {
+        "use": "Linha global protege aliados e dá dano no centro.",
+        "limit": "A posição dos alvos determina proteção e acerto central."
+      }
     },
     {
       "id": "Senna.P",
       "ability": "P",
       "name": "Absolvição",
       "description": "Quando unidades são abatidas perto de Senna, suas almas são periodicamente aprisionadas na Névoa Negra. Senna pode atacar essas almas para libertá-las, absorvendo a Névoa que as aprisiona na morte. A Névoa é o combustível do poder de seu Canhão Relicário, alimentando-o com Dano de Ataque, Alcance de Ataque e Chance de Acerto Crítico. Ataques do Canhão Relicário de Senna demoram mais para disparar, causam dano adicional e concedem a ela brevemente uma parte da Velocidade de Movimento do alvo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Coletar almas amplia ataque, alcance e crítico.",
+        "limit": "A coleta pode exigir sair da proteção."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "identity": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
     "weaknesses": [
-      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
-      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+      "Coletar em região ameaçada pode retirar toda a segurança do alcance.",
+      "A posição dos alvos determina proteção e acerto central."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
-        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
-        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+        "typical": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+        "plan": "Planeje coleta e farm junto da wave sem expor o parceiro.",
+        "against": "Pressione seu espaço de ataque com apoio e não alinhe vários alvos à distância.",
+        "resource": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+        "caution": "Coletar em região ameaçada pode retirar toda a segurança do alcance."
       },
       "mid": {
-        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
-        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
-        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+        "typical": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+        "plan": "Pressione um alvo acessível sem sair da cobertura por uma alma.",
+        "against": "Pressione seu espaço de ataque com apoio e não alinhe vários alvos à distância.",
+        "resource": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+        "caution": "Coletar em região ameaçada pode retirar toda a segurança do alcance."
       },
       "late": {
-        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
-        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
-        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+        "typical": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+        "plan": "Mantenha apoio e dano de trás da formação, preservando espaço para recuar.",
+        "against": "Na luta decisiva, pressione seu espaço de ataque com apoio e não alinhe vários alvos à distância.",
+        "resource": "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+        "caution": "Coletar em região ameaçada pode retirar toda a segurança do alcance."
       }
     },
     "strengths": [
-      "Escuridão Perfurante: Dos canos gêmeos de seu Canhão Relicário, Senna dispara um raio unificado de luz e sombra através do alvo, curando aliados e causando dano a inimigos.",
-      "Sombra da Alvorada: Senna invoca as pedras relicárias dos Sentinelas caídos, dividindo seu canhão relicário em uma miríade de luz e sombra. Ela, então, dispara um raio global que concede escudo a aliados, enquanto causa dano aos inimigos atingidos no centro."
+      "Ataca com alcance enquanto apoia a sobrevivência aliada.",
+      "Linha global protege aliados e dá dano no centro."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Suporte",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],

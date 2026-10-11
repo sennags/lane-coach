@@ -24,7 +24,11 @@
         5,
         4.5,
         4
-      ]
+      ],
+      "coaching": {
+        "use": "Acertos preparam velocidade; borda dá dano verdadeiro.",
+        "limit": "O benefício da borda exige manter a distância correta."
+      }
     },
     {
       "id": "Lillia.W",
@@ -37,7 +41,11 @@
         12,
         11,
         10
-      ]
+      ],
+      "coaching": {
+        "use": "Centro da área causa dano ampliado.",
+        "limit": "A aproximação para o centro pode expor a posição."
+      }
     },
     {
       "id": "Lillia.E",
@@ -50,7 +58,11 @@
         12,
         12,
         12
-      ]
+      ],
+      "coaching": {
+        "use": "Semente continua até colidir e desacelera.",
+        "limit": "Bloqueadores mudam quem recebe a pressão."
+      }
     },
     {
       "id": "Lillia.R",
@@ -61,48 +73,64 @@
         150,
         130,
         110
-      ]
+      ],
+      "coaching": {
+        "use": "Alvos afetados ficam sonolentos e depois dormem.",
+        "limit": "Precisa da marca e do intervalo; o time deve aproveitar o despertar."
+      }
     },
     {
       "id": "Lillia.P",
       "ability": "P",
       "name": "Ramo Onírico",
       "description": "Atingir um Campeão ou monstro com uma habilidade causa dano adicional com base na Vida máxima do alvo ao longo do tempo.",
-      "cooldown": null
+      "cooldown": null,
+      "coaching": {
+        "use": "Habilidades aplicam dano prolongado pela vida do alvo.",
+        "limit": "Depende de conectar dano antes da continuação."
+      }
     }
   ],
   "tips": [],
   "profile": {
-    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "identity": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
     "weaknesses": [
-      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
-      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+      "Parar para buscar dano máximo pode perder a vantagem de posicionamento.",
+      "Precisa da marca e do intervalo; o time deve aproveitar o despertar."
     ],
     "phases": {
       "lane": {
-        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "typical": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+        "plan": "Mantenha renda e movimento; na rota, não comprometa todos os caminhos para empurrar.",
+        "against": "Evite agrupar alvos já afetados e reduza seus caminhos de movimento.",
+        "resource": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+        "caution": "Parar para buscar dano máximo pode perder a vantagem de posicionamento."
       },
       "mid": {
-        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "typical": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+        "plan": "Circule perto do apoio e cause dano sem parar no meio das ameaças.",
+        "against": "Evite agrupar alvos já afetados e reduza seus caminhos de movimento.",
+        "resource": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+        "caution": "Parar para buscar dano máximo pode perder a vantagem de posicionamento."
       },
       "late": {
-        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "typical": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+        "plan": "Espere uma janela em que o time possa aproveitar o controle antes de se comprometer.",
+        "against": "Na luta decisiva, evite agrupar alvos já afetados e reduza seus caminhos de movimento.",
+        "resource": "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+        "caution": "Parar para buscar dano máximo pode perder a vantagem de posicionamento."
       }
     },
     "strengths": [
-      "Golpes Florescentes: Lillia ganha acúmulos de Velocidade de Movimento passivamente ao atingir inimigos com habilidades. Ela pode ativar esta habilidade para causar Dano Mágico aos inimigos próximos e Dano Verdadeiro adicional na porção externa do círculo.",
-      "Cadência de Ninar: Todos os inimigos com Pó dos Sonhos são afetados por Sonolência e adormecem em seguida. Esses inimigos sofrem dano adicional se forem acordados de forma abrupta por dano."
+      "Pressiona entrando e saindo do alcance, preparando controle em grupo.",
+      "Alvos afetados ficam sonolentos e depois dormem."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11"
   },
   "official_tips": {
     "own": [],
