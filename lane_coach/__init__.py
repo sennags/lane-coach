@@ -5,7 +5,7 @@ from pathlib import Path
 from flask import Flask, jsonify, render_template, request
 
 from . import db
-from .knowledge import KnowledgeBase, LANES
+from .knowledge import KnowledgeBase, LANES, MAINTENANCE_CHAMPIONS
 from .generation import preview_ai
 
 
@@ -24,7 +24,7 @@ def create_app(test_config=None):
     with app.app_context():
         db.initialize()
 
-    def page(guide=None, message=None, status=200):
+    def page(guide=None, message=None, status=200, message_title='Seleção inválida'):
         champions = sorted(knowledge.champions.values(), key=lambda champion: champion['name'])
         choices = {champion['id']: champion for champion in champions}
         own = request.args.get('champion', 'Yone')
@@ -33,6 +33,7 @@ def create_app(test_config=None):
             'index.html', champions=champions, own=choices.get(own, choices['Yone']),
             enemy=choices.get(enemy, choices['Ahri']), guide=guide, message=message,
             lanes=LANES, selected_lane=request.args.get('lane', 'general'),
+            maintenance_champions=MAINTENANCE_CHAMPIONS, message_title=message_title,
         ), status
 
     @app.get('/')
@@ -52,6 +53,9 @@ def create_app(test_config=None):
             return page(message='Escolha dois campeões diferentes para este confronto.', status=400)
         if lane not in LANES:
             return page(message='Escolha uma lane disponível na lista.', status=400)
+        if own in MAINTENANCE_CHAMPIONS or enemy in MAINTENANCE_CHAMPIONS:
+            return page(message='Aphelios e Hwei estão em manutenção para revisão dos seus kits diferenciados. Escolha outro campeão.',
+                        status=503, message_title='Campeão em manutenção')
         return page(guide=knowledge.guide(own, enemy, lane))
 
     @app.get('/healthz')

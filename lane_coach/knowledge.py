@@ -8,6 +8,9 @@ from pathlib import Path
 LANES = {'general': 'Selecionar lane', 'top': 'Top', 'jungle': 'Jungle', 'mid': 'Mid', 'adc': 'ADC', 'support': 'Support'}
 
 
+MAINTENANCE_CHAMPIONS = frozenset({'Aphelios', 'Hwei'})
+
+
 class KnowledgeBase:
     def __init__(self, directory=None):
         directory = directory or Path(__file__).parent / 'data' / 'champions'
@@ -62,6 +65,8 @@ class KnowledgeBase:
             raise ValueError('Unsupported matchup')
         if own not in self.champions or enemy not in self.champions:
             raise ValueError('Unknown champion')
+        if own in MAINTENANCE_CHAMPIONS or enemy in MAINTENANCE_CHAMPIONS:
+            raise ValueError('Champion under maintenance')
         return deepcopy({
             'version': self.version, 'lane': lane,
             'own': self.champions[own], 'enemy': self.champions[enemy],

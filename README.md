@@ -16,7 +16,7 @@ py -3 -m venv .venv
 
 Abra http://127.0.0.1:5000. O Waitress escuta apenas neste computador por padrão. Ctrl+C encerra. Não é necessário ativar a venv.
 
-A página inicial mostra Yone e Ahri. **Trocar campeão** abre uma seleção pesquisável com os 173 campeões; a escolha consulta o Flask e atualiza os dois perfis. A seleção impede repetir o adversário, e o servidor valida todas as entradas. A lane (Top, Jungle, Mid, ADC ou Support) pode ser escolhida abaixo do VS e é preservada ao trocar campeão. Ela registra o contexto; os planos atuais ainda são gerais por campeão e não mudam conforme a rota. As abas Lane phase, Mid game e Late game alternam os planos dos dois lados sem rede. Sem JavaScript, seletores nativos e um botão de consulta permanecem disponíveis, e as três fases são exibidas. Composições é uma possibilidade futura, sem análise implementada.
+A página inicial mostra Yone e Ahri. A seção inferior apresenta somente as habilidades dos dois lados, abertas inicialmente, sem repetir nomes, identidades ou dicas do catálogo. As fontes oficiais são mantidas. **Trocar campeão** abre uma seleção pesquisável com os 173 campeões; a escolha consulta o Flask e atualiza os dois perfis. A seleção impede repetir o adversário, e o servidor valida todas as entradas. A lane (Top, Jungle, Mid, ADC ou Support) pode ser escolhida abaixo do VS e é preservada ao trocar campeão. Ela registra o contexto; os planos atuais ainda são gerais por campeão e não mudam conforme a rota. As abas Lane phase, Mid game e Late game alternam os planos dos dois lados sem rede. Sem JavaScript, seletores nativos e um botão de consulta permanecem disponíveis, e as três fases são exibidas. Composições é uma possibilidade futura, sem análise implementada.
 
 O visual usa navegação lateral, destaque vermelho, corte inclinado nas imagens, adversário alinhado à direita e fases centralizadas. Não há subtítulos oficiais sob os nomes dos campeões.
 
@@ -43,7 +43,7 @@ O backup usa a API SQLite e recusa sobrescrever arquivos. Para restaurar, pare o
 - `lane_coach/templates/` e `static/`: interface e imagens locais.
 - `tests/`: consultas, validação, privacidade, persistência, backup e falha do banco.
 
-`GET /` mostra os perfis iniciais. `GET /matchup?champion=Yone&opponent=Ahri&lane=general` retorna os perfis selecionados; `lane=mid` é aceito por compatibilidade. Entradas inválidas, repetidas ou com parâmetros extras: 400; rota inexistente: 404; falha de banco: 503. `GET /healthz` verifica o SQLite legado. Todos os 173 campeões podem ser selecionados em pares distintos. A direção troca quais dicas são selecionadas; não são interações específicas comprovadas entre os dois kits.
+`GET /` mostra os perfis iniciais. `GET /matchup?champion=Yone&opponent=Ahri&lane=general` retorna os perfis selecionados; `lane=mid` é aceito por compatibilidade. Entradas inválidas, repetidas ou com parâmetros extras: 400; rota inexistente: 404; falha de banco: 503. `GET /healthz` verifica o SQLite legado. O catálogo mantém os 173 campeões. Aphelios e Hwei estão em manutenção: aparecem identificados e desabilitados na seleção e consultas diretas retornam 503, sem orientação sobre seus kits. Os 171 disponíveis podem ser selecionados em pares distintos. A direção troca quais dicas são selecionadas; não são interações específicas comprovadas entre os dois kits.
 
 ## Proteção de dados
 
@@ -65,7 +65,7 @@ O lançamento deve ser totalmente gratuito. Cloudflare e Supabase foram sugerido
 - Privacidade: conferir retenção de logs do provedor e evitar registrar query strings. Não configurar chaves de IA para a versão pública atual.
 - Após publicar: validar HTTPS, página inicial, seleção de dois campeões, fases, habilidades, imagens locais, celular e respostas 400/404. Registrar URL pública neste README.
 
-Verificação local da versão 0.6: 57 testes pytest; Playwright com os 173 campeões nos seletores, buscas normalizadas, perspectiva dos planos, fases, habilidades, volta do navegador, desktop/celular, Escape e navegação sem JavaScript. Sem cookies, chamadas externas ou erros JavaScript no fluxo testado. Isso não substitui a verificação na hospedagem.
+Verificação local da versão 0.6: 58 testes pytest; Playwright com os 173 campeões nos seletores, buscas normalizadas, perspectiva dos planos, fases, habilidades, volta do navegador, desktop/celular, Escape e navegação sem JavaScript. Sem cookies, chamadas externas ou erros JavaScript no fluxo testado. Isso não substitui a verificação na hospedagem.
 
 Próximos passos: decidir hospedagem, publicar e verificar a versão determinística; revisar os perfis gerais com fontes e patch. IA analítica e builds permanecem futuras. Não há limite de IA implementado porque ainda não existe geração por IA na página.
 

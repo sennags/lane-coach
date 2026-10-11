@@ -62,7 +62,7 @@ def test_incomplete_profiles_are_rejected(knowledge, tmp_path, failure):
 def test_profile_output_preserves_perspective_and_escapes_content(knowledge, tmp_path):
     for key, champion in knowledge.champions.items():
         data = json.loads(json.dumps(champion))
-        if key == 'Yone': data['profile']['identity'] = '<script>alert(1)</script>'
+        if key == 'Yone': data['facts'][0]['description'] = '<script>alert(1)</script>'
         (tmp_path / f'{key}.json').write_text(json.dumps(data), encoding='utf-8')
     app = create_app({'TESTING': True, 'DATABASE': str(tmp_path / 'test.sqlite3'),
                       'KNOWLEDGE_PATH': str(tmp_path)})

@@ -18,7 +18,7 @@ if (form && dialog && typeof dialog.showModal === 'function') {
       button.type = 'button';
       const image = document.createElement('img'); image.src = option.dataset.image; image.alt = ''; image.loading = 'lazy';
       const label = document.createElement('span'); label.textContent = option.textContent;
-      button.append(image, label); button.disabled = option.value === other.value;
+      button.append(image, label); button.disabled = option.disabled || option.value === other.value;
       button.addEventListener('click', () => { editing.value = option.value; dialog.close(); form.requestSubmit(); });
       list.append(button);
     }
