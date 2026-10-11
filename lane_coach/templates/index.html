@@ -11,14 +11,18 @@
   <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ PERFIS GERAIS</span></div>
   <form action="{{ url_for('matchup') }}#analysis" method="get" id="matchup-form">
     <input type="hidden" name="lane" value="general">
-    <div class="champion-search"><label for="roster-search">Buscar campeões nos dois seletores</label><input type="search" id="roster-search" placeholder="Nome do campeão" autocomplete="off" aria-describedby="search-status"><p id="search-status" role="status">Digite para reduzir a lista. As escolhas atuais permanecem disponíveis.</p></div>
+
     <div class="arena">
       {% for side, champion, field, label in [('ally', own, 'champion', 'Seu campeão'), ('enemy', enemy, 'opponent', 'Campeão adversário')] %}
       <div class="champion-card {{ side }}" data-card="{{ field }}">
         <img class="champion-art" src="{{ url_for('static', filename='champions/' + champion.id + '.jpg') }}" alt="" width="308" height="560">
         <div class="card-top"><span class="side-dot"></span>{{ 'SEU LADO' if side == 'ally' else 'OUTRO LADO' }}<span class="card-index">{{ '01' if side == 'ally' else '02' }}</span></div>
         <div class="champion-caption"><span class="champion-title">{{ champion.title }}</span><p class="champion-name">{{ champion.name }}</p></div>
-        <div class="champion-selector"><label for="{{ field }}">{{ label }}</label>
+        <div class="champion-selector">
+          <label for="search-{{ field }}">{{ 'Buscar seu campeão' if side == 'ally' else 'Buscar adversário' }}</label>
+          <input type="search" id="search-{{ field }}" class="champion-search-input" placeholder="Digite o nome" autocomplete="off" aria-controls="{{ field }}" aria-describedby="search-status-{{ field }}">
+          <span id="search-status-{{ field }}" class="sr-only" role="status">Digite para filtrar este campo.</span>
+          <label for="{{ field }}">{{ label }}</label>
           <select id="{{ field }}" name="{{ field }}" required>
           {% for option in champions %}<option value="{{ option.id }}" data-title="{{ option.title }}" data-image="{{ url_for('static', filename='champions/' + option.id + '.jpg') }}" {{ 'selected' if option.id == champion.id else '' }}>{{ option.name }}</option>{% endfor %}
           </select>

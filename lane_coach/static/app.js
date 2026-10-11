@@ -8,27 +8,24 @@ document.querySelectorAll('.champion-selector select').forEach((select) => {
   });
 });
 const form = document.querySelector('#matchup-form');
-const rosterSearch = document.querySelector('#roster-search');
-if (rosterSearch) {
-  const selects = [...document.querySelectorAll('.champion-selector select')];
-  const options = selects.map((select) => [...select.options].map((option) => option.cloneNode(true)));
-  const normalize = (value) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+const normalize = (value) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+document.querySelectorAll('.champion-selector').forEach((selector) => {
+  const search = selector.querySelector('input[type="search"]');
+  const select = selector.querySelector('select');
+  const status = selector.querySelector('[role="status"]');
+  const options = [...select.options].map((option) => option.cloneNode(true));
   const filter = () => {
-    const term = normalize(rosterSearch.value);
-    let matches = 0;
-    selects.forEach((select, index) => {
-      const selected = select.value;
-      const visible = options[index].filter((option) => normalize(option.textContent).includes(term));
-      if (index === 0) matches = visible.length;
-      const retained = options[index].filter((option) => option.value === selected || visible.some((match) => match.value === option.value));
-      select.replaceChildren(...retained.map((option) => option.cloneNode(true)));
-      select.value = selected;
-    });
-    document.querySelector('#search-status').textContent = `${matches} campeões encontrados. As escolhas atuais permanecem disponíveis.`;
+    const term = normalize(search.value);
+    const selected = select.value;
+    const matches = options.filter((option) => normalize(option.textContent).includes(term));
+    const visible = options.filter((option) => option.value === selected || matches.some((match) => match.value === option.value));
+    select.replaceChildren(...visible.map((option) => option.cloneNode(true)));
+    select.value = selected;
+    status.textContent = `${matches.length} campeões encontrados. Sua escolha atual permanece disponível.`;
   };
-  rosterSearch.addEventListener('input', filter);
+  search.addEventListener('input', filter);
   window.addEventListener('pageshow', filter);
-}
+});
 if (form) {
   const button = form.querySelector('button');
   form.addEventListener('submit', () => { button.disabled = true; button.textContent = 'Buscando perfis…'; });

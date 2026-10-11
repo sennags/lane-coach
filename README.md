@@ -1,6 +1,6 @@
 # Lane Coach
 
-Catálogo completo: 173 campeões do Data Dragon 16.20.1, com habilidades, imagens locais, perfis e seleção pesquisável. A consulta combina dois arquivos em memória, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
+Catálogo completo: 173 campeões do Data Dragon 16.20.1, com habilidades, imagens locais, perfis e busca independente em cada campo de seleção. A consulta combina dois arquivos em memória, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
 
 **Estado:** versão local 0.4. Dois perfis lado a lado, com comportamento típico e plano por fase; o perfil adversário inclui orientações de resposta. As dicas de micro específicas anteriores aparecem quando há conteúdo editorial disponível para os campeões selecionados. Os quatro perfis originais são específicos por campeão. Os outros 169 têm habilidades e dicas do catálogo oficial, quando disponíveis, e planos gerais pela classe principal da Riot. A interface identifica o plano por classe. Todo conteúdo estratégico ainda aguarda revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
 
