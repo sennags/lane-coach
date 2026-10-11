@@ -1,0 +1,115 @@
+{
+  "id": "Ahri",
+  "name": "Ahri",
+  "title": "a Raposa de Nove Caudas",
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ahri.json",
+    "label": "Riot Data Dragon — Ahri",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ahri.Q",
+      "ability": "Q",
+      "name": "Orbe da Ilusão",
+      "description": "Ahri lança e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta. "
+    },
+    {
+      "id": "Ahri.W",
+      "ability": "W",
+      "name": "Fogo de Raposa",
+      "description": "Ahri recebe um breve impulso de Velocidade de Movimento e lança três Fogos de Raposa que perseguem e atacam inimigos próximos."
+    },
+    {
+      "id": "Ahri.E",
+      "ability": "E",
+      "name": "Encanto",
+      "description": "Ahri manda um beijo que causa dano e encanta um inimigo, interrompendo imediatamente qualquer habilidade de movimento em progresso e fazendo com que ele ande inofensivamente em sua direção."
+    },
+    {
+      "id": "Ahri.R",
+      "ability": "R",
+      "name": "Ímpeto Espiritual",
+      "description": "Ahri avança e dispara raios de essência, causando dano a inimigos próximos. Ímpeto Espiritual pode ser conjurada até três vezes antes de entrar em Tempo de Recarga e ganha reconjurações adicionais ao eliminar Campeões inimigos."
+    },
+    {
+      "id": "Ahri.P",
+      "ability": "P",
+      "name": "Furto de Essência",
+      "description": "Depois de abater 9 tropas ou monstros, Ahri se cura. Depois de eliminar um Campeão inimigo, Ahri se cura em uma quantidade ainda maior."
+    }
+  ],
+  "tips": [
+    {
+      "perspective": "own",
+      "ability": "E",
+      "title": "Guarde o Charm para a aproximação",
+      "situation": "O adversário ameaça avançar enquanto você mantém E disponível.",
+      "action": "Procure uma linha limpa quando ele se comprometer; não lance apenas porque entrou no alcance.",
+      "reason": "O Charm pode interromper movimento, mas errá-lo remove uma ferramenta de resposta.",
+      "exception": "Interações com imunidade ou estados especiais precisam de verificação específica.",
+      "id": "Ahri.tip.0",
+      "evidence_ids": [
+        "Ahri.E"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "own",
+      "ability": "Q",
+      "title": "Planeje a segunda passagem",
+      "situation": "Você prepara um Q e ainda pode se mover depois de lançar.",
+      "action": "Observe a trajetória de retorno antes de reposicionar para continuar a troca.",
+      "reason": "O orbe causa dano na ida e na volta; o retorno causa dano verdadeiro.",
+      "exception": "Não se exponha a controle apenas para tentar acertar a segunda passagem.",
+      "id": "Ahri.tip.1",
+      "evidence_ids": [
+        "Ahri.Q"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "E",
+      "title": "Provoque o Charm antes de entrar",
+      "situation": "Você pretende iniciar uma aproximação previsível.",
+      "action": "Ameace a entrada, varie o movimento e procure punir se o E for desperdiçado.",
+      "reason": "O Charm interrompe movimentos; avançar frontalmente facilita a resposta.",
+      "exception": "Se Ahri guardar E, a janela não abriu. Esta regra não comprova todas as interações de dash.",
+      "id": "Ahri.tip.2",
+      "evidence_ids": [
+        "Ahri.E"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "Q",
+      "title": "Saia da linha de retorno do orbe",
+      "situation": "Ahri lançou Q em sua direção.",
+      "action": "Observe o caminho da volta e busque uma saída lateral em vez de recuar sempre em linha reta.",
+      "reason": "O retorno também causa dano, do tipo verdadeiro.",
+      "exception": "Ahri pode se reposicionar: reavalie a trajetória em vez de seguir uma direção fixa.",
+      "id": "Ahri.tip.3",
+      "evidence_ids": [
+        "Ahri.Q"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "R",
+      "title": "Não comprometa toda a aproximação",
+      "situation": "Ahri ainda pode usar avanços da ultimate.",
+      "action": "Evite gastar todas as ferramentas de alcance antes de conectar dano ou controle.",
+      "reason": "O R oferece múltiplos avanços, permitindo responder à sua aproximação.",
+      "exception": "Não presuma que o R acabou depois de um avanço nem invente a quantidade restante.",
+      "id": "Ahri.tip.4",
+      "evidence_ids": [
+        "Ahri.R"
+      ],
+      "status": "editorial_unreviewed"
+    }
+  ]
+}

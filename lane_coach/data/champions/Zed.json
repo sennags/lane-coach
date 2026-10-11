@@ -1,0 +1,115 @@
+{
+  "id": "Zed",
+  "name": "Zed",
+  "title": "o Mestre das Sombras",
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zed.json",
+    "label": "Riot Data Dragon — Zed",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Zed.Q",
+      "ability": "Q",
+      "name": "Shuriken Laminado",
+      "description": "Zed e suas sombras arremessam seus shurikens.  Cada shuriken causa dano em todos os inimigos atingidos."
+    },
+    {
+      "id": "Zed.W",
+      "ability": "W",
+      "name": "Sombra Viva",
+      "description": " Efeito passivo:  Zed recebe energia sempre que ele e suas sombras atingem um inimigo com a mesma habilidade. A energia só pode ser recebida uma vez a cada conjuração de habilidade.   Ativo:  A sombra de Zed avança e fica no mesmo lugar por alguns segundos. Quando Sombra Viva é reativada, Zed troca de posição com sua sombra."
+    },
+    {
+      "id": "Zed.E",
+      "ability": "E",
+      "name": "Corte Sombrio",
+      "description": "Zed e as Sombras dele atacam, causando dano a inimigos próximos. Inimigos atingidos pelo corte de uma Sombra sofrem Lentidão."
+    },
+    {
+      "id": "Zed.R",
+      "ability": "R",
+      "name": "Marca Fatal",
+      "description": "Zed se torna inalvejável e avança contra um Campeão inimigo para marcá-lo. Após 3 segundos, a marca é ativada, repetindo parte de todo o dano que Zed causou ao alvo enquanto ele estava marcado."
+    },
+    {
+      "id": "Zed.P",
+      "ability": "P",
+      "name": "Desprezo pelos Fracos",
+      "description": "Os ataques básicos de Zed contra alvos com pouca Vida causam Dano Mágico adicional. Esse efeito pode ocorrer contra o mesmo Campeão inimigo apenas uma vez a cada poucos segundos."
+    }
+  ],
+  "tips": [
+    {
+      "perspective": "own",
+      "ability": "W",
+      "title": "Prepare o ângulo da sombra",
+      "situation": "Você quer pressionar com habilidades replicadas pela sombra.",
+      "action": "Escolha a posição da sombra considerando o ângulo do ataque e a possibilidade de reposicionar.",
+      "reason": "A sombra participa das habilidades e permite troca de posição.",
+      "exception": "Colocar a sombra ofensivamente também pode comprometer sua saída.",
+      "id": "Zed.tip.0",
+      "evidence_ids": [
+        "Zed.W"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "own",
+      "ability": "R",
+      "title": "Planeje o dano depois da marca",
+      "situation": "Você pretende usar a ultimate para finalizar.",
+      "action": "Verifique se conseguirá conectar as habilidades depois da entrada, em vez de contar apenas com o R.",
+      "reason": "A marca repete parte do dano causado durante sua duração.",
+      "exception": "Escudos, movimento e recursos defensivos podem impedir o dano planejado; não é execução garantida.",
+      "id": "Zed.tip.1",
+      "evidence_ids": [
+        "Zed.R"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "Q",
+      "title": "Leia os dois pontos de disparo",
+      "situation": "Zed tem uma sombra posicionada para atacar.",
+      "action": "Observe o corpo e a sombra antes de escolher para onde desviar dos shurikens.",
+      "reason": "Zed e as sombras arremessam Q; olhar só o corpo ignora outra trajetória.",
+      "exception": "Mais sombras podem existir após R. Não existe uma direção universalmente segura.",
+      "id": "Zed.tip.2",
+      "evidence_ids": [
+        "Zed.Q"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "W",
+      "title": "W usado não significa fuga encerrada",
+      "situation": "Zed acabou de posicionar a sombra.",
+      "action": "Considere a troca de posição ainda disponível antes de gastar sua habilidade decisiva no corpo dele.",
+      "reason": "A reativação do W permite trocar com a sombra.",
+      "exception": "Depois que a troca ou a janela terminar, reavalie; não use um cooldown fixo sem dados do patch.",
+      "id": "Zed.tip.3",
+      "evidence_ids": [
+        "Zed.W"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "R",
+      "title": "Evite entregar uma habilidade à inalvejabilidade",
+      "situation": "Você prepara uma habilidade decisiva e Zed pode usar R.",
+      "action": "Considere guardar a habilidade até ele se comprometer ou até a janela de inalvejabilidade terminar.",
+      "reason": "O R torna Zed inalvejável durante a entrada.",
+      "exception": "Não garante que ele ficará vulnerável depois: ainda pode haver sombras para reposicionar.",
+      "id": "Zed.tip.4",
+      "evidence_ids": [
+        "Zed.R"
+      ],
+      "status": "editorial_unreviewed"
+    }
+  ]
+}

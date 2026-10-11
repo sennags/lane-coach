@@ -1,0 +1,115 @@
+{
+  "id": "Yone",
+  "name": "Yone",
+  "title": "o Inesquecido",
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Yone.json",
+    "label": "Riot Data Dragon — Yone",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Yone.Q",
+      "ability": "Q",
+      "name": "Aço Mortal",
+      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta.  Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com dois acúmulos, Aço Mortal faz Yone avançar com o vento,  Arremessando ao ar  os inimigos."
+    },
+    {
+      "id": "Yone.W",
+      "ability": "W",
+      "name": "Fenda Espiritual",
+      "description": "Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe.  O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque."
+    },
+    {
+      "id": "Yone.E",
+      "ability": "E",
+      "name": "Desatar da Alma",
+      "description": "O espírito de Yone deixa seu corpo para trás e recebe Velocidade de Movimento. Quando essa habilidade termina, o espírito de Yone volta ao corpo e ele repete parte do dano causado na forma espiritual."
+    },
+    {
+      "id": "Yone.R",
+      "ability": "R",
+      "name": "Destino Selado",
+      "description": "Yone teleporta-se para trás do último Campeão em uma linha, desferindo um golpe tão poderoso que puxa na direção dele todos os inimigos atingidos."
+    },
+    {
+      "id": "Yone.P",
+      "ability": "P",
+      "name": "Estilo do Caçador",
+      "description": "Yone causa Dano Mágico a cada segundo Ataque. Além disso, sua Chance de Acerto Crítico é aumentada."
+    }
+  ],
+  "tips": [
+    {
+      "perspective": "own",
+      "ability": "W",
+      "title": "Faça o escudo coincidir com a resposta",
+      "situation": "Você entra no alcance de troca e espera dano de volta.",
+      "action": "Acerte o W quando o adversário estiver prestes a responder.",
+      "reason": "O W causa dano e concede escudo; combinar os dois efeitos pode melhorar a troca.",
+      "exception": "Não caminhe para uma habilidade perigosa apenas para acertar o W.",
+      "id": "Yone.tip.0",
+      "evidence_ids": [
+        "Yone.W"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "own",
+      "ability": "E",
+      "title": "Encerre a perseguição sem alcance",
+      "situation": "Você está no E e o adversário saiu do alcance.",
+      "action": "Se não puder reconectar com segurança, considere retornar antes do fim.",
+      "reason": "O E exige retorno ao corpo; perseguir por toda a duração nem sempre gera mais dano útil.",
+      "exception": "Verifique a posição do corpo: o retorno também pode colocá-lo em perigo.",
+      "id": "Yone.tip.1",
+      "evidence_ids": [
+        "Yone.E"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "Q",
+      "title": "Leia o terceiro Q",
+      "situation": "Yone acumulou duas cargas do Q.",
+      "action": "Saia da linha do avanço e evite alinhar seu recuo com ela.",
+      "reason": "O Q fortalecido adiciona aproximação e arremesso ao ar.",
+      "exception": "A distância muda o tempo de reação; não trate um pequeno passo como esquiva garantida.",
+      "id": "Yone.tip.2",
+      "evidence_ids": [
+        "Yone.Q"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "W",
+      "title": "Não gaste sua troca no escudo",
+      "situation": "Yone acabou de usar W e recebeu escudo.",
+      "action": "Se houver espaço, adie o restante do seu dano até o escudo terminar.",
+      "reason": "Dano absorvido pelo escudo não reduz a vida disponível para a próxima troca.",
+      "exception": "Recuar também pode custar vida; não abandone uma finalização segura só por esta regra.",
+      "id": "Yone.tip.3",
+      "evidence_ids": [
+        "Yone.W"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "E",
+      "title": "Observe onde ele precisa voltar",
+      "situation": "Yone deixou o corpo para avançar com E.",
+      "action": "Acompanhe o ponto de retorno antes de gastar sua aproximação perseguindo a forma espiritual.",
+      "reason": "Ele precisa voltar ao corpo; esse ponto muda onde a troca termina.",
+      "exception": "Não presuma que ele ficará até o último instante: pode retornar antes.",
+      "id": "Yone.tip.4",
+      "evidence_ids": [
+        "Yone.E"
+      ],
+      "status": "editorial_unreviewed"
+    }
+  ]
+}

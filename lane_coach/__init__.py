@@ -1,4 +1,3 @@
-import json
 import os
 import sqlite3
 from pathlib import Path
@@ -6,6 +5,8 @@ from pathlib import Path
 from flask import Flask, jsonify, render_template, request
 
 from . import db
+from .knowledge import KnowledgeBase
+from .generation import preview_ai
 
 
 def create_app(test_config=None):
@@ -16,12 +17,15 @@ def create_app(test_config=None):
     )
     if test_config:
         app.config.update(test_config)
+    knowledge = KnowledgeBase(app.config.get('KNOWLEDGE_PATH'))
+    app.extensions['knowledge'] = knowledge
+    app.cli.add_command(preview_ai)
     db.init_app(app)
     with app.app_context():
         db.initialize()
 
     def page(guide=None, message=None, status=200):
-        champions = [dict(row) for row in db.get_db().execute('SELECT * FROM champions ORDER BY name')]
+        champions = sorted(knowledge.champions.values(), key=lambda champion: champion['name'])
         choices = {champion['id']: champion for champion in champions}
         own = request.args.get('champion', 'Yone')
         enemy = request.args.get('opponent', 'Ahri')
@@ -40,22 +44,14 @@ def create_app(test_config=None):
         if set(request.args) != set(fields) or any(len(request.args.getlist(key)) != 1 for key in fields):
             return page(message='Selecione seu campeão, o adversário e a lane para continuar.', status=400)
         own, enemy, lane = (request.args[key] for key in fields)
-        known = {row['id'] for row in db.get_db().execute('SELECT id FROM champions')}
+        known = knowledge.champions
         if own not in known or enemy not in known:
             return page(message='Escolha campeões disponíveis na lista.', status=400)
         if own == enemy:
             return page(message='Escolha dois campeões diferentes para este confronto.', status=400)
         if lane != 'mid':
             return page(message='Esta primeira versão cobre apenas a rota do meio.', status=400)
-        row = db.get_db().execute(
-            'SELECT * FROM guides WHERE champion = ? AND opponent = ? AND lane = ?',
-            (own, enemy, lane),
-        ).fetchone()
-        if row is None:
-            return page(message='Ainda não temos um guia para esse confronto nessa direção. Experimente Yone contra Ahri, Yasuo ou Zed.', status=404)
-        guide = dict(row)
-        guide['sections'] = json.loads(guide['sections'])
-        return page(guide=guide)
+        return page(guide=knowledge.guide(own, enemy, lane))
 
     @app.get('/healthz')
     def health():

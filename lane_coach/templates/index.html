@@ -5,7 +5,7 @@
     <h1 id="page-title">A próxima troca<br>começa <em>aqui.</em></h1>
     <p class="intro-copy">Conheça o outro lado da lane.<br>Entre no confronto com um plano.</p>
   </div>
-  <aside class="intro-note"><span class="note-number">01 — 03</span><p>Três confrontos.<br>Um começo mais consciente.</p><span class="muted">Yone · Ahri · Yasuo · Zed</span></aside>
+  <aside class="intro-note"><span class="note-number">04 / 12</span><p>Quatro campeões.<br>Doze perspectivas de micro.</p><span class="muted">Yone · Ahri · Yasuo · Zed</span></aside>
 </section>
 <section class="matchup-builder" aria-labelledby="builder-title">
   <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ ROTA DO MEIO</span></div>
@@ -26,7 +26,7 @@
       {% if loop.first %}<div class="versus" aria-hidden="true"><span>VS</span></div>{% endif %}
       {% endfor %}
     </div>
-    <div class="action-row"><p>Comece com <strong>Yone</strong> contra Ahri, Yasuo ou Zed.<br><span>Os exemplos servem para testar este primeiro fluxo.</span></p><button type="submit" class="primary-button">Ver guia do confronto <span aria-hidden="true">↗</span></button></div>
+    <div class="action-row"><p>Escolha dois campeões entre <strong>Yone, Ahri, Yasuo e Zed</strong>.<br><span>Dicas de micro para entender as ferramentas dos dois lados.</span></p><button type="submit" class="primary-button">Ver guia do confronto <span aria-hidden="true">↗</span></button></div>
   </form>
 </section>
 <section id="analysis" class="analysis" aria-labelledby="analysis-title" tabindex="-1">
@@ -34,15 +34,27 @@
   <div class="feedback" role="alert"><span class="eyebrow">VAMOS AJUSTAR A SELEÇÃO</span><h2 id="analysis-title">Esse guia ainda não está pronto.</h2><p>{{ message }}</p><a href="#builder-title">Voltar à seleção ↑</a></div>
 {% elif guide %}
   <div class="section-heading"><h2 id="analysis-title"><span>02</span> {{ own.name }} contra {{ enemy.name }}</h2><span class="draft-badge">{{ 'DEMONSTRATIVO' if guide.status == 'demo' else 'REVISADO' }}</span></div>
-  {% if guide.status == 'demo' %}<div class="demo-warning"><strong>Conteúdo de demonstração.</strong> Não validado para um patch. Use para explorar o produto; a estratégia ainda precisa de revisão especializada.</div>{% endif %}
+  {% if guide.status == 'demo' %}<div class="demo-warning"><strong>Dicas editoriais em avaliação.</strong> A base descreve habilidades; as sugestões ainda não foram revisadas por especialista. Não observamos sua partida nem sabemos quais habilidades estão disponíveis.</div>{% endif %}
   <div class="guide-lead"><h3>{{ guide.title }}</h3><p>{{ guide.summary }}</p></div>
-  <div class="guide-grid">{% for section in guide.sections %}<article class="guide-section"><span class="guide-number">0{{ loop.index }}</span><div><h3>{{ section.title }}</h3><p>{{ section.text }}</p></div></article>{% endfor %}
-    <aside class="source-card"><span class="eyebrow">TRANSPARÊNCIA</span><h3>De onde vem este guia?</h3><p>Texto demonstrativo próprio, salvo nesta aplicação. Não foi gerado por IA nem copiado do MOBAFire.</p><dl><dt>Patch revisado</dt><dd>{{ guide.patch }}</dd><dt>Revisão especializada</dt><dd>{{ guide.reviewed_at or 'Pendente' }}</dd><dt>Versão do texto</dt><dd>{{ guide.revision }}</dd></dl></aside>
+  <div class="guide-grid">
+    {% for section in guide.sections %}
+    <article class="guide-section"><span class="guide-number">0{{ loop.index }}</span><div>
+      <p class="tip-origin">{{ 'CONTRA ' if section.perspective == 'against' else 'SEU KIT / ' }}{{ section.champion }} · {{ section.ability }}</p>
+      <h3>{{ section.title }}</h3>
+      <dl class="micro-steps"><dt>Situação</dt><dd>{{ section.situation }}</dd><dt>Ação</dt><dd>{{ section.action }}</dd><dt>Motivo</dt><dd>{{ section.reason }}</dd><dt>Exceção</dt><dd>{{ section.exception }}</dd></dl>
+      <details class="tip-evidence"><summary>Ver base mecânica</summary>
+        {% for fact in section.evidence %}<p><strong>{{ fact.ability }} · {{ fact.name }}</strong><br>{{ fact.description }}</p>{% endfor %}
+        <p><a href="{{ section.source.url }}" rel="noreferrer">{{ section.source.label }}</a> · Dados {{ section.source.patch }}</p>
+        <p>A fonte descreve a habilidade. A decisão sugerida é uma interpretação editorial.</p>
+      </details>
+    </div></article>
+    {% endfor %}
+    <aside class="source-card"><span class="eyebrow">TRANSPARÊNCIA</span><h3>Como essas dicas foram escolhidas?</h3><p>Combinamos ameaças do adversário com ferramentas do seu campeão. A seleção é local e não usa IA. Não é um guia específico validado para esta dupla.</p><dl><dt>Patch da estratégia</dt><dd>{{ guide.patch }}</dd><dt>Revisão especializada</dt><dd>{{ guide.reviewed_at or 'Pendente' }}</dd><dt>Versão da base</dt><dd>{{ guide.revision }}</dd></dl></aside>
   </div>
 {% else %}
   <div class="section-heading"><h2 id="analysis-title"><span>02</span> Um plano para a sua lane</h2><span class="quiet-label">O QUE VOCÊ VAI ENCONTRAR</span></div>
-  <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Leia as ameaças</h3><p>Saiba o que observar antes de se aproximar.</p></article><article><span class="preview-icon">↗</span><h3>Encontre sua janela</h3><p>Entenda quando trocar e quando dar um passo atrás.</p></article><article><span class="preview-icon">≋</span><h3>Pense na próxima wave</h3><p>Conecte suas decisões ao que acontece na rota.</p></article></div>
-  <p class="demo-note">PRIMEIRO CAPÍTULO <span>Os três guias são demonstrativos e aguardam revisão. IA ainda não conectada.</span></p>
+  <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Leia as ameaças</h3><p>Saiba o que observar antes de se aproximar.</p></article><article><span class="preview-icon">↗</span><h3>Encontre sua janela</h3><p>Entenda quando trocar e quando dar um passo atrás.</p></article><article><span class="preview-icon">≋</span><h3>Execute a resposta</h3><p>Entenda a ação, o motivo e quando ela deixa de funcionar.</p></article></div>
+  <p class="demo-note">PRIMEIRO CAPÍTULO <span>Dicas por campeão, sem guias pré-cadastrados para cada dupla. Estratégia em avaliação; a tela ainda não usa IA.</span></p>
 {% endif %}
 </section>
 {% endblock %}

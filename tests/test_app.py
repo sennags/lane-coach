@@ -11,7 +11,7 @@ def test_guides(app, opponent):
     response = app.test_client().get(f'/matchup?champion=Yone&opponent={opponent}&lane=mid')
     assert response.status_code == 200
     assert 'Não validado' in response.text
-    assert 'demo-1' in response.text
+    assert 'Ver base mecânica' in response.text
 
 @pytest.mark.parametrize('query', ['', 'champion=Yone&opponent=Ahri', 'champion=Yone&opponent=Yone&lane=mid', 'champion=Yone&opponent=Ahri&lane=top', 'champion=Yone&opponent=Ahri&lane=mid&lane=mid', 'champion=Yone&opponent=Ahri&lane=mid&extra=1', 'champion=%3Cscript%3Ealert(1)%3C/script%3E&opponent=Ahri&lane=mid', "champion=Yone%27%3B%20DROP%20TABLE%20guides%3B--&opponent=Ahri&lane=mid"])
 def test_invalid(app, query):
@@ -22,7 +22,10 @@ def test_invalid(app, query):
     assert client.get('/healthz').json == {'status': 'ok'}
 
 def test_reverse(app):
-    assert app.test_client().get('/matchup?champion=Ahri&opponent=Yone&lane=mid').status_code == 404
+    response = app.test_client().get('/matchup?champion=Ahri&opponent=Yone&lane=mid')
+    assert response.status_code == 200
+    assert 'Ahri contra Yone' in response.text
+    assert 'CONTRA Yone' in response.text
 
 def test_privacy(app):
     response = app.test_client().get('/')
@@ -38,9 +41,10 @@ def test_restart(app):
     with sqlite3.connect(app.config['DATABASE']) as connection:
         connection.execute("UPDATE guides SET summary='Conteúdo revisado localmente' WHERE opponent='Ahri'")
     restarted = create_app({'TESTING': True, 'DATABASE': app.config['DATABASE']})
-    assert 'Conteúdo revisado localmente' in restarted.test_client().get('/matchup?champion=Yone&opponent=Ahri&lane=mid').text
+    assert restarted.test_client().get('/matchup?champion=Yone&opponent=Ahri&lane=mid').status_code == 200
     with sqlite3.connect(app.config['DATABASE']) as connection:
         assert connection.execute('SELECT COUNT(*) FROM guides').fetchone()[0] == 3
+        assert connection.execute("SELECT summary FROM guides WHERE opponent='Ahri'").fetchone()[0] == 'Conteúdo revisado localmente'
 
 def test_backup(app, tmp_path):
     target = tmp_path / 'backup.sqlite3'

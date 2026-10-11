@@ -1,0 +1,115 @@
+{
+  "id": "Yasuo",
+  "name": "Yasuo",
+  "title": "o Imperdoável",
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Yasuo.json",
+    "label": "Riot Data Dragon — Yasuo",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Yasuo.Q",
+      "ability": "Q",
+      "name": "Tempestade de Aço",
+      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta.  Ao contato, Tempestade de Aço concede um acúmulo de Tempestade Crescente por alguns segundos. Com 2 acúmulos, Tempestade de Aço desfere um tornado que arremessa inimigos  ao ar .  Tempestade de Aço é tratada como ataque básico e escala com as mesmas coisas."
+    },
+    {
+      "id": "Yasuo.W",
+      "ability": "W",
+      "name": "Parede de Vento",
+      "description": "Cria uma parede movediça que bloqueia todos os projéteis inimigos por 4 segundos."
+    },
+    {
+      "id": "Yasuo.E",
+      "ability": "E",
+      "name": "Espada Ágil",
+      "description": "Avança e atravessa o inimigo-alvo, causando Dano Mágico. Cada conjuração aumenta o dano do próximo avanço, até um limite máximo.  Não pode ser conjurada novamente no mesmo inimigo por alguns segundos.   Se Tempestade de Aço for conjurada durante o avanço, o Ataque será circular. "
+    },
+    {
+      "id": "Yasuo.R",
+      "ability": "R",
+      "name": "Último Suspiro",
+      "description": "Teletransporta-se para um Campeão inimigo  arremessado ao ar , causando Dano Físico e mantendo no ar todos os inimigos da área que foram  arremessados ao ar . Concede o máximo de Fluxo, mas zera todos os acúmulos de Tempestade Crescente  Por um período moderado a seguir, os Acertos Críticos de Yasuo recebem Penetração de Armadura adicional significativa."
+    },
+    {
+      "id": "Yasuo.P",
+      "ability": "P",
+      "name": "Estilo do Errante",
+      "description": "A Chance de Acerto Crítico do Yasuo é aumentada. Além disso, Yasuo vai gerando um Escudo sempre que se movimenta. O Escudo é ativado quando Yasuo sofre dano de um Campeão ou monstro."
+    }
+  ],
+  "tips": [
+    {
+      "perspective": "own",
+      "ability": "E",
+      "title": "Reserve um caminho de saída",
+      "situation": "Você prepara uma entrada usando E nos minions.",
+      "action": "Identifique um alvo ainda disponível para reposicionar antes de começar a sequência.",
+      "reason": "O E não pode reutilizar imediatamente o mesmo alvo.",
+      "exception": "Minions podem morrer durante a troca; um caminho planejado pode desaparecer.",
+      "id": "Yasuo.tip.0",
+      "evidence_ids": [
+        "Yasuo.E"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "own",
+      "ability": "Q",
+      "title": "Use a ameaça do tornado",
+      "situation": "Você tem duas cargas do Q e disputa espaço para uma troca.",
+      "action": "Observe a reação do adversário antes de gastar o tornado sem um objetivo.",
+      "reason": "O Q fortalecido ameaça arremesso ao ar, mudando a resposta esperada.",
+      "exception": "As cargas expiram; segurar não é uma vantagem permanente.",
+      "id": "Yasuo.tip.1",
+      "evidence_ids": [
+        "Yasuo.Q"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "P",
+      "title": "Ative o escudo antes da troca principal",
+      "situation": "O escudo da passiva de Yasuo está pronto.",
+      "action": "Se tiver alcance seguro, provoque a ativação com dano leve e espere o escudo acabar antes de comprometer o restante.",
+      "reason": "A passiva concede escudo ao receber dano de campeão.",
+      "exception": "Não aceite uma troca inteira apenas para remover a passiva.",
+      "id": "Yasuo.tip.2",
+      "evidence_ids": [
+        "Yasuo.P"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "E",
+      "title": "Mire na saída do dash",
+      "situation": "Yasuo escolheu um alvo para atravessar com E.",
+      "action": "Observe a direção do deslocamento e considere o ponto de chegada ao mirar sua habilidade.",
+      "reason": "O dash atravessa um alvo e esse alvo não pode ser reutilizado imediatamente.",
+      "exception": "Outro minion disponível pode permitir um segundo dash; não suponha que ele ficará parado.",
+      "id": "Yasuo.tip.3",
+      "evidence_ids": [
+        "Yasuo.E"
+      ],
+      "status": "editorial_unreviewed"
+    },
+    {
+      "perspective": "against",
+      "ability": "Q",
+      "title": "Respeite o Q circular perto da wave",
+      "situation": "Yasuo tem Q fortalecido e um alvo próximo para usar E.",
+      "action": "Considere a aproximação por E e o Q circular, além do tornado disparado à distância.",
+      "reason": "Usar Q durante o avanço muda a área do ataque para circular.",
+      "exception": "Um pequeno passo lateral pode não tirar você dessa área.",
+      "id": "Yasuo.tip.4",
+      "evidence_ids": [
+        "Yasuo.Q"
+      ],
+      "status": "editorial_unreviewed"
+    }
+  ]
+}
