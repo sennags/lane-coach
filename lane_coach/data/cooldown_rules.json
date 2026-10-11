@@ -1,0 +1,38 @@
+{
+  "patch": "16.20.1",
+  "accessed_at": "2026-10-11",
+  "rules": {
+    "Yone.Q": {
+      "expected_base": [4, 4, 4, 4, 4],
+      "note": "Reduz com Velocidade de Ataque adicional, até o mínimo de 1,33 s.",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yone/Mortal_Steel",
+      "source_label": "LoL Wiki · recarga do Q"
+    },
+    "Yasuo.Q": {
+      "expected_base": [4, 4, 4, 4, 4],
+      "note": "Reduz com Velocidade de Ataque adicional, até o mínimo de 1,33 s.",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yasuo/Steel_Tempest",
+      "source_label": "LoL Wiki · recarga do Q"
+    },
+    "Yone.W": {
+      "expected_base": [14, 14, 14, 14, 14],
+      "note": "Reduz com Velocidade de Ataque adicional, até o mínimo de 6 s.",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/Attack_timer",
+      "source_label": "LoL Wiki · Velocidade de Ataque"
+    },
+    "Zeri.Q": {
+      "expected_base": [0, 0, 0, 0, 0],
+      "label": "Intervalo entre disparos: 1 ÷ Velocidade de Ataque total (s).",
+      "note": "Limite normal: 1,5 disparos/s. A ultimate pode superar esse limite.",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Zeri/Burst_Fire",
+      "source_label": "LoL Wiki · disparos do Q"
+    },
+    "Belveth.Q": {
+      "expected_base": [4, 3.25, 2.5, 1.75, 1],
+      "label": "Intervalo entre usos: 4 / 3,25 / 2,5 / 1,75 / 1 s.",
+      "note": "Cada direção tem recarga própria, reduzida por Velocidade de Ataque adicional.",
+      "source_url": "https://www.leagueoflegends.com/en-au/news/game-updates/league-of-legends-patch-26-15-notes/",
+      "source_label": "Riot · ajuste do Q no patch 26.15"
+    }
+  }
+}

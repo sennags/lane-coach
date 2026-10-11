@@ -8,7 +8,7 @@ from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from lane_coach.cooldowns import spell_cooldowns, cooldown_note
+from lane_coach.cooldowns import spell_cooldowns, annotate_cooldown
 from lane_coach.knowledge import KnowledgeBase
 
 
@@ -36,11 +36,8 @@ def main():
         spells = dict(zip('QWER', official['spells']))
         for fact in champion['facts']:
             fact['cooldown'] = spell_cooldowns(spells[fact['ability']]) if fact['ability'] != 'P' else None
-            note = cooldown_note(spells[fact['ability']]) if fact['ability'] != 'P' else None
-            if note:
-                fact['cooldown_note'] = note
-            else:
-                fact.pop('cooldown_note', None)
+            if fact['ability'] != 'P':
+                annotate_cooldown(fact, key, champion['source']['patch'], spells[fact['ability']])
         return key, champion
 
     # Finish all reads before mutating the roster. No full import or database access.

@@ -51,6 +51,14 @@ class KnowledgeBase:
                     raise ValueError('Invalid cooldown data')
                 if 'cooldown_note' in fact and (not isinstance(fact['cooldown_note'], str) or not fact['cooldown_note'].strip()):
                     raise ValueError('Invalid cooldown note')
+                if 'cooldown_label' in fact and (not isinstance(fact['cooldown_label'], str) or not fact['cooldown_label'].strip()):
+                    raise ValueError('Invalid cooldown label')
+                if 'cooldown_source' in fact:
+                    source = fact['cooldown_source']
+                    if (not isinstance(source, dict) or set(source) != {'url', 'label', 'accessed_at'}
+                            or any(not isinstance(v, str) or not v.strip() for v in source.values())
+                            or not source['url'].startswith('https://')):
+                        raise ValueError('Invalid cooldown source')
                 if 'coaching' in fact and (
                     not isinstance(fact['coaching'], dict)
                     or set(fact['coaching']) != {'use', 'limit'}

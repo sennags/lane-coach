@@ -27,6 +27,13 @@
       "coaching": {
         "use": "Avanço atravessa e causa dano aos inimigos.",
         "limit": "Planeje a chegada antes de comprometer a aproximação."
+      },
+      "cooldown_note": "Cada direção tem recarga própria, reduzida por Velocidade de Ataque adicional.",
+      "cooldown_label": "Intervalo entre usos: 4 / 3,25 / 2,5 / 1,75 / 1 s.",
+      "cooldown_source": {
+        "url": "https://www.leagueoflegends.com/en-au/news/game-updates/league-of-legends-patch-26-15-notes/",
+        "label": "Riot · ajuste do Q no patch 26.15",
+        "accessed_at": "2026-10-11"
       }
     },
     {

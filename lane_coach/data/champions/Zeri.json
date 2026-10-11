@@ -27,6 +27,13 @@
       "coaching": {
         "use": "Rajada funciona como ataque e para no primeiro inimigo.",
         "limit": "Bloqueadores mudam o acesso ao alvo."
+      },
+      "cooldown_note": "Limite normal: 1,5 disparos/s. A ultimate pode superar esse limite.",
+      "cooldown_label": "Intervalo entre disparos: 1 ÷ Velocidade de Ataque total (s).",
+      "cooldown_source": {
+        "url": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Zeri/Burst_Fire",
+        "label": "LoL Wiki · disparos do Q",
+        "accessed_at": "2026-10-11"
       }
     },
     {

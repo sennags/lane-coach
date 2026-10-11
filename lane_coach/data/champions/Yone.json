@@ -28,7 +28,13 @@
         4,
         4,
         4
-      ]
+      ],
+      "cooldown_note": "Reduz com Velocidade de Ataque adicional, até o mínimo de 1,33 s.",
+      "cooldown_source": {
+        "url": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yone/Mortal_Steel",
+        "label": "LoL Wiki · recarga do Q",
+        "accessed_at": "2026-10-11"
+      }
     },
     {
       "id": "Yone.W",
@@ -46,7 +52,12 @@
         14,
         14
       ],
-      "cooldown_note": "Recarga escala com Velocidade de Ataque."
+      "cooldown_note": "Reduz com Velocidade de Ataque adicional, até o mínimo de 6 s.",
+      "cooldown_source": {
+        "url": "https://wiki.leagueoflegends.com/en-us/Attack_timer",
+        "label": "LoL Wiki · Velocidade de Ataque",
+        "accessed_at": "2026-10-11"
+      }
     },
     {
       "id": "Yone.E",

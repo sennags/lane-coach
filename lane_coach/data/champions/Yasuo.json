@@ -28,7 +28,13 @@
         4,
         4,
         4
-      ]
+      ],
+      "cooldown_note": "Reduz com Velocidade de Ataque adicional, até o mínimo de 1,33 s.",
+      "cooldown_source": {
+        "url": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yasuo/Steel_Tempest",
+        "label": "LoL Wiki · recarga do Q",
+        "accessed_at": "2026-10-11"
+      }
     },
     {
       "id": "Yasuo.W",
