@@ -1003,7 +1003,6 @@ details>summary:focus-visible {
 .direct-action dt { color:var(--red); }
 .ability-coaching { margin:0; }
 .ability-copy .ability-cooldown { font:11px Consolas,monospace; line-height:1.7; color:var(--muted); margin:8px 0 12px; }
-.cooldown-note { text-align:center; font-size:12px; line-height:1.7; color:var(--muted); margin:0 0 22px; }
 .ability-coaching>div { display:grid; grid-template-columns:48px minmax(0,1fr); gap:10px; margin-top:8px; }
 .ability-coaching dt { font:10px Consolas,monospace; color:var(--muted); padding-top:3px; }
 .ability-coaching>div:last-child dt { color:var(--red); }
