@@ -5,10 +5,6 @@
     <p>{{ profile.profile.identity }}</p>
     {% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. O plano por fase é geral; detalhes específicos do campeão ainda precisam de revisão.</p>{% endif %}
   </header>
-  <div class="profile-traits">
-    <section><h4>Pontos fortes</h4><ul>{% for point in profile.profile.strengths %}<li>{{ point }}</li>{% endfor %}</ul></section>
-    <section><h4>Pontos fracos</h4><ul>{% for point in profile.profile.weaknesses %}<li>{{ point }}</li>{% endfor %}</ul></section>
-  </div>
   {% if profile.official_tips is defined %}
   {% set own_tips = profile.official_tips.own %}
   {% set enemy_tips = profile.official_tips.against %}
@@ -18,19 +14,6 @@
     <p class="coverage-note">Dicas fornecidas no Data Dragon. Podem conter orientações antigas; confira as habilidades atuais abaixo. Não houve revisão competitiva dessas dicas.</p>
   </details>{% endif %}
   {% endif %}
-  <section class="profile-phases" aria-label="Plano por fase de {{ profile.name }}">
-    {% for key, label in [('lane', 'Lane phase'), ('mid', 'Mid game'), ('late', 'Late game')] %}
-    {% set phase = profile.profile.phases[key] %}
-    <details class="phase-panel" data-phase="{{ key }}" {{ 'open' if key == 'lane' else '' }}>
-      <summary><span>{{ label }}</span><span class="phase-number">0{{ loop.index }}</span></summary>
-      <dl class="micro-steps">
-        <dt>O que costuma buscar</dt><dd>{{ phase.typical }}</dd>
-        <dt>Plano para quem joga {{ profile.name }}</dt><dd>{{ phase.plan }}</dd>
-        {% if profile.side == 'enemy' %}<dt>Sua resposta contra {{ profile.name }}</dt><dd>{{ phase.against }}</dd>{% endif %}
-      </dl>
-    </details>
-    {% endfor %}
-  </section>
   <details class="profile-abilities">
     <summary>Habilidades · Passiva, Q, W, E e R</summary>
     {% for key in ['P', 'Q', 'W', 'E', 'R'] %}

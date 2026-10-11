@@ -1,69 +1,145 @@
 {% extends 'base.html' %}
 {% block content %}
-<section class="intro" aria-labelledby="page-title">
-  <div><p class="eyebrow"><span class="small-line"></span> PERFIS DE CAMPEÕES / SUMMONER’S RIFT</p>
-    <h1 id="page-title">A próxima troca<br>começa <em>aqui.</em></h1>
-    <p class="intro-copy">Conheça seu kit e o do adversário.<br>Da primeira troca à última luta.</p>
-  </div>
-  <aside class="intro-note"><span class="note-number">{{ champions|length }} / 03</span><p>Elenco completo.<br>Três fases do jogo.</p><span class="muted">Habilidades · Perfis · Dicas</span></aside>
+<div class="page-title">
+<h1 id="page-title">DUELO<span>.</span>
+</h1>
+<span class="sr-only">{{ own.name }} contra {{ enemy.name }}</span>
+</div>
+<form action="{{ url_for('matchup') }}" method="get" id="matchup-form">
+<input type="hidden" name="lane" value="general">
+<section class="match-strip" aria-label="Seleção dos campeões">
+{% for side, champion, field, label in [('own', own, 'champion', 'Seu campeão'), ('enemy', enemy, 'opponent', 'Adversário')] %}
+<article class="fighter {{ side }}">
+<div class="portrait">
+<img class="champion-art" src="{{ url_for('static', filename='champions/' + champion.id + '.jpg') }}" alt="{{ champion.name }}" width="308" height="560">
+</div>
+<div class="fighter-copy">
+<span class="eyebrow">{{ label|upper }}</span>
+<h2 class="champion-name">{{ champion.name }}</h2>
+<button type="button" class="pick enhanced-only" data-pick="{{ field }}" aria-haspopup="dialog">Trocar campeão <span aria-hidden="true">↗</span>
+<span class="sr-only">{{ label }}</span>
+</button>
+<div class="fallback-selector">
+<label for="{{ field }}">{{ label }}</label>
+<select id="{{ field }}" name="{{ field }}" required>{% for option in champions %}<option value="{{ option.id }}" data-image="{{ url_for('static', filename='champions/' + option.id + '.jpg') }}" {{ 'selected' if option.id == champion.id else '' }}>{{ option.name }}</option>{% endfor %}</select>
+</div>
+</div>
+</article>{% if loop.first %}<div class="vs" aria-hidden="true">VS</div>{% endif %}
+{% endfor %}</section>
+<button type="submit" class="pick fallback-submit">Ver perfis</button>
+<p id="selection-status" class="sr-only" role="status">
+</p>
+</form>
+{% if message %}<section class="feedback" role="alert">
+<h2>Seleção inválida</h2>
+<p>{{ message }}</p>
 </section>
-<section class="matchup-builder" aria-labelledby="builder-title">
-  <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ PERFIS GERAIS</span></div>
-  <form action="{{ url_for('matchup') }}#analysis" method="get" id="matchup-form">
-    <input type="hidden" name="lane" value="general">
-
-    <div class="arena">
-      {% for side, champion, field, label in [('ally', own, 'champion', 'Seu campeão'), ('enemy', enemy, 'opponent', 'Campeão adversário')] %}
-      <div class="champion-card {{ side }}" data-card="{{ field }}">
-        <img class="champion-art" src="{{ url_for('static', filename='champions/' + champion.id + '.jpg') }}" alt="" width="308" height="560">
-        <div class="card-top"><span class="side-dot"></span>{{ 'SEU LADO' if side == 'ally' else 'OUTRO LADO' }}<span class="card-index">{{ '01' if side == 'ally' else '02' }}</span></div>
-        <div class="champion-caption"><span class="champion-title">{{ champion.title }}</span><p class="champion-name">{{ champion.name }}</p></div>
-        <div class="champion-selector">
-          <label for="search-{{ field }}">{{ 'Buscar seu campeão' if side == 'ally' else 'Buscar adversário' }}</label>
-          <input type="search" id="search-{{ field }}" class="champion-search-input" placeholder="Digite o nome" autocomplete="off" aria-controls="{{ field }}" aria-describedby="search-status-{{ field }}">
-          <span id="search-status-{{ field }}" class="sr-only" role="status">Digite para filtrar este campo.</span>
-          <label for="{{ field }}">{{ label }}</label>
-          <select id="{{ field }}" name="{{ field }}" required>
-          {% for option in champions %}<option value="{{ option.id }}" data-title="{{ option.title }}" data-image="{{ url_for('static', filename='champions/' + option.id + '.jpg') }}" {{ 'selected' if option.id == champion.id else '' }}>{{ option.name }}</option>{% endfor %}
-          </select>
-        </div>
-      </div>
-      {% if loop.first %}<div class="versus" aria-hidden="true"><span>VS</span></div>{% endif %}
-      {% endfor %}
-    </div>
-    <div class="action-row"><p>Escolha entre <strong>{{ champions|length }} campeões</strong> do catálogo da Riot.<br><span>Pontos fortes, vulnerabilidades e planos para lane, mid e late game.</span></p><button type="submit" class="primary-button">Ver perfis dos campeões <span aria-hidden="true">↗</span></button></div>
-
-  </form>
-</section>
-<section id="analysis" class="analysis" aria-labelledby="analysis-title" tabindex="-1">
-{% if message %}
-  <div class="feedback" role="alert"><span class="eyebrow">VAMOS AJUSTAR A SELEÇÃO</span><h2 id="analysis-title">Esse guia ainda não está pronto.</h2><p>{{ message }}</p><a href="#builder-title">Voltar à seleção ↑</a></div>
 {% elif guide %}
-  <div class="section-heading"><h2 id="analysis-title"><span>02</span> {{ own.name }} contra {{ enemy.name }}</h2><span class="draft-badge">{{ 'DEMONSTRATIVO' if guide.status == 'demo' else 'REVISADO' }}</span></div>
-  {% if guide.status == 'demo' %}<div class="demo-warning"><strong>Dicas editoriais em avaliação.</strong> A base descreve habilidades; as sugestões ainda não foram revisadas por especialista. Não observamos sua partida nem sabemos quais habilidades estão disponíveis.</div>{% endif %}
-  <div class="guide-lead"><h3>{{ guide.title }}</h3><p>{{ guide.summary }}</p></div>
-  <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
-  {% if guide.sections %}<details class="micro-library"><summary>Dicas de micro dos kits <span>{{ guide.sections|length }} decisões editoriais disponíveis</span></summary>
+<section class="traits-pair" aria-label="Pontos fortes e vulnerabilidades">
+{% for profile in guide.profiles %}<article>
+<h3 class="traits-name">{{ profile.name }}</h3>
+<dl class="traits">
+<div>
+<dt>PONTOS FORTES</dt>
+<dd>
+<ul>{% for point in profile.profile.strengths %}<li>{{ point }}</li>{% endfor %}</ul>
+</dd>
+</div>
+<div>
+<dt>VULNERABILIDADES</dt>
+<dd>
+<ul>{% for point in profile.profile.weaknesses %}<li>{{ point }}</li>{% endfor %}</ul>
+</dd>
+</div>
+</dl>{% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. Plano geral, sem revisão específica do campeão.</p>{% endif %}</article>{% endfor %}
+</section>
+<section id="analysis" class="phase-section" aria-label="Orientações por fase">
+<header class="phase-header enhanced-only">
+<div class="tabs" role="group" aria-label="Fase do jogo">{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}<button type="button" data-phase-button="{{ key }}" aria-pressed="{{ 'true' if key == 'lane' else 'false' }}" class="{{ 'active' if key == 'lane' else '' }}">{{ label }}</button>{% endfor %}</div>
+</header>
+<div class="brief-grid">
+{% for profile in guide.profiles %}<article class="phase-profile {{ profile.side }}" aria-label="Plano de {{ profile.name }}">
+{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}{% set phase=profile.profile.phases[key] %}
+<section class="phase-panel brief {{ profile.side }}" data-phase="{{ key }}">
+<h2 class="fallback-phase-title">{{ label }}</h2>
+<div class="brief-heading">
+<span class="perspective">{{ 'SEU PLANO' if profile.side == 'ally' else 'COMO RESPONDER' }}</span>
+<h3>{{ profile.name }}</h3>
+</div>
+<span class="sr-only">{{ 'Plano para quem joga ' + profile.name if profile.side == 'ally' else 'Sua resposta contra ' + profile.name }}</span>
+<p class="plan">{{ phase.plan if profile.side == 'ally' else phase.against }}</p>
+<div class="behavior">
+<h4>COMPORTAMENTO NESTA FASE</h4>
+<p>{{ phase.typical }}</p>
+</div>{% if profile.side == 'enemy' %}<details class="opponent-plan">
+<summary>Plano para quem joga {{ profile.name }}</summary>
+<p>{{ phase.plan }}</p>
+</details>{% endif %}</section>{% endfor %}</article>{% endfor %}</div>
+</section>
+<p class="review">Perfis independentes. Estratégia: {{ guide.patch }}. Revisão especializada pendente. Sem cálculo de vencedor ou observação da partida.</p>
+<div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
+  {% if guide.sections %}<details class="micro-library">
+<summary>Dicas de micro dos kits <span>{{ guide.sections|length }} decisões editoriais disponíveis</span>
+</summary>
   <div class="guide-grid">
     {% for section in guide.sections %}
-    <article class="guide-section"><span class="guide-number">0{{ loop.index }}</span><div>
+    <article class="guide-section">
+<span class="guide-number">0{{ loop.index }}</span>
+<div>
       <p class="tip-origin">{{ 'CONTRA ' if section.perspective == 'against' else 'SEU KIT / ' }}{{ section.champion }} · {{ section.ability }}</p>
       <h3>{{ section.title }}</h3>
-      <dl class="micro-steps"><dt>Situação</dt><dd>{{ section.situation }}</dd><dt>Ação</dt><dd>{{ section.action }}</dd><dt>Motivo</dt><dd>{{ section.reason }}</dd><dt>Exceção</dt><dd>{{ section.exception }}</dd></dl>
-      <details class="tip-evidence"><summary>Ver base mecânica</summary>
-        {% for fact in section.evidence %}<p><strong>{{ fact.ability }} · {{ fact.name }}</strong><br>{{ fact.description }}</p>{% endfor %}
-        <p><a href="{{ section.source.url }}" rel="noreferrer">{{ section.source.label }}</a> · Dados {{ section.source.patch }}</p>
+      <dl class="micro-steps">
+<dt>Situação</dt>
+<dd>{{ section.situation }}</dd>
+<dt>Ação</dt>
+<dd>{{ section.action }}</dd>
+<dt>Motivo</dt>
+<dd>{{ section.reason }}</dd>
+<dt>Exceção</dt>
+<dd>{{ section.exception }}</dd>
+</dl>
+      <details class="tip-evidence">
+<summary>Ver base mecânica</summary>
+        {% for fact in section.evidence %}<p>
+<strong>{{ fact.ability }} · {{ fact.name }}</strong>
+<br>{{ fact.description }}</p>{% endfor %}
+        <p>
+<a href="{{ section.source.url }}" rel="noreferrer">{{ section.source.label }}</a> · Dados {{ section.source.patch }}</p>
         <p>A fonte descreve a habilidade. A decisão sugerida é uma interpretação editorial.</p>
       </details>
-    </div></article>
+    </div>
+</article>
     {% endfor %}
-    <aside class="source-card"><span class="eyebrow">TRANSPARÊNCIA</span><h3>Como essas dicas foram escolhidas?</h3><p>Combinamos ameaças do adversário com ferramentas do seu campeão. A seleção é local e não usa IA. Não é um guia específico validado para esta dupla.</p><dl><dt>Patch da estratégia</dt><dd>{{ guide.patch }}</dd><dt>Revisão especializada</dt><dd>{{ guide.reviewed_at or 'Pendente' }}</dd><dt>Versão da base</dt><dd>{{ guide.revision }}</dd></dl></aside>
+    <aside class="source-note">
+<span class="eyebrow">TRANSPARÊNCIA</span>
+<h3>Como essas dicas foram escolhidas?</h3>
+<p>Combinamos ameaças do adversário com ferramentas do seu campeão. A seleção é local e não usa IA. Não é um guia específico validado para esta dupla.</p>
+<dl>
+<dt>Patch da estratégia</dt>
+<dd>{{ guide.patch }}</dd>
+<dt>Revisão especializada</dt>
+<dd>{{ guide.reviewed_at or 'Pendente' }}</dd>
+<dt>Versão da base</dt>
+<dd>{{ guide.revision }}</dd>
+</dl>
+</aside>
   </div>
   </details>{% endif %}
-{% else %}
-  <div class="section-heading"><h2 id="analysis-title"><span>02</span> Um plano para a sua lane</h2><span class="quiet-label">O QUE VOCÊ VAI ENCONTRAR</span></div>
-  <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Forças e vulnerabilidades</h3><p>Entenda seu kit e as ameaças do adversário.</p></article><article><span class="preview-icon">↗</span><h3>Plano por fase</h3><p>Veja o que cada campeão busca na lane, no mid e no late game.</p></article><article><span class="preview-icon">≋</span><h3>Habilidades e micro</h3><p>Consulte as habilidades e decisões práticas para executar suas trocas.</p></article></div>
-  <p class="demo-note">CONSULTA SEM IA <span>Perfis locais disponíveis sem chave ou cota de geração. Conteúdo estratégico em revisão.</span></p>
+
 {% endif %}
-</section>
+<dialog id="champion-dialog" aria-labelledby="dialog-title">
+<div class="dialog-head">
+<div>
+<small>SELEÇÃO</small>
+<h2 id="dialog-title">Escolha seu campeão</h2>
+</div>
+<button type="button" id="close-dialog" aria-label="Fechar seleção">×</button>
+</div>
+<label for="champion-search">Buscar campeão</label>
+<input id="champion-search" type="search" placeholder="Digite o nome" autocomplete="off" aria-controls="champion-results">
+<p id="search-status" class="sample-note" role="status">
+</p>
+<div id="champion-results">
+</div>
+</dialog>
 {% endblock %}

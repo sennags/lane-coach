@@ -1,29 +1,46 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Estude seu próximo confronto na rota do meio. Guias de lane com contexto, transparência e foco em aprendizado.">
-  <title>Lane Coach — Entenda seu confronto</title>
-  <link rel="icon" href="{{ url_for('static', filename='mark.svg') }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  <script defer src="{{ url_for('static', filename='app.js') }}"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Perfis dos campeões de League of Legends: habilidades, pontos fortes, vulnerabilidades e planos por fase.">
+<title>Lane Coach — Duelo</title>
+<link rel="icon" href="{{ url_for('static', filename='mark.svg') }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css', v='051') }}">
+<script defer src="{{ url_for('static', filename='app.js', v='051') }}">
+</script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Pular para o conteúdo</a>
-  <header class="site-header wrap">
-    <a class="brand" href="/" aria-label="Lane Coach, início"><img src="{{ url_for('static', filename='mark.svg') }}" alt="" width="32" height="32">LANE<span>COACH</span></a>
-    <span class="header-label">SEU PRÓXIMO CONFRONTO, EM FOCO.</span>
-    <span class="version"><i aria-hidden="true"></i> Prévia · 0.4</span>
-  </header>
-  <main id="main" class="wrap">{% block content %}{% endblock %}</main>
-  <footer class="site-footer wrap">
-    <div><span class="footer-brand">LC /</span> Feito para aprender a próxima jogada.</div>
-    <details><summary>Privacidade e créditos</summary>
-      <p>Esta versão não cria contas, usa cookies, rastreia visitantes ou salva suas consultas. Os dados consultados são somente campeões e lane. Nenhum pedido é enviado a uma IA.</p>
-      <p>Ilustrações: Riot Games, via Data Dragon. As descrições de habilidades vêm do Data Dragon; as sugestões editoriais são próprias e ainda não passaram por revisão especializada.</p>
-      <p>Lane Coach isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties, are trademarks or registered trademarks of Riot Games, Inc.</p>
-    </details>
-  </footer>
+<a class="skip-link" href="#main">Pular para o conteúdo</a>
+<div class="app">
+<aside class="sidebar">
+<a class="brand" href="{{ url_for('index') }}" aria-label="Lane Coach, início">
+<span class="brand-mark">L<span>/</span>C</span>
+<strong>LANE<br>COACH</strong>
+</a>
+<div class="nav-caption">PREPARAÇÃO</div>
+<nav aria-label="Principal">
+<a class="selected" href="{{ url_for('index') }}" aria-current="page">
+<span class="nav-icon" aria-hidden="true">↔</span>Duelo</a>
+<span class="future">
+<span class="nav-icon" aria-hidden="true">▦</span>Composições<small>FUTURO</small>
+</span>
+</nav>
+<div class="sidebar-foot">LEAGUE OF LEGENDS<br>
+<span>Guia independente</span>
+</div>
+</aside>
+<main id="main" class="competitive">{% block content %}{% endblock %}
+<footer>
+<span>LANE COACH</span>
+<details class="privacy">
+<summary>Privacidade e créditos</summary>
+<p>Sem cadastro, cookies, analytics ou chamadas a IA. A aplicação não salva suas consultas. As escolhas aparecem na URL e podem permanecer no histórico do navegador e nos logs da hospedagem.</p>
+<p>Ilustrações e descrições oficiais de habilidades: Riot Games, via Data Dragon. Planos de jogo próprios, em revisão especializada.</p>
+<p>Lane Coach isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties, are trademarks or registered trademarks of Riot Games, Inc.</p>
+</details>
+</footer>
+</main>
+</div>
 </body>
 </html>

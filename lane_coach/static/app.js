@@ -1,33 +1,51 @@
-document.querySelectorAll('.champion-selector select').forEach((select) => {
-  select.addEventListener('change', () => {
-    const selected = select.selectedOptions[0];
-    const card = select.closest('.champion-card');
-    card.querySelector('.champion-art').src = selected.dataset.image;
-    card.querySelector('.champion-name').textContent = selected.textContent;
-    card.querySelector('.champion-title').textContent = selected.dataset.title;
-  });
-});
 const form = document.querySelector('#matchup-form');
-const normalize = (value) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
-document.querySelectorAll('.champion-selector').forEach((selector) => {
-  const search = selector.querySelector('input[type="search"]');
-  const select = selector.querySelector('select');
-  const status = selector.querySelector('[role="status"]');
-  const options = [...select.options].map((option) => option.cloneNode(true));
-  const filter = () => {
+const dialog = document.querySelector('#champion-dialog');
+const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+if (form && dialog && typeof dialog.showModal === 'function') {
+  const selects = [...form.querySelectorAll('select')];
+  const search = document.querySelector('#champion-search');
+  const list = document.querySelector('#champion-results');
+  const status = document.querySelector('#search-status');
+  let editing;
+  let opener;
+  const results = () => {
     const term = normalize(search.value);
-    const selected = select.value;
-    const matches = options.filter((option) => normalize(option.textContent).includes(term));
-    const visible = options.filter((option) => option.value === selected || matches.some((match) => match.value === option.value));
-    select.replaceChildren(...visible.map((option) => option.cloneNode(true)));
-    select.value = selected;
-    status.textContent = `${matches.length} campeões encontrados. Sua escolha atual permanece disponível.`;
+    const other = selects.find(select => select !== editing);
+    const matches = [...editing.options].filter(option => normalize(option.textContent).includes(term));
+    list.replaceChildren();
+    for (const option of matches) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      const image = document.createElement('img'); image.src = option.dataset.image; image.alt = ''; image.loading = 'lazy';
+      const label = document.createElement('span'); label.textContent = option.textContent;
+      button.append(image, label); button.disabled = option.value === other.value;
+      button.addEventListener('click', () => { editing.value = option.value; dialog.close(); form.requestSubmit(); });
+      list.append(button);
+    }
+    status.textContent = matches.length ? `${matches.length} campeões encontrados.` : 'Nenhum campeão encontrado.';
   };
-  search.addEventListener('input', filter);
-  window.addEventListener('pageshow', filter);
-});
-if (form) {
-  const button = form.querySelector('button');
-  form.addEventListener('submit', () => { button.disabled = true; button.textContent = 'Buscando perfis…'; });
-  window.addEventListener('pageshow', () => { button.disabled = false; button.textContent = 'Ver perfis dos campeões ↗'; });
+  form.querySelectorAll('[data-pick]').forEach(button => button.addEventListener('click', () => {
+    editing = document.getElementById(button.dataset.pick); opener = button;
+    document.querySelector('#dialog-title').textContent = editing.name === 'champion' ? 'Escolha seu campeão' : 'Escolha o adversário';
+    search.value = ''; results(); dialog.showModal(); search.focus();
+  }));
+  search.addEventListener('input', results);
+  document.querySelector('#close-dialog').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('keydown', event => { if (event.key === 'Escape') { event.preventDefault(); dialog.close(); } });
+  dialog.addEventListener('close', () => opener?.focus());
+  form.addEventListener('submit', () => {
+    form.querySelectorAll('[data-pick]').forEach(button => { button.disabled = true; });
+    document.querySelector('#selection-status').textContent = 'Carregando perfis…';
+  });
+  window.addEventListener('pageshow', () => { form.querySelectorAll('[data-pick]').forEach(button => { button.disabled = false; }); });
+  document.documentElement.classList.add('js');
+}
+const phaseButtons = [...document.querySelectorAll('[data-phase-button]')];
+const showPhase = phase => {
+  document.querySelectorAll('.phase-panel[data-phase]').forEach(panel => { panel.hidden = panel.dataset.phase !== phase; });
+  phaseButtons.forEach(button => { const active = button.dataset.phaseButton === phase; button.classList.toggle('active', active); button.setAttribute('aria-pressed', active); });
+};
+if (document.documentElement.classList.contains('js') && phaseButtons.length) {
+  phaseButtons.forEach(button => button.addEventListener('click', () => showPhase(button.dataset.phaseButton)));
+  showPhase('lane');
 }

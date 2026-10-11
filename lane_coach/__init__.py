@@ -36,7 +36,7 @@ def create_app(test_config=None):
 
     @app.get('/')
     def index():
-        return page()
+        return page(guide=knowledge.guide('Yone', 'Ahri', 'general'))
 
     @app.get('/matchup')
     def matchup():
