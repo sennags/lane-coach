@@ -17,31 +17,58 @@
       "id": "Nilah.Q",
       "ability": "Q",
       "name": "Lâmina Sem Forma",
-      "description": "Com um estalo de sua lâmina-chicote, Nilah causa dano a qualquer inimigo que acertar em linha reta na direção escolhida. A habilidade também aumenta seu Alcance de Ataque por um curto período."
+      "description": "Com um estalo de sua lâmina-chicote, Nilah causa dano a qualquer inimigo que acertar em linha reta na direção escolhida. A habilidade também aumenta seu Alcance de Ataque por um curto período.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Nilah.W",
       "ability": "W",
       "name": "Véu Jubiloso",
-      "description": "Nilah se envolve em névoa, aumentando sua Velocidade de Movimento e esquivando-se graciosamente de todos os ataques. Todos os aliados que ela tocar durante a duração da névoa também receberão esse efeito."
+      "description": "Nilah se envolve em névoa, aumentando sua Velocidade de Movimento e esquivando-se graciosamente de todos os ataques. Todos os aliados que ela tocar durante a duração da névoa também receberão esse efeito.",
+      "cooldown": [
+        26,
+        25,
+        24,
+        23,
+        22
+      ]
     },
     {
       "id": "Nilah.E",
       "ability": "E",
       "name": "Turbilhão",
-      "description": "Nilah avança com muito entusiasmo em direção ao alvo, causando dano a todos os inimigos que atravessar no caminho."
+      "description": "Nilah avança com muito entusiasmo em direção ao alvo, causando dano a todos os inimigos que atravessar no caminho.",
+      "cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
     },
     {
       "id": "Nilah.R",
       "ability": "R",
       "name": "Apoteose",
-      "description": "Girando sua lâmina-chicote com alegre exuberância, Nilah causa dano aos inimigos ao redor antes de puxá-los para perto com a arma."
+      "description": "Girando sua lâmina-chicote com alegre exuberância, Nilah causa dano aos inimigos ao redor antes de puxá-los para perto com a arma.",
+      "cooldown": [
+        110,
+        95,
+        80
+      ]
     },
     {
       "id": "Nilah.P",
       "ability": "P",
       "name": "Alegria Eterna",
-      "description": "Nilah recebe mais experiência ao abater tropas, além de aprimorar e compartilhar curas e Escudos conjurados por aliados próximos."
+      "description": "Nilah recebe mais experiência ao abater tropas, além de aprimorar e compartilhar curas e Escudos conjurados por aliados próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Gragas.Q",
       "ability": "Q",
       "name": "Jogar o Barril",
-      "description": "Gragas rola seu barril até um local, podendo ativá-lo novamente para explodir. Caso isso não aconteça, o barril explodirá sozinho após 4s. A potência da explosão aumenta ao longo do tempo. Os inimigos atingidos pela explosão sofrem Lentidão."
+      "description": "Gragas rola seu barril até um local, podendo ativá-lo novamente para explodir. Caso isso não aconteça, o barril explodirá sozinho após 4s. A potência da explosão aumenta ao longo do tempo. Os inimigos atingidos pela explosão sofrem Lentidão.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Gragas.W",
       "ability": "W",
       "name": "Fúria da Bebedeira",
-      "description": "Gragas prova sua mais nova bebida por 1 segundo. Ao terminar, ele fica agitado e briguento, causando Dano Mágico a todos os inimigos próximos em seu próximo ataque básico e reduzindo o dano recebido."
+      "description": "Gragas prova sua mais nova bebida por 1 segundo. Ao terminar, ele fica agitado e briguento, causando Dano Mágico a todos os inimigos próximos em seu próximo ataque básico e reduzindo o dano recebido.",
+      "cooldown": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Gragas.E",
       "ability": "E",
       "name": "Barrigada",
-      "description": "Gragas avança em direção a um local e colide com a primeira unidade inimiga que encontrar, causando dano a todas as unidades inimigas próximas e atordoando-as."
+      "description": "Gragas avança em direção a um local e colide com a primeira unidade inimiga que encontrar, causando dano a todas as unidades inimigas próximas e atordoando-as.",
+      "cooldown": [
+        14,
+        13.5,
+        13,
+        12.5,
+        12
+      ]
     },
     {
       "id": "Gragas.R",
       "ability": "R",
       "name": "Barril Explosivo",
-      "description": "Gragas arremessa seu barril em um local, causando dano e afastando os inimigos pegos no raio da explosão."
+      "description": "Gragas arremessa seu barril em um local, causando dano e afastando os inimigos pegos no raio da explosão.",
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Gragas.P",
       "ability": "P",
       "name": "Happy Hour",
-      "description": "Gragas cura a si mesmo periodicamente após utilizar uma habilidade."
+      "description": "Gragas cura a si mesmo periodicamente após utilizar uma habilidade.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Vi.Q",
       "ability": "Q",
       "name": "Quebra-Cofres",
-      "description": "Vi carrega suas manoplas e desfere um soco capaz de quebrar cofres, empurrando-a para frente. Os inimigos que ela atingir são empurrados para trás e recebem um acúmulo de Pancada Certeira."
+      "description": "Vi carrega suas manoplas e desfere um soco capaz de quebrar cofres, empurrando-a para frente. Os inimigos que ela atingir são empurrados para trás e recebem um acúmulo de Pancada Certeira.",
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ]
     },
     {
       "id": "Vi.W",
       "ability": "W",
       "name": "Pancada Certeira",
-      "description": "Os socos de Vi quebram a Armadura de seu oponente, causando dano adicional e concedendo a ela Velocidade de Ataque."
+      "description": "Os socos de Vi quebram a Armadura de seu oponente, causando dano adicional e concedendo a ela Velocidade de Ataque.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Vi.E",
       "ability": "E",
       "name": "Força Implacável",
-      "description": "O próximo ataque de Vi atravessará seu alvo, causando dano aos inimigos atrás dele."
+      "description": "O próximo ataque de Vi atravessará seu alvo, causando dano aos inimigos atrás dele.",
+      "cooldown": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
     },
     {
       "id": "Vi.R",
       "ability": "R",
       "name": "Saque e Enterrada",
-      "description": "Vi persegue um inimigo em alta velocidade, empurrando para longe qualquer um em seu trajeto. Ao alcançar o alvo, ela o arremessa ao ar, salta atrás dele e o golpeia de volta ao chão."
+      "description": "Vi persegue um inimigo em alta velocidade, empurrando para longe qualquer um em seu trajeto. Ao alcançar o alvo, ela o arremessa ao ar, salta atrás dele e o golpeia de volta ao chão.",
+      "cooldown": [
+        140,
+        115,
+        90
+      ]
     },
     {
       "id": "Vi.P",
       "ability": "P",
       "name": "Blindagem",
-      "description": "Vi carrega um escudo ao longo do tempo que pode ser ativado ao atingir um inimigo com uma habilidade."
+      "description": "Vi carrega um escudo ao longo do tempo que pode ser ativado ao atingir um inimigo com uma habilidade.",
+      "cooldown": null
     }
   ],
   "tips": [],

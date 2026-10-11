@@ -17,31 +17,58 @@
       "id": "Sona.Q",
       "ability": "Q",
       "name": "Hino do Valor",
-      "description": "Sona toca o Hino do Valor, conjurando rajadas de som, causando Dano Mágico a dois inimigos próximos, priorizando Campeões e monstros. Sona recebe uma aura temporária que concede dano adicional no próximo ataque de aliados próximos contra inimigos."
+      "description": "Sona toca o Hino do Valor, conjurando rajadas de som, causando Dano Mágico a dois inimigos próximos, priorizando Campeões e monstros. Sona recebe uma aura temporária que concede dano adicional no próximo ataque de aliados próximos contra inimigos.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Sona.W",
       "ability": "W",
       "name": "Ária da Perseverança",
-      "description": "Sona toca a Ária da Perseverança, conjurando melodias protetoras, curando a si mesma e a um aliado ferido próximo. Sona recebe uma aura temporária que concede um escudo momentâneo a aliados marcados pela área."
+      "description": "Sona toca a Ária da Perseverança, conjurando melodias protetoras, curando a si mesma e a um aliado ferido próximo. Sona recebe uma aura temporária que concede um escudo momentâneo a aliados marcados pela área.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Sona.E",
       "ability": "E",
       "name": "Canção da Celeridade",
-      "description": "Sona toca a Canção da Celeridade, concedendo Velocidade de Movimento adicional a aliados próximos. Sona recebe uma aura temporária que concede Velocidade de Movimento adicional a Campeões aliados marcados pela área."
+      "description": "Sona toca a Canção da Celeridade, concedendo Velocidade de Movimento adicional a aliados próximos. Sona recebe uma aura temporária que concede Velocidade de Movimento adicional a Campeões aliados marcados pela área.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Sona.R",
       "ability": "R",
       "name": "Crescendo",
-      "description": "Sona toca o seu melhor acorde, causando Dano Mágico, atordoando Campeões inimigos e forçando-os a dançar."
+      "description": "Sona toca o seu melhor acorde, causando Dano Mágico, atordoando Campeões inimigos e forçando-os a dançar.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Sona.P",
       "ability": "P",
       "name": "Power Chord",
-      "description": "Accelerando : Sona recebe Aceleração permanentemente para as Habilidades básicas (exceto a ultimate), caso use-as corretamente, até um limite. Depois disso, o uso bem-sucedido reduz o Tempo de Recarga restante da ultimate. Power Chord : depois de algumas Habilidades conjuradas, o próximo Ataque de Sona causará Dano Mágico adicional e um efeito extra com base na última Habilidade básica ativada por ela."
+      "description": "Accelerando : Sona recebe Aceleração permanentemente para as Habilidades básicas (exceto a ultimate), caso use-as corretamente, até um limite. Depois disso, o uso bem-sucedido reduz o Tempo de Recarga restante da ultimate. Power Chord : depois de algumas Habilidades conjuradas, o próximo Ataque de Sona causará Dano Mágico adicional e um efeito extra com base na última Habilidade básica ativada por ela.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Pyke.Q",
       "ability": "Q",
       "name": "Espeto de Osso",
-      "description": "Pyke esfaqueia um inimigo à sua frente ou puxa um inimigo em direção a si mesmo."
+      "description": "Pyke esfaqueia um inimigo à sua frente ou puxa um inimigo em direção a si mesmo.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Pyke.W",
       "ability": "W",
       "name": "Mergulho Fantasma",
-      "description": "Pyke entra em camuflagem e ganha Velocidade de Movimento significativa que decai ao longo do tempo."
+      "description": "Pyke entra em camuflagem e ganha Velocidade de Movimento significativa que decai ao longo do tempo.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Pyke.E",
       "ability": "E",
       "name": "Ressaca Espectral",
-      "description": "Pyke avança e deixa para trás um fantasma, que avança até ele e atordoa os Campeões inimigos pelo caminho."
+      "description": "Pyke avança e deixa para trás um fantasma, que avança até ele e atordoa os Campeões inimigos pelo caminho.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Pyke.R",
       "ability": "R",
       "name": "Morte das Profundezas",
-      "description": "Pyke teleporta até inimigos com Vida baixa e os executa, permitindo que ele conjure a habilidade novamente e concedendo ouro adicional ao aliado que der assistência."
+      "description": "Pyke teleporta até inimigos com Vida baixa e os executa, permitindo que ele conjure a habilidade novamente e concedendo ouro adicional ao aliado que der assistência.",
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Pyke.P",
       "ability": "P",
       "name": "Dádiva dos Afogados",
-      "description": "Quando Pyke está escondido dos inimigos, ele regenera o dano recebido recentemente de Campeões. Pyke também não ganha Vida máxima adicional de nenhuma fonte, mas ganha DdA adicional."
+      "description": "Quando Pyke está escondido dos inimigos, ele regenera o dano recebido recentemente de Campeões. Pyke também não ganha Vida máxima adicional de nenhuma fonte, mas ganha DdA adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

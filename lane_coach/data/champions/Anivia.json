@@ -16,31 +16,58 @@
       "id": "Anivia.Q",
       "ability": "Q",
       "name": "Lampejo Gelado",
-      "description": "Anivia junta suas asas e invoca uma esfera de gelo que voa em direção ao oponente, congelando e causando dano a qualquer um em seu caminho. Ao explodir, ela causa dano moderado em um raio, atordoando qualquer um dentro da área."
+      "description": "Anivia junta suas asas e invoca uma esfera de gelo que voa em direção ao oponente, congelando e causando dano a qualquer um em seu caminho. Ao explodir, ela causa dano moderado em um raio, atordoando qualquer um dentro da área.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Anivia.W",
       "ability": "W",
       "name": "Cristalizar",
-      "description": "Anivia condensa a umidade do ar, transformando-a num muro impenetrável de gelo que bloqueia todo o movimento. O muro dura um curto período antes de derreter."
+      "description": "Anivia condensa a umidade do ar, transformando-a num muro impenetrável de gelo que bloqueia todo o movimento. O muro dura um curto período antes de derreter.",
+      "cooldown": [
+        17,
+        17,
+        17,
+        17,
+        17
+      ]
     },
     {
       "id": "Anivia.E",
       "ability": "E",
       "name": "Congelamento",
-      "description": "Com um bater de asas, Anivia dispara uma rajada congelante de vento no alvo, causando dano. Se o alvo tiver sido atingido recentemente por Lampejo Gelado ou sofrido dano de uma Tempestade Glacial totalmente formada, o dano sofrido é dobrado."
+      "description": "Com um bater de asas, Anivia dispara uma rajada congelante de vento no alvo, causando dano. Se o alvo tiver sido atingido recentemente por Lampejo Gelado ou sofrido dano de uma Tempestade Glacial totalmente formada, o dano sofrido é dobrado.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Anivia.R",
       "ability": "R",
       "name": "Tempestade Glacial",
-      "description": "Anivia invoca uma chuva torrencial de gelo e granizo para causar dano aos inimigos e atrasar seu avanço."
+      "description": "Anivia invoca uma chuva torrencial de gelo e granizo para causar dano aos inimigos e atrasar seu avanço.",
+      "cooldown": [
+        4,
+        3,
+        2
+      ]
     },
     {
       "id": "Anivia.P",
       "ability": "P",
       "name": "Renascimento",
-      "description": "Ao receber dano letal, Anivia volta à forma de ovo e renasce com a Vida completa."
+      "description": "Ao receber dano letal, Anivia volta à forma de ovo e renasce com a Vida completa.",
+      "cooldown": null
     }
   ],
   "tips": [],

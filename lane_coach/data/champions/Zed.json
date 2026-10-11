@@ -20,7 +20,14 @@
       "coaching": {
         "use": "Corpo e sombras lançam shurikens, criando linhas de dano.",
         "limit": "O dano depende de conectar os disparos, não apenas colocar a sombra."
-      }
+      },
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Zed.W",
@@ -30,7 +37,14 @@
       "coaching": {
         "use": "Sombra cria um ponto de disparo e permite trocar de posição.",
         "limit": "A sombra dura por um período; gastar a troca altera a saída disponível."
-      }
+      },
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ]
     },
     {
       "id": "Zed.E",
@@ -40,7 +54,14 @@
       "coaching": {
         "use": "Cortes dão dano próximo; o corte da sombra aplica lentidão.",
         "limit": "Depende de alcance do corpo ou da sombra."
-      }
+      },
+      "cooldown": [
+        5,
+        4.5,
+        4,
+        3.5,
+        3
+      ]
     },
     {
       "id": "Zed.R",
@@ -50,7 +71,12 @@
       "coaching": {
         "use": "Entrada inalvejável e marca que repete parte do dano causado.",
         "limit": "Precisa causar dano durante a marca; o R sozinho não garante finalizar."
-      }
+      },
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Zed.P",
@@ -60,7 +86,8 @@
       "coaching": {
         "use": "Ataques contra alvos com pouca vida causam dano mágico adicional.",
         "limit": "O efeito não pode repetir imediatamente no mesmo campeão."
-      }
+      },
+      "cooldown": null
     }
   ],
   "tips": [

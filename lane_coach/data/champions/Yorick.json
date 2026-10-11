@@ -17,31 +17,58 @@
       "id": "Yorick.Q",
       "ability": "Q",
       "name": "Extrema-Unção",
-      "description": "Yorick causa dano adicional em seu próximo Ataque e se cura. Se o alvo for um Campeão/monstro grande ou se ele for abatido, uma cova será aberta."
+      "description": "Yorick causa dano adicional em seu próximo Ataque e se cura. Se o alvo for um Campeão/monstro grande ou se ele for abatido, uma cova será aberta.",
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ]
     },
     {
       "id": "Yorick.W",
       "ability": "W",
       "name": "Procissão Sombria",
-      "description": "Yorick invoca uma parede destrutível no local-alvo, que bloqueará a movimentação de inimigos."
+      "description": "Yorick invoca uma parede destrutível no local-alvo, que bloqueará a movimentação de inimigos.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Yorick.E",
       "ability": "E",
       "name": "Névoa dos Lamentos",
-      "description": "Yorick arremessa um glóbulo de Névoa Negra que reduz a Armadura, causa dano, aplica Lentidão e marca os inimigos. Unidades invocadas recebem Velocidade de Movimento ao moverem-se em direção a alvos marcados."
+      "description": "Yorick arremessa um glóbulo de Névoa Negra que reduz a Armadura, causa dano, aplica Lentidão e marca os inimigos. Unidades invocadas recebem Velocidade de Movimento ao moverem-se em direção a alvos marcados.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Yorick.R",
       "ability": "R",
       "name": "Louvor das Ilhas",
-      "description": "Yorick invoca a Donzela da Névoa, que faz com que seus ataques contra os alvos dela causem dano adicional. A Donzela também faz surgir Andarilhos automaticamente a partir de inimigos mortos."
+      "description": "Yorick invoca a Donzela da Névoa, que faz com que seus ataques contra os alvos dela causem dano adicional. A Donzela também faz surgir Andarilhos automaticamente a partir de inimigos mortos.",
+      "cooldown": [
+        160,
+        130,
+        100
+      ]
     },
     {
       "id": "Yorick.P",
       "ability": "P",
       "name": "Pastor de Almas",
-      "description": "A Horda Maldita: Yorick pode invocar Andarilhos da Névoa e atacar inimigos próximos."
+      "description": "A Horda Maldita: Yorick pode invocar Andarilhos da Névoa e atacar inimigos próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

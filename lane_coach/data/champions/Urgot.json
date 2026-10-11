@@ -17,31 +17,58 @@
       "id": "Urgot.Q",
       "ability": "Q",
       "name": "Carga Corrosiva",
-      "description": "Detona uma carga explosiva no local-alvo, causando Dano Físico e reduzindo a velocidade dos inimigos atingidos pela explosão."
+      "description": "Detona uma carga explosiva no local-alvo, causando Dano Físico e reduzindo a velocidade dos inimigos atingidos pela explosão.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Urgot.W",
       "ability": "W",
       "name": "Expurgar",
-      "description": "Urgot reduz sua velocidade enquanto descarrega sua arma contra inimigos próximos. Prioriza Campeões inimigos que tenha atingido recentemente com outras habilidades e aciona Chamas Ecoantes."
+      "description": "Urgot reduz sua velocidade enquanto descarrega sua arma contra inimigos próximos. Prioriza Campeões inimigos que tenha atingido recentemente com outras habilidades e aciona Chamas Ecoantes.",
+      "cooldown": [
+        12,
+        9,
+        6,
+        3,
+        0
+      ]
     },
     {
       "id": "Urgot.E",
       "ability": "E",
       "name": "Desdém",
-      "description": "Urgot avança em uma direção, protegendo-se com um escudo e pisoteando inimigos não Campeões. Se atingir um Campeão inimigo, ele para e o arremessa para fora de seu caminho."
+      "description": "Urgot avança em uma direção, protegendo-se com um escudo e pisoteando inimigos não Campeões. Se atingir um Campeão inimigo, ele para e o arremessa para fora de seu caminho.",
+      "cooldown": [
+        16,
+        15.5,
+        15,
+        14.5,
+        14
+      ]
     },
     {
       "id": "Urgot.R",
       "ability": "R",
       "name": "Pior que a Morte",
-      "description": "Urgot dispara uma broca química que perfura o primeiro Campeão inimigo atingido. Se esse Campeão ficar abaixo de um limite mínimo de Vida, Urgot o julgará fraco e o executará."
+      "description": "Urgot dispara uma broca química que perfura o primeiro Campeão inimigo atingido. Se esse Campeão ficar abaixo de um limite mínimo de Vida, Urgot o julgará fraco e o executará.",
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Urgot.P",
       "ability": "P",
       "name": "Chamas Ecoantes",
-      "description": "Os ataques básicos de Urgot e Expurgar disparam periodicamente explosões de chamas de suas pernas, causando Dano Físico."
+      "description": "Os ataques básicos de Urgot e Expurgar disparam periodicamente explosões de chamas de suas pernas, causando Dano Físico.",
+      "cooldown": null
     }
   ],
   "tips": [],

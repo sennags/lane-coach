@@ -17,31 +17,58 @@
       "id": "Ambessa.Q",
       "ability": "Q",
       "name": "Golpe Ardiloso / Pancada Cortante",
-      "description": "Ambessa golpeia com seus cães-dragão em um semicírculo à frente, causando dano adicional aos inimigos atingidos pelas lâminas. Atingir um inimigo transformará a próxima conjuração desta Habilidade por um curto período, fazendo com que ela golpeie em linha reta com seus cães-dragão, causando dano adicional ao primeiro inimigo atingido."
+      "description": "Ambessa golpeia com seus cães-dragão em um semicírculo à frente, causando dano adicional aos inimigos atingidos pelas lâminas. Atingir um inimigo transformará a próxima conjuração desta Habilidade por um curto período, fazendo com que ela golpeie em linha reta com seus cães-dragão, causando dano adicional ao primeiro inimigo atingido.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Ambessa.W",
       "ability": "W",
       "name": "Repúdio",
-      "description": "Ambessa recebe Escudo, canaliza por um curto período e golpeia o chão, causando dano aos inimigos próximos. Caso bloqueie qualquer dano de unidades que não sejam tropas enquanto canaliza, a Habilidade causará dano aumentado."
+      "description": "Ambessa recebe Escudo, canaliza por um curto período e golpeia o chão, causando dano aos inimigos próximos. Caso bloqueie qualquer dano de unidades que não sejam tropas enquanto canaliza, a Habilidade causará dano aumentado.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Ambessa.E",
       "ability": "E",
       "name": "Lacerar",
-      "description": "Ambessa chicoteia seus cães-dragão ao redor de si, causando dano e Lentidão a inimigos próximos. Iniciar Passo do Cão-dragão com esta Habilidade faz com que ela golpeie uma segunda vez no fim do avanço."
+      "description": "Ambessa chicoteia seus cães-dragão ao redor de si, causando dano e Lentidão a inimigos próximos. Iniciar Passo do Cão-dragão com esta Habilidade faz com que ela golpeie uma segunda vez no fim do avanço.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Ambessa.R",
       "ability": "R",
       "name": "Execução Pública",
-      "description": "Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado."
+      "description": "Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado.",
+      "cooldown": [
+        130,
+        115,
+        100
+      ]
     },
     {
       "id": "Ambessa.P",
       "ability": "P",
       "name": "Passo do Cão-dragão",
-      "description": "Utilizar um comando de ataque ou de movimento enquanto conjura uma habilidade fará com que Ambessa avance a uma curta distância assim que a habilidade for conjurada, recebendo alcance, dano e Velocidade de Ataque adicionais em seu próximo ataque e recuperando energia."
+      "description": "Utilizar um comando de ataque ou de movimento enquanto conjura uma habilidade fará com que Ambessa avance a uma curta distância assim que a habilidade for conjurada, recebendo alcance, dano e Velocidade de Ataque adicionais em seu próximo ataque e recuperando energia.",
+      "cooldown": null
     }
   ],
   "tips": [],

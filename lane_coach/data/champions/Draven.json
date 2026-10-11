@@ -16,31 +16,58 @@
       "id": "Draven.Q",
       "ability": "Q",
       "name": "Revolução do Machado",
-      "description": "O próximo ataque de Draven causará Dano Físico adicional. O machado ricocheteará do alvo em direção ao ar. Se Draven o apanhar, ele automaticamente irá preparar outra Revolução do Machado. Draven pode ter duas Revoluções do Machado simultaneamente em ação."
+      "description": "O próximo ataque de Draven causará Dano Físico adicional. O machado ricocheteará do alvo em direção ao ar. Se Draven o apanhar, ele automaticamente irá preparar outra Revolução do Machado. Draven pode ter duas Revoluções do Machado simultaneamente em ação.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Draven.W",
       "ability": "W",
       "name": "Adrenalina",
-      "description": "Draven ganha um aumento de Velocidade de Movimento e de Ataque. O aumento na Velocidade de Movimento decai rapidamente ao longo da duração. Apanhar uma Revolução do Machado fará com que o Tempo de Recarga de Adrenalina seja zerado."
+      "description": "Draven ganha um aumento de Velocidade de Movimento e de Ataque. O aumento na Velocidade de Movimento decai rapidamente ao longo da duração. Apanhar uma Revolução do Machado fará com que o Tempo de Recarga de Adrenalina seja zerado.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Draven.E",
       "ability": "E",
       "name": "Sai da Frente",
-      "description": "Draven arremessa seus machados, causando Dano Físico aos alvos atingidos e empurrando-os para o lado. Os alvos atingidos sofrem redução de velocidade."
+      "description": "Draven arremessa seus machados, causando Dano Físico aos alvos atingidos e empurrando-os para o lado. Os alvos atingidos sofrem redução de velocidade.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Draven.R",
       "ability": "R",
       "name": "Reta da Morte",
-      "description": "Draven arremessa dois machados gigantes para causar Dano Físico a cada unidade atingida. Reta da Morte lentamente muda de direção e retorna a Draven após atingir um Campeão inimigo. Draven também pode ativar esta habilidade durante o percurso dos machados para fazer com que voltem antecipadamente. Causa menos dano para cada unidade atingida e zera quando os machados mudam de direção. Executa inimigos com Vida inferior ao número de acúmulos de Adoração do Draven."
+      "description": "Draven arremessa dois machados gigantes para causar Dano Físico a cada unidade atingida. Reta da Morte lentamente muda de direção e retorna a Draven após atingir um Campeão inimigo. Draven também pode ativar esta habilidade durante o percurso dos machados para fazer com que voltem antecipadamente. Causa menos dano para cada unidade atingida e zera quando os machados mudam de direção. Executa inimigos com Vida inferior ao número de acúmulos de Adoração do Draven.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Draven.P",
       "ability": "P",
       "name": "League of Draven",
-      "description": "Draven ganha Adoração de seus fãs quando apanha uma Revolução do Machado ou abate uma tropa, monstro ou torre. Abater Campeões inimigos concede ouro adicional a Draven, com base em quanta Adoração ele tem."
+      "description": "Draven ganha Adoração de seus fãs quando apanha uma Revolução do Machado ou abate uma tropa, monstro ou torre. Abater Campeões inimigos concede ouro adicional a Draven, com base em quanta Adoração ele tem.",
+      "cooldown": null
     }
   ],
   "tips": [],

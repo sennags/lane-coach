@@ -17,31 +17,58 @@
       "id": "Teemo.Q",
       "ability": "Q",
       "name": "Dardo Ofuscante",
-      "description": "Obscurece a visão de um inimigo com um poderoso veneno, causando dano e cegueira ao alvo pela duração do efeito."
+      "description": "Obscurece a visão de um inimigo com um poderoso veneno, causando dano e cegueira ao alvo pela duração do efeito.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Teemo.W",
       "ability": "W",
       "name": "Mover Depressa",
-      "description": "Teemo corre por aí, aumentando passivamente sua Velocidade de Movimento até ser atingido por um Campeão ou torre inimiga. Ele pode sair em disparada para receber Velocidade de Movimento adicional (que não é interrompida por ataques) por um breve período."
+      "description": "Teemo corre por aí, aumentando passivamente sua Velocidade de Movimento até ser atingido por um Campeão ou torre inimiga. Ele pode sair em disparada para receber Velocidade de Movimento adicional (que não é interrompida por ataques) por um breve período.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Teemo.E",
       "ability": "E",
       "name": "Tiro Tóxico",
-      "description": "Cada um dos ataques de Teemo envenenará o alvo %i:OnHit% ao contato , causando dano no impacto e a cada segundo seguinte por 4s."
+      "description": "Cada um dos ataques de Teemo envenenará o alvo %i:OnHit% ao contato , causando dano no impacto e a cada segundo seguinte por 4s.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Teemo.R",
       "ability": "R",
       "name": "Armadilha Venenosa",
-      "description": "Teemo arremessa uma armadilha venenosa explosiva usando um dos cogumelos que guardou na mochila. Se um inimigo pisa na armadilha, ela solta uma nuvem venenosa que causa Lentidão e dano ao longo do tempo. Se Teemo arremessar um cogumelo em cima de outro, ele saltará, recebendo alcance adicional."
+      "description": "Teemo arremessa uma armadilha venenosa explosiva usando um dos cogumelos que guardou na mochila. Se um inimigo pisa na armadilha, ela solta uma nuvem venenosa que causa Lentidão e dano ao longo do tempo. Se Teemo arremessar um cogumelo em cima de outro, ele saltará, recebendo alcance adicional.",
+      "cooldown": [
+        0.25,
+        0.25,
+        0.25
+      ]
     },
     {
       "id": "Teemo.P",
       "ability": "P",
       "name": "Técnicas de Guerrilha",
-      "description": "Se Teemo permanece imóvel e não faz nada por um curto período, fica Invisível por tempo indefinido. Caso esteja em um arbusto, Teemo pode manter sua Invisibilidade enquanto se move. Ao sair da Invisibilidade, Teemo ativa Elemento-Surpresa, aumentando a própria Velocidade de Ataque por alguns segundos."
+      "description": "Se Teemo permanece imóvel e não faz nada por um curto período, fica Invisível por tempo indefinido. Caso esteja em um arbusto, Teemo pode manter sua Invisibilidade enquanto se move. Ao sair da Invisibilidade, Teemo ativa Elemento-Surpresa, aumentando a própria Velocidade de Ataque por alguns segundos.",
+      "cooldown": null
     }
   ],
   "tips": [],

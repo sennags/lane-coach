@@ -17,31 +17,58 @@
       "id": "Lulu.Q",
       "ability": "Q",
       "name": "Lança-Purpurina",
-      "description": "Pix e Lulu disparam um raio de energia mágica que causa dano e muita Lentidão aos inimigos atingidos."
+      "description": "Pix e Lulu disparam um raio de energia mágica que causa dano e muita Lentidão aos inimigos atingidos.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Lulu.W",
       "ability": "W",
       "name": "Caprichos",
-      "description": "Se conjurada sobre um aliado, ela lhe concede Velocidade de Movimento por um curto período de tempo. Se lançado sobre um inimigo, ele é transformado em um adorável bichinho que não pode atacar nem lançar feitiços."
+      "description": "Se conjurada sobre um aliado, ela lhe concede Velocidade de Movimento por um curto período de tempo. Se lançado sobre um inimigo, ele é transformado em um adorável bichinho que não pode atacar nem lançar feitiços.",
+      "cooldown": [
+        18,
+        18,
+        18,
+        18,
+        18
+      ]
     },
     {
       "id": "Lulu.E",
       "ability": "E",
       "name": "Socorro, Pix!",
-      "description": "Se conjurada em um aliado, ordena para que Pix pule nele e o proteja. Ela em seguida o segue e ajuda com seus ataques. Se conjurada em um inimigo, ordena para que Pix pule nele e o atinja. Ela o segue e lhe concede visão do inimigo."
+      "description": "Se conjurada em um aliado, ordena para que Pix pule nele e o proteja. Ela em seguida o segue e ajuda com seus ataques. Se conjurada em um inimigo, ordena para que Pix pule nele e o atinja. Ela o segue e lhe concede visão do inimigo.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Lulu.R",
       "ability": "R",
       "name": "Crescimento Virente",
-      "description": "Lulu aumenta o tamanho de um aliado, arremessando ao ar inimigos próximos e concedendo ao aliado uma grande quantidade de Vida adicional. Pelos próximos segundos, tal aliado recebe uma aura que reduz a velocidade de inimigos próximos."
+      "description": "Lulu aumenta o tamanho de um aliado, arremessando ao ar inimigos próximos e concedendo ao aliado uma grande quantidade de Vida adicional. Pelos próximos segundos, tal aliado recebe uma aura que reduz a velocidade de inimigos próximos.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Lulu.P",
       "ability": "P",
       "name": "Pix, o Silfo Companheiro",
-      "description": "Pix faz disparos de energia mágica sempre que o Campeão que estiver seguindo atacar outra unidade inimiga. Os disparos seguem o inimigo, mas podem ser interceptados por outras unidades."
+      "description": "Pix faz disparos de energia mágica sempre que o Campeão que estiver seguindo atacar outra unidade inimiga. Os disparos seguem o inimigo, mas podem ser interceptados por outras unidades.",
+      "cooldown": null
     }
   ],
   "tips": [],

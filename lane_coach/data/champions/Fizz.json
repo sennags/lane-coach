@@ -17,31 +17,58 @@
       "id": "Fizz.Q",
       "ability": "Q",
       "name": "Ataque do Ouriço",
-      "description": "Fizz avança em direção ao alvo, causando Dano Mágico e aplicando efeitos de contato."
+      "description": "Fizz avança em direção ao alvo, causando Dano Mágico e aplicando efeitos de contato.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Fizz.W",
       "ability": "W",
       "name": "Tridente da Pedra do Mar",
-      "description": "Os ataques de Fizz fazem seus inimigos sangrarem, causando Dano Mágico por vários segundos. Fizz pode fortalecer seu próximo ataque para causar dano adicional e fortalecer os seguintes por um curto período."
+      "description": "Os ataques de Fizz fazem seus inimigos sangrarem, causando Dano Mágico por vários segundos. Fizz pode fortalecer seu próximo ataque para causar dano adicional e fortalecer os seguintes por um curto período.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "Fizz.E",
       "ability": "E",
       "name": "Brincalhão / Trapaceiro",
-      "description": "Fizz faz acrobacias no ar, aterrissando graciosamente sobre seu tridente e ficando inalvejável. Desta posição, ele pode tanto golpear o chão quanto pular novamente antes de cair de vez."
+      "description": "Fizz faz acrobacias no ar, aterrissando graciosamente sobre seu tridente e ficando inalvejável. Desta posição, ele pode tanto golpear o chão quanto pular novamente antes de cair de vez.",
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ]
     },
     {
       "id": "Fizz.R",
       "ability": "R",
       "name": "Lançar Isca",
-      "description": "Fizz arremessa um peixe em determinada direção, que se prende a qualquer Campeão que tocar, reduzindo a velocidade do alvo. Após um curto intervalo, um tubarão emerge do chão, lançando o alvo ao ar e empurrando outros inimigos para trás. Todos os inimigos atingidos recebem Dano Mágico e têm sua velocidade reduzida."
+      "description": "Fizz arremessa um peixe em determinada direção, que se prende a qualquer Campeão que tocar, reduzindo a velocidade do alvo. Após um curto intervalo, um tubarão emerge do chão, lançando o alvo ao ar e empurrando outros inimigos para trás. Todos os inimigos atingidos recebem Dano Mágico e têm sua velocidade reduzida.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Fizz.P",
       "ability": "P",
       "name": "Lutador Ligeiro",
-      "description": "Fizz pode se mover através de unidades e sofre uma quantidade fixa de dano reduzido de todas as origens."
+      "description": "Fizz pode se mover através de unidades e sofre uma quantidade fixa de dano reduzido de todas as origens.",
+      "cooldown": null
     }
   ],
   "tips": [],

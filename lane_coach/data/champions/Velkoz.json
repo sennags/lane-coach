@@ -17,31 +17,58 @@
       "id": "Velkoz.Q",
       "ability": "Q",
       "name": "Fissão Plasmática",
-      "description": "Vel'Koz dispara um projétil de plasma que se divide em dois ao ser reativado ou ao atingir um inimigo. O projétil causa dano e redução de velocidade a inimigos ao contato."
+      "description": "Vel'Koz dispara um projétil de plasma que se divide em dois ao ser reativado ou ao atingir um inimigo. O projétil causa dano e redução de velocidade a inimigos ao contato.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Velkoz.W",
       "ability": "W",
       "name": "Fenda do Vazio",
-      "description": "Vel'Koz abre uma fenda ao Vazio que causa uma rajada inicial de dano, explodindo em seguida para causar mais dano após um breve intervalo."
+      "description": "Vel'Koz abre uma fenda ao Vazio que causa uma rajada inicial de dano, explodindo em seguida para causar mais dano após um breve intervalo.",
+      "cooldown": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ]
     },
     {
       "id": "Velkoz.E",
       "ability": "E",
       "name": "Ruptura Tectônica",
-      "description": "Vel'Koz faz com que uma área exploda, arremessando inimigos ao ar e afastando inimigos próximos."
+      "description": "Vel'Koz faz com que uma área exploda, arremessando inimigos ao ar e afastando inimigos próximos.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Velkoz.R",
       "ability": "R",
       "name": "Raio Desintegrador de Formas de Vida",
-      "description": "Vel'Koz desfere um raio canalizado que segue o cursor por 2,5s, causando Dano Mágico. Desconstrução Orgânica pesquisa Campeões inimigos, fazendo com que recebam Dano Verdadeiro em vez de Dano Mágico."
+      "description": "Vel'Koz desfere um raio canalizado que segue o cursor por 2,5s, causando Dano Mágico. Desconstrução Orgânica pesquisa Campeões inimigos, fazendo com que recebam Dano Verdadeiro em vez de Dano Mágico.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Velkoz.P",
       "ability": "P",
       "name": "Desconstrução Orgânica",
-      "description": "As habilidades de Vel'Koz aplicam Desconstrução Orgânica nos inimigos ao contato. Ao chegar a 3 acúmulos, o inimigo receberá uma rajada de Dano Verdadeiro."
+      "description": "As habilidades de Vel'Koz aplicam Desconstrução Orgânica nos inimigos ao contato. Ao chegar a 3 acúmulos, o inimigo receberá uma rajada de Dano Verdadeiro.",
+      "cooldown": null
     }
   ],
   "tips": [],

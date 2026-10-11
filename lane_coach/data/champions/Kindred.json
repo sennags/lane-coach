@@ -16,31 +16,58 @@
       "id": "Kindred.Q",
       "ability": "Q",
       "name": "Dança de Flechas",
-      "description": "Os Kindred rolam e disparam até três flechas em alvos próximos."
+      "description": "Os Kindred rolam e disparam até três flechas em alvos próximos.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Kindred.W",
       "ability": "W",
       "name": "Frenesi do Lobo",
-      "description": "O Lobo se enraivece e ataca inimigos à sua volta. A Ovelha ganha acúmulos passivamente ao se mover e atacar. Quando totalmente carregado, o próximo ataque da Ovelha recupera Vida."
+      "description": "O Lobo se enraivece e ataca inimigos à sua volta. A Ovelha ganha acúmulos passivamente ao se mover e atacar. Quando totalmente carregado, o próximo ataque da Ovelha recupera Vida.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Kindred.E",
       "ability": "E",
       "name": "Pesar Crescente",
-      "description": "A Ovelha faz um disparo cuidadoso, reduzindo a velocidade de seu alvo. Se a Ovelha atacar o alvo mais duas vezes, seu próximo ataque fará com que o Lobo salte no inimigo, golpeando-o e causando muito dano."
+      "description": "A Ovelha faz um disparo cuidadoso, reduzindo a velocidade de seu alvo. Se a Ovelha atacar o alvo mais duas vezes, seu próximo ataque fará com que o Lobo salte no inimigo, golpeando-o e causando muito dano.",
+      "cooldown": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ]
     },
     {
       "id": "Kindred.R",
       "ability": "R",
       "name": "Refúgio da Ovelha",
-      "description": "A Ovelha concede refúgio contra a morte para todos os seres vivos em uma área. Até que seu efeito acabe, nada pode morrer. No fim de sua duração, as unidades são curadas."
+      "description": "A Ovelha concede refúgio contra a morte para todos os seres vivos em uma área. Até que seu efeito acabe, nada pode morrer. No fim de sua duração, as unidades são curadas.",
+      "cooldown": [
+        160,
+        140,
+        120
+      ]
     },
     {
       "id": "Kindred.P",
       "ability": "P",
       "name": "Marca Familiar",
-      "description": "Os Kindred marcam alvos para Caçar. Concluir uma Caçada fortalece permanentemente as habilidades básicas deles. A cada 4 caçadas concluídas, o Alcance de Ataque também aumenta."
+      "description": "Os Kindred marcam alvos para Caçar. Concluir uma Caçada fortalece permanentemente as habilidades básicas deles. A cada 4 caçadas concluídas, o Alcance de Ataque também aumenta.",
+      "cooldown": null
     }
   ],
   "tips": [],

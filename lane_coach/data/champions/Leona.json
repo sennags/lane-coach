@@ -17,31 +17,58 @@
       "id": "Leona.Q",
       "ability": "Q",
       "name": "Proteção da Aurora",
-      "description": "Leona usa seu escudo para fazer seu próximo ataque básico, causando Dano Mágico adicional e atordoando o alvo."
+      "description": "Leona usa seu escudo para fazer seu próximo ataque básico, causando Dano Mágico adicional e atordoando o alvo.",
+      "cooldown": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Leona.W",
       "ability": "W",
       "name": "Eclipse",
-      "description": "Leona ergue seu escudo para receber redução de dano, Armadura e Resistência Mágica. Quando a duração chegar ao fim, caso haja inimigos próximos, ela causará Dano Mágico a eles e prolongará a duração do efeito."
+      "description": "Leona ergue seu escudo para receber redução de dano, Armadura e Resistência Mágica. Quando a duração chegar ao fim, caso haja inimigos próximos, ela causará Dano Mágico a eles e prolongará a duração do efeito.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Leona.E",
       "ability": "E",
       "name": "Lâmina Zênite",
-      "description": "Leona projeta uma imagem solar da sua espada, causando Dano Mágico a todos os inimigos em uma fila. Quando a imagem some, o último campeão inimigo a ser acertado fica imobilizado por um curto periodo e Leona o ataca."
+      "description": "Leona projeta uma imagem solar da sua espada, causando Dano Mágico a todos os inimigos em uma fila. Quando a imagem some, o último campeão inimigo a ser acertado fica imobilizado por um curto periodo e Leona o ataca.",
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ]
     },
     {
       "id": "Leona.R",
       "ability": "R",
       "name": "Labareda Solar",
-      "description": "Leona invoca um raio de energia solar do céu, causando dano aos inimigos em uma área. Inimigos no centro da área são atordoados, enquanto inimigos próximos à extremidade sofrem redução de velocidade."
+      "description": "Leona invoca um raio de energia solar do céu, causando dano aos inimigos em uma área. Inimigos no centro da área são atordoados, enquanto inimigos próximos à extremidade sofrem redução de velocidade.",
+      "cooldown": [
+        90,
+        75,
+        60
+      ]
     },
     {
       "id": "Leona.P",
       "ability": "P",
       "name": "Luz do Sol",
-      "description": "Habilidades que causam dano atingem os inimigos com Luz do Sol por 1,5s. Quando Campeões aliados causam dano a esses alvos, a Luz do Sol é consumida para causar Dano Mágico adicional."
+      "description": "Habilidades que causam dano atingem os inimigos com Luz do Sol por 1,5s. Quando Campeões aliados causam dano a esses alvos, a Luz do Sol é consumida para causar Dano Mágico adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

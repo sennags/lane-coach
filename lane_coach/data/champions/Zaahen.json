@@ -16,31 +16,58 @@
       "id": "Zaahen.Q",
       "ability": "Q",
       "name": "A Glaive Darkin",
-      "description": "Zaahen desfere dois cortes no próximo ataque, causando dano adicional e curando-se. Zaahen pode reconjurar a próxima habilidade para fazer o próximo ataque causar dano adicional e arremessar o alvo ao ar."
+      "description": "Zaahen desfere dois cortes no próximo ataque, causando dano adicional e curando-se. Zaahen pode reconjurar a próxima habilidade para fazer o próximo ataque causar dano adicional e arremessar o alvo ao ar.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Zaahen.W",
       "ability": "W",
       "name": "Temível Retorno",
-      "description": "Zaahen dá uma estocada em uma direção, causando dano aos inimigos atingidos, e puxa-os para si."
+      "description": "Zaahen dá uma estocada em uma direção, causando dano aos inimigos atingidos, e puxa-os para si.",
+      "cooldown": [
+        14,
+        13.5,
+        13,
+        12.5,
+        12
+      ]
     },
     {
       "id": "Zaahen.E",
       "ability": "E",
       "name": "Ímpeto Áureo",
-      "description": "Zaahen avança para um local e desfere um corte ao redor de si."
+      "description": "Zaahen avança para um local e desfere um corte ao redor de si.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Zaahen.R",
       "ability": "R",
       "name": "Desfecho Fatídico",
-      "description": "Zaahen se ergue e estoca para baixo, causando dano a inimigos e curando uma parte do dano causado."
+      "description": "Zaahen se ergue e estoca para baixo, causando dano a inimigos e curando uma parte do dano causado.",
+      "cooldown": [
+        110,
+        95,
+        80
+      ]
     },
     {
       "id": "Zaahen.P",
       "ability": "P",
       "name": "Cultivação da Guerra",
-      "description": "Os ataques e as habilidades de Zaahen contra Campeões inimigos concedem a ele acúmulos de Determinação, que proporcionam Dano de Ataque adicional por acúmulo. Enquanto está com Determinação, Zaahen ganha mais Dano de Ataque e é capaz de ressuscitar."
+      "description": "Os ataques e as habilidades de Zaahen contra Campeões inimigos concedem a ele acúmulos de Determinação, que proporcionam Dano de Ataque adicional por acúmulo. Enquanto está com Determinação, Zaahen ganha mais Dano de Ataque e é capaz de ressuscitar.",
+      "cooldown": null
     }
   ],
   "tips": [],

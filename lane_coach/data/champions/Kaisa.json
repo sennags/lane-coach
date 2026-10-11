@@ -17,31 +17,58 @@
       "id": "Kaisa.Q",
       "ability": "Q",
       "name": "Chuva Icathiana",
-      "description": "Kai'Sa dispara uma chuva de projéteis que correm atrás de alvos próximos. Arma Viva: Chuva Icathiana é aprimorada e lança mais mísseis."
+      "description": "Kai'Sa dispara uma chuva de projéteis que correm atrás de alvos próximos. Arma Viva: Chuva Icathiana é aprimorada e lança mais mísseis.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Kaisa.W",
       "ability": "W",
       "name": "Exploradora do Vazio",
-      "description": "Kai'Sa lança um projétil de longo alcance, marcando inimigos com sua passiva. Arma Viva: Exploradora do Vazio é aprimorada e aplica mais marcas passivas e tem o Tempo de Recarga reduzido ao acertar um Campeão."
+      "description": "Kai'Sa lança um projétil de longo alcance, marcando inimigos com sua passiva. Arma Viva: Exploradora do Vazio é aprimorada e aplica mais marcas passivas e tem o Tempo de Recarga reduzido ao acertar um Campeão.",
+      "cooldown": [
+        20,
+        18.5,
+        17,
+        15.5,
+        14
+      ]
     },
     {
       "id": "Kaisa.E",
       "ability": "E",
       "name": "Sobrecarga",
-      "description": "Kai'Sa aumenta brevemente sua Velocidade de Movimento, depois aumenta sua Velocidade de Ataque. Arma Viva: Sobrecarga é aprimorada e concede Invisibilidade por um breve momento."
+      "description": "Kai'Sa aumenta brevemente sua Velocidade de Movimento, depois aumenta sua Velocidade de Ataque. Arma Viva: Sobrecarga é aprimorada e concede Invisibilidade por um breve momento.",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ]
     },
     {
       "id": "Kaisa.R",
       "ability": "R",
       "name": "Instinto Assassino",
-      "description": "Kai'Sa avança para perto de um Campeão inimigo."
+      "description": "Kai'Sa avança para perto de um Campeão inimigo.",
+      "cooldown": [
+        130,
+        100,
+        70
+      ]
     },
     {
       "id": "Kaisa.P",
       "ability": "P",
       "name": "Segunda Pele",
-      "description": "Os ataques básicos de Kai'Sa acumulam Plasma, causando Dano Mágico adicional crescente. Efeitos imobilizadores de aliados ajudam a acumular Plasma. Além disso, as aquisições de itens de Kai'Sa aprimoram suas habilidades básicas, deixando-as mais poderosas."
+      "description": "Os ataques básicos de Kai'Sa acumulam Plasma, causando Dano Mágico adicional crescente. Efeitos imobilizadores de aliados ajudam a acumular Plasma. Além disso, as aquisições de itens de Kai'Sa aprimoram suas habilidades básicas, deixando-as mais poderosas.",
+      "cooldown": null
     }
   ],
   "tips": [],

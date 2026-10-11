@@ -16,31 +16,58 @@
       "id": "Talon.Q",
       "ability": "Q",
       "name": "Diplomacia Noxiana",
-      "description": "Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo."
+      "description": "Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Talon.W",
       "ability": "W",
       "name": "Ancinho",
-      "description": "Talon envia um voleio de adagas que retorna a ele, causando Dano Físico a cada vez que passar por um inimigo. As lâminas que retornarem causam dano adicional e reduzem a velocidade da unidade."
+      "description": "Talon envia um voleio de adagas que retorna a ele, causando Dano Físico a cada vez que passar por um inimigo. As lâminas que retornarem causam dano adicional e reduzem a velocidade da unidade.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Talon.E",
       "ability": "E",
       "name": "Caminho do Assassino",
-      "description": "Talon salta sobre quaisquer terrenos ou estruturas, até uma distância máxima. Esta habilidade possui um Tempo de Recarga baixo, mas deixa o terreno inutilizável por um longo período de tempo."
+      "description": "Talon salta sobre quaisquer terrenos ou estruturas, até uma distância máxima. Esta habilidade possui um Tempo de Recarga baixo, mas deixa o terreno inutilizável por um longo período de tempo.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Talon.R",
       "ability": "R",
       "name": "Ataque das Sombras",
-      "description": "Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina."
+      "description": "Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina.",
+      "cooldown": [
+        100,
+        80,
+        60
+      ]
     },
     {
       "id": "Talon.P",
       "ability": "P",
       "name": "Limiar da Lâmina",
-      "description": "As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo."
+      "description": "As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo.",
+      "cooldown": null
     }
   ],
   "tips": [],

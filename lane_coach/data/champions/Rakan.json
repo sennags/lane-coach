@@ -16,31 +16,58 @@
       "id": "Rakan.Q",
       "ability": "Q",
       "name": "Pena Reluzente",
-      "description": "Lança uma pluma mágica que causa Dano Mágico. Ao atingir um Campeão ou um monstro épico, Rakan pode curar seus aliados."
+      "description": "Lança uma pluma mágica que causa Dano Mágico. Ao atingir um Campeão ou um monstro épico, Rakan pode curar seus aliados.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Rakan.W",
       "ability": "W",
       "name": "Entrada Triunfal",
-      "description": "Avança para um local e, ao chegar, arremessa os inimigos próximos ao ar."
+      "description": "Avança para um local e, ao chegar, arremessa os inimigos próximos ao ar.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Rakan.E",
       "ability": "E",
       "name": "Dança da Batalha",
-      "description": "Voa até um aliado e concede um escudo a ele. Pode ser conjurada novamente sem custo por um breve período."
+      "description": "Voa até um aliado e concede um escudo a ele. Pode ser conjurada novamente sem custo por um breve período.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Rakan.R",
       "ability": "R",
       "name": "Rapidez",
-      "description": "Recebe Velocidade de Movimento, encantando e causando Dano Mágico ao tocar nos inimigos."
+      "description": "Recebe Velocidade de Movimento, encantando e causando Dano Mágico ao tocar nos inimigos.",
+      "cooldown": [
+        130,
+        110,
+        90
+      ]
     },
     {
       "id": "Rakan.P",
       "ability": "P",
       "name": "Plumas Mágicas",
-      "description": "Rakan recebe um escudo periodicamente."
+      "description": "Rakan recebe um escudo periodicamente.",
+      "cooldown": null
     }
   ],
   "tips": [],

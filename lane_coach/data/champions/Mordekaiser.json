@@ -17,31 +17,58 @@
       "id": "Mordekaiser.Q",
       "ability": "Q",
       "name": "Obliterar",
-      "description": "Mordekaiser golpeia o chão com sua maça, causando dano a cada inimigo atingido. O dano é aumentado quando atingir um único inimigo."
+      "description": "Mordekaiser golpeia o chão com sua maça, causando dano a cada inimigo atingido. O dano é aumentado quando atingir um único inimigo.",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
     },
     {
       "id": "Mordekaiser.W",
       "ability": "W",
       "name": "Indestrutível",
-      "description": "Mordekaiser armazena o dano que ele causa e recebe para criar um escudo. Ele pode consumir o escudo para se curar."
+      "description": "Mordekaiser armazena o dano que ele causa e recebe para criar um escudo. Ele pode consumir o escudo para se curar.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Mordekaiser.E",
       "ability": "E",
       "name": "Aperto Mortal",
-      "description": "Mordekaiser puxa todos os inimigos em uma área."
+      "description": "Mordekaiser puxa todos os inimigos em uma área.",
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ]
     },
     {
       "id": "Mordekaiser.R",
       "ability": "R",
       "name": "Reino da Morte",
-      "description": "Mordekaiser arrasta sua vítima com ele para uma dimensão diferente e rouba uma porção de seus atributos. Se abater sua vítima, ele mantém os atributos até que ela ressurja."
+      "description": "Mordekaiser arrasta sua vítima com ele para uma dimensão diferente e rouba uma porção de seus atributos. Se abater sua vítima, ele mantém os atributos até que ela ressurja.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Mordekaiser.P",
       "ability": "P",
       "name": "Ascensão das Trevas",
-      "description": "Mordekaiser recebe uma poderosa aura de dano e Velocidade de Movimento depois de acertar 3 Ataques ou Habilidades contra Campeões inimigos ou monstros."
+      "description": "Mordekaiser recebe uma poderosa aura de dano e Velocidade de Movimento depois de acertar 3 Ataques ou Habilidades contra Campeões inimigos ou monstros.",
+      "cooldown": null
     }
   ],
   "tips": [],

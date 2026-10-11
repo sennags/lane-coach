@@ -17,31 +17,58 @@
       "id": "Mel.Q",
       "ability": "Q",
       "name": "Rajada Radiante",
-      "description": "Mel dispara uma saraivada de projéteis que explodem ao redor de um local-alvo, causando dano repetidamente aos inimigos dentro da área."
+      "description": "Mel dispara uma saraivada de projéteis que explodem ao redor de um local-alvo, causando dano repetidamente aos inimigos dentro da área.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Mel.W",
       "ability": "W",
       "name": "Refutação",
-      "description": "Mel envolve-se em uma barreira que reflete projéteis inimigos de volta para o atacante, evita sofrer dano e concede Velocidade de Movimento."
+      "description": "Mel envolve-se em uma barreira que reflete projéteis inimigos de volta para o atacante, evita sofrer dano e concede Velocidade de Movimento.",
+      "cooldown": [
+        38,
+        35,
+        33,
+        29,
+        26
+      ]
     },
     {
       "id": "Mel.E",
       "ability": "E",
       "name": "Armadilha Solar",
-      "description": "Mel dispara um orbe radiante à frente, enraizando quem for pego no centro e causando Lentidão e dano ao longo do tempo aos inimigos na área ao redor."
+      "description": "Mel dispara um orbe radiante à frente, enraizando quem for pego no centro e causando Lentidão e dano ao longo do tempo aos inimigos na área ao redor.",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ]
     },
     {
       "id": "Mel.R",
       "ability": "R",
       "name": "Eclipse Dourado",
-      "description": "Mel ataca todos os inimigos marcados por Deslumbrar, independentemente da distância, causando dano adicional para cada acúmulo de Deslumbrar. O ranque de Eclipse Dourado aumenta o dano de Deslumbrar."
+      "description": "Mel ataca todos os inimigos marcados por Deslumbrar, independentemente da distância, causando dano adicional para cada acúmulo de Deslumbrar. O ranque de Eclipse Dourado aumenta o dano de Deslumbrar.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Mel.P",
       "ability": "P",
       "name": "Esplendor Calcinante",
-      "description": "Sempre que Mel usa uma habilidade, ela recebe três projéteis adicionais (até um máximo de nove) para o próximo ataque. Quando Mel causa dano com uma habilidade ou um ataque, ela aplica Deslumbrar, que pode acumular infinitamente. Se o inimigo for atingido por Mel com dano suficiente de Deslumbrar, os acúmulos serão consumidos para executar o alvo."
+      "description": "Sempre que Mel usa uma habilidade, ela recebe três projéteis adicionais (até um máximo de nove) para o próximo ataque. Quando Mel causa dano com uma habilidade ou um ataque, ela aplica Deslumbrar, que pode acumular infinitamente. Se o inimigo for atingido por Mel com dano suficiente de Deslumbrar, os acúmulos serão consumidos para executar o alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

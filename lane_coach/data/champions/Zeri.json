@@ -16,31 +16,58 @@
       "id": "Zeri.Q",
       "ability": "Q",
       "name": "Rajada Reluzente",
-      "description": "Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque."
+      "description": "Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Zeri.W",
       "ability": "W",
       "name": "Laser de Ultrachoque",
-      "description": "Zeri dispara um pulso elétrico que causa dano e Lentidão ao primeiro inimigo atingido. Se o pulso atingir uma parede, ele se transforma em um laser de longo alcance."
+      "description": "Zeri dispara um pulso elétrico que causa dano e Lentidão ao primeiro inimigo atingido. Se o pulso atingir uma parede, ele se transforma em um laser de longo alcance.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Zeri.E",
       "ability": "E",
       "name": "Faísca Acelerada",
-      "description": "Zeri avança por uma curta distância e energiza Rajada Reluzente para atravessar os inimigos. Ela pode saltar e deslizar por qualquer terreno que tocar."
+      "description": "Zeri avança por uma curta distância e energiza Rajada Reluzente para atravessar os inimigos. Ela pode saltar e deslizar por qualquer terreno que tocar.",
+      "cooldown": [
+        24,
+        22.5,
+        21,
+        19.5,
+        18
+      ]
     },
     {
       "id": "Zeri.R",
       "ability": "R",
       "name": "Impacto Eletrizante",
-      "description": "Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos."
+      "description": "Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos.",
+      "cooldown": [
+        80,
+        75,
+        70
+      ]
     },
     {
       "id": "Zeri.P",
       "ability": "P",
       "name": "Bateria Viva",
-      "description": "Os Ataques de Zeri causam Dano Mágico e são considerados Habilidades. Mover-se e conjurar Rajada Reluzente armazena energia na Eletrobolsa. Quando estiver totalmente carregada, o próximo Ataque da Campeã causará dano adicional."
+      "description": "Os Ataques de Zeri causam Dano Mágico e são considerados Habilidades. Mover-se e conjurar Rajada Reluzente armazena energia na Eletrobolsa. Quando estiver totalmente carregada, o próximo Ataque da Campeã causará dano adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Zoe.Q",
       "ability": "Q",
       "name": "Estrela Desviada!",
-      "description": "Zoe dispara um projétil que pode ser redirecionado durante o percurso. Causa mais dano quanto maior for a distância percorrida em linha reta."
+      "description": "Zoe dispara um projétil que pode ser redirecionado durante o percurso. Causa mais dano quanto maior for a distância percorrida em linha reta.",
+      "cooldown": [
+        8.5,
+        8,
+        7.5,
+        7,
+        6.5
+      ]
     },
     {
       "id": "Zoe.W",
       "ability": "W",
       "name": "Roubo Arcano",
-      "description": "Zoe pode apanhar os vestígios das conjurações de Feitiço de Invocador ou de itens ativos do inimigo para que ela mesma os conjure. Sempre que ela conjura um Feitiço de Invocador, ela ganha 3 projéteis que são disparados contra o alvo mais próximo."
+      "description": "Zoe pode apanhar os vestígios das conjurações de Feitiço de Invocador ou de itens ativos do inimigo para que ela mesma os conjure. Sempre que ela conjura um Feitiço de Invocador, ela ganha 3 projéteis que são disparados contra o alvo mais próximo.",
+      "cooldown": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
     },
     {
       "id": "Zoe.E",
       "ability": "E",
       "name": "Bolha do Soninho",
-      "description": "Faz com que o alvo fique sonolento e depois adormeça. Enquanto estiver adormecido, a Resistência Mágica do alvo é reduzida. A primeira fonte de dano que interromper o sono é dobrada, até determinado limite."
+      "description": "Faz com que o alvo fique sonolento e depois adormeça. Enquanto estiver adormecido, a Resistência Mágica do alvo é reduzida. A primeira fonte de dano que interromper o sono é dobrada, até determinado limite.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Zoe.R",
       "ability": "R",
       "name": "Salto Dimensional",
-      "description": "Teleporta-se para uma posição próxima por 1s, depois se teleporta de volta."
+      "description": "Teleporta-se para uma posição próxima por 1s, depois se teleporta de volta.",
+      "cooldown": [
+        11,
+        8,
+        5
+      ]
     },
     {
       "id": "Zoe.P",
       "ability": "P",
       "name": "Brililim!",
-      "description": "O próximo ataque básico após Zoe conjurar uma habilidade causa Dano Mágico adicional."
+      "description": "O próximo ataque básico após Zoe conjurar uma habilidade causa Dano Mágico adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

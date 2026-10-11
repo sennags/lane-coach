@@ -17,31 +17,58 @@
       "id": "Ashe.Q",
       "ability": "Q",
       "name": "Concentração",
-      "description": "Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito."
+      "description": "Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Ashe.W",
       "ability": "W",
       "name": "Rajada",
-      "description": "Ashe dispara flechas em cone, causando dano aumentado. Também aplica Tiro Congelado."
+      "description": "Ashe dispara flechas em cone, causando dano aumentado. Também aplica Tiro Congelado.",
+      "cooldown": [
+        18,
+        14.5,
+        11,
+        7.5,
+        4
+      ]
     },
     {
       "id": "Ashe.E",
       "ability": "E",
       "name": "Olhar do Falcão",
-      "description": "Ashe envia seu Espírito do Falcão em uma missão de exploração em qualquer ponto do mapa."
+      "description": "Ashe envia seu Espírito do Falcão em uma missão de exploração em qualquer ponto do mapa.",
+      "cooldown": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Ashe.R",
       "ability": "R",
       "name": "Flecha de Cristal Encantada",
-      "description": "Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão."
+      "description": "Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão.",
+      "cooldown": [
+        100,
+        80,
+        60
+      ]
     },
     {
       "id": "Ashe.P",
       "ability": "P",
       "name": "Tiro Congelado",
-      "description": "Os ataques de Ashe reduzem a velocidade do alvo e fazem com que ela cause mais dano a ele. Os Acertos Críticos de Ashe não causam dano adicional, mas reduzem ainda mais a velocidade do alvo."
+      "description": "Os ataques de Ashe reduzem a velocidade do alvo e fazem com que ela cause mais dano a ele. Os Acertos Críticos de Ashe não causam dano adicional, mas reduzem ainda mais a velocidade do alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

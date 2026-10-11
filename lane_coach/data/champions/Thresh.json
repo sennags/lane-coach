@@ -17,31 +17,58 @@
       "id": "Thresh.Q",
       "ability": "Q",
       "name": "Sentença",
-      "description": "Thresh prende um inimigo em suas correntes e puxa em sua direção. Ativar essa habilidade uma segunda vez puxa Thresh em direção ao inimigo."
+      "description": "Thresh prende um inimigo em suas correntes e puxa em sua direção. Ativar essa habilidade uma segunda vez puxa Thresh em direção ao inimigo.",
+      "cooldown": [
+        19,
+        16.5,
+        14,
+        11.5,
+        9
+      ]
     },
     {
       "id": "Thresh.W",
       "ability": "W",
       "name": "Passagem Sombria",
-      "description": "Thresh arremessa uma lanterna que protege Campeões aliados próximos contra danos. Aliados podem clicar na lanterna para avançar na direção de Thresh."
+      "description": "Thresh arremessa uma lanterna que protege Campeões aliados próximos contra danos. Aliados podem clicar na lanterna para avançar na direção de Thresh.",
+      "cooldown": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ]
     },
     {
       "id": "Thresh.E",
       "ability": "E",
       "name": "Esfolar",
-      "description": "Os ataques de Thresh são fortalecidos, causando mais dano quanto mais tempo ele esperar entre ataques. Ao ativar, Thresh arrasta sua corrente e empurra todos os inimigos atingidos na direção do golpe."
+      "description": "Os ataques de Thresh são fortalecidos, causando mais dano quanto mais tempo ele esperar entre ataques. Ao ativar, Thresh arrasta sua corrente e empurra todos os inimigos atingidos na direção do golpe.",
+      "cooldown": [
+        13,
+        12.25,
+        11.5,
+        10.75,
+        10
+      ]
     },
     {
       "id": "Thresh.R",
       "ability": "R",
       "name": "A Caixa",
-      "description": "Uma prisão de paredes que causam dano e Lentidão se quebradas."
+      "description": "Uma prisão de paredes que causam dano e Lentidão se quebradas.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Thresh.P",
       "ability": "P",
       "name": "Condenação",
-      "description": "Thresh pode colher a alma de inimigos que morrerem perto dele, recebendo Armadura e Poder de Habilidade permanentemente."
+      "description": "Thresh pode colher a alma de inimigos que morrerem perto dele, recebendo Armadura e Poder de Habilidade permanentemente.",
+      "cooldown": null
     }
   ],
   "tips": [],

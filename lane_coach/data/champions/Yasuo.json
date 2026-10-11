@@ -21,7 +21,14 @@
       "coaching": {
         "use": "Dois acúmulos preparam o tornado que arremessa ao ar.",
         "limit": "A ameaça de controle depende do estado dos acúmulos."
-      }
+      },
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Yasuo.W",
@@ -31,7 +38,14 @@
       "coaching": {
         "use": "Parede bloqueia projéteis inimigos durante sua duração.",
         "limit": "Não bloqueia todo tipo de dano; reserve para projéteis relevantes."
-      }
+      },
+      "cooldown": [
+        25,
+        23,
+        21,
+        19,
+        17
+      ]
     },
     {
       "id": "Yasuo.E",
@@ -41,7 +55,14 @@
       "coaching": {
         "use": "Avança através de inimigos; Q durante o avanço ataca em círculo.",
         "limit": "Precisa de alvos e não pode repetir imediatamente o mesmo alvo."
-      }
+      },
+      "cooldown": [
+        0.5,
+        0.4,
+        0.3,
+        0.2,
+        0.1
+      ]
     },
     {
       "id": "Yasuo.R",
@@ -51,7 +72,12 @@
       "coaching": {
         "use": "Entra em alvo arremessado ao ar; pode aproveitar controle aliado.",
         "limit": "Precisa de arremesso ao ar e de uma posição de chegada viável."
-      }
+      },
+      "cooldown": [
+        70,
+        50,
+        30
+      ]
     },
     {
       "id": "Yasuo.P",
@@ -61,7 +87,8 @@
       "coaching": {
         "use": "Movimento acumula escudo; aumenta a chance de crítico.",
         "limit": "Dano de campeão ou monstro ativa o escudo; a proteção é uma janela."
-      }
+      },
+      "cooldown": null
     }
   ],
   "tips": [

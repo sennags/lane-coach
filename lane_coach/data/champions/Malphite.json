@@ -17,31 +17,58 @@
       "id": "Malphite.Q",
       "ability": "Q",
       "name": "Fragmento Sísmico",
-      "description": "Malphite arremessa um fragmento de terra no inimigo através do chão, causando dano ao impacto e roubando Velocidade de Movimento por 3s."
+      "description": "Malphite arremessa um fragmento de terra no inimigo através do chão, causando dano ao impacto e roubando Velocidade de Movimento por 3s.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Malphite.W",
       "ability": "W",
       "name": "Trovoada",
-      "description": "Malphite ataca com tamanha força que cria uma onda sônica. Pelos próximos segundos, seus ataques criam ondas de choque em sua frente."
+      "description": "Malphite ataca com tamanha força que cria uma onda sônica. Pelos próximos segundos, seus ataques criam ondas de choque em sua frente.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Malphite.E",
       "ability": "E",
       "name": "Estrondar Terreno",
-      "description": "Malphite golpeia o chão, enviando uma onda de choque que causa Dano Mágico com base em sua Armadura e reduz a Velocidade de Ataque dos inimigos por um curto período."
+      "description": "Malphite golpeia o chão, enviando uma onda de choque que causa Dano Mágico com base em sua Armadura e reduz a Velocidade de Ataque dos inimigos por um curto período.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Malphite.R",
       "ability": "R",
       "name": "Força Incontrolável",
-      "description": "Malphite se arremessa em alta velocidade até um local, causando dano aos inimigos e Arremessando-os ao ar."
+      "description": "Malphite se arremessa em alta velocidade até um local, causando dano aos inimigos e Arremessando-os ao ar.",
+      "cooldown": [
+        130,
+        115,
+        100
+      ]
     },
     {
       "id": "Malphite.P",
       "ability": "P",
       "name": "Escudo de Granito",
-      "description": "Malphite está protegido por uma camada de rocha que absorve dano equivalente a até 10% de sua Vida máxima. Se Malphite não for atingido por alguns segundos, o efeito é recarregado."
+      "description": "Malphite está protegido por uma camada de rocha que absorve dano equivalente a até 10% de sua Vida máxima. Se Malphite não for atingido por alguns segundos, o efeito é recarregado.",
+      "cooldown": null
     }
   ],
   "tips": [],

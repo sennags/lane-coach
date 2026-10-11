@@ -17,31 +17,58 @@
       "id": "Kayn.Q",
       "ability": "Q",
       "name": "Corte Ceifador",
-      "description": "Kayn avança, depois ataca. Ambos dão dano."
+      "description": "Kayn avança, depois ataca. Ambos dão dano.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "Kayn.W",
       "ability": "W",
       "name": "Alcance da Lâmina",
-      "description": "Kayn causa dano e reduz a velocidade dos alvos na linha de fogo."
+      "description": "Kayn causa dano e reduz a velocidade dos alvos na linha de fogo.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Kayn.E",
       "ability": "E",
       "name": "Passo das Sombras",
-      "description": "Kayn pode atravessar terrenos."
+      "description": "Kayn pode atravessar terrenos.",
+      "cooldown": [
+        21,
+        19,
+        17,
+        15,
+        13
+      ]
     },
     {
       "id": "Kayn.R",
       "ability": "R",
       "name": "Transgressão do Umbral",
-      "description": "Kayn se esconde no corpo de um inimigo e causa bastante dano quando rasga sua saída."
+      "description": "Kayn se esconde no corpo de um inimigo e causa bastante dano quando rasga sua saída.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Kayn.P",
       "ability": "P",
       "name": "A Foice Darkin",
-      "description": "Kayn empunha uma arma ancestral, lutando contra Rhaast, o darkin que vive dentro dela, pelo controle. Ou o Darkin triunfará ou Kayn dominará Rhaast para se tornar o Assassino das Sombras . Darkin: Cura uma porcentagem do dano de habilidades causado a Campeões. Assassino das Sombras: Causa dano adicional nos primeiros segundos em combate com Campeões inimigos."
+      "description": "Kayn empunha uma arma ancestral, lutando contra Rhaast, o darkin que vive dentro dela, pelo controle. Ou o Darkin triunfará ou Kayn dominará Rhaast para se tornar o Assassino das Sombras . Darkin: Cura uma porcentagem do dano de habilidades causado a Campeões. Assassino das Sombras: Causa dano adicional nos primeiros segundos em combate com Campeões inimigos.",
+      "cooldown": null
     }
   ],
   "tips": [],

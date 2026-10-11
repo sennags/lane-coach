@@ -16,31 +16,58 @@
       "id": "Shen.Q",
       "ability": "Q",
       "name": "Ataque Crepúsculo",
-      "description": "Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo. Os ataques são fortalecidos drasticamente caso ela colida com um Campeão inimigo. Todos os Campeões com quem ela colide têm a velocidade reduzida enquanto fogem de Shen."
+      "description": "Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo. Os ataques são fortalecidos drasticamente caso ela colida com um Campeão inimigo. Todos os Campeões com quem ela colide têm a velocidade reduzida enquanto fogem de Shen.",
+      "cooldown": [
+        8,
+        7.25,
+        6.5,
+        5.75,
+        5
+      ]
     },
     {
       "id": "Shen.W",
       "ability": "W",
       "name": "Refúgio Espiritual",
-      "description": "Ataques que atingiriam Shen ou seus aliados próximos à sua espada espiritual são bloqueados."
+      "description": "Ataques que atingiriam Shen ou seus aliados próximos à sua espada espiritual são bloqueados.",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ]
     },
     {
       "id": "Shen.E",
       "ability": "E",
       "name": "Corrida das Sombras",
-      "description": "Shen avança em uma direção, provocando inimigos em seu trajeto."
+      "description": "Shen avança em uma direção, provocando inimigos em seu trajeto.",
+      "cooldown": [
+        18,
+        16,
+        14,
+        12,
+        10
+      ]
     },
     {
       "id": "Shen.R",
       "ability": "R",
       "name": "Manter a União",
-      "description": "Shen protege o Campeão-alvo aliado do dano recebido e, em seguida, teleporta-se para seu local."
+      "description": "Shen protege o Campeão-alvo aliado do dano recebido e, em seguida, teleporta-se para seu local.",
+      "cooldown": [
+        200,
+        180,
+        160
+      ]
     },
     {
       "id": "Shen.P",
       "ability": "P",
       "name": "Barreira de Ki",
-      "description": "Após conjurar uma habilidade, Shen recebe um escudo. Afetar outros Campeões reduz o Tempo de Recarga desse efeito."
+      "description": "Após conjurar uma habilidade, Shen recebe um escudo. Afetar outros Campeões reduz o Tempo de Recarga desse efeito.",
+      "cooldown": null
     }
   ],
   "tips": [],

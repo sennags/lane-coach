@@ -16,31 +16,58 @@
       "id": "Kennen.Q",
       "ability": "Q",
       "name": "Shuriken Trovejante",
-      "description": "Kennen arremessa um shuriken de alta velocidade em um local, causando dano e adicionando uma Marca da Tormenta a qualquer oponente atingido."
+      "description": "Kennen arremessa um shuriken de alta velocidade em um local, causando dano e adicionando uma Marca da Tormenta a qualquer oponente atingido.",
+      "cooldown": [
+        7,
+        6.25,
+        5.5,
+        4.75,
+        4
+      ]
     },
     {
       "id": "Kennen.W",
       "ability": "W",
       "name": "Surto Elétrico",
-      "description": "Kennen passivamente causa dano adicional e adiciona uma Marca da Tormenta a seu alvo a cada certo número de ataques. Ele pode ativar essa habilidade para causar dano e adicionar outra Marca da Tormenta a alvos que já estão marcados."
+      "description": "Kennen passivamente causa dano adicional e adiciona uma Marca da Tormenta a seu alvo a cada certo número de ataques. Ele pode ativar essa habilidade para causar dano e adicionar outra Marca da Tormenta a alvos que já estão marcados.",
+      "cooldown": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ]
     },
     {
       "id": "Kennen.E",
       "ability": "E",
       "name": "Investida Relâmpago",
-      "description": "Kennen assume uma forma de relâmpago, permitindo que passe por unidades e aplique a Marca da Tormenta. Ele também ganha Velocidade de Movimento ao assumir essa forma e Velocidade de Ataque ao sair dela."
+      "description": "Kennen assume uma forma de relâmpago, permitindo que passe por unidades e aplique a Marca da Tormenta. Ele também ganha Velocidade de Movimento ao assumir essa forma e Velocidade de Ataque ao sair dela.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Kennen.R",
       "ability": "R",
       "name": "Turbilhão Cortante",
-      "description": "Kennen invoca uma tempestade que atinge campeões inimigos próximos com Dano Mágico."
+      "description": "Kennen invoca uma tempestade que atinge campeões inimigos próximos com Dano Mágico.",
+      "cooldown": [
+        120,
+        120,
+        120
+      ]
     },
     {
       "id": "Kennen.P",
       "ability": "P",
       "name": "Marca da Tormenta",
-      "description": "Kennen atordoa os inimigos que atingir 3 vezes com suas habilidades."
+      "description": "Kennen atordoa os inimigos que atingir 3 vezes com suas habilidades.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Riven.Q",
       "ability": "Q",
       "name": "Asas Quebradas",
-      "description": "Riven faz uma série rápida de acertos. Esta habilidade pode ser reativada três vezes em um curto período de tempo. O terceiro golpe empurra para trás os inimigos próximos."
+      "description": "Riven faz uma série rápida de acertos. Esta habilidade pode ser reativada três vezes em um curto período de tempo. O terceiro golpe empurra para trás os inimigos próximos.",
+      "cooldown": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ]
     },
     {
       "id": "Riven.W",
       "ability": "W",
       "name": "Explosão de Ki",
-      "description": "Riven emite uma Explosão de Ki, causando dano e atordoamento a inimigos próximos."
+      "description": "Riven emite uma Explosão de Ki, causando dano e atordoamento a inimigos próximos.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Riven.E",
       "ability": "E",
       "name": "Valentia",
-      "description": "Riven avança uma curta distância e bloqueia o dano recebido."
+      "description": "Riven avança uma curta distância e bloqueia o dano recebido.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Riven.R",
       "ability": "R",
       "name": "Lâmina do Exílio",
-      "description": "Riven fortalece sua arma de recordação com energia, recebendo Dano de Ataque e alcance. Durante este período, ela também pode usar Golpe de Vento, um poderoso ataque à distância, uma vez."
+      "description": "Riven fortalece sua arma de recordação com energia, recebendo Dano de Ataque e alcance. Durante este período, ela também pode usar Golpe de Vento, um poderoso ataque à distância, uma vez.",
+      "cooldown": [
+        120,
+        90,
+        60
+      ]
     },
     {
       "id": "Riven.P",
       "ability": "P",
       "name": "Lâmina Rúnica",
-      "description": "As habilidades de Riven carregam sua lâmina, e seus ataques básicos consomem cargas para causar dano adicional."
+      "description": "As habilidades de Riven carregam sua lâmina, e seus ataques básicos consomem cargas para causar dano adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

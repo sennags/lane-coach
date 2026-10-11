@@ -20,7 +20,14 @@
       "coaching": {
         "use": "Três golpes com áreas distintas; E permite ajustar o acerto.",
         "limit": "Errar um golpe não encerra os seguintes; o ajuste depende do E."
-      }
+      },
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ]
     },
     {
       "id": "Aatrox.W",
@@ -30,7 +37,14 @@
       "coaching": {
         "use": "Puxa e causa segundo dano se o alvo permanece na área.",
         "limit": "Sair da área antes da puxada evita essa continuação."
-      }
+      },
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ]
     },
     {
       "id": "Aatrox.E",
@@ -40,7 +54,14 @@
       "coaching": {
         "use": "Avanço para reposicionar; passiva cura pelo dano a campeões.",
         "limit": "Sem causar dano a campeões, essa fonte de cura não atua."
-      }
+      },
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Aatrox.R",
@@ -50,7 +71,12 @@
       "coaching": {
         "use": "Aumenta dano de ataque, cura e velocidade; abates estendem o efeito.",
         "limit": "É uma janela temporária, não um bônus permanente."
-      }
+      },
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Aatrox.P",
@@ -60,7 +86,8 @@
       "coaching": {
         "use": "Ataque fortalecido causa dano adicional e cura.",
         "limit": "Precisa alcançar e acertar o ataque; não é cura permanente."
-      }
+      },
+      "cooldown": null
     }
   ],
   "tips": [],

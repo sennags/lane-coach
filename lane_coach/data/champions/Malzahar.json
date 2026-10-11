@@ -16,31 +16,58 @@
       "id": "Malzahar.Q",
       "ability": "Q",
       "name": "Chamado do Vazio",
-      "description": "Malzahar abre dois portais para o Vazio. Depois de um breve intervalo, eles disparam projéteis que causam Dano Mágico e silenciam Campeões inimigos."
+      "description": "Malzahar abre dois portais para o Vazio. Depois de um breve intervalo, eles disparam projéteis que causam Dano Mágico e silenciam Campeões inimigos.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Malzahar.W",
       "ability": "W",
       "name": "Enxame do Vazio",
-      "description": "Malzahar invoca Voidlings para atacar inimigos próximos."
+      "description": "Malzahar invoca Voidlings para atacar inimigos próximos.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Malzahar.E",
       "ability": "E",
       "name": "Visões Maléficas",
-      "description": "Malzahar infecta a mente de seu alvo com visões cruéis de sua própria morte, causando dano ao longo do tempo. Usar as outras habilidades de Malzahar no alvo reiniciará o efeito. Se o alvo for abatido enquanto afligido pelas visões, elas são transmitidas para uma unidade inimiga próxima e Malzahar recebe Mana. Os Voidlings de Malzahar são atraídos para as unidades afetadas."
+      "description": "Malzahar infecta a mente de seu alvo com visões cruéis de sua própria morte, causando dano ao longo do tempo. Usar as outras habilidades de Malzahar no alvo reiniciará o efeito. Se o alvo for abatido enquanto afligido pelas visões, elas são transmitidas para uma unidade inimiga próxima e Malzahar recebe Mana. Os Voidlings de Malzahar são atraídos para as unidades afetadas.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Malzahar.R",
       "ability": "R",
       "name": "Aperto Ínfero",
-      "description": "Malzahar canaliza a essência do Vazio para suprimir o Campeão-alvo sobre uma área de energia negativa."
+      "description": "Malzahar canaliza a essência do Vazio para suprimir o Campeão-alvo sobre uma área de energia negativa.",
+      "cooldown": [
+        140,
+        110,
+        80
+      ]
     },
     {
       "id": "Malzahar.P",
       "ability": "P",
       "name": "Oscilação do Vazio",
-      "description": "Caso não tenha sofrido dano ou efeitos de Controle de Grupo recentemente, Malzahar recebe uma enorme redução de dano e imunidade a Controles de Grupo, que duram um curto período após sofrer dano."
+      "description": "Caso não tenha sofrido dano ou efeitos de Controle de Grupo recentemente, Malzahar recebe uma enorme redução de dano e imunidade a Controles de Grupo, que duram um curto período após sofrer dano.",
+      "cooldown": null
     }
   ],
   "tips": [],

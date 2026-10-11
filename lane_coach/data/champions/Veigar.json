@@ -16,31 +16,58 @@
       "id": "Veigar.Q",
       "ability": "Q",
       "name": "Golpe Maligno",
-      "description": "Veigar faz um disparo de energia das trevas que causa Dano Mágico aos dois primeiros inimigos atingidos. Unidades abatidas por este disparo concedem a ele um pouco de Poder de Habilidade permanentemente."
+      "description": "Veigar faz um disparo de energia das trevas que causa Dano Mágico aos dois primeiros inimigos atingidos. Unidades abatidas por este disparo concedem a ele um pouco de Poder de Habilidade permanentemente.",
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ]
     },
     {
       "id": "Veigar.W",
       "ability": "W",
       "name": "Matéria Escura",
-      "description": "Veigar invoca uma grande massa de Matéria Escura que cai do céu sobre o local-alvo, causando Dano Mágico ao chegar no chão. Os acúmulos de Poder Maligno Fenomenal reduzem o Tempo de Recarga de Matéria Escura."
+      "description": "Veigar invoca uma grande massa de Matéria Escura que cai do céu sobre o local-alvo, causando Dano Mágico ao chegar no chão. Os acúmulos de Poder Maligno Fenomenal reduzem o Tempo de Recarga de Matéria Escura.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Veigar.E",
       "ability": "E",
       "name": "Horizonte de Eventos",
-      "description": "Veigar distorce os limites do espaço, criando uma prisão que Atordoa os inimigos que a atravessam."
+      "description": "Veigar distorce os limites do espaço, criando uma prisão que Atordoa os inimigos que a atravessam.",
+      "cooldown": [
+        20,
+        18.5,
+        17,
+        15.5,
+        14
+      ]
     },
     {
       "id": "Veigar.R",
       "ability": "R",
       "name": "Explosão Primordial",
-      "description": "Explode o Campeão-alvo inimigo, causando uma grande quantia de Dano Mágico, que aumenta com base na Vida perdida do alvo."
+      "description": "Explode o Campeão-alvo inimigo, causando uma grande quantia de Dano Mágico, que aumenta com base na Vida perdida do alvo.",
+      "cooldown": [
+        120,
+        90,
+        60
+      ]
     },
     {
       "id": "Veigar.P",
       "ability": "P",
       "name": "Poder Maligno Fenomenal",
-      "description": "Veigar é o maior ser maligno a chegar ao coração de Runeterra - e vai ficar cada vez maior! Atingir um Campeão inimigo com uma habilidade ou executar um golpe final concede a Veigar um aumento permanente de Poder de Habilidade."
+      "description": "Veigar é o maior ser maligno a chegar ao coração de Runeterra - e vai ficar cada vez maior! Atingir um Campeão inimigo com uma habilidade ou executar um golpe final concede a Veigar um aumento permanente de Poder de Habilidade.",
+      "cooldown": null
     }
   ],
   "tips": [],

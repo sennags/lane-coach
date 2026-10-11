@@ -17,31 +17,58 @@
       "id": "Gnar.Q",
       "ability": "Q",
       "name": "Bumerangue / Pedregulho",
-      "description": "Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga."
+      "description": "Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga.",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ]
     },
     {
       "id": "Gnar.W",
       "ability": "W",
       "name": "Hiperativo / Safanão",
-      "description": "Os ataques e habilidades de Gnar o animam, causando dano adicional e concedendo Velocidade de Movimento. Mega Gnar fica enfurecido demais para ficar hiperativo. Em vez disso, ele pode subir em duas patas e atingir a área à sua frente, atordoando inimigos em área."
+      "description": "Os ataques e habilidades de Gnar o animam, causando dano adicional e concedendo Velocidade de Movimento. Mega Gnar fica enfurecido demais para ficar hiperativo. Em vez disso, ele pode subir em duas patas e atingir a área à sua frente, atordoando inimigos em área.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Gnar.E",
       "ability": "E",
       "name": "Pirueta / Encontrão",
-      "description": "Gnar salta em um local e atinge a cabeça de qualquer unidade em que aterrissar, deslocando-se ainda mais. Mega Gnar é grande demais para saltar e, em vez disso, aterrissa com força para quebrar o chão, causando dano em área ao seu redor."
+      "description": "Gnar salta em um local e atinge a cabeça de qualquer unidade em que aterrissar, deslocando-se ainda mais. Mega Gnar é grande demais para saltar e, em vez disso, aterrissa com força para quebrar o chão, causando dano em área ao seu redor.",
+      "cooldown": [
+        22,
+        19.5,
+        17,
+        14.5,
+        12
+      ]
     },
     {
       "id": "Gnar.R",
       "ability": "R",
       "name": "GNAR!",
-      "description": "Mega Gnar joga tudo o que estiver próximo de si em uma direção escolhida, causando dano e Lentidão. Qualquer inimigo que atingir uma parede fica atordoado e recebe dano adicional."
+      "description": "Mega Gnar joga tudo o que estiver próximo de si em uma direção escolhida, causando dano e Lentidão. Qualquer inimigo que atingir uma parede fica atordoado e recebe dano adicional.",
+      "cooldown": [
+        90,
+        60,
+        30
+      ]
     },
     {
       "id": "Gnar.P",
       "ability": "P",
       "name": "Fúria Genética",
-      "description": "Enquanto está em combate, Gnar gera Fúria. Quando atinge o máximo de Fúria, sua próxima habilidade o transformará em Mega-Gnar, concedendo mais condições de sobrevivência e acesso a novas habilidades."
+      "description": "Enquanto está em combate, Gnar gera Fúria. Quando atinge o máximo de Fúria, sua próxima habilidade o transformará em Mega-Gnar, concedendo mais condições de sobrevivência e acesso a novas habilidades.",
+      "cooldown": null
     }
   ],
   "tips": [],

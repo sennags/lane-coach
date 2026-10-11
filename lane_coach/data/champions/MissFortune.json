@@ -17,31 +17,58 @@
       "id": "MissFortune.Q",
       "ability": "Q",
       "name": "Dois por Um",
-      "description": "Miss Fortune dispara contra um inimigo, causando dano a ele e a um alvo atrás dele. Ambos os acertos também podem aplicar Batida do Amor."
+      "description": "Miss Fortune dispara contra um inimigo, causando dano a ele e a um alvo atrás dele. Ambos os acertos também podem aplicar Batida do Amor.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "MissFortune.W",
       "ability": "W",
       "name": "Desfilando",
-      "description": "Miss Fortune ganha Velocidade de Movimento passivamente quando não está sendo atacada. Esta habilidade pode ser ativada para conceder Velocidade de Ataque adicional por um curto período. Enquanto está em Tempo de Recarga, Batida do Amor reduz o Tempo de Recarga restante de Desfilando."
+      "description": "Miss Fortune ganha Velocidade de Movimento passivamente quando não está sendo atacada. Esta habilidade pode ser ativada para conceder Velocidade de Ataque adicional por um curto período. Enquanto está em Tempo de Recarga, Batida do Amor reduz o Tempo de Recarga restante de Desfilando.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "MissFortune.E",
       "ability": "E",
       "name": "Chuva de Disparos",
-      "description": "Miss Fortune revela uma área com uma saraivada de balas, causando ondas de dano e reduzindo a velocidade dos oponentes."
+      "description": "Miss Fortune revela uma área com uma saraivada de balas, causando ondas de dano e reduzindo a velocidade dos oponentes.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "MissFortune.R",
       "ability": "R",
       "name": "Metendo Bala",
-      "description": "Miss Fortune canaliza uma saraivada de balas em formato de cone à sua frente, causando muito dano aos inimigos. Cada remessa de Metendo Bala pode causar Acerto Crítico."
+      "description": "Miss Fortune canaliza uma saraivada de balas em formato de cone à sua frente, causando muito dano aos inimigos. Cada remessa de Metendo Bala pode causar Acerto Crítico.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "MissFortune.P",
       "ability": "P",
       "name": "Batida do Amor",
-      "description": "Miss Fortune causa Dano Físico adicional sempre que usar um ataque básico em um novo alvo."
+      "description": "Miss Fortune causa Dano Físico adicional sempre que usar um ataque básico em um novo alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

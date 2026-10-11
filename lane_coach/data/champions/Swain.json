@@ -17,31 +17,58 @@
       "id": "Swain.Q",
       "ability": "Q",
       "name": "Mão da Morte",
-      "description": "Swain dispara vários raios de poder sombrio que perfuram os inimigos. Inimigos atingidos sofrem mais dano para cada raio que os atingir."
+      "description": "Swain dispara vários raios de poder sombrio que perfuram os inimigos. Inimigos atingidos sofrem mais dano para cada raio que os atingir.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "Swain.W",
       "ability": "W",
       "name": "Visão do Império",
-      "description": "Swain abre um olho demoníaco que causa dano e reduz a velocidade dos inimigos. Campeões atingidos são revelados e concedem um Fragmento de Alma a Swain."
+      "description": "Swain abre um olho demoníaco que causa dano e reduz a velocidade dos inimigos. Campeões atingidos são revelados e concedem um Fragmento de Alma a Swain.",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ]
     },
     {
       "id": "Swain.E",
       "ability": "E",
       "name": "Nuncamova",
-      "description": "Swain lança uma onda de poder demoníaco à frente. Em seguida, a onda retorna para Swain e enraíza os inimigos que atingir. Swain pode escolher puxar todos os Campeões inimigos enraizados para perto. Esta Habilidade tem Tempo de Recarga reduzido durante Ascensão Demoníaca."
+      "description": "Swain lança uma onda de poder demoníaco à frente. Em seguida, a onda retorna para Swain e enraíza os inimigos que atingir. Swain pode escolher puxar todos os Campeões inimigos enraizados para perto. Esta Habilidade tem Tempo de Recarga reduzido durante Ascensão Demoníaca.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Swain.R",
       "ability": "R",
       "name": "Ascensão Demoníaca",
-      "description": "Swain se transforma em demônio e drena Vida de Campeões, tropas e monstros neutros próximos. Swain pode conjurar Chama Demoníaca para dizimar e causar Lentidão a inimigos próximos com uma explosão de fogo espiritual. Essa forma é indefinida enquanto Swain drenar Campeões inimigos."
+      "description": "Swain se transforma em demônio e drena Vida de Campeões, tropas e monstros neutros próximos. Swain pode conjurar Chama Demoníaca para dizimar e causar Lentidão a inimigos próximos com uma explosão de fogo espiritual. Essa forma é indefinida enquanto Swain drenar Campeões inimigos.",
+      "cooldown": [
+        120,
+        120,
+        120
+      ]
     },
     {
       "id": "Swain.P",
       "ability": "P",
       "name": "Bando Voraz",
-      "description": "Os corvos de Swain coletam Fragmentos de Alma que o curam e aumentam permanentemente a Vida máxima dele."
+      "description": "Os corvos de Swain coletam Fragmentos de Alma que o curam e aumentam permanentemente a Vida máxima dele.",
+      "cooldown": null
     }
   ],
   "tips": [],

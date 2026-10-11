@@ -17,31 +17,58 @@
       "id": "Viego.Q",
       "ability": "Q",
       "name": "Espada do Rei Destruído",
-      "description": "A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida. Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente."
+      "description": "A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida. Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente.",
+      "cooldown": [
+        5,
+        4.5,
+        4,
+        3.5,
+        3
+      ]
     },
     {
       "id": "Viego.W",
       "ability": "W",
       "name": "Posse Espectral",
-      "description": "Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido."
+      "description": "Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Viego.E",
       "ability": "E",
       "name": "Domínio Atormentado",
-      "description": "Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Ele pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque."
+      "description": "Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Ele pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque.",
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ]
     },
     {
       "id": "Viego.R",
       "ability": "R",
       "name": "Destruidor de Corações",
-      "description": "Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos."
+      "description": "Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Viego.P",
       "ability": "P",
       "name": "Dominação Monárquica",
-      "description": "Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate."
+      "description": "Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate.",
+      "cooldown": null
     }
   ],
   "tips": [],

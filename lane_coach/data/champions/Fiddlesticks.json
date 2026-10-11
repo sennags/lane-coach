@@ -17,31 +17,58 @@
       "id": "Fiddlesticks.Q",
       "ability": "Q",
       "name": "Aterrorizar",
-      "description": "Ao causar dano a inimigos com habilidades enquanto não estiver sendo visto ou alvejar um inimigo com Aterrorizar, Fiddlesticks inflige medo em uma unidade-alvo inimiga, fazendo com que fuja aterrorizada por um curto período."
+      "description": "Ao causar dano a inimigos com habilidades enquanto não estiver sendo visto ou alvejar um inimigo com Aterrorizar, Fiddlesticks inflige medo em uma unidade-alvo inimiga, fazendo com que fuja aterrorizada por um curto período.",
+      "cooldown": [
+        15,
+        14.5,
+        14,
+        13.5,
+        13
+      ]
     },
     {
       "id": "Fiddlesticks.W",
       "ability": "W",
       "name": "Colheita Farta",
-      "description": "Fiddlesticks drena a Vida dos inimigos próximos, causando dano de execução adicional no fim da duração."
+      "description": "Fiddlesticks drena a Vida dos inimigos próximos, causando dano de execução adicional no fim da duração.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Fiddlesticks.E",
       "ability": "E",
       "name": "Ceifar",
-      "description": "Fiddlesticks ceifa uma área com sua foice, reduzindo a velocidade de movimento de todos os inimigos atingidos e silenciando os atingidos no centro do corte."
+      "description": "Fiddlesticks ceifa uma área com sua foice, reduzindo a velocidade de movimento de todos os inimigos atingidos e silenciando os atingidos no centro do corte.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Fiddlesticks.R",
       "ability": "R",
       "name": "Tempestade de Corvos",
-      "description": "Uma revoada de corvos assassinos voa em volta de Fiddlesticks, causando dano por segundo a todas as unidades inimigas próximas."
+      "description": "Uma revoada de corvos assassinos voa em volta de Fiddlesticks, causando dano por segundo a todas as unidades inimigas próximas.",
+      "cooldown": [
+        140,
+        110,
+        80
+      ]
     },
     {
       "id": "Fiddlesticks.P",
       "ability": "P",
       "name": "Um Espantalho Inofensivo",
-      "description": "O amuleto de Fiddlesticks é substituído por efígies do espantalho."
+      "description": "O amuleto de Fiddlesticks é substituído por efígies do espantalho.",
+      "cooldown": null
     }
   ],
   "tips": [],

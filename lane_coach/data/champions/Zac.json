@@ -17,31 +17,58 @@
       "id": "Zac.Q",
       "ability": "Q",
       "name": "Esticada",
-      "description": "Zac estica um braço, agarrando um inimigo. Atacar um inimigo diferente o fará arremessar ambos os alvos na direção um do outro."
+      "description": "Zac estica um braço, agarrando um inimigo. Atacar um inimigo diferente o fará arremessar ambos os alvos na direção um do outro.",
+      "cooldown": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ]
     },
     {
       "id": "Zac.W",
       "ability": "W",
       "name": "Matéria Instável",
-      "description": "Zac explode para fora em direção a inimigos próximos, causando um percentual de suas Vidas máximas como Dano Mágico."
+      "description": "Zac explode para fora em direção a inimigos próximos, causando um percentual de suas Vidas máximas como Dano Mágico.",
+      "cooldown": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Zac.E",
       "ability": "E",
       "name": "Estilingue Elástico",
-      "description": "Zac segura o chão com seus braços e se estica para trás, lançando-se para frente."
+      "description": "Zac segura o chão com seus braços e se estica para trás, lançando-se para frente.",
+      "cooldown": [
+        21,
+        18,
+        15,
+        12,
+        9
+      ]
     },
     {
       "id": "Zac.R",
       "ability": "R",
       "name": "Vamos pular!",
-      "description": "Zac pula quatro vezes, arremessando inimigos atingidos ao ar e reduzindo a velocidade deles."
+      "description": "Zac pula quatro vezes, arremessando inimigos atingidos ao ar e reduzindo a velocidade deles.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Zac.P",
       "ability": "P",
       "name": "Divisão Celular",
-      "description": "Sempre que Zac atinge um inimigo com uma habilidade, ele perde parte de si mesmo que pode ser reabsorvida para restaurar Vida. Ao receber dano letal, Zac divide-se em 4 pedaços que tentam se recombinar. Se qualquer pedaço permanecer, ele ressuscitará uma quantia de Vida, dependendo da vida dos pedaços sobreviventes. Cada pedaço tem um percentual da Vida máxima de Zac, de sua Armadura e de Resistência Mágica. Essa habilidade tem 5 minutos de Tempo de Recarga."
+      "description": "Sempre que Zac atinge um inimigo com uma habilidade, ele perde parte de si mesmo que pode ser reabsorvida para restaurar Vida. Ao receber dano letal, Zac divide-se em 4 pedaços que tentam se recombinar. Se qualquer pedaço permanecer, ele ressuscitará uma quantia de Vida, dependendo da vida dos pedaços sobreviventes. Cada pedaço tem um percentual da Vida máxima de Zac, de sua Armadura e de Resistência Mágica. Essa habilidade tem 5 minutos de Tempo de Recarga.",
+      "cooldown": null
     }
   ],
   "tips": [],

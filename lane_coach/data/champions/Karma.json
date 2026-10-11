@@ -17,31 +17,59 @@
       "id": "Karma.Q",
       "ability": "Q",
       "name": "Chama Interior",
-      "description": "Karma dispara uma esfera de energia espiritual que explode e causa dano ao atingir uma unidade inimiga. Efeito de Mantra: Além da explosão, Mantra aumenta o poder destrutivo de sua Chama Interior, criando um cataclisma que causa dano depois de um breve intervalo."
+      "description": "Karma dispara uma esfera de energia espiritual que explode e causa dano ao atingir uma unidade inimiga. Efeito de Mantra: Além da explosão, Mantra aumenta o poder destrutivo de sua Chama Interior, criando um cataclisma que causa dano depois de um breve intervalo.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Karma.W",
       "ability": "W",
       "name": "Decisão Absorta",
-      "description": "Karma cria um vínculo entre ela e o inimigo-alvo, causando dano e revelando-o. Se o vínculo não for quebrado, o inimigo será enraizado e sofrerá dano novamente. Efeito de Mantra: Karma fortalece o vínculo, se curando e prolongando a duração do enraizamento."
+      "description": "Karma cria um vínculo entre ela e o inimigo-alvo, causando dano e revelando-o. Se o vínculo não for quebrado, o inimigo será enraizado e sofrerá dano novamente. Efeito de Mantra: Karma fortalece o vínculo, se curando e prolongando a duração do enraizamento.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Karma.E",
       "ability": "E",
       "name": "Inspiração",
-      "description": "Karma invoca um escudo protetor que absorve o dano sofrido e aumenta a Velocidade de Movimento do aliado protegido. Efeito de Mantra: o alvo irradia energia, fortalecendo o Escudo inicial e aplicando Inspiração a Campeões aliados próximos."
+      "description": "Karma invoca um escudo protetor que absorve o dano sofrido e aumenta a Velocidade de Movimento do aliado protegido. Efeito de Mantra: o alvo irradia energia, fortalecendo o Escudo inicial e aplicando Inspiração a Campeões aliados próximos.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Karma.R",
       "ability": "R",
       "name": "Mantra",
-      "description": "Karma fortalece sua próxima habilidade para dar um efeito adicional. Mantra está disponível no nível 1 e não exige um ponto de habilidade."
+      "description": "Karma fortalece sua próxima habilidade para dar um efeito adicional. Mantra está disponível no nível 1 e não exige um ponto de habilidade.",
+      "cooldown": [
+        40,
+        38,
+        36,
+        34
+      ]
     },
     {
       "id": "Karma.P",
       "ability": "P",
       "name": "Ímpeto Ardente",
-      "description": "As habilidades de dano de Karma reduzem o Tempo de Recarga de Mantra."
+      "description": "As habilidades de dano de Karma reduzem o Tempo de Recarga de Mantra.",
+      "cooldown": null
     }
   ],
   "tips": [],

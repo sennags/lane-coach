@@ -17,31 +17,59 @@
       "id": "Elise.Q",
       "ability": "Q",
       "name": "Neurotoxina / Mordida Venenosa",
-      "description": "Forma Humana: Causa dano com base em quão alta está a Vida do alvo. Forma de Aranha: Avança até um inimigo e causa dano com base em quão baixa está a Vida do alvo."
+      "description": "Forma Humana: Causa dano com base em quão alta está a Vida do alvo. Forma de Aranha: Avança até um inimigo e causa dano com base em quão baixa está a Vida do alvo.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Elise.W",
       "ability": "W",
       "name": "Cria Volátil / Frenesi Aracnídeo",
-      "description": "Forma Humana: Elise lança uma cria banhada em veneno que explode ao se aproximar de um alvo. Forma de Aranha: Elise e suas Crias recebem Velocidade de Ataque."
+      "description": "Forma Humana: Elise lança uma cria banhada em veneno que explode ao se aproximar de um alvo. Forma de Aranha: Elise e suas Crias recebem Velocidade de Ataque.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Elise.E",
       "ability": "E",
       "name": "Casulo / Rapel",
-      "description": "Forma Humana: atordoa a primeira unidade inimiga atingida e a revela se não estiver em furtividade. Forma de Aranha: Elise e suas crias se lançam ao ar, depois descem sobre um alvo inimigo. Após descer sobre o alvo, o dano adicional de Elise e a cura de Aranha Rainha são aumentados."
+      "description": "Forma Humana: atordoa a primeira unidade inimiga atingida e a revela se não estiver em furtividade. Forma de Aranha: Elise e suas crias se lançam ao ar, depois descem sobre um alvo inimigo. Após descer sobre o alvo, o dano adicional de Elise e a cura de Aranha Rainha são aumentados.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Elise.R",
       "ability": "R",
       "name": "Forma de Aranha",
-      "description": "Transforma-se em uma ameaçadora aranha, reduzindo seu alcance de ataque em troca de Velocidade de Movimento, novas habilidades e um aglomerado de Crias que atacarão seus inimigos."
+      "description": "Transforma-se em uma ameaçadora aranha, reduzindo seu alcance de ataque em troca de Velocidade de Movimento, novas habilidades e um aglomerado de Crias que atacarão seus inimigos.",
+      "cooldown": [
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "Elise.P",
       "ability": "P",
       "name": "Aranha Rainha",
-      "description": "Forma Humana: Quando as habilidades de Elise atingem um inimigo, ela recebe uma Cria dormente. Forma de Aranha: Ataques básicos causam Dano Mágico adicional e restauram a Vida de Elise."
+      "description": "Forma Humana: Quando as habilidades de Elise atingem um inimigo, ela recebe uma Cria dormente. Forma de Aranha: Ataques básicos causam Dano Mágico adicional e restauram a Vida de Elise.",
+      "cooldown": null
     }
   ],
   "tips": [],

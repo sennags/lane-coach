@@ -16,31 +16,58 @@
       "id": "Xayah.Q",
       "ability": "Q",
       "name": "Punhais Duplos",
-      "description": "Xayah arremessa dois punhais que causam dano e deixam cair Plumas que podem retornar para ela."
+      "description": "Xayah arremessa dois punhais que causam dano e deixam cair Plumas que podem retornar para ela.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Xayah.W",
       "ability": "W",
       "name": "Plumagem Mortífera",
-      "description": "Xayah cria uma tempestade de lâminas que aumenta seu dano e sua Velocidade de Ataque, além de conceder Velocidade de Movimento ao atacar um Campeão."
+      "description": "Xayah cria uma tempestade de lâminas que aumenta seu dano e sua Velocidade de Ataque, além de conceder Velocidade de Movimento ao atacar um Campeão.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Xayah.E",
       "ability": "E",
       "name": "Invocadora das Lâminas",
-      "description": "Xayah recolhe todas as Plumas que caíram, causando dano e enraizando os inimigos."
+      "description": "Xayah recolhe todas as Plumas que caíram, causando dano e enraizando os inimigos.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Xayah.R",
       "ability": "R",
       "name": "Tempestade de Plumas",
-      "description": "Xayah salta pelo ar, ficando inalvejável e arremessando um leque de punhais, além de deixar cair Plumas que podem voltar para ela."
+      "description": "Xayah salta pelo ar, ficando inalvejável e arremessando um leque de punhais, além de deixar cair Plumas que podem voltar para ela.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Xayah.P",
       "ability": "P",
       "name": "Cortes Certeiros",
-      "description": "Depois de usar uma habilidade, os próximos ataques básicos de Xayah acertam todos os alvos pelo caminho e deixam uma Pluma ."
+      "description": "Depois de usar uma habilidade, os próximos ataques básicos de Xayah acertam todos os alvos pelo caminho e deixam uma Pluma .",
+      "cooldown": null
     }
   ],
   "tips": [],

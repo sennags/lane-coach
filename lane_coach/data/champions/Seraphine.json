@@ -17,31 +17,58 @@
       "id": "Seraphine.Q",
       "ability": "Q",
       "name": "Nota Aguda",
-      "description": "Seraphine causa dano em uma área."
+      "description": "Seraphine causa dano em uma área.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Seraphine.W",
       "ability": "W",
       "name": "Som Envolvente",
-      "description": "Seraphine concede Escudo e Aceleração aos aliados próximos. Caso ela já esteja protegida por um Escudo, também Curará os aliados próximos."
+      "description": "Seraphine concede Escudo e Aceleração aos aliados próximos. Caso ela já esteja protegida por um Escudo, também Curará os aliados próximos.",
+      "cooldown": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ]
     },
     {
       "id": "Seraphine.E",
       "ability": "E",
       "name": "Ritmo Contagiante",
-      "description": "Seraphine causa dano e debilita o movimento dos inimigos em linha reta."
+      "description": "Seraphine causa dano e debilita o movimento dos inimigos em linha reta.",
+      "cooldown": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
     },
     {
       "id": "Seraphine.R",
       "ability": "R",
       "name": "Bis",
-      "description": "Seraphine causa dano e Encanta os inimigos atingidos, ampliando o alcance a cada Campeão aliado ou inimigo atingido."
+      "description": "Seraphine causa dano e Encanta os inimigos atingidos, ampliando o alcance a cada Campeão aliado ou inimigo atingido.",
+      "cooldown": [
+        160,
+        140,
+        120
+      ]
     },
     {
       "id": "Seraphine.P",
       "ability": "P",
       "name": "Presença de Palco",
-      "description": "Cada terceira habilidade básica será conjurada duas vezes por Seraphine. Conjurar habilidades próximas a aliados também concede dano e alcance adicionais a ela no próximo ataque básico."
+      "description": "Cada terceira habilidade básica será conjurada duas vezes por Seraphine. Conjurar habilidades próximas a aliados também concede dano e alcance adicionais a ela no próximo ataque básico.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,61 @@
       "id": "Aphelios.Q",
       "ability": "Q",
       "name": "Habilidades da arma",
-      "description": "Aphelios tem 5 habilidades diferentes que são ativadas com base em sua arma principal: Calibrum (Rifle): Tiro de longo alcance que marca seu alvo para um disparo de longo alcance subsequente. Severum (Pistola-Foice): Corre rapidamente enquanto ataca inimigos próximos com ambas as armas. Gravitum (Canhão): Enraíza todos os inimigos afetados pela redução de velocidade desta arma. Infernum (Lança-chamas): Explode inimigos em área de cone e os ataca com sua arma secundária. Crescendum (Chakram): Posiciona uma atalaia que dispara com sua arma secundária."
+      "description": "Aphelios tem 5 habilidades diferentes que são ativadas com base em sua arma principal: Calibrum (Rifle): Tiro de longo alcance que marca seu alvo para um disparo de longo alcance subsequente. Severum (Pistola-Foice): Corre rapidamente enquanto ataca inimigos próximos com ambas as armas. Gravitum (Canhão): Enraíza todos os inimigos afetados pela redução de velocidade desta arma. Infernum (Lança-chamas): Explode inimigos em área de cone e os ataca com sua arma secundária. Crescendum (Chakram): Posiciona uma atalaia que dispara com sua arma secundária.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Aphelios.W",
       "ability": "W",
       "name": "Fase",
-      "description": "Aphelios troca a arma principal por sua arma secundária, substituindo seu ataque básico e a habilidade ativada."
+      "description": "Aphelios troca a arma principal por sua arma secundária, substituindo seu ataque básico e a habilidade ativada.",
+      "cooldown": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ]
     },
     {
       "id": "Aphelios.E",
       "ability": "E",
       "name": "Sistema de Ordenação de Armas",
-      "description": "Aphelios não tem uma terceira habilidade. Este espaço mostra a próxima arma que Alune concederá a ele. A ordem das armas é fixa, mas pode variar ao longo da partida. Quando uma arma estiver sem munição, ela volta para o fim da sequência."
+      "description": "Aphelios não tem uma terceira habilidade. Este espaço mostra a próxima arma que Alune concederá a ele. A ordem das armas é fixa, mas pode variar ao longo da partida. Quando uma arma estiver sem munição, ela volta para o fim da sequência.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Aphelios.R",
       "ability": "R",
       "name": "Vigília do Plenilúnio",
-      "description": "Dispara uma rajada concentrada de luar que explode ao atingir Campeões inimigos. Aplica o efeito único da arma principal de Aphelios."
+      "description": "Dispara uma rajada concentrada de luar que explode ao atingir Campeões inimigos. Aplica o efeito único da arma principal de Aphelios.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Aphelios.P",
       "ability": "P",
       "name": "O Assassino e a Profetisa",
-      "description": "Aphelios empunha 5 Armas Lunari criadas por sua irmã, Alune. Ele tem acesso a duas ao mesmo tempo: uma principal e uma secundária. Cada arma tem um ataque básico e uma Habilidade únicos. Ataques e habilidades consomem uma munição da arma. Quando fica sem munição, Aphelios descarta a arma e Alune invoca a próxima."
+      "description": "Aphelios empunha 5 Armas Lunari criadas por sua irmã, Alune. Ele tem acesso a duas ao mesmo tempo: uma principal e uma secundária. Cada arma tem um ataque básico e uma Habilidade únicos. Ataques e habilidades consomem uma munição da arma. Quando fica sem munição, Aphelios descarta a arma e Alune invoca a próxima.",
+      "cooldown": null
     }
   ],
   "tips": [],

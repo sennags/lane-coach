@@ -17,31 +17,58 @@
       "id": "Nami.Q",
       "ability": "Q",
       "name": "Prisão Aquática",
-      "description": "Lança uma bolha na área-alvo, causando dano e atordoando todos os inimigos ao impacto."
+      "description": "Lança uma bolha na área-alvo, causando dano e atordoando todos os inimigos ao impacto.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Nami.W",
       "ability": "W",
       "name": "Vazante e Fluxo",
-      "description": "Desfere um jato de água que salta entre Campeões aliados e inimigos, curando os aliados e causando dano aos inimigos."
+      "description": "Desfere um jato de água que salta entre Campeões aliados e inimigos, curando os aliados e causando dano aos inimigos.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Nami.E",
       "ability": "E",
       "name": "Bênção da Conjuradora",
-      "description": "Fortalece um Campeão aliado por uma curta duração. Os ataques básicos e habilidades do aliado causam Dano Mágico adicional e reduzem a velocidade do alvo."
+      "description": "Fortalece um Campeão aliado por uma curta duração. Os ataques básicos e habilidades do aliado causam Dano Mágico adicional e reduzem a velocidade do alvo.",
+      "cooldown": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
     },
     {
       "id": "Nami.R",
       "ability": "R",
       "name": "Maré Violenta",
-      "description": "Invoca uma grande Maré Violenta que arremessa ao ar, reduz a velocidade e causa dano aos inimigos atingidos. Aliados atingidos recebem o efeito dobrado de Maré Oscilante."
+      "description": "Invoca uma grande Maré Violenta que arremessa ao ar, reduz a velocidade e causa dano aos inimigos atingidos. Aliados atingidos recebem o efeito dobrado de Maré Oscilante.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Nami.P",
       "ability": "P",
       "name": "Maré Oscilante",
-      "description": "Quando as Habilidades de Nami atingem Campeões aliados, eles recebem Velocidade de Movimento por um curto período."
+      "description": "Quando as Habilidades de Nami atingem Campeões aliados, eles recebem Velocidade de Movimento por um curto período.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Nunu.Q",
       "ability": "Q",
       "name": "Consumir",
-      "description": "Willump dá uma mordida em uma tropa, monstro ou Campeão inimigo, causando dano e se curando."
+      "description": "Willump dá uma mordida em uma tropa, monstro ou Campeão inimigo, causando dano e se curando.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Nunu.W",
       "ability": "W",
       "name": "A Maior Bola de Neve de Todas!",
-      "description": "Willump cria uma bola de neve que aumenta em velocidade e tamanho conforme ele a rola. Ela causa dano a inimigos e os arremessa ao ar."
+      "description": "Willump cria uma bola de neve que aumenta em velocidade e tamanho conforme ele a rola. Ela causa dano a inimigos e os arremessa ao ar.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Nunu.E",
       "ability": "E",
       "name": "Rajada de Bolas de Neve",
-      "description": "Nunu arremessa múltiplas bolas de neve que causam dano a inimigos. Ao terminar, Willump enraíza quaisquer Campeões ou monstros grandes que foram atingidos por uma delas."
+      "description": "Nunu arremessa múltiplas bolas de neve que causam dano a inimigos. Ao terminar, Willump enraíza quaisquer Campeões ou monstros grandes que foram atingidos por uma delas.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Nunu.R",
       "ability": "R",
       "name": "Zero Absoluto",
-      "description": "Nunu e Willump criam uma poderosa nevasca em uma área, causando lentidão aos inimigos e um dano massivo quando se encerrar."
+      "description": "Nunu e Willump criam uma poderosa nevasca em uma área, causando lentidão aos inimigos e um dano massivo quando se encerrar.",
+      "cooldown": [
+        110,
+        100,
+        90
+      ]
     },
     {
       "id": "Nunu.P",
       "ability": "P",
       "name": "Chamado de Freljord",
-      "description": "Nunu aumenta as Velocidades de Ataque e de Movimento de Willump e de um aliado próximo, além de fazer com que os ataques básicos de Willump causem dano a inimigos ao redor do alvo."
+      "description": "Nunu aumenta as Velocidades de Ataque e de Movimento de Willump e de um aliado próximo, além de fazer com que os ataques básicos de Willump causem dano a inimigos ao redor do alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

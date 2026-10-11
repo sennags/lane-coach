@@ -17,31 +17,58 @@
       "id": "Aurora.Q",
       "ability": "Q",
       "name": "Feitiço Dúplice",
-      "description": "Aurora envia um projétil que amaldiçoa qualquer inimigo que atingir. Ela pode reconjurar a Habilidade para puxar de volta as maldições ativas na direção dela, causando dano a inimigos atingidos no caminho."
+      "description": "Aurora envia um projétil que amaldiçoa qualquer inimigo que atingir. Ela pode reconjurar a Habilidade para puxar de volta as maldições ativas na direção dela, causando dano a inimigos atingidos no caminho.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Aurora.W",
       "ability": "W",
       "name": "Através do Véu",
-      "description": "Aurora salta em uma direção escolhida, entrando no reino espiritual ao aterrissar, ficando invisível e recebendo Velocidade de Movimento por um breve período."
+      "description": "Aurora salta em uma direção escolhida, entrando no reino espiritual ao aterrissar, ficando invisível e recebendo Velocidade de Movimento por um breve período.",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ]
     },
     {
       "id": "Aurora.E",
       "ability": "E",
       "name": "Estranheza",
-      "description": "Aurora converge os reinos, lançando uma explosão de magia espiritual que causa dano e Lentidão a inimigos antes que ela salte de volta em segurança."
+      "description": "Aurora converge os reinos, lançando uma explosão de magia espiritual que causa dano e Lentidão a inimigos antes que ela salte de volta em segurança.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Aurora.R",
       "ability": "R",
       "name": "Entre Mundos",
-      "description": "Aurora salta em uma direção escolhida, liberando uma onda de choque que causa dano e Lentidão a inimigos atingidos. Depois, Aurora cria uma área que causa Lentidão a inimigos, permitindo que ela se teleporte de um lado a outro da área."
+      "description": "Aurora salta em uma direção escolhida, liberando uma onda de choque que causa dano e Lentidão a inimigos atingidos. Depois, Aurora cria uma área que causa Lentidão a inimigos, permitindo que ela se teleporte de um lado a outro da área.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Aurora.P",
       "ability": "P",
       "name": "Abjuração Espiritual",
-      "description": "As Habilidades e Ataques da Aurora exorcizam espíritos dos inimigos aos quais ela causar dano. Espíritos exorcizados seguem e curam Aurora."
+      "description": "As Habilidades e Ataques da Aurora exorcizam espíritos dos inimigos aos quais ela causar dano. Espíritos exorcizados seguem e curam Aurora.",
+      "cooldown": null
     }
   ],
   "tips": [],

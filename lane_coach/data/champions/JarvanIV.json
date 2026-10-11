@@ -17,31 +17,58 @@
       "id": "JarvanIV.Q",
       "ability": "Q",
       "name": "Ataque do Dragão",
-      "description": "Jarvan IV estende sua lança, causando Dano Físico e reduzindo a Armadura de inimigos atingidos. Além disto, ela puxará Jarvan na direção de seu Estandarte Demaciano, arremessando inimigos em seu trajeto ao ar."
+      "description": "Jarvan IV estende sua lança, causando Dano Físico e reduzindo a Armadura de inimigos atingidos. Além disto, ela puxará Jarvan na direção de seu Estandarte Demaciano, arremessando inimigos em seu trajeto ao ar.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "JarvanIV.W",
       "ability": "W",
       "name": "Égide de Ouro",
-      "description": "Jarvan IV invoca os antigos reis de Demacia para protegê-lo do perigo e atrasar os inimigos próximos."
+      "description": "Jarvan IV invoca os antigos reis de Demacia para protegê-lo do perigo e atrasar os inimigos próximos.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "JarvanIV.E",
       "ability": "E",
       "name": "Estandarte Demaciano",
-      "description": "Jarvan IV carrega o orgulho de Demacia, recebendo passivamente Velocidade de Ataque adicional. Ativar o Estandarte Demaciano permite a Jarvan IV posicionar uma bandeira demaciana que causa Dano Mágico e concede Velocidade de Ataque a campeões aliados próximos."
+      "description": "Jarvan IV carrega o orgulho de Demacia, recebendo passivamente Velocidade de Ataque adicional. Ativar o Estandarte Demaciano permite a Jarvan IV posicionar uma bandeira demaciana que causa Dano Mágico e concede Velocidade de Ataque a campeões aliados próximos.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "JarvanIV.R",
       "ability": "R",
       "name": "Cataclisma",
-      "description": "Jarvan IV heroicamente salta em direção ao alvo com força o suficiente para deformar o terreno, criando uma arena ao seu redor. Os inimigos próximos recebem dano no momento do impacto."
+      "description": "Jarvan IV heroicamente salta em direção ao alvo com força o suficiente para deformar o terreno, criando uma arena ao seu redor. Os inimigos próximos recebem dano no momento do impacto.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "JarvanIV.P",
       "ability": "P",
       "name": "Cadência Marcial",
-      "description": "O primeiro ataque básico de Jarvan a um inimigo causa Dano Físico adicional com base na Vida atual dele. Este efeito não ocorrerá no mesmo inimigo novamente por alguns segundos."
+      "description": "O primeiro ataque básico de Jarvan a um inimigo causa Dano Físico adicional com base na Vida atual dele. Este efeito não ocorrerá no mesmo inimigo novamente por alguns segundos.",
+      "cooldown": null
     }
   ],
   "tips": [],

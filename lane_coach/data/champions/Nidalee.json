@@ -17,31 +17,59 @@
       "id": "Nidalee.Q",
       "ability": "Q",
       "name": "Arremessar Lança / Bote",
-      "description": "Na forma humana, Nidalee arremessa uma lança perfurante em seu alvo, que acumula dano enquanto está no ar. Como puma, seu próximo ataque irá tentar ferir o inimigo de maneira letal, causando dano inversamente proporcional à Vida do alvo."
+      "description": "Na forma humana, Nidalee arremessa uma lança perfurante em seu alvo, que acumula dano enquanto está no ar. Como puma, seu próximo ataque irá tentar ferir o inimigo de maneira letal, causando dano inversamente proporcional à Vida do alvo.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Nidalee.W",
       "ability": "W",
       "name": "Arapuca / Investida",
-      "description": "Na forma humana, Nidalee posiciona uma armadilha para seus oponentes descuidados que, quando ativada, causa dano e os revela. Em forma de puma, ela salta em uma direção, causando dano na área em que aterrissar."
+      "description": "Na forma humana, Nidalee posiciona uma armadilha para seus oponentes descuidados que, quando ativada, causa dano e os revela. Em forma de puma, ela salta em uma direção, causando dano na área em que aterrissar.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Nidalee.E",
       "ability": "E",
       "name": "Ímpeto Selvagem / Patada",
-      "description": "Na forma humana, Nidalee canaliza o espírito do puma para curar seus aliados e lhes concede Velocidade de Ataque por um curto período de tempo. Em forma de puma, ela golpeia em uma direção, causando dano aos inimigos à sua frente."
+      "description": "Na forma humana, Nidalee canaliza o espírito do puma para curar seus aliados e lhes concede Velocidade de Ataque por um curto período de tempo. Em forma de puma, ela golpeia em uma direção, causando dano aos inimigos à sua frente.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Nidalee.R",
       "ability": "R",
       "name": "Aspecto do Puma",
-      "description": "Nidalee transforma-se em um puma, recebendo novas habilidades."
+      "description": "Nidalee transforma-se em um puma, recebendo novas habilidades.",
+      "cooldown": [
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "Nidalee.P",
       "ability": "P",
       "name": "Espreitar",
-      "description": "Mover-se pelos arbustos aumenta a Velocidade de Movimento de Nidalee em 10% por 2 segundos, aumentando para 30% em direção a campeões inimigos visíveis dentre 1400 de alcance. Atingir Campeões ou monstros com Arremessar Lança ou Arapuca aciona uma Caçada , que concede Visão Mágica deles por 4 segundos. Durante esse tempo, Nidalee recebe 10% de Velocidade de Movimento (aumentando para 30% em direção ao alvo Caçado ) e o uso de Bote ou Investida contra o alvo é aprimorado."
+      "description": "Mover-se pelos arbustos aumenta a Velocidade de Movimento de Nidalee em 10% por 2 segundos, aumentando para 30% em direção a campeões inimigos visíveis dentre 1400 de alcance. Atingir Campeões ou monstros com Arremessar Lança ou Arapuca aciona uma Caçada , que concede Visão Mágica deles por 4 segundos. Durante esse tempo, Nidalee recebe 10% de Velocidade de Movimento (aumentando para 30% em direção ao alvo Caçado ) e o uso de Bote ou Investida contra o alvo é aprimorado.",
+      "cooldown": null
     }
   ],
   "tips": [],

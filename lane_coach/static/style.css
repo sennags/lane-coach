@@ -1002,13 +1002,12 @@ details>summary:focus-visible {
 .direct-plan .direct-action { border-left:2px solid var(--red); padding-left:10px; padding-right:10px; background:var(--surface); }
 .direct-action dt { color:var(--red); }
 .ability-coaching { margin:0; }
+.ability-copy .ability-cooldown { font:11px Consolas,monospace; line-height:1.7; color:var(--muted); margin:8px 0 12px; }
+.cooldown-note { text-align:center; font-size:12px; line-height:1.7; color:var(--muted); margin:0 0 22px; }
 .ability-coaching>div { display:grid; grid-template-columns:48px minmax(0,1fr); gap:10px; margin-top:8px; }
 .ability-coaching dt { font:10px Consolas,monospace; color:var(--muted); padding-top:3px; }
 .ability-coaching>div:last-child dt { color:var(--red); }
 .ability-coaching dd { margin:0; font-size:13px; line-height:1.65; }
-.official-description { margin-top:12px; color:var(--muted); }
-.official-description summary { font:11px Consolas,monospace; cursor:pointer; min-height:30px; padding:6px 0; }
-.official-description p { margin:8px 0 0; }
 @media(max-width:700px) {
   .direct-plan>div { grid-template-columns:70px minmax(0,1fr); gap:12px; }
   .ability-coaching>div { grid-template-columns:1fr; gap:5px; }

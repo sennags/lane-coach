@@ -17,31 +17,58 @@
       "id": "Orianna.Q",
       "ability": "Q",
       "name": "Comando: Atacar",
-      "description": "Orianna comanda sua Esfera para avançar no local-alvo, causando Dano Mágico ao longo do caminho (causa menos dano a alvos subsequentes). A Esfera permanece no mesmo lugar após o comando."
+      "description": "Orianna comanda sua Esfera para avançar no local-alvo, causando Dano Mágico ao longo do caminho (causa menos dano a alvos subsequentes). A Esfera permanece no mesmo lugar após o comando.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "Orianna.W",
       "ability": "W",
       "name": "Comando: Dissonância",
-      "description": "Orianna comanda que sua Esfera desfira um pulso de energia, causando Dano Mágico ao seu redor. Isso deixa para trás um campo que aumenta a Velocidade de Movimento de aliados e causa Lentidão aos inimigos."
+      "description": "Orianna comanda que sua Esfera desfira um pulso de energia, causando Dano Mágico ao seu redor. Isso deixa para trás um campo que aumenta a Velocidade de Movimento de aliados e causa Lentidão aos inimigos.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Orianna.E",
       "ability": "E",
       "name": "Comando: Proteger",
-      "description": "Orianna comanda que sua Esfera se prenda a um Campeão aliado, concedendo a ele um Escudo e causando Dano Mágico a qualquer inimigo que ela atravessar em seu trajeto. Além disso, a Esfera concede Armadura e Resistência Mágica adicionais ao Campeão ao qual estiver presa."
+      "description": "Orianna comanda que sua Esfera se prenda a um Campeão aliado, concedendo a ele um Escudo e causando Dano Mágico a qualquer inimigo que ela atravessar em seu trajeto. Além disso, a Esfera concede Armadura e Resistência Mágica adicionais ao Campeão ao qual estiver presa.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Orianna.R",
       "ability": "R",
       "name": "Comando: Onda de Choque",
-      "description": "Orianna comanda sua Esfera para desferir uma onda de choque, causando Dano Mágico e deslocando inimigos próximos em direção à Esfera após um curto intervalo."
+      "description": "Orianna comanda sua Esfera para desferir uma onda de choque, causando Dano Mágico e deslocando inimigos próximos em direção à Esfera após um curto intervalo.",
+      "cooldown": [
+        110,
+        95,
+        80
+      ]
     },
     {
       "id": "Orianna.P",
       "ability": "P",
       "name": "Dando Corda",
-      "description": "Os Ataques de Orianna causam Dano Mágico adicional. O dano aumenta a cada vez que ela Ataca o mesmo alvo."
+      "description": "Os Ataques de Orianna causam Dano Mágico adicional. O dano aumenta a cada vez que ela Ataca o mesmo alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

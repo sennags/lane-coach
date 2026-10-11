@@ -17,31 +17,58 @@
       "id": "Tristana.Q",
       "ability": "Q",
       "name": "Tiro Rápido",
-      "description": "Tristana dispara rapidamente com seu canhão, aumentando sua Velocidade de Ataque por um curto período de tempo."
+      "description": "Tristana dispara rapidamente com seu canhão, aumentando sua Velocidade de Ataque por um curto período de tempo.",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ]
     },
     {
       "id": "Tristana.W",
       "ability": "W",
       "name": "Salto-foguete",
-      "description": "Tristana dispara no chão para lançar-se ao local-alvo, causando dano e reduzindo a Velocidade de Movimento das unidades ao seu redor por um breve momento ao aterrissar."
+      "description": "Tristana dispara no chão para lançar-se ao local-alvo, causando dano e reduzindo a Velocidade de Movimento das unidades ao seu redor por um breve momento ao aterrissar.",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ]
     },
     {
       "id": "Tristana.E",
       "ability": "E",
       "name": "Carga Explosiva",
-      "description": "Quando Tristana abate uma unidade, seus projéteis explodem com estilhaços, causando dano a inimigos próximos. Isso pode ser ativado para posicionar uma bomba em um alvo inimigo, que explodirá após uma curta duração, causando dano a unidades ao seu redor."
+      "description": "Quando Tristana abate uma unidade, seus projéteis explodem com estilhaços, causando dano a inimigos próximos. Isso pode ser ativado para posicionar uma bomba em um alvo inimigo, que explodirá após uma curta duração, causando dano a unidades ao seu redor.",
+      "cooldown": [
+        16,
+        15.5,
+        15,
+        14.5,
+        14
+      ]
     },
     {
       "id": "Tristana.R",
       "ability": "R",
       "name": "Tiro Destruidor",
-      "description": "Tristana carrega uma gigantesca bala de canhão em sua arma e a dispara em uma unidade inimiga. Isso causa Dano Mágico e empurra o alvo para trás. Se o alvo estiver carregando uma bomba da Carga Explosiva, o raio de explosão da bomba é dobrado."
+      "description": "Tristana carrega uma gigantesca bala de canhão em sua arma e a dispara em uma unidade inimiga. Isso causa Dano Mágico e empurra o alvo para trás. Se o alvo estiver carregando uma bomba da Carga Explosiva, o raio de explosão da bomba é dobrado.",
+      "cooldown": [
+        100,
+        100,
+        100
+      ]
     },
     {
       "id": "Tristana.P",
       "ability": "P",
       "name": "Tiro Certeiro",
-      "description": "Aumenta o Alcance de Ataque de Tristana conforme ela sobe de nível."
+      "description": "Aumenta o Alcance de Ataque de Tristana conforme ela sobe de nível.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Samira.Q",
       "ability": "Q",
       "name": "Talento Natural",
-      "description": "Samira dispara um projétil ou golpeia com a espada, causando dano. Se a habilidade for conjurada durante Ímpeto Indomável, ela atinge todos os inimigos no caminho."
+      "description": "Samira dispara um projétil ou golpeia com a espada, causando dano. Se a habilidade for conjurada durante Ímpeto Indomável, ela atinge todos os inimigos no caminho.",
+      "cooldown": [
+        6,
+        5,
+        4,
+        3,
+        2
+      ]
     },
     {
       "id": "Samira.W",
       "ability": "W",
       "name": "Voragem Afiada",
-      "description": "Samira gira a espada ao seu redor, causando dano e destruindo projéteis inimigos."
+      "description": "Samira gira a espada ao seu redor, causando dano e destruindo projéteis inimigos.",
+      "cooldown": [
+        30,
+        28,
+        26,
+        24,
+        22
+      ]
     },
     {
       "id": "Samira.E",
       "ability": "E",
       "name": "Ímpeto Indomável",
-      "description": "Samira avança e atravessa um inimigo (incluindo estruturas), cortando os inimigos atravessados e recebendo Velocidade de Ataque. Abater um Campeão inimigo reinicia o Tempo de Recarga da habilidade."
+      "description": "Samira avança e atravessa um inimigo (incluindo estruturas), cortando os inimigos atravessados e recebendo Velocidade de Ataque. Abater um Campeão inimigo reinicia o Tempo de Recarga da habilidade.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Samira.R",
       "ability": "R",
       "name": "Gatilho Infernal",
-      "description": "Samira dispara uma saraivada de tiros, atingindo todos os inimigos ao redor dela."
+      "description": "Samira dispara uma saraivada de tiros, atingindo todos os inimigos ao redor dela.",
+      "cooldown": [
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Samira.P",
       "ability": "P",
       "name": "Impulso Audacioso",
-      "description": "Samira gera um combo conforme Ataca ou conjura habilidades de forma alternada. Seus Ataques corpo a corpo causam Dano Mágico adicional. Os Ataques de Samira contra inimigos sob efeitos Imobilizadores a farão avançar ao Alcance de Ataque dela. Se o inimigo estiver afetado por Arremesso ao ar , ela mantém o Arremesso ao ar por um curto período."
+      "description": "Samira gera um combo conforme Ataca ou conjura habilidades de forma alternada. Seus Ataques corpo a corpo causam Dano Mágico adicional. Os Ataques de Samira contra inimigos sob efeitos Imobilizadores a farão avançar ao Alcance de Ataque dela. Se o inimigo estiver afetado por Arremesso ao ar , ela mantém o Arremesso ao ar por um curto período.",
+      "cooldown": null
     }
   ],
   "tips": [],

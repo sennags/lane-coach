@@ -17,31 +17,58 @@
       "id": "Locke.Q",
       "ability": "Q",
       "name": "Pregos Ritualísticos",
-      "description": "Locke prepara um conjunto de Pregos Anímicos para arremessar, causando dano e marcando os inimigos atingidos. Ele pode consumir as marcas para causar dano adicional com seus Ataques."
+      "description": "Locke prepara um conjunto de Pregos Anímicos para arremessar, causando dano e marcando os inimigos atingidos. Ele pode consumir as marcas para causar dano adicional com seus Ataques.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Locke.W",
       "ability": "W",
       "name": "Ignição da Alma",
-      "description": "Locke incendeia a própria alma, recebendo Velocidade de Ataque e Velocidade de Movimento e causando dano a si mesmo. Ao final da duração, Locke recupera Vida com base em parte do dano sofrido durante o efeito."
+      "description": "Locke incendeia a própria alma, recebendo Velocidade de Ataque e Velocidade de Movimento e causando dano a si mesmo. Ao final da duração, Locke recupera Vida com base em parte do dano sofrido durante o efeito.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Locke.E",
       "ability": "E",
       "name": "Perseguição das Cinzas",
-      "description": "Locke se teleporta para um local e avança para atacar o próximo alvo, causando dano a inimigos no trajeto."
+      "description": "Locke se teleporta para um local e avança para atacar o próximo alvo, causando dano a inimigos no trajeto.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Locke.R",
       "ability": "R",
       "name": "Purgatório",
-      "description": "Locke arremessa um artefato de restrição que causa dano e pode executar os inimigos atingidos. Locke ganha poder adicional ao aprisionar Campeões inimigos."
+      "description": "Locke arremessa um artefato de restrição que causa dano e pode executar os inimigos atingidos. Locke ganha poder adicional ao aprisionar Campeões inimigos.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Locke.P",
       "ability": "P",
       "name": "Estaca de Prata",
-      "description": "Os Ataques de Locke causam Dano Mágico adicional ao contato, aumentado com base na Vida perdida do inimigo."
+      "description": "Os Ataques de Locke causam Dano Mágico adicional ao contato, aumentado com base na Vida perdida do inimigo.",
+      "cooldown": null
     }
   ],
   "tips": [],

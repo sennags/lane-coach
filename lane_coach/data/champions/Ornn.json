@@ -16,31 +16,58 @@
       "id": "Ornn.Q",
       "ability": "Q",
       "name": "Ruptura Vulcânica",
-      "description": "Ornn bate no chão, dispersando uma fissura que causa dano e reduz a velocidade dos inimigos atingidos. Após um breve intervalo, um pilar de magma se forma no ponto final."
+      "description": "Ornn bate no chão, dispersando uma fissura que causa dano e reduz a velocidade dos inimigos atingidos. Após um breve intervalo, um pilar de magma se forma no ponto final.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Ornn.W",
       "ability": "W",
       "name": "Fôlego do Fole",
-      "description": "Ornn avança cuspindo fogo. Inimigos atingidos pelo último sopro de fogo tornam-se Frágeis."
+      "description": "Ornn avança cuspindo fogo. Inimigos atingidos pelo último sopro de fogo tornam-se Frágeis.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Ornn.E",
       "ability": "E",
       "name": "Investida Calcinante",
-      "description": "Ornn se lança em investida, causando dano aos inimigos sobre os quais passar. Se Ornn colidir com o terreno enquanto estiver em investida, o impacto criará uma onda de choque que causará dano e arremessará os inimigos ao ar."
+      "description": "Ornn se lança em investida, causando dano aos inimigos sobre os quais passar. Se Ornn colidir com o terreno enquanto estiver em investida, o impacto criará uma onda de choque que causará dano e arremessará os inimigos ao ar.",
+      "cooldown": [
+        14,
+        13.5,
+        13,
+        12.5,
+        12
+      ]
     },
     {
       "id": "Ornn.R",
       "ability": "R",
       "name": "Chamado do Deus da Forja",
-      "description": "Ornn invoca um elemental gigante em um ponto, que viaja até ele cada vez mais rápido. Inimigos atropelados pelo elemental sofrem dano, têm a velocidade reduzida e ficam Frágeis. Ornn pode reconjurar a habilidade para dar uma investida no elemental para redirecioná-lo na direção em que ele o acertar, fazendo com que o elemental arremesse ao ar todos os inimigos que ele atingir, causando o mesmo dano e reaplicando Frágil."
+      "description": "Ornn invoca um elemental gigante em um ponto, que viaja até ele cada vez mais rápido. Inimigos atropelados pelo elemental sofrem dano, têm a velocidade reduzida e ficam Frágeis. Ornn pode reconjurar a habilidade para dar uma investida no elemental para redirecioná-lo na direção em que ele o acertar, fazendo com que o elemental arremesse ao ar todos os inimigos que ele atingir, causando o mesmo dano e reaplicando Frágil.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Ornn.P",
       "ability": "P",
       "name": "Forja Viva",
-      "description": "Ornn recebe Armadura e Resistência Mágica adicionais de todas as origens. Ele pode gastar ouro para forjar itens não consumíveis em qualquer lugar. Além disso, ele pode criar itens magistrais para si e para aliados."
+      "description": "Ornn recebe Armadura e Resistência Mágica adicionais de todas as origens. Ele pode gastar ouro para forjar itens não consumíveis em qualquer lugar. Além disso, ele pode criar itens magistrais para si e para aliados.",
+      "cooldown": null
     }
   ],
   "tips": [],

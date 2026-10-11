@@ -16,31 +16,58 @@
       "id": "Sivir.Q",
       "ability": "Q",
       "name": "Lâmina Bumerangue",
-      "description": "Sivir arremessa sua lâmina como um bumerangue, causando dano tanto na ida quanto na volta."
+      "description": "Sivir arremessa sua lâmina como um bumerangue, causando dano tanto na ida quanto na volta.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Sivir.W",
       "ability": "W",
       "name": "Ricochete",
-      "description": "Os próximos ataques básicos de Sivir recebem Velocidade de Ataque adicional e ricocheteiam em alvos próximos, causando dano reduzido enquanto rebatem."
+      "description": "Os próximos ataques básicos de Sivir recebem Velocidade de Ataque adicional e ricocheteiam em alvos próximos, causando dano reduzido enquanto rebatem.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Sivir.E",
       "ability": "E",
       "name": "Escudo de Feitiço",
-      "description": "Cria uma barreira mágica que bloqueia a habilidade de um único inimigo lançada em Sivir. Ela recebe Vida e uma explosão de Velocidade de Movimento se uma habilidade for bloqueada."
+      "description": "Cria uma barreira mágica que bloqueia a habilidade de um único inimigo lançada em Sivir. Ela recebe Vida e uma explosão de Velocidade de Movimento se uma habilidade for bloqueada.",
+      "cooldown": [
+        24,
+        22.5,
+        21,
+        19.5,
+        18
+      ]
     },
     {
       "id": "Sivir.R",
       "ability": "R",
       "name": "Na Caçada",
-      "description": "Sivir conduz os aliados até a batalha, concedendo uma explosão de Velocidade de Movimento a eles por um curto período. Além disso, os ataques de Sivir reduzem o Tempo de Recarga das habilidades."
+      "description": "Sivir conduz os aliados até a batalha, concedendo uma explosão de Velocidade de Movimento a eles por um curto período. Além disso, os ataques de Sivir reduzem o Tempo de Recarga das habilidades.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Sivir.P",
       "ability": "P",
       "name": "Pés Ligeiros",
-      "description": "Sivir ganha um pequeno impulso de Velocidade de Movimento quando ela ataca um campeão inimigo."
+      "description": "Sivir ganha um pequeno impulso de Velocidade de Movimento quando ela ataca um campeão inimigo.",
+      "cooldown": null
     }
   ],
   "tips": [],

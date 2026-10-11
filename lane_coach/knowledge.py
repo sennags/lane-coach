@@ -3,6 +3,7 @@ import hashlib
 import json
 from copy import deepcopy
 from pathlib import Path
+from .cooldowns import valid_cooldowns
 
 
 LANES = {'general': 'Selecionar lane', 'top': 'Top', 'jungle': 'Jungle', 'mid': 'Mid', 'adc': 'ADC', 'support': 'Support'}
@@ -46,6 +47,8 @@ class KnowledgeBase:
                     if key in phase and (not isinstance(phase[key], str) or not phase[key].strip()):
                         raise ValueError('Invalid direct plan')
             for fact in champion['facts']:
+                if fact.get('cooldown') is not None and not valid_cooldowns(fact['cooldown']):
+                    raise ValueError('Invalid cooldown data')
                 if 'coaching' in fact and (
                     not isinstance(fact['coaching'], dict)
                     or set(fact['coaching']) != {'use', 'limit'}

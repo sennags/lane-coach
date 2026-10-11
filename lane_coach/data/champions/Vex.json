@@ -16,31 +16,58 @@
       "id": "Vex.Q",
       "ability": "Q",
       "name": "Rajada Mistral",
-      "description": "Lança um projétil que causa dano e acelera no meio do trajeto."
+      "description": "Lança um projétil que causa dano e acelera no meio do trajeto.",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
     },
     {
       "id": "Vex.W",
       "ability": "W",
       "name": "Espaço Pessoal",
-      "description": "Recebe um Escudo e causa dano a inimigos próximos."
+      "description": "Recebe um Escudo e causa dano a inimigos próximos.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Vex.E",
       "ability": "E",
       "name": "Penumbra Iminente",
-      "description": "Invoca uma área que causa dano e Lentidão aos inimigos, além de aplicar Escuridão."
+      "description": "Invoca uma área que causa dano e Lentidão aos inimigos, além de aplicar Escuridão.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Vex.R",
       "ability": "R",
       "name": "Onda Sombria",
-      "description": "Dispara um projétil que marca um Campeão inimigo. Reconjure para avançar até o alvo e causar dano."
+      "description": "Dispara um projétil que marca um Campeão inimigo. Reconjure para avançar até o alvo e causar dano.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Vex.P",
       "ability": "P",
       "name": "Destruição e Escuridão",
-      "description": "Periodicamente, Vex é fortalecida, fazendo com que a próxima Habilidade básica dela cause Temor aos inimigos e interrompa avanços. Sempre que um inimigo próximo avança, Vex aplica uma marca que é consumida para causar dano adicional, além de reduzir o Tempo de Recarga do estado fortalecido."
+      "description": "Periodicamente, Vex é fortalecida, fazendo com que a próxima Habilidade básica dela cause Temor aos inimigos e interrompa avanços. Sempre que um inimigo próximo avança, Vex aplica uma marca que é consumida para causar dano adicional, além de reduzir o Tempo de Recarga do estado fortalecido.",
+      "cooldown": null
     }
   ],
   "tips": [],

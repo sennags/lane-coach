@@ -17,31 +17,58 @@
       "id": "Maokai.Q",
       "ability": "Q",
       "name": "Esmagamento Espinhoso",
-      "description": "Maokai empurra inimigos próximos para trás com uma onda de choque, causando Dano Mágico e redução de velocidade."
+      "description": "Maokai empurra inimigos próximos para trás com uma onda de choque, causando Dano Mágico e redução de velocidade.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "Maokai.W",
       "ability": "W",
       "name": "Avanço Retorcido",
-      "description": "Maokai se transforma em uma massa de raízes ambulante, ficando inalvejável e avançando até o alvo. Ao chegar, ele enraíza o alvo."
+      "description": "Maokai se transforma em uma massa de raízes ambulante, ficando inalvejável e avançando até o alvo. Ao chegar, ele enraíza o alvo.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Maokai.E",
       "ability": "E",
       "name": "Atirar Mudas",
-      "description": "Maokai arremessa uma muda na área-alvo para ficar de guarda, sendo mais eficiente em arbustos."
+      "description": "Maokai arremessa uma muda na área-alvo para ficar de guarda, sendo mais eficiente em arbustos.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Maokai.R",
       "ability": "R",
       "name": "Garras da Natureza",
-      "description": "Maokai invoca uma parede colossal de espinhos que avança lentamente, causando dano e enraizando inimigos no caminho."
+      "description": "Maokai invoca uma parede colossal de espinhos que avança lentamente, causando dano e enraizando inimigos no caminho.",
+      "cooldown": [
+        130,
+        110,
+        90
+      ]
     },
     {
       "id": "Maokai.P",
       "ability": "P",
       "name": "Seiva Mágica",
-      "description": "O ataque básico de Maokai também concede cura a ele e causa dano adicional com um Tempo de Recarga moderado. Sempre que ele conjurar uma habilidade ou for atingido por uma habilidade inimiga, o Tempo de Recarga da cura é reduzido."
+      "description": "O ataque básico de Maokai também concede cura a ele e causa dano adicional com um Tempo de Recarga moderado. Sempre que ele conjurar uma habilidade ou for atingido por uma habilidade inimiga, o Tempo de Recarga da cura é reduzido.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Sejuani.Q",
       "ability": "Q",
       "name": "Ataque do Ártico",
-      "description": "Sejuani avança em investida, lançando os inimigos pelos ares. A investida cessa após acertar um Campeão inimigo."
+      "description": "Sejuani avança em investida, lançando os inimigos pelos ares. A investida cessa após acertar um Campeão inimigo.",
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ]
     },
     {
       "id": "Sejuani.W",
       "ability": "W",
       "name": "Ira do Inverno",
-      "description": "Sejuani usa a maça duas vezes, causando dano e aplicando acúmulos de Congelar."
+      "description": "Sejuani usa a maça duas vezes, causando dano e aplicando acúmulos de Congelar.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Sejuani.E",
       "ability": "E",
       "name": "Congelamento Permanente",
-      "description": "Sejuani congela e atordoa um Campeão inimigo que tiver o máximo de acúmulos de Congelar."
+      "description": "Sejuani congela e atordoa um Campeão inimigo que tiver o máximo de acúmulos de Congelar.",
+      "cooldown": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ]
     },
     {
       "id": "Sejuani.R",
       "ability": "R",
       "name": "Prisão Glacial",
-      "description": "Sejuani arremessa sua boleadeira, congelando e atordoando o primeiro Campeão que acertar, criando uma tempestade de gelo que causa lentidão aos demais inimigos."
+      "description": "Sejuani arremessa sua boleadeira, congelando e atordoando o primeiro Campeão que acertar, criando uma tempestade de gelo que causa lentidão aos demais inimigos.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Sejuani.P",
       "ability": "P",
       "name": "Fúria do Norte",
-      "description": "Após ficar fora de combate, Sejuani recebe Armadura Congelada, que concede Armadura, Resistência Mágica e imunidade a reduções de velocidade. Armadura Congelada persiste por um curto período após Sejuani sofrer dano e Sejuani pode causar dano a um inimigo atordoado para estilhaçá-la, causando muito Dano Mágico."
+      "description": "Após ficar fora de combate, Sejuani recebe Armadura Congelada, que concede Armadura, Resistência Mágica e imunidade a reduções de velocidade. Armadura Congelada persiste por um curto período após Sejuani sofrer dano e Sejuani pode causar dano a um inimigo atordoado para estilhaçá-la, causando muito Dano Mágico.",
+      "cooldown": null
     }
   ],
   "tips": [],

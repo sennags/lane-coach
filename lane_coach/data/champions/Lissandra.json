@@ -16,31 +16,58 @@
       "id": "Lissandra.Q",
       "ability": "Q",
       "name": "Estilhaço de Gelo",
-      "description": "Arremessa uma lança de gelo que se estilhaça ao atingir um inimigo, causando Dano Mágico e reduzindo sua Velocidade de Movimento. Os estilhaços atravessam o alvo, causando o mesmo dano a outros inimigos atingidos."
+      "description": "Arremessa uma lança de gelo que se estilhaça ao atingir um inimigo, causando Dano Mágico e reduzindo sua Velocidade de Movimento. Os estilhaços atravessam o alvo, causando o mesmo dano a outros inimigos atingidos.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "Lissandra.W",
       "ability": "W",
       "name": "Círculo Ártico",
-      "description": "Prende inimigos próximos em gelo, causando-lhes Dano Mágico e enraizando-os."
+      "description": "Prende inimigos próximos em gelo, causando-lhes Dano Mágico e enraizando-os.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Lissandra.E",
       "ability": "E",
       "name": "Caminho Glacial",
-      "description": "Lissandra cria uma garra de gelo que causa Dano Mágico. Reativar essa habilidade transporta Lissandra ao local atual da garra."
+      "description": "Lissandra cria uma garra de gelo que causa Dano Mágico. Reativar essa habilidade transporta Lissandra ao local atual da garra.",
+      "cooldown": [
+        24,
+        21,
+        18,
+        15,
+        12
+      ]
     },
     {
       "id": "Lissandra.R",
       "ability": "R",
       "name": "Túmulo Congelado",
-      "description": "Se conjurada em um Campeão inimigo, o alvo será congelado e atordoado. Se conjurada em Lissandra, ela se protege em um bloco de gelo sombrio, curando a si mesma enquanto fica inalvejável e invulnerável. Em seguida, o gelo sombrio emana a partir do alvo, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos."
+      "description": "Se conjurada em um Campeão inimigo, o alvo será congelado e atordoado. Se conjurada em Lissandra, ela se protege em um bloco de gelo sombrio, curando a si mesma enquanto fica inalvejável e invulnerável. Em seguida, o gelo sombrio emana a partir do alvo, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Lissandra.P",
       "ability": "P",
       "name": "Submissão Glacinata",
-      "description": "Quando um Campeão inimigo morre próximo a Lissandra, ele vira um Servo Congelado. Servos Congelados reduzem a velocidade de inimigos próximos e, depois de um intervalo, estilhaçam devido ao frio intenso, causando Dano Mágico a alvos próximos."
+      "description": "Quando um Campeão inimigo morre próximo a Lissandra, ele vira um Servo Congelado. Servos Congelados reduzem a velocidade de inimigos próximos e, depois de um intervalo, estilhaçam devido ao frio intenso, causando Dano Mágico a alvos próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

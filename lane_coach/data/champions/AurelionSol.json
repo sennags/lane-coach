@@ -16,31 +16,58 @@
       "id": "AurelionSol.Q",
       "ability": "Q",
       "name": "Sopro de Luz",
-      "description": "Aurelion Sol canaliza seu hálito de dragão por alguns segundos, causando dano ao primeiro inimigo atingido e espalhando dano reduzido a inimigos próximos. O hálito causará dano adicional para cada segundo que for canalizado diretamente em um inimigo, ficando mais forte à medida que coleta mais Poeira Estelar. Essa habilidade coleta Poeira Estelar se o alvo for um Campeão."
+      "description": "Aurelion Sol canaliza seu hálito de dragão por alguns segundos, causando dano ao primeiro inimigo atingido e espalhando dano reduzido a inimigos próximos. O hálito causará dano adicional para cada segundo que for canalizado diretamente em um inimigo, ficando mais forte à medida que coleta mais Poeira Estelar. Essa habilidade coleta Poeira Estelar se o alvo for um Campeão.",
+      "cooldown": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "AurelionSol.W",
       "ability": "W",
       "name": "Voo Astral",
-      "description": "Aurelion Sol voa sobre terrenos na direção-alvo. Enquanto estiver nesse estado, ele pode conjurar outras habilidades. Sopro de Luz não tem mais Tempo de Recarga ou duração máxima de canalização e causa dano aumentado durante o voo. O Tempo de Recarga restante de Voo Astral é reduzido sempre que um Campeão inimigo que sofreu dano recente de Aurelion Sol morre. Poeira Estelar aumenta o alcance máximo de Voo Astral."
+      "description": "Aurelion Sol voa sobre terrenos na direção-alvo. Enquanto estiver nesse estado, ele pode conjurar outras habilidades. Sopro de Luz não tem mais Tempo de Recarga ou duração máxima de canalização e causa dano aumentado durante o voo. O Tempo de Recarga restante de Voo Astral é reduzido sempre que um Campeão inimigo que sofreu dano recente de Aurelion Sol morre. Poeira Estelar aumenta o alcance máximo de Voo Astral.",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ]
     },
     {
       "id": "AurelionSol.E",
       "ability": "E",
       "name": "Singularidade",
-      "description": "Aurelion Sol invoca um buraco negro, causando dano aos inimigos e puxando-os lentamente para o centro. A Habilidade concede Poeira Estelar sempre que um inimigo morre dentro do buraco negro e a cada segundo que um Campeão inimigo passar preso dentro dele. O centro do buraco negro executa inimigos que estiverem com a Vida abaixo de uma determinada porcentagem da Vida máxima. Poeira Estelar aumenta a área e o limiar de execução de Singularidade."
+      "description": "Aurelion Sol invoca um buraco negro, causando dano aos inimigos e puxando-os lentamente para o centro. A Habilidade concede Poeira Estelar sempre que um inimigo morre dentro do buraco negro e a cada segundo que um Campeão inimigo passar preso dentro dele. O centro do buraco negro executa inimigos que estiverem com a Vida abaixo de uma determinada porcentagem da Vida máxima. Poeira Estelar aumenta a área e o limiar de execução de Singularidade.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "AurelionSol.R",
       "ability": "R",
       "name": "Estrela Cadente/Os Céus Caem",
-      "description": "Estrela Cadente: Aurelion Sol faz uma estrela cair na terra. O impacto causa Dano Mágico e atordoa inimigos, além de conceder Poeira Estelar a cada Campeão inimigo atingido. Coletar Poeira Estelar o suficiente faz a próxima Estrela Cadente de Aurelion Sol se tornar Os Céus Caem. Os Céus Caem: Aurelion Sol faz cair uma estrela gigante dos céus com zona de impacto e dano aumentados, além de arremessar ao ar os inimigos em vez de atordoá-los. Depois, uma onda de choque se espalha a partir do limite da zona de impacto, causando dano e Lentidão aos inimigos atingidos. Poeira Estelar aumenta a área de impacto tanto de Estrela Cadente quanto de Os Céus Caem."
+      "description": "Estrela Cadente: Aurelion Sol faz uma estrela cair na terra. O impacto causa Dano Mágico e atordoa inimigos, além de conceder Poeira Estelar a cada Campeão inimigo atingido. Coletar Poeira Estelar o suficiente faz a próxima Estrela Cadente de Aurelion Sol se tornar Os Céus Caem. Os Céus Caem: Aurelion Sol faz cair uma estrela gigante dos céus com zona de impacto e dano aumentados, além de arremessar ao ar os inimigos em vez de atordoá-los. Depois, uma onda de choque se espalha a partir do limite da zona de impacto, causando dano e Lentidão aos inimigos atingidos. Poeira Estelar aumenta a área de impacto tanto de Estrela Cadente quanto de Os Céus Caem.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "AurelionSol.P",
       "ability": "P",
       "name": "Criador Cósmico",
-      "description": "As Habilidades de dano de Aurelion Sol reduzem inimigos a acúmulos de Poeira Estelar , melhorando permanentemente cada uma das Habilidades dele."
+      "description": "As Habilidades de dano de Aurelion Sol reduzem inimigos a acúmulos de Poeira Estelar , melhorando permanentemente cada uma das Habilidades dele.",
+      "cooldown": null
     }
   ],
   "tips": [],

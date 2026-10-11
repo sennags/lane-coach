@@ -17,31 +17,58 @@
       "id": "Renata.Q",
       "ability": "Q",
       "name": "Negócio Fechado",
-      "description": "Renata envia um foguete que enraíza o primeiro inimigo atingido. Ela pode reconjurar a habilidade para arremessar a unidade em uma direção."
+      "description": "Renata envia um foguete que enraíza o primeiro inimigo atingido. Ela pode reconjurar a habilidade para arremessar a unidade em uma direção.",
+      "cooldown": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
     },
     {
       "id": "Renata.W",
       "ability": "W",
       "name": "Empréstimo",
-      "description": "Renata fortalece um Campeão aliado para lutar, atrasando a morte dele e salvando-o se ele conseguir uma eliminação."
+      "description": "Renata fortalece um Campeão aliado para lutar, atrasando a morte dele e salvando-o se ele conseguir uma eliminação.",
+      "cooldown": [
+        28,
+        27,
+        26,
+        25,
+        24
+      ]
     },
     {
       "id": "Renata.E",
       "ability": "E",
       "name": "Programa de Fidelidade",
-      "description": "Renata envia um par de foguetes quimtec, concedendo Escudo aos aliados e causando dano e Lentidão aos inimigos atingidos."
+      "description": "Renata envia um par de foguetes quimtec, concedendo Escudo aos aliados e causando dano e Lentidão aos inimigos atingidos.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Renata.R",
       "ability": "R",
       "name": "Apropriação Agressiva",
-      "description": "Renata envia uma onda de produtos químicos, fazendo com que inimigos atingidos entrem em estado de Berserk."
+      "description": "Renata envia uma onda de produtos químicos, fazendo com que inimigos atingidos entrem em estado de Berserk.",
+      "cooldown": [
+        150,
+        130,
+        110
+      ]
     },
     {
       "id": "Renata.P",
       "ability": "P",
       "name": "Financiamento",
-      "description": "Os Ataques de Renata causam dano adicional e marcam inimigos. Os aliados de Renata podem atacar inimigos marcados para causar dano adicional."
+      "description": "Os Ataques de Renata causam dano adicional e marcam inimigos. Os aliados de Renata podem atacar inimigos marcados para causar dano adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

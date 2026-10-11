@@ -17,31 +17,58 @@
       "id": "Xerath.Q",
       "ability": "Q",
       "name": "Pulso Arcano",
-      "description": "Dispara um raio de energia de longo alcance, causando Dano Mágico a todos os alvos atingidos."
+      "description": "Dispara um raio de energia de longo alcance, causando Dano Mágico a todos os alvos atingidos.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Xerath.W",
       "ability": "W",
       "name": "Olho da Destruição",
-      "description": "Invoca uma barragem de energia arcana, causando Dano Mágico e redução de Velocidade de Movimento a todos os inimigos em uma área. Alvos no centro recebem dano adicional e uma redução de velocidade mais forte."
+      "description": "Invoca uma barragem de energia arcana, causando Dano Mágico e redução de Velocidade de Movimento a todos os inimigos em uma área. Alvos no centro recebem dano adicional e uma redução de velocidade mais forte.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Xerath.E",
       "ability": "E",
       "name": "Orbe Eletrizante",
-      "description": "Causa Dano Mágico a um inimigo e o atordoa."
+      "description": "Causa Dano Mágico a um inimigo e o atordoa.",
+      "cooldown": [
+        13,
+        12.5,
+        12,
+        11.5,
+        11
+      ]
     },
     {
       "id": "Xerath.R",
       "ability": "R",
       "name": "Ritual Arcano",
-      "description": "Xerath imobiliza a si mesmo e dispara diversas barragens de longa distância."
+      "description": "Xerath imobiliza a si mesmo e dispara diversas barragens de longa distância.",
+      "cooldown": [
+        130,
+        115,
+        100
+      ]
     },
     {
       "id": "Xerath.P",
       "ability": "P",
       "name": "Oscilação de Mana",
-      "description": "Os ataques básicos de Xerath restauram Mana periodicamente. Sempre que Xerath abate uma unidade, esse Tempo de Recarga é reduzido."
+      "description": "Os ataques básicos de Xerath restauram Mana periodicamente. Sempre que Xerath abate uma unidade, esse Tempo de Recarga é reduzido.",
+      "cooldown": null
     }
   ],
   "tips": [],

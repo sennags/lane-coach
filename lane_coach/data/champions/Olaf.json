@@ -17,31 +17,58 @@
       "id": "Olaf.Q",
       "ability": "Q",
       "name": "Ressaca",
-      "description": "Olaf arremessa um machado no local-alvo, causando dano e reduzindo a Armadura e a Velocidade de Movimento dos inimigos que atravessar. Se Olaf apanhar o machado, o Tempo de Recarga da habilidade é redefinido."
+      "description": "Olaf arremessa um machado no local-alvo, causando dano e reduzindo a Armadura e a Velocidade de Movimento dos inimigos que atravessar. Se Olaf apanhar o machado, o Tempo de Recarga da habilidade é redefinido.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Olaf.W",
       "ability": "W",
       "name": "Duro na Queda",
-      "description": "Olaf recebe aumento de Velocidade de Ataque e um Escudo."
+      "description": "Olaf recebe aumento de Velocidade de Ataque e um Escudo.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Olaf.E",
       "ability": "E",
       "name": "Balanço Temerário",
-      "description": "Olaf ataca com tal força que causa Dano Verdadeiro a seu alvo e a si mesmo, recuperando o custo de Vida caso destrua o alvo."
+      "description": "Olaf ataca com tal força que causa Dano Verdadeiro a seu alvo e a si mesmo, recuperando o custo de Vida caso destrua o alvo.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Olaf.R",
       "ability": "R",
       "name": "Ragnarok",
-      "description": "Olaf recebe Armadura e Resistência Mágica adicionais passivamente. Ele pode ativar essa habilidade para se tornar imune a desarmes enquanto continuar atacando."
+      "description": "Olaf recebe Armadura e Resistência Mágica adicionais passivamente. Ele pode ativar essa habilidade para se tornar imune a desarmes enquanto continuar atacando.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Olaf.P",
       "ability": "P",
       "name": "Fúria Berserker",
-      "description": "Olaf recebe Velocidade de Ataque e Roubo de Vida com base na sua Vida perdida."
+      "description": "Olaf recebe Velocidade de Ataque e Roubo de Vida com base na sua Vida perdida.",
+      "cooldown": null
     }
   ],
   "tips": [],

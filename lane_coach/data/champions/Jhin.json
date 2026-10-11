@@ -17,31 +17,58 @@
       "id": "Jhin.Q",
       "ability": "Q",
       "name": "Granada Dançante",
-      "description": "Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate."
+      "description": "Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "Jhin.W",
       "ability": "W",
       "name": "Florescer Mortal",
-      "description": "Jhin brande sua bengala, fazendo um disparo único com incrível alcance. Ele atravessa tropas e monstros, mas para no primeiro Campeão atingido. Se o alvo foi recentemente atingido por aliados de Jhin, por Armadilhas de Lótus ou recebeu dano de Jhin, ele será enraizado."
+      "description": "Jhin brande sua bengala, fazendo um disparo único com incrível alcance. Ele atravessa tropas e monstros, mas para no primeiro Campeão atingido. Se o alvo foi recentemente atingido por aliados de Jhin, por Armadilhas de Lótus ou recebeu dano de Jhin, ele será enraizado.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Jhin.E",
       "ability": "E",
       "name": "Audiência Cativa",
-      "description": "Jhin posiciona uma armadilha de lótus invisível que floresce ao ser pisada. Ela reduz a velocidade de inimigos próximos antes de causar dano com uma explosão de pétalas serrilhadas. Beleza em Morte - Quando Jhin abate um Campeão inimigo, uma armadilha de lótus florescerá próximo a seu cadáver."
+      "description": "Jhin posiciona uma armadilha de lótus invisível que floresce ao ser pisada. Ela reduz a velocidade de inimigos próximos antes de causar dano com uma explosão de pétalas serrilhadas. Beleza em Morte - Quando Jhin abate um Campeão inimigo, uma armadilha de lótus florescerá próximo a seu cadáver.",
+      "cooldown": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
     },
     {
       "id": "Jhin.R",
       "ability": "R",
       "name": "Aclamação",
-      "description": "Jhin canaliza, transformando a Sussurro em um mega-canhão de ombro. Ela é capaz de fazer 4 super disparos com extremo alcance que atravessam tropas e monstros, mas que param no primeiro campeão atingido. A Sussurro mutila os inimigos atingidos, o que reduz sua velocidade e aumenta o dano de execução. O 4º disparo é feito com perfeição, de poder épico e garante um acerto crítico."
+      "description": "Jhin canaliza, transformando a Sussurro em um mega-canhão de ombro. Ela é capaz de fazer 4 super disparos com extremo alcance que atravessam tropas e monstros, mas que param no primeiro campeão atingido. A Sussurro mutila os inimigos atingidos, o que reduz sua velocidade e aumenta o dano de execução. O 4º disparo é feito com perfeição, de poder épico e garante um acerto crítico.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Jhin.P",
       "ability": "P",
       "name": "Sussurro",
-      "description": "Sussurro, o canhão de mão de Jhin, é um instrumento preciso que foi projetado para causar muito dano. Ele dispara com frequência fixa e carrega apenas quatro projéteis. Jhin encanta o projétil final com magia sombria para causar Acerto Crítico e dano de execução adicional. Sempre que causa um Acerto Crítico, Sussurro inspira Jhin com um impulso de Velocidade de Movimento."
+      "description": "Sussurro, o canhão de mão de Jhin, é um instrumento preciso que foi projetado para causar muito dano. Ele dispara com frequência fixa e carrega apenas quatro projéteis. Jhin encanta o projétil final com magia sombria para causar Acerto Crítico e dano de execução adicional. Sempre que causa um Acerto Crítico, Sussurro inspira Jhin com um impulso de Velocidade de Movimento.",
+      "cooldown": null
     }
   ],
   "tips": [],

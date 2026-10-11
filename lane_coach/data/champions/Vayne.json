@@ -17,31 +17,58 @@
       "id": "Vayne.Q",
       "ability": "Q",
       "name": "Rolamento",
-      "description": "Vayne dá uma cambalhota, equilibrando-se para efetuar seu próximo disparo. Seu próximo ataque causará dano adicional."
+      "description": "Vayne dá uma cambalhota, equilibrando-se para efetuar seu próximo disparo. Seu próximo ataque causará dano adicional.",
+      "cooldown": [
+        6,
+        5,
+        4,
+        3,
+        2
+      ]
     },
     {
       "id": "Vayne.W",
       "ability": "W",
       "name": "Dardos de Prata",
-      "description": "Vayne aprimora suas flechas com um metal raro, tóxico a qualquer coisa maligna. A cada terceiro ataque consecutivo ou habilidade contra o mesmo alvo causa um percentual da Vida máxima do alvo como Dano Verdadeiro adicional."
+      "description": "Vayne aprimora suas flechas com um metal raro, tóxico a qualquer coisa maligna. A cada terceiro ataque consecutivo ou habilidade contra o mesmo alvo causa um percentual da Vida máxima do alvo como Dano Verdadeiro adicional.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Vayne.E",
       "ability": "E",
       "name": "Condenar",
-      "description": "Vayne puxa uma pesada besta de suas costas e dispara um gigantesco projétil em seu alvo, arremessando-o para trás e causando dano. Caso colida com terreno, ele fica empalado, o que lhe causa dano adicional e atordoamento."
+      "description": "Vayne puxa uma pesada besta de suas costas e dispara um gigantesco projétil em seu alvo, arremessando-o para trás e causando dano. Caso colida com terreno, ele fica empalado, o que lhe causa dano adicional e atordoamento.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Vayne.R",
       "ability": "R",
       "name": "Hora Final",
-      "description": "Preparando-se para um confronto épico, Vayne recebe Dano de Ataque aumentado, invisibilidade durante o Rolamento, Tempo de Recarga do Rolamento reduzido e mais Velocidade de Movimento adicional de Caçadora Noturna"
+      "description": "Preparando-se para um confronto épico, Vayne recebe Dano de Ataque aumentado, invisibilidade durante o Rolamento, Tempo de Recarga do Rolamento reduzido e mais Velocidade de Movimento adicional de Caçadora Noturna",
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Vayne.P",
       "ability": "P",
       "name": "Caçadora Noturna",
-      "description": "Vayne caça implacavelmente os malfeitores, ganhando Velocidade de Movimento ao se deslocar em direção a Campeões inimigos próximos."
+      "description": "Vayne caça implacavelmente os malfeitores, ganhando Velocidade de Movimento ao se deslocar em direção a Campeões inimigos próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

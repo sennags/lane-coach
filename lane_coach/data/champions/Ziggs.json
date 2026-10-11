@@ -16,31 +16,58 @@
       "id": "Ziggs.Q",
       "ability": "Q",
       "name": "Bomba Saltitante",
-      "description": "Ziggs arremessa uma bomba que causa Dano Mágico."
+      "description": "Ziggs arremessa uma bomba que causa Dano Mágico.",
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ]
     },
     {
       "id": "Ziggs.W",
       "ability": "W",
       "name": "Carga Concentrada",
-      "description": "Ziggs arremessa uma carga explosiva que detona depois de um intervalo ou quando a Habilidade é ativada novamente. A explosão causa Dano Mágico a inimigos, arremessando-os para longe. Ziggs também é empurrado, mas não sofre dano. Ziggs pode também usar Carga para Hexplodir torres inimigas vulneráveis."
+      "description": "Ziggs arremessa uma carga explosiva que detona depois de um intervalo ou quando a Habilidade é ativada novamente. A explosão causa Dano Mágico a inimigos, arremessando-os para longe. Ziggs também é empurrado, mas não sofre dano. Ziggs pode também usar Carga para Hexplodir torres inimigas vulneráveis.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Ziggs.E",
       "ability": "E",
       "name": "Campo Minado de Hexplosivos",
-      "description": "Ziggs espalha minas de proximidade que detonam ao contato com inimigos, causando Dano Mágico e redução de velocidade. Várias detonações de minas no mesmo alvo causam dano reduzido."
+      "description": "Ziggs espalha minas de proximidade que detonam ao contato com inimigos, causando Dano Mágico e redução de velocidade. Várias detonações de minas no mesmo alvo causam dano reduzido.",
+      "cooldown": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
     },
     {
       "id": "Ziggs.R",
       "ability": "R",
       "name": "Bomba Megainfernal",
-      "description": "Ziggs põe para funcionar sua maior criação, a Bomba Megainfernal, arremessando-a de uma enorme distância. Inimigos no centro da detonação recebem mais dano do que aqueles mais distantes."
+      "description": "Ziggs põe para funcionar sua maior criação, a Bomba Megainfernal, arremessando-a de uma enorme distância. Inimigos no centro da detonação recebem mais dano do que aqueles mais distantes.",
+      "cooldown": [
+        120,
+        95,
+        70
+      ]
     },
     {
       "id": "Ziggs.P",
       "ability": "P",
       "name": "Pavio Curto",
-      "description": "Periodicamente, o próximo ataque básico de Ziggs causa Dano Mágico adicional. Esse Tempo de Recarga é reduzido sempre que Ziggs usa uma habilidade."
+      "description": "Periodicamente, o próximo ataque básico de Ziggs causa Dano Mágico adicional. Esse Tempo de Recarga é reduzido sempre que Ziggs usa uma habilidade.",
+      "cooldown": null
     }
   ],
   "tips": [],

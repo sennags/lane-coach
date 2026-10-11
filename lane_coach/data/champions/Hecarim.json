@@ -17,31 +17,58 @@
       "id": "Hecarim.Q",
       "ability": "Q",
       "name": "Enfurecido",
-      "description": "Hecarim golpeia inimigos próximos, causando Dano Físico. Caso ele cause dano a ao menos um inimigo, os usos subsequentes da habilidade causam mais dano e têm menor Tempo de Recarga."
+      "description": "Hecarim golpeia inimigos próximos, causando Dano Físico. Caso ele cause dano a ao menos um inimigo, os usos subsequentes da habilidade causam mais dano e têm menor Tempo de Recarga.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Hecarim.W",
       "ability": "W",
       "name": "Espírito do Pavor",
-      "description": "Hecarim recebe Armadura e Resistência Mágica. Ele causa Dano Mágico a inimigos próximos e recebe Vida equivalente a um percentual de qualquer dano que esses inimigos receberem."
+      "description": "Hecarim recebe Armadura e Resistência Mágica. Ele causa Dano Mágico a inimigos próximos e recebe Vida equivalente a um percentual de qualquer dano que esses inimigos receberem.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Hecarim.E",
       "ability": "E",
       "name": "Ataque Devastador",
-      "description": "Hecarim recebe Velocidade de Movimento crescente e ignora colisão com unidades por um curto período. O próximo Ataque dele empurra o alvo e causa Dano Físico adicional com base na distância percorrida desde a ativação da Habilidade."
+      "description": "Hecarim recebe Velocidade de Movimento crescente e ignora colisão com unidades por um curto período. O próximo Ataque dele empurra o alvo e causa Dano Físico adicional com base na distância percorrida desde a ativação da Habilidade.",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ]
     },
     {
       "id": "Hecarim.R",
       "ability": "R",
       "name": "Massacre das Sombras",
-      "description": "Hecarim invoca cavaleiros espectrais e avança, causando Dano Mágico em linha reta. Hecarim desfere uma onda de choque ao terminar o ataque, fazendo com que inimigos próximos se afastem aterrorizados."
+      "description": "Hecarim invoca cavaleiros espectrais e avança, causando Dano Mágico em linha reta. Hecarim desfere uma onda de choque ao terminar o ataque, fazendo com que inimigos próximos se afastem aterrorizados.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Hecarim.P",
       "ability": "P",
       "name": "Caminho da Guerra",
-      "description": "Hecarim recebe Dano de Ataque equivalente a um percentual de sua Velocidade de Movimento adicional."
+      "description": "Hecarim recebe Dano de Ataque equivalente a um percentual de sua Velocidade de Movimento adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Diana.Q",
       "ability": "Q",
       "name": "Golpe Crescente",
-      "description": "Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos com Plenilúnio, revelando-os por 3s se não estiverem furtivos."
+      "description": "Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos com Plenilúnio, revelando-os por 3s se não estiverem furtivos.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Diana.W",
       "ability": "W",
       "name": "Cascata Lívida",
-      "description": "Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe resistência adicional."
+      "description": "Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe resistência adicional.",
+      "cooldown": [
+        15,
+        13.5,
+        12,
+        10.5,
+        9
+      ]
     },
     {
       "id": "Diana.E",
       "ability": "E",
       "name": "Zênite Lunar",
-      "description": "Torna-se a encarnação viva da lua vingativa, avançando contra um inimigo e causando Dano Mágico. Zênite Lunar não tem Tempo de Recarga ao avançar em um inimigo afetado por Plenilúnio. Todos os outros inimigos terão o efeito de Plenilúnio removido independentemente de terem sido o alvo de Zênite Lunar."
+      "description": "Torna-se a encarnação viva da lua vingativa, avançando contra um inimigo e causando Dano Mágico. Zênite Lunar não tem Tempo de Recarga ao avançar em um inimigo afetado por Plenilúnio. Todos os outros inimigos terão o efeito de Plenilúnio removido independentemente de terem sido o alvo de Zênite Lunar.",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ]
     },
     {
       "id": "Diana.R",
       "ability": "R",
       "name": "Colapso Minguante",
-      "description": "Diana revela e atrai todos os inimigos próximos e reduz a velocidade deles. Se Diana atrair um ou mais Campeões inimigos, o Plenilúnio cai sobre ela depois de um breve intervalo, causando Dano Mágico em uma área ao seu redor, aumentado a cada alvo atraído além do primeiro."
+      "description": "Diana revela e atrai todos os inimigos próximos e reduz a velocidade deles. Se Diana atrair um ou mais Campeões inimigos, o Plenilúnio cai sobre ela depois de um breve intervalo, causando Dano Mágico em uma área ao seu redor, aumentado a cada alvo atraído além do primeiro.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Diana.P",
       "ability": "P",
       "name": "Espada de Prata Lunar",
-      "description": "Cada terceiro Ataque atinge os inimigos próximos, causando Dano Mágico adicional. Depois de conjurar uma Habilidade, Diana recebe Velocidade de Ataque por 5s."
+      "description": "Cada terceiro Ataque atinge os inimigos próximos, causando Dano Mágico adicional. Depois de conjurar uma Habilidade, Diana recebe Velocidade de Ataque por 5s.",
+      "cooldown": null
     }
   ],
   "tips": [],

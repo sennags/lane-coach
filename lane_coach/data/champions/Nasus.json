@@ -17,31 +17,58 @@
       "id": "Nasus.Q",
       "ability": "Q",
       "name": "Ataque Sifão",
-      "description": "Nasus ataca seu inimigo, causando dano e aumentando o poder do próximo Ataque Sifão se o alvo for abatido."
+      "description": "Nasus ataca seu inimigo, causando dano e aumentando o poder do próximo Ataque Sifão se o alvo for abatido.",
+      "cooldown": [
+        7.5,
+        6.5,
+        5.5,
+        4.5,
+        3.5
+      ]
     },
     {
       "id": "Nasus.W",
       "ability": "W",
       "name": "Murchar",
-      "description": "Nasus envelhece um Campeão inimigo, reduzindo a Velocidade de Movimento e de Ataque do alvo ao longo do tempo."
+      "description": "Nasus envelhece um Campeão inimigo, reduzindo a Velocidade de Movimento e de Ataque do alvo ao longo do tempo.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Nasus.E",
       "ability": "E",
       "name": "Fogo Espiritual",
-      "description": "Nasus libera uma chama espiritual em um local, causando dano e reduzindo a Armadura dos inimigos que pisarem nela."
+      "description": "Nasus libera uma chama espiritual em um local, causando dano e reduzindo a Armadura dos inimigos que pisarem nela.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Nasus.R",
       "ability": "R",
       "name": "Fúria das Areias",
-      "description": "Nasus libera uma poderosa tempestade de areia que atinge inimigos próximos. Enquanto a tempestade estiver ativa, ele recebe Vida e Alcance de Ataque adicionais, causa dano a inimigos próximos, reduz o Tempo de Recarga de Ataque Sifão e recebe Armadura e Resistência Mágica adicionais."
+      "description": "Nasus libera uma poderosa tempestade de areia que atinge inimigos próximos. Enquanto a tempestade estiver ativa, ele recebe Vida e Alcance de Ataque adicionais, causa dano a inimigos próximos, reduz o Tempo de Recarga de Ataque Sifão e recebe Armadura e Resistência Mágica adicionais.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Nasus.P",
       "ability": "P",
       "name": "Devorador de Almas",
-      "description": "Nasus drena a energia espiritual de seu inimigo, acumulando Roubo de Vida adicional."
+      "description": "Nasus drena a energia espiritual de seu inimigo, acumulando Roubo de Vida adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

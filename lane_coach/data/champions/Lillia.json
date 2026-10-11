@@ -17,31 +17,58 @@
       "id": "Lillia.Q",
       "ability": "Q",
       "name": "Golpes Florescentes",
-      "description": "Lillia ganha acúmulos de Velocidade de Movimento passivamente ao atingir inimigos com habilidades. Ela pode ativar esta habilidade para causar Dano Mágico aos inimigos próximos e Dano Verdadeiro adicional na porção externa do círculo."
+      "description": "Lillia ganha acúmulos de Velocidade de Movimento passivamente ao atingir inimigos com habilidades. Ela pode ativar esta habilidade para causar Dano Mágico aos inimigos próximos e Dano Verdadeiro adicional na porção externa do círculo.",
+      "cooldown": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ]
     },
     {
       "id": "Lillia.W",
       "ability": "W",
       "name": "Cuidado! Iiip!",
-      "description": "Lillia causa dano em uma área próxima, com dano amplificado no centro."
+      "description": "Lillia causa dano em uma área próxima, com dano amplificado no centro.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Lillia.E",
       "ability": "E",
       "name": "Semente Espiral",
-      "description": "Lillia lança uma semente que causa dano e reduz a velocidade dos inimigos atingidos. Caso não atinja nada, Semente Espiral continuará avançando até colidir com uma parede ou alvo."
+      "description": "Lillia lança uma semente que causa dano e reduz a velocidade dos inimigos atingidos. Caso não atinja nada, Semente Espiral continuará avançando até colidir com uma parede ou alvo.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Lillia.R",
       "ability": "R",
       "name": "Cadência de Ninar",
-      "description": "Todos os inimigos com Pó dos Sonhos são afetados por Sonolência e adormecem em seguida. Esses inimigos sofrem dano adicional se forem acordados de forma abrupta por dano."
+      "description": "Todos os inimigos com Pó dos Sonhos são afetados por Sonolência e adormecem em seguida. Esses inimigos sofrem dano adicional se forem acordados de forma abrupta por dano.",
+      "cooldown": [
+        150,
+        130,
+        110
+      ]
     },
     {
       "id": "Lillia.P",
       "ability": "P",
       "name": "Ramo Onírico",
-      "description": "Atingir um Campeão ou monstro com uma habilidade causa dano adicional com base na Vida máxima do alvo ao longo do tempo."
+      "description": "Atingir um Campeão ou monstro com uma habilidade causa dano adicional com base na Vida máxima do alvo ao longo do tempo.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Graves.Q",
       "ability": "Q",
       "name": "Fim da Linha",
-      "description": "Graves dispara um projétil explosivo que detona após 1s ou ao colidir com terrenos."
+      "description": "Graves dispara um projétil explosivo que detona após 1s ou ao colidir com terrenos.",
+      "cooldown": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ]
     },
     {
       "id": "Graves.W",
       "ability": "W",
       "name": "Cortina de Fumaça",
-      "description": "Graves atira uma bomba de fumaça na área-alvo, criando uma nuvem de fumaça que reduz o alcance de visão. Inimigos atingidos no impacto inicial sofrem Dano Mágico e têm sua Velocidade de Movimento reduzida por um curto período de tempo."
+      "description": "Graves atira uma bomba de fumaça na área-alvo, criando uma nuvem de fumaça que reduz o alcance de visão. Inimigos atingidos no impacto inicial sofrem Dano Mágico e têm sua Velocidade de Movimento reduzida por um curto período de tempo.",
+      "cooldown": [
+        26,
+        24,
+        22,
+        20,
+        18
+      ]
     },
     {
       "id": "Graves.E",
       "ability": "E",
       "name": "Saque Rápido",
-      "description": "Graves avança, recebendo Armadura e Resistência Mágica adicionais por vários segundos. Se Graves avançar em direção a um Campeão inimigo, em vez disso ele recebe dois acúmulos de Bravura Indômita. Atingir inimigos com ataques básicos reduz o Tempo de Recarga dessa habilidade e redefine o efeito de resistência."
+      "description": "Graves avança, recebendo Armadura e Resistência Mágica adicionais por vários segundos. Se Graves avançar em direção a um Campeão inimigo, em vez disso ele recebe dois acúmulos de Bravura Indômita. Atingir inimigos com ataques básicos reduz o Tempo de Recarga dessa habilidade e redefine o efeito de resistência.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Graves.R",
       "ability": "R",
       "name": "Efeito Colateral",
-      "description": "Graves atira um projétil explosivo que causa muito dano ao primeiro campeão que acertar. Após atingir um campeão ou chegar ao seu alcance máximo, o projétil explode, causando dano em uma área em cone."
+      "description": "Graves atira um projétil explosivo que causa muito dano ao primeiro campeão que acertar. Após atingir um campeão ou chegar ao seu alcance máximo, o projétil explode, causando dano em uma área em cone.",
+      "cooldown": [
+        100,
+        80,
+        60
+      ]
     },
     {
       "id": "Graves.P",
       "ability": "P",
       "name": "Nova Destino",
-      "description": "A escopeta de Graves tem algumas propriedades únicas. Ele precisa recarregar quando sua munição acaba. Ataques disparam 4 projéteis que não podem atravessar unidades. Não Campeões atingidos por mais de um projétil são empurrados para trás."
+      "description": "A escopeta de Graves tem algumas propriedades únicas. Ele precisa recarregar quando sua munição acaba. Ataques disparam 4 projéteis que não podem atravessar unidades. Não Campeões atingidos por mais de um projétil são empurrados para trás.",
+      "cooldown": null
     }
   ],
   "tips": [],

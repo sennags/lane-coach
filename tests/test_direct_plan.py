@@ -29,10 +29,10 @@ def test_two_sections_with_official_fallback(tmp_path):
     assert 'micro-library' not in specific
     assert specific.count('class="direct-plan"') == 6
     assert specific.count('class="ability-coaching"') == 10
-    assert 'Descrição oficial' in specific
+    assert 'Descrição oficial' not in specific
     fallback = client.get('/matchup?champion=Yuumi&opponent=Singed&lane=support').text
     assert 'Perfil inicial por classe' in fallback
-    assert 'notas de uso e limite ainda não preparadas' in fallback
+    assert 'Notas de uso e limite ainda não preparadas' in fallback
     assert 'Riot Data Dragon' in fallback
 
 

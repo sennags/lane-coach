@@ -17,31 +17,58 @@
       "id": "KogMaw.Q",
       "ability": "Q",
       "name": "Cusparada Cáustica",
-      "description": "Kog'Maw dispara um projétil corrosivo que causa Dano Mágico, corroendo a Armadura e Resistência Mágica do alvo por um curto período de tempo. Kog'Maw também recebe Velocidade de Ataque adicional."
+      "description": "Kog'Maw dispara um projétil corrosivo que causa Dano Mágico, corroendo a Armadura e Resistência Mágica do alvo por um curto período de tempo. Kog'Maw também recebe Velocidade de Ataque adicional.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "KogMaw.W",
       "ability": "W",
       "name": "Barragem Bio-Arcana",
-      "description": "Os ataques de Kog'Maw recebem alcance e causam um percentual da Vida máxima do alvo como Dano Mágico %i:OnHit% ao contato ."
+      "description": "Os ataques de Kog'Maw recebem alcance e causam um percentual da Vida máxima do alvo como Dano Mágico %i:OnHit% ao contato .",
+      "cooldown": [
+        17,
+        17,
+        17,
+        17,
+        17
+      ]
     },
     {
       "id": "KogMaw.E",
       "ability": "E",
       "name": "Gosma do Vazio",
-      "description": "Kog'Maw lança uma gosma que causa dano em todos os inimigos pelos quais ela passa, deixando um rastro que reduz a velocidade de inimigos que ficarem sobre ela."
+      "description": "Kog'Maw lança uma gosma que causa dano em todos os inimigos pelos quais ela passa, deixando um rastro que reduz a velocidade de inimigos que ficarem sobre ela.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "KogMaw.R",
       "ability": "R",
       "name": "Artilharia Viva",
-      "description": "Kog'Maw dispara uma cápsula de artilharia a uma grande distância, causando Dano Mágico (aumentado drasticamente em inimigos com pouca Vida) e revelando alvos não invisíveis. Além disso, mais de uma Artilharia Viva em um curto período de tempo faz com que custem Mana adicional."
+      "description": "Kog'Maw dispara uma cápsula de artilharia a uma grande distância, causando Dano Mágico (aumentado drasticamente em inimigos com pouca Vida) e revelando alvos não invisíveis. Além disso, mais de uma Artilharia Viva em um curto período de tempo faz com que custem Mana adicional.",
+      "cooldown": [
+        2,
+        1.5,
+        1
+      ]
     },
     {
       "id": "KogMaw.P",
       "ability": "P",
       "name": "Surpresa Icathiana",
-      "description": "Ao morrer, Kog'Maw explode depois de 4s, causando Dano Verdadeiro a inimigos próximos."
+      "description": "Ao morrer, Kog'Maw explode depois de 4s, causando Dano Verdadeiro a inimigos próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

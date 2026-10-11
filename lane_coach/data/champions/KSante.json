@@ -17,31 +17,58 @@
       "id": "KSante.Q",
       "ability": "Q",
       "name": "Golpes de Ntofo",
-      "description": "K'Sante executa um golpe, causando dano e Lentidão aos inimigos em uma linha curta à frente. Ao contato, concede um acúmulo de Golpes de Ntofo. Com 2 acúmulos, ele dispara uma onda de choque que puxa os inimigos. Na Forma Irrestrita, o Tempo de Recarga é reduzido."
+      "description": "K'Sante executa um golpe, causando dano e Lentidão aos inimigos em uma linha curta à frente. Ao contato, concede um acúmulo de Golpes de Ntofo. Com 2 acúmulos, ele dispara uma onda de choque que puxa os inimigos. Na Forma Irrestrita, o Tempo de Recarga é reduzido.",
+      "cooldown": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ]
     },
     {
       "id": "KSante.W",
       "ability": "W",
       "name": "Criador de Caminhos",
-      "description": "K'Sante carrega, sofrendo dano reduzido, e depois avança, empurrando e atordoando os inimigos. Na Forma Irrestrita, causa dano aumentado e não empurra nem atordoa mais."
+      "description": "K'Sante carrega, sofrendo dano reduzido, e depois avança, empurrando e atordoando os inimigos. Na Forma Irrestrita, causa dano aumentado e não empurra nem atordoa mais.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "KSante.E",
       "ability": "E",
       "name": "Passo Forte",
-      "description": "K'Sante avança e recebe um Escudo. Se o alvo for um aliado, K'Sante avança até o aliado com alcance aumentado e os dois recebem Escudo. Quando na Forma Irrestrita, o Tempo de Recarga é reduzido e a velocidade é aumentada."
+      "description": "K'Sante avança e recebe um Escudo. Se o alvo for um aliado, K'Sante avança até o aliado com alcance aumentado e os dois recebem Escudo. Quando na Forma Irrestrita, o Tempo de Recarga é reduzido e a velocidade é aumentada.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "KSante.R",
       "ability": "R",
       "name": "Forma Irrestrita",
-      "description": "K'Sante empurra um inimigo, fazendo-o atravessar qualquer parede no caminho. Depois, K'Sante assume a Forma Irrestrita e avança em direção ao inimigo, recebendo aumento de dano, cura e habilidades transformadas ao custo da redução das defesas."
+      "description": "K'Sante empurra um inimigo, fazendo-o atravessar qualquer parede no caminho. Depois, K'Sante assume a Forma Irrestrita e avança em direção ao inimigo, recebendo aumento de dano, cura e habilidades transformadas ao custo da redução das defesas.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "KSante.P",
       "ability": "P",
       "name": "Instinto Valente",
-      "description": "As habilidades de K'Sante marcam os alvos para que sofram mais dano do próximo ataque dele. Na Forma Irrestrita, K'Sante causa mais dano com todos os ataques e habilidades."
+      "description": "As habilidades de K'Sante marcam os alvos para que sofram mais dano do próximo ataque dele. Na Forma Irrestrita, K'Sante causa mais dano com todos os ataques e habilidades.",
+      "cooldown": null
     }
   ],
   "tips": [],

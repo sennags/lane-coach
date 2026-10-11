@@ -16,31 +16,58 @@
       "id": "Belveth.Q",
       "ability": "Q",
       "name": "Impulso do Vazio",
-      "description": "Bel'Veth avança na direção escolhida e causa dano a todos os inimigos atravessados."
+      "description": "Bel'Veth avança na direção escolhida e causa dano a todos os inimigos atravessados.",
+      "cooldown": [
+        4,
+        3.25,
+        2.5,
+        1.75,
+        1
+      ]
     },
     {
       "id": "Belveth.W",
       "ability": "W",
       "name": "Acima e Abaixo",
-      "description": "Bel'Veth bate a cauda no chão, causando dano e Lentidão, além de Arremessar os inimigos ao ar."
+      "description": "Bel'Veth bate a cauda no chão, causando dano e Lentidão, além de Arremessar os inimigos ao ar.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Belveth.E",
       "ability": "E",
       "name": "Turbilhão da Realeza",
-      "description": "Bel'Veth se enraíza num lugar, canalizando uma tempestade de golpes ao redor de si, visando o inimigo com a Vida mais baixa, além de receber Roubo de Vida e redução de dano."
+      "description": "Bel'Veth se enraíza num lugar, canalizando uma tempestade de golpes ao redor de si, visando o inimigo com a Vida mais baixa, além de receber Roubo de Vida e redução de dano.",
+      "cooldown": [
+        24,
+        21,
+        18,
+        15,
+        12
+      ]
     },
     {
       "id": "Belveth.R",
       "ability": "R",
       "name": "Banquete Eterno",
-      "description": "Bel'Veth consome os restos de Coral do Vazio e revela sua Forma Verdadeira, recebendo Vida máxima, Alcance de Ataque e Velocidade de Ataque. Consumir Coral do Vazio dos restos de um monstro épico concederá a ela a capacidade de invocar Rêmoras do Vazio."
+      "description": "Bel'Veth consome os restos de Coral do Vazio e revela sua Forma Verdadeira, recebendo Vida máxima, Alcance de Ataque e Velocidade de Ataque. Consumir Coral do Vazio dos restos de um monstro épico concederá a ela a capacidade de invocar Rêmoras do Vazio.",
+      "cooldown": [
+        1,
+        1,
+        1
+      ]
     },
     {
       "id": "Belveth.P",
       "ability": "P",
       "name": "Morte em Lavanda ",
-      "description": "Bel'Veth recebe acúmulos de Velocidade de Ataque permanente depois de eliminar tropas, monstros grandes e Campeões. Além disso, ela recebe Velocidade de Ataque adicional temporária depois de usar uma Habilidade."
+      "description": "Bel'Veth recebe acúmulos de Velocidade de Ataque permanente depois de eliminar tropas, monstros grandes e Campeões. Além disso, ela recebe Velocidade de Ataque adicional temporária depois de usar uma Habilidade.",
+      "cooldown": null
     }
   ],
   "tips": [],

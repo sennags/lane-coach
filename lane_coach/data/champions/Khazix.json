@@ -16,31 +16,58 @@
       "id": "Khazix.Q",
       "ability": "Q",
       "name": "Sabor de Medo",
-      "description": "Causa Dano Físico ao alvo. Dano aumentado em alvos Isolados . Caso ele escolha Evoluir Garras Aumentadas , recupera um percentual de seu Tempo de Recarga contra alvos Isolados . Kha'Zix também recebe aumento de alcance em seus ataques básicos e em Sabor de Medo."
+      "description": "Causa Dano Físico ao alvo. Dano aumentado em alvos Isolados . Caso ele escolha Evoluir Garras Aumentadas , recupera um percentual de seu Tempo de Recarga contra alvos Isolados . Kha'Zix também recebe aumento de alcance em seus ataques básicos e em Sabor de Medo.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Khazix.W",
       "ability": "W",
       "name": "Espinho do Vazio",
-      "description": "Kha'Zix dispara espinhos explosivos que causam Dano Físico aos inimigos atingidos. Kha'Zix é curado caso esteja no raio da explosão. Caso escolha Evoluir Fileiras de Espinhos , Espinho do Vazio passa a disparar três espinhos em área de cone, reduz a velocidade dos inimigos atingidos e revela Campeões inimigos atingidos por 2 segundos. Alvos Isolados têm redução adicional de velocidade."
+      "description": "Kha'Zix dispara espinhos explosivos que causam Dano Físico aos inimigos atingidos. Kha'Zix é curado caso esteja no raio da explosão. Caso escolha Evoluir Fileiras de Espinhos , Espinho do Vazio passa a disparar três espinhos em área de cone, reduz a velocidade dos inimigos atingidos e revela Campeões inimigos atingidos por 2 segundos. Alvos Isolados têm redução adicional de velocidade.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Khazix.E",
       "ability": "E",
       "name": "Pulo",
-      "description": "Kha'Zix salta em uma área, causando Dano Físico ao aterrissar. Caso ele escolha Evoluir Asas , o alcance do Salto aumenta e o Tempo de Recarga zera ao conseguir uma assistência ou abater um Campeão."
+      "description": "Kha'Zix salta em uma área, causando Dano Físico ao aterrissar. Caso ele escolha Evoluir Asas , o alcance do Salto aumenta e o Tempo de Recarga zera ao conseguir uma assistência ou abater um Campeão.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Khazix.R",
       "ability": "R",
       "name": "Massacre do Vazio",
-      "description": "Cada ranque permite que Kha'Zix evolua uma de suas habilidades, dando a elas um efeito único adicional. Quando ativada, Kha'Zix fica Invisível , acionando Ameaça Invisível e aumentando sua Velocidade de Movimento. Caso ele escolha Evoluir Camuflagem Adaptativa , Massacre do Vazio ganha maior duração de Invisibilidade e um uso adicional."
+      "description": "Cada ranque permite que Kha'Zix evolua uma de suas habilidades, dando a elas um efeito único adicional. Quando ativada, Kha'Zix fica Invisível , acionando Ameaça Invisível e aumentando sua Velocidade de Movimento. Caso ele escolha Evoluir Camuflagem Adaptativa , Massacre do Vazio ganha maior duração de Invisibilidade e um uso adicional.",
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Khazix.P",
       "ability": "P",
       "name": "Ameaça Invisível",
-      "description": "Inimigos próximos que estiverem isolados de seus aliados são marcados. As habilidades de Kha'Zix possuem interações com alvos isolados . Quando Kha'Zix não estiver visível para a equipe inimiga, ele recebe Ameaça Invisível, fazendo com que seu próximo ataque básico contra um Campeão inimigo cause Dano Mágico adicional e reduza a velocidade do alvo por alguns segundos."
+      "description": "Inimigos próximos que estiverem isolados de seus aliados são marcados. As habilidades de Kha'Zix possuem interações com alvos isolados . Quando Kha'Zix não estiver visível para a equipe inimiga, ele recebe Ameaça Invisível, fazendo com que seu próximo ataque básico contra um Campeão inimigo cause Dano Mágico adicional e reduza a velocidade do alvo por alguns segundos.",
+      "cooldown": null
     }
   ],
   "tips": [],

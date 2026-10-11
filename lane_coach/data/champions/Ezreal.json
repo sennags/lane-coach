@@ -17,31 +17,58 @@
       "id": "Ezreal.Q",
       "ability": "Q",
       "name": "Disparo Místico",
-      "description": "Ezreal faz um disparo de energia que reduz um pouco o Tempo de Recarga de todas as suas habilidades caso atinja uma unidade inimiga."
+      "description": "Ezreal faz um disparo de energia que reduz um pouco o Tempo de Recarga de todas as suas habilidades caso atinja uma unidade inimiga.",
+      "cooldown": [
+        5.5,
+        5.25,
+        5,
+        4.75,
+        4.5
+      ]
     },
     {
       "id": "Ezreal.W",
       "ability": "W",
       "name": "Fluxo Essencial",
-      "description": "Ezreal dispara um orbe que prende-se ao primeiro Campeão ou objetivo atingido. Caso atinja um inimigo preso com o orbe, ele detonará e causará dano."
+      "description": "Ezreal dispara um orbe que prende-se ao primeiro Campeão ou objetivo atingido. Caso atinja um inimigo preso com o orbe, ele detonará e causará dano.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Ezreal.E",
       "ability": "E",
       "name": "Translocação Arcana",
-      "description": "Ezreal teleporta-se para um local-alvo próximo e faz um disparo teleguiado na unidade inimiga mais próxima. Prioriza inimigos atingidos com Fluxo Essencial."
+      "description": "Ezreal teleporta-se para um local-alvo próximo e faz um disparo teleguiado na unidade inimiga mais próxima. Prioriza inimigos atingidos com Fluxo Essencial.",
+      "cooldown": [
+        26,
+        23,
+        20,
+        17,
+        14
+      ]
     },
     {
       "id": "Ezreal.R",
       "ability": "R",
       "name": "Barragem Incendiária",
-      "description": "Ezreal carrega antes de disparar uma poderosa barragem de energia que causa dano massivo em cada unidade que atravessar (o dano é reduzido contra tropas e monstros não épicos)."
+      "description": "Ezreal carrega antes de disparar uma poderosa barragem de energia que causa dano massivo em cada unidade que atravessar (o dano é reduzido contra tropas e monstros não épicos).",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Ezreal.P",
       "ability": "P",
       "name": "Feitiço do Poder Crescente",
-      "description": "Ezreal recebe Velocidade de Ataque crescente a cada vez que acerta uma habilidade, acumulando-se até 5 vezes."
+      "description": "Ezreal recebe Velocidade de Ataque crescente a cada vez que acerta uma habilidade, acumulando-se até 5 vezes.",
+      "cooldown": null
     }
   ],
   "tips": [],

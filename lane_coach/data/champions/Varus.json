@@ -17,31 +17,58 @@
       "id": "Varus.Q",
       "ability": "Q",
       "name": "Flecha Perfurante",
-      "description": "Varus prepara um poderoso disparo, que ganha alcance e dano extra quanto mais demorar para ser lançado."
+      "description": "Varus prepara um poderoso disparo, que ganha alcance e dano extra quanto mais demorar para ser lançado.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Varus.W",
       "ability": "W",
       "name": "Aljava da Ruína",
-      "description": "Passivo: Os ataques básicos de Varus causam Dano Mágico adicional e aplicam Arruinar. As outras habilidades de Varus detonam os acúmulos de Arruinar, causando Dano Mágico com base na Vida máxima do alvo. Ativo: Varus fortalece sua próxima Flecha Perfurante."
+      "description": "Passivo: Os ataques básicos de Varus causam Dano Mágico adicional e aplicam Arruinar. As outras habilidades de Varus detonam os acúmulos de Arruinar, causando Dano Mágico com base na Vida máxima do alvo. Ativo: Varus fortalece sua próxima Flecha Perfurante.",
+      "cooldown": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
     },
     {
       "id": "Varus.E",
       "ability": "E",
       "name": "Chuva de Flechas",
-      "description": "Varus dispara uma chuva de flechas que causa Dano Físico e profana o terreno. Terrenos profanados reduzem a Velocidade de Movimento, autocura e regeneração dos inimigos."
+      "description": "Varus dispara uma chuva de flechas que causa Dano Físico e profana o terreno. Terrenos profanados reduzem a Velocidade de Movimento, autocura e regeneração dos inimigos.",
+      "cooldown": [
+        18,
+        16,
+        14,
+        12,
+        10
+      ]
     },
     {
       "id": "Varus.R",
       "ability": "R",
       "name": "Corrente da Corrupção",
-      "description": "Varus lança um tentáculo de corrupção que causa dano e imobiliza o primeiro Campeão inimigo atingido, espalhando-se ainda para os Campeões inimigos próximos que ainda não estiverem infectados, imobilizando-os ao contato."
+      "description": "Varus lança um tentáculo de corrupção que causa dano e imobiliza o primeiro Campeão inimigo atingido, espalhando-se ainda para os Campeões inimigos próximos que ainda não estiverem infectados, imobilizando-os ao contato.",
+      "cooldown": [
+        100,
+        80,
+        60
+      ]
     },
     {
       "id": "Varus.P",
       "ability": "P",
       "name": "Vingança Viva",
-      "description": "Ao conseguir um abate ou assistência, Varus recebe Dano de Ataque e Poder de Habilidade temporariamente. O efeito é maior se o inimigo for um Campeão."
+      "description": "Ao conseguir um abate ou assistência, Varus recebe Dano de Ataque e Poder de Habilidade temporariamente. O efeito é maior se o inimigo for um Campeão.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,59 @@
       "id": "Yuumi.Q",
       "ability": "Q",
       "name": "Projétil Errante",
-      "description": "Yuumi dispara um projétil, causando dano e Lentidão ao primeiro alvo que atingir. O projétil causa dano adicional e a Lentidão é fortalecida se demorar pelo menos 1,35s para chegar até o alvo. Enquanto Yuumi estiver com o Melhor Amigo, a Lentidão sempre será fortalecida e a Campeã concederá dano adicional ao contato para o aliado. Enquanto ela estiver Conectada, o projétil poderá ser controlado pelo cursor do mouse por um breve período."
+      "description": "Yuumi dispara um projétil, causando dano e Lentidão ao primeiro alvo que atingir. O projétil causa dano adicional e a Lentidão é fortalecida se demorar pelo menos 1,35s para chegar até o alvo. Enquanto Yuumi estiver com o Melhor Amigo, a Lentidão sempre será fortalecida e a Campeã concederá dano adicional ao contato para o aliado. Enquanto ela estiver Conectada, o projétil poderá ser controlado pelo cursor do mouse por um breve período.",
+      "cooldown": [
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5
+      ]
     },
     {
       "id": "Yuumi.W",
       "ability": "W",
       "name": "Você e Eu!",
-      "description": "Yuumi avança em direção a um aliado-alvo, tornando-se inalvejável por qualquer ataque, exceto de torres. Enquanto Conectada ao Melhor Amigo, ela recebe Resistência do Escudo e Cura, e concede cura ao contato para o aliado."
+      "description": "Yuumi avança em direção a um aliado-alvo, tornando-se inalvejável por qualquer ataque, exceto de torres. Enquanto Conectada ao Melhor Amigo, ela recebe Resistência do Escudo e Cura, e concede cura ao contato para o aliado.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Yuumi.E",
       "ability": "E",
       "name": "Frenética",
-      "description": "Protege Yuumi com um Escudo e aumenta a Velocidade de Movimento e a Velocidade de Ataque. Se ela estiver conectada, isso afetará o aliado em vez dela."
+      "description": "Protege Yuumi com um Escudo e aumenta a Velocidade de Movimento e a Velocidade de Ataque. Se ela estiver conectada, isso afetará o aliado em vez dela.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Yuumi.R",
       "ability": "R",
       "name": "Capítulo Final",
-      "description": "Yuumi canaliza cinco ondas que causam dano a inimigos e curam aliados. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização. Enquanto estiver com o Melhor Amigo, esta Habilidade também seguirá o cursor do mouse."
+      "description": "Yuumi canaliza cinco ondas que causam dano a inimigos e curam aliados. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização. Enquanto estiver com o Melhor Amigo, esta Habilidade também seguirá o cursor do mouse.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Yuumi.P",
       "ability": "P",
       "name": "Amizade Felina",
-      "description": "Periodicamente, quando Yuumi atinge um Campeão com um Ataque ou Habilidade, ela restaura Vida para si e para o próximo aliado a quem ela se Conectar. Enquanto Conectada, Yuumi cria um laço especial com os aliados. O aliado com o laço mais forte aprimora as Habilidades de Yuumi enquanto ela estiver Conectada a ele."
+      "description": "Periodicamente, quando Yuumi atinge um Campeão com um Ataque ou Habilidade, ela restaura Vida para si e para o próximo aliado a quem ela se Conectar. Enquanto Conectada, Yuumi cria um laço especial com os aliados. O aliado com o laço mais forte aprimora as Habilidades de Yuumi enquanto ela estiver Conectada a ele.",
+      "cooldown": null
     }
   ],
   "tips": [],

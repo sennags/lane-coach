@@ -17,31 +17,58 @@
       "id": "Warwick.Q",
       "ability": "Q",
       "name": "Presas da Fera",
-      "description": "Warwick lança-se à frente e morde seu alvo, causando dano com base em sua Vida máxima e curando a si mesmo com o dano causado."
+      "description": "Warwick lança-se à frente e morde seu alvo, causando dano com base em sua Vida máxima e curando a si mesmo com o dano causado.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Warwick.W",
       "ability": "W",
       "name": "Caçada Sangrenta",
-      "description": "Warwick detecta inimigos com menos de 50% de Vida, recebendo Velocidade de Movimento ao deslocar-se na direção deles e Velocidade de Ataque ao atacá-los. Quando eles ficarem com menos de 25% de Vida, Warwick entrará em frenesi e esses efeitos triplicarão."
+      "description": "Warwick detecta inimigos com menos de 50% de Vida, recebendo Velocidade de Movimento ao deslocar-se na direção deles e Velocidade de Ataque ao atacá-los. Quando eles ficarem com menos de 25% de Vida, Warwick entrará em frenesi e esses efeitos triplicarão.",
+      "cooldown": [
+        80,
+        70,
+        60,
+        50,
+        40
+      ]
     },
     {
       "id": "Warwick.E",
       "ability": "E",
       "name": "Uivo Primitivo",
-      "description": "Warwick recebe redução de dano por 2,5 segundos. Ao fim do efeito, ou caso seja reativado, ele uiva, fazendo com que inimigos próximos fujam por 1 segundo."
+      "description": "Warwick recebe redução de dano por 2,5 segundos. Ao fim do efeito, ou caso seja reativado, ele uiva, fazendo com que inimigos próximos fujam por 1 segundo.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Warwick.R",
       "ability": "R",
       "name": "Coerção Infinita",
-      "description": "Warwick salta em uma direção (escalando com a Velocidade de Movimento adicional dele), suprimindo o primeiro Campeão atingido por 1,5s."
+      "description": "Warwick salta em uma direção (escalando com a Velocidade de Movimento adicional dele), suprimindo o primeiro Campeão atingido por 1,5s.",
+      "cooldown": [
+        110,
+        90,
+        70
+      ]
     },
     {
       "id": "Warwick.P",
       "ability": "P",
       "name": "Fome Eterna",
-      "description": "Os ataques básicos de Warwick causam Dano Mágico adicional. Se ele estiver com menos de 50% de Vida, cura a si mesmo com a mesma quantia. Se ele estiver com menos de 25% de Vida, a cura é triplicada."
+      "description": "Os ataques básicos de Warwick causam Dano Mágico adicional. Se ele estiver com menos de 50% de Vida, cura a si mesmo com a mesma quantia. Se ele estiver com menos de 25% de Vida, a cura é triplicada.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "MasterYi.Q",
       "ability": "Q",
       "name": "Ataque Alpha",
-      "description": "Master Yi se teleporta pelo campo de batalha tão rápido que não pode ser visto, causando Dano Físico a várias unidades pelo caminho enquanto fica inalvejável. O Ataque Alpha pode causar Acerto Crítico e Dano Físico adicional contra monstros. Ataques básicos reduzem o Tempo de Recarga de Ataque Alpha."
+      "description": "Master Yi se teleporta pelo campo de batalha tão rápido que não pode ser visto, causando Dano Físico a várias unidades pelo caminho enquanto fica inalvejável. O Ataque Alpha pode causar Acerto Crítico e Dano Físico adicional contra monstros. Ataques básicos reduzem o Tempo de Recarga de Ataque Alpha.",
+      "cooldown": [
+        20,
+        19.5,
+        19,
+        18.5,
+        18
+      ]
     },
     {
       "id": "MasterYi.W",
       "ability": "W",
       "name": "Meditar",
-      "description": "Master Yi rejuvenesce seu corpo com a força da mente, restaurando Vida e recebendo dano reduzido por um curto período. Além disso, ele recebe acúmulos de Ataque Duplo e pausa a duração restante de Estilo Wuju e de Highlander para cada segundo de canalização."
+      "description": "Master Yi rejuvenesce seu corpo com a força da mente, restaurando Vida e recebendo dano reduzido por um curto período. Além disso, ele recebe acúmulos de Ataque Duplo e pausa a duração restante de Estilo Wuju e de Highlander para cada segundo de canalização.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "MasterYi.E",
       "ability": "E",
       "name": "Estilo Wuju",
-      "description": "Concede Dano Verdadeiro adicional em ataques básicos."
+      "description": "Concede Dano Verdadeiro adicional em ataques básicos.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "MasterYi.R",
       "ability": "R",
       "name": "Highlander",
-      "description": "Master Yi se movimenta com extrema agilidade, aumentando temporariamente suas Velocidades de Ataque e de Movimento, tornando-se imune a todos os efeitos de Lentidão. Abates ou assistências de Campeões estendem a duração de Highlander enquanto a habilidade estiver ativa. Reduz passivamente o Tempo de Recarga das outras habilidades a cada abate ou assistência."
+      "description": "Master Yi se movimenta com extrema agilidade, aumentando temporariamente suas Velocidades de Ataque e de Movimento, tornando-se imune a todos os efeitos de Lentidão. Abates ou assistências de Campeões estendem a duração de Highlander enquanto a habilidade estiver ativa. Reduz passivamente o Tempo de Recarga das outras habilidades a cada abate ou assistência.",
+      "cooldown": [
+        85,
+        85,
+        85
+      ]
     },
     {
       "id": "MasterYi.P",
       "ability": "P",
       "name": "Ataque duplo",
-      "description": "A cada alguns ataques básicos consecutivos, Master Yi ataca duas vezes."
+      "description": "A cada alguns ataques básicos consecutivos, Master Yi ataca duas vezes.",
+      "cooldown": null
     }
   ],
   "tips": [],

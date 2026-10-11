@@ -17,31 +17,58 @@
       "id": "Quinn.Q",
       "ability": "Q",
       "name": "Investida Anuviante",
-      "description": "Quinn chama Valor para marcar um inimigo e prejudicar sua visão antes de causar dano a todos os inimigos na área."
+      "description": "Quinn chama Valor para marcar um inimigo e prejudicar sua visão antes de causar dano a todos os inimigos na área.",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ]
     },
     {
       "id": "Quinn.W",
       "ability": "W",
       "name": "Sentidos Apurados",
-      "description": "Passivamente concede Velocidade de Ataque e de Movimento a Quinn após ela atacar um alvo marcado com Rapina . Ative para Valor revelar uma grande área próxima."
+      "description": "Passivamente concede Velocidade de Ataque e de Movimento a Quinn após ela atacar um alvo marcado com Rapina . Ative para Valor revelar uma grande área próxima.",
+      "cooldown": [
+        50,
+        45,
+        40,
+        35,
+        30
+      ]
     },
     {
       "id": "Quinn.E",
       "ability": "E",
       "name": "Salto",
-      "description": "Quinn avança em direção a um inimigo, causando Dano Físico e reduzindo a Velocidade de Movimento do alvo. Ao alcançar seu alvo, ela salta dele, interrompendo-o brevemente, e aterrissa a uma distância próxima de seu alcance máximo de ataque."
+      "description": "Quinn avança em direção a um inimigo, causando Dano Físico e reduzindo a Velocidade de Movimento do alvo. Ao alcançar seu alvo, ela salta dele, interrompendo-o brevemente, e aterrissa a uma distância próxima de seu alcance máximo de ataque.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Quinn.R",
       "ability": "R",
       "name": "Retaguarda do Inimigo",
-      "description": "Quinn e Valor se juntam para voar em alta velocidade. Encerrar a Habilidade conjura Bombardeio, que causa dano a inimigos próximos e marca Campeões com Rapina."
+      "description": "Quinn e Valor se juntam para voar em alta velocidade. Encerrar a Habilidade conjura Bombardeio, que causa dano a inimigos próximos e marca Campeões com Rapina.",
+      "cooldown": [
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "Quinn.P",
       "ability": "P",
       "name": "Rapina",
-      "description": "Valor, a águia demaciana de Quinn, periodicamente marca inimigos com Rapina . O primeiro Ataque básico de Quinn contra alvos marcados com Rapina causará Dano Físico adicional."
+      "description": "Valor, a águia demaciana de Quinn, periodicamente marca inimigos com Rapina . O primeiro Ataque básico de Quinn contra alvos marcados com Rapina causará Dano Físico adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

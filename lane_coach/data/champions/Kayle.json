@@ -17,31 +17,58 @@
       "id": "Kayle.Q",
       "ability": "Q",
       "name": "Explosão Radiante",
-      "description": "Kayle conjura um portal, invocando uma espada celestial que atravessa os inimigos, causando dano e reduzindo a velocidade e as resistências de tudo que atingir."
+      "description": "Kayle conjura um portal, invocando uma espada celestial que atravessa os inimigos, causando dano e reduzindo a velocidade e as resistências de tudo que atingir.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Kayle.W",
       "ability": "W",
       "name": "Bênção Celestial",
-      "description": "Abençoada pelas divindades, Kayle cura e concede Velocidade de Movimento a si mesma e ao aliado mais próximo."
+      "description": "Abençoada pelas divindades, Kayle cura e concede Velocidade de Movimento a si mesma e ao aliado mais próximo.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Kayle.E",
       "ability": "E",
       "name": "Lâmina de Fogo Estelar",
-      "description": "Passivo: a espada celestial de Kayle, Virtude, causa Dano Mágico adicional aos inimigos que ela ataca. Ativo: o próximo ataque de Kayle atinge seu alvo com fogo celestial, causando dano adicional proporcional à Vida perdida do alvo."
+      "description": "Passivo: a espada celestial de Kayle, Virtude, causa Dano Mágico adicional aos inimigos que ela ataca. Ativo: o próximo ataque de Kayle atinge seu alvo com fogo celestial, causando dano adicional proporcional à Vida perdida do alvo.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Kayle.R",
       "ability": "R",
       "name": "Sentença Divina",
-      "description": "Kayle torna um aliado invulnerável e evoca os antigos Aspectos da Justiça para purificarem a área ao redor do seu alvo com uma chuva de espadas sagradas."
+      "description": "Kayle torna um aliado invulnerável e evoca os antigos Aspectos da Justiça para purificarem a área ao redor do seu alvo com uma chuva de espadas sagradas.",
+      "cooldown": [
+        160,
+        120,
+        80
+      ]
     },
     {
       "id": "Kayle.P",
       "ability": "P",
       "name": "Ascensão Divina",
-      "description": "Os ataques de Kayle são fortalecidos pelos céus conforme ela aumenta de nível de Campeão e de habilidades. Suas asas ficam flamejantes conforme ela progressivamente ganha Velocidade de Ataque, Velocidade de Movimento, Alcance de Ataque e ondas de fogo em seus ataques."
+      "description": "Os ataques de Kayle são fortalecidos pelos céus conforme ela aumenta de nível de Campeão e de habilidades. Suas asas ficam flamejantes conforme ela progressivamente ganha Velocidade de Ataque, Velocidade de Movimento, Alcance de Ataque e ondas de fogo em seus ataques.",
+      "cooldown": null
     }
   ],
   "tips": [],

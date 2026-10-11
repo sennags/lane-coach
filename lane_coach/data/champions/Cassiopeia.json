@@ -16,31 +16,58 @@
       "id": "Cassiopeia.Q",
       "ability": "Q",
       "name": "Explosão Venenosa",
-      "description": "Cassiopeia atinge uma área com veneno após um breve intervalo, recebendo Velocidade de Movimento caso atinja um Campeão inimigo."
+      "description": "Cassiopeia atinge uma área com veneno após um breve intervalo, recebendo Velocidade de Movimento caso atinja um Campeão inimigo.",
+      "cooldown": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ]
     },
     {
       "id": "Cassiopeia.W",
       "ability": "W",
       "name": "Miasma",
-      "description": "Cassiopeia lança diversas nuvens de veneno que reduzem a velocidade, prendem ao chão e causam dano leve aos inimigos que as atravessarem. Inimigos presos ao chão não podem usar habilidades de movimentação."
+      "description": "Cassiopeia lança diversas nuvens de veneno que reduzem a velocidade, prendem ao chão e causam dano leve aos inimigos que as atravessarem. Inimigos presos ao chão não podem usar habilidades de movimentação.",
+      "cooldown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ]
     },
     {
       "id": "Cassiopeia.E",
       "ability": "E",
       "name": "Presas Duplas",
-      "description": "Cassiopeia desfere um ataque que causa dano adicional a alvos envenenados, curando a si mesma com um percentual do dano causado. Se o alvo morrer com este ataque, Cassiopeia recupera Mana."
+      "description": "Cassiopeia desfere um ataque que causa dano adicional a alvos envenenados, curando a si mesma com um percentual do dano causado. Se o alvo morrer com este ataque, Cassiopeia recupera Mana.",
+      "cooldown": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ]
     },
     {
       "id": "Cassiopeia.R",
       "ability": "R",
       "name": "Olhar Petrificador",
-      "description": "Cassiopeia lança uma espiral de energia mágica de seus olhos, atordoando quaisquer inimigos à sua frente que estiverem de frente para ela e reduzindo a velocidade de quaisquer outros que estiverem de costas."
+      "description": "Cassiopeia lança uma espiral de energia mágica de seus olhos, atordoando quaisquer inimigos à sua frente que estiverem de frente para ela e reduzindo a velocidade de quaisquer outros que estiverem de costas.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Cassiopeia.P",
       "ability": "P",
       "name": "Graça Serpentina",
-      "description": "Todos os efeitos de Velocidade de Movimento são mais eficazes em Cassiopeia."
+      "description": "Todos os efeitos de Velocidade de Movimento são mais eficazes em Cassiopeia.",
+      "cooldown": null
     }
   ],
   "tips": [],

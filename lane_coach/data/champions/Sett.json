@@ -17,31 +17,58 @@
       "id": "Sett.Q",
       "ability": "Q",
       "name": "Pancadaria",
-      "description": "Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo. Ele também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos."
+      "description": "Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo. Ele também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Sett.W",
       "ability": "W",
       "name": "Casca-Grossa",
-      "description": "O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar a habilidade, Sett consome toda a Ousadia armazenada em troca de um escudo e desfere um soco em uma área, causando Dano Verdadeiro no centro e Dano Físico nas laterais."
+      "description": "O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar a habilidade, Sett consome toda a Ousadia armazenada em troca de um escudo e desfere um soco em uma área, causando Dano Verdadeiro no centro e Dano Físico nas laterais.",
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ]
     },
     {
       "id": "Sett.E",
       "ability": "E",
       "name": "Quebra-Crânio",
-      "description": "Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja inimigos somente de um lado, eles sofrem redução de velocidade em vez de atordoamento."
+      "description": "Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja inimigos somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ]
     },
     {
       "id": "Sett.R",
       "ability": "R",
       "name": "Hora do Show",
-      "description": "Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem."
+      "description": "Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Sett.P",
       "ability": "P",
       "name": "Ousadia da Arena",
-      "description": "Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita são levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com base na Vida perdida."
+      "description": "Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita são levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com base na Vida perdida.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Shaco.Q",
       "ability": "Q",
       "name": "Enganar",
-      "description": "Shaco fica Invisível e se teleporta para o local-alvo. Seu primeiro ataque enquanto está Invisível é fortalecido, causando dano adicional e crítico ao atingir o inimigo por trás."
+      "description": "Shaco fica Invisível e se teleporta para o local-alvo. Seu primeiro ataque enquanto está Invisível é fortalecido, causando dano adicional e crítico ao atingir o inimigo por trás.",
+      "cooldown": [
+        13,
+        12.5,
+        12,
+        11.5,
+        11
+      ]
     },
     {
       "id": "Shaco.W",
       "ability": "W",
       "name": "Caixinha-Surpresa",
-      "description": "Shaco cria uma Caixinha-Surpresa escondida. Quando ativada, ela causará temor e atacará inimigos próximos."
+      "description": "Shaco cria uma Caixinha-Surpresa escondida. Quando ativada, ela causará temor e atacará inimigos próximos.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Shaco.E",
       "ability": "E",
       "name": "Veneno de Dois Gumes",
-      "description": "As facas de Shaco envenenam alvos passivamente ao contato, reduzindo sua Velocidade de Movimento. Ele pode arremessá-las para causar dano e envenenar o alvo. A faca arremessada causa dano adicional se a Vida do alvo estiver abaixo de 30%."
+      "description": "As facas de Shaco envenenam alvos passivamente ao contato, reduzindo sua Velocidade de Movimento. Ele pode arremessá-las para causar dano e envenenar o alvo. A faca arremessada causa dano adicional se a Vida do alvo estiver abaixo de 30%.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Shaco.R",
       "ability": "R",
       "name": "Alucinações",
-      "description": "Shaco cria uma ilusão de si mesmo próxima a ele, que pode atacar inimigos próximos (causa dano reduzido a torres). Ao morrer, ela explode, fazendo surgir três Caixinhas-Surpresa e causando dano a todos os inimigos próximos."
+      "description": "Shaco cria uma ilusão de si mesmo próxima a ele, que pode atacar inimigos próximos (causa dano reduzido a torres). Ao morrer, ela explode, fazendo surgir três Caixinhas-Surpresa e causando dano a todos os inimigos próximos.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Shaco.P",
       "ability": "P",
       "name": "Apunhalar",
-      "description": "Os ataques básicos de Shaco e Veneno de Dois Gumes causam dano adicional ao atingirem o inimigo por trás."
+      "description": "Os ataques básicos de Shaco e Veneno de Dois Gumes causam dano adicional ao atingirem o inimigo por trás.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Taric.Q",
       "ability": "Q",
       "name": "Fulgor Estelar",
-      "description": "Cura Campeões aliados próximos com base nas cargas armazenadas. Ataques fortalecidos por Bravata concedem uma carga de Fulgor Estelar."
+      "description": "Cura Campeões aliados próximos com base nas cargas armazenadas. Ataques fortalecidos por Bravata concedem uma carga de Fulgor Estelar.",
+      "cooldown": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "Taric.W",
       "ability": "W",
       "name": "Bastião",
-      "description": "Aumenta passivamente a Armadura de Taric e de qualquer Campeão aliado com Bastião. Protege ativamente um aliado e lhe concede Bastião por todo o tempo que permanecer próximo a Taric. As habilidades de Taric também são conjuradas a partir do aliado com Bastião."
+      "description": "Aumenta passivamente a Armadura de Taric e de qualquer Campeão aliado com Bastião. Protege ativamente um aliado e lhe concede Bastião por todo o tempo que permanecer próximo a Taric. As habilidades de Taric também são conjuradas a partir do aliado com Bastião.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Taric.E",
       "ability": "E",
       "name": "Deslumbrar",
-      "description": "Taric prepara um feixe de luz estelar que, após um breve intervalo, causa Dano Mágico e atordoa inimigos."
+      "description": "Taric prepara um feixe de luz estelar que, após um breve intervalo, causa Dano Mágico e atordoa inimigos.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Taric.R",
       "ability": "R",
       "name": "Resplendor Cósmico",
-      "description": "Faz pulsar energia cósmica em Campeões aliados próximos após um intervalo, tornando-os invulneráveis por um curto período."
+      "description": "Faz pulsar energia cósmica em Campeões aliados próximos após um intervalo, tornando-os invulneráveis por um curto período.",
+      "cooldown": [
+        180,
+        150,
+        120
+      ]
     },
     {
       "id": "Taric.P",
       "ability": "P",
       "name": "Bravata",
-      "description": "Conjurações fortalecem os próximos 2 ataques básicos de Taric, causando Dano Mágico adicional, reduzindo Tempos de Recarga e atacando em rápida sucessão."
+      "description": "Conjurações fortalecem os próximos 2 ataques básicos de Taric, causando Dano Mágico adicional, reduzindo Tempos de Recarga e atacando em rápida sucessão.",
+      "cooldown": null
     }
   ],
   "tips": [],

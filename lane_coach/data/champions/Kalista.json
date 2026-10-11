@@ -16,31 +16,58 @@
       "id": "Kalista.Q",
       "ability": "Q",
       "name": "Perfurar",
-      "description": "Arremessa uma lança de movimento rápido que atravessa os inimigos que abate."
+      "description": "Arremessa uma lança de movimento rápido que atravessa os inimigos que abate.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Kalista.W",
       "ability": "W",
       "name": "Vigia",
-      "description": "Ganha dano adicional quando Kalista e seu aliado Em Juramento atingem o mesmo alvo. Ative para enviar uma alma para patrulhar um caminho, revelando a área à sua frente."
+      "description": "Ganha dano adicional quando Kalista e seu aliado Em Juramento atingem o mesmo alvo. Ative para enviar uma alma para patrulhar um caminho, revelando a área à sua frente.",
+      "cooldown": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
     },
     {
       "id": "Kalista.E",
       "ability": "E",
       "name": "Lacerar",
-      "description": "Os ataques empalam seus alvos com lanças. Ative para arrancar as lanças, causando Lentidão e dano crescente."
+      "description": "Os ataques empalam seus alvos com lanças. Ative para arrancar as lanças, causando Lentidão e dano crescente.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Kalista.R",
       "ability": "R",
       "name": "Chamado do Destino",
-      "description": "Kalista teleporta o aliado em Juramento para si mesma. Eles recebem a capacidade de avançar em uma direção, empurrando para trás os inimigos atingidos."
+      "description": "Kalista teleporta o aliado em Juramento para si mesma. Eles recebem a capacidade de avançar em uma direção, empurrando para trás os inimigos atingidos.",
+      "cooldown": [
+        160,
+        140,
+        120
+      ]
     },
     {
       "id": "Kalista.P",
       "ability": "P",
       "name": "Aprumo Marcial",
-      "description": "Realize um comando de movimentação enquanto Kalista carrega seu ataque básico ou Perfurar para saltar em uma curta distância quando ela lançar o ataque."
+      "description": "Realize um comando de movimentação enquanto Kalista carrega seu ataque básico ou Perfurar para saltar em uma curta distância quando ela lançar o ataque.",
+      "cooldown": null
     }
   ],
   "tips": [],

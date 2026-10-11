@@ -17,31 +17,58 @@
       "id": "Tryndamere.Q",
       "ability": "Q",
       "name": "Sanguinário",
-      "description": "Tryndamere prospera com o calor do combate, aumentando seu próprio Dano de Ataque conforme for ficando mais e mais ferido. Ele pode conjurar Sanguinário para consumir sua Fúria e curar a si mesmo."
+      "description": "Tryndamere prospera com o calor do combate, aumentando seu próprio Dano de Ataque conforme for ficando mais e mais ferido. Ele pode conjurar Sanguinário para consumir sua Fúria e curar a si mesmo.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Tryndamere.W",
       "ability": "W",
       "name": "Grito Zombador",
-      "description": "Tryndamere solta um grito insultante, diminuindo o Dano de Ataque dos Campeões próximos. Inimigos que estiverem de costas para Tryndamere também têm sua Velocidade de Movimento reduzida."
+      "description": "Tryndamere solta um grito insultante, diminuindo o Dano de Ataque dos Campeões próximos. Inimigos que estiverem de costas para Tryndamere também têm sua Velocidade de Movimento reduzida.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Tryndamere.E",
       "ability": "E",
       "name": "Corte Giratório",
-      "description": "Tryndamere avança em direção a uma unidade-alvo, causando dano aos inimigos em seu trajeto."
+      "description": "Tryndamere avança em direção a uma unidade-alvo, causando dano aos inimigos em seu trajeto.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Tryndamere.R",
       "ability": "R",
       "name": "Fúria Sem Fim",
-      "description": "O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja."
+      "description": "O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Tryndamere.P",
       "ability": "P",
       "name": "Fúria da Batalha",
-      "description": "Tryndamere recebe Fúria para cada ataque, acerto crítico e golpe fatal que realiza. A Fúria passivamente aumenta a sua Chance de Acerto Crítico e pode ser consumida com a habilidade Sanguinário."
+      "description": "Tryndamere recebe Fúria para cada ataque, acerto crítico e golpe fatal que realiza. A Fúria passivamente aumenta a sua Chance de Acerto Crítico e pode ser consumida com a habilidade Sanguinário.",
+      "cooldown": null
     }
   ],
   "tips": [],

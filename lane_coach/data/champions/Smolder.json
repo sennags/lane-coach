@@ -17,31 +17,58 @@
       "id": "Smolder.Q",
       "ability": "Q",
       "name": "Super-Hálito Flamejante",
-      "description": "Smolder cospe fogo em um inimigo. Conforme obtém mais acúmulos, a Habilidade se torna ainda mais poderosa."
+      "description": "Smolder cospe fogo em um inimigo. Conforme obtém mais acúmulos, a Habilidade se torna ainda mais poderosa.",
+      "cooldown": [
+        5.5,
+        5,
+        4.5,
+        4,
+        3.5
+      ]
     },
     {
       "id": "Smolder.W",
       "ability": "W",
       "name": "Atchim!",
-      "description": "Smolder dá um adorável espirro flamejante que explode ao atingir Campeões inimigos."
+      "description": "Smolder dá um adorável espirro flamejante que explode ao atingir Campeões inimigos.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Smolder.E",
       "ability": "E",
       "name": "Voa, Voa, Voa",
-      "description": "Smolder voa, ignorando os terrenos e bombardeando o inimigo com a Vida mais baixa."
+      "description": "Smolder voa, ignorando os terrenos e bombardeando o inimigo com a Vida mais baixa.",
+      "cooldown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ]
     },
     {
       "id": "Smolder.R",
       "ability": "R",
       "name": "MANHÊÊÊ!",
-      "description": "Smolder chama sua mãe para cuspir fogo das alturas, causando dano adicional e Lentidão aos inimigos no centro das chamas."
+      "description": "Smolder chama sua mãe para cuspir fogo das alturas, causando dano adicional e Lentidão aos inimigos no centro das chamas.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Smolder.P",
       "ability": "P",
       "name": "Treinamento Dracônico",
-      "description": "Acertar Campeões com habilidades e abater inimigos com Super-Hálito Flamejante concede um acúmulo de Treinamento Dracônico. Os acúmulos aumentam o dano das habilidades básicas de Smolder."
+      "description": "Acertar Campeões com habilidades e abater inimigos com Super-Hálito Flamejante concede um acúmulo de Treinamento Dracônico. Os acúmulos aumentam o dano das habilidades básicas de Smolder.",
+      "cooldown": null
     }
   ],
   "tips": [],

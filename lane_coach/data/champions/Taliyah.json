@@ -17,31 +17,58 @@
       "id": "Taliyah.Q",
       "ability": "Q",
       "name": "Voleio Entrelaçado",
-      "description": "Taliyah arremessa uma rajada de pedras na direção-alvo, movimentando-se livremente durante a conjuração. Isso cria um Terreno Manipulado sob ela. Se Taliyah conjurar Voleio Entrelaçado em Terreno Manipulado, ela consome o terreno para arremessar um pedregulho fortalecido que causa Lentidão a inimigos."
+      "description": "Taliyah arremessa uma rajada de pedras na direção-alvo, movimentando-se livremente durante a conjuração. Isso cria um Terreno Manipulado sob ela. Se Taliyah conjurar Voleio Entrelaçado em Terreno Manipulado, ela consome o terreno para arremessar um pedregulho fortalecido que causa Lentidão a inimigos.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "Taliyah.W",
       "ability": "W",
       "name": "Empurrão Sísmico",
-      "description": "Taliyah faz com que uma área do terreno irrompa e arremesse inimigos na direção de sua escolha."
+      "description": "Taliyah faz com que uma área do terreno irrompa e arremesse inimigos na direção de sua escolha.",
+      "cooldown": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ]
     },
     {
       "id": "Taliyah.E",
       "ability": "E",
       "name": "Terra Desfiada",
-      "description": "Taliyah cria um campo minado de Lentidão. Caso inimigos avancem ou sejam arremessados através dele, as minas explodem, atordoando-os."
+      "description": "Taliyah cria um campo minado de Lentidão. Caso inimigos avancem ou sejam arremessados através dele, as minas explodem, atordoando-os.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Taliyah.R",
       "ability": "R",
       "name": "Muro da Tecelã",
-      "description": "Taliyah cria uma parede comprida e desliza sobre ela."
+      "description": "Taliyah cria uma parede comprida e desliza sobre ela.",
+      "cooldown": [
+        180,
+        150,
+        120
+      ]
     },
     {
       "id": "Taliyah.P",
       "ability": "P",
       "name": "Deslizar em Pedras",
-      "description": "Taliyah recebe Velocidade de Movimento próxima a paredes."
+      "description": "Taliyah recebe Velocidade de Movimento próxima a paredes.",
+      "cooldown": null
     }
   ],
   "tips": [],

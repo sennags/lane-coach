@@ -17,31 +17,58 @@
       "id": "Nocturne.Q",
       "ability": "Q",
       "name": "Portador do Anoitecer",
-      "description": "Nocturne lança uma lâmina de sombras que causa dano, deixa um Rastro do Crepúsculo e faz com que os Campeões deixem um Rastro do Crepúsculo. Enquanto estiver no rastro, Nocturne ignora colisões com unidades e ganha aumento de Velocidade de Movimento e de Dano de Ataque."
+      "description": "Nocturne lança uma lâmina de sombras que causa dano, deixa um Rastro do Crepúsculo e faz com que os Campeões deixem um Rastro do Crepúsculo. Enquanto estiver no rastro, Nocturne ignora colisões com unidades e ganha aumento de Velocidade de Movimento e de Dano de Ataque.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Nocturne.W",
       "ability": "W",
       "name": "Proteção das Trevas",
-      "description": "Nocturne fortalece suas lâminas, ganhando Velocidade de Ataque passivamente. Ativar Proteção das Trevas permite que Nocturne desapareça em meio às sombras, criando uma barreira mágica que bloqueia uma única habilidade inimiga e dobra a Velocidade de Ataque passiva dele caso bem-sucedida."
+      "description": "Nocturne fortalece suas lâminas, ganhando Velocidade de Ataque passivamente. Ativar Proteção das Trevas permite que Nocturne desapareça em meio às sombras, criando uma barreira mágica que bloqueia uma única habilidade inimiga e dobra a Velocidade de Ataque passiva dele caso bem-sucedida.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Nocturne.E",
       "ability": "E",
       "name": "Horror Indescritível",
-      "description": "Nocturne coloca um pesadelo na mente de seu alvo, causando dano a cada segundo e aterrorizando-o caso ele não saia de seu alcance enquanto durar a habilidade."
+      "description": "Nocturne coloca um pesadelo na mente de seu alvo, causando dano a cada segundo e aterrorizando-o caso ele não saia de seu alcance enquanto durar a habilidade.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Nocturne.R",
       "ability": "R",
       "name": "Paranoia",
-      "description": "Nocturne reduz o raio de visão de todos os Campeões inimigos e ainda remove a visão que eles têm dos aliados. Depois ele pode se arremessar contra um Campeão inimigo que estiver próximo."
+      "description": "Nocturne reduz o raio de visão de todos os Campeões inimigos e ainda remove a visão que eles têm dos aliados. Depois ele pode se arremessar contra um Campeão inimigo que estiver próximo.",
+      "cooldown": [
+        160,
+        130,
+        100
+      ]
     },
     {
       "id": "Nocturne.P",
       "ability": "P",
       "name": "Lâminas Sombrias",
-      "description": "A cada poucos segundos, o próximo ataque de Nocturne atinge os inimigos ao seu redor para causar Dano Físico adicional e curá-lo. Os ataques básicos de Nocturne reduzem esse Tempo de Recarga."
+      "description": "A cada poucos segundos, o próximo ataque de Nocturne atinge os inimigos ao seu redor para causar Dano Físico adicional e curá-lo. Os ataques básicos de Nocturne reduzem esse Tempo de Recarga.",
+      "cooldown": null
     }
   ],
   "tips": [],

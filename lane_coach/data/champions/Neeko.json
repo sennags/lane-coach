@@ -17,31 +17,58 @@
       "id": "Neeko.Q",
       "ability": "Q",
       "name": "Explosão Florescente",
-      "description": "Neeko arremessa uma semente, causando Dano Mágico. A semente floresce novamente ao atingir Campeões ou abater unidades."
+      "description": "Neeko arremessa uma semente, causando Dano Mágico. A semente floresce novamente ao atingir Campeões ou abater unidades.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Neeko.W",
       "ability": "W",
       "name": "Metamorfa",
-      "description": "Neeko causa Dano Mágico adicional passivamente a cada terceiro ataque, aumentando brevemente sua Velocidade de Movimento. Neeko pode ativar a habilidade para enviar um clone em uma direção e reconjurar para mudar a direção do clone."
+      "description": "Neeko causa Dano Mágico adicional passivamente a cada terceiro ataque, aumentando brevemente sua Velocidade de Movimento. Neeko pode ativar a habilidade para enviar um clone em uma direção e reconjurar para mudar a direção do clone.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Neeko.E",
       "ability": "E",
       "name": "Farpas Emaranhadas",
-      "description": "Neeko arremessa um emaranhado que causa dano e enraíza tudo o que atravessa. Se o emaranhado abater um inimigo ou atravessar um Campeão, ele aumentará de tamanho, terá mais velocidade e enraizará por mais tempo."
+      "description": "Neeko arremessa um emaranhado que causa dano e enraíza tudo o que atravessa. Se o emaranhado abater um inimigo ou atravessar um Campeão, ele aumentará de tamanho, terá mais velocidade e enraizará por mais tempo.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Neeko.R",
       "ability": "R",
       "name": "Florescer Repentino",
-      "description": "Após uma curta preparação, Neeko salta, arremessando ao ar todos os inimigos próximos. Ao aterrissar, inimigos próximos sofrem dano e atordoamento. A preparação fica oculta se Neeko estiver disfarçada."
+      "description": "Após uma curta preparação, Neeko salta, arremessando ao ar todos os inimigos próximos. Ao aterrissar, inimigos próximos sofrem dano e atordoamento. A preparação fica oculta se Neeko estiver disfarçada.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Neeko.P",
       "ability": "P",
       "name": "Encanto Inerente",
-      "description": "Neeko pode imitar um Campeão aliado ou outras unidades no mapa. O disfarce será quebrado ao sofrer efeitos de Controle de Grupo imobilizantes, conjurar habilidades de dano, causar dano a torres inimigas como um não Campeão ou sofrer dano equivalente à barra de Vida do disfarce."
+      "description": "Neeko pode imitar um Campeão aliado ou outras unidades no mapa. O disfarce será quebrado ao sofrer efeitos de Controle de Grupo imobilizantes, conjurar habilidades de dano, causar dano a torres inimigas como um não Campeão ou sofrer dano equivalente à barra de Vida do disfarce.",
+      "cooldown": null
     }
   ],
   "tips": [],

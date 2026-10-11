@@ -17,31 +17,58 @@
       "id": "Pantheon.Q",
       "ability": "Q",
       "name": "Lança Meteórica",
-      "description": "Pantheon pode fazer uma investida com sua lança ou arremessá-la na direção escolhida."
+      "description": "Pantheon pode fazer uma investida com sua lança ou arremessá-la na direção escolhida.",
+      "cooldown": [
+        11,
+        10.25,
+        9.5,
+        8.75,
+        8
+      ]
     },
     {
       "id": "Pantheon.W",
       "ability": "W",
       "name": "Escudo-Cometa",
-      "description": "Pantheon avança em um alvo, causando dano e atordoando-o."
+      "description": "Pantheon avança em um alvo, causando dano e atordoando-o.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Pantheon.E",
       "ability": "E",
       "name": "Égide Impetuosa",
-      "description": "Pantheon posiciona seu escudo, ficando invulnerável a dano vindo de sua frente e atacando rapidamente com sua lança."
+      "description": "Pantheon posiciona seu escudo, ficando invulnerável a dano vindo de sua frente e atacando rapidamente com sua lança.",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ]
     },
     {
       "id": "Pantheon.R",
       "ability": "R",
       "name": "Constelação Cadente",
-      "description": "Pantheon se prepara, salta para o ar e aterrissa como um cometa no local escolhido."
+      "description": "Pantheon se prepara, salta para o ar e aterrissa como um cometa no local escolhido.",
+      "cooldown": [
+        180,
+        165,
+        150
+      ]
     },
     {
       "id": "Pantheon.P",
       "ability": "P",
       "name": "Determinação Mortal",
-      "description": "Após algumas habilidades ou ataques, a próxima habilidade de Pantheon será fortalecida."
+      "description": "Após algumas habilidades ou ataques, a próxima habilidade de Pantheon será fortalecida.",
+      "cooldown": null
     }
   ],
   "tips": [],

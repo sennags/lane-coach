@@ -15,6 +15,7 @@ from import_ability_icons import stage_icons
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from lane_coach.knowledge import KnowledgeBase
+from lane_coach.cooldowns import spell_cooldowns
 
 
 def fetch_json(url):
@@ -31,7 +32,9 @@ def make_record(data, patch, templates, existing=None):
     spells = dict(zip('QWER', data['spells']))
     spells['P'] = data['passive']
     facts = [{'id': f'{key}.{ability}', 'ability': ability, 'name': spell['name'],
-              'description': plain(spell['description'])} for ability, spell in spells.items()]
+              'description': plain(spell['description']),
+              'cooldown': spell_cooldowns(spell) if ability != 'P' else None}
+             for ability, spell in spells.items()]
     template = deepcopy(templates[data['tags'][0]])
     profile = {name: template[name] for name in ('identity', 'weaknesses', 'phases')}
     profile.update(

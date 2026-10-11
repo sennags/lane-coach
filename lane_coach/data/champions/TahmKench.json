@@ -17,31 +17,58 @@
       "id": "TahmKench.Q",
       "ability": "Q",
       "name": "Língua-chicote",
-      "description": "Tahm Kench ataca com a língua, causando dano e Lentidão à primeira unidade atingida, além de se curar se a unidade for um Campeão inimigo. Aplica um acúmulo de Um Gosto Adquirido a Campeões inimigos. Se o Campeão já tiver 3 acúmulos de Um Gosto Adquirido , ele será Atordoado e os acúmulos serão consumidos."
+      "description": "Tahm Kench ataca com a língua, causando dano e Lentidão à primeira unidade atingida, além de se curar se a unidade for um Campeão inimigo. Aplica um acúmulo de Um Gosto Adquirido a Campeões inimigos. Se o Campeão já tiver 3 acúmulos de Um Gosto Adquirido , ele será Atordoado e os acúmulos serão consumidos.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "TahmKench.W",
       "ability": "W",
       "name": "Mergulho Abissal",
-      "description": "Mergulha e reaparece no local-alvo, causando dano e Arremessando ao ar todos os inimigos em uma área."
+      "description": "Mergulha e reaparece no local-alvo, causando dano e Arremessando ao ar todos os inimigos em uma área.",
+      "cooldown": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ]
     },
     {
       "id": "TahmKench.E",
       "ability": "E",
       "name": "Pele Grossa",
-      "description": "Passivo: Tahm Kench armazena uma porcentagem do dano sofrido e se cura com base nela quando fora de combate. Ativo: converte todo o dano armazenado em um Escudo temporário."
+      "description": "Passivo: Tahm Kench armazena uma porcentagem do dano sofrido e se cura com base nela quando fora de combate. Ativo: converte todo o dano armazenado em um Escudo temporário.",
+      "cooldown": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "TahmKench.R",
       "ability": "R",
       "name": "Devorar",
-      "description": "Tahm Kench devora um Campeão por alguns segundos, causando Dano Mágico se for um inimigo ou concedendo Escudo se for um aliado."
+      "description": "Tahm Kench devora um Campeão por alguns segundos, causando Dano Mágico se for um inimigo ou concedendo Escudo se for um aliado.",
+      "cooldown": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "TahmKench.P",
       "ability": "P",
       "name": "Um Gosto Adquirido",
-      "description": "Tahm Kench usa o próprio corpo para impulsionar os Ataques, causando dano adicional com base na Vida total dele. Causar dano a Campeões inimigos aumenta os acúmulos de Um Gosto Adquirido . Com três acúmulos, ele pode usar Devorar em um Campeão inimigo."
+      "description": "Tahm Kench usa o próprio corpo para impulsionar os Ataques, causando dano adicional com base na Vida total dele. Causar dano a Campeões inimigos aumenta os acúmulos de Um Gosto Adquirido . Com três acúmulos, ele pode usar Devorar em um Campeão inimigo.",
+      "cooldown": null
     }
   ],
   "tips": [],

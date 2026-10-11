@@ -17,31 +17,58 @@
       "id": "Briar.Q",
       "ability": "Q",
       "name": "Vertigem",
-      "description": "Briar salta até uma unidade e atinge inimigos com um golpe giratório, atordoando e fragmentando a Armadura de todos que atingir."
+      "description": "Briar salta até uma unidade e atinge inimigos com um golpe giratório, atordoando e fragmentando a Armadura de todos que atingir.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Briar.W",
       "ability": "W",
       "name": "Frenesi Sanguinário/Ataque Faminto",
-      "description": "Briar salta e quebra sua berlinda, entrando num Frenesi Sanguinário que faz com que ela persiga o inimigo mais próximo (priorizando Campeões). Enquanto estiver no Frenesi, ela ganha Velocidade de Ataque e Velocidade de Movimento aumentadas, e seus ataques causam dano em área perto do alvo. Briar pode reativar esta Habilidade enquanto estiver no Frenesi para dar uma MORDIDA no alvo no próximo ataque dela, causando dano adicional baseado na Vida perdida e cura com base no dano causado."
+      "description": "Briar salta e quebra sua berlinda, entrando num Frenesi Sanguinário que faz com que ela persiga o inimigo mais próximo (priorizando Campeões). Enquanto estiver no Frenesi, ela ganha Velocidade de Ataque e Velocidade de Movimento aumentadas, e seus ataques causam dano em área perto do alvo. Briar pode reativar esta Habilidade enquanto estiver no Frenesi para dar uma MORDIDA no alvo no próximo ataque dela, causando dano adicional baseado na Vida perdida e cura com base no dano causado.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Briar.E",
       "ability": "E",
       "name": "Grito Arrepiante",
-      "description": "Briar se concentra novamente, removendo Frenesi Sanguinário e canalizando sua energia em um grito poderoso que causa dano e Lentidão a inimigos. Ao carregar, ela recebe dano reduzido e se cura em uma parte de sua Vida máxima. Um grito totalmente carregado empurra inimigos, causando dano adicional e atordoando os que atingirem uma parede."
+      "description": "Briar se concentra novamente, removendo Frenesi Sanguinário e canalizando sua energia em um grito poderoso que causa dano e Lentidão a inimigos. Ao carregar, ela recebe dano reduzido e se cura em uma parte de sua Vida máxima. Um grito totalmente carregado empurra inimigos, causando dano adicional e atordoando os que atingirem uma parede.",
+      "cooldown": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
     },
     {
       "id": "Briar.R",
       "ability": "R",
       "name": "Morte Certa",
-      "description": "Briar lança o hemólito da berlinda dela, marcando o primeiro Campeão atingido como sua presa. Depois, ela avança diretamente, causando temor a inimigos próximos ao chegar no alvo e entrando num estado de hemomania total. Ela persegue a presa até a morte, recebendo os benefícios de Frenesi Sanguinário, além de Armadura, Resistência Mágica, Roubo de Vida e Velocidade de Movimento adicionais."
+      "description": "Briar lança o hemólito da berlinda dela, marcando o primeiro Campeão atingido como sua presa. Depois, ela avança diretamente, causando temor a inimigos próximos ao chegar no alvo e entrando num estado de hemomania total. Ela persegue a presa até a morte, recebendo os benefícios de Frenesi Sanguinário, além de Armadura, Resistência Mágica, Roubo de Vida e Velocidade de Movimento adicionais.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Briar.P",
       "ability": "P",
       "name": "Maldição Carmesim",
-      "description": "Os Ataques e as Habilidades de Briar acumulam sangramento que cura Briar numa quantidade do dano causado. Constantemente faminta, ela ganha cura aumentada com base na Vida perdida, mas não tem Regeneração de Vida inata."
+      "description": "Os Ataques e as Habilidades de Briar acumulam sangramento que cura Briar numa quantidade do dano causado. Constantemente faminta, ela ganha cura aumentada com base na Vida perdida, mas não tem Regeneração de Vida inata.",
+      "cooldown": null
     }
   ],
   "tips": [],

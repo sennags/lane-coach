@@ -17,31 +17,58 @@
       "id": "Soraka.Q",
       "ability": "Q",
       "name": "Chamado Estelar",
-      "description": "Uma estrela cai do céu no local-alvo, causando Dano Mágico e reduzindo a velocidade de inimigos. Se um Campeão inimigo for atingido por Chamado Estelar, Soraka regenera Vida."
+      "description": "Uma estrela cai do céu no local-alvo, causando Dano Mágico e reduzindo a velocidade de inimigos. Se um Campeão inimigo for atingido por Chamado Estelar, Soraka regenera Vida.",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
     },
     {
       "id": "Soraka.W",
       "ability": "W",
       "name": "Infusão Astral",
-      "description": "Soraka sacrifica parte de sua própria Vida para curar outro Campeão aliado."
+      "description": "Soraka sacrifica parte de sua própria Vida para curar outro Campeão aliado.",
+      "cooldown": [
+        6,
+        5,
+        4,
+        3,
+        2
+      ]
     },
     {
       "id": "Soraka.E",
       "ability": "E",
       "name": "Equinócio",
-      "description": "Cria uma área em um local, silenciando todos os inimigos dentro dela. Quando a área expira, os que ainda estiverem dentro são enraizados."
+      "description": "Cria uma área em um local, silenciando todos os inimigos dentro dela. Quando a área expira, os que ainda estiverem dentro são enraizados.",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ]
     },
     {
       "id": "Soraka.R",
       "ability": "R",
       "name": "Desejo",
-      "description": "Soraka enche seus aliados de esperança, instantaneamente restaurando Vida para si mesma e todos os Campeões aliados."
+      "description": "Soraka enche seus aliados de esperança, instantaneamente restaurando Vida para si mesma e todos os Campeões aliados.",
+      "cooldown": [
+        150,
+        135,
+        120
+      ]
     },
     {
       "id": "Soraka.P",
       "ability": "P",
       "name": "Salvação",
-      "description": "Soraka corre mais rapidamente em direção a aliados com pouca Vida."
+      "description": "Soraka corre mais rapidamente em direção a aliados com pouca Vida.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Milio.Q",
       "ability": "Q",
       "name": "Ultramega Chute Flamejante",
-      "description": "Milio chuta uma bola que empurra um inimigo. A bola é lançada para cima ao contato e cai na direção do alvo, causando dano e Lentidão aos inimigos que estiverem na área atingida."
+      "description": "Milio chuta uma bola que empurra um inimigo. A bola é lançada para cima ao contato e cai na direção do alvo, causando dano e Lentidão aos inimigos que estiverem na área atingida.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Milio.W",
       "ability": "W",
       "name": "Fogueira Aconchegante",
-      "description": "Cria uma zona fortalecida que cura aliados e aumenta o Alcance de Ataque de quem estiver dentro dela. A zona acompanha o aliado mais próximo do local de conjuração."
+      "description": "Cria uma zona fortalecida que cura aliados e aumenta o Alcance de Ataque de quem estiver dentro dela. A zona acompanha o aliado mais próximo do local de conjuração.",
+      "cooldown": [
+        29,
+        27,
+        25,
+        23,
+        21
+      ]
     },
     {
       "id": "Milio.E",
       "ability": "E",
       "name": "Abraços Quentinhos",
-      "description": "Milio concede um Escudo a um aliado, aumentando temporariamente a Velocidade de Movimento dele. Esta Habilidade tem 2 cargas."
+      "description": "Milio concede um Escudo a um aliado, aumentando temporariamente a Velocidade de Movimento dele. Esta Habilidade tem 2 cargas.",
+      "cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
     },
     {
       "id": "Milio.R",
       "ability": "R",
       "name": "Sopro de Vida",
-      "description": "Milio libera uma onda de chamas reconfortantes que cura os aliados ao alcance, além de remover efeitos de controle de grupo."
+      "description": "Milio libera uma onda de chamas reconfortantes que cura os aliados ao alcance, além de remover efeitos de controle de grupo.",
+      "cooldown": [
+        160,
+        145,
+        130
+      ]
     },
     {
       "id": "Milio.P",
       "ability": "P",
       "name": "A Todo Vapor!",
-      "description": "As habilidades de Milio encantam aliados ao toque, fazendo com que o próximo ataque deles cause uma explosão de dano adicional e queime o alvo."
+      "description": "As habilidades de Milio encantam aliados ao toque, fazendo com que o próximo ataque deles cause uma explosão de dano adicional e queime o alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Syndra.Q",
       "ability": "Q",
       "name": "Esfera Negra",
-      "description": "Syndra conjura uma Esfera Negra, causando Dano Mágico. A esfera permanece em seu lugar e pode ser manipulada por seus outros poderes."
+      "description": "Syndra conjura uma Esfera Negra, causando Dano Mágico. A esfera permanece em seu lugar e pode ser manipulada por seus outros poderes.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Syndra.W",
       "ability": "W",
       "name": "Força de Vontade",
-      "description": "Syndra apanha e arremessa uma Esfera Negra ou tropa inimiga, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos."
+      "description": "Syndra apanha e arremessa uma Esfera Negra ou tropa inimiga, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Syndra.E",
       "ability": "E",
       "name": "Dispersar os Fracos",
-      "description": "Syndra afasta inimigos e Esferas Negras, causando Dano Mágico. Inimigos atingidos pelas Esferas Negras ficam atordoados."
+      "description": "Syndra afasta inimigos e Esferas Negras, causando Dano Mágico. Inimigos atingidos pelas Esferas Negras ficam atordoados.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Syndra.R",
       "ability": "R",
       "name": "Poder Irrestrito",
-      "description": "Syndra bombardeia um Campeão inimigo com todas as suas Esferas Negras."
+      "description": "Syndra bombardeia um Campeão inimigo com todas as suas Esferas Negras.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Syndra.P",
       "ability": "P",
       "name": "Transcender",
-      "description": "Syndra coleta Farpas de Ira ao subir de nível ou causar dano a inimigos, aprimorando as próprias habilidades. Esfera Negra : Syndra pode segurar uma carga adicional. Força de Vontade : Dano Verdadeiro adicional. Dispersar os Fracos : largura aumentada e causa Lentidão a todos os alvos. Poder Irrestrito : executa alvos com a Vida baixa."
+      "description": "Syndra coleta Farpas de Ira ao subir de nível ou causar dano a inimigos, aprimorando as próprias habilidades. Esfera Negra : Syndra pode segurar uma carga adicional. Força de Vontade : Dano Verdadeiro adicional. Dispersar os Fracos : largura aumentada e causa Lentidão a todos os alvos. Poder Irrestrito : executa alvos com a Vida baixa.",
+      "cooldown": null
     }
   ],
   "tips": [],

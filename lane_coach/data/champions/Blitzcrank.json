@@ -17,31 +17,58 @@
       "id": "Blitzcrank.Q",
       "ability": "Q",
       "name": "Puxão Biônico",
-      "description": "Blitzcrank dispara a mão direita para pegar um inimigo no trajeto, causando dano e puxando-o em sua direção."
+      "description": "Blitzcrank dispara a mão direita para pegar um inimigo no trajeto, causando dano e puxando-o em sua direção.",
+      "cooldown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ]
     },
     {
       "id": "Blitzcrank.W",
       "ability": "W",
       "name": "Turbo",
-      "description": "Blitzcrank sobrecarrega-se para aumentar drasticamente suas Velocidades de Ataque e de Movimento. Após o fim do efeito, sofre Lentidão temporariamente."
+      "description": "Blitzcrank sobrecarrega-se para aumentar drasticamente suas Velocidades de Ataque e de Movimento. Após o fim do efeito, sofre Lentidão temporariamente.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Blitzcrank.E",
       "ability": "E",
       "name": "Punho do Poder",
-      "description": "Blitzcrank carrega seu punho para fazer com que o próximo Ataque cause o dobro de dano e arremesse o alvo ao ar."
+      "description": "Blitzcrank carrega seu punho para fazer com que o próximo Ataque cause o dobro de dano e arremesse o alvo ao ar.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "Blitzcrank.R",
       "ability": "R",
       "name": "Campo Estático",
-      "description": "Inimigos atacados por Blitzcrank são marcados e sofrem dano de eletricidade após 1s. Ele também pode ativar esta habilidade para remover escudos de inimigos próximos, causar dano e silenciá-los brevemente."
+      "description": "Inimigos atacados por Blitzcrank são marcados e sofrem dano de eletricidade após 1s. Ele também pode ativar esta habilidade para remover escudos de inimigos próximos, causar dano e silenciá-los brevemente.",
+      "cooldown": [
+        60,
+        40,
+        20
+      ]
     },
     {
       "id": "Blitzcrank.P",
       "ability": "P",
       "name": "Barreira de Mana",
-      "description": "Blitzcrank recebe um Escudo com base em seu Mana ao ficar com a Vida baixa."
+      "description": "Blitzcrank recebe um Escudo com base em seu Mana ao ficar com a Vida baixa.",
+      "cooldown": null
     }
   ],
   "tips": [],

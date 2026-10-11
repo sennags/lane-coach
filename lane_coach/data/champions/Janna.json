@@ -17,31 +17,58 @@
       "id": "Janna.Q",
       "ability": "Q",
       "name": "Ventania Uivante",
-      "description": "Através de uma alteração pontual de temperatura e pressão, Janna consegue criar uma pequena tempestade que cresce em tamanho ao longo do tempo. Ela pode ativar a habilidade novamente para desferir a tempestade. Ao ser desferida, a tempestade se desloca em linha reta na direção em que foi conjurada, causando dano e arremessando ao ar quaisquer inimigos em seu caminho."
+      "description": "Através de uma alteração pontual de temperatura e pressão, Janna consegue criar uma pequena tempestade que cresce em tamanho ao longo do tempo. Ela pode ativar a habilidade novamente para desferir a tempestade. Ao ser desferida, a tempestade se desloca em linha reta na direção em que foi conjurada, causando dano e arremessando ao ar quaisquer inimigos em seu caminho.",
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Janna.W",
       "ability": "W",
       "name": "Zéfiro",
-      "description": "Janna invoca um elemental do ar que aumenta passivamente sua Velocidade de Movimento e permite que ela atravesse unidades. Ela também pode ativar essa habilidade para causar dano e Lentidão a um inimigo."
+      "description": "Janna invoca um elemental do ar que aumenta passivamente sua Velocidade de Movimento e permite que ela atravesse unidades. Ela também pode ativar essa habilidade para causar dano e Lentidão a um inimigo.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Janna.E",
       "ability": "E",
       "name": "Olho da Tempestade",
-      "description": "Janna conjura uma ventania defensiva que protege um Campeão ou torre aliada do dano recebido e aumenta seu Dano de Ataque."
+      "description": "Janna conjura uma ventania defensiva que protege um Campeão ou torre aliada do dano recebido e aumenta seu Dano de Ataque.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Janna.R",
       "ability": "R",
       "name": "Monção",
-      "description": "Janna se cerca de uma tempestade mágica, empurrando inimigos para trás. Assim que a tempestade se estabelece, ventos suaves curam os aliados próximos enquanto a habilidade estiver ativa."
+      "description": "Janna se cerca de uma tempestade mágica, empurrando inimigos para trás. Assim que a tempestade se estabelece, ventos suaves curam os aliados próximos enquanto a habilidade estiver ativa.",
+      "cooldown": [
+        130,
+        115,
+        100
+      ]
     },
     {
       "id": "Janna.P",
       "ability": "P",
       "name": "Brisa de Impulso",
-      "description": "Os aliados de Janna recebem Velocidade de Movimento ao se moverem em direção a ela. Janna causa uma parte da Velocidade de Movimento adicional como Dano Mágico adicional ao contato com Zéfiro."
+      "description": "Os aliados de Janna recebem Velocidade de Movimento ao se moverem em direção a ela. Janna causa uma parte da Velocidade de Movimento adicional como Dano Mágico adicional ao contato com Zéfiro.",
+      "cooldown": null
     }
   ],
   "tips": [],

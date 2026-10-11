@@ -17,31 +17,58 @@
       "id": "Lucian.Q",
       "ability": "Q",
       "name": "Luz Perfurante",
-      "description": "Lucian faz um disparo de luz perfurante através de um alvo."
+      "description": "Lucian faz um disparo de luz perfurante através de um alvo.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Lucian.W",
       "ability": "W",
       "name": "Chama Ardente",
-      "description": "Lucian dispara um projétil que explode em formato de estrela, marcando e revelando brevemente os inimigos. Ele recebe Velocidade de Movimento por atacar inimigos marcados."
+      "description": "Lucian dispara um projétil que explode em formato de estrela, marcando e revelando brevemente os inimigos. Ele recebe Velocidade de Movimento por atacar inimigos marcados.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Lucian.E",
       "ability": "E",
       "name": "Perseguição Implacável",
-      "description": "Lucian avança rapidamente uma curta distância. Disparo Iluminado reduz o Tempo de Recarga de Perseguição Implacável."
+      "description": "Lucian avança rapidamente uma curta distância. Disparo Iluminado reduz o Tempo de Recarga de Perseguição Implacável.",
+      "cooldown": [
+        16,
+        15.5,
+        15,
+        14.5,
+        14
+      ]
     },
     {
       "id": "Lucian.R",
       "ability": "R",
       "name": "O Expurgo",
-      "description": "Lucian desfere uma torrente de disparos de suas armas."
+      "description": "Lucian desfere uma torrente de disparos de suas armas.",
+      "cooldown": [
+        110,
+        100,
+        90
+      ]
     },
     {
       "id": "Lucian.P",
       "ability": "P",
       "name": "Disparo Iluminado",
-      "description": "Sempre que Lucian usa uma Habilidade, seu próximo Ataque se transforma em um disparo duplo. Quando Lucian é curado ou protegido por um aliado, ou quando um Campeão inimigo próximo é imobilizado, os próximos dois Ataques básicos dele causam Dano Mágico adicional."
+      "description": "Sempre que Lucian usa uma Habilidade, seu próximo Ataque se transforma em um disparo duplo. Quando Lucian é curado ou protegido por um aliado, ou quando um Campeão inimigo próximo é imobilizado, os próximos dois Ataques básicos dele causam Dano Mágico adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

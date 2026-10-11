@@ -17,31 +17,58 @@
       "id": "Annie.Q",
       "ability": "Q",
       "name": "Desintegrar",
-      "description": "Annie arremessa uma bola de fogo infundida em Mana, causando dano e recuperando o custo de Mana caso o alvo seja destruído."
+      "description": "Annie arremessa uma bola de fogo infundida em Mana, causando dano e recuperando o custo de Mana caso o alvo seja destruído.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Annie.W",
       "ability": "W",
       "name": "Incinerar",
-      "description": "Annie conjura um ardente cone de fogo, causando dano em todos os inimigos na área."
+      "description": "Annie conjura um ardente cone de fogo, causando dano em todos os inimigos na área.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Annie.E",
       "ability": "E",
       "name": "Escudo Fundido",
-      "description": "Annie concede um Escudo e um impulso de Velocidade de Movimento a si ou a um aliado, causando dano a inimigos que a atingirem com Ataques ou Habilidades."
+      "description": "Annie concede um Escudo e um impulso de Velocidade de Movimento a si ou a um aliado, causando dano a inimigos que a atingirem com Ataques ou Habilidades.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Annie.R",
       "ability": "R",
       "name": "Invocar: Tibbers",
-      "description": "Annie dá vida ao urso Tibbers, causando dano a unidades na área. Tibbers pode atacar e também queimar inimigos que ficarem próximos a ele."
+      "description": "Annie dá vida ao urso Tibbers, causando dano a unidades na área. Tibbers pode atacar e também queimar inimigos que ficarem próximos a ele.",
+      "cooldown": [
+        130,
+        115,
+        100
+      ]
     },
     {
       "id": "Annie.P",
       "ability": "P",
       "name": "Piromania",
-      "description": "Após conjurar 4 Habilidades, a próxima Habilidade ofensiva de Annie atordoará o alvo. Annie começa a partida e ressurge com Piromania disponível."
+      "description": "Após conjurar 4 Habilidades, a próxima Habilidade ofensiva de Annie atordoará o alvo. Annie começa a partida e ressurge com Piromania disponível.",
+      "cooldown": null
     }
   ],
   "tips": [],

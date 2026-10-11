@@ -17,31 +17,58 @@
       "id": "Bard.Q",
       "ability": "Q",
       "name": "Prisão Cósmica",
-      "description": "Bardo dispara um projétil que causa Lentidão ao primeiro inimigo atingido, mantendo seu trajeto em seguida. Caso atinja uma parede, atordoará o alvo inicial; caso atinja outro inimigo, ambos serão atordoados."
+      "description": "Bardo dispara um projétil que causa Lentidão ao primeiro inimigo atingido, mantendo seu trajeto em seguida. Caso atinja uma parede, atordoará o alvo inicial; caso atinja outro inimigo, ambos serão atordoados.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Bard.W",
       "ability": "W",
       "name": "Santuário do Protetor",
-      "description": "Revela um santuário de Vida que fica mais forte ao longo de um curto período, desaparecendo depois de curar e acelerar o primeiro aliado que o tocar."
+      "description": "Revela um santuário de Vida que fica mais forte ao longo de um curto período, desaparecendo depois de curar e acelerar o primeiro aliado que o tocar.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Bard.E",
       "ability": "E",
       "name": "Jornada Mágica",
-      "description": "Bardo abre um portal em terreno próximo. Tanto aliados quanto inimigos podem fazer uma viagem de ida através deste terreno ao entrar pelo portal."
+      "description": "Bardo abre um portal em terreno próximo. Tanto aliados quanto inimigos podem fazer uma viagem de ida através deste terreno ao entrar pelo portal.",
+      "cooldown": [
+        22,
+        20.5,
+        19,
+        17.5,
+        16
+      ]
     },
     {
       "id": "Bard.R",
       "ability": "R",
       "name": "Têmpera do Destino",
-      "description": "Bardo desfere um arco de energia espiritual em um local-alvo, colocando todos os Campeões, tropas, monstros e torres atingidos em estase por um curto período de tempo."
+      "description": "Bardo desfere um arco de energia espiritual em um local-alvo, colocando todos os Campeões, tropas, monstros e torres atingidos em estase por um curto período de tempo.",
+      "cooldown": [
+        110,
+        95,
+        80
+      ]
     },
     {
       "id": "Bard.P",
       "ability": "P",
       "name": "Chamado do Viajante",
-      "description": "Mipes: Bardo atrai pequenos espíritos que ajudam em seus ataques básicos e causam Dano Mágico adicional. Quando Bardo coleta sinos o suficiente, os mipes também causam dano em uma área e reduzem a velocidade de inimigos atingidos. Sinos: sinos ancestrais aparecem aleatoriamente para Bardo coletar. Eles concedem experiência, Velocidade de Movimento fora de combate e restauram Mana."
+      "description": "Mipes: Bardo atrai pequenos espíritos que ajudam em seus ataques básicos e causam Dano Mágico adicional. Quando Bardo coleta sinos o suficiente, os mipes também causam dano em uma área e reduzem a velocidade de inimigos atingidos. Sinos: sinos ancestrais aparecem aleatoriamente para Bardo coletar. Eles concedem experiência, Velocidade de Movimento fora de combate e restauram Mana.",
+      "cooldown": null
     }
   ],
   "tips": [],

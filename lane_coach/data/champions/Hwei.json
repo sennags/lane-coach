@@ -17,31 +17,58 @@
       "id": "Hwei.Q",
       "ability": "Q",
       "name": "Tema: Desastre",
-      "description": "Hwei vislumbra uma série de desastres, o que lhe permite pintar um golpe devastador. Substitui as Habilidades de Hwei por Habilidades de dano: Fogo Devastador, Raio Cortante e Fissura Derretida."
+      "description": "Hwei vislumbra uma série de desastres, o que lhe permite pintar um golpe devastador. Substitui as Habilidades de Hwei por Habilidades de dano: Fogo Devastador, Raio Cortante e Fissura Derretida.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Hwei.W",
       "ability": "W",
       "name": "Tema: Serenidade",
-      "description": "Hwei vislumbra uma série de serenidades, o que lhe permite pintar visões revigorantes. Substitui as Habilidades de Hwei por Habilidades de utilidade: Corrente Fugaz, Lagoa da Reflexão e Luzes Vivas."
+      "description": "Hwei vislumbra uma série de serenidades, o que lhe permite pintar visões revigorantes. Substitui as Habilidades de Hwei por Habilidades de utilidade: Corrente Fugaz, Lagoa da Reflexão e Luzes Vivas.",
+      "cooldown": [
+        18,
+        17.5,
+        17,
+        16.5,
+        16
+      ]
     },
     {
       "id": "Hwei.E",
       "ability": "E",
       "name": "Tema: Tormento",
-      "description": "Hwei vislumbra uma série de tormentos, o que lhe permite pintar visões controladoras. Substitui as Habilidades de Hwei por Habilidades de Controle de Grupo: Semblante Sinistro, Olhar do Abismo e Gorja Esmagadora."
+      "description": "Hwei vislumbra uma série de tormentos, o que lhe permite pintar visões controladoras. Substitui as Habilidades de Hwei por Habilidades de Controle de Grupo: Semblante Sinistro, Olhar do Abismo e Gorja Esmagadora.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Hwei.R",
       "ability": "R",
       "name": "Desespero Vertiginoso",
-      "description": "Hwei pinta uma paisagem de puro desespero. O primeiro Campeão inimigo atingido se torna o centro de uma pintura em expansão que causa dano e Lentidão aos inimigos próximos. A visão explode depois de atingir seu tamanho máximo ou quando o Campeão for abatido."
+      "description": "Hwei pinta uma paisagem de puro desespero. O primeiro Campeão inimigo atingido se torna o centro de uma pintura em expansão que causa dano e Lentidão aos inimigos próximos. A visão explode depois de atingir seu tamanho máximo ou quando o Campeão for abatido.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Hwei.P",
       "ability": "P",
       "name": "Assinatura do Visionário",
-      "description": "Hwei prepara os Campeões inimigos que sofrerem dano de suas Habilidades para deixar sua inconfundível assinatura. Atingir um inimigo com uma segunda Habilidade de dano conclui a assinatura, que fica sob ele. A assinatura detona após um breve intervalo, causando Dano Mágico a todos os inimigos dentro do alcance."
+      "description": "Hwei prepara os Campeões inimigos que sofrerem dano de suas Habilidades para deixar sua inconfundível assinatura. Atingir um inimigo com uma segunda Habilidade de dano conclui a assinatura, que fica sob ele. A assinatura detona após um breve intervalo, causando Dano Mágico a todos os inimigos dentro do alcance.",
+      "cooldown": null
     }
   ],
   "tips": [],

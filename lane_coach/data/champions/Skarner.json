@@ -17,31 +17,58 @@
       "id": "Skarner.Q",
       "ability": "Q",
       "name": "Terra Arrasada/Sublevação",
-      "description": "Skarner arranca um pedregulho do chão que fortalece seus Ataques e pode ser arremessado como um projétil poderoso."
+      "description": "Skarner arranca um pedregulho do chão que fortalece seus Ataques e pode ser arremessado como um projétil poderoso.",
+      "cooldown": [
+        8,
+        6.75,
+        5.5,
+        4.25,
+        3
+      ]
     },
     {
       "id": "Skarner.W",
       "ability": "W",
       "name": "Bastião Sísmico",
-      "description": "Skarner recebe um Escudo e cria um terremoto cuja onda de choque causa dano e Lentidão aos inimigos."
+      "description": "Skarner recebe um Escudo e cria um terremoto cuja onda de choque causa dano e Lentidão aos inimigos.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Skarner.E",
       "ability": "E",
       "name": "Impacto de Ixtal",
-      "description": "Skarner avança e atravessa o terreno. Se colidir com um Campeão ou monstro grande, ele o empurrará contra uma parede próxima para causar dano e atordoá-lo."
+      "description": "Skarner avança e atravessa o terreno. Se colidir com um Campeão ou monstro grande, ele o empurrará contra uma parede próxima para causar dano e atordoá-lo.",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ]
     },
     {
       "id": "Skarner.R",
       "ability": "R",
       "name": "Empalar",
-      "description": "As caudas de Skarner atacam e suprimem Campeões inimigos. Após serem suprimidas, as vítimas serão arrastadas por Skarner enquanto ele se movimenta."
+      "description": "As caudas de Skarner atacam e suprimem Campeões inimigos. Após serem suprimidas, as vítimas serão arrastadas por Skarner enquanto ele se movimenta.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Skarner.P",
       "ability": "P",
       "name": "Linhas de Vibração",
-      "description": "Os Ataques do Skarner, Terra Arrasada, Sublevação e Empalar, aplicam Tremor. Com o máximo de acúmulos de Tremor, os inimigos sofrem Dano Mágico com base na Vida máxima ao longo da duração."
+      "description": "Os Ataques do Skarner, Terra Arrasada, Sublevação e Empalar, aplicam Tremor. Com o máximo de acúmulos de Tremor, os inimigos sofrem Dano Mágico com base na Vida máxima ao longo da duração.",
+      "cooldown": null
     }
   ],
   "tips": [],

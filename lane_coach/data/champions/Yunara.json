@@ -16,31 +16,58 @@
       "id": "Yunara.Q",
       "ability": "Q",
       "name": "Cultivação do Espírito",
-      "description": "Yunara recebe Velocidade de Ataque, dano adicional ao contato, e os ataques dela atingem inimigos próximos."
+      "description": "Yunara recebe Velocidade de Ataque, dano adicional ao contato, e os ataques dela atingem inimigos próximos.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Yunara.W",
       "ability": "W",
       "name": "Arco do Julgamento | Arco da Ruína",
-      "description": "Yunara lança uma conta de oração rodopiante que causa dano e Lentidão a inimigos. Se estiver no Estado de Transcendência, Yunara dispara um laser que causa dano e Lentidão a inimigos."
+      "description": "Yunara lança uma conta de oração rodopiante que causa dano e Lentidão a inimigos. Se estiver no Estado de Transcendência, Yunara dispara um laser que causa dano e Lentidão a inimigos.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Yunara.E",
       "ability": "E",
       "name": "Passos de Kanmei | Sombra Intocável",
-      "description": "Yunara recebe Velocidade de Movimento e efeito Fantasma. Se estiver no Estado de Transcendência, Yunara avançará em uma direção."
+      "description": "Yunara recebe Velocidade de Movimento e efeito Fantasma. Se estiver no Estado de Transcendência, Yunara avançará em uma direção.",
+      "cooldown": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
     },
     {
       "id": "Yunara.R",
       "ability": "R",
       "name": "Transcendência do Eu",
-      "description": "Yunara entra em um Estado de Transcendência que aprimora suas habilidades básicas."
+      "description": "Yunara entra em um Estado de Transcendência que aprimora suas habilidades básicas.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Yunara.P",
       "ability": "P",
       "name": "Voto às Primeiras Terras",
-      "description": "Os Acertos Críticos de Yunara causam Dano Mágico adicional."
+      "description": "Os Acertos Críticos de Yunara causam Dano Mágico adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

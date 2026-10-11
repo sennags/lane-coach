@@ -17,31 +17,58 @@
       "id": "Rell.Q",
       "ability": "Q",
       "name": "Golpe Estilhaçador",
-      "description": "Rell causa Dano Mágico às unidades em linha reta, destruindo o Escudo delas e atordoando-as."
+      "description": "Rell causa Dano Mágico às unidades em linha reta, destruindo o Escudo delas e atordoando-as.",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ]
     },
     {
       "id": "Rell.W",
       "ability": "W",
       "name": "Ferromante: Queda Esmagadora",
-      "description": "Montaria: Rell Desmonta, caindo com a armadura sobre os inimigos, Arremessando-os ao ar e recebendo um grande Escudo. Sem montaria, ela recebe Armadura, Resistência Mágica, Velocidade de Ataque e Alcance de Ataque, mas sofre Lentidão. Desmontada: Rell forja a Montaria, recebendo um impulso de velocidade e Arremessando ao ar o próximo inimigo que Atacar."
+      "description": "Montaria: Rell Desmonta, caindo com a armadura sobre os inimigos, Arremessando-os ao ar e recebendo um grande Escudo. Sem montaria, ela recebe Armadura, Resistência Mágica, Velocidade de Ataque e Alcance de Ataque, mas sofre Lentidão. Desmontada: Rell forja a Montaria, recebendo um impulso de velocidade e Arremessando ao ar o próximo inimigo que Atacar.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Rell.E",
       "ability": "E",
       "name": "Investida Absoluta",
-      "description": "Passivo: Rell recebe Velocidade de Movimento fora de combate. Ativo: Rell e um aliado recebem Velocidade de Movimento crescente, dobrada em direção aos inimigos e entre si. O próximo Ataque dela explode, causando Dano Mágico."
+      "description": "Passivo: Rell recebe Velocidade de Movimento fora de combate. Ativo: Rell e um aliado recebem Velocidade de Movimento crescente, dobrada em direção aos inimigos e entre si. O próximo Ataque dela explode, causando Dano Mágico.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Rell.R",
       "ability": "R",
       "name": "Tempestade Magnética",
-      "description": "Rell explode em uma fúria magnética, Puxando violentamente os inimigos próximos em sua direção. Ela, então, Arrasta esses inimigos em direção a si por um curto período, causando Dano Mágico ao longo do tempo."
+      "description": "Rell explode em uma fúria magnética, Puxando violentamente os inimigos próximos em sua direção. Ela, então, Arrasta esses inimigos em direção a si por um curto período, causando Dano Mágico ao longo do tempo.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Rell.P",
       "ability": "P",
       "name": "A Ferro e Fogo",
-      "description": "Os Ataques e Habilidades de Rell causam Dano Mágico adicional e roubam Armadura e Resistência Mágica ao contato."
+      "description": "Os Ataques e Habilidades de Rell causam Dano Mágico adicional e roubam Armadura e Resistência Mágica ao contato.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Rammus.Q",
       "ability": "Q",
       "name": "Bola do Poder",
-      "description": "Rammus acelera em forma de bola na direção de seus inimigos, causando dano e lentidão nos alvos afetados pelo impacto."
+      "description": "Rammus acelera em forma de bola na direção de seus inimigos, causando dano e lentidão nos alvos afetados pelo impacto.",
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ]
     },
     {
       "id": "Rammus.W",
       "ability": "W",
       "name": "Bola Curva Defensiva",
-      "description": "Rammus assume uma posição defensiva, aumentando bastante sua Armadura e sua Resistência Mágica e devolvendo dano aos inimigos que o atacarem."
+      "description": "Rammus assume uma posição defensiva, aumentando bastante sua Armadura e sua Resistência Mágica e devolvendo dano aos inimigos que o atacarem.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Rammus.E",
       "ability": "E",
       "name": "Provocação Enlouquecedora",
-      "description": "Rammus provoca um Campeão inimigo ou um monstro, fazendo com que o ataquem ferozmente."
+      "description": "Rammus provoca um Campeão inimigo ou um monstro, fazendo com que o ataquem ferozmente.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Rammus.R",
       "ability": "R",
       "name": "Colisão Ascendente",
-      "description": "Rammus salta e se joga com força na área-alvo, causando Dano Mágico e Lentidão aos inimigos atingidos. Se a Habilidade for conjurada enquanto Rammus estiver com Bola do Poder ativa, ele também arremessará ao ar os inimigos próximos ao centro."
+      "description": "Rammus salta e se joga com força na área-alvo, causando Dano Mágico e Lentidão aos inimigos atingidos. Se a Habilidade for conjurada enquanto Rammus estiver com Bola do Poder ativa, ele também arremessará ao ar os inimigos próximos ao centro.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Rammus.P",
       "ability": "P",
       "name": "Casco Espetado",
-      "description": "Rammus recebe escalamento de Dano de Ataque adicional com sua Armadura e sua Resistência Mágica."
+      "description": "Rammus recebe escalamento de Dano de Ataque adicional com sua Armadura e sua Resistência Mágica.",
+      "cooldown": null
     }
   ],
   "tips": [],

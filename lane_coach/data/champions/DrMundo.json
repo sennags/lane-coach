@@ -17,31 +17,58 @@
       "id": "DrMundo.Q",
       "ability": "Q",
       "name": "Serra Infectada",
-      "description": "Dr. Mundo arremessa uma serra infectada, causando dano ao primeiro inimigo atingido com base na Vida atual do alvo e causando Lentidão a ele."
+      "description": "Dr. Mundo arremessa uma serra infectada, causando dano ao primeiro inimigo atingido com base na Vida atual do alvo e causando Lentidão a ele.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "DrMundo.W",
       "ability": "W",
       "name": "Choquinho Cardíaco",
-      "description": "Dr. Mundo se eletrocuta, causando dano contínuo aos inimigos próximos e acumulando uma parte do dano sofrido. Ele causa uma explosão de dano aos inimigos próximos ao final da duração ou ao Reconjurar. Se atingir um inimigo, Dr. Mundo se curará em uma porcentagem do dano armazenado."
+      "description": "Dr. Mundo se eletrocuta, causando dano contínuo aos inimigos próximos e acumulando uma parte do dano sofrido. Ele causa uma explosão de dano aos inimigos próximos ao final da duração ou ao Reconjurar. Se atingir um inimigo, Dr. Mundo se curará em uma porcentagem do dano armazenado.",
+      "cooldown": [
+        17,
+        16.5,
+        16,
+        15.5,
+        15
+      ]
     },
     {
       "id": "DrMundo.E",
       "ability": "E",
       "name": "Traumatismo",
-      "description": "Passivo: Dr. Mundo recebe Dano de Ataque adicional (que aumenta com base na própria Vida máxima). Ativo: Dr. Mundo golpeia o inimigo com sua maleta ''médica'', causando dano adicional com base na própria Vida perdida. Se o inimigo for abatido, será arremessado, causando dano aos inimigos que atravessar."
+      "description": "Passivo: Dr. Mundo recebe Dano de Ataque adicional (que aumenta com base na própria Vida máxima). Ativo: Dr. Mundo golpeia o inimigo com sua maleta ''médica'', causando dano adicional com base na própria Vida perdida. Se o inimigo for abatido, será arremessado, causando dano aos inimigos que atravessar.",
+      "cooldown": [
+        9,
+        8.25,
+        7.5,
+        6.75,
+        6
+      ]
     },
     {
       "id": "DrMundo.R",
       "ability": "R",
       "name": "Dosagem Máxima",
-      "description": "Dr. Mundo enche-se de produtos químicos, curando instantaneamente uma porcentagem da própria Vida perdida. Depois, ele recebe Velocidade de Movimento e regenera parte da própria Vida máxima ao longo da duração."
+      "description": "Dr. Mundo enche-se de produtos químicos, curando instantaneamente uma porcentagem da própria Vida perdida. Depois, ele recebe Velocidade de Movimento e regenera parte da própria Vida máxima ao longo da duração.",
+      "cooldown": [
+        120,
+        120,
+        120
+      ]
     },
     {
       "id": "DrMundo.P",
       "ability": "P",
       "name": "Vai Para Onde Quer",
-      "description": "Dr. Mundo resiste ao próximo efeito Imobilizador que o atingir, perdendo Vida e derrubando um recipiente químico nas proximidades. Dr. Mundo pode pegar o recipiente ao passar por cima dele, restaurando Vida e reduzindo o Tempo de Recarga da Habilidade. Dr. Mundo também tem Regeneração de Vida significativamente mais alta."
+      "description": "Dr. Mundo resiste ao próximo efeito Imobilizador que o atingir, perdendo Vida e derrubando um recipiente químico nas proximidades. Dr. Mundo pode pegar o recipiente ao passar por cima dele, restaurando Vida e reduzindo o Tempo de Recarga da Habilidade. Dr. Mundo também tem Regeneração de Vida significativamente mais alta.",
+      "cooldown": null
     }
   ],
   "tips": [],

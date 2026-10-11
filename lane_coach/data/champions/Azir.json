@@ -17,31 +17,58 @@
       "id": "Azir.Q",
       "ability": "Q",
       "name": "Areias da Conquista",
-      "description": "Azir comanda todos os Soldados de Areia na direção do local-alvo. Eles causam Dano Mágico aos inimigos que atravessam e aplicam redução de velocidade por 1 segundo."
+      "description": "Azir comanda todos os Soldados de Areia na direção do local-alvo. Eles causam Dano Mágico aos inimigos que atravessam e aplicam redução de velocidade por 1 segundo.",
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ]
     },
     {
       "id": "Azir.W",
       "ability": "W",
       "name": "Surja!",
-      "description": "Azir invoca um Soldado de Areia para atacar alvos próximos por ele, substituindo seu ataque básico contra alvos no alcance do soldado. Seu ataque causa Dano Mágico a inimigos em linha reta."
+      "description": "Azir invoca um Soldado de Areia para atacar alvos próximos por ele, substituindo seu ataque básico contra alvos no alcance do soldado. Seu ataque causa Dano Mágico a inimigos em linha reta.",
+      "cooldown": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ]
     },
     {
       "id": "Azir.E",
       "ability": "E",
       "name": "Areias Oscilantes",
-      "description": "Azir se protege com um escudo por um momento e avança na direção de um de seus Soldados de Areia, causando dano aos inimigos atingidos. Se Azir acertar um Campeão inimigo, ele prepara instantaneamente um novo Soldado de Areia para mobilização e cessa seu avanço."
+      "description": "Azir se protege com um escudo por um momento e avança na direção de um de seus Soldados de Areia, causando dano aos inimigos atingidos. Se Azir acertar um Campeão inimigo, ele prepara instantaneamente um novo Soldado de Areia para mobilização e cessa seu avanço.",
+      "cooldown": [
+        22,
+        20.5,
+        19,
+        17.5,
+        16
+      ]
     },
     {
       "id": "Azir.R",
       "ability": "R",
       "name": "Decreto do Imperador",
-      "description": "Azir invoca uma parede de soldados que marcha em frente, causando dano e empurrando para trás os inimigos."
+      "description": "Azir invoca uma parede de soldados que marcha em frente, causando dano e empurrando para trás os inimigos.",
+      "cooldown": [
+        120,
+        105,
+        90
+      ]
     },
     {
       "id": "Azir.P",
       "ability": "P",
       "name": "Legado de Shurima",
-      "description": "Azir pode invocar o Disco Solar das ruínas de uma torre aliada ou inimiga."
+      "description": "Azir pode invocar o Disco Solar das ruínas de uma torre aliada ou inimiga.",
+      "cooldown": null
     }
   ],
   "tips": [],

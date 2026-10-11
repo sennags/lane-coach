@@ -17,31 +17,58 @@
       "id": "Ivern.Q",
       "ability": "Q",
       "name": "Encantador de Raízes",
-      "description": "Ivern conjura uma vinha, causando dano e enraizando os alvos inimigos atingidos. Os aliados de Ivern podem avançar rapidamente em direção ao alvo enraizado."
+      "description": "Ivern conjura uma vinha, causando dano e enraizando os alvos inimigos atingidos. Os aliados de Ivern podem avançar rapidamente em direção ao alvo enraizado.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Ivern.W",
       "ability": "W",
       "name": "Formação de Arbustos",
-      "description": "Em arbustos, os Ataques de Ivern e seus aliados próximos causam Dano Mágico adicional. Ivern pode ativar a habilidade para criar um arbusto."
+      "description": "Em arbustos, os Ataques de Ivern e seus aliados próximos causam Dano Mágico adicional. Ivern pode ativar a habilidade para criar um arbusto.",
+      "cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
     },
     {
       "id": "Ivern.E",
       "ability": "E",
       "name": "Semente Engatilhada",
-      "description": "Ivern concede a um aliado um Escudo que explode depois de uma breve duração, causando Lentidão e dano aos inimigos. O Escudo é redefinido se não atingir inimigos."
+      "description": "Ivern concede a um aliado um Escudo que explode depois de uma breve duração, causando Lentidão e dano aos inimigos. O Escudo é redefinido se não atingir inimigos.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Ivern.R",
       "ability": "R",
       "name": "Margarida!",
-      "description": "Ivern invoca sua amiga Margarida para lutar ao seu lado. Reconjure para fazer Margarida atacar ou se mover."
+      "description": "Ivern invoca sua amiga Margarida para lutar ao seu lado. Reconjure para fazer Margarida atacar ou se mover.",
+      "cooldown": [
+        140,
+        130,
+        120
+      ]
     },
     {
       "id": "Ivern.P",
       "ability": "P",
       "name": "Amigo da Floresta",
-      "description": "Ivern não pode atacar ou ser atacado por monstros não épicos. Ele pode criar bosques mágicos que crescem ao longo do tempo em acampamentos da selva. Quando o bosque estiver em seu tamanho final, Ivern pode libertar os monstros para receber ouro e experiência."
+      "description": "Ivern não pode atacar ou ser atacado por monstros não épicos. Ele pode criar bosques mágicos que crescem ao longo do tempo em acampamentos da selva. Quando o bosque estiver em seu tamanho final, Ivern pode libertar os monstros para receber ouro e experiência.",
+      "cooldown": null
     }
   ],
   "tips": [],

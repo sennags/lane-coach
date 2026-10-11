@@ -17,31 +17,58 @@
       "id": "Galio.Q",
       "ability": "Q",
       "name": "Ventos de Guerra",
-      "description": "Galio dispara duas rajadas de vento que convergem em um grande tornado e causam dano ao longo do tempo."
+      "description": "Galio dispara duas rajadas de vento que convergem em um grande tornado e causam dano ao longo do tempo.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Galio.W",
       "ability": "W",
       "name": "Escudo de Durand",
-      "description": "Galio carrega em postura defensiva, movendo-se lentamente. Ao soltar o carregamento, ele provocará e causará dano a inimigos próximos."
+      "description": "Galio carrega em postura defensiva, movendo-se lentamente. Ao soltar o carregamento, ele provocará e causará dano a inimigos próximos.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Galio.E",
       "ability": "E",
       "name": "Soco Justiceiro",
-      "description": "Galio dá um passo para trás e avança, arremessando ao ar o primeiro Campeão com que colidir."
+      "description": "Galio dá um passo para trás e avança, arremessando ao ar o primeiro Campeão com que colidir.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Galio.R",
       "ability": "R",
       "name": "Entrada Heroica",
-      "description": "Galio marca a posição de um aliado como ponto de aterrissagem e concede um escudo mágico a todos os aliados na área. Após um intervalo, ele aterrissa no local, arremessando os inimigos próximos ao ar."
+      "description": "Galio marca a posição de um aliado como ponto de aterrissagem e concede um escudo mágico a todos os aliados na área. Após um intervalo, ele aterrissa no local, arremessando os inimigos próximos ao ar.",
+      "cooldown": [
+        180,
+        160,
+        140
+      ]
     },
     {
       "id": "Galio.P",
       "ability": "P",
       "name": "Esmagada Colossal",
-      "description": "A cada poucos segundos, o próximo ataque básico de Galio causa Dano Mágico adicional em área."
+      "description": "A cada poucos segundos, o próximo ataque básico de Galio causa Dano Mágico adicional em área.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Jinx.Q",
       "ability": "Q",
       "name": "Trocando!",
-      "description": "Jinx modifica seus ataques básicos ao trocar entre Pow-Pow, sua metralhadora, e Fishbones, seu lança-mísseis. Ataques com Pow-Pow concedem Velocidade de Ataque, enquanto ataques com Fishbones causam dano em área de ação e recebem aumento de alcance, mas drenam Mana e reduzem a Velocidade de Ataque."
+      "description": "Jinx modifica seus ataques básicos ao trocar entre Pow-Pow, sua metralhadora, e Fishbones, seu lança-mísseis. Ataques com Pow-Pow concedem Velocidade de Ataque, enquanto ataques com Fishbones causam dano em área de ação e recebem aumento de alcance, mas drenam Mana e reduzem a Velocidade de Ataque.",
+      "cooldown": [
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ]
     },
     {
       "id": "Jinx.W",
       "ability": "W",
       "name": "Zap!",
-      "description": "Jinx usa Zapper, sua pistola de choques, para disparar um projétil que causa dano ao primeiro inimigo atingido, reduzindo sua velocidade e revelando-o."
+      "description": "Jinx usa Zapper, sua pistola de choques, para disparar um projétil que causa dano ao primeiro inimigo atingido, reduzindo sua velocidade e revelando-o.",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
     },
     {
       "id": "Jinx.E",
       "ability": "E",
       "name": "Mordidinha Flamejante!",
-      "description": "Jinx arremessa uma fileira de granadas-armadilha que explodem após 5 segundos, deixando os inimigos em chamas. As Mordidinhas Flamejantes morderão campeões inimigos que caminharem sobre elas, enraizando-os no local."
+      "description": "Jinx arremessa uma fileira de granadas-armadilha que explodem após 5 segundos, deixando os inimigos em chamas. As Mordidinhas Flamejantes morderão campeões inimigos que caminharem sobre elas, enraizando-os no local.",
+      "cooldown": [
+        24,
+        20.5,
+        17,
+        13.5,
+        10
+      ]
     },
     {
       "id": "Jinx.R",
       "ability": "R",
       "name": "Super Mega Míssil da Morte!",
-      "description": "Jinx dispara um super-míssil no mapa, que acumula dano ao longo de seu trajeto. O míssil explodirá ao colidir com um campeão inimigo, causando dano a ele e a inimigos ao seu redor, com base em sua Vida removida."
+      "description": "Jinx dispara um super-míssil no mapa, que acumula dano ao longo de seu trajeto. O míssil explodirá ao colidir com um campeão inimigo, causando dano a ele e a inimigos ao seu redor, com base em sua Vida removida.",
+      "cooldown": [
+        85,
+        65,
+        45
+      ]
     },
     {
       "id": "Jinx.P",
       "ability": "P",
       "name": "Anime-se!",
-      "description": "Jinx recebe um aumento drástico de Velocidade de Movimento e de Velocidade de Ataque sempre que ajuda a destruir uma estrutura ou a abater um Campeão inimigo ou monstro épico da selva."
+      "description": "Jinx recebe um aumento drástico de Velocidade de Movimento e de Velocidade de Ataque sempre que ajuda a destruir uma estrutura ou a abater um Campeão inimigo ou monstro épico da selva.",
+      "cooldown": null
     }
   ],
   "tips": [],

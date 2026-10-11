@@ -17,31 +17,58 @@
       "id": "Amumu.Q",
       "ability": "Q",
       "name": "Lançar Bandagens",
-      "description": "Amumu lança uma bandagem pegajosa em seu alvo e se lança em sua direção, causando dano e atordoamento."
+      "description": "Amumu lança uma bandagem pegajosa em seu alvo e se lança em sua direção, causando dano e atordoamento.",
+      "cooldown": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": "Amumu.W",
       "ability": "W",
       "name": "Desespero",
-      "description": "Tomados pela angústia, inimigos próximos perdem um percentual de sua Vida máxima a cada segundo e suas Maldições são restauradas."
+      "description": "Tomados pela angústia, inimigos próximos perdem um percentual de sua Vida máxima a cada segundo e suas Maldições são restauradas.",
+      "cooldown": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
     },
     {
       "id": "Amumu.E",
       "ability": "E",
       "name": "Chilique",
-      "description": "Reduz permanentemente o Dano Físico que Amumu sofreria. Amumu pode liberar sua fúria, causando dano a inimigos próximos. Sempre que Amumu é atingido, o Tempo de Recarga de Chilique é reduzido."
+      "description": "Reduz permanentemente o Dano Físico que Amumu sofreria. Amumu pode liberar sua fúria, causando dano a inimigos próximos. Sempre que Amumu é atingido, o Tempo de Recarga de Chilique é reduzido.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Amumu.R",
       "ability": "R",
       "name": "A Maldição da Múmia Triste",
-      "description": "Amumu amarra unidades inimigas ao seu redor com ataduras, aplicando Maldição , causando dano e atordoando-as."
+      "description": "Amumu amarra unidades inimigas ao seu redor com ataduras, aplicando Maldição , causando dano e atordoando-as.",
+      "cooldown": [
+        150,
+        125,
+        100
+      ]
     },
     {
       "id": "Amumu.P",
       "ability": "P",
       "name": "Toque Amaldiçoado",
-      "description": "Os ataques básicos de Amumu Amaldiçoam seus inimigos, fazendo com que recebam Dano Verdadeiro adicional de qualquer Dano Mágico causado a eles."
+      "description": "Os ataques básicos de Amumu Amaldiçoam seus inimigos, fazendo com que recebam Dano Verdadeiro adicional de qualquer Dano Mágico causado a eles.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Ekko.Q",
       "ability": "Q",
       "name": "Giratempo",
-      "description": "Ekko arremessa uma granada que se expande em um campo de distorção temporal ao atingir um Campeão inimigo, causando dano e reduzindo a velocidade de todos dentro de sua área de ação. Após um intervalo, a granada retorna em direção a Ekko, causando dano no trajeto de volta."
+      "description": "Ekko arremessa uma granada que se expande em um campo de distorção temporal ao atingir um Campeão inimigo, causando dano e reduzindo a velocidade de todos dentro de sua área de ação. Após um intervalo, a granada retorna em direção a Ekko, causando dano no trajeto de volta.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Ekko.W",
       "ability": "W",
       "name": "Convergência Paralela",
-      "description": "Os ataques básicos de Ekko causam Dano Mágico adicional aos inimigos com Vida baixa. Ekko pode conjurar Convergência Paralela para separar a linha do tempo, causando uma anomalia após alguns segundos e reduzindo a velocidade de inimigos pegos por ela. Se Ekko adentrar a anomalia, ele receberá um escudo e acionará uma detonação que atordoa os inimigos, colocando-os em estase temporal."
+      "description": "Os ataques básicos de Ekko causam Dano Mágico adicional aos inimigos com Vida baixa. Ekko pode conjurar Convergência Paralela para separar a linha do tempo, causando uma anomalia após alguns segundos e reduzindo a velocidade de inimigos pegos por ela. Se Ekko adentrar a anomalia, ele receberá um escudo e acionará uma detonação que atordoa os inimigos, colocando-os em estase temporal.",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ]
     },
     {
       "id": "Ekko.E",
       "ability": "E",
       "name": "Mergulho Fásico",
-      "description": "Ekko faz um rolamento evasivo enquanto carrega seu Revo-Z. Seu próximo ataque causa dano adicional e distorce a realidade, teleportando-o a seu alvo."
+      "description": "Ekko faz um rolamento evasivo enquanto carrega seu Revo-Z. Seu próximo ataque causa dano adicional e distorce a realidade, teleportando-o a seu alvo.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Ekko.R",
       "ability": "R",
       "name": "Cronoquebra",
-      "description": "Ekko estilhaça sua linha do tempo, tornando-se inalvejável e rebobinando para um ponto mais favorável no tempo. Ele retorna para qualquer ponto que esteve nos últimos segundos e se cura em um percentual do dano recebido nesta duração. Inimigos próximos a sua área de chegada recebem dano massivo."
+      "description": "Ekko estilhaça sua linha do tempo, tornando-se inalvejável e rebobinando para um ponto mais favorável no tempo. Ele retorna para qualquer ponto que esteve nos últimos segundos e se cura em um percentual do dano recebido nesta duração. Inimigos próximos a sua área de chegada recebem dano massivo.",
+      "cooldown": [
+        110,
+        80,
+        50
+      ]
     },
     {
       "id": "Ekko.P",
       "ability": "P",
       "name": "Ressonância Revo-Z",
-      "description": "Cada terceiro ataque ou habilidade de dano no mesmo alvo causa Dano Mágico adicional e concede a Ekko um impulso de velocidade se o alvo for um Campeão."
+      "description": "Cada terceiro ataque ou habilidade de dano no mesmo alvo causa Dano Mágico adicional e concede a Ekko um impulso de velocidade se o alvo for um Campeão.",
+      "cooldown": null
     }
   ],
   "tips": [],

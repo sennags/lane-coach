@@ -17,31 +17,58 @@
       "id": "MonkeyKing.Q",
       "ability": "Q",
       "name": "Golpe Destruidor",
-      "description": "O próximo ataque de Wukong recebe Alcance de Ataque, causa dano adicional e reduz a Armadura do alvo por alguns segundos."
+      "description": "O próximo ataque de Wukong recebe Alcance de Ataque, causa dano adicional e reduz a Armadura do alvo por alguns segundos.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "MonkeyKing.W",
       "ability": "W",
       "name": "Guerreiro Trapaceiro",
-      "description": "Wukong fica Invisível e avança em uma direção, deixando para trás um clone que atacará inimigos próximos."
+      "description": "Wukong fica Invisível e avança em uma direção, deixando para trás um clone que atacará inimigos próximos.",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ]
     },
     {
       "id": "MonkeyKing.E",
       "ability": "E",
       "name": "Resplendor das Nuvens",
-      "description": "Wukong avança em direção ao inimigo-alvo e conjura imagens de si próprio para atacar inimigos próximos, causando dano aos atingidos."
+      "description": "Wukong avança em direção ao inimigo-alvo e conjura imagens de si próprio para atacar inimigos próximos, causando dano aos atingidos.",
+      "cooldown": [
+        10,
+        9.25,
+        8.5,
+        7.75,
+        7
+      ]
     },
     {
       "id": "MonkeyKing.R",
       "ability": "R",
       "name": "Ciclone",
-      "description": "Wukong estende seu cajado e gira repetidamente, recebendo Velocidade de Movimento. Inimigos atingidos sofrem dano e são arremessados ao ar."
+      "description": "Wukong estende seu cajado e gira repetidamente, recebendo Velocidade de Movimento. Inimigos atingidos sofrem dano e são arremessados ao ar.",
+      "cooldown": [
+        130,
+        110,
+        90
+      ]
     },
     {
       "id": "MonkeyKing.P",
       "ability": "P",
       "name": "Pele de Pedra",
-      "description": "Wukong recebe Armadura e Regeneração de Vida máxima cumulativas quando luta contra Campeões e monstros."
+      "description": "Wukong recebe Armadura e Regeneração de Vida máxima cumulativas quando luta contra Campeões e monstros.",
+      "cooldown": null
     }
   ],
   "tips": [],

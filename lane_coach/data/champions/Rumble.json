@@ -17,31 +17,58 @@
       "id": "Rumble.Q",
       "ability": "Q",
       "name": "Cospe-Fogo",
-      "description": "Rumble incinera os inimigos à sua frente, causando Dano Mágico em área de cone por 3 segundos. O dano aumenta enquanto ele estiver na Zona de Perigo."
+      "description": "Rumble incinera os inimigos à sua frente, causando Dano Mágico em área de cone por 3 segundos. O dano aumenta enquanto ele estiver na Zona de Perigo.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Rumble.W",
       "ability": "W",
       "name": "Escudo de Sucata",
-      "description": "Rumble puxa um escudo que o protege de dano e lhe concede um rápido aumento de velocidade. Enquanto estiver na Zona de Perigo, a Resistência do Escudo e a velocidade adicional aumentam."
+      "description": "Rumble puxa um escudo que o protege de dano e lhe concede um rápido aumento de velocidade. Enquanto estiver na Zona de Perigo, a Resistência do Escudo e a velocidade adicional aumentam.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Rumble.E",
       "ability": "E",
       "name": "Arpão Elétrico",
-      "description": "Rumble lança um arpão, eletrocutando o alvo com Dano Mágico, causando Lentidão e reduzindo a Resistência Mágica dele. Ele pode carregar 2 arpões por vez. O dano e o percentual de Lentidão aumentarão dentro da Zona de Perigo."
+      "description": "Rumble lança um arpão, eletrocutando o alvo com Dano Mágico, causando Lentidão e reduzindo a Resistência Mágica dele. Ele pode carregar 2 arpões por vez. O dano e o percentual de Lentidão aumentarão dentro da Zona de Perigo.",
+      "cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
     },
     {
       "id": "Rumble.R",
       "ability": "R",
       "name": "O Equalizador",
-      "description": "Rumble dispara um grupo de mísseis, criando uma parede de fogo que causa dano e Lentidão a inimigos."
+      "description": "Rumble dispara um grupo de mísseis, criando uma parede de fogo que causa dano e Lentidão a inimigos.",
+      "cooldown": [
+        130,
+        105,
+        80
+      ]
     },
     {
       "id": "Rumble.P",
       "ability": "P",
       "name": "Titã do Ferro-Velho",
-      "description": "Cada habilidade que Rumble conjura lhe concede Aquecimento. Ao chegar em 50% de Aquecimento, ele entra na Zona de Perigo, concedendo efeitos adicionais a todas as suas habilidades. Ao chegar a 100% de Aquecimento, ele começa a superaquecer, recebendo Velocidade de Ataque adicional e dano adicional em seus ataques básicos, mas fica incapaz de conjurar habilidades por alguns segundos."
+      "description": "Cada habilidade que Rumble conjura lhe concede Aquecimento. Ao chegar em 50% de Aquecimento, ele entra na Zona de Perigo, concedendo efeitos adicionais a todas as suas habilidades. Ao chegar a 100% de Aquecimento, ele começa a superaquecer, recebendo Velocidade de Ataque adicional e dano adicional em seus ataques básicos, mas fica incapaz de conjurar habilidades por alguns segundos.",
+      "cooldown": null
     }
   ],
   "tips": [],

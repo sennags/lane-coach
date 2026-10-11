@@ -21,7 +21,14 @@
       "coaching": {
         "use": "Dano mágico na ida e verdadeiro na volta.",
         "limit": "Acertar a ida não garante o acerto do retorno."
-      }
+      },
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Ahri.W",
@@ -31,7 +38,14 @@
       "coaching": {
         "use": "Velocidade breve e dano em inimigos próximos.",
         "limit": "O impulso é temporário; não substitui todos os avanços do R."
-      }
+      },
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Ahri.E",
@@ -41,7 +55,14 @@
       "coaching": {
         "use": "Encanta o alvo e interrompe movimento em progresso.",
         "limit": "Errar deixa menos controle disponível para responder à aproximação."
-      }
+      },
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Ahri.R",
@@ -51,7 +72,12 @@
       "coaching": {
         "use": "Avanços para ajustar ângulo; eliminações concedem reconjurações.",
         "limit": "Gastar os avanços reduz as opções de saída."
-      }
+      },
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Ahri.P",
@@ -61,7 +87,8 @@
       "coaching": {
         "use": "Abates de tropas/monstros e eliminações de campeões geram cura.",
         "limit": "Não oferece cura contínua durante toda troca."
-      }
+      },
+      "cooldown": null
     }
   ],
   "tips": [

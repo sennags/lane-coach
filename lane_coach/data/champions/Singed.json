@@ -17,31 +17,58 @@
       "id": "Singed.Q",
       "ability": "Q",
       "name": "Rastro de Veneno",
-      "description": "Deixa um rastro de veneno atrás de Singed, causando dano aos inimigos que passam por este caminho."
+      "description": "Deixa um rastro de veneno atrás de Singed, causando dano aos inimigos que passam por este caminho.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Singed.W",
       "ability": "W",
       "name": "Mega Adesivo",
-      "description": "Joga um frasco de Mega Adesivo no chão, reduzindo a velocidade e prendendo os inimigos que pisam nele."
+      "description": "Joga um frasco de Mega Adesivo no chão, reduzindo a velocidade e prendendo os inimigos que pisam nele.",
+      "cooldown": [
+        17,
+        16,
+        15,
+        14,
+        13
+      ]
     },
     {
       "id": "Singed.E",
       "ability": "E",
       "name": "Lançar",
-      "description": "Causa dano ao inimigo alvo e o arremessa pelo ar para trás de Singed. Se o alvo que Singed arremessar aterrissar em seu Mega Adesivo, ele ficará enraizado."
+      "description": "Causa dano ao inimigo alvo e o arremessa pelo ar para trás de Singed. Se o alvo que Singed arremessar aterrissar em seu Mega Adesivo, ele ficará enraizado.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Singed.R",
       "ability": "R",
       "name": "Poção da Insanidade",
-      "description": "Singed bebe uma mistura de compostos químicos potentes que concede a ele atributos de combate aumentados e faz com que o Rastro de Veneno aplique Feridas Dolorosas."
+      "description": "Singed bebe uma mistura de compostos químicos potentes que concede a ele atributos de combate aumentados e faz com que o Rastro de Veneno aplique Feridas Dolorosas.",
+      "cooldown": [
+        100,
+        100,
+        100
+      ]
     },
     {
       "id": "Singed.P",
       "ability": "P",
       "name": "Corrente de Ar Nociva",
-      "description": "Ao passar por Campeões próximos, Singed ganha Velocidade de Movimento."
+      "description": "Ao passar por Campeões próximos, Singed ganha Velocidade de Movimento.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "TwistedFate.Q",
       "ability": "Q",
       "name": "Curingas",
-      "description": "Twisted Fate arremessa três cartas, causando dano a cada inimigo que elas atravessam."
+      "description": "Twisted Fate arremessa três cartas, causando dano a cada inimigo que elas atravessam.",
+      "cooldown": [
+        6,
+        5.75,
+        5.5,
+        5.25,
+        5
+      ]
     },
     {
       "id": "TwistedFate.W",
       "ability": "W",
       "name": "Escolha uma Carta",
-      "description": "Twisted Fate escolhe uma carta mágica de seu baralho e a usa em seu próximo ataque, causando efeitos adicionais."
+      "description": "Twisted Fate escolhe uma carta mágica de seu baralho e a usa em seu próximo ataque, causando efeitos adicionais.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "TwistedFate.E",
       "ability": "E",
       "name": "Baralho Marcado",
-      "description": "A cada 4 ataques, Twisted Fate causa dano adicional. Além disso, sua Velocidade de Ataque aumenta."
+      "description": "A cada 4 ataques, Twisted Fate causa dano adicional. Além disso, sua Velocidade de Ataque aumenta.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "TwistedFate.R",
       "ability": "R",
       "name": "Destino",
-      "description": "Twisted Fate prevê o futuro de seus adversários, revelando todos os Campeões inimigos e habilitando o uso de Portal, que o teleporta para qualquer local-alvo em 1,5s."
+      "description": "Twisted Fate prevê o futuro de seus adversários, revelando todos os Campeões inimigos e habilitando o uso de Portal, que o teleporta para qualquer local-alvo em 1,5s.",
+      "cooldown": [
+        170,
+        140,
+        110
+      ]
     },
     {
       "id": "TwistedFate.P",
       "ability": "P",
       "name": "Dados Viciados",
-      "description": "Ao abater uma unidade, Twisted Fate rola seu dado da ''sorte'' e recebe de 1 a 6 de ouro adicional."
+      "description": "Ao abater uma unidade, Twisted Fate rola seu dado da ''sorte'' e recebe de 1 a 6 de ouro adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Irelia.Q",
       "ability": "Q",
       "name": "Surto da Lâmina",
-      "description": "Irelia avança para atingir o seu alvo e cura a si mesma. Se ele estiver marcado ou for abatido com Surto da Lâmina, o Tempo de Recarga será restaurado."
+      "description": "Irelia avança para atingir o seu alvo e cura a si mesma. Se ele estiver marcado ou for abatido com Surto da Lâmina, o Tempo de Recarga será restaurado.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Irelia.W",
       "ability": "W",
       "name": "Dança Desafiadora",
-      "description": "Irelia carrega um golpe que causa mais dano conforme o carregamento. Ela também recebe Dano Físico reduzido durante esse carregamento."
+      "description": "Irelia carrega um golpe que causa mais dano conforme o carregamento. Ela também recebe Dano Físico reduzido durante esse carregamento.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Irelia.E",
       "ability": "E",
       "name": "Dueto Impecável",
-      "description": "Irelia lança duas lâminas que convergem uma em direção à outra. Inimigos no fogo cruzado sofrem dano, ficam atordoados e são marcados."
+      "description": "Irelia lança duas lâminas que convergem uma em direção à outra. Inimigos no fogo cruzado sofrem dano, ficam atordoados e são marcados.",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ]
     },
     {
       "id": "Irelia.R",
       "ability": "R",
       "name": "Lâmina da Vanguarda",
-      "description": "Irelia lança uma série de lâminas que explodem ao atingir um Campeão inimigo. Inimigos atingidos pelas lâminas sofrem dano e são marcados. Depois, as lâminas formam uma parede que causa dano e reduz a velocidade dos inimigos que a atravessarem."
+      "description": "Irelia lança uma série de lâminas que explodem ao atingir um Campeão inimigo. Inimigos atingidos pelas lâminas sofrem dano e são marcados. Depois, as lâminas formam uma parede que causa dano e reduz a velocidade dos inimigos que a atravessarem.",
+      "cooldown": [
+        125,
+        105,
+        85
+      ]
     },
     {
       "id": "Irelia.P",
       "ability": "P",
       "name": "Fervor Ioniano",
-      "description": "Quando Irelia acerta inimigos com suas habilidades, ela ganha acúmulo de Velocidade de Ataque adicional. Ao atingir o máximo de acúmulos, Irelia também ganha dano adicional ao contato."
+      "description": "Quando Irelia acerta inimigos com suas habilidades, ela ganha acúmulo de Velocidade de Ataque adicional. Ao atingir o máximo de acúmulos, Irelia também ganha dano adicional ao contato.",
+      "cooldown": null
     }
   ],
   "tips": [],

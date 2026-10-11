@@ -17,31 +17,59 @@
       "id": "Jayce.Q",
       "ability": "Q",
       "name": "Aos Céus! / Disparo Chocante",
-      "description": "Empunhadura de Martelo: Salta na direção de um inimigo, causando Dano Físico e Lentidão. Empunhadura de Canhão: Dispara um orbe de eletricidade que detona ao atingir um inimigo (ou ao alcançar o fim de seu trajeto), causando Dano Físico a todos os inimigos atingidos."
+      "description": "Empunhadura de Martelo: Salta na direção de um inimigo, causando Dano Físico e Lentidão. Empunhadura de Canhão: Dispara um orbe de eletricidade que detona ao atingir um inimigo (ou ao alcançar o fim de seu trajeto), causando Dano Físico a todos os inimigos atingidos.",
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8,
+        6
+      ]
     },
     {
       "id": "Jayce.W",
       "ability": "W",
       "name": "Campo Elétrico / Hipercarga",
-      "description": "Empunhadura de Martelo: Passivo: Restaura Mana a cada acerto. Ativo: Cria um campo elétrico que causa dano a inimigos próximos por muitos segundos. Empunhadura de Canhão: Recebe um impulso de energia, aumentando a Velocidade de Ataque para seu máximo por diversos ataques."
+      "description": "Empunhadura de Martelo: Passivo: Restaura Mana a cada acerto. Ativo: Cria um campo elétrico que causa dano a inimigos próximos por muitos segundos. Empunhadura de Canhão: Recebe um impulso de energia, aumentando a Velocidade de Ataque para seu máximo por diversos ataques.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Jayce.E",
       "ability": "E",
       "name": "Golpe Trovejante / Portão Acelerador",
-      "description": "Empunhadura de Martelo: causa Dano Mágico e empurra inimigos por uma curta distância. Empunhadura de Canhão: posiciona um Portão Acelerador que aumenta a Velocidade de Movimento dos Campeões aliados que o atravessarem. Se Disparo Chocante for usada através do portão, a velocidade, o alcance e o dano do projétil aumentarão."
+      "description": "Empunhadura de Martelo: causa Dano Mágico e empurra inimigos por uma curta distância. Empunhadura de Canhão: posiciona um Portão Acelerador que aumenta a Velocidade de Movimento dos Campeões aliados que o atravessarem. Se Disparo Chocante for usada através do portão, a velocidade, o alcance e o dano do projétil aumentarão.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12,
+        10
+      ]
     },
     {
       "id": "Jayce.R",
       "ability": "R",
       "name": "Canhão de Mercúrio / Martelo de Mercúrio",
-      "description": "Empunhadura de Martelo: Transforma o Martelo de Mercúrio em Canhão de Mercúrio, recebendo novas habilidades e ataques à distância. O primeiro ataque desta forma reduzirá a Armadura e a Resistência Mágica do alvo. Empunhadura de Canhão: Transforma o Canhão de Mercúrio em Martelo de Mercúrio, recebendo novas habilidades, aumentando a Resistência Mágica e a Armadura. O primeiro ataque desta forma causará Dano Mágico adicional."
+      "description": "Empunhadura de Martelo: Transforma o Martelo de Mercúrio em Canhão de Mercúrio, recebendo novas habilidades e ataques à distância. O primeiro ataque desta forma reduzirá a Armadura e a Resistência Mágica do alvo. Empunhadura de Canhão: Transforma o Canhão de Mercúrio em Martelo de Mercúrio, recebendo novas habilidades, aumentando a Resistência Mágica e a Armadura. O primeiro ataque desta forma causará Dano Mágico adicional.",
+      "cooldown": [
+        6
+      ]
     },
     {
       "id": "Jayce.P",
       "ability": "P",
       "name": "Capacitor Hextec",
-      "description": "Quando Jayce troca de arma, ele recebe Velocidade de Movimento por um curto período."
+      "description": "Quando Jayce troca de arma, ele recebe Velocidade de Movimento por um curto período.",
+      "cooldown": null
     }
   ],
   "tips": [],

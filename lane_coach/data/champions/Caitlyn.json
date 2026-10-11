@@ -16,31 +16,58 @@
       "id": "Caitlyn.Q",
       "ability": "Q",
       "name": "Pacificadora de Piltover",
-      "description": "Caitlyn prepara seu rifle por 1s para fazer um disparo penetrante que causa Dano Físico (causa menos dano a alvos subsequentes)."
+      "description": "Caitlyn prepara seu rifle por 1s para fazer um disparo penetrante que causa Dano Físico (causa menos dano a alvos subsequentes).",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Caitlyn.W",
       "ability": "W",
       "name": "Armadilha Mecânica Yordle",
-      "description": "Caitlyn posiciona uma armadilha que, quando ativada, revela e imobiliza o Campeão inimigo por 1,5s e concede a Caitlyn um Bem na Mira fortalecido."
+      "description": "Caitlyn posiciona uma armadilha que, quando ativada, revela e imobiliza o Campeão inimigo por 1,5s e concede a Caitlyn um Bem na Mira fortalecido.",
+      "cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
     },
     {
       "id": "Caitlyn.E",
       "ability": "E",
       "name": "Rede Calibre 90",
-      "description": "Caitlyn atira uma rede pesada para reduzir a velocidade do seu alvo. O recuo projeta Caitlyn para trás."
+      "description": "Caitlyn atira uma rede pesada para reduzir a velocidade do seu alvo. O recuo projeta Caitlyn para trás.",
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ]
     },
     {
       "id": "Caitlyn.R",
       "ability": "R",
       "name": "Ás na Manga",
-      "description": "Caitlyn se concentra para fazer o disparo perfeito, causando dano drástico em um único alvo a uma longa distância. Campeões inimigos podem interceptar o projétil e tomar dano no lugar de seu aliado."
+      "description": "Caitlyn se concentra para fazer o disparo perfeito, causando dano drástico em um único alvo a uma longa distância. Campeões inimigos podem interceptar o projétil e tomar dano no lugar de seu aliado.",
+      "cooldown": [
+        90,
+        90,
+        90
+      ]
     },
     {
       "id": "Caitlyn.P",
       "ability": "P",
       "name": "Bem na Mira",
-      "description": "A cada poucos ataques básicos, ou contra um alvo preso em uma armadilha ou rede, Caitlyn fará um disparo Bem na Mira causando dano adicional que escala com sua Chance de Acerto Crítico. Em alvos presos por armadilhas ou pela rede, o alcance de Bem na Mira de Caitlyn é dobrado."
+      "description": "A cada poucos ataques básicos, ou contra um alvo preso em uma armadilha ou rede, Caitlyn fará um disparo Bem na Mira causando dano adicional que escala com sua Chance de Acerto Crítico. Em alvos presos por armadilhas ou pela rede, o alcance de Bem na Mira de Caitlyn é dobrado.",
+      "cooldown": null
     }
   ],
   "tips": [],

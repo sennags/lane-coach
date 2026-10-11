@@ -17,31 +17,58 @@
       "id": "Zyra.Q",
       "ability": "Q",
       "name": "Farpas Mortais",
-      "description": "Vinhas espessas se espalham pelo chão e explodem em farpas, causando Dano Mágico a inimigos dentro da área. Se conjurada perto de uma semente, Farpas Mortais faz surgir uma planta Cospe-Espinhos, que dispara contra inimigos distantes."
+      "description": "Vinhas espessas se espalham pelo chão e explodem em farpas, causando Dano Mágico a inimigos dentro da área. Se conjurada perto de uma semente, Farpas Mortais faz surgir uma planta Cospe-Espinhos, que dispara contra inimigos distantes.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "Zyra.W",
       "ability": "W",
       "name": "Crescimento Desenfreado",
-      "description": "Zyra planta uma semente com duração de 60s. Conjurar Farpas Mortais e Pântano das Raízes perto das sementes fará surgir plantas que lutam por Zyra. Zyra pode armazenar várias sementes ao mesmo tempo, e abater inimigos reduz o tempo de recarga de Crescimento Desenfreado."
+      "description": "Zyra planta uma semente com duração de 60s. Conjurar Farpas Mortais e Pântano das Raízes perto das sementes fará surgir plantas que lutam por Zyra. Zyra pode armazenar várias sementes ao mesmo tempo, e abater inimigos reduz o tempo de recarga de Crescimento Desenfreado.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Zyra.E",
       "ability": "E",
       "name": "Pântano das Raízes",
-      "description": "Zyra lança vinhas pelo chão para prenderem seu alvo, causando dano e enraizando inimigos atingidos. Se conjurada próxima a uma semente, Pântano das Raízes faz surgir Vinhas Ásperas com ataques de curta distância que reduzem a Velocidade de Movimento do inimigo."
+      "description": "Zyra lança vinhas pelo chão para prenderem seu alvo, causando dano e enraizando inimigos atingidos. Se conjurada próxima a uma semente, Pântano das Raízes faz surgir Vinhas Ásperas com ataques de curta distância que reduzem a Velocidade de Movimento do inimigo.",
+      "cooldown": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
     },
     {
       "id": "Zyra.R",
       "ability": "R",
       "name": "Espinhos Sufocantes",
-      "description": "Zyra invoca raízes retorcidas no local-alvo, causando dano a inimigos conforme elas se expandem e arremessando-os ao ar quando se contraem. Plantas ao alcance das raízes ficam enfurecidas."
+      "description": "Zyra invoca raízes retorcidas no local-alvo, causando dano a inimigos conforme elas se expandem e arremessando-os ao ar quando se contraem. Plantas ao alcance das raízes ficam enfurecidas.",
+      "cooldown": [
+        110,
+        100,
+        90
+      ]
     },
     {
       "id": "Zyra.P",
       "ability": "P",
       "name": "Jardim de Espinhos",
-      "description": "Sementes surgem periodicamente ao redor de Zyra, mais rapidamente dependendo do nível. Zyra pode conjurar Farpas Mortais ou Pântano das Raízes próximo a sementes para fazer surgir plantas que lutarão por ela."
+      "description": "Sementes surgem periodicamente ao redor de Zyra, mais rapidamente dependendo do nível. Zyra pode conjurar Farpas Mortais ou Pântano das Raízes próximo a sementes para fazer surgir plantas que lutarão por ela.",
+      "cooldown": null
     }
   ],
   "tips": [],

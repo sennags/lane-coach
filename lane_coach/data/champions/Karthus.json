@@ -16,31 +16,58 @@
       "id": "Karthus.Q",
       "ability": "Q",
       "name": "Devastar",
-      "description": "Karthus desfere uma explosão em um local após um intervalo, causando dano a inimigos próximos. Causa mais dano a inimigos isolados."
+      "description": "Karthus desfere uma explosão em um local após um intervalo, causando dano a inimigos próximos. Causa mais dano a inimigos isolados.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Karthus.W",
       "ability": "W",
       "name": "Barreira da Dor",
-      "description": "Karthus cria uma barreira transponível de energia parasita. Qualquer unidade inimiga que atravessá-la tem sua Velocidade de Movimento e Resistência Mágica reduzidas por um período de tempo."
+      "description": "Karthus cria uma barreira transponível de energia parasita. Qualquer unidade inimiga que atravessá-la tem sua Velocidade de Movimento e Resistência Mágica reduzidas por um período de tempo.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Karthus.E",
       "ability": "E",
       "name": "Perverter",
-      "description": "Karthus passivamente rouba energia de suas vítimas, recebendo Mana a cada abate. Ele também pode se cercar das almas de suas presas, causando dano a inimigos próximos, mas drenando rapidamente a própria Mana."
+      "description": "Karthus passivamente rouba energia de suas vítimas, recebendo Mana a cada abate. Ele também pode se cercar das almas de suas presas, causando dano a inimigos próximos, mas drenando rapidamente a própria Mana.",
+      "cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
     },
     {
       "id": "Karthus.R",
       "ability": "R",
       "name": "Réquiem",
-      "description": "Após canalizar por 3 segundos, Karthus causa dano a todos os Campeões inimigos."
+      "description": "Após canalizar por 3 segundos, Karthus causa dano a todos os Campeões inimigos.",
+      "cooldown": [
+        200,
+        180,
+        160
+      ]
     },
     {
       "id": "Karthus.P",
       "ability": "P",
       "name": "Desafio da Morte",
-      "description": "Ao morrer, Karthus entra em forma de espírito e pode continuar conjurando habilidades."
+      "description": "Ao morrer, Karthus entra em forma de espírito e pode continuar conjurando habilidades.",
+      "cooldown": null
     }
   ],
   "tips": [],

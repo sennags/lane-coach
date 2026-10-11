@@ -17,31 +17,58 @@
       "id": "Morgana.Q",
       "ability": "Q",
       "name": "Ligação das Trevas",
-      "description": "Morgana prende um inimigo no lugar com magia sombria, forçando-o a sentir a dor que provocou e causando Dano Mágico."
+      "description": "Morgana prende um inimigo no lugar com magia sombria, forçando-o a sentir a dor que provocou e causando Dano Mágico.",
+      "cooldown": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
     },
     {
       "id": "Morgana.W",
       "ability": "W",
       "name": "Sombra Atormentada",
-      "description": "Morgana conjura uma sombra amaldiçoada em uma área, causando dano aos inimigos que ousarem permanecer em seu círculo sombrio. Eles sofrem Dano Mágico ao longo do tempo, que aumenta quanto mais suas Vidas estiverem baixas."
+      "description": "Morgana conjura uma sombra amaldiçoada em uma área, causando dano aos inimigos que ousarem permanecer em seu círculo sombrio. Eles sofrem Dano Mágico ao longo do tempo, que aumenta quanto mais suas Vidas estiverem baixas.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Morgana.E",
       "ability": "E",
       "name": "Escudo Negro",
-      "description": "Morgana abençoa um aliado com uma barreira protetora de fogo estelar que absorve Dano Mágico e efeitos de desarme até que quebre."
+      "description": "Morgana abençoa um aliado com uma barreira protetora de fogo estelar que absorve Dano Mágico e efeitos de desarme até que quebre.",
+      "cooldown": [
+        26,
+        23.5,
+        21,
+        18.5,
+        16
+      ]
     },
     {
       "id": "Morgana.R",
       "ability": "R",
       "name": "Grilhões da Alma",
-      "description": "Morgana libera a força total de seu poder celestial conforme desprende suas asas e flutua acima do chão. Ela lança correntes de dor sombria nos Campeões inimigos próximos, ganhando Velocidade de Movimento. As correntes causam Lentidão e um dano inicial. Depois de um intervalo, atordoam quem não conseguir quebrá-las."
+      "description": "Morgana libera a força total de seu poder celestial conforme desprende suas asas e flutua acima do chão. Ela lança correntes de dor sombria nos Campeões inimigos próximos, ganhando Velocidade de Movimento. As correntes causam Lentidão e um dano inicial. Depois de um intervalo, atordoam quem não conseguir quebrá-las.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "Morgana.P",
       "ability": "P",
       "name": "Sifão da Alma",
-      "description": "Morgana drena o espírito dos inimigos, curando-se conforme causa dano a Campeões, tropas grandes e monstros médios e grandes da selva."
+      "description": "Morgana drena o espírito dos inimigos, curando-se conforme causa dano a Campeões, tropas grandes e monstros médios e grandes da selva.",
+      "cooldown": null
     }
   ],
   "tips": [],

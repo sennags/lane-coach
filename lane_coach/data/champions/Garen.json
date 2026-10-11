@@ -17,31 +17,58 @@
       "id": "Garen.Q",
       "ability": "Q",
       "name": "Acerto Decisivo",
-      "description": "Garen recebe um impulso de Velocidade de Movimento, libertando-se de todos os efeitos de Lentidão. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o."
+      "description": "Garen recebe um impulso de Velocidade de Movimento, libertando-se de todos os efeitos de Lentidão. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Garen.W",
       "ability": "W",
       "name": "Coragem",
-      "description": "Garen aumenta sua Armadura e Resistência Mágica passivamente ao abater inimigos. Ele também pode ativar essa habilidade para receber um escudo e Tenacidade por um breve período, seguido de uma quantidade menor de redução de dano com maior duração."
+      "description": "Garen aumenta sua Armadura e Resistência Mágica passivamente ao abater inimigos. Ele também pode ativar essa habilidade para receber um escudo e Tenacidade por um breve período, seguido de uma quantidade menor de redução de dano com maior duração.",
+      "cooldown": [
+        22,
+        19.5,
+        17,
+        14.5,
+        12
+      ]
     },
     {
       "id": "Garen.E",
       "ability": "E",
       "name": "Julgamento",
-      "description": "Garen gira rapidamente a espada ao redor do corpo dele, causando Dano Físico a inimigos próximos."
+      "description": "Garen gira rapidamente a espada ao redor do corpo dele, causando Dano Físico a inimigos próximos.",
+      "cooldown": [
+        9,
+        8.25,
+        7.5,
+        6.75,
+        6
+      ]
     },
     {
       "id": "Garen.R",
       "ability": "R",
       "name": "Justiça Demaciana",
-      "description": "Garen evoca o Poder de Demacia para tentar executar um Campeão inimigo."
+      "description": "Garen evoca o Poder de Demacia para tentar executar um Campeão inimigo.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Garen.P",
       "ability": "P",
       "name": "Perseverança",
-      "description": "Se Garen não tiver sido atingido recentemente por dano ou habilidades inimigas, ele regenera um percentual de sua Vida total a cada segundo."
+      "description": "Se Garen não tiver sido atingido recentemente por dano ou habilidades inimigas, ele regenera um percentual de sua Vida total a cada segundo.",
+      "cooldown": null
     }
   ],
   "tips": [],

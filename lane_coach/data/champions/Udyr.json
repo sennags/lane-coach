@@ -17,31 +17,64 @@
       "id": "Udyr.Q",
       "ability": "Q",
       "name": "Garra Selvagem",
-      "description": "Udyr recebe Velocidade de Ataque, e seus próximos dois Ataques causam Dano Físico adicional. Reconjuração: recebe ainda mais Velocidade de Ataque, e seus próximos dois Ataques conjuram relâmpagos no alvo."
+      "description": "Udyr recebe Velocidade de Ataque, e seus próximos dois Ataques causam Dano Físico adicional. Reconjuração: recebe ainda mais Velocidade de Ataque, e seus próximos dois Ataques conjuram relâmpagos no alvo.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Udyr.W",
       "ability": "W",
       "name": "Manto de Ferro",
-      "description": "Udyr recebe um Escudo e seus próximos dois Ataques o curam. Reconjuração: recebe um Escudo ainda maior e cura com base na Vida máxima pelos próximos segundos."
+      "description": "Udyr recebe um Escudo e seus próximos dois Ataques o curam. Reconjuração: recebe um Escudo ainda maior e cura com base na Vida máxima pelos próximos segundos.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Udyr.E",
       "ability": "E",
       "name": "Investida Ardente",
-      "description": "Udyr recebe Velocidade de Movimento e causa Atordoamento em seu primeiro Ataque a cada alvo. Reconjuração: recebe ainda mais Velocidade de Movimento e imunidade a efeitos imobilizadores por alguns segundos."
+      "description": "Udyr recebe Velocidade de Movimento e causa Atordoamento em seu primeiro Ataque a cada alvo. Reconjuração: recebe ainda mais Velocidade de Movimento e imunidade a efeitos imobilizadores por alguns segundos.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Udyr.R",
       "ability": "R",
       "name": "Tempestade Alada",
-      "description": "Udyr cerca a si mesmo com uma tempestade glacial, causando dano e Lentidão a inimigos próximos. Reconjuração: fortalece e desencadeia a tempestade, fazendo com que ela siga inimigos e cause dano adicional."
+      "description": "Udyr cerca a si mesmo com uma tempestade glacial, causando dano e Lentidão a inimigos próximos. Reconjuração: fortalece e desencadeia a tempestade, fazendo com que ela siga inimigos e cause dano adicional.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Udyr.P",
       "ability": "P",
       "name": "Ponte Espiritual",
-      "description": "Udyr tem quatro Habilidades básicas que o fazem alternar entre Posturas e pode Reconjurar uma Habilidade para renová-la com efeitos adicionais na ultimate. Além disso, após usar uma Habilidade, os próximos dois Ataques de Udyr recebem Velocidade de Ataque."
+      "description": "Udyr tem quatro Habilidades básicas que o fazem alternar entre Posturas e pode Reconjurar uma Habilidade para renová-la com efeitos adicionais na ultimate. Além disso, após usar uma Habilidade, os próximos dois Ataques de Udyr recebem Velocidade de Ataque.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -72,9 +72,9 @@
 {% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. Orientação geral, sem revisão específica do campeão.</p>{% endif %}</section>{% endfor %}</article>{% endfor %}</div>
 </section>
 <p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Perfis independentes por campeão; a rota selecionada ainda não altera as orientações.</p>
-<p class="review">Perfis independentes. Estratégia: {{ guide.patch }}. Revisão especializada pendente. Sem cálculo de vencedor ou observação da partida.</p>
 <section class="abilities-section" aria-labelledby="abilities-title">
 <h2 id="abilities-title">HABILIDADES</h2>
+<p class="cooldown-note">Recarga base por nível da habilidade. Aceleração e efeitos do kit podem alterar os valores; não é um contador da partida.</p>
 <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
 </section>
 

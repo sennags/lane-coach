@@ -17,31 +17,58 @@
       "id": "Brand.Q",
       "ability": "Q",
       "name": "Cauterizar",
-      "description": "Brand lança uma bola de fogo que causa Dano Mágico. Se o alvo estiver incandescente, Cauterizar o atordoará."
+      "description": "Brand lança uma bola de fogo que causa Dano Mágico. Se o alvo estiver incandescente, Cauterizar o atordoará.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Brand.W",
       "ability": "W",
       "name": "Pilar de Chamas",
-      "description": "Após um curto intervalo, Brand cria um Pilar de Chamas na área alvo, causando Dano Mágico a unidades inimigas na área. Unidades que estiverem incandescentes sofrem 25% de dano adicional."
+      "description": "Após um curto intervalo, Brand cria um Pilar de Chamas na área alvo, causando Dano Mágico a unidades inimigas na área. Unidades que estiverem incandescentes sofrem 25% de dano adicional.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Brand.E",
       "ability": "E",
       "name": "Conflagração",
-      "description": "Brand conjura uma poderosa explosão no alvo que se espalha para inimigos próximos, causando Dano Mágico. Se o alvo estiver incandescente, o alcance de Conflagração será dobrado."
+      "description": "Brand conjura uma poderosa explosão no alvo que se espalha para inimigos próximos, causando Dano Mágico. Se o alvo estiver incandescente, o alcance de Conflagração será dobrado.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Brand.R",
       "ability": "R",
       "name": "Piroclasma",
-      "description": "Brand desfere uma devastadora torrente de fogo que ressalta 5 vezes, indo de Brand aos inimigos próximos e causando Dano Mágico a cada vez que ressaltar. Os ressaltos priorizam acumular Labareda ao máximo em Campeões. Se o alvo estiver incandescente, Piroclasma causará breve Lentidão a ele."
+      "description": "Brand desfere uma devastadora torrente de fogo que ressalta 5 vezes, indo de Brand aos inimigos próximos e causando Dano Mágico a cada vez que ressaltar. Os ressaltos priorizam acumular Labareda ao máximo em Campeões. Se o alvo estiver incandescente, Piroclasma causará breve Lentidão a ele.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Brand.P",
       "ability": "P",
       "name": "Labareda",
-      "description": "As habilidades de Brand deixam seus alvos incandescentes, causando dano ao longo de 4s, acumulando até 3 vezes. Se Brand abate um inimigo que estiver incandescente, ele recupera Mana. Quando Labareda chegar ao máximo de acúmulos em um Campeão ou monstro grande, ela se torna instável. Detona depois de 2s, aplicando efeitos de habilidades e causando muito dano em uma área ao redor da vítima."
+      "description": "As habilidades de Brand deixam seus alvos incandescentes, causando dano ao longo de 4s, acumulando até 3 vezes. Se Brand abate um inimigo que estiver incandescente, ele recupera Mana. Quando Labareda chegar ao máximo de acúmulos em um Campeão ou monstro grande, ela se torna instável. Detona depois de 2s, aplicando efeitos de habilidades e causando muito dano em uma área ao redor da vítima.",
+      "cooldown": null
     }
   ],
   "tips": [],

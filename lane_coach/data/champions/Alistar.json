@@ -17,31 +17,58 @@
       "id": "Alistar.Q",
       "ability": "Q",
       "name": "Pulverizar",
-      "description": "Alistar golpeia o chão, causando dano a inimigos próximos e arremessando-os ao ar."
+      "description": "Alistar golpeia o chão, causando dano a inimigos próximos e arremessando-os ao ar.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Alistar.W",
       "ability": "W",
       "name": "Cabeçada",
-      "description": "Alistar atinge o inimigo com sua cabeça, causando dano e jogando o alvo para trás."
+      "description": "Alistar atinge o inimigo com sua cabeça, causando dano e jogando o alvo para trás.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Alistar.E",
       "ability": "E",
       "name": "Atropelar",
-      "description": "Alistar atropela unidades inimigas próximas, ignorando colisão com unidades e recebendo acúmulos caso cause dano a um Campeão inimigo. O próximo ataque básico com o máximo de acúmulos contra um Campeão inimigo causa Dano Mágico adicional e o atordoa."
+      "description": "Alistar atropela unidades inimigas próximas, ignorando colisão com unidades e recebendo acúmulos caso cause dano a um Campeão inimigo. O próximo ataque básico com o máximo de acúmulos contra um Campeão inimigo causa Dano Mágico adicional e o atordoa.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Alistar.R",
       "ability": "R",
       "name": "Vontade Indestrutível",
-      "description": "Alistar solta um urro selvagem, removendo todos os efeitos de Controle de Grupo de si mesmo, além de reduzir o Dano Físico e Mágico enquanto durar o efeito."
+      "description": "Alistar solta um urro selvagem, removendo todos os efeitos de Controle de Grupo de si mesmo, além de reduzir o Dano Físico e Mágico enquanto durar o efeito.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Alistar.P",
       "ability": "P",
       "name": "Urro Triunfante",
-      "description": "Alistar carrega seu urro ao atordoar, deslocar a posição de Campeões inimigos ou quando inimigos próximos morrem. Quando estiver com o máximo de cargas, ele cura a si mesmo e aos Campeões aliados próximos."
+      "description": "Alistar carrega seu urro ao atordoar, deslocar a posição de Campeões inimigos ou quando inimigos próximos morrem. Quando estiver com o máximo de cargas, ele cura a si mesmo e aos Campeões aliados próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

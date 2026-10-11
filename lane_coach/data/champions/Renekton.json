@@ -17,31 +17,58 @@
       "id": "Renekton.Q",
       "ability": "Q",
       "name": "Abater os Indefesos",
-      "description": "Renekton brande sua lâmina, causando Dano Físico moderado em todos os alvos ao seu redor e curando-o em uma pequena quantia do dano causado. Caso tenha mais que 50 pontos de Fúria, seu dano e cura aumentam."
+      "description": "Renekton brande sua lâmina, causando Dano Físico moderado em todos os alvos ao seu redor e curando-o em uma pequena quantia do dano causado. Caso tenha mais que 50 pontos de Fúria, seu dano e cura aumentam.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Renekton.W",
       "ability": "W",
       "name": "Predador Desumano",
-      "description": "Renekton corta seu alvo duas vezes, causado Dano Físico moderado e atordoamento por 0,75s. Se Renekton tiver mais de 50 de Fúria, ele corta o inimigo três vezes, destruindo escudos de dano no alvo, causando Dano Físico alto e atordoando por 1,5s."
+      "description": "Renekton corta seu alvo duas vezes, causado Dano Físico moderado e atordoamento por 0,75s. Se Renekton tiver mais de 50 de Fúria, ele corta o inimigo três vezes, destruindo escudos de dano no alvo, causando Dano Físico alto e atordoando por 1,5s.",
+      "cooldown": [
+        16,
+        14,
+        12,
+        10,
+        8
+      ]
     },
     {
       "id": "Renekton.E",
       "ability": "E",
       "name": "Fatiar e Picar",
-      "description": "Renekton avança, causando dano a unidades em seu caminho. Fortalecido, Renekton causa dano adicional e reduz a Armadura das unidades atingidas."
+      "description": "Renekton avança, causando dano a unidades em seu caminho. Fortalecido, Renekton causa dano adicional e reduz a Armadura das unidades atingidas.",
+      "cooldown": [
+        16,
+        14.5,
+        13,
+        11.5,
+        10
+      ]
     },
     {
       "id": "Renekton.R",
       "ability": "R",
       "name": "Dominus",
-      "description": "Renekton transforma-se em sua forma Tirana, recebendo Vida adicional e causando dano a inimigos ao seu redor. Enquanto estiver nessa forma, ele recebe Fúria periodicamente."
+      "description": "Renekton transforma-se em sua forma Tirana, recebendo Vida adicional e causando dano a inimigos ao seu redor. Enquanto estiver nessa forma, ele recebe Fúria periodicamente.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Renekton.P",
       "ability": "P",
       "name": "Domínio da Ira",
-      "description": "Os ataques de Renekton geram Fúria, que aumenta quando ele estiver com a Vida baixa. Essa Fúria pode fortalecer suas habilidades com efeitos adicionais."
+      "description": "Os ataques de Renekton geram Fúria, que aumenta quando ele estiver com a Vida baixa. Essa Fúria pode fortalecer suas habilidades com efeitos adicionais.",
+      "cooldown": null
     }
   ],
   "tips": [],

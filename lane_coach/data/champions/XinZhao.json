@@ -17,31 +17,58 @@
       "id": "XinZhao.Q",
       "ability": "Q",
       "name": "Golpe de Três Garras",
-      "description": "O próximos 3 ataques normais de Xin Zhao causam mais dano. O último arremessa o oponente ao ar."
+      "description": "O próximos 3 ataques normais de Xin Zhao causam mais dano. O último arremessa o oponente ao ar.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "XinZhao.W",
       "ability": "W",
       "name": "Vento Vira Relâmpago",
-      "description": "Xin Zhao golpeia à frente com a lança, causando Lentidão e marcando os inimigos atingidos como Desafiados."
+      "description": "Xin Zhao golpeia à frente com a lança, causando Lentidão e marcando os inimigos atingidos como Desafiados.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "XinZhao.E",
       "ability": "E",
       "name": "Investida Audaciosa",
-      "description": "Xin Zhao avança na direção de um inimigo, ganhando Velocidade de Ataque e causando dano e Lentidão a todos os inimigos na área temporariamente. Esta Habilidade recebe alcance aumentado contra alvos Desafiados."
+      "description": "Xin Zhao avança na direção de um inimigo, ganhando Velocidade de Ataque e causando dano e Lentidão a todos os inimigos na área temporariamente. Esta Habilidade recebe alcance aumentado contra alvos Desafiados.",
+      "cooldown": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
     },
     {
       "id": "XinZhao.R",
       "ability": "R",
       "name": "Guarda Crescente",
-      "description": "Xin Zhao desafia passivamente um inimigo a quem tenha causado dano recentemente. Ao ativar, ele causa dano a inimigos próximos com base na Vida atual deles e Arremessa alvos não Desafiados para trás, tornando-se imune a qualquer dano causado por Campeões fora do círculo criado."
+      "description": "Xin Zhao desafia passivamente um inimigo a quem tenha causado dano recentemente. Ao ativar, ele causa dano a inimigos próximos com base na Vida atual deles e Arremessa alvos não Desafiados para trás, tornando-se imune a qualquer dano causado por Campeões fora do círculo criado.",
+      "cooldown": [
+        120,
+        110,
+        100
+      ]
     },
     {
       "id": "XinZhao.P",
       "ability": "P",
       "name": "Determinação",
-      "description": "Cada terceiro ataque básico causa dano adicional e cura Xin Zhao."
+      "description": "Cada terceiro ataque básico causa dano adicional e cura Xin Zhao.",
+      "cooldown": null
     }
   ],
   "tips": [],

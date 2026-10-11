@@ -16,31 +16,58 @@
       "id": "Qiyana.Q",
       "ability": "Q",
       "name": "Cólera Elemental / Lâmina de Ixtal",
-      "description": "Qiyana brande sua arma, causando dano com um efeito adicional baseado no seu elemento."
+      "description": "Qiyana brande sua arma, causando dano com um efeito adicional baseado no seu elemento.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Qiyana.W",
       "ability": "W",
       "name": "Terraforme",
-      "description": "Qiyana avança para um local e encanta sua arma com um elemento. Ataques e habilidades causam dano adicional enquanto sua arma estiver encantada."
+      "description": "Qiyana avança para um local e encanta sua arma com um elemento. Ataques e habilidades causam dano adicional enquanto sua arma estiver encantada.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Qiyana.E",
       "ability": "E",
       "name": "Audácia",
-      "description": "Qiyana avança em um inimigo e causa dano."
+      "description": "Qiyana avança em um inimigo e causa dano.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Qiyana.R",
       "ability": "R",
       "name": "Suprema Demonstração de Talento",
-      "description": "Qiyana lança uma onda de choque que detona quaisquer elementos que ela acertar, atordoando e causando dano a inimigos próximos."
+      "description": "Qiyana lança uma onda de choque que detona quaisquer elementos que ela acertar, atordoando e causando dano a inimigos próximos.",
+      "cooldown": [
+        120,
+        120,
+        120
+      ]
     },
     {
       "id": "Qiyana.P",
       "ability": "P",
       "name": "Privilégio da Realeza",
-      "description": "O primeiro ataque básico ou habilidade de Qiyana contra cada inimigo causa dano adicional."
+      "description": "O primeiro ataque básico ou habilidade de Qiyana contra cada inimigo causa dano adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

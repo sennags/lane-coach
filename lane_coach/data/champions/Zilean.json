@@ -17,31 +17,58 @@
       "id": "Zilean.Q",
       "ability": "Q",
       "name": "Bomba-relógio",
-      "description": "Arremessa uma bomba no local-alvo, que gruda em unidades que se aproximarem (priorizando Campeões). Ela detona após 3 segundos, causando dano em área. Se uma Bomba-relógio for detonada antecipadamente por outra, o efeito também atordoa inimigos."
+      "description": "Arremessa uma bomba no local-alvo, que gruda em unidades que se aproximarem (priorizando Campeões). Ela detona após 3 segundos, causando dano em área. Se uma Bomba-relógio for detonada antecipadamente por outra, o efeito também atordoa inimigos.",
+      "cooldown": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ]
     },
     {
       "id": "Zilean.W",
       "ability": "W",
       "name": "Retroceder",
-      "description": "Zilean pode se preparar para confrontos futuros, reduzindo o Tempo de Recarga de suas outras habilidades básicas."
+      "description": "Zilean pode se preparar para confrontos futuros, reduzindo o Tempo de Recarga de suas outras habilidades básicas.",
+      "cooldown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ]
     },
     {
       "id": "Zilean.E",
       "ability": "E",
       "name": "Distorção no Tempo",
-      "description": "Zilean manipula o tempo ao redor de qualquer unidade, causando Lentidão a um inimigo ou concedendo Velocidade de Movimento a um aliado por um curto período."
+      "description": "Zilean manipula o tempo ao redor de qualquer unidade, causando Lentidão a um inimigo ou concedendo Velocidade de Movimento a um aliado por um curto período.",
+      "cooldown": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
     },
     {
       "id": "Zilean.R",
       "ability": "R",
       "name": "Alteração Temporal",
-      "description": "Zilean coloca uma runa protetora do tempo em um Campeão aliado, teletransportando-o de volta no tempo se ele receber um dano letal."
+      "description": "Zilean coloca uma runa protetora do tempo em um Campeão aliado, teletransportando-o de volta no tempo se ele receber um dano letal.",
+      "cooldown": [
+        120,
+        90,
+        60
+      ]
     },
     {
       "id": "Zilean.P",
       "ability": "P",
       "name": "Tempo Engarrafado",
-      "description": "Zilean armazena tempo como Experiência, podendo concedê-la aos aliados. Quando tiver Experiência o suficiente para completar o nível de um aliado, Zilean pode clicar com o botão direito nele para conceder os pontos. Zilean recebe a mesma quantidade de Experiência que concede."
+      "description": "Zilean armazena tempo como Experiência, podendo concedê-la aos aliados. Quando tiver Experiência o suficiente para completar o nível de um aliado, Zilean pode clicar com o botão direito nele para conceder os pontos. Zilean recebe a mesma quantidade de Experiência que concede.",
+      "cooldown": null
     }
   ],
   "tips": [],

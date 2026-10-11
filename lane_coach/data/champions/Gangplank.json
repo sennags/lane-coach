@@ -16,31 +16,58 @@
       "id": "Gangplank.Q",
       "ability": "Q",
       "name": "Negociarrr",
-      "description": "Dispara no alvo, saqueando ouro para cada abate de unidade."
+      "description": "Dispara no alvo, saqueando ouro para cada abate de unidade.",
+      "cooldown": [
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ]
     },
     {
       "id": "Gangplank.W",
       "ability": "W",
       "name": "Remover Escorbuto",
-      "description": "Come fruta cítrica para curar efeitos de controle de grupo e restaurar Vida."
+      "description": "Come fruta cítrica para curar efeitos de controle de grupo e restaurar Vida.",
+      "cooldown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ]
     },
     {
       "id": "Gangplank.E",
       "ability": "E",
       "name": "Barril de Pólvora",
-      "description": "Gangplank posiciona um Barril de Pólvora no local-alvo. Ele explodirá caso seja atacado, causando dano aos inimigos na área e reduzindo a Velocidade de Movimento deles."
+      "description": "Gangplank posiciona um Barril de Pólvora no local-alvo. Ele explodirá caso seja atacado, causando dano aos inimigos na área e reduzindo a Velocidade de Movimento deles.",
+      "cooldown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Gangplank.R",
       "ability": "R",
       "name": "Barragem de Canhão",
-      "description": "Gangplank sinaliza para que seu navio bombardeie uma área, causando dano e lentidão aos inimigos."
+      "description": "Gangplank sinaliza para que seu navio bombardeie uma área, causando dano e lentidão aos inimigos.",
+      "cooldown": [
+        160,
+        140,
+        120
+      ]
     },
     {
       "id": "Gangplank.P",
       "ability": "P",
       "name": "Julgamento de Fogo",
-      "description": "Periodicamente, o ataque corpo a corpo de Gangplank deixará seu inimigo em chamas."
+      "description": "Periodicamente, o ataque corpo a corpo de Gangplank deixará seu inimigo em chamas.",
+      "cooldown": null
     }
   ],
   "tips": [],

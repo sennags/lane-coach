@@ -17,31 +17,58 @@
       "id": "Volibear.Q",
       "ability": "Q",
       "name": "Esmagamento Trovejante",
-      "description": "Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar."
+      "description": "Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar.",
+      "cooldown": [
+        12,
+        11.5,
+        11,
+        10.5,
+        10
+      ]
     },
     {
       "id": "Volibear.W",
       "ability": "W",
       "name": "Fúria Selvagem",
-      "description": "Volibear causa dano a um inimigo, marcando-o e aplicando efeitos ao contato. Conjurar a habilidade novamente no mesmo alvo causa dano adicional e cura Volibear."
+      "description": "Volibear causa dano a um inimigo, marcando-o e aplicando efeitos ao contato. Conjurar a habilidade novamente no mesmo alvo causa dano adicional e cura Volibear.",
+      "cooldown": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Volibear.E",
       "ability": "E",
       "name": "Divisor de Céus",
-      "description": "Volibear invoca um relâmpago em um local, causando dano e Lentidão aos inimigos. Ele também ganhará um Escudo se estiver no raio da explosão."
+      "description": "Volibear invoca um relâmpago em um local, causando dano e Lentidão aos inimigos. Ele também ganhará um Escudo se estiver no raio da explosão.",
+      "cooldown": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
     },
     {
       "id": "Volibear.R",
       "ability": "R",
       "name": "Emissário da Tempestade",
-      "description": "Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional. Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas."
+      "description": "Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional. Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas.",
+      "cooldown": [
+        160,
+        135,
+        110
+      ]
     },
     {
       "id": "Volibear.P",
       "ability": "P",
       "name": "A Tempestade Implacável",
-      "description": "Os Ataques e habilidades de Volibear concedem Velocidade de Ataque e, às vezes, fazem com que seus Ataques causem Dano Mágico adicional a inimigos próximos."
+      "description": "Os Ataques e habilidades de Volibear concedem Velocidade de Ataque e, às vezes, fazem com que seus Ataques causem Dano Mágico adicional a inimigos próximos.",
+      "cooldown": null
     }
   ],
   "tips": [],

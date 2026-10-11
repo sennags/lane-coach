@@ -21,7 +21,14 @@
       "coaching": {
         "use": "Atingir unidades estende o alcance; causa dano na ida e na volta.",
         "limit": "Para aproveitar os dois acertos, o retorno também precisa atingir."
-      }
+      },
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Akshan.W",
@@ -31,7 +38,14 @@
       "coaching": {
         "use": "Camuflagem permite aproximação perto do terreno ou em arbustos.",
         "limit": "Longe dessas áreas, a camuflagem termina rapidamente."
-      }
+      },
+      "cooldown": [
+        18,
+        14,
+        10,
+        6,
+        2
+      ]
     },
     {
       "id": "Akshan.E",
@@ -41,7 +55,14 @@
       "coaching": {
         "use": "Balanço no terreno com ataques durante o movimento.",
         "limit": "Colidir com campeão ou terreno encerra o balanço."
-      }
+      },
+      "cooldown": [
+        18,
+        16.5,
+        15,
+        13.5,
+        12
+      ]
     },
     {
       "id": "Akshan.R",
@@ -51,7 +72,12 @@
       "coaching": {
         "use": "Dano dos disparos considera a vida perdida do alvo.",
         "limit": "Minions, estruturas e campeões podem bloquear os disparos."
-      }
+      },
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Akshan.P",
@@ -61,7 +87,8 @@
       "coaching": {
         "use": "Terceiro acerto: dano extra e escudo contra campeões.",
         "limit": "Precisa completar a sequência. Cancelar o segundo ataque dá velocidade."
-      }
+      },
+      "cooldown": null
     }
   ],
   "tips": [],

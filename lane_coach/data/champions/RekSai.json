@@ -17,31 +17,58 @@
       "id": "RekSai.Q",
       "ability": "Q",
       "name": "Ira da Rainha / Sondar Presas",
-      "description": "Os próximos 3 ataques básicos de Rek'Sai causam Dano Físico adicional a inimigos próximos. Enquanto está enterrada, Rek'Sai lança uma rajada de terra carregada com o poder do Vazio que causa dano e revela os inimigos atingidos."
+      "description": "Os próximos 3 ataques básicos de Rek'Sai causam Dano Físico adicional a inimigos próximos. Enquanto está enterrada, Rek'Sai lança uma rajada de terra carregada com o poder do Vazio que causa dano e revela os inimigos atingidos.",
+      "cooldown": [
+        4,
+        3.5,
+        3,
+        2.5,
+        2
+      ]
     },
     {
       "id": "RekSai.W",
       "ability": "W",
       "name": "Escavar / Emergir",
-      "description": "Rek'Sai se enterra no chão, recebendo novas Habilidades e Velocidade de Movimento aumentada. O alcance da visão é reduzido e ela não pode usar ataques básicos. Enquanto enterrada, Rek'Sai pode conjurar Emergir para causar dano e arremessar ao ar os inimigos próximos."
+      "description": "Rek'Sai se enterra no chão, recebendo novas Habilidades e Velocidade de Movimento aumentada. O alcance da visão é reduzido e ela não pode usar ataques básicos. Enquanto enterrada, Rek'Sai pode conjurar Emergir para causar dano e arremessar ao ar os inimigos próximos.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "RekSai.E",
       "ability": "E",
       "name": "Mordida Feroz / Túnel",
-      "description": "Rek'Sai morde o alvo, causando Dano Físico ou Dano Verdadeiro adicional se tiver o máximo de Fúria. Enquanto escavada, Rek'Sai cria um Túnel longo, duradouro e reutilizável. Inimigos podem destruí-lo ficando sobre uma das entradas."
+      "description": "Rek'Sai morde o alvo, causando Dano Físico ou Dano Verdadeiro adicional se tiver o máximo de Fúria. Enquanto escavada, Rek'Sai cria um Túnel longo, duradouro e reutilizável. Inimigos podem destruí-lo ficando sobre uma das entradas.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "RekSai.R",
       "ability": "R",
       "name": "Investida do Vazio",
-      "description": "Rek'Sai marca seus alvos passivamente ao causar dano. Ela pode ativar essa habilidade para se tornar inalvejável brevemente e saltar até um alvo marcado, causando dano pesado com base na Vida máxima dele."
+      "description": "Rek'Sai marca seus alvos passivamente ao causar dano. Ela pode ativar essa habilidade para se tornar inalvejável brevemente e saltar até um alvo marcado, causando dano pesado com base na Vida máxima dele.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "RekSai.P",
       "ability": "P",
       "name": "Fúria dos Xer'Sai",
-      "description": "Rek'Sai gera Fúria ao Atacar e atingir inimigos com Habilidades básicas. Enquanto estiver Escavada, ela consome a Fúria para restaurar Vida."
+      "description": "Rek'Sai gera Fúria ao Atacar e atingir inimigos com Habilidades básicas. Enquanto estiver Escavada, ela consome a Fúria para restaurar Vida.",
+      "cooldown": null
     }
   ],
   "tips": [],

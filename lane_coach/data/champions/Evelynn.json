@@ -17,31 +17,58 @@
       "id": "Evelynn.Q",
       "ability": "Q",
       "name": "Espinho de Ódio",
-      "description": "Evelynn ataca com seu Chicote, causando dano ao primeiro inimigo atingido. Depois, ela dispara uma linha de espinhos algumas vezes contra inimigos próximos."
+      "description": "Evelynn ataca com seu Chicote, causando dano ao primeiro inimigo atingido. Depois, ela dispara uma linha de espinhos algumas vezes contra inimigos próximos.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Evelynn.W",
       "ability": "W",
       "name": "Fascinação",
-      "description": "Evelynn amaldiçoa seu alvo, fazendo com que o próximo ataque ou habilidade dela o encante e reduza sua Resistência Mágica depois um intervalo."
+      "description": "Evelynn amaldiçoa seu alvo, fazendo com que o próximo ataque ou habilidade dela o encante e reduza sua Resistência Mágica depois um intervalo.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Evelynn.E",
       "ability": "E",
       "name": "Chicotada",
-      "description": "Evelynn açoita seu alvo com seu Chicote, causando dano. Depois, ela ganha Velocidade de Movimento por um breve período."
+      "description": "Evelynn açoita seu alvo com seu Chicote, causando dano. Depois, ela ganha Velocidade de Movimento por um breve período.",
+      "cooldown": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
     },
     {
       "id": "Evelynn.R",
       "ability": "R",
       "name": "Última Carícia",
-      "description": "Evelynn fica inalvejável por um breve período e dizima a área à sua frente antes de se mover uma longa distância para trás."
+      "description": "Evelynn fica inalvejável por um breve período e dizima a área à sua frente antes de se mover uma longa distância para trás.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Evelynn.P",
       "ability": "P",
       "name": "Sombra Demoníaca",
-      "description": "Quando está fora de combate, Evelynn entra em Sombra Demoníaca. A Sombra Demoníaca cura Evelynn quando ela está com pouca Vida e concede Camuflagem após o nível 6."
+      "description": "Quando está fora de combate, Evelynn entra em Sombra Demoníaca. A Sombra Demoníaca cura Evelynn quando ela está com pouca Vida e concede Camuflagem após o nível 6.",
+      "cooldown": null
     }
   ],
   "tips": [],

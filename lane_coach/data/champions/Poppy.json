@@ -17,31 +17,58 @@
       "id": "Poppy.Q",
       "ability": "Q",
       "name": "Choque do Martelo",
-      "description": "Poppy golpeia com o martelo, causando dano e criando uma área que reduz a velocidade de inimigos e explode após um intervalo."
+      "description": "Poppy golpeia com o martelo, causando dano e criando uma área que reduz a velocidade de inimigos e explode após um intervalo.",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
     },
     {
       "id": "Poppy.W",
       "ability": "W",
       "name": "Presença Inabalável",
-      "description": "Poppy recebe Armadura e Resistência Mágica passivamente, que aumentam quando ela estiver com Vida baixa. Ela pode ativar Presença Inabalável para receber Velocidade de Movimento e impedir avanços inimigos ao seu redor, fazendo com que o inimigo impedido sofra redução de velocidade e fique preso ao chão."
+      "description": "Poppy recebe Armadura e Resistência Mágica passivamente, que aumentam quando ela estiver com Vida baixa. Ela pode ativar Presença Inabalável para receber Velocidade de Movimento e impedir avanços inimigos ao seu redor, fazendo com que o inimigo impedido sofra redução de velocidade e fique preso ao chão.",
+      "cooldown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ]
     },
     {
       "id": "Poppy.E",
       "ability": "E",
       "name": "Investida Heroica",
-      "description": "Poppy avança até o alvo e o empurra para trás. Se o alvo colidir com uma parede, ele será atordoado."
+      "description": "Poppy avança até o alvo e o empurra para trás. Se o alvo colidir com uma parede, ele será atordoado.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Poppy.R",
       "ability": "R",
       "name": "Veredito da Guardiã",
-      "description": "Poppy canaliza um golpe com o martelo que empurra inimigos para muito longe."
+      "description": "Poppy canaliza um golpe com o martelo que empurra inimigos para muito longe.",
+      "cooldown": [
+        140,
+        120,
+        100
+      ]
     },
     {
       "id": "Poppy.P",
       "ability": "P",
       "name": "Embaixadora de Ferro",
-      "description": "Poppy arremessa seu broquel, que bate no alvo e cai no chão. Ela pode apanhá-lo para receber um escudo temporário."
+      "description": "Poppy arremessa seu broquel, que bate no alvo e cai no chão. Ela pode apanhá-lo para receber um escudo temporário.",
+      "cooldown": null
     }
   ],
   "tips": [],

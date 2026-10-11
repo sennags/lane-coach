@@ -17,31 +17,58 @@
       "id": "Vladimir.Q",
       "ability": "Q",
       "name": "Transfusão",
-      "description": "Vladimir rouba vida do inimigo-alvo. Quando sua reserva estiver cheia, Transfusão terá os benefícios de dano e cura drasticamente aumentados por um breve período."
+      "description": "Vladimir rouba vida do inimigo-alvo. Quando sua reserva estiver cheia, Transfusão terá os benefícios de dano e cura drasticamente aumentados por um breve período.",
+      "cooldown": [
+        9,
+        7.9,
+        6.8,
+        5.7,
+        4.6
+      ]
     },
     {
       "id": "Vladimir.W",
       "ability": "W",
       "name": "Poça de Sangue",
-      "description": "Vladimir mergulha numa poça de sangue, tornando-se inalvejável por 2s. Além disso, inimigos na poça sofrem redução de Velocidade de Movimento e Vladimir drena Vida deles."
+      "description": "Vladimir mergulha numa poça de sangue, tornando-se inalvejável por 2s. Além disso, inimigos na poça sofrem redução de Velocidade de Movimento e Vladimir drena Vida deles.",
+      "cooldown": [
+        28,
+        25,
+        22,
+        19,
+        16
+      ]
     },
     {
       "id": "Vladimir.E",
       "ability": "E",
       "name": "Maré de Sangue",
-      "description": "Vladimir paga com a própria Vida para carregar uma reserva de sangue que, quando desferida, causa dano em área ao seu redor, mas pode ser bloqueada por unidades inimigas."
+      "description": "Vladimir paga com a própria Vida para carregar uma reserva de sangue que, quando desferida, causa dano em área ao seu redor, mas pode ser bloqueada por unidades inimigas.",
+      "cooldown": [
+        13,
+        11,
+        9,
+        7,
+        5
+      ]
     },
     {
       "id": "Vladimir.R",
       "ability": "R",
       "name": "Hemopraga",
-      "description": "Vladimir infecta uma área com uma praga virulenta. Inimigos afetados recebem dano crescente enquanto durar o efeito. Depois de alguns segundos, Hemopraga causa Dano Mágico aos inimigos infectados e cura Vladimir a cada Campeão inimigo atingido."
+      "description": "Vladimir infecta uma área com uma praga virulenta. Inimigos afetados recebem dano crescente enquanto durar o efeito. Depois de alguns segundos, Hemopraga causa Dano Mágico aos inimigos infectados e cura Vladimir a cada Campeão inimigo atingido.",
+      "cooldown": [
+        120,
+        120,
+        120
+      ]
     },
     {
       "id": "Vladimir.P",
       "ability": "P",
       "name": "Pacto Vermelho",
-      "description": "Cada 30 pontos de Vida adicional concedem 1 de Poder de Habilidade a Vladimir, e cada 1 ponto de Poder de Habilidade concede a ele 1,6 de Vida adicional (não cumulativos entre si)."
+      "description": "Cada 30 pontos de Vida adicional concedem 1 de Poder de Habilidade a Vladimir, e cada 1 ponto de Poder de Habilidade concede a ele 1,6 de Vida adicional (não cumulativos entre si).",
+      "cooldown": null
     }
   ],
   "tips": [],

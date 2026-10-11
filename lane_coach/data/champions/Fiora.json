@@ -17,31 +17,58 @@
       "id": "Fiora.Q",
       "ability": "Q",
       "name": "Estocada",
-      "description": "Fiora avança em uma direção e golpeia um inimigo próximo, causando Dano Físico e aplicando efeitos de contato."
+      "description": "Fiora avança em uma direção e golpeia um inimigo próximo, causando Dano Físico e aplicando efeitos de contato.",
+      "cooldown": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ]
     },
     {
       "id": "Fiora.W",
       "ability": "W",
       "name": "Ripostar",
-      "description": "Fiora apara todo o dano e desarmes recebidos por um curto período de tempo, golpeando na direção alvo em seguida. Este golpe reduz a velocidade do primeiro campeão inimigo atingido. O golpe pode atordoar caso Fiora tenha bloqueado um efeito imobilizante com esta habilidade."
+      "description": "Fiora apara todo o dano e desarmes recebidos por um curto período de tempo, golpeando na direção alvo em seguida. Este golpe reduz a velocidade do primeiro campeão inimigo atingido. O golpe pode atordoar caso Fiora tenha bloqueado um efeito imobilizante com esta habilidade.",
+      "cooldown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ]
     },
     {
       "id": "Fiora.E",
       "ability": "E",
       "name": "Esgrima",
-      "description": "Fiora ganha aumento na Velocidade de Ataque pelos próximos dois ataques. O primeiro ataque reduz a velocidade do alvo e o segundo ataque causará acerto crítico."
+      "description": "Fiora ganha aumento na Velocidade de Ataque pelos próximos dois ataques. O primeiro ataque reduz a velocidade do alvo e o segundo ataque causará acerto crítico.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Fiora.R",
       "ability": "R",
       "name": "Desafio Grandioso",
-      "description": "Fiora revela todos os quatro Pontos Vitais de um Campeão inimigo e recebe Velocidade de Movimento enquanto estiver perto dele. Se atingir todos os quatro Pontos Vitais ou se o alvo morrer depois que ela atingir pelo menos um deles, Fiora e os aliados que estiverem na área serão curados pelos próximos segundos."
+      "description": "Fiora revela todos os quatro Pontos Vitais de um Campeão inimigo e recebe Velocidade de Movimento enquanto estiver perto dele. Se atingir todos os quatro Pontos Vitais ou se o alvo morrer depois que ela atingir pelo menos um deles, Fiora e os aliados que estiverem na área serão curados pelos próximos segundos.",
+      "cooldown": [
+        110,
+        90,
+        70
+      ]
     },
     {
       "id": "Fiora.P",
       "ability": "P",
       "name": "Dança da Duelista",
-      "description": "Fiora revelou um Ponto Vital neste Campeão. Se atingir o Ponto Vital , ela restaurará Vida e receberá Velocidade de Movimento ."
+      "description": "Fiora revelou um Ponto Vital neste Campeão. Se atingir o Ponto Vital , ela restaurará Vida e receberá Velocidade de Movimento .",
+      "cooldown": null
     }
   ],
   "tips": [],

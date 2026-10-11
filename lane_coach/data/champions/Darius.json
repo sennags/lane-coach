@@ -17,31 +17,58 @@
       "id": "Darius.Q",
       "ability": "Q",
       "name": "Dizimar",
-      "description": "Darius pega impulso e golpeia com seu machado em um movimento circular. Os inimigos atingidos pela lâmina recebem mais dano do que aqueles atingidos pelo cabo. Darius cura a si mesmo com base nos Campeões inimigos e monstros grandes atingidos pela lâmina."
+      "description": "Darius pega impulso e golpeia com seu machado em um movimento circular. Os inimigos atingidos pela lâmina recebem mais dano do que aqueles atingidos pelo cabo. Darius cura a si mesmo com base nos Campeões inimigos e monstros grandes atingidos pela lâmina.",
+      "cooldown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ]
     },
     {
       "id": "Darius.W",
       "ability": "W",
       "name": "Ataque Mutilador",
-      "description": "O próximo ataque de Darius acerta uma artéria importante do inimigo. Enquanto a vítima sangra, a Velocidade de Movimento dela é reduzida."
+      "description": "O próximo ataque de Darius acerta uma artéria importante do inimigo. Enquanto a vítima sangra, a Velocidade de Movimento dela é reduzida.",
+      "cooldown": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
     },
     {
       "id": "Darius.E",
       "ability": "E",
       "name": "Apreender",
-      "description": "Darius afia seu machado, fazendo com que seu Dano Físico ignore passivamente um percentual da Armadura do alvo. Quando ativado, Darius ataca seus inimigos com o gancho do seu machado e os puxa em sua direção."
+      "description": "Darius afia seu machado, fazendo com que seu Dano Físico ignore passivamente um percentual da Armadura do alvo. Quando ativado, Darius ataca seus inimigos com o gancho do seu machado e os puxa em sua direção.",
+      "cooldown": [
+        26,
+        23.5,
+        21,
+        18.5,
+        16
+      ]
     },
     {
       "id": "Darius.R",
       "ability": "R",
       "name": "Guilhotina de Noxus",
-      "description": "Darius salta na direção de um Campeão inimigo e o atinge com um golpe letal, causando Dano Verdadeiro. Este dano aumenta a cada acúmulo de Hemorragia no alvo. Se Guilhotina de Noxus causar o golpe final, seu Tempo de Recarga é zerado por um breve momento."
+      "description": "Darius salta na direção de um Campeão inimigo e o atinge com um golpe letal, causando Dano Verdadeiro. Este dano aumenta a cada acúmulo de Hemorragia no alvo. Se Guilhotina de Noxus causar o golpe final, seu Tempo de Recarga é zerado por um breve momento.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Darius.P",
       "ability": "P",
       "name": "Hemorragia",
-      "description": "Os Ataques e Habilidades de dano de Darius fazem os inimigos sangrarem, causando Dano Físico ao longo de 5s e acumulando até 5 vezes. Darius se enfurece e recebe uma grande quantidade de Dano de Ataque quando o alvo alcança o máximo de acúmulos."
+      "description": "Os Ataques e Habilidades de dano de Darius fazem os inimigos sangrarem, causando Dano Físico ao longo de 5s e acumulando até 5 vezes. Darius se enfurece e recebe uma grande quantidade de Dano de Ataque quando o alvo alcança o máximo de acúmulos.",
+      "cooldown": null
     }
   ],
   "tips": [],

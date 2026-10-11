@@ -17,31 +17,58 @@
       "id": "Trundle.Q",
       "ability": "Q",
       "name": "Mordida",
-      "description": "Trundle morde seu oponente, causando dano, brevemente reduzindo sua Velocidade de Movimento e drenando parte de seu Dano de Ataque."
+      "description": "Trundle morde seu oponente, causando dano, brevemente reduzindo sua Velocidade de Movimento e drenando parte de seu Dano de Ataque.",
+      "cooldown": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ]
     },
     {
       "id": "Trundle.W",
       "ability": "W",
       "name": "Domínio Congelado",
-      "description": "Trundle transforma o local-alvo em seu domínio, recebendo Velocidade de Ataque, Velocidade de Movimento e cura aprimorada de todas as fontes enquanto estiver sobre a região."
+      "description": "Trundle transforma o local-alvo em seu domínio, recebendo Velocidade de Ataque, Velocidade de Movimento e cura aprimorada de todas as fontes enquanto estiver sobre a região.",
+      "cooldown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ]
     },
     {
       "id": "Trundle.E",
       "ability": "E",
       "name": "Pilar de Gelo",
-      "description": "Trundle cria um pilar de gelo no local-alvo, tornando-o um terreno intransponível e causando Lentidão a todas as unidades inimigas próximas."
+      "description": "Trundle cria um pilar de gelo no local-alvo, tornando-o um terreno intransponível e causando Lentidão a todas as unidades inimigas próximas.",
+      "cooldown": [
+        21,
+        19.5,
+        18,
+        16.5,
+        15
+      ]
     },
     {
       "id": "Trundle.R",
       "ability": "R",
       "name": "Subjugar",
-      "description": "Trundle imediatamente rouba um percentual da Vida, Armadura e Resistência Mágica de seu alvo. Ao longo dos próximos 4 segundos, a quantia de Vida, Armadura e Resistência Mágica roubada é dobrada."
+      "description": "Trundle imediatamente rouba um percentual da Vida, Armadura e Resistência Mágica de seu alvo. Ao longo dos próximos 4 segundos, a quantia de Vida, Armadura e Resistência Mágica roubada é dobrada.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Trundle.P",
       "ability": "P",
       "name": "Tributo do Rei",
-      "description": "Quando uma unidade inimiga morre perto de Trundle, ele é curado em um percentual da Vida máxima desta unidade."
+      "description": "Quando uma unidade inimiga morre perto de Trundle, ele é curado em um percentual da Vida máxima desta unidade.",
+      "cooldown": null
     }
   ],
   "tips": [],

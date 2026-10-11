@@ -17,31 +17,58 @@
       "id": "Rengar.Q",
       "ability": "Q",
       "name": "Selvageria",
-      "description": "O próximo Ataque de Rengar desfere uma punhalada brutal que causa dano adicional. Efeito de Ferocidade: causa dano aumentado e concede Velocidade de Ataque."
+      "description": "O próximo Ataque de Rengar desfere uma punhalada brutal que causa dano adicional. Efeito de Ferocidade: causa dano aumentado e concede Velocidade de Ataque.",
+      "cooldown": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
     },
     {
       "id": "Rengar.W",
       "ability": "W",
       "name": "Rugido de Batalha",
-      "description": "Rengar solta um rugido de batalha, causando dano aos inimigos e curando parte do dano que ele tenha recebido recentemente. Efeito de Ferocidade: quebra efeitos de Controle de Grupo."
+      "description": "Rengar solta um rugido de batalha, causando dano aos inimigos e curando parte do dano que ele tenha recebido recentemente. Efeito de Ferocidade: quebra efeitos de Controle de Grupo.",
+      "cooldown": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
     },
     {
       "id": "Rengar.E",
       "ability": "E",
       "name": "Boleadeiras",
-      "description": "Rengar arremessa sua boleadeira, reduzindo a velocidade do primeiro alvo atingido por um curto período. Efeito de Ferocidade: enraíza o alvo."
+      "description": "Rengar arremessa sua boleadeira, reduzindo a velocidade do primeiro alvo atingido por um curto período. Efeito de Ferocidade: enraíza o alvo.",
+      "cooldown": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
     },
     {
       "id": "Rengar.R",
       "ability": "R",
       "name": "Furor da Caçada",
-      "description": "Rengar ativa seus instintos predatórios, ficando Camuflado e revelando o campeão inimigo mais próximo a ele em um amplo raio ao seu redor. Durante o Furor da Caçada, Rengar recebe Velocidade de Movimento e pode saltar no inimigo perseguido para reduzir sua armadura, mesmo sem estar no arbusto."
+      "description": "Rengar ativa seus instintos predatórios, ficando Camuflado e revelando o campeão inimigo mais próximo a ele em um amplo raio ao seu redor. Durante o Furor da Caçada, Rengar recebe Velocidade de Movimento e pode saltar no inimigo perseguido para reduzir sua armadura, mesmo sem estar no arbusto.",
+      "cooldown": [
+        100,
+        90,
+        80
+      ]
     },
     {
       "id": "Rengar.P",
       "ability": "P",
       "name": "Predador Oculto",
-      "description": "Enquanto estiver em um arbusto, Rengar salta até seu alvo ao usar um ataque básico. Rengar gera Ferocidade sempre que conjura uma habilidade. Ao atingir Ferocidade máxima, sua próxima Habilidade é fortalecida. Abater Campeões inimigos acrescenta troféus ao Colar de Presas de Rengar, concedendo Dano de Ataque adicional."
+      "description": "Enquanto estiver em um arbusto, Rengar salta até seu alvo ao usar um ataque básico. Rengar gera Ferocidade sempre que conjura uma habilidade. Ao atingir Ferocidade máxima, sua próxima Habilidade é fortalecida. Abater Campeões inimigos acrescenta troféus ao Colar de Presas de Rengar, concedendo Dano de Ataque adicional.",
+      "cooldown": null
     }
   ],
   "tips": [],

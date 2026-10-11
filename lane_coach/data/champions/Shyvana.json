@@ -17,31 +17,58 @@
       "id": "Shyvana.Q",
       "ability": "Q",
       "name": "Golpe de Brasas",
-      "description": "O próximo ataque de Shyvana atinge tanto o alvo quanto a área ao redor. A Habilidade pode ser reconjurada. Quando assume a Forma de Dragão, ela ganha uma reconjuração adicional, causando muito dano a um único alvo."
+      "description": "O próximo ataque de Shyvana atinge tanto o alvo quanto a área ao redor. A Habilidade pode ser reconjurada. Quando assume a Forma de Dragão, ela ganha uma reconjuração adicional, causando muito dano a um único alvo.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Shyvana.W",
       "ability": "W",
       "name": "Égide Infernal",
-      "description": "Shyvana recebe Escudo e Velocidade de Movimento. Depois de um curto intervalo, a área ao redor dela detona. Durante a Forma de Dragão, a explosão a curará se atingir um Campeão inimigo."
+      "description": "Shyvana recebe Escudo e Velocidade de Movimento. Depois de um curto intervalo, a área ao redor dela detona. Durante a Forma de Dragão, a explosão a curará se atingir um Campeão inimigo.",
+      "cooldown": [
+        13,
+        12.25,
+        11.5,
+        10.75,
+        10
+      ]
     },
     {
       "id": "Shyvana.E",
       "ability": "E",
       "name": "Explosão Incandescente",
-      "description": "Shyvana lança uma bola de fogo que explode ao atingir um alvo grande, causando Lentidão. Na Forma de Dragão, ela atravessa e explode ao atingir inimigos grandes, deixando um rastro de fogo por onde passa."
+      "description": "Shyvana lança uma bola de fogo que explode ao atingir um alvo grande, causando Lentidão. Na Forma de Dragão, ela atravessa e explode ao atingir inimigos grandes, deixando um rastro de fogo por onde passa.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Shyvana.R",
       "ability": "R",
       "name": "Descida do Dragão",
-      "description": "Shyvana se transforma em um Dragão e avança, fazendo os inimigos no caminho fugirem. Durante a Forma de Dragão, ela fica maior e suas habilidades básicas são fortalecidas."
+      "description": "Shyvana se transforma em um Dragão e avança, fazendo os inimigos no caminho fugirem. Durante a Forma de Dragão, ela fica maior e suas habilidades básicas são fortalecidas.",
+      "cooldown": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "Shyvana.P",
       "ability": "P",
       "name": "Armadura de Escamas",
-      "description": "Eliminar Campeões inimigos, tropas grandes e monstros grandes concede a Shyvana acúmulos de Armadura de Escamas, melhorando suas defesas."
+      "description": "Eliminar Campeões inimigos, tropas grandes e monstros grandes concede a Shyvana acúmulos de Armadura de Escamas, melhorando suas defesas.",
+      "cooldown": null
     }
   ],
   "tips": [],

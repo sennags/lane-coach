@@ -17,31 +17,58 @@
       "id": "Sion.Q",
       "ability": "Q",
       "name": "Golpe Demolidor",
-      "description": "Sion carrega um poderoso golpe em uma área à sua frente que causará dano a inimigos quando lançado. Caso carregue por tempo suficiente, também arremessará ao ar e atordoará os inimigos atingidos."
+      "description": "Sion carrega um poderoso golpe em uma área à sua frente que causará dano a inimigos quando lançado. Caso carregue por tempo suficiente, também arremessará ao ar e atordoará os inimigos atingidos.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Sion.W",
       "ability": "W",
       "name": "Fornalha da Alma",
-      "description": "Sion se protege e pode reativar após 3 segundos para causar Dano Mágico a inimigos próximos. Quando Sion abate inimigos, ele recebe Vida máxima passivamente."
+      "description": "Sion se protege e pode reativar após 3 segundos para causar Dano Mágico a inimigos próximos. Quando Sion abate inimigos, ele recebe Vida máxima passivamente.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Sion.E",
       "ability": "E",
       "name": "Urro do Assassino",
-      "description": "Sion dispara uma onda de choque de curto alcance que causa dano e reduz a velocidade e Armadura do primeiro inimigo atingido. Se ela atingir uma tropa ou monstro, o mesmo será arremessado para trás, causando dano e reduzindo a velocidade e Armadura de todos os inimigos que atravessar."
+      "description": "Sion dispara uma onda de choque de curto alcance que causa dano e reduz a velocidade e Armadura do primeiro inimigo atingido. Se ela atingir uma tropa ou monstro, o mesmo será arremessado para trás, causando dano e reduzindo a velocidade e Armadura de todos os inimigos que atravessar.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Sion.R",
       "ability": "R",
       "name": "Investida Incontrolável",
-      "description": "Sion avança em linha reta, acelerando ao longo do tempo. Ele pode guiar levemente sua investida com o cursor do mouse na posição. Ao colidir com um inimigo, ele causa dano e o arremessa ao ar com base na distância percorrida."
+      "description": "Sion avança em linha reta, acelerando ao longo do tempo. Ele pode guiar levemente sua investida com o cursor do mouse na posição. Ao colidir com um inimigo, ele causa dano e o arremessa ao ar com base na distância percorrida.",
+      "cooldown": [
+        140,
+        100,
+        60
+      ]
     },
     {
       "id": "Sion.P",
       "ability": "P",
       "name": "In Gloria Mori",
-      "description": "Após ser abatido, Sion será reanimado temporariamente, mas sua Vida decairá rapidamente. Seus ataques ficarão muito rápidos, curando e causando dano adicional com base na Vida máxima do alvo."
+      "description": "Após ser abatido, Sion será reanimado temporariamente, mas sua Vida decairá rapidamente. Seus ataques ficarão muito rápidos, curando e causando dano adicional com base na Vida máxima do alvo.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -17,31 +17,58 @@
       "id": "Twitch.Q",
       "ability": "Q",
       "name": "Emboscada",
-      "description": "Twitch fica Camuflado por um curto período e recebe Velocidade de Movimento. Ao sair da Camuflagem, Twitch recebe Velocidade de Ataque por um curto período. Quando um Campeão inimigo com Veneno Mortal é abatido, o Tempo de Recarga de Emboscada é reiniciado."
+      "description": "Twitch fica Camuflado por um curto período e recebe Velocidade de Movimento. Ao sair da Camuflagem, Twitch recebe Velocidade de Ataque por um curto período. Quando um Campeão inimigo com Veneno Mortal é abatido, o Tempo de Recarga de Emboscada é reiniciado.",
+      "cooldown": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
     },
     {
       "id": "Twitch.W",
       "ability": "W",
       "name": "Tonel de Veneno",
-      "description": "Twitch joga um tonel de veneno que explode em uma área, causando Lentidão e veneno mortal aos alvos."
+      "description": "Twitch joga um tonel de veneno que explode em uma área, causando Lentidão e veneno mortal aos alvos.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Twitch.E",
       "ability": "E",
       "name": "Contaminar",
-      "description": "Twitch causa ainda mais destruição em inimigos envenenados com uma explosão de suas pestes."
+      "description": "Twitch causa ainda mais destruição em inimigos envenenados com uma explosão de suas pestes.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Twitch.R",
       "ability": "R",
       "name": "Passando Fogo",
-      "description": "Twitch desfere o poder total de sua besta, fazendo disparos de longuíssimo alcance que perfuram todos os inimigos pegos em seu trajeto."
+      "description": "Twitch desfere o poder total de sua besta, fazendo disparos de longuíssimo alcance que perfuram todos os inimigos pegos em seu trajeto.",
+      "cooldown": [
+        90,
+        90,
+        90
+      ]
     },
     {
       "id": "Twitch.P",
       "ability": "P",
       "name": "Veneno Mortal",
-      "description": "Os ataques básicos de Twitch infectam o alvo %i:OnHit% ao contato , causando Dano Verdadeiro a cada segundo."
+      "description": "Os ataques básicos de Twitch infectam o alvo %i:OnHit% ao contato , causando Dano Verdadeiro a cada segundo.",
+      "cooldown": null
     }
   ],
   "tips": [],

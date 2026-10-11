@@ -65,7 +65,7 @@ def test_initial_profiles_and_missing_official_advice_are_honest(tmp_path):
     assert response.status_code == 200
     assert 'Perfil inicial por classe' in response.text
     assert '5 decisões para praticar' not in response.text
-    assert 'revisão especializada pendente' in response.text.lower()
+    assert 'sem revisão específica do campeão' in response.text
 
 
 def test_maintenance_blocks_both_perspectives_and_preserves_catalog(tmp_path):

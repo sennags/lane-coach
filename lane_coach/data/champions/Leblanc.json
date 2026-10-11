@@ -17,31 +17,58 @@
       "id": "Leblanc.Q",
       "ability": "Q",
       "name": "Sigilo de Malícia",
-      "description": "LeBlanc projeta um Sigilo, causando dano e marcando o alvo por 3,5s. Causar dano ao alvo marcado com qualquer Habilidade detona o Sigilo, causando dano adicional. Se qualquer parte dessa combinação abater o alvo, LeBlanc restitui o custo de Mana e parte do Tempo de Recarga restante desta Habilidade."
+      "description": "LeBlanc projeta um Sigilo, causando dano e marcando o alvo por 3,5s. Causar dano ao alvo marcado com qualquer Habilidade detona o Sigilo, causando dano adicional. Se qualquer parte dessa combinação abater o alvo, LeBlanc restitui o custo de Mana e parte do Tempo de Recarga restante desta Habilidade.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Leblanc.W",
       "ability": "W",
       "name": "Distorção",
-      "description": "LeBlanc avança até um local, causando dano aos inimigos próximos de seu destino. Pelos próximos 4s, ativar Distorção novamente faz com que LeBlanc retorne até sua posição inicial."
+      "description": "LeBlanc avança até um local, causando dano aos inimigos próximos de seu destino. Pelos próximos 4s, ativar Distorção novamente faz com que LeBlanc retorne até sua posição inicial.",
+      "cooldown": [
+        15,
+        13.75,
+        12.5,
+        11.25,
+        10
+      ]
     },
     {
       "id": "Leblanc.E",
       "ability": "E",
       "name": "Correntes Etéreas",
-      "description": "LeBlanc lança uma corrente que prende a primeira unidade atingida. Se o alvo permanecer preso por 1,5s, ele é enraizado e sofre dano adicional."
+      "description": "LeBlanc lança uma corrente que prende a primeira unidade atingida. Se o alvo permanecer preso por 1,5s, ele é enraizado e sofre dano adicional.",
+      "cooldown": [
+        14,
+        13.25,
+        12.5,
+        11.75,
+        11
+      ]
     },
     {
       "id": "Leblanc.R",
       "ability": "R",
       "name": "Mímica",
-      "description": "Leblanc conjura uma versão copiada de uma de suas habilidades."
+      "description": "Leblanc conjura uma versão copiada de uma de suas habilidades.",
+      "cooldown": [
+        45,
+        35,
+        25
+      ]
     },
     {
       "id": "Leblanc.P",
       "ability": "P",
       "name": "Imagem-Espelho",
-      "description": "Quando a Vida de LeBlanc está abaixo de 40%, ela fica invisível por 1s e cria uma Imagem-Espelho que não causa dano e dura até 8s."
+      "description": "Quando a Vida de LeBlanc está abaixo de 40%, ela fica invisível por 1s e cria uma Imagem-Espelho que não causa dano e dura até 8s.",
+      "cooldown": null
     }
   ],
   "tips": [],

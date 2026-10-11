@@ -16,31 +16,58 @@
       "id": "Kled.Q",
       "ability": "Q",
       "name": "Armadilha na Corda",
-      "description": "Kled arremessa uma armadilha de urso que causa dano e se prende a um Campeão inimigo. Caso fique preso por um curto período, o alvo recebe Dano Físico adicional e é puxado em direção a Kled. Quando desmontado, esta habilidade é substituída por Pistola de Bolso, um disparo a distância que empurra Kled para trás e restaura coragem."
+      "description": "Kled arremessa uma armadilha de urso que causa dano e se prende a um Campeão inimigo. Caso fique preso por um curto período, o alvo recebe Dano Físico adicional e é puxado em direção a Kled. Quando desmontado, esta habilidade é substituída por Pistola de Bolso, um disparo a distância que empurra Kled para trás e restaura coragem.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Kled.W",
       "ability": "W",
       "name": "Tendências Violentas",
-      "description": "Kled recebe muita Velocidade de Ataque por quatro ataques. O quarto ataque causa mais dano."
+      "description": "Kled recebe muita Velocidade de Ataque por quatro ataques. O quarto ataque causa mais dano.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Kled.E",
       "ability": "E",
       "name": "Justar",
-      "description": "Kled avança, causando Dano Físico e recebendo um breve surto de velocidade. Ele pode conjurar esta habilidade novamente para recuar através do alvo inicial, causando a mesma quantidade de dano."
+      "description": "Kled avança, causando Dano Físico e recebendo um breve surto de velocidade. Ele pode conjurar esta habilidade novamente para recuar através do alvo inicial, causando a mesma quantidade de dano.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Kled.R",
       "ability": "R",
       "name": "Avançaaaaaaar!!!",
-      "description": "Kled e Skaarl avançam em direção a um local, deixando um rastro que concede velocidade e criando um escudo. Skaarl marca e vai de encontro ao primeiro Campeão inimigo encontrado."
+      "description": "Kled e Skaarl avançam em direção a um local, deixando um rastro que concede velocidade e criando um escudo. Skaarl marca e vai de encontro ao primeiro Campeão inimigo encontrado.",
+      "cooldown": [
+        140,
+        125,
+        110
+      ]
     },
     {
       "id": "Kled.P",
       "ability": "P",
       "name": "Skaarl, a Lagarto Covarde",
-      "description": "Kled fica em sua possante montaria, Skaarl, que toma dano por ele. Quando a Vida dela acaba, Kled desmonta. Enquanto desmontado, as habilidades de Kled mudam e ele causa menos dano a Campeões. Kled pode restaurar a coragem de Skaarl ao enfrentar inimigos. Quando a coragem chega ao máximo, Kled volta a montar em Skaarl com uma parte de sua Vida."
+      "description": "Kled fica em sua possante montaria, Skaarl, que toma dano por ele. Quando a Vida dela acaba, Kled desmonta. Enquanto desmontado, as habilidades de Kled mudam e ele causa menos dano a Campeões. Kled pode restaurar a coragem de Skaarl ao enfrentar inimigos. Quando a coragem chega ao máximo, Kled volta a montar em Skaarl com uma parte de sua Vida.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Jax.Q",
       "ability": "Q",
       "name": "Salto Atacante",
-      "description": "Jax salta em direção a uma unidade. Caso seja um inimigo, ele o atingirá com sua arma."
+      "description": "Jax salta em direção a uma unidade. Caso seja um inimigo, ele o atingirá com sua arma.",
+      "cooldown": [
+        8,
+        7.5,
+        7,
+        6.5,
+        6
+      ]
     },
     {
       "id": "Jax.W",
       "ability": "W",
       "name": "Energizar",
-      "description": "Jax acumula energia em sua arma, fazendo com que seu próximo ataque básico ou Salto Atacante cause dano adicional."
+      "description": "Jax acumula energia em sua arma, fazendo com que seu próximo ataque básico ou Salto Atacante cause dano adicional.",
+      "cooldown": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
     },
     {
       "id": "Jax.E",
       "ability": "E",
       "name": "Contra-Ataque",
-      "description": "A proeza combatente de Jax lhe permite desviar de todos os ataques recebidos por um curto período de tempo, contra-atacando logo em seguida e atordoando os inimigos ao seu redor."
+      "description": "A proeza combatente de Jax lhe permite desviar de todos os ataques recebidos por um curto período de tempo, contra-atacando logo em seguida e atordoando os inimigos ao seu redor.",
+      "cooldown": [
+        17,
+        15,
+        13,
+        11,
+        9
+      ]
     },
     {
       "id": "Jax.R",
       "ability": "R",
       "name": "Grão-Mestre de Armas",
-      "description": "Cada terceiro ataque consecutivo causa Dano Mágico adicional. Além disso, Jax pode ativar essa habilidade para causar dano ao redor de si e fortalecer a própria determinação, ganhando mais Armadura e Resistência Mágica por um curto período."
+      "description": "Cada terceiro ataque consecutivo causa Dano Mágico adicional. Além disso, Jax pode ativar essa habilidade para causar dano ao redor de si e fortalecer a própria determinação, ganhando mais Armadura e Resistência Mágica por um curto período.",
+      "cooldown": [
+        110,
+        100,
+        90
+      ]
     },
     {
       "id": "Jax.P",
       "ability": "P",
       "name": "Investida Implacável",
-      "description": "Os ataques básicos consecutivos de Jax continuamente aumentam sua Velocidade de Ataque."
+      "description": "Os ataques básicos consecutivos de Jax continuamente aumentam sua Velocidade de Ataque.",
+      "cooldown": null
     }
   ],
   "tips": [],

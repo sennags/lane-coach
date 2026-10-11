@@ -17,31 +17,58 @@
       "id": "Sylas.Q",
       "ability": "Q",
       "name": "Correntes-Chicote",
-      "description": "Sylas chicoteia com suas correntes, que se intersectam no local-alvo, causando dano e reduzindo a velocidade dos inimigos. Após um intervalo, há uma explosão de energia mágica no ponto da intersecção, causando dano."
+      "description": "Sylas chicoteia com suas correntes, que se intersectam no local-alvo, causando dano e reduzindo a velocidade dos inimigos. Após um intervalo, há uma explosão de energia mágica no ponto da intersecção, causando dano.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Sylas.W",
       "ability": "W",
       "name": "Regicida",
-      "description": "Sylas avança em um inimigo com uma força mágica, causando dano e curando-se contra Campeões inimigos."
+      "description": "Sylas avança em um inimigo com uma força mágica, causando dano e curando-se contra Campeões inimigos.",
+      "cooldown": [
+        12,
+        10.5,
+        9,
+        7.5,
+        6
+      ]
     },
     {
       "id": "Sylas.E",
       "ability": "E",
       "name": "Evasão / Abdução",
-      "description": "Sylas avança por uma curta distância, podendo reconjurar a habilidade para arremessar suas correntes e se arrastar na direção do inimigo atingido."
+      "description": "Sylas avança por uma curta distância, podendo reconjurar a habilidade para arremessar suas correntes e se arrastar na direção do inimigo atingido.",
+      "cooldown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ]
     },
     {
       "id": "Sylas.R",
       "ability": "R",
       "name": "Usurpar",
-      "description": "Sylas rouba a habilidade ultimate do inimigo e pode conjurá-la sem custo."
+      "description": "Sylas rouba a habilidade ultimate do inimigo e pode conjurá-la sem custo.",
+      "cooldown": [
+        80,
+        55,
+        30
+      ]
     },
     {
       "id": "Sylas.P",
       "ability": "P",
       "name": "Explosão de Petricita",
-      "description": "Após conjurar uma habilidade, Sylas armazena uma carga de Explosão de Petricita. Seus ataques básicos gastam uma carga e agitam as correntes energizadas ao redor dele, causando Dano Mágico adicional a inimigos atingidos. Enquanto Sylas tiver pelo menos uma carga de Explosão de Petricita, ele recebe Velocidade de Ataque."
+      "description": "Após conjurar uma habilidade, Sylas armazena uma carga de Explosão de Petricita. Seus ataques básicos gastam uma carga e agitam as correntes energizadas ao redor dele, causando Dano Mágico adicional a inimigos atingidos. Enquanto Sylas tiver pelo menos uma carga de Explosão de Petricita, ele recebe Velocidade de Ataque.",
+      "cooldown": null
     }
   ],
   "tips": [],

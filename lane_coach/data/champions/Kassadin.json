@@ -17,31 +17,58 @@
       "id": "Kassadin.Q",
       "ability": "Q",
       "name": "Esfera Nula",
-      "description": "Kassadin dispara um orbe de energia do Vazio em um alvo, causando dano e interrompendo canalizações. A energia excedente toma forma ao seu redor, concedendo um escudo temporário que absorve Dano Mágico."
+      "description": "Kassadin dispara um orbe de energia do Vazio em um alvo, causando dano e interrompendo canalizações. A energia excedente toma forma ao seu redor, concedendo um escudo temporário que absorve Dano Mágico.",
+      "cooldown": [
+        9,
+        8.5,
+        8,
+        7.5,
+        7
+      ]
     },
     {
       "id": "Kassadin.W",
       "ability": "W",
       "name": "Lâmina Ínfera",
-      "description": "Passivo: Os ataques básicos de Kassadin causam Dano Mágico adicional. Ativo: O próximo ataque básico de Kassadin causa Dano Mágico adicional significativo e restaura Mana."
+      "description": "Passivo: Os ataques básicos de Kassadin causam Dano Mágico adicional. Ativo: O próximo ataque básico de Kassadin causa Dano Mágico adicional significativo e restaura Mana.",
+      "cooldown": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
     },
     {
       "id": "Kassadin.E",
       "ability": "E",
       "name": "Força de Pulso",
-      "description": "Kassadin drena energia de habilidades conjuradas nas proximidades. Ao estar carregado, Kassadin pode usar Força de Pulso para causar dano e reduzir a velocidade de inimigos em uma área em cone à sua frente."
+      "description": "Kassadin drena energia de habilidades conjuradas nas proximidades. Ao estar carregado, Kassadin pode usar Força de Pulso para causar dano e reduzir a velocidade de inimigos em uma área em cone à sua frente.",
+      "cooldown": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ]
     },
     {
       "id": "Kassadin.R",
       "ability": "R",
       "name": "Caminhar na Fenda",
-      "description": "Kassadin se teleporta para um local próximo, causando dano a unidades inimigas próximas. Múltiplas conjurações de Caminhar na Fenda em um curto período custam Mana adicional e também causam dano adicional."
+      "description": "Kassadin se teleporta para um local próximo, causando dano a unidades inimigas próximas. Múltiplas conjurações de Caminhar na Fenda em um curto período custam Mana adicional e também causam dano adicional.",
+      "cooldown": [
+        5,
+        3.5,
+        2
+      ]
     },
     {
       "id": "Kassadin.P",
       "ability": "P",
       "name": "Pedra do Vazio",
-      "description": "Kassadin sofre Dano Mágico reduzido e ignora colisão com unidades."
+      "description": "Kassadin sofre Dano Mágico reduzido e ignora colisão com unidades.",
+      "cooldown": null
     }
   ],
   "tips": [],

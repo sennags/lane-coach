@@ -10,8 +10,9 @@ def app(tmp_path):
 def test_guides(app, opponent):
     response = app.test_client().get(f'/matchup?champion=Yone&opponent={opponent}&lane=mid')
     assert response.status_code == 200
-    assert 'Não validado' in response.text
-    assert 'Descrição oficial' in response.text
+    assert 'Riot Data Dragon' in response.text
+    assert 'Descrição oficial' not in response.text
+    assert 'class="review"' not in response.text
 
 @pytest.mark.parametrize('query', ['', 'champion=Yone&opponent=Ahri', 'champion=Yone&opponent=Yone&lane=mid', 'champion=Yone&opponent=Ahri&lane=unknown', 'champion=Yone&opponent=Ahri&lane=mid&lane=mid', 'champion=Yone&opponent=Ahri&lane=mid&extra=1', 'champion=%3Cscript%3Ealert(1)%3C/script%3E&opponent=Ahri&lane=mid', "champion=Yone%27%3B%20DROP%20TABLE%20guides%3B--&opponent=Ahri&lane=mid"])
 def test_invalid(app, query):

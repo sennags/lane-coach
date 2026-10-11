@@ -17,31 +17,58 @@
       "id": "Heimerdinger.Q",
       "ability": "Q",
       "name": "Torre Evolutiva H-28G",
-      "description": "Heimerdinger posiciona um canhão-torre automático equipado com um ataque secundário de feixes perfurantes (canhões causam metade do dano a torres)."
+      "description": "Heimerdinger posiciona um canhão-torre automático equipado com um ataque secundário de feixes perfurantes (canhões causam metade do dano a torres).",
+      "cooldown": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
     },
     {
       "id": "Heimerdinger.W",
       "ability": "W",
       "name": "Micro-Mísseis Hextec",
-      "description": "Heimerdinger dispara mísseis de longo alcance que convergem na direção do cursor."
+      "description": "Heimerdinger dispara mísseis de longo alcance que convergem na direção do cursor.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Heimerdinger.E",
       "ability": "E",
       "name": "Granada de Tempestade de Elétrons CH-2",
-      "description": "Heimerdinger lança uma granada em um local, causando dano a unidades inimigas, atordoando todos que forem diretamente atingidos e deixando as unidades próximas lentas."
+      "description": "Heimerdinger lança uma granada em um local, causando dano a unidades inimigas, atordoando todos que forem diretamente atingidos e deixando as unidades próximas lentas.",
+      "cooldown": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
     },
     {
       "id": "Heimerdinger.R",
       "ability": "R",
       "name": "MELHORIA!!!",
-      "description": "Heimerdinger inventa um aprimoramento, fazendo com que sua próxima habilidade tenha efeitos adicionais."
+      "description": "Heimerdinger inventa um aprimoramento, fazendo com que sua próxima habilidade tenha efeitos adicionais.",
+      "cooldown": [
+        100,
+        85,
+        70
+      ]
     },
     {
       "id": "Heimerdinger.P",
       "ability": "P",
       "name": "Afinidade Hextec",
-      "description": "Recebe Velocidade de Movimento enquanto próxima a torres aliadas e torres posicionadas por Heimerdinger."
+      "description": "Recebe Velocidade de Movimento enquanto próxima a torres aliadas e torres posicionadas por Heimerdinger.",
+      "cooldown": null
     }
   ],
   "tips": [],

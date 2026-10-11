@@ -17,31 +17,58 @@
       "id": "Nautilus.Q",
       "ability": "Q",
       "name": "Lançar Âncora",
-      "description": "Nautilus arremessa sua âncora à frente. Se acertar um inimigo, ele puxa a si mesmo e ao alvo para perto um do outro, causando Dano Mágico. Se acertar um terreno, Nautilus avança em direção a ele."
+      "description": "Nautilus arremessa sua âncora à frente. Se acertar um inimigo, ele puxa a si mesmo e ao alvo para perto um do outro, causando Dano Mágico. Se acertar um terreno, Nautilus avança em direção a ele.",
+      "cooldown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ]
     },
     {
       "id": "Nautilus.W",
       "ability": "W",
       "name": "Ira do Titã",
-      "description": "Nautilus recebe um Escudo temporário. Enquanto o Escudo persistir, seus Ataques causam dano ao longo do tempo ao alvo e a inimigos próximos."
+      "description": "Nautilus recebe um Escudo temporário. Enquanto o Escudo persistir, seus Ataques causam dano ao longo do tempo ao alvo e a inimigos próximos.",
+      "cooldown": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
     },
     {
       "id": "Nautilus.E",
       "ability": "E",
       "name": "Correnteza",
-      "description": "Nautilus cria três ondas explosivas ao redor de si. Cada explosão causa dano e Lentidão aos inimigos."
+      "description": "Nautilus cria três ondas explosivas ao redor de si. Cada explosão causa dano e Lentidão aos inimigos.",
+      "cooldown": [
+        7,
+        6.5,
+        6,
+        5.5,
+        5
+      ]
     },
     {
       "id": "Nautilus.R",
       "ability": "R",
       "name": "Carga de Profundidade",
-      "description": "Nautilus lança uma onda de choque na terra que persegue o oponente. Essa onda rasga a terra em cima dela, arremessando os inimigos ao ar. Quando ela alcança o oponente, a onda de choque explode, arremessando o alvo ao ar e atordoando ele."
+      "description": "Nautilus lança uma onda de choque na terra que persegue o oponente. Essa onda rasga a terra em cima dela, arremessando os inimigos ao ar. Quando ela alcança o oponente, a onda de choque explode, arremessando o alvo ao ar e atordoando ele.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Nautilus.P",
       "ability": "P",
       "name": "Âncora Impactante",
-      "description": "O primeiro Ataque de Nautilus a um alvo causa Dano Físico aumentado e Enraíza-o brevemente."
+      "description": "O primeiro Ataque de Nautilus a um alvo causa Dano Físico aumentado e Enraíza-o brevemente.",
+      "cooldown": null
     }
   ],
   "tips": [],

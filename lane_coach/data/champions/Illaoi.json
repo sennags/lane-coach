@@ -17,31 +17,58 @@
       "id": "Illaoi.Q",
       "ability": "Q",
       "name": "Golpe de Tentáculo",
-      "description": "Aumenta o dano causado por Tentáculos. Quando ativada, Illaoi golpeia com um Tentáculo que causa Dano Físico."
+      "description": "Aumenta o dano causado por Tentáculos. Quando ativada, Illaoi golpeia com um Tentáculo que causa Dano Físico.",
+      "cooldown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ]
     },
     {
       "id": "Illaoi.W",
       "ability": "W",
       "name": "Lição Dura",
-      "description": "Illaoi salta em direção a seu alvo, causando Dano Físico e fazendo com que Tentáculos próximos também golpeiem o alvo."
+      "description": "Illaoi salta em direção a seu alvo, causando Dano Físico e fazendo com que Tentáculos próximos também golpeiem o alvo.",
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Illaoi.E",
       "ability": "E",
       "name": "Teste de Espírito",
-      "description": "Illaoi arranca o espírito do corpo de um inimigo, forçando-o a permanecer perante ela. Espíritos ecoam um percentual do dano que recebem ao alvo original. Se abatido, ou caso se afaste muito do espírito, o alvo se transforma em um Recipiente e inicia o surgimento de Tentáculos."
+      "description": "Illaoi arranca o espírito do corpo de um inimigo, forçando-o a permanecer perante ela. Espíritos ecoam um percentual do dano que recebem ao alvo original. Se abatido, ou caso se afaste muito do espírito, o alvo se transforma em um Recipiente e inicia o surgimento de Tentáculos.",
+      "cooldown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ]
     },
     {
       "id": "Illaoi.R",
       "ability": "R",
       "name": "Salto de Fé",
-      "description": "Illaoi golpeia o chão com seu ídolo, causando Dano Físico a inimigos próximos. Um Tentáculo surge para cada campeão atingido."
+      "description": "Illaoi golpeia o chão com seu ídolo, causando Dano Físico a inimigos próximos. Um Tentáculo surge para cada campeão atingido.",
+      "cooldown": [
+        120,
+        95,
+        70
+      ]
     },
     {
       "id": "Illaoi.P",
       "ability": "P",
       "name": "Profetisa de um Deus Ancião",
-      "description": "Illaoi e os Recipientes que ela cria fazem surgir Tentáculos em terreno intransponível próximo. Tentáculos golpeiam espíritos, Recipientes e vítimas da Lição Dura de Illaoi. Tentáculos causam Dano Físico a inimigos atingidos e curarão Illaoi caso atinjam um Campeão."
+      "description": "Illaoi e os Recipientes que ela cria fazem surgir Tentáculos em terreno intransponível próximo. Tentáculos golpeiam espíritos, Recipientes e vítimas da Lição Dura de Illaoi. Tentáculos causam Dano Físico a inimigos atingidos e curarão Illaoi caso atinjam um Campeão.",
+      "cooldown": null
     }
   ],
   "tips": [],

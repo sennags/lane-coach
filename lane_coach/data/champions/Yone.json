@@ -21,7 +21,14 @@
       "coaching": {
         "use": "Dois acúmulos preparam avanço e arremesso ao ar.",
         "limit": "A ameaça do avanço depende dos acúmulos; confira o estado do Q."
-      }
+      },
+      "cooldown": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
     },
     {
       "id": "Yone.W",
@@ -31,7 +38,14 @@
       "coaching": {
         "use": "Dano em cone e escudo; acertar campeões aumenta o escudo.",
         "limit": "O escudo não protege permanentemente; evite desperdiçar a janela."
-      }
+      },
+      "cooldown": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
     },
     {
       "id": "Yone.E",
@@ -41,7 +55,14 @@
       "coaching": {
         "use": "Avanço espiritual com velocidade; repete parte do dano no retorno.",
         "limit": "O corpo fica para trás. A posição de retorno precisa ser segura."
-      }
+      },
+      "cooldown": [
+        22,
+        19,
+        16,
+        13,
+        10
+      ]
     },
     {
       "id": "Yone.R",
@@ -51,7 +72,12 @@
       "coaching": {
         "use": "Atinge uma linha de inimigos e reposiciona para trás do último campeão.",
         "limit": "A posição de chegada pode deixar você longe do apoio do time."
-      }
+      },
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Yone.P",
@@ -61,7 +87,8 @@
       "coaching": {
         "use": "Alterna dano físico e mágico nos ataques; aumenta a chance de crítico.",
         "limit": "Depende de alcançar o alvo e continuar atacando."
-      }
+      },
+      "cooldown": null
     }
   ],
   "tips": [

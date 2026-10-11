@@ -17,31 +17,58 @@
       "id": "Chogath.Q",
       "ability": "Q",
       "name": "Ruptura",
-      "description": "Rompe o chão num local-alvo, lançando unidades inimigas ao ar e causando dano e redução de velocidade."
+      "description": "Rompe o chão num local-alvo, lançando unidades inimigas ao ar e causando dano e redução de velocidade.",
+      "cooldown": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
     },
     {
       "id": "Chogath.W",
       "ability": "W",
       "name": "Grito Selvagem",
-      "description": "Cho'Gath solta um terrível urro em inimigos em área de cone, causando Dano Mágico e Silenciamento a eles por alguns segundos."
+      "description": "Cho'Gath solta um terrível urro em inimigos em área de cone, causando Dano Mágico e Silenciamento a eles por alguns segundos.",
+      "cooldown": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ]
     },
     {
       "id": "Chogath.E",
       "ability": "E",
       "name": "Espinhos Vorpais",
-      "description": "Os ataques de Cho'Gath lançam espinhos letais, causando dano e reduzindo a velocidade de unidades inimigas à sua frente."
+      "description": "Os ataques de Cho'Gath lançam espinhos letais, causando dano e reduzindo a velocidade de unidades inimigas à sua frente.",
+      "cooldown": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
     },
     {
       "id": "Chogath.R",
       "ability": "R",
       "name": "Banquete",
-      "description": "Devora uma unidade inimiga, causando uma grande quantidade de Dano Verdadeiro. Se o alvo for abatido, Cho'Gath cresce, recebendo Vida máxima."
+      "description": "Devora uma unidade inimiga, causando uma grande quantidade de Dano Verdadeiro. Se o alvo for abatido, Cho'Gath cresce, recebendo Vida máxima.",
+      "cooldown": [
+        80,
+        70,
+        60
+      ]
     },
     {
       "id": "Chogath.P",
       "ability": "P",
       "name": "Carnívoro",
-      "description": "Sempre que Cho'Gath abate uma unidade, ele recupera Vida e Mana. Os valores restaurados aumentam com o nível de Cho'Gath."
+      "description": "Sempre que Cho'Gath abate uma unidade, ele recupera Vida e Mana. Os valores restaurados aumentam com o nível de Cho'Gath.",
+      "cooldown": null
     }
   ],
   "tips": [],

@@ -16,31 +16,58 @@
       "id": "Gwen.Q",
       "ability": "Q",
       "name": "Corte e Recorte",
-      "description": "Gwen corta uma área em cone até seis vezes com a tesoura, causando Dano Mágico. Ela causa Dano Verdadeiro às unidades atingidas no centro e aplica a Passiva a cada corte."
+      "description": "Gwen corta uma área em cone até seis vezes com a tesoura, causando Dano Mágico. Ela causa Dano Verdadeiro às unidades atingidas no centro e aplica a Passiva a cada corte.",
+      "cooldown": [
+        6.5,
+        5.75,
+        5,
+        4.25,
+        3.5
+      ]
     },
     {
       "id": "Gwen.W",
       "ability": "W",
       "name": "Névoa Sagrada",
-      "description": "Gwen invoca uma Névoa que a protege dos inimigos que estiverem do lado de fora. Ela só pode ser alvejada por inimigos que entrarem na área da Névoa."
+      "description": "Gwen invoca uma Névoa que a protege dos inimigos que estiverem do lado de fora. Ela só pode ser alvejada por inimigos que entrarem na área da Névoa.",
+      "cooldown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ]
     },
     {
       "id": "Gwen.E",
       "ability": "E",
       "name": "Avanço Afiado",
-      "description": "Gwen avança por uma curta distância e ganha Velocidade de Ataque, Alcance de Ataque e Dano Mágico ao contato por alguns segundos. Se ela atingir um inimigo durante esse período, o Tempo de Recarga da Habilidade será parcialmente restituído."
+      "description": "Gwen avança por uma curta distância e ganha Velocidade de Ataque, Alcance de Ataque e Dano Mágico ao contato por alguns segundos. Se ela atingir um inimigo durante esse período, o Tempo de Recarga da Habilidade será parcialmente restituído.",
+      "cooldown": [
+        13,
+        12.5,
+        12,
+        11.5,
+        11
+      ]
     },
     {
       "id": "Gwen.R",
       "ability": "R",
       "name": "Ponto-Cruz",
-      "description": "Gwen arremessa uma agulha que causa Dano Mágico e Lentidão, aplicando Mil Retalhos aos Campeões atingidos. A Habilidade pode ser conjurada mais duas vezes, e cada conjuração arremessa agulhas adicionais e causa mais dano."
+      "description": "Gwen arremessa uma agulha que causa Dano Mágico e Lentidão, aplicando Mil Retalhos aos Campeões atingidos. A Habilidade pode ser conjurada mais duas vezes, e cada conjuração arremessa agulhas adicionais e causa mais dano.",
+      "cooldown": [
+        120,
+        100,
+        80
+      ]
     },
     {
       "id": "Gwen.P",
       "ability": "P",
       "name": "Mil Retalhos",
-      "description": "Os Ataques de Gwen causam Dano Mágico adicional com base na Vida do alvo. Ela se cura em parte do dano causado a Campeões com esse efeito."
+      "description": "Os Ataques de Gwen causam Dano Mágico adicional com base na Vida do alvo. Ela se cura em parte do dano causado a Campeões com esse efeito.",
+      "cooldown": null
     }
   ],
   "tips": [],

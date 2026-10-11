@@ -17,31 +17,58 @@
       "id": "Katarina.Q",
       "ability": "Q",
       "name": "Lâmina Saltitante",
-      "description": "Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão."
+      "description": "Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão.",
+      "cooldown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
     },
     {
       "id": "Katarina.W",
       "ability": "W",
       "name": "Preparação",
-      "description": "Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga para cima."
+      "description": "Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga para cima.",
+      "cooldown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ]
     },
     {
       "id": "Katarina.E",
       "ability": "E",
       "name": "Shunpo",
-      "description": "Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou golpeando o inimigo mais próximo caso não seja."
+      "description": "Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou golpeando o inimigo mais próximo caso não seja.",
+      "cooldown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ]
     },
     {
       "id": "Katarina.R",
       "ability": "R",
       "name": "Lótus da Morte",
-      "description": "Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos."
+      "description": "Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos.",
+      "cooldown": [
+        75,
+        60,
+        45
+      ]
     },
     {
       "id": "Katarina.P",
       "ability": "P",
       "name": "Voracidade",
-      "description": "Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga , Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico."
+      "description": "Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga , Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico.",
+      "cooldown": null
     }
   ],
   "tips": [],
