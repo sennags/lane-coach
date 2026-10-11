@@ -994,6 +994,29 @@ details>summary:focus-visible {
 }
 .tabs button { white-space: nowrap; }
 
+/* Plano direto: phase guidance followed by abilities. */
+.direct-plan { margin:18px 0 0; }
+.direct-plan>div { display:grid; grid-template-columns:85px minmax(0,1fr); gap:14px; padding:15px 0; border-top:1px solid var(--line); }
+.direct-plan dt { font:10px Consolas,monospace; letter-spacing:.7px; color:var(--muted); padding-top:3px; }
+.direct-plan dd { margin:0; font-size:13px; line-height:1.65; }
+.direct-plan .direct-action { border-left:2px solid var(--red); padding-left:10px; padding-right:10px; background:var(--surface); }
+.direct-action dt { color:var(--red); }
+.ability-coaching { margin:0; }
+.ability-coaching>div { display:grid; grid-template-columns:48px minmax(0,1fr); gap:10px; margin-top:8px; }
+.ability-coaching dt { font:10px Consolas,monospace; color:var(--muted); padding-top:3px; }
+.ability-coaching>div:last-child dt { color:var(--red); }
+.ability-coaching dd { margin:0; font-size:13px; line-height:1.65; }
+.official-description { margin-top:12px; color:var(--muted); }
+.official-description summary { font:11px Consolas,monospace; cursor:pointer; min-height:30px; padding:6px 0; }
+.official-description p { margin:8px 0 0; }
+@media(max-width:700px) {
+  .direct-plan>div { grid-template-columns:70px minmax(0,1fr); gap:12px; }
+  .ability-coaching>div { grid-template-columns:1fr; gap:5px; }
+}
+@media(max-width:360px) {
+  .direct-plan>div { grid-template-columns:1fr; gap:7px; }
+}
+
 .center-controls { grid-column:1 / -1; display:grid; justify-items:center; background:var(--bg); padding:14px 0; }
 .center-controls .vs { top:126px; z-index:1; }
 .lane-selector { width:100%; display:grid; justify-items:center; }

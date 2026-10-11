@@ -17,31 +17,51 @@
       "id": "Yone.Q",
       "ability": "Q",
       "name": "Aço Mortal",
-      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com dois acúmulos, Aço Mortal faz Yone avançar com o vento, Arremessando ao ar os inimigos."
+      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com dois acúmulos, Aço Mortal faz Yone avançar com o vento, Arremessando ao ar os inimigos.",
+      "coaching": {
+        "use": "Dois acúmulos preparam avanço e arremesso ao ar.",
+        "limit": "A ameaça do avanço depende dos acúmulos; confira o estado do Q."
+      }
     },
     {
       "id": "Yone.W",
       "ability": "W",
       "name": "Fenda Espiritual",
-      "description": "Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe. O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque."
+      "description": "Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe. O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque.",
+      "coaching": {
+        "use": "Dano em cone e escudo; acertar campeões aumenta o escudo.",
+        "limit": "O escudo não protege permanentemente; evite desperdiçar a janela."
+      }
     },
     {
       "id": "Yone.E",
       "ability": "E",
       "name": "Desatar da Alma",
-      "description": "O espírito de Yone deixa seu corpo para trás e recebe Velocidade de Movimento. Quando essa habilidade termina, o espírito de Yone volta ao corpo e ele repete parte do dano causado na forma espiritual."
+      "description": "O espírito de Yone deixa seu corpo para trás e recebe Velocidade de Movimento. Quando essa habilidade termina, o espírito de Yone volta ao corpo e ele repete parte do dano causado na forma espiritual.",
+      "coaching": {
+        "use": "Avanço espiritual com velocidade; repete parte do dano no retorno.",
+        "limit": "O corpo fica para trás. A posição de retorno precisa ser segura."
+      }
     },
     {
       "id": "Yone.R",
       "ability": "R",
       "name": "Destino Selado",
-      "description": "Yone teleporta-se para trás do último Campeão em uma linha, desferindo um golpe tão poderoso que puxa na direção dele todos os inimigos atingidos."
+      "description": "Yone teleporta-se para trás do último Campeão em uma linha, desferindo um golpe tão poderoso que puxa na direção dele todos os inimigos atingidos.",
+      "coaching": {
+        "use": "Atinge uma linha de inimigos e reposiciona para trás do último campeão.",
+        "limit": "A posição de chegada pode deixar você longe do apoio do time."
+      }
     },
     {
       "id": "Yone.P",
       "ability": "P",
       "name": "Estilo do Caçador",
-      "description": "Yone causa Dano Mágico a cada segundo Ataque. Além disso, sua Chance de Acerto Crítico é aumentada."
+      "description": "Yone causa Dano Mágico a cada segundo Ataque. Além disso, sua Chance de Acerto Crítico é aumentada.",
+      "coaching": {
+        "use": "Alterna dano físico e mágico nos ataques; aumenta a chance de crítico.",
+        "limit": "Depende de alcançar o alvo e continuar atacando."
+      }
     }
   ],
   "tips": [
@@ -130,17 +150,23 @@
       "lane": {
         "typical": "Acumula Q nos minions e ameaça entrar com Q fortalecido durante a janela do E.",
         "plan": "Prepare Q antes de uma troca, use W perto da resposta inimiga e deixe o corpo em um ponto seguro. Se perder alcance, reavalie a perseguição.",
-        "against": "Observe o Q fortalecido e o ponto de retorno. Evite trocar todo seu dano durante o escudo do W."
+        "against": "Observe o Q fortalecido e o ponto de retorno. Evite trocar todo seu dano durante o escudo do W.",
+        "resource": "Pode ameaçar aproximação e arremesso ao ar com o Q fortalecido. W combina dano e escudo; E permite uma troca seguida de retorno ao corpo.",
+        "caution": "Precisa entrar em alcance curto para aproveitar ataques e boa parte do kit. O retorno do E tem um ponto conhecido; uma entrada ruim pode terminar em posição perigosa."
       },
       "mid": {
         "typical": "Busca pressão lateral ou uma aproximação que alcance alvos vulneráveis com controle.",
-        "plan": "Antes de usar E ou R, verifique saída e quem pode interromper sua entrada. Entre com objetivo definido, sem perseguir além do alcance útil.",
-        "against": "Mantenha espaço para desviar da linha de entrada e acompanhe o corpo deixado pelo E; não olhe apenas a forma espiritual."
+        "plan": "Empurre a lateral somente com visão e tempo para chegar ao próximo objetivo; agrupe quando o time precisar da sua entrada.",
+        "against": "Acompanhe a pressão lateral e o caminho de chegada; evite oferecer vários aliados alinhados na entrada.",
+        "resource": "Pode pressionar a lateral ou acompanhar o time com Q fortalecido e R.",
+        "caution": "Usar E longe do apoio deixa o corpo exposto; não avance sem avaliar quem pode chegar."
       },
       "late": {
         "typical": "Procura atingir alvos importantes ou vários inimigos alinhados com a ultimate.",
-        "plan": "Espere uma oportunidade de aproximação com suporte do time. Use controle para abrir dano; não dependa de uma entrada solitária contra todas as respostas disponíveis.",
-        "against": "Evite alinhar vários aliados na trajetória do R e mantenha ferramentas de proteção para a aproximação."
+        "plan": "Jogue com o time perto do objetivo; procure uma entrada com apoio. Só fique na lateral se houver tempo e caminho de retorno.",
+        "against": "Evite alinhamento do time no R e mantenha proteção para quem recebe a entrada.",
+        "resource": "O R pode abrir uma luta ao atingir inimigos alinhados.",
+        "caution": "Uma entrada isolada pode ser punida antes que o time consiga acompanhar."
       }
     },
     "status": "editorial_unreviewed",

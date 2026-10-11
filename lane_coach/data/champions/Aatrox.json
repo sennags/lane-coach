@@ -16,31 +16,51 @@
       "id": "Aatrox.Q",
       "ability": "Q",
       "name": "A Espada Darkin",
-      "description": "Aatrox bate sua espada no chão, causando Dano Físico. Ele pode bater até três vezes, cada vez em uma área de ação diferente."
+      "description": "Aatrox bate sua espada no chão, causando Dano Físico. Ele pode bater até três vezes, cada vez em uma área de ação diferente.",
+      "coaching": {
+        "use": "Três golpes com áreas distintas; E permite ajustar o acerto.",
+        "limit": "Errar um golpe não encerra os seguintes; o ajuste depende do E."
+      }
     },
     {
       "id": "Aatrox.W",
       "ability": "W",
       "name": "Correntes Infernais",
-      "description": "Aatrox bate no chão, causando dano ao primeiro inimigo atingido. Campeões e Monstros Grandes precisam sair da área de impacto rapidamente ou serão arrastados para o centro e receberão dano novamente."
+      "description": "Aatrox bate no chão, causando dano ao primeiro inimigo atingido. Campeões e Monstros Grandes precisam sair da área de impacto rapidamente ou serão arrastados para o centro e receberão dano novamente.",
+      "coaching": {
+        "use": "Puxa e causa segundo dano se o alvo permanece na área.",
+        "limit": "Sair da área antes da puxada evita essa continuação."
+      }
     },
     {
       "id": "Aatrox.E",
       "ability": "E",
       "name": "Avanço Umbral",
-      "description": "Passivamente, Aatrox se cura quando causa dano a Campeões inimigos. Quando ativado, ele avança em uma direção."
+      "description": "Passivamente, Aatrox se cura quando causa dano a Campeões inimigos. Quando ativado, ele avança em uma direção.",
+      "coaching": {
+        "use": "Avanço para reposicionar; passiva cura pelo dano a campeões.",
+        "limit": "Sem causar dano a campeões, essa fonte de cura não atua."
+      }
     },
     {
       "id": "Aatrox.R",
       "ability": "R",
       "name": "Aniquilador de Mundos",
-      "description": "Aatrox libera sua forma demoníaca, aterrorizando tropas inimigas próximas, ganhando Dano de Ataque, cura aumentada e Velocidade de Movimento. Se ele conseguir uma eliminação, este efeito é estendido."
+      "description": "Aatrox libera sua forma demoníaca, aterrorizando tropas inimigas próximas, ganhando Dano de Ataque, cura aumentada e Velocidade de Movimento. Se ele conseguir uma eliminação, este efeito é estendido.",
+      "coaching": {
+        "use": "Aumenta dano de ataque, cura e velocidade; abates estendem o efeito.",
+        "limit": "É uma janela temporária, não um bônus permanente."
+      }
     },
     {
       "id": "Aatrox.P",
       "ability": "P",
       "name": "Postura do Arauto da Morte",
-      "description": "Periodicamente, o próximo ataque básico de Aatrox causa Dano Mágico adicional e o cura com base na Vida máxima do alvo."
+      "description": "Periodicamente, o próximo ataque básico de Aatrox causa Dano Mágico adicional e o cura com base na Vida máxima do alvo.",
+      "coaching": {
+        "use": "Ataque fortalecido causa dano adicional e cura.",
+        "limit": "Precisa alcançar e acertar o ataque; não é cura permanente."
+      }
     }
   ],
   "tips": [],
@@ -53,25 +73,31 @@
     "phases": {
       "lane": {
         "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
-        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
-        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+        "plan": "Procure conectar Q, guardando o E para ajustar o acerto quando necessário; recue se perder alcance.",
+        "against": "Confira os Q restantes; se o W atingir, saia da área antes da puxada.",
+        "resource": "Passiva e passiva do E geram cura; Q pode ser ajustado com o E.",
+        "caution": "Um Q errado não encerra a sequência. Vida baixa não elimina a possibilidade de cura."
       },
       "mid": {
         "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
-        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
-        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+        "plan": "Acompanhe o time para disputar espaço no objetivo; use a lateral se consegue recuar e chegar à disputa.",
+        "against": "Acompanhe a pressão lateral e limite o contato quando o R estiver ativo.",
+        "resource": "R aumenta dano, cura e velocidade durante uma janela de luta.",
+        "caution": "Usar a janela do R sem conseguir alcançar alvos pode desperdiçar a oportunidade de luta."
       },
       "late": {
         "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
-        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
-        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+        "plan": "Entre com apoio do time perto do objetivo e procure alvos ao alcance; não persiga sozinho longe da disputa.",
+        "against": "Preserve espaço e reposicionamento para evitar acertos, protegendo quem ele consegue alcançar.",
+        "resource": "Dano a campeões sustenta a cura pelo E; R amplia sua janela de luta.",
+        "caution": "Sem conectar dano, perde sustentação; uma entrada isolada pode receber a resposta de vários inimigos."
       }
     },
     "strengths": [
       "A Espada Darkin: Aatrox bate sua espada no chão, causando Dano Físico. Ele pode bater até três vezes, cada vez em uma área de ação diferente.",
       "Aniquilador de Mundos: Aatrox libera sua forma demoníaca, aterrorizando tropas inimigas próximas, ganhando Dano de Ataque, cura aumentada e Velocidade de Movimento. Se ele conseguir uma eliminação, este efeito é estendido."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Lutador",
     "status": "editorial_unreviewed",
     "reviewed_at": null

@@ -11,7 +11,7 @@ def test_guides(app, opponent):
     response = app.test_client().get(f'/matchup?champion=Yone&opponent={opponent}&lane=mid')
     assert response.status_code == 200
     assert 'Não validado' in response.text
-    assert 'Ver base mecânica' in response.text
+    assert 'Descrição oficial' in response.text
 
 @pytest.mark.parametrize('query', ['', 'champion=Yone&opponent=Ahri', 'champion=Yone&opponent=Yone&lane=mid', 'champion=Yone&opponent=Ahri&lane=unknown', 'champion=Yone&opponent=Ahri&lane=mid&lane=mid', 'champion=Yone&opponent=Ahri&lane=mid&extra=1', 'champion=%3Cscript%3Ealert(1)%3C/script%3E&opponent=Ahri&lane=mid', "champion=Yone%27%3B%20DROP%20TABLE%20guides%3B--&opponent=Ahri&lane=mid"])
 def test_invalid(app, query):
@@ -25,7 +25,7 @@ def test_reverse(app):
     response = app.test_client().get('/matchup?champion=Ahri&opponent=Yone&lane=mid')
     assert response.status_code == 200
     assert 'Ahri contra Yone' in response.text
-    assert 'CONTRA Yone' in response.text
+    assert 'Sua resposta contra Yone' in response.text
 
 def test_privacy(app):
     response = app.test_client().get('/')
@@ -70,5 +70,5 @@ def test_lane_selection_is_validated_and_preserved(app, lane):
     response = app.test_client().get(f'/matchup?champion=Yone&opponent=Ahri&lane={lane}')
     assert response.status_code == 200
     assert f'value="{lane}" selected' in response.text
-    assert 'ainda não mudam por lane' in response.text
+    assert 'a rota selecionada ainda não altera' in response.text
     assert app.extensions['knowledge'].context('Yone', 'Ahri', lane)['lane'] == lane

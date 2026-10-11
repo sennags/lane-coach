@@ -16,31 +16,51 @@
       "id": "Zed.Q",
       "ability": "Q",
       "name": "Shuriken Laminado",
-      "description": "Zed e suas sombras arremessam seus shurikens. Cada shuriken causa dano em todos os inimigos atingidos."
+      "description": "Zed e suas sombras arremessam seus shurikens. Cada shuriken causa dano em todos os inimigos atingidos.",
+      "coaching": {
+        "use": "Corpo e sombras lançam shurikens, criando linhas de dano.",
+        "limit": "O dano depende de conectar os disparos, não apenas colocar a sombra."
+      }
     },
     {
       "id": "Zed.W",
       "ability": "W",
       "name": "Sombra Viva",
-      "description": "Efeito passivo: Zed recebe energia sempre que ele e suas sombras atingem um inimigo com a mesma habilidade. A energia só pode ser recebida uma vez a cada conjuração de habilidade. Ativo: A sombra de Zed avança e fica no mesmo lugar por alguns segundos. Quando Sombra Viva é reativada, Zed troca de posição com sua sombra."
+      "description": "Efeito passivo: Zed recebe energia sempre que ele e suas sombras atingem um inimigo com a mesma habilidade. A energia só pode ser recebida uma vez a cada conjuração de habilidade. Ativo: A sombra de Zed avança e fica no mesmo lugar por alguns segundos. Quando Sombra Viva é reativada, Zed troca de posição com sua sombra.",
+      "coaching": {
+        "use": "Sombra cria um ponto de disparo e permite trocar de posição.",
+        "limit": "A sombra dura por um período; gastar a troca altera a saída disponível."
+      }
     },
     {
       "id": "Zed.E",
       "ability": "E",
       "name": "Corte Sombrio",
-      "description": "Zed e as Sombras dele atacam, causando dano a inimigos próximos. Inimigos atingidos pelo corte de uma Sombra sofrem Lentidão."
+      "description": "Zed e as Sombras dele atacam, causando dano a inimigos próximos. Inimigos atingidos pelo corte de uma Sombra sofrem Lentidão.",
+      "coaching": {
+        "use": "Cortes dão dano próximo; o corte da sombra aplica lentidão.",
+        "limit": "Depende de alcance do corpo ou da sombra."
+      }
     },
     {
       "id": "Zed.R",
       "ability": "R",
       "name": "Marca Fatal",
-      "description": "Zed se torna inalvejável e avança contra um Campeão inimigo para marcá-lo. Após 3 segundos, a marca é ativada, repetindo parte de todo o dano que Zed causou ao alvo enquanto ele estava marcado."
+      "description": "Zed se torna inalvejável e avança contra um Campeão inimigo para marcá-lo. Após 3 segundos, a marca é ativada, repetindo parte de todo o dano que Zed causou ao alvo enquanto ele estava marcado.",
+      "coaching": {
+        "use": "Entrada inalvejável e marca que repete parte do dano causado.",
+        "limit": "Precisa causar dano durante a marca; o R sozinho não garante finalizar."
+      }
     },
     {
       "id": "Zed.P",
       "ability": "P",
       "name": "Desprezo pelos Fracos",
-      "description": "Os ataques básicos de Zed contra alvos com pouca Vida causam Dano Mágico adicional. Esse efeito pode ocorrer contra o mesmo Campeão inimigo apenas uma vez a cada poucos segundos."
+      "description": "Os ataques básicos de Zed contra alvos com pouca Vida causam Dano Mágico adicional. Esse efeito pode ocorrer contra o mesmo Campeão inimigo apenas uma vez a cada poucos segundos.",
+      "coaching": {
+        "use": "Ataques contra alvos com pouca vida causam dano mágico adicional.",
+        "limit": "O efeito não pode repetir imediatamente no mesmo campeão."
+      }
     }
   ],
   "tips": [
@@ -129,17 +149,23 @@
       "lane": {
         "typical": "Procura acertar habilidades pelo corpo e pela sombra, ameaçando aproximar quando existe uma oportunidade.",
         "plan": "Posicione a sombra considerando o ângulo de Q e a saída. Antes de uma troca longa, observe energia e recursos defensivos do adversário.",
-        "against": "Leia corpo e sombra ao desviar. W lançado não significa que a troca de posição já foi usada ou ficou indisponível."
+        "against": "Leia corpo e sombra ao desviar. W lançado não significa que a troca de posição já foi usada ou ficou indisponível.",
+        "resource": "Sombras criam outros pontos de disparo e opções de troca de posição. A ultimate oferece uma janela de inalvejabilidade e repete parte do dano causado durante a marca.",
+        "caution": "Parte importante da pressão depende de conectar habilidades após posicionar sombras. Comprometer sombras ou entrar sem uma saída pode limitar o reposicionamento disponível."
       },
       "mid": {
         "typical": "Busca um alvo isolado ou um ângulo lateral para conectar dano com a marca.",
-        "plan": "Verifique proteção do alvo e locais disponíveis para reposicionar antes de usar R. Planeje o dano depois da entrada e a saída depois da tentativa.",
-        "against": "Reduza oportunidades de isolamento e acompanhe onde as sombras ficaram; perseguir apenas o corpo pode ignorar a saída."
+        "plan": "Pressione com visão; procure um alvo separado e preserve uma saída. Abandone a lateral a tempo de apoiar o objetivo.",
+        "against": "Proteja as rotações e reduza isolamento; acompanhe sombras e a pressão lateral.",
+        "resource": "Sombras permitem buscar um alvo isolado ou pressionar uma lateral.",
+        "caution": "Ficar na lateral sem visão ou usar sombras sem saída pode impedir a chegada ao time."
       },
       "late": {
         "typical": "Tenta alcançar um alvo importante quando encontra espaço entre as respostas defensivas.",
-        "plan": "Espere recursos relevantes serem gastos e escolha uma entrada com possibilidade de conectar dano. Não conte com o R sozinho para finalizar.",
-        "against": "Preserve proteção para o alvo marcado e evite entregar uma habilidade decisiva à janela de inalvejabilidade; reavalie quando ele reaparecer."
+        "plan": "Prepare um ângulo perto do objetivo e espere uma janela entre recursos defensivos; não force R contra toda a proteção.",
+        "against": "Mantenha proteção do time para o alvo ameaçado e evite rotações individuais sem visão.",
+        "resource": "Pode ameaçar um alvo importante por um ângulo lateral.",
+        "caution": "R sozinho não garante finalizar; uma entrada sem dano ou saída pode custar a luta."
       }
     },
     "status": "editorial_unreviewed",

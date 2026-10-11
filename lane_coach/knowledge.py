@@ -42,6 +42,17 @@ class KnowledgeBase:
                     for key in ('typical', 'plan', 'against')
                 ):
                     raise ValueError('Incomplete game phase')
+                for key in ('resource', 'caution'):
+                    if key in phase and (not isinstance(phase[key], str) or not phase[key].strip()):
+                        raise ValueError('Invalid direct plan')
+            for fact in champion['facts']:
+                if 'coaching' in fact and (
+                    not isinstance(fact['coaching'], dict)
+                    or set(fact['coaching']) != {'use', 'limit'}
+                    or any(not isinstance(value, str) or not value.strip()
+                           for value in fact['coaching'].values())
+                ):
+                    raise ValueError('Invalid ability coaching')
             if profile.get('status') not in ('editorial_unreviewed', 'reviewed'):
                 raise ValueError('Invalid profile review status')
             if profile['status'] == 'reviewed' and not profile.get('reviewed_at'):
@@ -88,14 +99,32 @@ class KnowledgeBase:
                 sections.append({**tip, 'champion': champion['name'],
                                  'evidence': [facts[key] for key in tip['evidence_ids']],
                                  'source': champion['source']})
+        profiles = []
+        for side, key in [('ally', 'own'), ('enemy', 'enemy')]:
+            champion = context[key]
+            profile = champion['profile']
+            direct = {}
+            for phase_key, phase in profile['phases'].items():
+                fallback_caution = (
+                    ' '.join(profile['weaknesses']) if phase_key == 'lane' else
+                    'Pressão lateral sem visão pode isolar o campeão e atrasar sua chegada ao objetivo.'
+                    if phase_key == 'mid' else
+                    'Uma saída pela lateral sem avaliar o objetivo e a posição dos times pode custar uma luta decisiva.'
+                )
+                action = phase['plan' if side == 'ally' else 'against']
+                if profile.get('basis') == 'class_based' and side == 'enemy' and phase_key != 'lane':
+                    action = 'Acompanhe a pressão lateral e a chegada desse campeão ao objetivo. ' + action
+                direct[phase_key] = {
+                    'resource': phase.get('resource', phase['typical']),
+                    'action': action,
+                    'caution': phase.get('caution', fallback_caution),
+                }
+            profiles.append({'side': side, **champion, 'direct': direct})
         return {
             'title': 'Conheça os dois lados, em cada fase.',
             'summary': 'Pontos fortes, vulnerabilidades e planos de jogo de cada campeão. '
                        'Use os perfis para orientar suas decisões; a vantagem específica entre os dois ainda não é calculada.',
-            'profiles': [
-                {'side': side, **context[key]}
-                for side, key in [('ally', 'own'), ('enemy', 'enemy')]
-            ],
+            'profiles': profiles,
             'status': 'demo', 'revision': self.version, 'sections': sections,
             'patch': 'Não validado', 'reviewed_at': None,
         }

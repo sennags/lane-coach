@@ -50,31 +50,13 @@
 <p>{{ message }}</p>
 </section>
 {% elif guide %}
-<section class="traits-pair" aria-label="Pontos fortes e vulnerabilidades">
-{% for profile in guide.profiles %}<article>
-<h3 class="traits-name">{{ profile.name }}</h3>
-<dl class="traits">
-<div>
-<dt>PONTOS FORTES</dt>
-<dd>
-<ul>{% for point in profile.profile.strengths %}<li>{{ point }}</li>{% endfor %}</ul>
-</dd>
-</div>
-<div>
-<dt>VULNERABILIDADES</dt>
-<dd>
-<ul>{% for point in profile.profile.weaknesses %}<li>{{ point }}</li>{% endfor %}</ul>
-</dd>
-</div>
-</dl>{% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. Plano geral, sem revisão específica do campeão.</p>{% endif %}</article>{% endfor %}
-</section>
 <section id="analysis" class="phase-section" aria-label="Orientações por fase">
 <header class="phase-header enhanced-only">
 <div class="tabs" role="group" aria-label="Fase do jogo">{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}<button type="button" data-phase-button="{{ key }}" aria-pressed="{{ 'true' if key == 'lane' else 'false' }}" class="{{ 'active' if key == 'lane' else '' }}">{{ label }}</button>{% endfor %}</div>
 </header>
 <div class="brief-grid">
 {% for profile in guide.profiles %}<article class="phase-profile {{ profile.side }}" aria-label="Plano de {{ profile.name }}">
-{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}{% set phase=profile.profile.phases[key] %}
+{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}{% set phase=profile.direct[key] %}
 <section class="phase-panel brief {{ profile.side }}" data-phase="{{ key }}">
 <h2 class="fallback-phase-title">{{ label }}</h2>
 <div class="brief-heading">
@@ -82,65 +64,20 @@
 <h3>{{ profile.name }}</h3>
 </div>
 <span class="sr-only">{{ 'Plano para quem joga ' + profile.name if profile.side == 'ally' else 'Sua resposta contra ' + profile.name }}</span>
-<p class="plan">{{ phase.plan if profile.side == 'ally' else phase.against }}</p>
-<div class="behavior">
-<h4>COMPORTAMENTO NESTA FASE</h4>
-<p>{{ phase.typical }}</p>
-</div></section>{% endfor %}</article>{% endfor %}</div>
+<dl class="direct-plan">
+<div><dt>RECURSO</dt><dd>{{ phase.resource }}</dd></div>
+<div class="direct-action"><dt>AÇÃO</dt><dd>{{ phase.action }}</dd></div>
+<div><dt>CUIDADO</dt><dd>{{ phase.caution }}</dd></div>
+</dl>
+{% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. Orientação geral, sem revisão específica do campeão.</p>{% endif %}</section>{% endfor %}</article>{% endfor %}</div>
 </section>
-<p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Os planos atuais são gerais por campeão; ainda não mudam por lane.</p>
+<p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Perfis independentes por campeão; a rota selecionada ainda não altera as orientações.</p>
 <p class="review">Perfis independentes. Estratégia: {{ guide.patch }}. Revisão especializada pendente. Sem cálculo de vencedor ou observação da partida.</p>
 <section class="abilities-section" aria-labelledby="abilities-title">
 <h2 id="abilities-title">HABILIDADES</h2>
 <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
 </section>
-  {% if guide.sections %}<details class="micro-library">
-<summary>Dicas de micro dos kits <span>{{ guide.sections|length }} decisões editoriais disponíveis</span>
-</summary>
-  <div class="guide-grid">
-    {% for section in guide.sections %}
-    <article class="guide-section">
-<span class="guide-number">0{{ loop.index }}</span>
-<div>
-      <p class="tip-origin">{{ 'CONTRA ' if section.perspective == 'against' else 'SEU KIT / ' }}{{ section.champion }} · {{ section.ability }}</p>
-      <h3>{{ section.title }}</h3>
-      <dl class="micro-steps">
-<dt>Situação</dt>
-<dd>{{ section.situation }}</dd>
-<dt>Ação</dt>
-<dd>{{ section.action }}</dd>
-<dt>Motivo</dt>
-<dd>{{ section.reason }}</dd>
-<dt>Exceção</dt>
-<dd>{{ section.exception }}</dd>
-</dl>
-      <details class="tip-evidence">
-<summary>Ver base mecânica</summary>
-        {% for fact in section.evidence %}<p>
-<strong>{{ fact.ability }} · {{ fact.name }}</strong>
-<br>{{ fact.description }}</p>{% endfor %}
-        <p>
-<a href="{{ section.source.url }}" rel="noreferrer">{{ section.source.label }}</a> · Dados {{ section.source.patch }}</p>
-        <p>A fonte descreve a habilidade. A decisão sugerida é uma interpretação editorial.</p>
-      </details>
-    </div>
-</article>
-    {% endfor %}
-    <aside class="source-note">
-<span class="eyebrow">TRANSPARÊNCIA</span>
-<h3>Como essas dicas foram escolhidas?</h3>
-<p>Combinamos ameaças do adversário com ferramentas do seu campeão. A seleção é local e não usa IA. Não é um guia específico validado para esta dupla.</p>
-<dl>
-<dt>Patch da estratégia</dt>
-<dd>{{ guide.patch }}</dd>
-<dt>Revisão especializada</dt>
-<dd>{{ guide.reviewed_at or 'Pendente' }}</dd>
-<dt>Versão da base</dt>
-<dd>{{ guide.revision }}</dd>
-</dl>
-</aside>
-  </div>
-  </details>{% endif %}
+
 
 {% endif %}
 <dialog id="champion-dialog" aria-labelledby="dialog-title">

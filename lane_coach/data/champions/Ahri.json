@@ -17,31 +17,51 @@
       "id": "Ahri.Q",
       "ability": "Q",
       "name": "Orbe da Ilusão",
-      "description": "Ahri lança e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta."
+      "description": "Ahri lança e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta.",
+      "coaching": {
+        "use": "Dano mágico na ida e verdadeiro na volta.",
+        "limit": "Acertar a ida não garante o acerto do retorno."
+      }
     },
     {
       "id": "Ahri.W",
       "ability": "W",
       "name": "Fogo de Raposa",
-      "description": "Ahri recebe um breve impulso de Velocidade de Movimento e lança três Fogos de Raposa que perseguem e atacam inimigos próximos."
+      "description": "Ahri recebe um breve impulso de Velocidade de Movimento e lança três Fogos de Raposa que perseguem e atacam inimigos próximos.",
+      "coaching": {
+        "use": "Velocidade breve e dano em inimigos próximos.",
+        "limit": "O impulso é temporário; não substitui todos os avanços do R."
+      }
     },
     {
       "id": "Ahri.E",
       "ability": "E",
       "name": "Encanto",
-      "description": "Ahri manda um beijo que causa dano e encanta um inimigo, interrompendo imediatamente qualquer habilidade de movimento em progresso e fazendo com que ele ande inofensivamente em sua direção."
+      "description": "Ahri manda um beijo que causa dano e encanta um inimigo, interrompendo imediatamente qualquer habilidade de movimento em progresso e fazendo com que ele ande inofensivamente em sua direção.",
+      "coaching": {
+        "use": "Encanta o alvo e interrompe movimento em progresso.",
+        "limit": "Errar deixa menos controle disponível para responder à aproximação."
+      }
     },
     {
       "id": "Ahri.R",
       "ability": "R",
       "name": "Ímpeto Espiritual",
-      "description": "Ahri avança e dispara raios de essência, causando dano a inimigos próximos. Ímpeto Espiritual pode ser conjurada até três vezes antes de entrar em Tempo de Recarga e ganha reconjurações adicionais ao eliminar Campeões inimigos."
+      "description": "Ahri avança e dispara raios de essência, causando dano a inimigos próximos. Ímpeto Espiritual pode ser conjurada até três vezes antes de entrar em Tempo de Recarga e ganha reconjurações adicionais ao eliminar Campeões inimigos.",
+      "coaching": {
+        "use": "Avanços para ajustar ângulo; eliminações concedem reconjurações.",
+        "limit": "Gastar os avanços reduz as opções de saída."
+      }
     },
     {
       "id": "Ahri.P",
       "ability": "P",
       "name": "Furto de Essência",
-      "description": "Depois de abater 9 tropas ou monstros, Ahri se cura. Depois de eliminar um Campeão inimigo, Ahri se cura em uma quantidade ainda maior."
+      "description": "Depois de abater 9 tropas ou monstros, Ahri se cura. Depois de eliminar um Campeão inimigo, Ahri se cura em uma quantidade ainda maior.",
+      "coaching": {
+        "use": "Abates de tropas/monstros e eliminações de campeões geram cura.",
+        "limit": "Não oferece cura contínua durante toda troca."
+      }
     }
   ],
   "tips": [
@@ -130,17 +150,23 @@
       "lane": {
         "typical": "Usa Q para atingir minions e ameaçar o adversário, procurando uma linha de Charm quando ele se aproxima.",
         "plan": "Considere a trajetória de volta do Q e preserve E quando precisar responder a uma entrada. Evite lançar controle sem uma linha útil.",
-        "against": "Desvie considerando a volta do orbe. Ameace aproximação para provocar E e reavalie a troca quando ela errar."
+        "against": "Desvie considerando a volta do orbe. Ameace aproximação para provocar E e reavalie a troca quando ela errar.",
+        "resource": "Charm oferece controle e pode interromper movimento. A ultimate permite múltiplos avanços; o Q ameaça dano na ida e na volta.",
+        "caution": "Errar o Charm deixa uma janela com menos controle disponível. A mobilidade da ultimate é um recurso limitado; gastar avanços reduz opções de reposicionamento."
       },
       "mid": {
         "typical": "Procura oportunidades de Charm e usa R para ajustar o ângulo ou acompanhar uma jogada.",
-        "plan": "Escolha um alvo acessível e preserve uma opção de reposicionamento quando possível. Não comprometa todos os avanços por uma tentativa sem apoio.",
-        "against": "Respeite o ângulo de Charm após um avanço; acertar a posição antiga dela não garante atingir a nova."
+        "plan": "Acompanhe aliados para controlar acessos ao objetivo; procure um alvo separado sem gastar toda a saída.",
+        "against": "Controle acessos sem deixar aliados isolados; observe a mudança de ângulo após os avanços.",
+        "resource": "Charm e avanços do R permitem buscar alvos expostos durante rotações.",
+        "caution": "Buscar alvo sem visão ou apoio pode comprometer os avanços que serviriam para escapar."
       },
       "late": {
         "typical": "Busca controle em um alvo exposto e reposiciona durante a luta para continuar contribuindo.",
-        "plan": "Jogue a partir de uma posição que permita acertar controle e sobreviver à resposta. Considere guardar E para proteger um aliado ameaçado.",
-        "against": "Proteja alvos expostos e acompanhe os avanços antes de gastar toda sua aproximação; ela pode mudar de posição novamente."
+        "plan": "Jogue perto do time e do objetivo; escolha entre capturar um alvo exposto e guardar E para proteger.",
+        "against": "Proteja quem está exposto e evite caminhar sozinho por acessos sem visão.",
+        "resource": "Charm pode criar uma captura ou proteger um aliado durante a luta.",
+        "caution": "Entrar longe do time com todos os avanços gastos dificulta sobreviver à resposta."
       }
     },
     "status": "editorial_unreviewed",

@@ -5,9 +5,15 @@
     <div class="ability-entry">
       <img class="ability-icon" src="{{ url_for('static', filename='abilities/' ~ profile.source.patch ~ '/' ~ profile.id ~ '/' ~ key ~ '.png') }}" alt="" width="64" height="64" loading="lazy" decoding="async">
       <span class="ability-key" aria-label="{{ 'Passiva' if key == 'P' else 'Habilidade ' ~ key }}">{{ key }}</span>
-      <div class="ability-copy"><h4>{{ fact.name }}</h4><p>{{ fact.description }}</p></div>
+      <div class="ability-copy"><h4>{{ fact.name }}</h4>
+      {% if fact.coaching %}
+      <dl class="ability-coaching"><div><dt>USO</dt><dd>{{ fact.coaching.use }}</dd></div><div><dt>LIMITE</dt><dd>{{ fact.coaching.limit }}</dd></div></dl>
+      <details class="official-description"><summary>Descrição oficial</summary><p>{{ fact.description }}</p></details>
+      {% else %}<p>{{ fact.description }}</p>{% endif %}
+      </div>
     </div>
     {% endfor %}
+    {% if not profile.facts|selectattr('coaching', 'defined')|list %}<p class="coverage-note">Descrições oficiais; notas de uso e limite ainda não preparadas.</p>{% endif %}
     {% endfor %}
     <p class="profile-source"><a href="{{ profile.source.url }}" rel="noreferrer">Riot Data Dragon</a> · Dados {{ profile.source.patch }} · Consulta {{ profile.source.accessed_at }}</p>
   </div>

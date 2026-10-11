@@ -17,31 +17,51 @@
       "id": "Akshan.Q",
       "ability": "Q",
       "name": "Bumerangue Vingativo",
-      "description": "Akshan arremessa um bumerangue que causa dano na ida e na volta, ganhando alcance a cada vez que atingir um inimigo."
+      "description": "Akshan arremessa um bumerangue que causa dano na ida e na volta, ganhando alcance a cada vez que atingir um inimigo.",
+      "coaching": {
+        "use": "Atingir unidades estende o alcance; causa dano na ida e na volta.",
+        "limit": "Para aproveitar os dois acertos, o retorno também precisa atingir."
+      }
     },
     {
       "id": "Akshan.W",
       "ability": "W",
       "name": "Rebeldia",
-      "description": "Akshan marca Campeões inimigos passivamente como Canalhas quando eles abatem Campeões aliados. Se Akshan abater um Canalha, ressuscita o aliado abatido, recebendo ouro adicional e removendo todas as marcas. Quando a Habilidade é ativada, Akshan fica camuflado, recebendo Velocidade de Movimento e Regeneração de Mana enquanto se move em direção a Canalhas. Akshan perde a camuflagem rapidamente enquanto não estiver em um arbusto ou próximo a um terreno."
+      "description": "Akshan marca Campeões inimigos passivamente como Canalhas quando eles abatem Campeões aliados. Se Akshan abater um Canalha, ressuscita o aliado abatido, recebendo ouro adicional e removendo todas as marcas. Quando a Habilidade é ativada, Akshan fica camuflado, recebendo Velocidade de Movimento e Regeneração de Mana enquanto se move em direção a Canalhas. Akshan perde a camuflagem rapidamente enquanto não estiver em um arbusto ou próximo a um terreno.",
+      "coaching": {
+        "use": "Camuflagem permite aproximação perto do terreno ou em arbustos.",
+        "limit": "Longe dessas áreas, a camuflagem termina rapidamente."
+      }
     },
     {
       "id": "Akshan.E",
       "ability": "E",
       "name": "Impulso Heroico",
-      "description": "Akshan dispara um arpéu em um terreno e se balança ao redor dele, atirando repetidamente no inimigo mais próximo enquanto estiver se balançando. Ele pode saltar antecipadamente ou ser derrubado ao colidir com Campeões ou terrenos."
+      "description": "Akshan dispara um arpéu em um terreno e se balança ao redor dele, atirando repetidamente no inimigo mais próximo enquanto estiver se balançando. Ele pode saltar antecipadamente ou ser derrubado ao colidir com Campeões ou terrenos.",
+      "coaching": {
+        "use": "Balanço no terreno com ataques durante o movimento.",
+        "limit": "Colidir com campeão ou terreno encerra o balanço."
+      }
     },
     {
       "id": "Akshan.R",
       "ability": "R",
       "name": "Punição",
-      "description": "Akshan trava a mira em um Campeão inimigo e começa a armazenar balas. Ao terminar, ele dispara todas as balas armazenadas, causando dano com base na Vida perdida do primeiro Campeão, tropa ou estrutura que atingir."
+      "description": "Akshan trava a mira em um Campeão inimigo e começa a armazenar balas. Ao terminar, ele dispara todas as balas armazenadas, causando dano com base na Vida perdida do primeiro Campeão, tropa ou estrutura que atingir.",
+      "coaching": {
+        "use": "Dano dos disparos considera a vida perdida do alvo.",
+        "limit": "Minions, estruturas e campeões podem bloquear os disparos."
+      }
     },
     {
       "id": "Akshan.P",
       "ability": "P",
       "name": "Lutando Sujo",
-      "description": "Os Ataques e Habilidades de Akshan causam dano adicional a cada terceiro acerto e concedem a ele um Escudo se o alvo for um Campeão. Ao Atacar, ele desfere um Ataque adicional que causa dano reduzido. Se cancelar o Ataque adicional, ele recebe Velocidade de Movimento."
+      "description": "Os Ataques e Habilidades de Akshan causam dano adicional a cada terceiro acerto e concedem a ele um Escudo se o alvo for um Campeão. Ao Atacar, ele desfere um Ataque adicional que causa dano reduzido. Se cancelar o Ataque adicional, ele recebe Velocidade de Movimento.",
+      "coaching": {
+        "use": "Terceiro acerto: dano extra e escudo contra campeões.",
+        "limit": "Precisa completar a sequência. Cancelar o segundo ataque dá velocidade."
+      }
     }
   ],
   "tips": [],
@@ -54,25 +74,31 @@
     "phases": {
       "lane": {
         "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
-        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
-        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+        "plan": "Use ataques e Q quando puder completar a sequência preservando o caminho de recuo.",
+        "against": "Evite prolongar o contato sem resposta; confira ida e volta do Q e o caminho do balanço.",
+        "resource": "Três acertos da Passiva dão escudo e dano extra contra campeões.",
+        "caution": "O E depende de terreno; colisão pode encerrar o balanço."
       },
       "mid": {
         "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
-        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
-        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+        "plan": "Acompanhe aliados em rotações com visão e prepare uma parede útil para o E antes de atacar.",
+        "against": "Proteja acessos junto a terreno e arbustos; acompanhe onde o balanço pode terminar.",
+        "resource": "W permite aproximação camuflada junto ao terreno; E permite reposicionar.",
+        "caution": "Camuflagem termina longe das áreas necessárias; terreno sem caminho livre não garante saída."
       },
       "late": {
         "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
-        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
-        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+        "plan": "Ataque a partir de uma posição com apoio do time; confira a linha do R antes de tentar finalizar.",
+        "against": "Proteja aliados expostos e use unidades ou estruturas que podem interceptar os disparos.",
+        "resource": "Ataques aplicam pressão; R usa a vida perdida do alvo para causar dano.",
+        "caution": "Avançar sozinho por um alvo pode perder a proteção do time e interromper o balanço do E."
       }
     },
     "strengths": [
       "Bumerangue Vingativo: Akshan arremessa um bumerangue que causa dano na ida e na volta, ganhando alcance a cada vez que atingir um inimigo.",
       "Punição: Akshan trava a mira em um Campeão inimigo e começa a armazenar balas. Ao terminar, ele dispara todas as balas armazenadas, causando dano com base na Vida perdida do primeiro Campeão, tropa ou estrutura que atingir."
     ],
-    "basis": "class_based",
+    "basis": "champion_specific",
     "class_label": "Atirador",
     "status": "editorial_unreviewed",
     "reviewed_at": null

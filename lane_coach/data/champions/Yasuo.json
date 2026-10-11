@@ -17,31 +17,51 @@
       "id": "Yasuo.Q",
       "ability": "Q",
       "name": "Tempestade de Aço",
-      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, Tempestade de Aço concede um acúmulo de Tempestade Crescente por alguns segundos. Com 2 acúmulos, Tempestade de Aço desfere um tornado que arremessa inimigos ao ar . Tempestade de Aço é tratada como ataque básico e escala com as mesmas coisas."
+      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, Tempestade de Aço concede um acúmulo de Tempestade Crescente por alguns segundos. Com 2 acúmulos, Tempestade de Aço desfere um tornado que arremessa inimigos ao ar . Tempestade de Aço é tratada como ataque básico e escala com as mesmas coisas.",
+      "coaching": {
+        "use": "Dois acúmulos preparam o tornado que arremessa ao ar.",
+        "limit": "A ameaça de controle depende do estado dos acúmulos."
+      }
     },
     {
       "id": "Yasuo.W",
       "ability": "W",
       "name": "Parede de Vento",
-      "description": "Cria uma parede movediça que bloqueia todos os projéteis inimigos por 4 segundos."
+      "description": "Cria uma parede movediça que bloqueia todos os projéteis inimigos por 4 segundos.",
+      "coaching": {
+        "use": "Parede bloqueia projéteis inimigos durante sua duração.",
+        "limit": "Não bloqueia todo tipo de dano; reserve para projéteis relevantes."
+      }
     },
     {
       "id": "Yasuo.E",
       "ability": "E",
       "name": "Espada Ágil",
-      "description": "Avança e atravessa o inimigo-alvo, causando Dano Mágico. Cada conjuração aumenta o dano do próximo avanço, até um limite máximo. Não pode ser conjurada novamente no mesmo inimigo por alguns segundos. Se Tempestade de Aço for conjurada durante o avanço, o Ataque será circular."
+      "description": "Avança e atravessa o inimigo-alvo, causando Dano Mágico. Cada conjuração aumenta o dano do próximo avanço, até um limite máximo. Não pode ser conjurada novamente no mesmo inimigo por alguns segundos. Se Tempestade de Aço for conjurada durante o avanço, o Ataque será circular.",
+      "coaching": {
+        "use": "Avança através de inimigos; Q durante o avanço ataca em círculo.",
+        "limit": "Precisa de alvos e não pode repetir imediatamente o mesmo alvo."
+      }
     },
     {
       "id": "Yasuo.R",
       "ability": "R",
       "name": "Último Suspiro",
-      "description": "Teletransporta-se para um Campeão inimigo arremessado ao ar , causando Dano Físico e mantendo no ar todos os inimigos da área que foram arremessados ao ar . Concede o máximo de Fluxo, mas zera todos os acúmulos de Tempestade Crescente Por um período moderado a seguir, os Acertos Críticos de Yasuo recebem Penetração de Armadura adicional significativa."
+      "description": "Teletransporta-se para um Campeão inimigo arremessado ao ar , causando Dano Físico e mantendo no ar todos os inimigos da área que foram arremessados ao ar . Concede o máximo de Fluxo, mas zera todos os acúmulos de Tempestade Crescente Por um período moderado a seguir, os Acertos Críticos de Yasuo recebem Penetração de Armadura adicional significativa.",
+      "coaching": {
+        "use": "Entra em alvo arremessado ao ar; pode aproveitar controle aliado.",
+        "limit": "Precisa de arremesso ao ar e de uma posição de chegada viável."
+      }
     },
     {
       "id": "Yasuo.P",
       "ability": "P",
       "name": "Estilo do Errante",
-      "description": "A Chance de Acerto Crítico do Yasuo é aumentada. Além disso, Yasuo vai gerando um Escudo sempre que se movimenta. O Escudo é ativado quando Yasuo sofre dano de um Campeão ou monstro."
+      "description": "A Chance de Acerto Crítico do Yasuo é aumentada. Além disso, Yasuo vai gerando um Escudo sempre que se movimenta. O Escudo é ativado quando Yasuo sofre dano de um Campeão ou monstro.",
+      "coaching": {
+        "use": "Movimento acumula escudo; aumenta a chance de crítico.",
+        "limit": "Dano de campeão ou monstro ativa o escudo; a proteção é uma janela."
+      }
     }
   ],
   "tips": [
@@ -130,17 +150,23 @@
       "lane": {
         "typical": "Acumula Q, usa minions para mudar de ângulo e ameaça Q circular durante o E.",
         "plan": "Planeje o alvo de entrada e uma saída antes de usar E. Use a parede contra um projétil relevante e considere o escudo da passiva ao escolher a troca.",
-        "against": "Acompanhe a saída do dash e os minions restantes. Se for seguro, ative a passiva com dano leve antes da troca principal."
+        "against": "Acompanhe a saída do dash e os minions restantes. Se for seguro, ative a passiva com dano leve antes da troca principal.",
+        "resource": "Minions oferecem caminhos de aproximação e reposicionamento com E. Parede bloqueia projéteis; a ultimate pode aproveitar alvos arremessados ao ar.",
+        "caution": "E precisa de alvos e não pode reutilizar imediatamente o mesmo alvo. Depende de alcance curto e de uma entrada viável; deslocamentos mal planejados podem deixá-lo exposto."
       },
       "mid": {
         "typical": "Procura pressão lateral ou uma oportunidade de ultimate criada por arremesso ao ar, inclusive de aliados.",
-        "plan": "Combine sua entrada com o controle do time. Reserve a parede para uma ameaça que ela realmente bloqueia, em vez de gastá-la sem necessidade.",
-        "against": "Não presuma que ele precisa acertar o próprio tornado para usar R: um aliado pode fornecer o arremesso ao ar."
+        "plan": "Combine a chegada ao objetivo com o controle aliado; use a lateral se consegue recuar e chegar a tempo.",
+        "against": "Observe aliados que fornecem arremesso ao ar e a pressão lateral; não acompanhe apenas o tornado.",
+        "resource": "Pode pressionar a lateral ou acompanhar arremessos ao ar do time com R.",
+        "caution": "Sem alvos para E, o caminho de saída pode mudar. Verifique o terreno da luta."
       },
       "late": {
         "typical": "Busca uma entrada com R e tempo em alcance corpo a corpo para continuar atacando.",
-        "plan": "Avalie a posição de chegada da ultimate e as respostas inimigas antes de entrar. Sobreviver à entrada permite continuar causando dano.",
-        "against": "Evite agrupar alvos para um arremesso ao ar e acompanhe a posição dele depois do R; a ameaça continua nos ataques seguintes."
+        "plan": "Fique em posição para acompanhar controle do time e reserve W para uma ameaça relevante. Avalie a chegada do R.",
+        "against": "Evite agrupar alvos para controle e acompanhe a posição de chegada após o R.",
+        "resource": "Arremesso ao ar aliado pode abrir sua entrada; W protege contra projéteis.",
+        "caution": "Entrar com R sem apoio pode deixar você exposto antes de continuar atacando."
       }
     },
     "status": "editorial_unreviewed",

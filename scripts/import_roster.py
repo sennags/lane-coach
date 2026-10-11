@@ -41,6 +41,14 @@ def make_record(data, patch, templates, existing=None):
     )
     tips = []
     if existing:
+        previous_facts = {fact['id']: fact for fact in existing['facts']}
+        for fact in facts:
+            previous = previous_facts.get(fact['id'], {})
+            # Notes refer to this mechanical snapshot; changes require new review.
+            if (existing['source']['patch'] == patch
+                    and previous.get('description') == fact['description']
+                    and 'coaching' in previous):
+                fact['coaching'] = deepcopy(previous['coaching'])
         tips = existing['tips']
         if existing['profile'].get('basis') != 'class_based':
             profile = existing['profile']
