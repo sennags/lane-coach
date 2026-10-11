@@ -13,7 +13,7 @@ def test_guides(app, opponent):
     assert 'Não validado' in response.text
     assert 'Ver base mecânica' in response.text
 
-@pytest.mark.parametrize('query', ['', 'champion=Yone&opponent=Ahri', 'champion=Yone&opponent=Yone&lane=mid', 'champion=Yone&opponent=Ahri&lane=top', 'champion=Yone&opponent=Ahri&lane=mid&lane=mid', 'champion=Yone&opponent=Ahri&lane=mid&extra=1', 'champion=%3Cscript%3Ealert(1)%3C/script%3E&opponent=Ahri&lane=mid', "champion=Yone%27%3B%20DROP%20TABLE%20guides%3B--&opponent=Ahri&lane=mid"])
+@pytest.mark.parametrize('query', ['', 'champion=Yone&opponent=Ahri', 'champion=Yone&opponent=Yone&lane=mid', 'champion=Yone&opponent=Ahri&lane=unknown', 'champion=Yone&opponent=Ahri&lane=mid&lane=mid', 'champion=Yone&opponent=Ahri&lane=mid&extra=1', 'champion=%3Cscript%3Ealert(1)%3C/script%3E&opponent=Ahri&lane=mid', "champion=Yone%27%3B%20DROP%20TABLE%20guides%3B--&opponent=Ahri&lane=mid"])
 def test_invalid(app, query):
     client = app.test_client()
     response = client.get('/matchup?' + query)
@@ -63,3 +63,12 @@ def test_database_failure(app):
     assert 'temporariamente indisponíveis' in response.text
     assert app.config['DATABASE'] not in response.text
     assert 'Traceback' not in response.text
+
+
+@pytest.mark.parametrize('lane', ['top', 'jungle', 'mid', 'adc', 'support'])
+def test_lane_selection_is_validated_and_preserved(app, lane):
+    response = app.test_client().get(f'/matchup?champion=Yone&opponent=Ahri&lane={lane}')
+    assert response.status_code == 200
+    assert f'value="{lane}" selected' in response.text
+    assert 'ainda não mudam por lane' in response.text
+    assert app.extensions['knowledge'].context('Yone', 'Ahri', lane)['lane'] == lane

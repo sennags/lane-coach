@@ -5,7 +5,7 @@ from pathlib import Path
 from flask import Flask, jsonify, render_template, request
 
 from . import db
-from .knowledge import KnowledgeBase
+from .knowledge import KnowledgeBase, LANES
 from .generation import preview_ai
 
 
@@ -32,6 +32,7 @@ def create_app(test_config=None):
         return render_template(
             'index.html', champions=champions, own=choices.get(own, choices['Yone']),
             enemy=choices.get(enemy, choices['Ahri']), guide=guide, message=message,
+            lanes=LANES, selected_lane=request.args.get('lane', 'general'),
         ), status
 
     @app.get('/')
@@ -49,8 +50,8 @@ def create_app(test_config=None):
             return page(message='Escolha campeões disponíveis na lista.', status=400)
         if own == enemy:
             return page(message='Escolha dois campeões diferentes para este confronto.', status=400)
-        if lane not in ('mid', 'general'):
-            return page(message='Use a consulta de perfis gerais de campeões.', status=400)
+        if lane not in LANES:
+            return page(message='Escolha uma lane disponível na lista.', status=400)
         return page(guide=knowledge.guide(own, enemy, lane))
 
     @app.get('/healthz')

@@ -956,3 +956,10 @@ details>summary:focus-visible {
   }
 }
 .tabs button { white-space: nowrap; }
+
+.center-controls { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); display:grid; justify-items:center; gap:8px; z-index:1; }
+.center-controls .vs { position:static; transform:none; }
+.lane-selector select { width:128px; min-height:36px; padding:8px 5px; border:1px solid var(--red); border-radius:0; background:var(--bg); color:var(--text); font:11px Consolas,monospace; text-align:center; }
+.lane-selector select:focus-visible { outline:3px solid var(--red); outline-offset:3px; }
+.lane-note { font-size:11px; color:var(--muted); line-height:1.6; margin:18px 0 0; }
+@media(max-width:700px) { .center-controls { top:90px; } .lane-selector select { width:104px; min-height:34px; font-size:9px; } }

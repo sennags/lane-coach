@@ -6,7 +6,7 @@
 <span class="sr-only">{{ own.name }} contra {{ enemy.name }}</span>
 </div>
 <form action="{{ url_for('matchup') }}" method="get" id="matchup-form">
-<input type="hidden" name="lane" value="general">
+
 <section class="match-strip" aria-label="Seleção dos campeões">
 {% for side, champion, field, label in [('own', own, 'champion', 'Seu campeão'), ('enemy', enemy, 'opponent', 'Adversário')] %}
 <article class="fighter {{ side }}">
@@ -24,7 +24,7 @@
 <select id="{{ field }}" name="{{ field }}" required>{% for option in champions %}<option value="{{ option.id }}" data-image="{{ url_for('static', filename='champions/' + option.id + '.jpg') }}" {{ 'selected' if option.id == champion.id else '' }}>{{ option.name }}</option>{% endfor %}</select>
 </div>
 </div>
-</article>{% if loop.first %}<div class="vs" aria-hidden="true">VS</div>{% endif %}
+</article>{% if loop.first %}<div class="center-controls"><div class="vs" aria-hidden="true">VS</div><div class="lane-selector"><label for="lane" class="sr-only">Sua lane</label><select id="lane" name="lane">{% for value,label in lanes.items() %}<option value="{{ value }}" {{ 'selected' if selected_lane == value else '' }}>{{ label }}</option>{% endfor %}</select></div></div>{% endif %}
 {% endfor %}</section>
 <button type="submit" class="pick fallback-submit">Ver perfis</button>
 <p id="selection-status" class="sr-only" role="status">
@@ -76,6 +76,7 @@
 <p>{{ phase.plan }}</p>
 </details>{% endif %}</section>{% endfor %}</article>{% endfor %}</div>
 </section>
+<p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Os planos atuais são gerais por campeão; ainda não mudam por lane.</p>
 <p class="review">Perfis independentes. Estratégia: {{ guide.patch }}. Revisão especializada pendente. Sem cálculo de vencedor ou observação da partida.</p>
 <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
   {% if guide.sections %}<details class="micro-library">

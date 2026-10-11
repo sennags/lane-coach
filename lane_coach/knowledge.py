@@ -5,6 +5,9 @@ from copy import deepcopy
 from pathlib import Path
 
 
+LANES = {'general': 'Selecionar lane', 'top': 'Top', 'jungle': 'Jungle', 'mid': 'Mid', 'adc': 'ADC', 'support': 'Support'}
+
+
 class KnowledgeBase:
     def __init__(self, directory=None):
         directory = directory or Path(__file__).parent / 'data' / 'champions'
@@ -55,7 +58,7 @@ class KnowledgeBase:
         self.version = hashlib.sha256(serialized.encode()).hexdigest()[:12]
 
     def context(self, own, enemy, lane='mid'):
-        if own == enemy or lane not in ('mid', 'general'):
+        if own == enemy or lane not in LANES:
             raise ValueError('Unsupported matchup')
         if own not in self.champions or enemy not in self.champions:
             raise ValueError('Unknown champion')

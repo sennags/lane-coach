@@ -2,7 +2,7 @@ const form = document.querySelector('#matchup-form');
 const dialog = document.querySelector('#champion-dialog');
 const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
 if (form && dialog && typeof dialog.showModal === 'function') {
-  const selects = [...form.querySelectorAll('select')];
+  const selects = [...form.querySelectorAll('#champion, #opponent')];
   const search = document.querySelector('#champion-search');
   const list = document.querySelector('#champion-results');
   const status = document.querySelector('#search-status');
@@ -29,6 +29,7 @@ if (form && dialog && typeof dialog.showModal === 'function') {
     document.querySelector('#dialog-title').textContent = editing.name === 'champion' ? 'Escolha seu campeão' : 'Escolha o adversário';
     search.value = ''; results(); dialog.showModal(); search.focus();
   }));
+  document.querySelector('#lane').addEventListener('change', () => form.requestSubmit());
   search.addEventListener('input', results);
   document.querySelector('#close-dialog').addEventListener('click', () => dialog.close());
   dialog.addEventListener('keydown', event => { if (event.key === 'Escape') { event.preventDefault(); dialog.close(); } });

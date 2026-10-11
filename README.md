@@ -2,7 +2,7 @@
 
 Catálogo completo: 173 campeões do Data Dragon 16.20.1, com habilidades, imagens locais, perfis e seleção pesquisável dos dois campeões. A consulta combina dois arquivos em memória, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
 
-**Estado:** versão local 0.5, com o design Seleção competitiva integrado. Dois perfis lado a lado, com comportamento típico e plano por fase; o perfil adversário inclui orientações de resposta. As dicas de micro específicas anteriores aparecem quando há conteúdo editorial disponível para os campeões selecionados. Os quatro perfis originais são específicos por campeão. Os outros 169 têm habilidades e dicas do catálogo oficial, quando disponíveis, e planos gerais pela classe principal da Riot. A interface identifica o plano por classe. Todo conteúdo estratégico ainda aguarda revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
+**Estado:** versão local 0.6, com o design Seleção competitiva integrado. Dois perfis lado a lado, com comportamento típico e plano por fase; o perfil adversário inclui orientações de resposta. As dicas de micro específicas anteriores aparecem quando há conteúdo editorial disponível para os campeões selecionados. Os quatro perfis originais são específicos por campeão. Os outros 169 têm habilidades e dicas do catálogo oficial, quando disponíveis, e planos gerais pela classe principal da Riot. A interface identifica o plano por classe. Todo conteúdo estratégico ainda aguarda revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
 
 ## Executar no Windows
 
@@ -16,7 +16,7 @@ py -3 -m venv .venv
 
 Abra http://127.0.0.1:5000. O Waitress escuta apenas neste computador por padrão. Ctrl+C encerra. Não é necessário ativar a venv.
 
-A página inicial mostra Yone e Ahri. **Trocar campeão** abre uma seleção pesquisável com os 173 campeões; a escolha consulta o Flask e atualiza os dois perfis. A seleção impede repetir o adversário, e o servidor valida todas as entradas. As abas Lane phase, Mid game e Late game alternam os planos dos dois lados sem rede. Sem JavaScript, seletores nativos e um botão de consulta permanecem disponíveis, e as três fases são exibidas. Composições é uma possibilidade futura, sem análise implementada.
+A página inicial mostra Yone e Ahri. **Trocar campeão** abre uma seleção pesquisável com os 173 campeões; a escolha consulta o Flask e atualiza os dois perfis. A seleção impede repetir o adversário, e o servidor valida todas as entradas. A lane (Top, Jungle, Mid, ADC ou Support) pode ser escolhida abaixo do VS e é preservada ao trocar campeão. Ela registra o contexto; os planos atuais ainda são gerais por campeão e não mudam conforme a rota. As abas Lane phase, Mid game e Late game alternam os planos dos dois lados sem rede. Sem JavaScript, seletores nativos e um botão de consulta permanecem disponíveis, e as três fases são exibidas. Composições é uma possibilidade futura, sem análise implementada.
 
 O visual usa navegação lateral, destaque vermelho, corte inclinado nas imagens, adversário alinhado à direita e fases centralizadas. Não há subtítulos oficiais sob os nomes dos campeões.
 
@@ -55,7 +55,7 @@ Validação no servidor, SQL parametrizado, escape de templates e CSP restritiva
 
 Ainda não existe URL pública da aplicação. Use uma hospedagem Python com HTTPS e disco persistente, em uma instância. Configure `HOST=0.0.0.0`, `PORT` conforme a plataforma e `DATABASE_PATH` no disco persistente. Instale `requirements.txt` e execute `python server.py`. Não use SQLite em disco efêmero. Configure backup e revise retenção de logs/IPs na hospedagem antes da abertura pública.
 
-A hospedagem será decidida antes de iniciar o deploy. Preparação independente da plataforma:
+O lançamento deve ser totalmente gratuito. Cloudflare e Supabase foram sugeridos; a arquitetura final ainda precisa de adaptação e validação antes do deploy. A versão Flask/Waitress com SQLite local não será enviada sem adaptação. O foco é consulta rápida para quem já escolheu seu campeão, com dicas diretas e detalhes secundários recolhidos. O Supabase é opcional para dados dinâmicos futuros; o catálogo JSON atual não exige banco remoto. Preparação independente da plataforma:
 
 - Instalação: `python -m pip install -r requirements.txt`.
 - Inicialização: `python server.py`, com `HOST=0.0.0.0` e `PORT` definido pela plataforma.
@@ -65,7 +65,7 @@ A hospedagem será decidida antes de iniciar o deploy. Preparação independente
 - Privacidade: conferir retenção de logs do provedor e evitar registrar query strings. Não configurar chaves de IA para a versão pública atual.
 - Após publicar: validar HTTPS, página inicial, seleção de dois campeões, fases, habilidades, imagens locais, celular e respostas 400/404. Registrar URL pública neste README.
 
-Verificação local da versão 0.5: 52 testes pytest; Playwright com os 173 campeões nos seletores, buscas normalizadas, perspectiva dos planos, fases, habilidades, volta do navegador, desktop/celular, Escape e navegação sem JavaScript. Sem cookies, chamadas externas ou erros JavaScript no fluxo testado. Isso não substitui a verificação na hospedagem.
+Verificação local da versão 0.6: 57 testes pytest; Playwright com os 173 campeões nos seletores, buscas normalizadas, perspectiva dos planos, fases, habilidades, volta do navegador, desktop/celular, Escape e navegação sem JavaScript. Sem cookies, chamadas externas ou erros JavaScript no fluxo testado. Isso não substitui a verificação na hospedagem.
 
 Próximos passos: decidir hospedagem, publicar e verificar a versão determinística; revisar os perfis gerais com fontes e patch. IA analítica e builds permanecem futuras. Não há limite de IA implementado porque ainda não existe geração por IA na página.
 
