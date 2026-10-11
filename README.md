@@ -16,7 +16,7 @@ py -3 -m venv .venv
 
 Abra http://127.0.0.1:5000. O Waitress escuta apenas neste computador por padrão. Ctrl+C encerra. Não é necessário ativar a venv.
 
-A página inicial mostra Yone e Ahri. A seção inferior apresenta somente as habilidades dos dois lados, abertas inicialmente, sem repetir nomes, identidades ou dicas do catálogo. As fontes oficiais são mantidas. **Trocar campeão** abre uma seleção pesquisável com os 173 campeões; a escolha consulta o Flask e atualiza os dois perfis. A seleção impede repetir o adversário, e o servidor valida todas as entradas. A lane (Top, Jungle, Mid, ADC ou Support) pode ser escolhida abaixo do VS e é preservada ao trocar campeão. Ela registra o contexto; os planos atuais ainda são gerais por campeão e não mudam conforme a rota. As abas Lane phase, Mid game e Late game alternam os planos dos dois lados sem rede. Sem JavaScript, seletores nativos e um botão de consulta permanecem disponíveis, e as três fases são exibidas. Composições é uma possibilidade futura, sem análise implementada.
+A página inicial mostra Yone e Ahri. A seção inferior apresenta somente as habilidades dos dois lados, sempre visíveis, sob um único título HABILIDADES preto e centralizado, sem repetir nomes, rótulos de lado, identidades ou dicas do catálogo. Cada habilidade mostra seu ícone oficial local, tecla, nome e descrição, em uma lista com divisórias. As fontes oficiais são mantidas. **Trocar campeão** abre uma seleção pesquisável com os 173 campeões; a escolha consulta o Flask e atualiza os dois perfis. A seleção impede repetir o adversário, e o servidor valida todas as entradas. A lane (Top, Jungle, Mid, ADC ou Support) pode ser escolhida abaixo do VS e é preservada ao trocar campeão. Ela registra o contexto; os planos atuais ainda são gerais por campeão e não mudam conforme a rota. As abas Lane phase, Mid game e Late game alternam os planos dos dois lados sem rede. Sem JavaScript, seletores nativos e um botão de consulta permanecem disponíveis, e as três fases são exibidas. Composições é uma possibilidade futura, sem análise implementada.
 
 O visual usa navegação lateral, destaque vermelho, corte inclinado nas imagens, adversário alinhado à direita e fases centralizadas. Não há subtítulos oficiais sob os nomes dos campeões.
 
@@ -65,7 +65,7 @@ O lançamento deve ser totalmente gratuito. Cloudflare e Supabase foram sugerido
 - Privacidade: conferir retenção de logs do provedor e evitar registrar query strings. Não configurar chaves de IA para a versão pública atual.
 - Após publicar: validar HTTPS, página inicial, seleção de dois campeões, fases, habilidades, imagens locais, celular e respostas 400/404. Registrar URL pública neste README.
 
-Verificação local da versão 0.6: 58 testes pytest; Playwright com os 173 campeões nos seletores, buscas normalizadas, perspectiva dos planos, fases, habilidades, volta do navegador, desktop/celular, Escape e navegação sem JavaScript. Sem cookies, chamadas externas ou erros JavaScript no fluxo testado. Isso não substitui a verificação na hospedagem.
+Verificação local: 59 testes pytest. A melhoria da lista de habilidades foi conferida com Playwright em 1440px e 390px, troca dos dois campeões, ícones correspondentes ao lado, título único preto e centralizado, fontes, ausência de overflow e funcionamento sem JavaScript. Os 865 PNGs foram carregados e decodificados pelo navegador. Sem cookies, chamadas externas ou erros JavaScript no fluxo testado. Verificações anteriores da versão 0.6 também cobriram seleção pesquisável, fases, Escape e volta do navegador. Isso não substitui a verificação na hospedagem.
 
 Próximos passos: decidir hospedagem, publicar e verificar a versão determinística; revisar os perfis gerais com fontes e patch. IA analítica e builds permanecem futuras. Não há limite de IA implementado porque ainda não existe geração por IA na página.
 
@@ -105,11 +105,21 @@ A consulta principal é independente de IA, chave e orçamento de geração. Os 
 
 ## Atualizar o elenco oficial
 
+Para baixar apenas os ícones de Passiva/Q/W/E/R do patch local, sem alterar os textos ou perfis:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/import_ability_icons.py --patch 16.20.1
+```
+
+São usadas as propriedades `passive.image.full` e `spells[].image.full` do JSON oficial. Os PNGs ficam em `lane_coach/static/abilities/{patch}/{Champion}/{key}.png`; `sources.json` na pasta do patch registra a URL oficial de cada ícone. A consulta serve as imagens localmente. O script só copia o conjunto para a aplicação após concluir todos os downloads, com até três tentativas para falhas transitórias de rede; erros HTTP de cliente, incluindo limite de requisições, interrompem a importação.
+
+Para atualizar também o conteúdo do catálogo:
+
 ```powershell
 .\.venv\Scripts\python.exe scripts/import_roster.py --patch 16.20.1
 ```
 
-Execute a importação com o servidor parado e revise o diff antes de publicar. Ela baixa o catálogo, dados e imagens ausentes com concorrência limitada; valida a base completa em uma pasta temporária antes de copiar os arquivos. Preserva perfis específicos e dicas editoriais existentes. Não chama IA nem exige uma chave Riot. O patch é explícito; arquivos JSON em cache opcionais devem corresponder à versão solicitada.
+Execute a importação com o servidor parado e revise o diff antes de publicar. Ela baixa o catálogo, dados, ícones oficiais das habilidades e imagens ausentes com concorrência limitada; valida a base completa em uma pasta temporária antes de copiar os arquivos. Preserva perfis específicos e dicas editoriais existentes. Não chama IA nem exige uma chave Riot. O patch é explícito; arquivos JSON em cache opcionais devem corresponder à versão solicitada.
 
 `lane_coach/data/roster.json` registra a lista e as fontes do snapshot. `profile_templates.json` contém os planos editoriais por classe usados para perfis iniciais; eles não são análises individualizadas. As dicas oficiais `allytips` e `enemytips` podem estar ausentes ou conter orientações antigas, inclusive após reworks. São identificadas como dicas do catálogo, sem declaração de revisão competitiva. O importador não fabrica dicas oficiais quando elas estão vazias.
 

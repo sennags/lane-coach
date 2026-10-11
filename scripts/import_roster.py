@@ -10,6 +10,7 @@ import re
 import sys
 from tempfile import TemporaryDirectory
 from urllib.request import urlopen
+from import_ability_icons import stage_icons
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -71,16 +72,22 @@ def main():
         staging = Path(temporary)
         (staging / 'champions').mkdir()
         (staging / 'images').mkdir()
+        (staging / 'abilities').mkdir()
+        icon_sources = {}
 
         def import_one(key):
             cache = args.cache_dir / f'{key}.json' if args.cache_dir else None
-            data = json.loads(cache.read_text(encoding='utf-8')) if cache and cache.exists() else fetch_json(
-                f'https://ddragon.leagueoflegends.com/cdn/{args.patch}/data/pt_BR/champion/{key}.json')['data'][key]
+            if cache and cache.exists():
+                data = json.loads(cache.read_text(encoding='utf-8'))
+            else:
+                document = fetch_json(f'https://ddragon.leagueoflegends.com/cdn/{args.patch}/data/pt_BR/champion/{key}.json')
+                data = {**document['data'][key], 'version': document['version']}
             if data['id'] != key or data.get('version') != args.patch or len(data['spells']) != 4:
                 raise ValueError(f'Invalid official record: {key}')
             previous = output / f'{key}.json'
             existing = json.loads(previous.read_text(encoding='utf-8')) if previous.exists() else None
             record = make_record(data, args.patch, templates, existing)
+            icon_sources[key] = stage_icons(data, args.patch, staging / 'abilities')
             (staging / 'champions' / f'{key}.json').write_text(
                 json.dumps(record, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
             image = images / f'{key}.jpg'
@@ -106,6 +113,13 @@ def main():
             (output / path.name).write_bytes(path.read_bytes())
         for path in (staging / 'images').glob('*.jpg'):
             (images / path.name).write_bytes(path.read_bytes())
+        (staging / 'abilities' / args.patch / 'sources.json').write_text(
+            json.dumps(icon_sources, sort_keys=True, indent=2) + '\n', encoding='utf-8')
+        for path in (staging / 'abilities').rglob('*'):
+            if path.is_file():
+                target = ROOT / 'lane_coach/static/abilities' / path.relative_to(staging / 'abilities')
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(path.read_bytes())
         manifest = {'patch': args.patch, 'source': catalog_url, 'champion_ids': sorted(catalog),
                     'image_source': 'https://ddragon.leagueoflegends.com/cdn/img/champion/loading/{id}_0.jpg'}
         (ROOT / 'lane_coach/data/roster.json').write_text(

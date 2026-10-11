@@ -1,12 +1,14 @@
-<article class="champion-profile {{ profile.side }}" aria-labelledby="profile-{{ profile.side }}">
-  <h3 id="profile-{{ profile.side }}" class="eyebrow">{{ 'SEU CAMPEÃO' if profile.side == 'ally' else 'ADVERSÁRIO' }}</h3>
-  <details class="profile-abilities" open>
-    <summary>Habilidades · Passiva, Q, W, E e R</summary>
+<article class="champion-profile {{ profile.side }}" aria-label="{{ 'Seu campeão' if profile.side == 'ally' else 'Adversário' }}: {{ profile.name }}">
+  <div class="profile-abilities">
     {% for key in ['P', 'Q', 'W', 'E', 'R'] %}
     {% for fact in profile.facts if fact.ability == key %}
-    <div class="ability-entry"><span class="ability-key">{{ key }}</span><div><h4>{{ fact.name }}</h4><p>{{ fact.description }}</p></div></div>
+    <div class="ability-entry">
+      <img class="ability-icon" src="{{ url_for('static', filename='abilities/' ~ profile.source.patch ~ '/' ~ profile.id ~ '/' ~ key ~ '.png') }}" alt="" width="64" height="64" loading="lazy" decoding="async">
+      <span class="ability-key" aria-label="{{ 'Passiva' if key == 'P' else 'Habilidade ' ~ key }}">{{ key }}</span>
+      <div class="ability-copy"><h4>{{ fact.name }}</h4><p>{{ fact.description }}</p></div>
+    </div>
     {% endfor %}
     {% endfor %}
     <p class="profile-source"><a href="{{ profile.source.url }}" rel="noreferrer">Riot Data Dragon</a> · Dados {{ profile.source.patch }} · Consulta {{ profile.source.accessed_at }}</p>
-  </details>
+  </div>
 </article>

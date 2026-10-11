@@ -22,6 +22,22 @@ def test_catalog_covers_every_official_champion_and_image():
         assert champion['profile']['basis'] in ('champion_specific', 'class_based')
 
 
+def test_ability_icons_cover_roster_with_official_sources():
+    base = KnowledgeBase()
+    patch = json.loads((ROOT / 'lane_coach/data/roster.json').read_text())['patch']
+    directory = ROOT / 'lane_coach/static/abilities' / patch
+    sources = json.loads((directory / 'sources.json').read_text())
+    assert set(sources) == set(base.champions)
+    for champion in base.champions:
+        assert set(sources[champion]) == set('PQWER')
+        for ability, url in sources[champion].items():
+            group = 'passive' if ability == 'P' else 'spell'
+            assert url.startswith(f'https://ddragon.leagueoflegends.com/cdn/{patch}/img/{group}/')
+            assert (directory / champion / f'{ability}.png').read_bytes().startswith(b'\x89PNG\r\n\x1a\n')
+    assert sources['Yone']['P'].endswith('/YonePassive.png')
+    assert sources['Ahri']['Q'].endswith('/AhriQ.png')
+
+
 def test_catalog_requests_respect_maintenance_without_network(tmp_path):
     app = create_app({'TESTING': True, 'DATABASE': str(tmp_path / 'test.sqlite3')})
     client = app.test_client()

@@ -761,12 +761,21 @@ main {
   font-size:13px;
   line-height:1.7
 }
+.abilities-section {
+  border-top:1px solid var(--line);
+  padding-top:24px
+}
+#abilities-title {
+  margin:0 0 12px;
+  color:#000;
+  text-align:center;
+  font:24px Impact,sans-serif;
+  letter-spacing:1px
+}
 .profiles-grid {
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:36px;
-  border-top:1px solid var(--line);
-  padding-top:24px
+  gap:36px
 }
 .profile-header h3 {
   font:25px Impact;
@@ -794,9 +803,13 @@ details>summary:focus-visible {
   outline:3px solid var(--red);
   outline-offset:4px
 }
-.official-advice,.profile-abilities {
+.official-advice {
   border-top:1px solid var(--line);
   padding:16px 0;
+  font-size:12px;
+  line-height:1.7
+}
+.profile-abilities {
   font-size:12px;
   line-height:1.7
 }
@@ -808,22 +821,40 @@ details>summary:focus-visible {
 }
 .ability-entry {
   display:grid;
-  grid-template-columns:25px 1fr;
+  grid-template-columns:64px 28px minmax(0,1fr);
   gap:14px;
-  padding-top:18px
+  align-items:start;
+  padding:22px 0;
+  border-bottom:1px solid var(--line)
+}
+.ability-icon {
+  width:64px;
+  height:64px;
+  border:1px solid var(--line);
+  object-fit:contain;
+  background:var(--surface)
 }
 .ability-key {
+  display:grid;
+  place-items:center;
+  width:28px;
+  height:28px;
   font:16px Impact;
-  color:var(--red)
+  color:#fff;
+  background:var(--red)
 }
 .ability-entry h4 {
-  font-size:13px;
+  font-size:16px;
+  line-height:1.4;
   margin:0
 }
 .ability-entry p {
-  font-size:12px;
-  line-height:1.7;
-  margin:7px 0 0
+  font-size:13px;
+  line-height:1.65;
+  margin:8px 0 0
+}
+.profile-abilities .profile-source {
+  margin:18px 0 0
 }
 .micro-library {
   margin-top:26px;
@@ -928,6 +959,23 @@ details>summary:focus-visible {
   .profiles-grid,.guide-grid {
     grid-template-columns:1fr;
     gap:25px
+  }
+  .ability-entry {
+    grid-template-columns:48px 24px minmax(0,1fr);
+    gap:10px;
+    padding:18px 0
+  }
+  .ability-icon {
+    width:48px;
+    height:48px
+  }
+  .ability-key {
+    width:24px;
+    height:24px;
+    font-size:14px
+  }
+  .ability-entry h4 {
+    font-size:15px
   }
   .traits-name {
     display:block;

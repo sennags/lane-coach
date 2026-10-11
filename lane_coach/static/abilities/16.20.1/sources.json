@@ -1,0 +1,1213 @@
+{
+  "Aatrox": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Aatrox_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AatroxQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AatroxW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AatroxE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AatroxR.png"
+  },
+  "Ahri": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Ahri_SoulEater2.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AhriQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AhriW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AhriE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AhriR.png"
+  },
+  "Akali": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Akali_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkaliQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkaliW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkaliE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkaliR.png"
+  },
+  "Akshan": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/akshan_p.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkshanQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkshanW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkshanE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AkshanR.png"
+  },
+  "Alistar": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Alistar_E.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Pulverize.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Headbutt.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AlistarE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FerociousHowl.png"
+  },
+  "Ambessa": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Icon_Ambessa_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AmbessaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AmbessaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AmbessaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AmbessaR.png"
+  },
+  "Amumu": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Amumu_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BandageToss.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AuraofDespair.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Tantrum.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CurseoftheSadMummy.png"
+  },
+  "Anivia": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Anivia_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FlashFrost.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Crystallize.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Frostbite.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GlacialStorm.png"
+  },
+  "Annie": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Annie_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AnnieQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AnnieW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AnnieE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AnnieR.png"
+  },
+  "Aphelios": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ApheliosP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ApheliosQ_ClientTooltipWrapper.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ApheliosW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ApheliosE_ClientTooltipWrapper.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ApheliosR.png"
+  },
+  "Ashe": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Ashe_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AsheQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Volley.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AsheSpiritOfTheHawk.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EnchantedCrystalArrow.png"
+  },
+  "AurelionSol": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/AurelionSolP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AurelionSolQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AurelionSolW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AurelionSolE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AurelionSolR.png"
+  },
+  "Aurora": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/AuroraPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AuroraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AuroraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AuroraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AuroraR.png"
+  },
+  "Azir": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Azir_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AzirQWrapper.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AzirW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AzirEWrapper.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AzirR.png"
+  },
+  "Bard": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Bard_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BardQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BardW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BardE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BardR.png"
+  },
+  "Belveth": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Belveth_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BelvethQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BelvethW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BelvethE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BelvethR.png"
+  },
+  "Blitzcrank": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Blitzcrank_ManaBarrier.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RocketGrab.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Overdrive.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PowerFist.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/StaticField.png"
+  },
+  "Brand": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/BrandP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BrandQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BrandW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BrandE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BrandR.png"
+  },
+  "Braum": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Braum_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BraumQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BraumW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BraumE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BraumRWrapper.png"
+  },
+  "Briar": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/BriarP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BriarQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BriarW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BriarE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/BriarR.png"
+  },
+  "Caitlyn": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Caitlyn_Headshot.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CaitlynQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CaitlynW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CaitlynE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CaitlynR.png"
+  },
+  "Camille": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Camille_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CamilleQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CamilleW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CamilleE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CamilleR.png"
+  },
+  "Cassiopeia": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Cassiopeia_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CassiopeiaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CassiopeiaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CassiopeiaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CassiopeiaR.png"
+  },
+  "Chogath": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/GreenTerror_TailSpike.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Rupture.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FeralScream.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VorpalSpikes.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Feast.png"
+  },
+  "Corki": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Corki_RapidReload.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PhosphorusBomb.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CarpetBomb.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GGun.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MissileBarrage.png"
+  },
+  "Darius": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Darius_Icon_Hemorrhage.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DariusCleave.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DariusNoxianTacticsONH.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DariusAxeGrabCone.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DariusExecute.png"
+  },
+  "Diana": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Diana_Passive_LunarBlade.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DianaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DianaOrbs.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DianaTeleport.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DianaR.png"
+  },
+  "DrMundo": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/DrMundo_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DrMundoQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DrMundoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DrMundoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DrMundoR.png"
+  },
+  "Draven": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Draven_passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DravenSpinning.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DravenFury.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DravenDoubleShot.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DravenRCast.png"
+  },
+  "Ekko": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Ekko_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EkkoQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EkkoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EkkoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EkkoR.png"
+  },
+  "Elise": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ElisePassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EliseHumanQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EliseHumanW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EliseHumanE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EliseR.png"
+  },
+  "Evelynn": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Evelynn_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EvelynnQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EvelynnW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EvelynnE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EvelynnR.png"
+  },
+  "Ezreal": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Ezreal_RisingSpellForce.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EzrealQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EzrealW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EzrealE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EzrealR.png"
+  },
+  "Fiddlesticks": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/FiddlesticksP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FiddleSticksQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FiddleSticksW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FiddleSticksE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FiddleSticksR.png"
+  },
+  "Fiora": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Fiora_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FioraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FioraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FioraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FioraR.png"
+  },
+  "Fizz": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Fizz_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FizzQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FizzW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FizzE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/FizzR.png"
+  },
+  "Galio": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Galio_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GalioQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GalioW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GalioE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GalioR.png"
+  },
+  "Gangplank": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Gangplank_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GangplankQWrapper.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GangplankW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GangplankE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GangplankR.png"
+  },
+  "Garen": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Garen_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GarenQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GarenW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GarenE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GarenR.png"
+  },
+  "Gnar": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Gnar_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GnarQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GnarW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GnarE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GnarR.png"
+  },
+  "Gragas": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/GragasPassiveHeal.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GragasQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GragasW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GragasE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GragasR.png"
+  },
+  "Graves": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/GravesTrueGrit.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GravesQLineSpell.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GravesSmokeGrenade.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GravesMove.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GravesChargeShot.png"
+  },
+  "Gwen": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Gwen_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GwenQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GwenW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GwenE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/GwenR.png"
+  },
+  "Hecarim": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Hecarim_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HecarimRapidSlash.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HecarimW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HecarimRamp.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HecarimUlt.png"
+  },
+  "Heimerdinger": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Heimerdinger_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HeimerdingerQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HeimerdingerW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HeimerdingerE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HeimerdingerR.png"
+  },
+  "Hwei": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/HweiPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HweiQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HweiW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HweiE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HweiR.png"
+  },
+  "Illaoi": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Illaoi_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IllaoiQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IllaoiW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IllaoiE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IllaoiR.png"
+  },
+  "Irelia": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Irelia_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IreliaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IreliaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IreliaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IreliaR.png"
+  },
+  "Ivern": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/IvernP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IvernQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IvernW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IvernE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/IvernR.png"
+  },
+  "Janna": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/JannaP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HowlingGale.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SowTheWind.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/EyeOfTheStorm.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ReapTheWhirlwind.png"
+  },
+  "JarvanIV": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/JarvanIVP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JarvanIVDragonStrike.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JarvanIVGoldenAegis.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JarvanIVDemacianStandard.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JarvanIVCataclysm.png"
+  },
+  "Jax": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Armsmaster_MasterOfArms.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JaxQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JaxW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JaxE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JaxR.png"
+  },
+  "Jayce": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Jayce_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JayceToTheSkies.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JayceStaticField.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JayceThunderingBlow.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JayceStanceHtG.png"
+  },
+  "Jhin": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Jhin_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JhinQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JhinW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JhinE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JhinR.png"
+  },
+  "Jinx": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Jinx_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JinxQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JinxW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JinxE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JinxR.png"
+  },
+  "KSante": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Icons_KSante_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KSanteQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KSanteW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KSanteE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KSanteR.png"
+  },
+  "Kaisa": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kaisa_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaisaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaisaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaisaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaisaR.png"
+  },
+  "Kalista": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kalista_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KalistaMysticShot.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KalistaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KalistaExpungeWrapper.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KalistaRx.png"
+  },
+  "Karma": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Karma_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarmaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarmaSpiritBind.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarmaSolKimShield.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarmaMantra.png"
+  },
+  "Karthus": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Karthus_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarthusLayWasteA1.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarthusWallOfPain.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarthusDefile.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KarthusFallenOne.png"
+  },
+  "Kassadin": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kassadin_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NullLance.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NetherBlade.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ForcePulse.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RiftWalk.png"
+  },
+  "Katarina": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Katarina_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KatarinaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KatarinaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KatarinaEWrapper.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KatarinaR.png"
+  },
+  "Kayle": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kayle_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KayleQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KayleW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KayleE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KayleR.png"
+  },
+  "Kayn": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kayn_Passive_Primary.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaynQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaynW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaynE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KaynR.png"
+  },
+  "Kennen": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kennen_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KennenShurikenHurlMissile1.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KennenBringTheLight.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KennenLightningRush.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KennenShurikenStorm.png"
+  },
+  "Khazix": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Khazix_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KhazixQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KhazixW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KhazixE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KhazixR.png"
+  },
+  "Kindred": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kindred_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KindredQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KindredW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KindredEWrapper.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KindredR.png"
+  },
+  "Kled": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Kled_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KledQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KledW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KledE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KledR.png"
+  },
+  "KogMaw": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/KogMaw_IcathianSurprise.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KogMawQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KogMawBioArcaneBarrage.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KogMawVoidOoze.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/KogMawLivingArtillery.png"
+  },
+  "Leblanc": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/LeblancP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeblancQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeblancW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeblancE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeblancR.png"
+  },
+  "LeeSin": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/LeeSinPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeeSinQOne.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeeSinWOne.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeeSinEOne.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeeSinR.png"
+  },
+  "Leona": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/LeonaSunlight.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeonaShieldOfDaybreak.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeonaSolarBarrier.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeonaZenithBlade.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LeonaSolarFlare.png"
+  },
+  "Lillia": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Lillia_Icon_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LilliaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LilliaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LilliaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LilliaR.png"
+  },
+  "Lissandra": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Lissandra_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LissandraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LissandraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LissandraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LissandraR.png"
+  },
+  "Locke": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Locke_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LockeQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LockeW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LockeE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LockeR.png"
+  },
+  "Lucian": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Lucian_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LucianQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LucianW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LucianE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LucianR.png"
+  },
+  "Lulu": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Lulu_PixFaerieCompanion.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuluQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuluW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuluE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuluR.png"
+  },
+  "Lux": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/LuxIlluminatingFraulein.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuxLightBinding.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuxPrismaticWave.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuxLightStrikeKugel.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/LuxR.png"
+  },
+  "Malphite": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Malphite_GraniteShield.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SeismicShard.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Obduracy.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Landslide.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UFSlash.png"
+  },
+  "Malzahar": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Malzahar_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MalzaharQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MalzaharW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MalzaharE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MalzaharR.png"
+  },
+  "Maokai": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Maokai_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MaokaiQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MaokaiW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MaokaiE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MaokaiR.png"
+  },
+  "MasterYi": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/MasterYi_Passive1.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AlphaStrike.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Meditate.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/WujuStyle.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Highlander.png"
+  },
+  "Mel": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Mel_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MelQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MelW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MelE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MelR.png"
+  },
+  "Milio": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Milio_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MilioQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MilioW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MilioE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MilioR.png"
+  },
+  "MissFortune": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/MissFortune_W.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MissFortuneRicochetShot.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MissFortuneViciousStrikes.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MissFortuneScattershot.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MissFortuneBulletTime.png"
+  },
+  "MonkeyKing": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/MonkeyKingStoneSkin.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MonkeyKingDoubleAttack.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MonkeyKingDecoy.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MonkeyKingNimbus.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MonkeyKingSpinToWin.png"
+  },
+  "Mordekaiser": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/MordekaiserPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MordekaiserQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MordekaiserW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MordekaiserE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MordekaiserR.png"
+  },
+  "Morgana": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/FallenAngel_Empathize.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MorganaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MorganaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MorganaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MorganaR.png"
+  },
+  "Naafiri": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Icons_Naafiri_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NaafiriQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NaafiriR.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NaafiriE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NaafiriW.png"
+  },
+  "Nami": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/NamiPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NamiQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NamiW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NamiE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NamiR.png"
+  },
+  "Nasus": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Nasus_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NasusQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NasusW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NasusE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NasusR.png"
+  },
+  "Nautilus": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Nautilus_StaggeringBlow.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NautilusAnchorDrag.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NautilusPiercingGaze.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NautilusSplashZone.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NautilusGrandLine.png"
+  },
+  "Neeko": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Neeko_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NeekoQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NeekoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NeekoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NeekoR.png"
+  },
+  "Nidalee": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Nidalee_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JavelinToss.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Bushwhack.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PrimalSurge.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/AspectOfTheCougar.png"
+  },
+  "Nilah": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/NIlahP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NilahQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NilahW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NilahE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NilahR.png"
+  },
+  "Nocturne": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Nocturne_UmbraBlades.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NocturneDuskbringer.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NocturneShroudofDarkness.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NocturneUnspeakableHorror.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NocturneParanoia.png"
+  },
+  "Nunu": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/NunuPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NunuQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NunuW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NunuE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/NunuR.png"
+  },
+  "Olaf": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Olaf_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OlafAxeThrowCast.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OlafFrenziedStrikes.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OlafRecklessStrike.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OlafRagnarok.png"
+  },
+  "Orianna": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/OriannaPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrianaIzunaCommand.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrianaDissonanceCommand.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrianaRedactCommand.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrianaDetonateCommand.png"
+  },
+  "Ornn": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/OrnnP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrnnQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrnnW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrnnE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/OrnnR.png"
+  },
+  "Pantheon": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Pantheon_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PantheonQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PantheonW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PantheonE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PantheonR.png"
+  },
+  "Poppy": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Poppy_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PoppyQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PoppyW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PoppyE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PoppyR.png"
+  },
+  "Pyke": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/PykePassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PykeQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PykeW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PykeE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PykeR.png"
+  },
+  "Qiyana": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Qiyana_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QiyanaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QiyanaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QiyanaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QiyanaR.png"
+  },
+  "Quinn": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Quinn_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QuinnQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QuinnW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QuinnE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/QuinnR.png"
+  },
+  "Rakan": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Rakan_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RakanQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RakanW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RakanE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RakanR.png"
+  },
+  "Rammus": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Armordillo_ScavengeArmor.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PowerBall.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/DefensiveBallCurl.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PuncturingTaunt.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Tremors2.png"
+  },
+  "RekSai": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/RekSai_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RekSaiQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RekSaiW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RekSaiE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RekSaiR.png"
+  },
+  "Rell": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/RellP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RellQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RellW_Dismount.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RellE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RellR.png"
+  },
+  "Renata": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Renata_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenataQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenataW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenataE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenataR.png"
+  },
+  "Renekton": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Renekton_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenektonCleave.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenektonPreExecute.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenektonSliceAndDice.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RenektonReignOfTheTyrant.png"
+  },
+  "Rengar": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Rengar_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RengarQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RengarW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RengarE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RengarR.png"
+  },
+  "Riven": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/RivenRunicBlades.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RivenTriCleave.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RivenMartyr.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RivenFeint.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RivenFengShuiEngine.png"
+  },
+  "Rumble": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Rumble_JunkyardTitan1.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RumbleFlameThrower.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RumbleShield.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RumbleGrenade.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RumbleCarpetBomb.png"
+  },
+  "Ryze": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Ryze_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RyzeQWrapper.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RyzeW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RyzeE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/RyzeR.png"
+  },
+  "Samira": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/SamiraP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SamiraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SamiraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SamiraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SamiraR.png"
+  },
+  "Sejuani": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Sejuani_passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SejuaniQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SejuaniW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SejuaniE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SejuaniR.png"
+  },
+  "Senna": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Senna_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SennaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SennaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SennaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SennaR.png"
+  },
+  "Seraphine": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Seraphine_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SeraphineQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SeraphineW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SeraphineE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SeraphineR.png"
+  },
+  "Sett": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Sett_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SettQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SettW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SettE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SettR.png"
+  },
+  "Shaco": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Jester_CarefulStrikes.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Deceive.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/JackInTheBox.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TwoShivPoison.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/HallucinateFull.png"
+  },
+  "Shen": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Shen_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShenQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShenW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShenE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShenR.png"
+  },
+  "Shyvana": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Shyvana_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShyvanaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShyvanaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShyvanaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ShyvanaR.png"
+  },
+  "Singed": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Singed_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PoisonTrail.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/MegaAdhesive.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Fling.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/InsanityPotion.png"
+  },
+  "Sion": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Sion_Passive1.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SionQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SionW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SionE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SionR.png"
+  },
+  "Sivir": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Sivir_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SivirQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SivirW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SivirE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SivirR.png"
+  },
+  "Skarner": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Skarner_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SkarnerQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SkarnerW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SkarnerE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SkarnerR.png"
+  },
+  "Smolder": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Icons_Smolder_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SmolderQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SmolderW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SmolderE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SmolderR.png"
+  },
+  "Sona": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Sona_Passive_Charged.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SonaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SonaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SonaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SonaR.png"
+  },
+  "Soraka": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Soraka_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SorakaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SorakaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SorakaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SorakaR.png"
+  },
+  "Swain": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Swain_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SwainQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SwainW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SwainE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SwainR.png"
+  },
+  "Sylas": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/SylasP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SylasQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SylasW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SylasE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SylasR.png"
+  },
+  "Syndra": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/SyndraPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SyndraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SyndraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SyndraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/SyndraR.png"
+  },
+  "TahmKench": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/TahmKenchP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TahmKenchQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TahmKenchW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TahmKenchE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TahmKenchRWrapper.png"
+  },
+  "Taliyah": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Taliyah_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaliyahQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaliyahWVC.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaliyahE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaliyahR.png"
+  },
+  "Talon": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/TalonP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TalonQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TalonW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TalonE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TalonR.png"
+  },
+  "Taric": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Taric_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaricQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaricW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaricE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TaricR.png"
+  },
+  "Teemo": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/TeemoPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TeemoQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TeemoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TeemoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TeemoR.png"
+  },
+  "Thresh": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Thresh_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ThreshQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ThreshW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ThreshE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ThreshRPenta.png"
+  },
+  "Tristana": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Tristana_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TristanaQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TristanaW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TristanaE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TristanaR.png"
+  },
+  "Trundle": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Trundle_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TrundleTrollSmash.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/trundledesecrate.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TrundleCircle.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TrundlePain.png"
+  },
+  "Tryndamere": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Tryndamere_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TryndamereQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TryndamereW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TryndamereE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UndyingRage.png"
+  },
+  "TwistedFate": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Cardmaster_SealFate.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/WildCards.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/PickACard.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/CardmasterStack.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/Destiny.png"
+  },
+  "Twitch": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Twitch_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TwitchHideInShadows.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TwitchVenomCask.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TwitchExpunge.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TwitchFullAutomatic.png"
+  },
+  "Udyr": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Udyr_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UdyrQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UdyrW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UdyrE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UdyrR.png"
+  },
+  "Urgot": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Urgot_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UrgotQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UrgotW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UrgotE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/UrgotR.png"
+  },
+  "Varus": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/VarusPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VarusQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VarusW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VarusE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VarusR.png"
+  },
+  "Vayne": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Vayne_NightHunter.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VayneTumble.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VayneSilveredBolts.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VayneCondemn.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VayneInquisition.png"
+  },
+  "Veigar": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/VeigarEntropy.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VeigarBalefulStrike.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VeigarDarkMatter.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VeigarEventHorizon.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VeigarR.png"
+  },
+  "Velkoz": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/VelKoz_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VelkozQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VelkozW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VelkozE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VelkozR.png"
+  },
+  "Vex": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Icons_Vex_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VexQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VexW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VexE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VexR.png"
+  },
+  "Vi": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ViPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViR.png"
+  },
+  "Viego": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Viego_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViegoQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViegoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViegoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViegoR.png"
+  },
+  "Viktor": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Viktor_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViktorQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViktorW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViktorE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ViktorR.png"
+  },
+  "Vladimir": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/VladimirP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VladimirQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VladimirSanguinePool.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VladimirE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VladimirHemoplague.png"
+  },
+  "Volibear": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Volibear_Icon_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VolibearQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VolibearW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VolibearE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/VolibearR.png"
+  },
+  "Warwick": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/WarwickP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/WarwickQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/WarwickW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/WarwickE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/WarwickR.png"
+  },
+  "Xayah": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/XayahPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XayahQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XayahW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XayahE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XayahR.png"
+  },
+  "Xerath": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Xerath_Passive1.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XerathArcanopulseChargeUp.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XerathArcaneBarrage2.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XerathMageSpear.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XerathLocusOfPower2.png"
+  },
+  "XinZhao": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/XinZhaoReworkP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XinZhaoQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XinZhaoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XinZhaoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/XinZhaoR.png"
+  },
+  "Yasuo": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Yasuo_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YasuoQ1Wrapper.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YasuoW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YasuoE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YasuoR.png"
+  },
+  "Yone": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/YonePassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YoneQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YoneW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YoneE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YoneR.png"
+  },
+  "Yorick": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Yorick_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YorickQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YorickW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YorickE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YorickR.png"
+  },
+  "Yunara": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Yunara_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YunaraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YunaraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YunaraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YunaraR.png"
+  },
+  "Yuumi": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/YuumiP2.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YuumiQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YuumiW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YuumiE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/YuumiR.png"
+  },
+  "Zaahen": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ZaahenP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZaahenQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZaahenW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZaahenE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZaahenR.png"
+  },
+  "Zac": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ZacPassive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZacQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZacW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZacE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZacR.png"
+  },
+  "Zed": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ZedP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZedQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZedW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZedE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZedR.png"
+  },
+  "Zeri": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ZeriP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZeriQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZeriW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZeriE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZeriR.png"
+  },
+  "Ziggs": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ZiggsPassiveReady.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZiggsQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZiggsW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZiggsE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZiggsR.png"
+  },
+  "Zilean": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Zilean_Passive.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZileanQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZileanW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/TimeWarp.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ChronoShift.png"
+  },
+  "Zoe": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/Zoe_P.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZoeQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZoeW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZoeE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZoeR.png"
+  },
+  "Zyra": {
+    "P": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/passive/ZyraP.png",
+    "Q": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZyraQ.png",
+    "W": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZyraW.png",
+    "E": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZyraE.png",
+    "R": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/spell/ZyraR.png"
+  }
+}

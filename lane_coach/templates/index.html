@@ -78,7 +78,10 @@
 </section>
 <p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Os planos atuais são gerais por campeão; ainda não mudam por lane.</p>
 <p class="review">Perfis independentes. Estratégia: {{ guide.patch }}. Revisão especializada pendente. Sem cálculo de vencedor ou observação da partida.</p>
+<section class="abilities-section" aria-labelledby="abilities-title">
+<h2 id="abilities-title">HABILIDADES</h2>
 <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
+</section>
   {% if guide.sections %}<details class="micro-library">
 <summary>Dicas de micro dos kits <span>{{ guide.sections|length }} decisões editoriais disponíveis</span>
 </summary>
