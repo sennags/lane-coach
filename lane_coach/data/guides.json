@@ -1,0 +1,46 @@
+{
+  "champions": [
+    {"id": "Yone", "name": "Yone", "title": "O Inesquecido"},
+    {"id": "Ahri", "name": "Ahri", "title": "A Raposa de Nove Caudas"},
+    {"id": "Yasuo", "name": "Yasuo", "title": "O Imperdoável"},
+    {"id": "Zed", "name": "Zed", "title": "O Mestre das Sombras"}
+  ],
+  "guides": [
+    {
+      "champion": "Yone", "opponent": "Ahri",
+      "title": "Observe antes de avançar.",
+      "summary": "Um roteiro de estudo para treinar leitura de alcance, movimentação e tempo de troca. Este exemplo ainda precisa de revisão de um jogador experiente.",
+      "sections": [
+        {"title": "Leia a ameaça", "text": "Observe quais habilidades Ahri usa para tentar interromper sua aproximação. Identifique a animação e pratique a esquiva antes de tentar uma troca longa."},
+        {"title": "Escolha sua janela", "text": "Quando uma habilidade importante for usada, confira sua vida, seus recursos e a posição dos minions antes de avançar. Uma habilidade errada pelo inimigo não garante uma troca favorável."},
+        {"title": "Planeje a wave", "text": "Observe onde a próxima onda vai se encontrar. Se você avançar para trocar, pense também no caminho de volta e nos minions que pode perder."},
+        {"title": "Saiba quando recuar", "text": "Se perdeu visão do caçador e precisa se expor para alcançar o adversário, reavalie a troca. Volte a uma posição em que consiga observar a próxima jogada."},
+        {"title": "Evite estes erros", "text": "Entrar sem observar habilidades disponíveis; perseguir até perder a wave; repetir uma troca ruim sem entender o que a tornou desfavorável."}
+      ]
+    },
+    {
+      "champion": "Yone", "opponent": "Yasuo",
+      "title": "Leia o movimento da lane.",
+      "summary": "Um roteiro de estudo para comparar posicionamento, minions e preparação de trocas. As orientações são demonstrativas e não representam um matchup validado.",
+      "sections": [
+        {"title": "Leia a ameaça", "text": "Observe como Yasuo muda de posição perto da onda. Identifique as situações em que ele consegue se aproximar e sair antes da sua resposta."},
+        {"title": "Escolha sua janela", "text": "Antes de trocar, compare vida, nível e habilidades disponíveis. Treine reconhecer a preparação do adversário em vez de responder apenas quando o dano já começou."},
+        {"title": "Planeje a wave", "text": "A posição dos minions faz parte do confronto. Observe como sua movimentação e a do adversário mudam quando uma onda chega ou é eliminada."},
+        {"title": "Saiba quando recuar", "text": "Se a troca saiu do que você planejou, preserve um caminho de saída. Não transforme automaticamente uma troca curta em uma luta até o fim."},
+        {"title": "Evite estes erros", "text": "Olhar só para o campeão e esquecer os minions; lutar com desvantagem de nível; entrar novamente sem verificar seus recursos."}
+      ]
+    },
+    {
+      "champion": "Yone", "opponent": "Zed",
+      "title": "Tenha uma saída em mente.",
+      "summary": "Um roteiro de estudo para observar pressão, movimentação e risco. As dicas precisam ser avaliadas no patch escolhido antes de serem consideradas recomendações revisadas.",
+      "sections": [
+        {"title": "Leia a ameaça", "text": "Observe de onde parte o dano quando Zed usa suas habilidades e muda de posição. Pratique identificar essas sequências antes de buscar uma troca."},
+        {"title": "Escolha sua janela", "text": "Após uma tentativa de pressão do adversário, confira quais recursos ele usou e quais você ainda possui. Uma oportunidade depende também da distância e da sua vida."},
+        {"title": "Planeje a wave", "text": "Evite perder o controle dos minions enquanto acompanha a movimentação do adversário. Observe se uma troca vai custar experiência ou deixar você exposto."},
+        {"title": "Saiba quando recuar", "text": "Ao perder vida em sequência, priorize uma posição segura para reorganizar a lane. Não entre em uma nova luta apenas para recuperar o dano que sofreu."},
+        {"title": "Evite estes erros", "text": "Ignorar a posição do adversário durante a troca; perseguir sem visão; continuar exposto com poucos recursos."}
+      ]
+    }
+  ]
+}

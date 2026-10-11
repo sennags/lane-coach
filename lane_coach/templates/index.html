@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="intro" aria-labelledby="page-title">
+  <div><p class="eyebrow"><span class="small-line"></span> GUIAS DE CONFRONTO / MID LANE</p>
+    <h1 id="page-title">A próxima troca<br>começa <em>aqui.</em></h1>
+    <p class="intro-copy">Conheça o outro lado da lane.<br>Entre no confronto com um plano.</p>
+  </div>
+  <aside class="intro-note"><span class="note-number">01 — 03</span><p>Três confrontos.<br>Um começo mais consciente.</p><span class="muted">Yone · Ahri · Yasuo · Zed</span></aside>
+</section>
+<section class="matchup-builder" aria-labelledby="builder-title">
+  <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ ROTA DO MEIO</span></div>
+  <form action="{{ url_for('matchup') }}#analysis" method="get" id="matchup-form">
+    <input type="hidden" name="lane" value="mid">
+    <div class="arena">
+      {% for side, champion, field, label in [('ally', own, 'champion', 'Seu campeão'), ('enemy', enemy, 'opponent', 'Campeão adversário')] %}
+      <div class="champion-card {{ side }}" data-card="{{ field }}">
+        <img class="champion-art" src="{{ url_for('static', filename='champions/' + champion.id + '.jpg') }}" alt="" width="308" height="560">
+        <div class="card-top"><span class="side-dot"></span>{{ 'SEU LADO' if side == 'ally' else 'OUTRO LADO' }}<span class="card-index">{{ '01' if side == 'ally' else '02' }}</span></div>
+        <div class="champion-caption"><span class="champion-title">{{ champion.title }}</span><p class="champion-name">{{ champion.name }}</p></div>
+        <div class="champion-selector"><label for="{{ field }}">{{ label }}</label>
+          <select id="{{ field }}" name="{{ field }}" required>
+          {% for option in champions %}<option value="{{ option.id }}" data-title="{{ option.title }}" data-image="{{ url_for('static', filename='champions/' + option.id + '.jpg') }}" {{ 'selected' if option.id == champion.id else '' }}>{{ option.name }}</option>{% endfor %}
+          </select>
+        </div>
+      </div>
+      {% if loop.first %}<div class="versus" aria-hidden="true"><span>VS</span></div>{% endif %}
+      {% endfor %}
+    </div>
+    <div class="action-row"><p>Comece com <strong>Yone</strong> contra Ahri, Yasuo ou Zed.<br><span>Os exemplos servem para testar este primeiro fluxo.</span></p><button type="submit" class="primary-button">Ver guia do confronto <span aria-hidden="true">↗</span></button></div>
+  </form>
+</section>
+<section id="analysis" class="analysis" aria-labelledby="analysis-title" tabindex="-1">
+{% if message %}
+  <div class="feedback" role="alert"><span class="eyebrow">VAMOS AJUSTAR A SELEÇÃO</span><h2 id="analysis-title">Esse guia ainda não está pronto.</h2><p>{{ message }}</p><a href="#builder-title">Voltar à seleção ↑</a></div>
+{% elif guide %}
+  <div class="section-heading"><h2 id="analysis-title"><span>02</span> {{ own.name }} contra {{ enemy.name }}</h2><span class="draft-badge">{{ 'DEMONSTRATIVO' if guide.status == 'demo' else 'REVISADO' }}</span></div>
+  {% if guide.status == 'demo' %}<div class="demo-warning"><strong>Conteúdo de demonstração.</strong> Não validado para um patch. Use para explorar o produto; a estratégia ainda precisa de revisão especializada.</div>{% endif %}
+  <div class="guide-lead"><h3>{{ guide.title }}</h3><p>{{ guide.summary }}</p></div>
+  <div class="guide-grid">{% for section in guide.sections %}<article class="guide-section"><span class="guide-number">0{{ loop.index }}</span><div><h3>{{ section.title }}</h3><p>{{ section.text }}</p></div></article>{% endfor %}
+    <aside class="source-card"><span class="eyebrow">TRANSPARÊNCIA</span><h3>De onde vem este guia?</h3><p>Texto demonstrativo próprio, salvo nesta aplicação. Não foi gerado por IA nem copiado do MOBAFire.</p><dl><dt>Patch revisado</dt><dd>{{ guide.patch }}</dd><dt>Revisão especializada</dt><dd>{{ guide.reviewed_at or 'Pendente' }}</dd><dt>Versão do texto</dt><dd>{{ guide.revision }}</dd></dl></aside>
+  </div>
+{% else %}
+  <div class="section-heading"><h2 id="analysis-title"><span>02</span> Um plano para a sua lane</h2><span class="quiet-label">O QUE VOCÊ VAI ENCONTRAR</span></div>
+  <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Leia as ameaças</h3><p>Saiba o que observar antes de se aproximar.</p></article><article><span class="preview-icon">↗</span><h3>Encontre sua janela</h3><p>Entenda quando trocar e quando dar um passo atrás.</p></article><article><span class="preview-icon">≋</span><h3>Pense na próxima wave</h3><p>Conecte suas decisões ao que acontece na rota.</p></article></div>
+  <p class="demo-note">PRIMEIRO CAPÍTULO <span>Os três guias são demonstrativos e aguardam revisão. IA ainda não conectada.</span></p>
+{% endif %}
+</section>
+{% endblock %}
