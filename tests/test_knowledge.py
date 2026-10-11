@@ -21,6 +21,9 @@ def test_composes_every_direction(knowledge, own, enemy):
     assert [s['champion'] for s in guide['sections']] == [enemy] * 3 + [own] * 2
     assert all(s['evidence'] and s['exception'] for s in guide['sections'])
     assert guide['status'] == 'demo'
+    assert [profile['id'] for profile in guide['profiles']] == [own, enemy]
+    assert all(set(profile['profile']['phases']) == {'lane', 'mid', 'late'}
+               for profile in guide['profiles'])
     assert knowledge.context(own, enemy)['own']['id'] == own
 
 
@@ -41,6 +44,36 @@ def test_unknown_evidence_blocks_loading(knowledge, tmp_path):
     (tmp_path / 'Yone.json').write_text(json.dumps(champion), encoding='utf-8')
     with pytest.raises(ValueError):
         KnowledgeBase(tmp_path)
+
+
+@pytest.mark.parametrize('failure', ['missing_phase', 'empty_plan', 'empty_weaknesses', 'false_review'])
+def test_incomplete_profiles_are_rejected(knowledge, tmp_path, failure):
+    champion = knowledge.context('Yone', 'Ahri')['own']
+    profile = champion['profile']
+    if failure == 'missing_phase': del profile['phases']['late']
+    if failure == 'empty_plan': profile['phases']['lane']['plan'] = ' '
+    if failure == 'empty_weaknesses': profile['weaknesses'] = []
+    if failure == 'false_review': profile['status'] = 'reviewed'
+    (tmp_path / 'Yone.json').write_text(json.dumps(champion), encoding='utf-8')
+    with pytest.raises(ValueError):
+        KnowledgeBase(tmp_path)
+
+
+def test_profile_output_preserves_perspective_and_escapes_content(knowledge, tmp_path):
+    for key, champion in knowledge.champions.items():
+        data = json.loads(json.dumps(champion))
+        if key == 'Yone': data['profile']['identity'] = '<script>alert(1)</script>'
+        (tmp_path / f'{key}.json').write_text(json.dumps(data), encoding='utf-8')
+    app = create_app({'TESTING': True, 'DATABASE': str(tmp_path / 'test.sqlite3'),
+                      'KNOWLEDGE_PATH': str(tmp_path)})
+    response = app.test_client().get('/matchup?champion=Ahri&opponent=Yone&lane=mid')
+    assert response.status_code == 200
+    assert '<script>alert(1)</script>' not in response.text
+    assert '&lt;script&gt;alert(1)&lt;/script&gt;' in response.text
+    assert 'Plano para quem joga Ahri' in response.text
+    assert 'Sua resposta contra Yone' in response.text
+    assert 'Sua resposta contra Ahri' not in response.text
+    assert response.text.count('data-phase="late"') == 2
 
 
 def valid_output():

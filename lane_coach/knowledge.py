@@ -16,6 +16,30 @@ class KnowledgeBase:
             facts = {fact['id'] for fact in champion['facts']}
             if len(facts) != len(champion['facts']):
                 raise ValueError('Duplicate fact')
+            profile = champion.get('profile')
+            if not isinstance(profile, dict):
+                raise ValueError('Missing champion profile')
+            if not isinstance(profile.get('identity'), str) or not profile['identity'].strip():
+                raise ValueError('Invalid champion identity')
+            for field in ('strengths', 'weaknesses'):
+                values = profile.get(field)
+                if not isinstance(values, list) or not values or any(
+                    not isinstance(value, str) or not value.strip() for value in values
+                ):
+                    raise ValueError('Invalid champion strengths or weaknesses')
+            phases = profile.get('phases')
+            if not isinstance(phases, dict) or set(phases) != {'lane', 'mid', 'late'}:
+                raise ValueError('Missing game phase')
+            for phase in phases.values():
+                if not isinstance(phase, dict) or any(
+                    not isinstance(phase.get(key), str) or not phase[key].strip()
+                    for key in ('typical', 'plan', 'against')
+                ):
+                    raise ValueError('Incomplete game phase')
+            if profile.get('status') not in ('editorial_unreviewed', 'reviewed'):
+                raise ValueError('Invalid profile review status')
+            if profile['status'] == 'reviewed' and not profile.get('reviewed_at'):
+                raise ValueError('Reviewed profile needs review date')
             for tip in champion['tips']:
                 if tip['perspective'] not in ('own', 'against') or not tip['evidence_ids']:
                     raise ValueError('Invalid tip')
@@ -57,9 +81,13 @@ class KnowledgeBase:
                                  'evidence': [facts[key] for key in tip['evidence_ids']],
                                  'source': champion['source']})
         return {
-            'title': 'Observe o sinal. Escolha sua resposta.',
-            'summary': f'Três ameaças de {enemy} e duas ferramentas de {own}. '
-                       'As dicas são reutilizáveis por campeão; não representam uma interação específica validada.',
+            'title': 'Conheça os dois lados, em cada fase.',
+            'summary': 'Pontos fortes, vulnerabilidades e planos de jogo de cada campeão. '
+                       'Use os perfis para orientar suas decisões; a vantagem específica entre os dois ainda não é calculada.',
+            'profiles': [
+                {'side': side, **context[key]}
+                for side, key in [('ally', 'own'), ('enemy', 'enemy')]
+            ],
             'status': 'demo', 'revision': self.version, 'sections': sections,
             'patch': 'Não validado', 'reviewed_at': None,
         }

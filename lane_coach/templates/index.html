@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
 <section class="intro" aria-labelledby="page-title">
-  <div><p class="eyebrow"><span class="small-line"></span> GUIAS DE CONFRONTO / MID LANE</p>
+  <div><p class="eyebrow"><span class="small-line"></span> PERFIS DE CAMPEÕES / MID LANE</p>
     <h1 id="page-title">A próxima troca<br>começa <em>aqui.</em></h1>
-    <p class="intro-copy">Conheça o outro lado da lane.<br>Entre no confronto com um plano.</p>
+    <p class="intro-copy">Conheça seu kit e o do adversário.<br>Da primeira troca à última luta.</p>
   </div>
-  <aside class="intro-note"><span class="note-number">04 / 12</span><p>Quatro campeões.<br>Doze perspectivas de micro.</p><span class="muted">Yone · Ahri · Yasuo · Zed</span></aside>
+  <aside class="intro-note"><span class="note-number">04 / 03</span><p>Quatro campeões.<br>Três fases do jogo.</p><span class="muted">Yone · Ahri · Yasuo · Zed</span></aside>
 </section>
 <section class="matchup-builder" aria-labelledby="builder-title">
   <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ ROTA DO MEIO</span></div>
@@ -26,7 +26,7 @@
       {% if loop.first %}<div class="versus" aria-hidden="true"><span>VS</span></div>{% endif %}
       {% endfor %}
     </div>
-    <div class="action-row"><p>Escolha dois campeões entre <strong>Yone, Ahri, Yasuo e Zed</strong>.<br><span>Dicas de micro para entender as ferramentas dos dois lados.</span></p><button type="submit" class="primary-button">Ver guia do confronto <span aria-hidden="true">↗</span></button></div>
+    <div class="action-row"><p>Escolha dois campeões entre <strong>Yone, Ahri, Yasuo e Zed</strong>.<br><span>Pontos fortes, vulnerabilidades e planos para lane, mid e late game.</span></p><button type="submit" class="primary-button">Ver perfis dos campeões <span aria-hidden="true">↗</span></button></div>
   </form>
 </section>
 <section id="analysis" class="analysis" aria-labelledby="analysis-title" tabindex="-1">
@@ -36,6 +36,8 @@
   <div class="section-heading"><h2 id="analysis-title"><span>02</span> {{ own.name }} contra {{ enemy.name }}</h2><span class="draft-badge">{{ 'DEMONSTRATIVO' if guide.status == 'demo' else 'REVISADO' }}</span></div>
   {% if guide.status == 'demo' %}<div class="demo-warning"><strong>Dicas editoriais em avaliação.</strong> A base descreve habilidades; as sugestões ainda não foram revisadas por especialista. Não observamos sua partida nem sabemos quais habilidades estão disponíveis.</div>{% endif %}
   <div class="guide-lead"><h3>{{ guide.title }}</h3><p>{{ guide.summary }}</p></div>
+  <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
+  <details class="micro-library"><summary>Dicas de micro dos dois kits <span>5 decisões para praticar</span></summary>
   <div class="guide-grid">
     {% for section in guide.sections %}
     <article class="guide-section"><span class="guide-number">0{{ loop.index }}</span><div>
@@ -51,10 +53,11 @@
     {% endfor %}
     <aside class="source-card"><span class="eyebrow">TRANSPARÊNCIA</span><h3>Como essas dicas foram escolhidas?</h3><p>Combinamos ameaças do adversário com ferramentas do seu campeão. A seleção é local e não usa IA. Não é um guia específico validado para esta dupla.</p><dl><dt>Patch da estratégia</dt><dd>{{ guide.patch }}</dd><dt>Revisão especializada</dt><dd>{{ guide.reviewed_at or 'Pendente' }}</dd><dt>Versão da base</dt><dd>{{ guide.revision }}</dd></dl></aside>
   </div>
+  </details>
 {% else %}
   <div class="section-heading"><h2 id="analysis-title"><span>02</span> Um plano para a sua lane</h2><span class="quiet-label">O QUE VOCÊ VAI ENCONTRAR</span></div>
-  <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Leia as ameaças</h3><p>Saiba o que observar antes de se aproximar.</p></article><article><span class="preview-icon">↗</span><h3>Encontre sua janela</h3><p>Entenda quando trocar e quando dar um passo atrás.</p></article><article><span class="preview-icon">≋</span><h3>Execute a resposta</h3><p>Entenda a ação, o motivo e quando ela deixa de funcionar.</p></article></div>
-  <p class="demo-note">PRIMEIRO CAPÍTULO <span>Dicas por campeão, sem guias pré-cadastrados para cada dupla. Estratégia em avaliação; a tela ainda não usa IA.</span></p>
+  <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Forças e vulnerabilidades</h3><p>Entenda seu kit e as ameaças do adversário.</p></article><article><span class="preview-icon">↗</span><h3>Plano por fase</h3><p>Veja o que cada campeão busca na lane, no mid e no late game.</p></article><article><span class="preview-icon">≋</span><h3>Habilidades e micro</h3><p>Consulte as habilidades e decisões práticas para executar suas trocas.</p></article></div>
+  <p class="demo-note">CONSULTA SEM IA <span>Perfis locais disponíveis sem chave ou cota de geração. Conteúdo estratégico em revisão.</span></p>
 {% endif %}
 </section>
 {% endblock %}

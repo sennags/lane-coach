@@ -111,5 +111,35 @@
       ],
       "status": "editorial_unreviewed"
     }
-  ]
+  ],
+  "profile": {
+    "identity": "Assassino que combina corpo e sombras para criar ângulos de dano, reposicionar e finalizar com a marca.",
+    "strengths": [
+      "Sombras criam outros pontos de disparo e opções de troca de posição.",
+      "A ultimate oferece uma janela de inalvejabilidade e repete parte do dano causado durante a marca."
+    ],
+    "weaknesses": [
+      "Parte importante da pressão depende de conectar habilidades após posicionar sombras.",
+      "Comprometer sombras ou entrar sem uma saída pode limitar o reposicionamento disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura acertar habilidades pelo corpo e pela sombra, ameaçando aproximar quando existe uma oportunidade.",
+        "plan": "Posicione a sombra considerando o ângulo de Q e a saída. Antes de uma troca longa, observe energia e recursos defensivos do adversário.",
+        "against": "Leia corpo e sombra ao desviar. W lançado não significa que a troca de posição já foi usada ou ficou indisponível."
+      },
+      "mid": {
+        "typical": "Busca um alvo isolado ou um ângulo lateral para conectar dano com a marca.",
+        "plan": "Verifique proteção do alvo e locais disponíveis para reposicionar antes de usar R. Planeje o dano depois da entrada e a saída depois da tentativa.",
+        "against": "Reduza oportunidades de isolamento e acompanhe onde as sombras ficaram; perseguir apenas o corpo pode ignorar a saída."
+      },
+      "late": {
+        "typical": "Tenta alcançar um alvo importante quando encontra espaço entre as respostas defensivas.",
+        "plan": "Espere recursos relevantes serem gastos e escolha uma entrada com possibilidade de conectar dano. Não conte com o R sozinho para finalizar.",
+        "against": "Preserve proteção para o alvo marcado e evite entregar uma habilidade decisiva à janela de inalvejabilidade; reavalie quando ele reaparecer."
+      }
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  }
 }

@@ -111,5 +111,35 @@
       ],
       "status": "editorial_unreviewed"
     }
-  ]
+  ],
+  "profile": {
+    "identity": "Maga móvel que usa Charm para criar oportunidades e o orbe para dano em duas passagens.",
+    "strengths": [
+      "Charm oferece controle e pode interromper movimento.",
+      "A ultimate permite múltiplos avanços; o Q ameaça dano na ida e na volta."
+    ],
+    "weaknesses": [
+      "Errar o Charm deixa uma janela com menos controle disponível.",
+      "A mobilidade da ultimate é um recurso limitado; gastar avanços reduz opções de reposicionamento."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Usa Q para atingir minions e ameaçar o adversário, procurando uma linha de Charm quando ele se aproxima.",
+        "plan": "Considere a trajetória de volta do Q e preserve E quando precisar responder a uma entrada. Evite lançar controle sem uma linha útil.",
+        "against": "Desvie considerando a volta do orbe. Ameace aproximação para provocar E e reavalie a troca quando ela errar."
+      },
+      "mid": {
+        "typical": "Procura oportunidades de Charm e usa R para ajustar o ângulo ou acompanhar uma jogada.",
+        "plan": "Escolha um alvo acessível e preserve uma opção de reposicionamento quando possível. Não comprometa todos os avanços por uma tentativa sem apoio.",
+        "against": "Respeite o ângulo de Charm após um avanço; acertar a posição antiga dela não garante atingir a nova."
+      },
+      "late": {
+        "typical": "Busca controle em um alvo exposto e reposiciona durante a luta para continuar contribuindo.",
+        "plan": "Jogue a partir de uma posição que permita acertar controle e sobreviver à resposta. Considere guardar E para proteger um aliado ameaçado.",
+        "against": "Proteja alvos expostos e acompanhe os avanços antes de gastar toda sua aproximação; ela pode mudar de posição novamente."
+      }
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  }
 }

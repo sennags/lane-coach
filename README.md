@@ -1,8 +1,8 @@
 # Lane Coach
 
-Dicas de microgame para quatro campeões (Yone, Ahri, Yasuo e Zed) na rota mid. A combinação dos arquivos de cada campeão atende às 12 duplas direcionais, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
+Perfis de Yone, Ahri, Yasuo e Zed: pontos fortes, fracos, habilidades e plano para lane phase, mid e late game. A combinação dos arquivos de cada campeão atende às 12 duplas direcionais, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
 
-**Estado:** versão local 0.2. Cinco cards com situação, ação, motivo e exceção: três ameaças do adversário e duas ferramentas do seu campeão. Dicas editoriais ainda sem revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
+**Estado:** versão local 0.3. Dois perfis lado a lado, com comportamento típico e plano por fase; o perfil adversário inclui orientações de resposta. As dicas de micro anteriores continuam em seção expansível. Dicas editoriais ainda sem revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
 
 ## Executar no Windows
 
@@ -61,7 +61,7 @@ Lane Coach isn't endorsed by Riot Games and doesn't reflect the views or opinion
 
 ## Base e avaliação da IA
 
-Cada campeão contém `facts` (descrições oficiais de habilidades), `tips` (interpretações editoriais com IDs de evidências) e `source` (URL, patch dos dados e data de acesso). A fonte da habilidade não comprova a estratégia nem interações especiais. O patch 16.20.1 identifica o snapshot dos dados, não uma revisão competitiva das dicas. O contexto não contém nível, vida ou cooldown atual: orientações devem ser condicionais.
+Cada campeão contém `facts` (descrições oficiais de habilidades), `tips` (dicas editoriais com IDs de evidência), `source` (URL, patch dos dados e data de acesso) e `profile`: `identity`, `strengths`, `weaknesses`, `phases` e estado de revisão. Em cada fase (`lane`, `mid`, `late`), `typical` descreve o comportamento habitual, `plan` orienta quem joga com o campeão e `against` orienta quem o enfrenta. A base rejeita perfis sem fases ou campos obrigatórios e revisão sem data. Adicionar um campeão exige conteúdo completo e ilustração local; não basta acrescentar um nome ao seletor. A fonte da habilidade não comprova a estratégia nem interações especiais. O patch 16.20.1 identifica o snapshot dos dados, não uma revisão competitiva das dicas. O contexto não contém nível, vida ou cooldown atual: orientações devem ser condicionais.
 
 Para inspecionar o contexto sem rede, chave ou custo:
 
@@ -84,3 +84,5 @@ Remove-Item Env:GROQ_API_KEY
 Documentação oficial: [API compatível](https://console.groq.com/docs/openai), [formatos estruturados e JSON Object Mode](https://console.groq.com/docs/structured-outputs), [modelos disponíveis](https://console.groq.com/docs/models). O modelo é configurável; confira suporte e condições na sua conta.
 
 Os testes do adaptador usam respostas simuladas para sucesso, timeout, cota, JSON inválido, truncamento, tamanho e evidências. Não equivalem a uma chamada real ou avaliação de qualidade do modelo.
+
+A consulta principal é independente de IA, chave e orçamento de geração. Os perfis não calculam vencedor, dano, vantagem por nível, builds ou resultados garantidos. O comando Groq abaixo é uma ferramenta experimental do operador para uma etapa futura.

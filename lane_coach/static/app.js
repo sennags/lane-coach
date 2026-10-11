@@ -10,6 +10,6 @@ document.querySelectorAll('.champion-selector select').forEach((select) => {
 const form = document.querySelector('#matchup-form');
 if (form) {
   const button = form.querySelector('button');
-  form.addEventListener('submit', () => { button.disabled = true; button.textContent = 'Buscando guia…'; });
-  window.addEventListener('pageshow', () => { button.disabled = false; button.textContent = 'Ver guia do confronto ↗'; });
+  form.addEventListener('submit', () => { button.disabled = true; button.textContent = 'Buscando perfis…'; });
+  window.addEventListener('pageshow', () => { button.disabled = false; button.textContent = 'Ver perfis dos campeões ↗'; });
 }

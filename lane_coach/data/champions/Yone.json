@@ -111,5 +111,35 @@
       ],
       "status": "editorial_unreviewed"
     }
-  ]
+  ],
+  "profile": {
+    "identity": "Lutador corpo a corpo que combina ataques, aproximação e uma janela de agressão com retorno ao corpo.",
+    "strengths": [
+      "Pode ameaçar aproximação e arremesso ao ar com o Q fortalecido.",
+      "W combina dano e escudo; E permite uma troca seguida de retorno ao corpo."
+    ],
+    "weaknesses": [
+      "Precisa entrar em alcance curto para aproveitar ataques e boa parte do kit.",
+      "O retorno do E tem um ponto conhecido; uma entrada ruim pode terminar em posição perigosa."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Acumula Q nos minions e ameaça entrar com Q fortalecido durante a janela do E.",
+        "plan": "Prepare Q antes de uma troca, use W perto da resposta inimiga e deixe o corpo em um ponto seguro. Se perder alcance, reavalie a perseguição.",
+        "against": "Observe o Q fortalecido e o ponto de retorno. Evite trocar todo seu dano durante o escudo do W."
+      },
+      "mid": {
+        "typical": "Busca pressão lateral ou uma aproximação que alcance alvos vulneráveis com controle.",
+        "plan": "Antes de usar E ou R, verifique saída e quem pode interromper sua entrada. Entre com objetivo definido, sem perseguir além do alcance útil.",
+        "against": "Mantenha espaço para desviar da linha de entrada e acompanhe o corpo deixado pelo E; não olhe apenas a forma espiritual."
+      },
+      "late": {
+        "typical": "Procura atingir alvos importantes ou vários inimigos alinhados com a ultimate.",
+        "plan": "Espere uma oportunidade de aproximação com suporte do time. Use controle para abrir dano; não dependa de uma entrada solitária contra todas as respostas disponíveis.",
+        "against": "Evite alinhar vários aliados na trajetória do R e mantenha ferramentas de proteção para a aproximação."
+      }
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  }
 }

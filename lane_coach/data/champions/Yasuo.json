@@ -111,5 +111,35 @@
       ],
       "status": "editorial_unreviewed"
     }
-  ]
+  ],
+  "profile": {
+    "identity": "Lutador corpo a corpo que usa minions como caminhos de dash e transforma arremessos ao ar em entrada de ultimate.",
+    "strengths": [
+      "Minions oferecem caminhos de aproximação e reposicionamento com E.",
+      "Parede bloqueia projéteis; a ultimate pode aproveitar alvos arremessados ao ar."
+    ],
+    "weaknesses": [
+      "E precisa de alvos e não pode reutilizar imediatamente o mesmo alvo.",
+      "Depende de alcance curto e de uma entrada viável; deslocamentos mal planejados podem deixá-lo exposto."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Acumula Q, usa minions para mudar de ângulo e ameaça Q circular durante o E.",
+        "plan": "Planeje o alvo de entrada e uma saída antes de usar E. Use a parede contra um projétil relevante e considere o escudo da passiva ao escolher a troca.",
+        "against": "Acompanhe a saída do dash e os minions restantes. Se for seguro, ative a passiva com dano leve antes da troca principal."
+      },
+      "mid": {
+        "typical": "Procura pressão lateral ou uma oportunidade de ultimate criada por arremesso ao ar, inclusive de aliados.",
+        "plan": "Combine sua entrada com o controle do time. Reserve a parede para uma ameaça que ela realmente bloqueia, em vez de gastá-la sem necessidade.",
+        "against": "Não presuma que ele precisa acertar o próprio tornado para usar R: um aliado pode fornecer o arremesso ao ar."
+      },
+      "late": {
+        "typical": "Busca uma entrada com R e tempo em alcance corpo a corpo para continuar atacando.",
+        "plan": "Avalie a posição de chegada da ultimate e as respostas inimigas antes de entrar. Sobreviver à entrada permite continuar causando dano.",
+        "against": "Evite agrupar alvos para um arremesso ao ar e acompanhe a posição dele depois do R; a ameaça continua nos ataques seguintes."
+      }
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  }
 }

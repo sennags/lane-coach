@@ -1,0 +1,34 @@
+<article class="champion-profile {{ profile.side }}" aria-labelledby="profile-{{ profile.side }}">
+  <header class="profile-header">
+    <p class="eyebrow">{{ 'SEU CAMPEÃO' if profile.side == 'ally' else 'ADVERSÁRIO' }}</p>
+    <h3 id="profile-{{ profile.side }}">{{ profile.name }}</h3>
+    <p>{{ profile.profile.identity }}</p>
+  </header>
+  <div class="profile-traits">
+    <section><h4>Pontos fortes</h4><ul>{% for point in profile.profile.strengths %}<li>{{ point }}</li>{% endfor %}</ul></section>
+    <section><h4>Pontos fracos</h4><ul>{% for point in profile.profile.weaknesses %}<li>{{ point }}</li>{% endfor %}</ul></section>
+  </div>
+  <section class="profile-phases" aria-label="Plano por fase de {{ profile.name }}">
+    {% for key, label in [('lane', 'Lane phase'), ('mid', 'Mid game'), ('late', 'Late game')] %}
+    {% set phase = profile.profile.phases[key] %}
+    <details class="phase-panel" data-phase="{{ key }}" {{ 'open' if key == 'lane' else '' }}>
+      <summary><span>{{ label }}</span><span class="phase-number">0{{ loop.index }}</span></summary>
+      <dl class="micro-steps">
+        <dt>O que costuma buscar</dt><dd>{{ phase.typical }}</dd>
+        <dt>Plano para quem joga {{ profile.name }}</dt><dd>{{ phase.plan }}</dd>
+        {% if profile.side == 'enemy' %}<dt>Sua resposta contra {{ profile.name }}</dt><dd>{{ phase.against }}</dd>{% endif %}
+      </dl>
+    </details>
+    {% endfor %}
+  </section>
+  <details class="profile-abilities">
+    <summary>Habilidades · Passiva, Q, W, E e R</summary>
+    {% for key in ['P', 'Q', 'W', 'E', 'R'] %}
+    {% for fact in profile.facts if fact.ability == key %}
+    <div class="ability-entry"><span class="ability-key">{{ key }}</span><div><h4>{{ fact.name }}</h4><p>{{ fact.description }}</p></div></div>
+    {% endfor %}
+    {% endfor %}
+    <p class="profile-source"><a href="{{ profile.source.url }}" rel="noreferrer">{{ profile.source.label }}</a> · Dados {{ profile.source.patch }} · Consulta {{ profile.source.accessed_at }}</p>
+  </details>
+  <p class="profile-review">Estratégia: {{ 'revisada em ' + profile.profile.reviewed_at if profile.profile.status == 'reviewed' else 'revisão especializada pendente' }}. A descrição oficial do kit é a base; o plano de jogo é uma interpretação editorial.</p>
+</article>
