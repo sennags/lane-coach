@@ -1,0 +1,92 @@
+{
+  "id": "Amumu",
+  "name": "Amumu",
+  "title": "a Múmia Triste",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Amumu.json",
+    "label": "Riot Data Dragon — Amumu",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Amumu.Q",
+      "ability": "Q",
+      "name": "Lançar Bandagens",
+      "description": "Amumu lança uma bandagem pegajosa em seu alvo e se lança em sua direção, causando dano e atordoamento."
+    },
+    {
+      "id": "Amumu.W",
+      "ability": "W",
+      "name": "Desespero",
+      "description": "Tomados pela angústia, inimigos próximos perdem um percentual de sua Vida máxima a cada segundo e suas Maldições são restauradas."
+    },
+    {
+      "id": "Amumu.E",
+      "ability": "E",
+      "name": "Chilique",
+      "description": "Reduz permanentemente o Dano Físico que Amumu sofreria. Amumu pode liberar sua fúria, causando dano a inimigos próximos. Sempre que Amumu é atingido, o Tempo de Recarga de Chilique é reduzido."
+    },
+    {
+      "id": "Amumu.R",
+      "ability": "R",
+      "name": "A Maldição da Múmia Triste",
+      "description": "Amumu amarra unidades inimigas ao seu redor com ataduras, aplicando Maldição , causando dano e atordoando-as."
+    },
+    {
+      "id": "Amumu.P",
+      "ability": "P",
+      "name": "Toque Amaldiçoado",
+      "description": "Os ataques básicos de Amumu Amaldiçoam seus inimigos, fazendo com que recebam Dano Verdadeiro adicional de qualquer Dano Mágico causado a eles."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Lançar Bandagens: Amumu lança uma bandagem pegajosa em seu alvo e se lança em sua direção, causando dano e atordoamento.",
+      "A Maldição da Múmia Triste: Amumu amarra unidades inimigas ao seu redor com ataduras, aplicando Maldição , causando dano e atordoando-as."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Amumu é altamente dependente dos companheiros de equipe, então tente entrar em uma rota com seus amigos para ter o máximo de eficácia.",
+      "A redução do Tempo de Recarga em Amumu é muito forte, mas muitas vezes é difícil decidir quais itens comprar por isso. Pegue o efeito do Azuporã sempre que possível para ganhar redução do Tempo de Recarga sem sacrificar atributos.",
+      "O Desespero é muito efetivo contra outros tanques, então certifique-se de que você esteja ao alcance dos oponentes com a Vida mais alta."
+    ],
+    "against": [
+      "Evite juntar-se com outros aliados quando Amumu tiver sua Habilidade Ultimate disponível.",
+      "Movimentação imprevisível ou se esconder atrás de ondas de tropas pode tornar difícil para Amumu instigar uma luta com Lançar Bandagens.",
+      "Evitar a compra de diversos itens de Vida pode ser uma boa solução para lidar com a habilidade Desespero de Amumu."
+    ]
+  }
+}

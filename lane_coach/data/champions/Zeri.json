@@ -1,0 +1,83 @@
+{
+  "id": "Zeri",
+  "name": "Zeri",
+  "title": "A Faísca de Zaun",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zeri.json",
+    "label": "Riot Data Dragon — Zeri",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Zeri.Q",
+      "ability": "Q",
+      "name": "Rajada Reluzente",
+      "description": "Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque."
+    },
+    {
+      "id": "Zeri.W",
+      "ability": "W",
+      "name": "Laser de Ultrachoque",
+      "description": "Zeri dispara um pulso elétrico que causa dano e Lentidão ao primeiro inimigo atingido. Se o pulso atingir uma parede, ele se transforma em um laser de longo alcance."
+    },
+    {
+      "id": "Zeri.E",
+      "ability": "E",
+      "name": "Faísca Acelerada",
+      "description": "Zeri avança por uma curta distância e energiza Rajada Reluzente para atravessar os inimigos. Ela pode saltar e deslizar por qualquer terreno que tocar."
+    },
+    {
+      "id": "Zeri.R",
+      "ability": "R",
+      "name": "Impacto Eletrizante",
+      "description": "Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos."
+    },
+    {
+      "id": "Zeri.P",
+      "ability": "P",
+      "name": "Bateria Viva",
+      "description": "Os Ataques de Zeri causam Dano Mágico e são considerados Habilidades. Mover-se e conjurar Rajada Reluzente armazena energia na Eletrobolsa. Quando estiver totalmente carregada, o próximo Ataque da Campeã causará dano adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Rajada Reluzente: Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque.",
+      "Impacto Eletrizante: Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

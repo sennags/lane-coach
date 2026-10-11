@@ -1,0 +1,93 @@
+{
+  "id": "Azir",
+  "name": "Azir",
+  "title": "o Imperador das Areias",
+  "tags": [
+    "Mage",
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Azir.json",
+    "label": "Riot Data Dragon — Azir",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Azir.Q",
+      "ability": "Q",
+      "name": "Areias da Conquista",
+      "description": "Azir comanda todos os Soldados de Areia na direção do local-alvo. Eles causam Dano Mágico aos inimigos que atravessam e aplicam redução de velocidade por 1 segundo."
+    },
+    {
+      "id": "Azir.W",
+      "ability": "W",
+      "name": "Surja!",
+      "description": "Azir invoca um Soldado de Areia para atacar alvos próximos por ele, substituindo seu ataque básico contra alvos no alcance do soldado. Seu ataque causa Dano Mágico a inimigos em linha reta."
+    },
+    {
+      "id": "Azir.E",
+      "ability": "E",
+      "name": "Areias Oscilantes",
+      "description": "Azir se protege com um escudo por um momento e avança na direção de um de seus Soldados de Areia, causando dano aos inimigos atingidos. Se Azir acertar um Campeão inimigo, ele prepara instantaneamente um novo Soldado de Areia para mobilização e cessa seu avanço."
+    },
+    {
+      "id": "Azir.R",
+      "ability": "R",
+      "name": "Decreto do Imperador",
+      "description": "Azir invoca uma parede de soldados que marcha em frente, causando dano e empurrando para trás os inimigos."
+    },
+    {
+      "id": "Azir.P",
+      "ability": "P",
+      "name": "Legado de Shurima",
+      "description": "Azir pode invocar o Disco Solar das ruínas de uma torre aliada ou inimiga."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Areias da Conquista: Azir comanda todos os Soldados de Areia na direção do local-alvo. Eles causam Dano Mágico aos inimigos que atravessam e aplicam redução de velocidade por 1 segundo.",
+      "Decreto do Imperador: Azir invoca uma parede de soldados que marcha em frente, causando dano e empurrando para trás os inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Muita cautela ao posicionar ambos os soldados armazenados em Surja! A menos que esteja apostando tudo, sempre tenha um soldado guardado na manga caso precise escapar por uma parede ou caso tenha colocado seu primeiro soldado em uma posição ruim.",
+      "Na rota, tente posicionar seus soldados entre as tropas inimigas e o campeão inimigo. Dessa maneira você pode usar ambos para causar o golpe letal e para ficar mais ameaçador contra seu oponente de rota.",
+      "Pense em Decreto do Imperador como uma habilidade defensiva. Use-a quando o inimigo for enfrentar você ou seus aliados. Lembre-se que sua equipe pode caminhar através dos soldados invocados por Decreto do Imperador e usar isto a seu favor quando campeões inimigos de combate corpo a corpo vierem lhe enfrentar.",
+      "Seja um pássaro!"
+    ],
+    "against": [
+      "Azir depende de seus soldados para causar dano e só pode movimentá-los com certa frequência. Tente aproveitar as janelas de tempo em que seus soldados estejam parados.",
+      "Azir causa dano imenso ao longo de um prolongado período de tempo, mas não causa a rajada de dano que os outros magos causam. Tente atacá-lo antes que ele consiga virar a mesa em um confronto.",
+      "Imagine que os Soldados de Areia sejam fogo. Não fique no fogo."
+    ]
+  }
+}

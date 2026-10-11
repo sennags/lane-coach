@@ -1,0 +1,92 @@
+{
+  "id": "RekSai",
+  "name": "Rek'Sai",
+  "title": "a Escavadora do Vazio",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/RekSai.json",
+    "label": "Riot Data Dragon — Rek'Sai",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "RekSai.Q",
+      "ability": "Q",
+      "name": "Ira da Rainha / Sondar Presas",
+      "description": "Os próximos 3 ataques básicos de Rek'Sai causam Dano Físico adicional a inimigos próximos. Enquanto está enterrada, Rek'Sai lança uma rajada de terra carregada com o poder do Vazio que causa dano e revela os inimigos atingidos."
+    },
+    {
+      "id": "RekSai.W",
+      "ability": "W",
+      "name": "Escavar / Emergir",
+      "description": "Rek'Sai se enterra no chão, recebendo novas Habilidades e Velocidade de Movimento aumentada. O alcance da visão é reduzido e ela não pode usar ataques básicos. Enquanto enterrada, Rek'Sai pode conjurar Emergir para causar dano e arremessar ao ar os inimigos próximos."
+    },
+    {
+      "id": "RekSai.E",
+      "ability": "E",
+      "name": "Mordida Feroz / Túnel",
+      "description": "Rek'Sai morde o alvo, causando Dano Físico ou Dano Verdadeiro adicional se tiver o máximo de Fúria. Enquanto escavada, Rek'Sai cria um Túnel longo, duradouro e reutilizável. Inimigos podem destruí-lo ficando sobre uma das entradas."
+    },
+    {
+      "id": "RekSai.R",
+      "ability": "R",
+      "name": "Investida do Vazio",
+      "description": "Rek'Sai marca seus alvos passivamente ao causar dano. Ela pode ativar essa habilidade para se tornar inalvejável brevemente e saltar até um alvo marcado, causando dano pesado com base na Vida máxima dele."
+    },
+    {
+      "id": "RekSai.P",
+      "ability": "P",
+      "name": "Fúria dos Xer'Sai",
+      "description": "Rek'Sai gera Fúria ao Atacar e atingir inimigos com Habilidades básicas. Enquanto estiver Escavada, ela consome a Fúria para restaurar Vida."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Ira da Rainha / Sondar Presas: Os próximos 3 ataques básicos de Rek'Sai causam Dano Físico adicional a inimigos próximos. Enquanto está enterrada, Rek'Sai lança uma rajada de terra carregada com o poder do Vazio que causa dano e revela os inimigos atingidos.",
+      "Investida do Vazio: Rek'Sai marca seus alvos passivamente ao causar dano. Ela pode ativar essa habilidade para se tornar inalvejável brevemente e saltar até um alvo marcado, causando dano pesado com base na Vida máxima dele."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Manter túneis espalhados pelo mapa garantirá que tenha escolhas quando quiser conjurar Investida do Vazio.",
+      "Conjure Escavar antes de andar pelo mapa para tomar vantagem da Velocidade de Movimento adicional e da segurança proporcionadas por Sentido Sísmico.",
+      "Sentido Sísmico pode lhe alertar sobre inimigos que se aproximam e é particularmente útil ao invadir território inimigo."
+    ],
+    "against": [
+      "Caso veja um dos túneis de Rek'Sai, pare brevemente em uma das entradas para destruí-lo.",
+      "A Mordida Feroz de Rek'Sai causa mais dano conforme ela acumula Fúria. Tenha cuidado perto dela quando sua Fúria estiver cheia.",
+      "Quando Rek'Sai estiver próxima, ela pode ver a sua posição e a de seus aliados, mas somente caso não estejam se movendo."
+    ]
+  }
+}

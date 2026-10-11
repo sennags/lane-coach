@@ -1,0 +1,92 @@
+{
+  "id": "Gnar",
+  "name": "Gnar",
+  "title": "o Yordle Pré-Histórico",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Gnar.json",
+    "label": "Riot Data Dragon — Gnar",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Gnar.Q",
+      "ability": "Q",
+      "name": "Bumerangue / Pedregulho",
+      "description": "Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga."
+    },
+    {
+      "id": "Gnar.W",
+      "ability": "W",
+      "name": "Hiperativo / Safanão",
+      "description": "Os ataques e habilidades de Gnar o animam, causando dano adicional e concedendo Velocidade de Movimento. Mega Gnar fica enfurecido demais para ficar hiperativo. Em vez disso, ele pode subir em duas patas e atingir a área à sua frente, atordoando inimigos em área."
+    },
+    {
+      "id": "Gnar.E",
+      "ability": "E",
+      "name": "Pirueta / Encontrão",
+      "description": "Gnar salta em um local e atinge a cabeça de qualquer unidade em que aterrissar, deslocando-se ainda mais. Mega Gnar é grande demais para saltar e, em vez disso, aterrissa com força para quebrar o chão, causando dano em área ao seu redor."
+    },
+    {
+      "id": "Gnar.R",
+      "ability": "R",
+      "name": "GNAR!",
+      "description": "Mega Gnar joga tudo o que estiver próximo de si em uma direção escolhida, causando dano e Lentidão. Qualquer inimigo que atingir uma parede fica atordoado e recebe dano adicional."
+    },
+    {
+      "id": "Gnar.P",
+      "ability": "P",
+      "name": "Fúria Genética",
+      "description": "Enquanto está em combate, Gnar gera Fúria. Quando atinge o máximo de Fúria, sua próxima habilidade o transformará em Mega-Gnar, concedendo mais condições de sobrevivência e acesso a novas habilidades."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Bumerangue / Pedregulho: Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga.",
+      "GNAR!: Mega Gnar joga tudo o que estiver próximo de si em uma direção escolhida, causando dano e Lentidão. Qualquer inimigo que atingir uma parede fica atordoado e recebe dano adicional."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "É muito importante gerenciar sua Fúria. Tente usar o tempo limite de suas transformações para que tenha o máximo de proveito de ambas as formas.",
+      "Posicione-se próximo(a) a paredes para atrair seus inimigos e atordoe-os com seu Ultimate.",
+      "Saiba quais são seus pontos fortes! Mini-Gnar é rápido, frágil e tem alta sustentação de dano. Mega-Gnar é lento, durão e tem mais dano em rajada."
+    ],
+    "against": [
+      "Gnar não pode acumular Fúria por 15s após transformar-se de grande para pequeno. Use essa chance para atacar a equipe dele.",
+      "As animações e barra de recursos de Gnar mudam conforme ele se aproxima da transformação.",
+      "A ultimate de Gnar causa atordoamento caso ele lhe arremesse em uma parede. Tenha cuidado ao enfrentá-lo próximo de uma."
+    ]
+  }
+}

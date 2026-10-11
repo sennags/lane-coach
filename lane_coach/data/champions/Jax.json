@@ -1,0 +1,89 @@
+{
+  "id": "Jax",
+  "name": "Jax",
+  "title": "o Grão-Mestre das Armas",
+  "tags": [
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jax.json",
+    "label": "Riot Data Dragon — Jax",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Jax.Q",
+      "ability": "Q",
+      "name": "Salto Atacante",
+      "description": "Jax salta em direção a uma unidade. Caso seja um inimigo, ele o atingirá com sua arma."
+    },
+    {
+      "id": "Jax.W",
+      "ability": "W",
+      "name": "Energizar",
+      "description": "Jax acumula energia em sua arma, fazendo com que seu próximo ataque básico ou Salto Atacante cause dano adicional."
+    },
+    {
+      "id": "Jax.E",
+      "ability": "E",
+      "name": "Contra-Ataque",
+      "description": "A proeza combatente de Jax lhe permite desviar de todos os ataques recebidos por um curto período de tempo, contra-atacando logo em seguida e atordoando os inimigos ao seu redor."
+    },
+    {
+      "id": "Jax.R",
+      "ability": "R",
+      "name": "Grão-Mestre de Armas",
+      "description": "Cada terceiro ataque consecutivo causa Dano Mágico adicional. Além disso, Jax pode ativar essa habilidade para causar dano ao redor de si e fortalecer a própria determinação, ganhando mais Armadura e Resistência Mágica por um curto período."
+    },
+    {
+      "id": "Jax.P",
+      "ability": "P",
+      "name": "Investida Implacável",
+      "description": "Os ataques básicos consecutivos de Jax continuamente aumentam sua Velocidade de Ataque."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Salto Atacante: Jax salta em direção a uma unidade. Caso seja um inimigo, ele o atingirá com sua arma.",
+      "Grão-Mestre de Armas: Cada terceiro ataque consecutivo causa Dano Mágico adicional. Além disso, Jax pode ativar essa habilidade para causar dano ao redor de si e fortalecer a própria determinação, ganhando mais Armadura e Resistência Mágica por um curto período."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Jax pode usar Salto Atacante em unidades aliadas, incluindo sentinelas. Você pode usá-los para planejar sua fuga.",
+      "Jax aproveita muito bem itens que proporcionam tanto Poder de Habilidade quanto Dano de Ataque, assim como a Lâmina da Fúria de Guinsoo e a Pistola Laminar Hextec."
+    ],
+    "against": [
+      "Tente enfrentá-lo em pequenos golpes em vez de ir frente a frente contra ele. Impedi-lo de atacar consecutivamente reduz drasticamente seu potencial de dano.",
+      "Jax pode desviar de todos os ataques recebidos por um curto período de tempo, atordoando os inimigos em seu alcance quando este efeito acaba. Espere para acertá-lo depois que sua evasão tiver acabado."
+    ]
+  }
+}

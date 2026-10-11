@@ -1,0 +1,89 @@
+{
+  "id": "Draven",
+  "name": "Draven",
+  "title": "o Carrasco de Noxus",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Draven.json",
+    "label": "Riot Data Dragon — Draven",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Draven.Q",
+      "ability": "Q",
+      "name": "Revolução do Machado",
+      "description": "O próximo ataque de Draven causará Dano Físico adicional. O machado ricocheteará do alvo em direção ao ar. Se Draven o apanhar, ele automaticamente irá preparar outra Revolução do Machado. Draven pode ter duas Revoluções do Machado simultaneamente em ação."
+    },
+    {
+      "id": "Draven.W",
+      "ability": "W",
+      "name": "Adrenalina",
+      "description": "Draven ganha um aumento de Velocidade de Movimento e de Ataque. O aumento na Velocidade de Movimento decai rapidamente ao longo da duração. Apanhar uma Revolução do Machado fará com que o Tempo de Recarga de Adrenalina seja zerado."
+    },
+    {
+      "id": "Draven.E",
+      "ability": "E",
+      "name": "Sai da Frente",
+      "description": "Draven arremessa seus machados, causando Dano Físico aos alvos atingidos e empurrando-os para o lado. Os alvos atingidos sofrem redução de velocidade."
+    },
+    {
+      "id": "Draven.R",
+      "ability": "R",
+      "name": "Reta da Morte",
+      "description": "Draven arremessa dois machados gigantes para causar Dano Físico a cada unidade atingida. Reta da Morte lentamente muda de direção e retorna a Draven após atingir um Campeão inimigo. Draven também pode ativar esta habilidade durante o percurso dos machados para fazer com que voltem antecipadamente. Causa menos dano para cada unidade atingida e zera quando os machados mudam de direção. Executa inimigos com Vida inferior ao número de acúmulos de Adoração do Draven."
+    },
+    {
+      "id": "Draven.P",
+      "ability": "P",
+      "name": "League of Draven",
+      "description": "Draven ganha Adoração de seus fãs quando apanha uma Revolução do Machado ou abate uma tropa, monstro ou torre. Abater Campeões inimigos concede ouro adicional a Draven, com base em quanta Adoração ele tem."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Revolução do Machado: O próximo ataque de Draven causará Dano Físico adicional. O machado ricocheteará do alvo em direção ao ar. Se Draven o apanhar, ele automaticamente irá preparar outra Revolução do Machado. Draven pode ter duas Revoluções do Machado simultaneamente em ação.",
+      "Reta da Morte: Draven arremessa dois machados gigantes para causar Dano Físico a cada unidade atingida. Reta da Morte lentamente muda de direção e retorna a Draven após atingir um Campeão inimigo. Draven também pode ativar esta habilidade durante o percurso dos machados para fazer com que voltem antecipadamente. Causa menos dano para cada unidade atingida e zera quando os machados mudam de direção. Executa inimigos com Vida inferior ao número de acúmulos de Adoração do Draven."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Se Draven não se movimentar, Revolução do Machado cairá próximo a seu local atual. Ela cairá diretamente nele, ou um pouco para um dos lados.",
+      "Se Draven não se movimentar após atacar, Revolução do Machado lhe direcionará na direção do movimento. Use isto para controlar onde a Revolução do Machado vai parar."
+    ],
+    "against": [
+      "Lance habilidades em direção ao ponto de chegada da Revolução do Machado de Draven.",
+      "Faça com que Draven deixe cair seus machados. Isso fará com que ele enfraqueça drasticamente."
+    ]
+  }
+}

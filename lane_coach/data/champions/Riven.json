@@ -1,0 +1,91 @@
+{
+  "id": "Riven",
+  "name": "Riven",
+  "title": "a Exilada",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Riven.json",
+    "label": "Riot Data Dragon — Riven",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Riven.Q",
+      "ability": "Q",
+      "name": "Asas Quebradas",
+      "description": "Riven faz uma série rápida de acertos. Esta habilidade pode ser reativada três vezes em um curto período de tempo. O terceiro golpe empurra para trás os inimigos próximos."
+    },
+    {
+      "id": "Riven.W",
+      "ability": "W",
+      "name": "Explosão de Ki",
+      "description": "Riven emite uma Explosão de Ki, causando dano e atordoamento a inimigos próximos."
+    },
+    {
+      "id": "Riven.E",
+      "ability": "E",
+      "name": "Valentia",
+      "description": "Riven avança uma curta distância e bloqueia o dano recebido."
+    },
+    {
+      "id": "Riven.R",
+      "ability": "R",
+      "name": "Lâmina do Exílio",
+      "description": "Riven fortalece sua arma de recordação com energia, recebendo Dano de Ataque e alcance. Durante este período, ela também pode usar Golpe de Vento, um poderoso ataque à distância, uma vez."
+    },
+    {
+      "id": "Riven.P",
+      "ability": "P",
+      "name": "Lâmina Rúnica",
+      "description": "As habilidades de Riven carregam sua lâmina, e seus ataques básicos consomem cargas para causar dano adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Asas Quebradas: Riven faz uma série rápida de acertos. Esta habilidade pode ser reativada três vezes em um curto período de tempo. O terceiro golpe empurra para trás os inimigos próximos.",
+      "Lâmina do Exílio: Riven fortalece sua arma de recordação com energia, recebendo Dano de Ataque e alcance. Durante este período, ela também pode usar Golpe de Vento, um poderoso ataque à distância, uma vez."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "As Asas Quebradas de Riven prendem-se no campeão em que seu cursor estiver ao fim do tempo de conjuração. Caso queira atravessar seu oponente, certifique-se de que o cursor também está além dele.",
+      "Riven não tem uma fonte de cura ou de defesa e deve compensar com combos de dano em rajada. Entre nas lutas com Asas Quebradas e Explosão de Ki ao mesmo tempo em que usa Valentia para escapar e absorver a contra-agressão."
+    ],
+    "against": [
+      "Riven tem muita mobilidade, mas não pode se movimentar para muito longe com qualquer uma de suas habilidades. Enraizá-la ou Silenciá-la durante seu ataque combinado reduzirá drasticamente sua eficácia.",
+      "Riven só causa Dano Físico. Priorize muita Armadura se uma Riven inimiga sair do seu controle.",
+      "Riven se sobressai em duelar com mais de um atacante corpo a corpo ao mesmo tempo, pois estará causando praticamente a mesma quantia de dano. Ao atacá-la em conjunto, não a enfrente até que tenha usado todo o seu ataque combinado."
+    ]
+  }
+}

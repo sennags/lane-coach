@@ -1,0 +1,93 @@
+{
+  "id": "Shyvana",
+  "name": "Shyvana",
+  "title": "a Meio-Dragão",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Shyvana.json",
+    "label": "Riot Data Dragon — Shyvana",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Shyvana.Q",
+      "ability": "Q",
+      "name": "Golpe de Brasas",
+      "description": "O próximo ataque de Shyvana atinge tanto o alvo quanto a área ao redor. A Habilidade pode ser reconjurada. Quando assume a Forma de Dragão, ela ganha uma reconjuração adicional, causando muito dano a um único alvo."
+    },
+    {
+      "id": "Shyvana.W",
+      "ability": "W",
+      "name": "Égide Infernal",
+      "description": "Shyvana recebe Escudo e Velocidade de Movimento. Depois de um curto intervalo, a área ao redor dela detona. Durante a Forma de Dragão, a explosão a curará se atingir um Campeão inimigo."
+    },
+    {
+      "id": "Shyvana.E",
+      "ability": "E",
+      "name": "Explosão Incandescente",
+      "description": "Shyvana lança uma bola de fogo que explode ao atingir um alvo grande, causando Lentidão. Na Forma de Dragão, ela atravessa e explode ao atingir inimigos grandes, deixando um rastro de fogo por onde passa."
+    },
+    {
+      "id": "Shyvana.R",
+      "ability": "R",
+      "name": "Descida do Dragão",
+      "description": "Shyvana se transforma em um Dragão e avança, fazendo os inimigos no caminho fugirem. Durante a Forma de Dragão, ela fica maior e suas habilidades básicas são fortalecidas."
+    },
+    {
+      "id": "Shyvana.P",
+      "ability": "P",
+      "name": "Armadura de Escamas",
+      "description": "Eliminar Campeões inimigos, tropas grandes e monstros grandes concede a Shyvana acúmulos de Armadura de Escamas, melhorando suas defesas."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Golpe de Brasas: O próximo ataque de Shyvana atinge tanto o alvo quanto a área ao redor. A Habilidade pode ser reconjurada. Quando assume a Forma de Dragão, ela ganha uma reconjuração adicional, causando muito dano a um único alvo.",
+      "Descida do Dragão: Shyvana se transforma em um Dragão e avança, fazendo os inimigos no caminho fugirem. Durante a Forma de Dragão, ela fica maior e suas habilidades básicas são fortalecidas."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Todas as habilidades de Shyvana ficam melhores ao atacar unidades. Por isso, itens de Velocidade de Ataque são mais valiosos nela do que na maioria dos Campeões.",
+      "Hálito Flamejante é uma ótima opção para subir de nível contra oponentes de rota difíceis.",
+      "Combustão é a escolha ideal para jogar na selva. Os monstros serão atingidos pela duração completa, e a Velocidade de Movimento adicional melhora o potencial de emboscadas dela.",
+      "Talvez valha a pena comprar um dos itens que causam Lentidão aos inimigos, como Malho Congelado, Couraça do Defunto ou Entropia."
+    ],
+    "against": [
+      "Boa parte do poder de Shyvana é gerada por agressão, fazendo com que ela fique fraca contra oponentes mais distantes.",
+      "Todas as habilidades básicas de Shyvana atingem vários inimigos quando ela está na Forma de Dragão. É importante que Campeões inimigos não se agrupem ao enfrentá-la.",
+      "A Barra de Fúria da Shyvana indica que a ultimate dela pode ser ativada. Atacá-la quando a Fúria dela estiver baixa pode ser muito eficaz."
+    ]
+  }
+}

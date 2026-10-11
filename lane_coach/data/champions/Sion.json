@@ -1,0 +1,91 @@
+{
+  "id": "Sion",
+  "name": "Sion",
+  "title": "o Colosso Morto-Vivo",
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sion.json",
+    "label": "Riot Data Dragon — Sion",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Sion.Q",
+      "ability": "Q",
+      "name": "Golpe Demolidor",
+      "description": "Sion carrega um poderoso golpe em uma área à sua frente que causará dano a inimigos quando lançado. Caso carregue por tempo suficiente, também arremessará ao ar e atordoará os inimigos atingidos."
+    },
+    {
+      "id": "Sion.W",
+      "ability": "W",
+      "name": "Fornalha da Alma",
+      "description": "Sion se protege e pode reativar após 3 segundos para causar Dano Mágico a inimigos próximos. Quando Sion abate inimigos, ele recebe Vida máxima passivamente."
+    },
+    {
+      "id": "Sion.E",
+      "ability": "E",
+      "name": "Urro do Assassino",
+      "description": "Sion dispara uma onda de choque de curto alcance que causa dano e reduz a velocidade e Armadura do primeiro inimigo atingido. Se ela atingir uma tropa ou monstro, o mesmo será arremessado para trás, causando dano e reduzindo a velocidade e Armadura de todos os inimigos que atravessar."
+    },
+    {
+      "id": "Sion.R",
+      "ability": "R",
+      "name": "Investida Incontrolável",
+      "description": "Sion avança em linha reta, acelerando ao longo do tempo. Ele pode guiar levemente sua investida com o cursor do mouse na posição. Ao colidir com um inimigo, ele causa dano e o arremessa ao ar com base na distância percorrida."
+    },
+    {
+      "id": "Sion.P",
+      "ability": "P",
+      "name": "In Gloria Mori",
+      "description": "Após ser abatido, Sion será reanimado temporariamente, mas sua Vida decairá rapidamente. Seus ataques ficarão muito rápidos, curando e causando dano adicional com base na Vida máxima do alvo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Golpe Demolidor: Sion carrega um poderoso golpe em uma área à sua frente que causará dano a inimigos quando lançado. Caso carregue por tempo suficiente, também arremessará ao ar e atordoará os inimigos atingidos.",
+      "Investida Incontrolável: Sion avança em linha reta, acelerando ao longo do tempo. Ele pode guiar levemente sua investida com o cursor do mouse na posição. Ao colidir com um inimigo, ele causa dano e o arremessa ao ar com base na distância percorrida."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode virar apenas um pouco durante a Investida Incontrolável, então tente usá-la em linhas retas.",
+      "O Urro do Assassino é uma ótima habilidade de preparação para acertar um Golpe Demolidor poderoso.",
+      "O efeito Fornalha da Alma exibe a resistência restante do escudo. Use essa informação para calcular onde acertar a explosão perfeitamente."
+    ],
+    "against": [
+      "Mesmo que Sion ainda atinja um Golpe Demolidor, fazer com que solte a carga antes do esperado reduz seu impacto.",
+      "Use o tempo após a morte de Sion para reposicionar-se e preparar-se para seu retorno."
+    ]
+  }
+}

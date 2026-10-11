@@ -1,0 +1,90 @@
+{
+  "id": "Xayah",
+  "name": "Xayah",
+  "title": "a Rebelde",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Xayah.json",
+    "label": "Riot Data Dragon — Xayah",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Xayah.Q",
+      "ability": "Q",
+      "name": "Punhais Duplos",
+      "description": "Xayah arremessa dois punhais que causam dano e deixam cair Plumas que podem retornar para ela."
+    },
+    {
+      "id": "Xayah.W",
+      "ability": "W",
+      "name": "Plumagem Mortífera",
+      "description": "Xayah cria uma tempestade de lâminas que aumenta seu dano e sua Velocidade de Ataque, além de conceder Velocidade de Movimento ao atacar um Campeão."
+    },
+    {
+      "id": "Xayah.E",
+      "ability": "E",
+      "name": "Invocadora das Lâminas",
+      "description": "Xayah recolhe todas as Plumas que caíram, causando dano e enraizando os inimigos."
+    },
+    {
+      "id": "Xayah.R",
+      "ability": "R",
+      "name": "Tempestade de Plumas",
+      "description": "Xayah salta pelo ar, ficando inalvejável e arremessando um leque de punhais, além de deixar cair Plumas que podem voltar para ela."
+    },
+    {
+      "id": "Xayah.P",
+      "ability": "P",
+      "name": "Cortes Certeiros",
+      "description": "Depois de usar uma habilidade, os próximos ataques básicos de Xayah acertam todos os alvos pelo caminho e deixam uma Pluma ."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Punhais Duplos: Xayah arremessa dois punhais que causam dano e deixam cair Plumas que podem retornar para ela.",
+      "Tempestade de Plumas: Xayah salta pelo ar, ficando inalvejável e arremessando um leque de punhais, além de deixar cair Plumas que podem voltar para ela."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Os ataques e habilidades de Xayah deixam Plumas no terreno. Ela pode puxá-las em seguida para causar dano e efeitos de controle em área.",
+      "Xayah pode usar Tempestade de Plumas para desviar de quase qualquer habilidade ao mesmo tempo em que cria uma tonelada de Plumas. Tente utilizar ambos os aspectos dessa habilidade."
+    ],
+    "against": [
+      "Invocadora das Lâminas só pode enraizar alvos atingidos por 3 ou mais Plumas que retornam para Xayah.",
+      "Lutas prolongadas na mesma área de Xayah permite que ela solte várias Plumas. Tente manter-se em movimento!",
+      "Esteja preparado ao partir para o abate. A capacidade de ficar inalvejável concedida por Tempestade de Plumas pode rapidamente mudar o rumo de uma emboscada a favor de Xayah."
+    ]
+  }
+}

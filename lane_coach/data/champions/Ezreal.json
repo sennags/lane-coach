@@ -1,0 +1,92 @@
+{
+  "id": "Ezreal",
+  "name": "Ezreal",
+  "title": "o Explorador Pródigo",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ezreal.json",
+    "label": "Riot Data Dragon — Ezreal",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ezreal.Q",
+      "ability": "Q",
+      "name": "Disparo Místico",
+      "description": "Ezreal faz um disparo de energia que reduz um pouco o Tempo de Recarga de todas as suas habilidades caso atinja uma unidade inimiga."
+    },
+    {
+      "id": "Ezreal.W",
+      "ability": "W",
+      "name": "Fluxo Essencial",
+      "description": "Ezreal dispara um orbe que prende-se ao primeiro Campeão ou objetivo atingido. Caso atinja um inimigo preso com o orbe, ele detonará e causará dano."
+    },
+    {
+      "id": "Ezreal.E",
+      "ability": "E",
+      "name": "Translocação Arcana",
+      "description": "Ezreal teleporta-se para um local-alvo próximo e faz um disparo teleguiado na unidade inimiga mais próxima. Prioriza inimigos atingidos com Fluxo Essencial."
+    },
+    {
+      "id": "Ezreal.R",
+      "ability": "R",
+      "name": "Barragem Incendiária",
+      "description": "Ezreal carrega antes de disparar uma poderosa barragem de energia que causa dano massivo em cada unidade que atravessar (o dano é reduzido contra tropas e monstros não épicos)."
+    },
+    {
+      "id": "Ezreal.P",
+      "ability": "P",
+      "name": "Feitiço do Poder Crescente",
+      "description": "Ezreal recebe Velocidade de Ataque crescente a cada vez que acerta uma habilidade, acumulando-se até 5 vezes."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Disparo Místico: Ezreal faz um disparo de energia que reduz um pouco o Tempo de Recarga de todas as suas habilidades caso atinja uma unidade inimiga.",
+      "Barragem Incendiária: Ezreal carrega antes de disparar uma poderosa barragem de energia que causa dano massivo em cada unidade que atravessar (o dano é reduzido contra tropas e monstros não épicos)."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use a Translocação Arcana para ajudar no alinhamento de seus outros disparos.",
+      "Você pode jogar com Ezreal tanto com Dano de Ataque quanto com Poder de Habilidade, dependendo dos itens que usar nele.",
+      "Você pode alinhar a Barragem Incendiária para atingir mais de uma remessa de tropas ou até mesmo monstros."
+    ],
+    "against": [
+      "Ezreal é um Campeão bem frágil, então é melhor levar a briga até ele.",
+      "Ezreal funciona puramente com disparos de precisão, então certifique-se de ter tropas entre ele e você.",
+      "O Disparo Místico aplica efeitos de contato, incluindo a Insígnia de Brasa."
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Graves",
+  "name": "Graves",
+  "title": "o Foragido",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Graves.json",
+    "label": "Riot Data Dragon — Graves",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Graves.Q",
+      "ability": "Q",
+      "name": "Fim da Linha",
+      "description": "Graves dispara um projétil explosivo que detona após 1s ou ao colidir com terrenos."
+    },
+    {
+      "id": "Graves.W",
+      "ability": "W",
+      "name": "Cortina de Fumaça",
+      "description": "Graves atira uma bomba de fumaça na área-alvo, criando uma nuvem de fumaça que reduz o alcance de visão. Inimigos atingidos no impacto inicial sofrem Dano Mágico e têm sua Velocidade de Movimento reduzida por um curto período de tempo."
+    },
+    {
+      "id": "Graves.E",
+      "ability": "E",
+      "name": "Saque Rápido",
+      "description": "Graves avança, recebendo Armadura e Resistência Mágica adicionais por vários segundos. Se Graves avançar em direção a um Campeão inimigo, em vez disso ele recebe dois acúmulos de Bravura Indômita. Atingir inimigos com ataques básicos reduz o Tempo de Recarga dessa habilidade e redefine o efeito de resistência."
+    },
+    {
+      "id": "Graves.R",
+      "ability": "R",
+      "name": "Efeito Colateral",
+      "description": "Graves atira um projétil explosivo que causa muito dano ao primeiro campeão que acertar. Após atingir um campeão ou chegar ao seu alcance máximo, o projétil explode, causando dano em uma área em cone."
+    },
+    {
+      "id": "Graves.P",
+      "ability": "P",
+      "name": "Nova Destino",
+      "description": "A escopeta de Graves tem algumas propriedades únicas. Ele precisa recarregar quando sua munição acaba. Ataques disparam 4 projéteis que não podem atravessar unidades. Não Campeões atingidos por mais de um projétil são empurrados para trás."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Fim da Linha: Graves dispara um projétil explosivo que detona após 1s ou ao colidir com terrenos.",
+      "Efeito Colateral: Graves atira um projétil explosivo que causa muito dano ao primeiro campeão que acertar. Após atingir um campeão ou chegar ao seu alcance máximo, o projétil explode, causando dano em uma área em cone."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Cortina de Fumaça pode ser usada tanto para escapar quanto para conseguir abates.",
+      "Usar Saque Rápido para ficar dentro do alcance e atirar à queima roupa com Chumbo Grosso pode causar muito dano."
+    ],
+    "against": [
+      "A maior parte do dano de Graves é Dano Físico, então é melhor fazer itens de Armadura.",
+      "Sair da área de ação de Cortina de Fumaça remove seu efeito imediatamente."
+    ]
+  }
+}

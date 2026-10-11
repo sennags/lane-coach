@@ -1,0 +1,92 @@
+{
+  "id": "Rengar",
+  "name": "Rengar",
+  "title": "o Acossador da Alcateia",
+  "tags": [
+    "Assassin",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rengar.json",
+    "label": "Riot Data Dragon — Rengar",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Rengar.Q",
+      "ability": "Q",
+      "name": "Selvageria",
+      "description": "O próximo Ataque de Rengar desfere uma punhalada brutal que causa dano adicional. Efeito de Ferocidade: causa dano aumentado e concede Velocidade de Ataque."
+    },
+    {
+      "id": "Rengar.W",
+      "ability": "W",
+      "name": "Rugido de Batalha",
+      "description": "Rengar solta um rugido de batalha, causando dano aos inimigos e curando parte do dano que ele tenha recebido recentemente. Efeito de Ferocidade: quebra efeitos de Controle de Grupo."
+    },
+    {
+      "id": "Rengar.E",
+      "ability": "E",
+      "name": "Boleadeiras",
+      "description": "Rengar arremessa sua boleadeira, reduzindo a velocidade do primeiro alvo atingido por um curto período. Efeito de Ferocidade: enraíza o alvo."
+    },
+    {
+      "id": "Rengar.R",
+      "ability": "R",
+      "name": "Furor da Caçada",
+      "description": "Rengar ativa seus instintos predatórios, ficando Camuflado e revelando o campeão inimigo mais próximo a ele em um amplo raio ao seu redor. Durante o Furor da Caçada, Rengar recebe Velocidade de Movimento e pode saltar no inimigo perseguido para reduzir sua armadura, mesmo sem estar no arbusto."
+    },
+    {
+      "id": "Rengar.P",
+      "ability": "P",
+      "name": "Predador Oculto",
+      "description": "Enquanto estiver em um arbusto, Rengar salta até seu alvo ao usar um ataque básico. Rengar gera Ferocidade sempre que conjura uma habilidade. Ao atingir Ferocidade máxima, sua próxima Habilidade é fortalecida. Abater Campeões inimigos acrescenta troféus ao Colar de Presas de Rengar, concedendo Dano de Ataque adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Selvageria: O próximo Ataque de Rengar desfere uma punhalada brutal que causa dano adicional. Efeito de Ferocidade: causa dano aumentado e concede Velocidade de Ataque.",
+      "Furor da Caçada: Rengar ativa seus instintos predatórios, ficando Camuflado e revelando o campeão inimigo mais próximo a ele em um amplo raio ao seu redor. Durante o Furor da Caçada, Rengar recebe Velocidade de Movimento e pode saltar no inimigo perseguido para reduzir sua armadura, mesmo sem estar no arbusto."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use o Ultimate de Rengar para encontrar e assassinar alvos de alta prioridade em lutas de equipe e conflitos isolados.",
+      "Muito do poder de Rengar vem de suas habilidades fortificadas, que ele usa em momentos especiais - escolha com sabedoria!",
+      "Certifique-se de usar caminhos entre os arbustos quando estiver perseguindo oponentes, para beneficiar-se da passiva de Rengar."
+    ],
+    "against": [
+      "Rengar recebe uma habilidade fortalecida quando sua barra de recursos estiver cheia. Tente confrontá-lo quando estiver baixa.",
+      "A habilidade passiva de Rengar permite que ele salte a partir de um arbusto, portanto evite de enfrentá-lo próximo a arbustos.",
+      "Rengar coloca um indicador sobre o Campeão inimigo mais próximo quando estiver camuflado durante sua Ultimate."
+    ]
+  }
+}

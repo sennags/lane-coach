@@ -1,0 +1,92 @@
+{
+  "id": "Thresh",
+  "name": "Thresh",
+  "title": "o Guardião das Correntes",
+  "tags": [
+    "Support",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Thresh.json",
+    "label": "Riot Data Dragon — Thresh",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Thresh.Q",
+      "ability": "Q",
+      "name": "Sentença",
+      "description": "Thresh prende um inimigo em suas correntes e puxa em sua direção. Ativar essa habilidade uma segunda vez puxa Thresh em direção ao inimigo."
+    },
+    {
+      "id": "Thresh.W",
+      "ability": "W",
+      "name": "Passagem Sombria",
+      "description": "Thresh arremessa uma lanterna que protege Campeões aliados próximos contra danos. Aliados podem clicar na lanterna para avançar na direção de Thresh."
+    },
+    {
+      "id": "Thresh.E",
+      "ability": "E",
+      "name": "Esfolar",
+      "description": "Os ataques de Thresh são fortalecidos, causando mais dano quanto mais tempo ele esperar entre ataques. Ao ativar, Thresh arrasta sua corrente e empurra todos os inimigos atingidos na direção do golpe."
+    },
+    {
+      "id": "Thresh.R",
+      "ability": "R",
+      "name": "A Caixa",
+      "description": "Uma prisão de paredes que causam dano e Lentidão se quebradas."
+    },
+    {
+      "id": "Thresh.P",
+      "ability": "P",
+      "name": "Condenação",
+      "description": "Thresh pode colher a alma de inimigos que morrerem perto dele, recebendo Armadura e Poder de Habilidade permanentemente."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Sentença: Thresh prende um inimigo em suas correntes e puxa em sua direção. Ativar essa habilidade uma segunda vez puxa Thresh em direção ao inimigo.",
+      "A Caixa: Uma prisão de paredes que causam dano e Lentidão se quebradas."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Comunicação é a chave ao se usar a lanterna de Thresh. Permita que seus colegas de equipe saibam como você deseja usá-la.",
+      "Sentença e Esfolar podem ser combinados em qualquer ordem de conjuração para combinações poderosas.",
+      "Thresh pode coletar almas sem a necessidade de matar unidades ele mesmo. Planejar a sua posição no mapa para ficar próximo à maioria dos abates auxiliará a maximizar a coleta de almas."
+    ],
+    "against": [
+      "''Sentença'' de Thresh tem um longo tempo de conjuração. Fique de olho no início da conjuração para agir em escapatória.",
+      "Quebrar uma parede de A Caixa intencionalmente pode permitir que um aliado vulnerável escape ileso.",
+      "Thresh depende de coletar almas para uma porção de sua defesa e dano. Tente lhe causar dano enquanto ele se movimenta para coletá-las."
+    ]
+  }
+}

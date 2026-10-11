@@ -55,7 +55,7 @@ class KnowledgeBase:
         self.version = hashlib.sha256(serialized.encode()).hexdigest()[:12]
 
     def context(self, own, enemy, lane='mid'):
-        if own == enemy or lane != 'mid':
+        if own == enemy or lane not in ('mid', 'general'):
             raise ValueError('Unsupported matchup')
         if own not in self.champions or enemy not in self.champions:
             raise ValueError('Unknown champion')

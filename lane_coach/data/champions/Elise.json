@@ -1,0 +1,92 @@
+{
+  "id": "Elise",
+  "name": "Elise",
+  "title": "a Aranha Rainha",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Elise.json",
+    "label": "Riot Data Dragon — Elise",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Elise.Q",
+      "ability": "Q",
+      "name": "Neurotoxina / Mordida Venenosa",
+      "description": "Forma Humana: Causa dano com base em quão alta está a Vida do alvo. Forma de Aranha: Avança até um inimigo e causa dano com base em quão baixa está a Vida do alvo."
+    },
+    {
+      "id": "Elise.W",
+      "ability": "W",
+      "name": "Cria Volátil / Frenesi Aracnídeo",
+      "description": "Forma Humana: Elise lança uma cria banhada em veneno que explode ao se aproximar de um alvo. Forma de Aranha: Elise e suas Crias recebem Velocidade de Ataque."
+    },
+    {
+      "id": "Elise.E",
+      "ability": "E",
+      "name": "Casulo / Rapel",
+      "description": "Forma Humana: atordoa a primeira unidade inimiga atingida e a revela se não estiver em furtividade. Forma de Aranha: Elise e suas crias se lançam ao ar, depois descem sobre um alvo inimigo. Após descer sobre o alvo, o dano adicional de Elise e a cura de Aranha Rainha são aumentados."
+    },
+    {
+      "id": "Elise.R",
+      "ability": "R",
+      "name": "Forma de Aranha",
+      "description": "Transforma-se em uma ameaçadora aranha, reduzindo seu alcance de ataque em troca de Velocidade de Movimento, novas habilidades e um aglomerado de Crias que atacarão seus inimigos."
+    },
+    {
+      "id": "Elise.P",
+      "ability": "P",
+      "name": "Aranha Rainha",
+      "description": "Forma Humana: Quando as habilidades de Elise atingem um inimigo, ela recebe uma Cria dormente. Forma de Aranha: Ataques básicos causam Dano Mágico adicional e restauram a Vida de Elise."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Neurotoxina / Mordida Venenosa: Forma Humana: Causa dano com base em quão alta está a Vida do alvo. Forma de Aranha: Avança até um inimigo e causa dano com base em quão baixa está a Vida do alvo.",
+      "Forma de Aranha: Transforma-se em uma ameaçadora aranha, reduzindo seu alcance de ataque em troca de Velocidade de Movimento, novas habilidades e um aglomerado de Crias que atacarão seus inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "A Forma de Aranha é mais eficaz em acabar com inimigos com pouca Vida; a Neurotoxina da Forma Humana causa mais dano a inimigos com mais Vida.",
+      "Quando estiver em Forma de Aranha, as crias atacarão o alvo em que Elise usar Mordida Venenosa.",
+      "A Forma de Aranha de Elise e suas habilidades não têm custo de Mana, podendo assim ser priorizadas para quando você estiver tentando conservar Mana."
+    ],
+    "against": [
+      "A Forma de Aranha de Elise é mais perigosa quando você estiver com pouca Vida, e sua Forma Humana é mais potente quando você estiver com muita vida.",
+      "Rapel somente a lança para cima e para baixo, a menos que ela possa cair em uma unidade inimiga.",
+      "Rapel tem um longo Tempo de Recarga. Elise fica vulnerável após usá-lo."
+    ]
+  }
+}

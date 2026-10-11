@@ -1,0 +1,91 @@
+{
+  "id": "Lissandra",
+  "name": "Lissandra",
+  "title": "a Bruxa Gélida",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Lissandra.json",
+    "label": "Riot Data Dragon — Lissandra",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Lissandra.Q",
+      "ability": "Q",
+      "name": "Estilhaço de Gelo",
+      "description": "Arremessa uma lança de gelo que se estilhaça ao atingir um inimigo, causando Dano Mágico e reduzindo sua Velocidade de Movimento. Os estilhaços atravessam o alvo, causando o mesmo dano a outros inimigos atingidos."
+    },
+    {
+      "id": "Lissandra.W",
+      "ability": "W",
+      "name": "Círculo Ártico",
+      "description": "Prende inimigos próximos em gelo, causando-lhes Dano Mágico e enraizando-os."
+    },
+    {
+      "id": "Lissandra.E",
+      "ability": "E",
+      "name": "Caminho Glacial",
+      "description": "Lissandra cria uma garra de gelo que causa Dano Mágico. Reativar essa habilidade transporta Lissandra ao local atual da garra."
+    },
+    {
+      "id": "Lissandra.R",
+      "ability": "R",
+      "name": "Túmulo Congelado",
+      "description": "Se conjurada em um Campeão inimigo, o alvo será congelado e atordoado. Se conjurada em Lissandra, ela se protege em um bloco de gelo sombrio, curando a si mesma enquanto fica inalvejável e invulnerável. Em seguida, o gelo sombrio emana a partir do alvo, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos."
+    },
+    {
+      "id": "Lissandra.P",
+      "ability": "P",
+      "name": "Submissão Glacinata",
+      "description": "Quando um Campeão inimigo morre próximo a Lissandra, ele vira um Servo Congelado. Servos Congelados reduzem a velocidade de inimigos próximos e, depois de um intervalo, estilhaçam devido ao frio intenso, causando Dano Mágico a alvos próximos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Estilhaço de Gelo: Arremessa uma lança de gelo que se estilhaça ao atingir um inimigo, causando Dano Mágico e reduzindo sua Velocidade de Movimento. Os estilhaços atravessam o alvo, causando o mesmo dano a outros inimigos atingidos.",
+      "Túmulo Congelado: Se conjurada em um Campeão inimigo, o alvo será congelado e atordoado. Se conjurada em Lissandra, ela se protege em um bloco de gelo sombrio, curando a si mesma enquanto fica inalvejável e invulnerável. Em seguida, o gelo sombrio emana a partir do alvo, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode usar sua ultimate instantaneamente em si mesmo pressionando a tecla de autoconjuração e a tecla ultimate ao mesmo tempo (alt+R por padrão).",
+      "Quando você conjura Caminho Glacial e depois volta na mesma direção, seus inimigos ficam sem saber a direção que você tomou de fato.",
+      "As habilidades de Lissandra têm um alcance menor do que as habilidades da maioria dos magos. Consequentemente, os itens que oferecem Poder de Habilidade e defesa, como a Ampulheta de Zhonya e o Véu da Banshee, podem ser ótimas escolhas para ajudá-la a sobreviver e causar dano."
+    ],
+    "against": [
+      "A melhor maneira de impedir que Lissandra movimente-se ao usar Caminho Glacial é imobilizá-la antes que a habilidade seja reativada.",
+      "O Círculo Ártico de Lissandra tem muito Tempo de Recarga nos níveis iniciais; enfrente-a enquanto estiver neste estado.",
+      "O Estilhaço de Gelo somente causa Lentidão à primeira unidade atingida. Aborde Lissandra por trás das tropas de sua equipe para evitar tal Lentidão."
+    ]
+  }
+}

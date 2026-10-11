@@ -1,0 +1,91 @@
+{
+  "id": "Ziggs",
+  "name": "Ziggs",
+  "title": "o Especialista em Hexplosivos",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ziggs.json",
+    "label": "Riot Data Dragon — Ziggs",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ziggs.Q",
+      "ability": "Q",
+      "name": "Bomba Saltitante",
+      "description": "Ziggs arremessa uma bomba que causa Dano Mágico."
+    },
+    {
+      "id": "Ziggs.W",
+      "ability": "W",
+      "name": "Carga Concentrada",
+      "description": "Ziggs arremessa uma carga explosiva que detona depois de um intervalo ou quando a Habilidade é ativada novamente. A explosão causa Dano Mágico a inimigos, arremessando-os para longe. Ziggs também é empurrado, mas não sofre dano. Ziggs pode também usar Carga para Hexplodir torres inimigas vulneráveis."
+    },
+    {
+      "id": "Ziggs.E",
+      "ability": "E",
+      "name": "Campo Minado de Hexplosivos",
+      "description": "Ziggs espalha minas de proximidade que detonam ao contato com inimigos, causando Dano Mágico e redução de velocidade. Várias detonações de minas no mesmo alvo causam dano reduzido."
+    },
+    {
+      "id": "Ziggs.R",
+      "ability": "R",
+      "name": "Bomba Megainfernal",
+      "description": "Ziggs põe para funcionar sua maior criação, a Bomba Megainfernal, arremessando-a de uma enorme distância. Inimigos no centro da detonação recebem mais dano do que aqueles mais distantes."
+    },
+    {
+      "id": "Ziggs.P",
+      "ability": "P",
+      "name": "Pavio Curto",
+      "description": "Periodicamente, o próximo ataque básico de Ziggs causa Dano Mágico adicional. Esse Tempo de Recarga é reduzido sempre que Ziggs usa uma habilidade."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Bomba Saltitante: Ziggs arremessa uma bomba que causa Dano Mágico.",
+      "Bomba Megainfernal: Ziggs põe para funcionar sua maior criação, a Bomba Megainfernal, arremessando-a de uma enorme distância. Inimigos no centro da detonação recebem mais dano do que aqueles mais distantes."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Mesmo que esteja longe de um confronto, você pode ajudar de longe com a Bomba Megainfernal.",
+      "Reduzir a velocidade de seus inimigos com o Campo Minado de Hexplosivos facilita o acerto de outras habilidades.",
+      "Jogar-se sobre paredes com a Carga Concentrada pode ser ótimo para perseguir ou escapar de inimigos."
+    ],
+    "against": [
+      "Não pise nas minas de Ziggs! Elas reduzirão sua velocidade e isso fará com que ele acerte as outras habilidades mais facilmente.",
+      "Muitas das habilidades de Ziggs têm muito Tempo de Recarga. Tente pegá-lo assim que ele usar todas as habilidades.",
+      "A Ultimate de Ziggs, Bomba Megainfernal, causa mais dano no centro da explosão."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "Annie",
+  "name": "Annie",
+  "title": "a Criança Sombria",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Annie.json",
+    "label": "Riot Data Dragon — Annie",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Annie.Q",
+      "ability": "Q",
+      "name": "Desintegrar",
+      "description": "Annie arremessa uma bola de fogo infundida em Mana, causando dano e recuperando o custo de Mana caso o alvo seja destruído."
+    },
+    {
+      "id": "Annie.W",
+      "ability": "W",
+      "name": "Incinerar",
+      "description": "Annie conjura um ardente cone de fogo, causando dano em todos os inimigos na área."
+    },
+    {
+      "id": "Annie.E",
+      "ability": "E",
+      "name": "Escudo Fundido",
+      "description": "Annie concede um Escudo e um impulso de Velocidade de Movimento a si ou a um aliado, causando dano a inimigos que a atingirem com Ataques ou Habilidades."
+    },
+    {
+      "id": "Annie.R",
+      "ability": "R",
+      "name": "Invocar: Tibbers",
+      "description": "Annie dá vida ao urso Tibbers, causando dano a unidades na área. Tibbers pode atacar e também queimar inimigos que ficarem próximos a ele."
+    },
+    {
+      "id": "Annie.P",
+      "ability": "P",
+      "name": "Piromania",
+      "description": "Após conjurar 4 Habilidades, a próxima Habilidade ofensiva de Annie atordoará o alvo. Annie começa a partida e ressurge com Piromania disponível."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Desintegrar: Annie arremessa uma bola de fogo infundida em Mana, causando dano e recuperando o custo de Mana caso o alvo seja destruído.",
+      "Invocar: Tibbers: Annie dá vida ao urso Tibbers, causando dano a unidades na área. Tibbers pode atacar e também queimar inimigos que ficarem próximos a ele."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Armazenar um atordoamento para usar com sua habilidade Ultimate pode mudar o curso de um confronto de equipe.",
+      "Acertar golpes fatais em tropas com o Desintegrar permite que Annie acumule recursos logo no início da partida.",
+      "O Escudo Fundido é um bom feitiço para lançar com o atordoamento de Annie, então algumas vezes é uma boa ideia alocar um ranque nele logo no começo."
+    ],
+    "against": [
+      "A invocação de Annie, o urso Tibbers, queima as unidades inimigas a seu redor. Tente manter distância após ele ter sido invocado.",
+      "O feitiço Golpear pode ser usado para ajudar a derrubar Tibbers.",
+      "Fique de olho em um efeito branco rodopiante ao redor de Annie. Isso significa que ela está pronta para lançar um atordoamento."
+    ]
+  }
+}

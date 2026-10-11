@@ -1,0 +1,92 @@
+{
+  "id": "Xerath",
+  "name": "Xerath",
+  "title": "o Mago Ascendente",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Xerath.json",
+    "label": "Riot Data Dragon — Xerath",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Xerath.Q",
+      "ability": "Q",
+      "name": "Pulso Arcano",
+      "description": "Dispara um raio de energia de longo alcance, causando Dano Mágico a todos os alvos atingidos."
+    },
+    {
+      "id": "Xerath.W",
+      "ability": "W",
+      "name": "Olho da Destruição",
+      "description": "Invoca uma barragem de energia arcana, causando Dano Mágico e redução de Velocidade de Movimento a todos os inimigos em uma área. Alvos no centro recebem dano adicional e uma redução de velocidade mais forte."
+    },
+    {
+      "id": "Xerath.E",
+      "ability": "E",
+      "name": "Orbe Eletrizante",
+      "description": "Causa Dano Mágico a um inimigo e o atordoa."
+    },
+    {
+      "id": "Xerath.R",
+      "ability": "R",
+      "name": "Ritual Arcano",
+      "description": "Xerath imobiliza a si mesmo e dispara diversas barragens de longa distância."
+    },
+    {
+      "id": "Xerath.P",
+      "ability": "P",
+      "name": "Oscilação de Mana",
+      "description": "Os ataques básicos de Xerath restauram Mana periodicamente. Sempre que Xerath abate uma unidade, esse Tempo de Recarga é reduzido."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Pulso Arcano: Dispara um raio de energia de longo alcance, causando Dano Mágico a todos os alvos atingidos.",
+      "Ritual Arcano: Xerath imobiliza a si mesmo e dispara diversas barragens de longa distância."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "É mais fácil acertar Pulso Arcano em um inimigo quando ele não estiver se movimentando para os lados - use-o quando estiver indo em sua direção ou se afastando de você.",
+      "Olho da Destruição tornará o acerto de Pulso Arcano mais fácil, uma vez que o alvo estará com a velocidade reduzida.",
+      "Se você atordoar um inimigo com Orbe Eletrizante, prossiga com um golpe certeiro de Olho da Destruição."
+    ],
+    "against": [
+      "O alcance de Xerath pode ser intimidante, mas a maioria dos campeões que o enfrentam de perto conseguem bons resultados na troca de dano.",
+      "Xerath leva muito tempo para engajar com Ritual Arcano. Tenha atenção em sua animação de conjuração e comece a desviar.",
+      "O Véu da Banshee faz com que seja muito mais difícil para Xerath acertar Orbe Eletrizante em você."
+    ]
+  }
+}

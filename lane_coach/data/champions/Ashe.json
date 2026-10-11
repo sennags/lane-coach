@@ -1,0 +1,91 @@
+{
+  "id": "Ashe",
+  "name": "Ashe",
+  "title": "a Arqueira do Gelo",
+  "tags": [
+    "Marksman",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ashe.json",
+    "label": "Riot Data Dragon — Ashe",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ashe.Q",
+      "ability": "Q",
+      "name": "Concentração",
+      "description": "Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito."
+    },
+    {
+      "id": "Ashe.W",
+      "ability": "W",
+      "name": "Rajada",
+      "description": "Ashe dispara flechas em cone, causando dano aumentado. Também aplica Tiro Congelado."
+    },
+    {
+      "id": "Ashe.E",
+      "ability": "E",
+      "name": "Olhar do Falcão",
+      "description": "Ashe envia seu Espírito do Falcão em uma missão de exploração em qualquer ponto do mapa."
+    },
+    {
+      "id": "Ashe.R",
+      "ability": "R",
+      "name": "Flecha de Cristal Encantada",
+      "description": "Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão."
+    },
+    {
+      "id": "Ashe.P",
+      "ability": "P",
+      "name": "Tiro Congelado",
+      "description": "Os ataques de Ashe reduzem a velocidade do alvo e fazem com que ela cause mais dano a ele. Os Acertos Críticos de Ashe não causam dano adicional, mas reduzem ainda mais a velocidade do alvo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Concentração: Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito.",
+      "Flecha de Cristal Encantada: Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Tente disparar Flecha de Cristal Encantada na mesma direção do movimento de seus inimigos, para que seja mais possível acertá-los.",
+      "As flechas de Rajada são bloqueadas pelo primeiro inimigo atingido, então fique distante para evitar que elas sejam todas absorvidas pela linha de frente inimiga.",
+      "Olhar do Falcão revela unidades escondidas nos arbustos. Se um confronto de equipe estiver acontecendo na selva, ele pode lhe dar uma boa vantagem."
+    ],
+    "against": [
+      "Ashe tem pouquíssimas opções de defesa e é um bom alvo para emboscar.",
+      "Tenha cuidado ao mover-se pelo mapa sem companhia caso Ashe não tenha conjurado recentemente sua Flecha de Cristal Encantada."
+    ]
+  }
+}

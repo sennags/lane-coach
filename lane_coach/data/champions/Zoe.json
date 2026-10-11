@@ -1,0 +1,91 @@
+{
+  "id": "Zoe",
+  "name": "Zoe",
+  "title": "o Aspecto do Crepúsculo",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zoe.json",
+    "label": "Riot Data Dragon — Zoe",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Zoe.Q",
+      "ability": "Q",
+      "name": "Estrela Desviada!",
+      "description": "Zoe dispara um projétil que pode ser redirecionado durante o percurso. Causa mais dano quanto maior for a distância percorrida em linha reta."
+    },
+    {
+      "id": "Zoe.W",
+      "ability": "W",
+      "name": "Roubo Arcano",
+      "description": "Zoe pode apanhar os vestígios das conjurações de Feitiço de Invocador ou de itens ativos do inimigo para que ela mesma os conjure. Sempre que ela conjura um Feitiço de Invocador, ela ganha 3 projéteis que são disparados contra o alvo mais próximo."
+    },
+    {
+      "id": "Zoe.E",
+      "ability": "E",
+      "name": "Bolha do Soninho",
+      "description": "Faz com que o alvo fique sonolento e depois adormeça. Enquanto estiver adormecido, a Resistência Mágica do alvo é reduzida. A primeira fonte de dano que interromper o sono é dobrada, até determinado limite."
+    },
+    {
+      "id": "Zoe.R",
+      "ability": "R",
+      "name": "Salto Dimensional",
+      "description": "Teleporta-se para uma posição próxima por 1s, depois se teleporta de volta."
+    },
+    {
+      "id": "Zoe.P",
+      "ability": "P",
+      "name": "Brililim!",
+      "description": "O próximo ataque básico após Zoe conjurar uma habilidade causa Dano Mágico adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Estrela Desviada!: Zoe dispara um projétil que pode ser redirecionado durante o percurso. Causa mais dano quanto maior for a distância percorrida em linha reta.",
+      "Salto Dimensional: Teleporta-se para uma posição próxima por 1s, depois se teleporta de volta."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Estrela Desviada causa mais dano quanto maior for a distância percorrida. Conjurá-la atrás de si mesmo antes de redirecioná-la pode causar toneladas de dano.",
+      "Interrompa o sono com sua maior fonte de dano, pois os inimigos adormecidos recebem dano em dobro.",
+      "A Bolha do Soninho vai mais longe quando atravessa paredes. Encontre um esconderijo para preparar um abate à longa distância."
+    ],
+    "against": [
+      "A Estrela Desviada de Zoe causa mais dano quanto maior for a distância percorrida.",
+      "Zoe sempre retorna ao ponto inicial após conjurar Salto Dimensional, o que a deixa vulnerável a um contra-ataque.",
+      "A Bolha do Soninho vai mais longe quando atravessa paredes. Não deixe Zoe se esconder na névoa de guerra para evitar que ela acione a habilidade."
+    ]
+  }
+}

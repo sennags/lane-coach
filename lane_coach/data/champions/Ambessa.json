@@ -1,0 +1,84 @@
+{
+  "id": "Ambessa",
+  "name": "Ambessa",
+  "title": "Matriarca da Guerra",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ambessa.json",
+    "label": "Riot Data Dragon — Ambessa",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ambessa.Q",
+      "ability": "Q",
+      "name": "Golpe Ardiloso / Pancada Cortante",
+      "description": "Ambessa golpeia com seus cães-dragão em um semicírculo à frente, causando dano adicional aos inimigos atingidos pelas lâminas. Atingir um inimigo transformará a próxima conjuração desta Habilidade por um curto período, fazendo com que ela golpeie em linha reta com seus cães-dragão, causando dano adicional ao primeiro inimigo atingido."
+    },
+    {
+      "id": "Ambessa.W",
+      "ability": "W",
+      "name": "Repúdio",
+      "description": "Ambessa recebe Escudo, canaliza por um curto período e golpeia o chão, causando dano aos inimigos próximos. Caso bloqueie qualquer dano de unidades que não sejam tropas enquanto canaliza, a Habilidade causará dano aumentado."
+    },
+    {
+      "id": "Ambessa.E",
+      "ability": "E",
+      "name": "Lacerar",
+      "description": "Ambessa chicoteia seus cães-dragão ao redor de si, causando dano e Lentidão a inimigos próximos. Iniciar Passo do Cão-dragão com esta Habilidade faz com que ela golpeie uma segunda vez no fim do avanço."
+    },
+    {
+      "id": "Ambessa.R",
+      "ability": "R",
+      "name": "Execução Pública",
+      "description": "Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado."
+    },
+    {
+      "id": "Ambessa.P",
+      "ability": "P",
+      "name": "Passo do Cão-dragão",
+      "description": "Utilizar um comando de ataque ou de movimento enquanto conjura uma habilidade fará com que Ambessa avance a uma curta distância assim que a habilidade for conjurada, recebendo alcance, dano e Velocidade de Ataque adicionais em seu próximo ataque e recuperando energia."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Golpe Ardiloso / Pancada Cortante: Ambessa golpeia com seus cães-dragão em um semicírculo à frente, causando dano adicional aos inimigos atingidos pelas lâminas. Atingir um inimigo transformará a próxima conjuração desta Habilidade por um curto período, fazendo com que ela golpeie em linha reta com seus cães-dragão, causando dano adicional ao primeiro inimigo atingido.",
+      "Execução Pública: Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

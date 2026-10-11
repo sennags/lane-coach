@@ -1,0 +1,92 @@
+{
+  "id": "Nunu",
+  "name": "Nunu e Willump",
+  "title": "o Garoto e seu Yeti",
+  "tags": [
+    "Tank",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nunu.json",
+    "label": "Riot Data Dragon — Nunu e Willump",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Nunu.Q",
+      "ability": "Q",
+      "name": "Consumir",
+      "description": "Willump dá uma mordida em uma tropa, monstro ou Campeão inimigo, causando dano e se curando."
+    },
+    {
+      "id": "Nunu.W",
+      "ability": "W",
+      "name": "A Maior Bola de Neve de Todas!",
+      "description": "Willump cria uma bola de neve que aumenta em velocidade e tamanho conforme ele a rola. Ela causa dano a inimigos e os arremessa ao ar."
+    },
+    {
+      "id": "Nunu.E",
+      "ability": "E",
+      "name": "Rajada de Bolas de Neve",
+      "description": "Nunu arremessa múltiplas bolas de neve que causam dano a inimigos. Ao terminar, Willump enraíza quaisquer Campeões ou monstros grandes que foram atingidos por uma delas."
+    },
+    {
+      "id": "Nunu.R",
+      "ability": "R",
+      "name": "Zero Absoluto",
+      "description": "Nunu e Willump criam uma poderosa nevasca em uma área, causando lentidão aos inimigos e um dano massivo quando se encerrar."
+    },
+    {
+      "id": "Nunu.P",
+      "ability": "P",
+      "name": "Chamado de Freljord",
+      "description": "Nunu aumenta as Velocidades de Ataque e de Movimento de Willump e de um aliado próximo, além de fazer com que os ataques básicos de Willump causem dano a inimigos ao redor do alvo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Consumir: Willump dá uma mordida em uma tropa, monstro ou Campeão inimigo, causando dano e se curando.",
+      "Zero Absoluto: Nunu e Willump criam uma poderosa nevasca em uma área, causando lentidão aos inimigos e um dano massivo quando se encerrar."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Consumir permite à Nunu ficar na rota contra oponentes de longo alcance.",
+      "Você pode escolher interromper o Zero Absoluto mais cedo para dano parcial se um oponente estiver prestes a sair do alcance.",
+      "Muitas vezes é vantajoso atrasar o lançamento do Zero Absoluto até que a rodada inicial de desarmes seja usada. Tente se manter atrás antes de se impelir em uma luta de equipe."
+    ],
+    "against": [
+      "Interromper o carregamento de Zero Absoluto reduzirá a quantidade de dano que sua equipe recebe.",
+      "Usar o Flash é uma maneira bem segura de escapar do Zero Absoluto.",
+      "A Maior Bola de Neve de Todas move-se muito rapidamente, mas não faz curvas tão rápido assim, então não tente fugir dela em linha reta. Em vez disso, faça curvas fechadas e repentinas."
+    ]
+  }
+}

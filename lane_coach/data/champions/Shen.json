@@ -1,0 +1,89 @@
+{
+  "id": "Shen",
+  "name": "Shen",
+  "title": "o Olho do Crepúsculo",
+  "tags": [
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Shen.json",
+    "label": "Riot Data Dragon — Shen",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Shen.Q",
+      "ability": "Q",
+      "name": "Ataque Crepúsculo",
+      "description": "Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo. Os ataques são fortalecidos drasticamente caso ela colida com um Campeão inimigo. Todos os Campeões com quem ela colide têm a velocidade reduzida enquanto fogem de Shen."
+    },
+    {
+      "id": "Shen.W",
+      "ability": "W",
+      "name": "Refúgio Espiritual",
+      "description": "Ataques que atingiriam Shen ou seus aliados próximos à sua espada espiritual são bloqueados."
+    },
+    {
+      "id": "Shen.E",
+      "ability": "E",
+      "name": "Corrida das Sombras",
+      "description": "Shen avança em uma direção, provocando inimigos em seu trajeto."
+    },
+    {
+      "id": "Shen.R",
+      "ability": "R",
+      "name": "Manter a União",
+      "description": "Shen protege o Campeão-alvo aliado do dano recebido e, em seguida, teleporta-se para seu local."
+    },
+    {
+      "id": "Shen.P",
+      "ability": "P",
+      "name": "Barreira de Ki",
+      "description": "Após conjurar uma habilidade, Shen recebe um escudo. Afetar outros Campeões reduz o Tempo de Recarga desse efeito."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Ataque Crepúsculo: Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo. Os ataques são fortalecidos drasticamente caso ela colida com um Campeão inimigo. Todos os Campeões com quem ela colide têm a velocidade reduzida enquanto fogem de Shen.",
+      "Manter a União: Shen protege o Campeão-alvo aliado do dano recebido e, em seguida, teleporta-se para seu local."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Fique de olho em aliados e apronte-se para ajudá-los com seu teleporte.",
+      "Aproveite sua Energia para ter uma vantagem de longa duração sobre usuários de Mana."
+    ],
+    "against": [
+      "Prepare-se para desviar da provocação de Shen e o puna caso erre seu ataque.",
+      "Assim que Shen chega ao nível 6, tenha atenção em sua Ultimate de alcance global, a qual pode virar confrontos rapidamente."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "Kassadin",
+  "name": "Kassadin",
+  "title": "o Andarilho do Vazio",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kassadin.json",
+    "label": "Riot Data Dragon — Kassadin",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Kassadin.Q",
+      "ability": "Q",
+      "name": "Esfera Nula",
+      "description": "Kassadin dispara um orbe de energia do Vazio em um alvo, causando dano e interrompendo canalizações. A energia excedente toma forma ao seu redor, concedendo um escudo temporário que absorve Dano Mágico."
+    },
+    {
+      "id": "Kassadin.W",
+      "ability": "W",
+      "name": "Lâmina Ínfera",
+      "description": "Passivo: Os ataques básicos de Kassadin causam Dano Mágico adicional. Ativo: O próximo ataque básico de Kassadin causa Dano Mágico adicional significativo e restaura Mana."
+    },
+    {
+      "id": "Kassadin.E",
+      "ability": "E",
+      "name": "Força de Pulso",
+      "description": "Kassadin drena energia de habilidades conjuradas nas proximidades. Ao estar carregado, Kassadin pode usar Força de Pulso para causar dano e reduzir a velocidade de inimigos em uma área em cone à sua frente."
+    },
+    {
+      "id": "Kassadin.R",
+      "ability": "R",
+      "name": "Caminhar na Fenda",
+      "description": "Kassadin se teleporta para um local próximo, causando dano a unidades inimigas próximas. Múltiplas conjurações de Caminhar na Fenda em um curto período custam Mana adicional e também causam dano adicional."
+    },
+    {
+      "id": "Kassadin.P",
+      "ability": "P",
+      "name": "Pedra do Vazio",
+      "description": "Kassadin sofre Dano Mágico reduzido e ignora colisão com unidades."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Esfera Nula: Kassadin dispara um orbe de energia do Vazio em um alvo, causando dano e interrompendo canalizações. A energia excedente toma forma ao seu redor, concedendo um escudo temporário que absorve Dano Mágico.",
+      "Caminhar na Fenda: Kassadin se teleporta para um local próximo, causando dano a unidades inimigas próximas. Múltiplas conjurações de Caminhar na Fenda em um curto período custam Mana adicional e também causam dano adicional."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Kassadin pode usar diversas ''árvores'' de itens; ele pode se concentrar em conjuração com itens de Mana e Poder de Habilidade; ou se proteger contra isso com Resistência Mágica e Redução do Tempo de Recarga.",
+      "A habilidade Ultimate de Kassadin tem muitos usos e tem um Tempo de Recarga menor do que a da maioria das outras habilidades. Use-a frequentemente.",
+      "Tente pegar o efeito do Azuporã para balancear o custo crescente de Mana de Caminhar na Fenda."
+    ],
+    "against": [
+      "A maior parte do dano que Kassadin causa é mágico. Se ele estiver com bom desempenho, tente comprar itens de Resistência Mágica, como Passos de Mercúrio e Véu da Banshee.",
+      "Kassadin gasta mais Mana a cada vez consecutiva que usa Caminhar na Fenda. Tenha isso em mente quando o estiver perseguindo.",
+      "Ele precisa usar 6 habilidades para que Força de Pulso, sua habilidade de lentidão, fique disponível. Caso aumente o nível dessa habilidade, tenha cautela ao usar suas habilidades contra ele."
+    ]
+  }
+}

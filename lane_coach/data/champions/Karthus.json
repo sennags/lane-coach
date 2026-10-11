@@ -1,0 +1,89 @@
+{
+  "id": "Karthus",
+  "name": "Karthus",
+  "title": "a Voz Mortal",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Karthus.json",
+    "label": "Riot Data Dragon — Karthus",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Karthus.Q",
+      "ability": "Q",
+      "name": "Devastar",
+      "description": "Karthus desfere uma explosão em um local após um intervalo, causando dano a inimigos próximos. Causa mais dano a inimigos isolados."
+    },
+    {
+      "id": "Karthus.W",
+      "ability": "W",
+      "name": "Barreira da Dor",
+      "description": "Karthus cria uma barreira transponível de energia parasita. Qualquer unidade inimiga que atravessá-la tem sua Velocidade de Movimento e Resistência Mágica reduzidas por um período de tempo."
+    },
+    {
+      "id": "Karthus.E",
+      "ability": "E",
+      "name": "Perverter",
+      "description": "Karthus passivamente rouba energia de suas vítimas, recebendo Mana a cada abate. Ele também pode se cercar das almas de suas presas, causando dano a inimigos próximos, mas drenando rapidamente a própria Mana."
+    },
+    {
+      "id": "Karthus.R",
+      "ability": "R",
+      "name": "Réquiem",
+      "description": "Após canalizar por 3 segundos, Karthus causa dano a todos os Campeões inimigos."
+    },
+    {
+      "id": "Karthus.P",
+      "ability": "P",
+      "name": "Desafio da Morte",
+      "description": "Ao morrer, Karthus entra em forma de espírito e pode continuar conjurando habilidades."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Devastar: Karthus desfere uma explosão em um local após um intervalo, causando dano a inimigos próximos. Causa mais dano a inimigos isolados.",
+      "Réquiem: Após canalizar por 3 segundos, Karthus causa dano a todos os Campeões inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Peça à seus aliados para indicarem quando você deve usar o Réquiem para conseguir abates em diferentes rotas.",
+      "Devastar é muito forte para matar tropas e perturbar inimigos campeões."
+    ],
+    "against": [
+      "Karthus pode lançar feitiços por um curto período depois que ele for morto. Afaste-se de seu corpo para ficar a salvo.",
+      "Certifique-se de que você sempre tenha Vida suficiente para sobreviver ao Réquiem, mesmo se você tiver que voltar para a base mais frequentemente para curar."
+    ]
+  }
+}

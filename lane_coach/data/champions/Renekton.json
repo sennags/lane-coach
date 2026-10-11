@@ -1,0 +1,91 @@
+{
+  "id": "Renekton",
+  "name": "Renekton",
+  "title": "o Carniceiro das Areias",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Renekton.json",
+    "label": "Riot Data Dragon — Renekton",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Renekton.Q",
+      "ability": "Q",
+      "name": "Abater os Indefesos",
+      "description": "Renekton brande sua lâmina, causando Dano Físico moderado em todos os alvos ao seu redor e curando-o em uma pequena quantia do dano causado. Caso tenha mais que 50 pontos de Fúria, seu dano e cura aumentam."
+    },
+    {
+      "id": "Renekton.W",
+      "ability": "W",
+      "name": "Predador Desumano",
+      "description": "Renekton corta seu alvo duas vezes, causado Dano Físico moderado e atordoamento por 0,75s. Se Renekton tiver mais de 50 de Fúria, ele corta o inimigo três vezes, destruindo escudos de dano no alvo, causando Dano Físico alto e atordoando por 1,5s."
+    },
+    {
+      "id": "Renekton.E",
+      "ability": "E",
+      "name": "Fatiar e Picar",
+      "description": "Renekton avança, causando dano a unidades em seu caminho. Fortalecido, Renekton causa dano adicional e reduz a Armadura das unidades atingidas."
+    },
+    {
+      "id": "Renekton.R",
+      "ability": "R",
+      "name": "Dominus",
+      "description": "Renekton transforma-se em sua forma Tirana, recebendo Vida adicional e causando dano a inimigos ao seu redor. Enquanto estiver nessa forma, ele recebe Fúria periodicamente."
+    },
+    {
+      "id": "Renekton.P",
+      "ability": "P",
+      "name": "Domínio da Ira",
+      "description": "Os ataques de Renekton geram Fúria, que aumenta quando ele estiver com a Vida baixa. Essa Fúria pode fortalecer suas habilidades com efeitos adicionais."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Abater os Indefesos: Renekton brande sua lâmina, causando Dano Físico moderado em todos os alvos ao seu redor e curando-o em uma pequena quantia do dano causado. Caso tenha mais que 50 pontos de Fúria, seu dano e cura aumentam.",
+      "Dominus: Renekton transforma-se em sua forma Tirana, recebendo Vida adicional e causando dano a inimigos ao seu redor. Enquanto estiver nessa forma, ele recebe Fúria periodicamente."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Fatiar e Picar se sobressai entre as manobras de ataque. Fatie, prossiga com uma outra habilidade e então Pique voltando para a segurança.",
+      "Abater os Indefesos drena uma enorme quantidade de vida quando usado no meio da briga. Você pode usar isto para fazer os inimigos pensarem que você está mais fraco do que você realmente está.",
+      "A Redução do Tempo de Recarga é especialmente boa para Renekton, permitindo à ele tanto acumular rapidamente quanto usar sua Fúria."
+    ],
+    "against": [
+      "Preste bastante atenção para a barra de Fúria de Renekton visto que isto normalmente significa que ele está prestes a atacar.",
+      "Evite que Renekton possa lutar e ganhar Fúria por contínua perturbação e reduzirá severamente a eficácia de suas habilidades."
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "Viego",
+  "name": "Viego",
+  "title": "O Rei Destruído",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Viego.json",
+    "label": "Riot Data Dragon — Viego",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Viego.Q",
+      "ability": "Q",
+      "name": "Espada do Rei Destruído",
+      "description": "A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida. Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente."
+    },
+    {
+      "id": "Viego.W",
+      "ability": "W",
+      "name": "Posse Espectral",
+      "description": "Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido."
+    },
+    {
+      "id": "Viego.E",
+      "ability": "E",
+      "name": "Domínio Atormentado",
+      "description": "Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Ele pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque."
+    },
+    {
+      "id": "Viego.R",
+      "ability": "R",
+      "name": "Destruidor de Corações",
+      "description": "Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos."
+    },
+    {
+      "id": "Viego.P",
+      "ability": "P",
+      "name": "Dominação Monárquica",
+      "description": "Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Espada do Rei Destruído: A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida. Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente.",
+      "Destruidor de Corações: Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

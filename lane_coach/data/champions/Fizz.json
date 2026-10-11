@@ -1,0 +1,91 @@
+{
+  "id": "Fizz",
+  "name": "Fizz",
+  "title": "o Trapaceiro das Marés",
+  "tags": [
+    "Assassin",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Fizz.json",
+    "label": "Riot Data Dragon — Fizz",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Fizz.Q",
+      "ability": "Q",
+      "name": "Ataque do Ouriço",
+      "description": "Fizz avança em direção ao alvo, causando Dano Mágico e aplicando efeitos de contato."
+    },
+    {
+      "id": "Fizz.W",
+      "ability": "W",
+      "name": "Tridente da Pedra do Mar",
+      "description": "Os ataques de Fizz fazem seus inimigos sangrarem, causando Dano Mágico por vários segundos. Fizz pode fortalecer seu próximo ataque para causar dano adicional e fortalecer os seguintes por um curto período."
+    },
+    {
+      "id": "Fizz.E",
+      "ability": "E",
+      "name": "Brincalhão / Trapaceiro",
+      "description": "Fizz faz acrobacias no ar, aterrissando graciosamente sobre seu tridente e ficando inalvejável. Desta posição, ele pode tanto golpear o chão quanto pular novamente antes de cair de vez."
+    },
+    {
+      "id": "Fizz.R",
+      "ability": "R",
+      "name": "Lançar Isca",
+      "description": "Fizz arremessa um peixe em determinada direção, que se prende a qualquer Campeão que tocar, reduzindo a velocidade do alvo. Após um curto intervalo, um tubarão emerge do chão, lançando o alvo ao ar e empurrando outros inimigos para trás. Todos os inimigos atingidos recebem Dano Mágico e têm sua velocidade reduzida."
+    },
+    {
+      "id": "Fizz.P",
+      "ability": "P",
+      "name": "Lutador Ligeiro",
+      "description": "Fizz pode se mover através de unidades e sofre uma quantidade fixa de dano reduzido de todas as origens."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Ataque do Ouriço: Fizz avança em direção ao alvo, causando Dano Mágico e aplicando efeitos de contato.",
+      "Lançar Isca: Fizz arremessa um peixe em determinada direção, que se prende a qualquer Campeão que tocar, reduzindo a velocidade do alvo. Após um curto intervalo, um tubarão emerge do chão, lançando o alvo ao ar e empurrando outros inimigos para trás. Todos os inimigos atingidos recebem Dano Mágico e têm sua velocidade reduzida."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Uma vez que Fizz ignora colisão com unidades, encontre oportunidades na rota para andar entre as tropas e aplique o efeito passivo de Tridente da Pedra do Mar, dando sequência com ataque ativo da habilidade após alguns segundos.",
+      "A habilidade ultimate de Fizz, Lançar Isca, pode ser apontada para um inimigo ou área em que você acha que ele estará.",
+      "As habilidades de Fizz baseiam-se em Poder de Habilidade. Considere pegar itens como Ampulheta de Zhonya ou Véu da Banshee contra equipes com alto dano explosivo e itens como Perdição de Lich ou Capuz da Morte de Rabadon se acha que consegue aguentar a partida sem itens de Vida."
+    ],
+    "against": [
+      "Os ataques de Fizz se tornam extremamente mortíferos por alguns segundos depois que ele usa seu ataque fortalecido – mantenha-o longe enquanto seu tridente estiver brilhando!",
+      "Fizz é um alvo evasivo quando suas habilidades não estão em Tempo de Recarga – faça com que ele as use rapidamente e dê sequência com ataques de Controle de Grupo ou que causem bastante dano!"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "Velkoz",
+  "name": "Vel'Koz",
+  "title": "o Olho do Vazio",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Velkoz.json",
+    "label": "Riot Data Dragon — Vel'Koz",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Velkoz.Q",
+      "ability": "Q",
+      "name": "Fissão Plasmática",
+      "description": "Vel'Koz dispara um projétil de plasma que se divide em dois ao ser reativado ou ao atingir um inimigo. O projétil causa dano e redução de velocidade a inimigos ao contato."
+    },
+    {
+      "id": "Velkoz.W",
+      "ability": "W",
+      "name": "Fenda do Vazio",
+      "description": "Vel'Koz abre uma fenda ao Vazio que causa uma rajada inicial de dano, explodindo em seguida para causar mais dano após um breve intervalo."
+    },
+    {
+      "id": "Velkoz.E",
+      "ability": "E",
+      "name": "Ruptura Tectônica",
+      "description": "Vel'Koz faz com que uma área exploda, arremessando inimigos ao ar e afastando inimigos próximos."
+    },
+    {
+      "id": "Velkoz.R",
+      "ability": "R",
+      "name": "Raio Desintegrador de Formas de Vida",
+      "description": "Vel'Koz desfere um raio canalizado que segue o cursor por 2,5s, causando Dano Mágico. Desconstrução Orgânica pesquisa Campeões inimigos, fazendo com que recebam Dano Verdadeiro em vez de Dano Mágico."
+    },
+    {
+      "id": "Velkoz.P",
+      "ability": "P",
+      "name": "Desconstrução Orgânica",
+      "description": "As habilidades de Vel'Koz aplicam Desconstrução Orgânica nos inimigos ao contato. Ao chegar a 3 acúmulos, o inimigo receberá uma rajada de Dano Verdadeiro."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Fissão Plasmática: Vel'Koz dispara um projétil de plasma que se divide em dois ao ser reativado ou ao atingir um inimigo. O projétil causa dano e redução de velocidade a inimigos ao contato.",
+      "Raio Desintegrador de Formas de Vida: Vel'Koz desfere um raio canalizado que segue o cursor por 2,5s, causando Dano Mágico. Desconstrução Orgânica pesquisa Campeões inimigos, fazendo com que recebam Dano Verdadeiro em vez de Dano Mágico."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Na fase de rotas, use Fenda do Vazio para abater tropas enquanto adiciona acúmulos de Desconstrução Orgânica em seu oponente. Em seguida você pode continuar com suas outras habilidades.",
+      "Disparar Fissão Plasmática na diagonal e dividi-la no alcance máximo permite que você atinja oponentes que estejam fora do alcance do projétil inicial, mas é mais desafiante de se conseguir.",
+      "Decida com calma quando usar o Raio Desintegrador de Formas de Vida. Muitos campeões têm habilidades que podem interrompê-lo."
+    ],
+    "against": [
+      "Vel'Koz é muito perigoso se deixado sozinho em um confronto. Tente concentrar seus ataques nele logo no início.",
+      "Vel'Koz tem a mobilidade razoavelmente baixa e é vulnerável a emboscadas.",
+      "O Raio Desintegrador de Formas de Vida pode ser interrompido por atordoamentos, silenciamento e caso seja arremessado ao ar."
+    ]
+  }
+}

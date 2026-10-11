@@ -1,0 +1,92 @@
+{
+  "id": "Nami",
+  "name": "Nami",
+  "title": "a Conjuradora das Marés",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nami.json",
+    "label": "Riot Data Dragon — Nami",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Nami.Q",
+      "ability": "Q",
+      "name": "Prisão Aquática",
+      "description": "Lança uma bolha na área-alvo, causando dano e atordoando todos os inimigos ao impacto."
+    },
+    {
+      "id": "Nami.W",
+      "ability": "W",
+      "name": "Vazante e Fluxo",
+      "description": "Desfere um jato de água que salta entre Campeões aliados e inimigos, curando os aliados e causando dano aos inimigos."
+    },
+    {
+      "id": "Nami.E",
+      "ability": "E",
+      "name": "Bênção da Conjuradora",
+      "description": "Fortalece um Campeão aliado por uma curta duração. Os ataques básicos e habilidades do aliado causam Dano Mágico adicional e reduzem a velocidade do alvo."
+    },
+    {
+      "id": "Nami.R",
+      "ability": "R",
+      "name": "Maré Violenta",
+      "description": "Invoca uma grande Maré Violenta que arremessa ao ar, reduz a velocidade e causa dano aos inimigos atingidos. Aliados atingidos recebem o efeito dobrado de Maré Oscilante."
+    },
+    {
+      "id": "Nami.P",
+      "ability": "P",
+      "name": "Maré Oscilante",
+      "description": "Quando as Habilidades de Nami atingem Campeões aliados, eles recebem Velocidade de Movimento por um curto período."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Prisão Aquática: Lança uma bolha na área-alvo, causando dano e atordoando todos os inimigos ao impacto.",
+      "Maré Violenta: Invoca uma grande Maré Violenta que arremessa ao ar, reduz a velocidade e causa dano aos inimigos atingidos. Aliados atingidos recebem o efeito dobrado de Maré Oscilante."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Prisão Aquática tem um longo Tempo de Recarga. Certifique-se de usá-la no momento correto.",
+      "Usar Vazante e Fluxo durante um confronto com campeões inimigos ajudará a manter a batalha a seu favor.",
+      "O Ultimate de Nami pode ser muito útil para iniciar em inimigos distantes."
+    ],
+    "against": [
+      "Prisão Aquática é uma habilidade poderosa com longo Tempo de Recarga. Aproveite a situação caso Nami erre o seu uso.",
+      "Maré Violenta tem um alcance muito longo, mas desloca-se muito devagar. Preste atenção em quando ela estiver se aproximando para sair do caminho.",
+      "Evite lutar contra um oponente sob efeito da Bênção da Conjuradora. Sua duração é curta, então esperar acabar pode ser uma boa ideia."
+    ]
+  }
+}

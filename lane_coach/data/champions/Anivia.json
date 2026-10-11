@@ -1,0 +1,91 @@
+{
+  "id": "Anivia",
+  "name": "Anivia",
+  "title": "a Criofênix",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Anivia.json",
+    "label": "Riot Data Dragon — Anivia",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Anivia.Q",
+      "ability": "Q",
+      "name": "Lampejo Gelado",
+      "description": "Anivia junta suas asas e invoca uma esfera de gelo que voa em direção ao oponente, congelando e causando dano a qualquer um em seu caminho. Ao explodir, ela causa dano moderado em um raio, atordoando qualquer um dentro da área."
+    },
+    {
+      "id": "Anivia.W",
+      "ability": "W",
+      "name": "Cristalizar",
+      "description": "Anivia condensa a umidade do ar, transformando-a num muro impenetrável de gelo que bloqueia todo o movimento. O muro dura um curto período antes de derreter."
+    },
+    {
+      "id": "Anivia.E",
+      "ability": "E",
+      "name": "Congelamento",
+      "description": "Com um bater de asas, Anivia dispara uma rajada congelante de vento no alvo, causando dano. Se o alvo tiver sido atingido recentemente por Lampejo Gelado ou sofrido dano de uma Tempestade Glacial totalmente formada, o dano sofrido é dobrado."
+    },
+    {
+      "id": "Anivia.R",
+      "ability": "R",
+      "name": "Tempestade Glacial",
+      "description": "Anivia invoca uma chuva torrencial de gelo e granizo para causar dano aos inimigos e atrasar seu avanço."
+    },
+    {
+      "id": "Anivia.P",
+      "ability": "P",
+      "name": "Renascimento",
+      "description": "Ao receber dano letal, Anivia volta à forma de ovo e renasce com a Vida completa."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Lampejo Gelado: Anivia junta suas asas e invoca uma esfera de gelo que voa em direção ao oponente, congelando e causando dano a qualquer um em seu caminho. Ao explodir, ela causa dano moderado em um raio, atordoando qualquer um dentro da área.",
+      "Tempestade Glacial: Anivia invoca uma chuva torrencial de gelo e granizo para causar dano aos inimigos e atrasar seu avanço."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Usar Lampejo Gelado com Congelamento no momento certo pode levar a combinações devastadoras.",
+      "Anivia é extremamente dependente de Mana para a Tempestade Glacial. Tente conseguir itens com Mana ou ir atrás da Insígnia do Azuporã em Summoner's Rift.",
+      "Os campeões inimigos podem ter muita dificuldade para abater seu ovo no início da partida. Aproveite essa vantagem para jogar de maneira agressiva."
+    ],
+    "against": [
+      "Tente atacar Anivia em grupo quando ela estiver em sua rota. Com mais pessoas fica mais fácil assegurar que seu ovo morra.",
+      "Se você estiver jogando com um Campeão de ataque à distância, fique longe o suficiente de Anivia para poder se esquivar do Lampejo Gelado mais facilmente.",
+      "Tente lutar com Anivia nas rotas. Na selva ela pode bloquear os caminhos com níveis baixos de Cristalizar."
+    ]
+  }
+}

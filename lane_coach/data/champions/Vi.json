@@ -1,0 +1,92 @@
+{
+  "id": "Vi",
+  "name": "Vi",
+  "title": "a Defensora de Piltover",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vi.json",
+    "label": "Riot Data Dragon — Vi",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Vi.Q",
+      "ability": "Q",
+      "name": "Quebra-Cofres",
+      "description": "Vi carrega suas manoplas e desfere um soco capaz de quebrar cofres, empurrando-a para frente. Os inimigos que ela atingir são empurrados para trás e recebem um acúmulo de Pancada Certeira."
+    },
+    {
+      "id": "Vi.W",
+      "ability": "W",
+      "name": "Pancada Certeira",
+      "description": "Os socos de Vi quebram a Armadura de seu oponente, causando dano adicional e concedendo a ela Velocidade de Ataque."
+    },
+    {
+      "id": "Vi.E",
+      "ability": "E",
+      "name": "Força Implacável",
+      "description": "O próximo ataque de Vi atravessará seu alvo, causando dano aos inimigos atrás dele."
+    },
+    {
+      "id": "Vi.R",
+      "ability": "R",
+      "name": "Saque e Enterrada",
+      "description": "Vi persegue um inimigo em alta velocidade, empurrando para longe qualquer um em seu trajeto. Ao alcançar o alvo, ela o arremessa ao ar, salta atrás dele e o golpeia de volta ao chão."
+    },
+    {
+      "id": "Vi.P",
+      "ability": "P",
+      "name": "Blindagem",
+      "description": "Vi carrega um escudo ao longo do tempo que pode ser ativado ao atingir um inimigo com uma habilidade."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Quebra-Cofres: Vi carrega suas manoplas e desfere um soco capaz de quebrar cofres, empurrando-a para frente. Os inimigos que ela atingir são empurrados para trás e recebem um acúmulo de Pancada Certeira.",
+      "Saque e Enterrada: Vi persegue um inimigo em alta velocidade, empurrando para longe qualquer um em seu trajeto. Ao alcançar o alvo, ela o arremessa ao ar, salta atrás dele e o golpeia de volta ao chão."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Carregar Quebra-Cofres ao máximo causará o dobro de dano. É uma ótima habilidade para alcançar e liquidar inimigos que estiverem fugindo.",
+      "Força Implacável causa dano total a qualquer um que estiver no alcance da onda de choque. Use a habilidade em tropas na rota para atingir inimigos que as estiverem usando de escudo.",
+      "Saque e Enterrada é uma poderosa ferramenta de iniciação, mas cuidado para não se distanciar muito da sua equipe."
+    ],
+    "against": [
+      "O Quebra-Cofres totalmente carregado causa o dobro de dano. Se a vir começando a carregar, é melhor se afastar ou desviar do golpe.",
+      "Ela quebra sua Armadura e recebe Velocidade de Ataque caso consiga lhe atingir três vezes seguidas. Evite confrontos longos contra ela.",
+      "Guarde seus efeitos de deslocamento até que Vi termine de usar a Ult, pois sua Ult não pode ser parada."
+    ]
+  }
+}

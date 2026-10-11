@@ -1,0 +1,92 @@
+{
+  "id": "Tryndamere",
+  "name": "Tryndamere",
+  "title": "o Rei Bárbaro",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Tryndamere.json",
+    "label": "Riot Data Dragon — Tryndamere",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Tryndamere.Q",
+      "ability": "Q",
+      "name": "Sanguinário",
+      "description": "Tryndamere prospera com o calor do combate, aumentando seu próprio Dano de Ataque conforme for ficando mais e mais ferido. Ele pode conjurar Sanguinário para consumir sua Fúria e curar a si mesmo."
+    },
+    {
+      "id": "Tryndamere.W",
+      "ability": "W",
+      "name": "Grito Zombador",
+      "description": "Tryndamere solta um grito insultante, diminuindo o Dano de Ataque dos Campeões próximos. Inimigos que estiverem de costas para Tryndamere também têm sua Velocidade de Movimento reduzida."
+    },
+    {
+      "id": "Tryndamere.E",
+      "ability": "E",
+      "name": "Corte Giratório",
+      "description": "Tryndamere avança em direção a uma unidade-alvo, causando dano aos inimigos em seu trajeto."
+    },
+    {
+      "id": "Tryndamere.R",
+      "ability": "R",
+      "name": "Fúria Sem Fim",
+      "description": "O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja."
+    },
+    {
+      "id": "Tryndamere.P",
+      "ability": "P",
+      "name": "Fúria da Batalha",
+      "description": "Tryndamere recebe Fúria para cada ataque, acerto crítico e golpe fatal que realiza. A Fúria passivamente aumenta a sua Chance de Acerto Crítico e pode ser consumida com a habilidade Sanguinário."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Sanguinário: Tryndamere prospera com o calor do combate, aumentando seu próprio Dano de Ataque conforme for ficando mais e mais ferido. Ele pode conjurar Sanguinário para consumir sua Fúria e curar a si mesmo.",
+      "Fúria Sem Fim: O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Atrasar a ativação de Fúria Sem Fim é uma maneira muito eficaz de forçar um campeão a ir atrás de você para tentar matar.",
+      "Usar Sanguinário é uma maneira excelente de curar Tryndamere. Tente não deixar que o efeito acabe antes de ativá-lo.",
+      "Se o inimigo estiver acumulando Armadura, tente comprar itens tais como Último Sussurro ou Lâmina Fantasma de Youmuu."
+    ],
+    "against": [
+      "Tente provocar Tryndamere o quanto antes para que ele não possa matar tropas e se curar com Sanguinário.",
+      "Lembre-se, Tryndamere pode lhe causar Lentidão apenas se você estiver se afastando dele.",
+      "A maioria dos danos de Tryndamere são físicos. Se ele estiver ficando muito forte, considere comprar uma Armadura de Espinhos."
+    ]
+  }
+}

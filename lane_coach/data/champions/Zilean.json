@@ -1,0 +1,91 @@
+{
+  "id": "Zilean",
+  "name": "Zilean",
+  "title": "o Guardião do Tempo",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zilean.json",
+    "label": "Riot Data Dragon — Zilean",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Zilean.Q",
+      "ability": "Q",
+      "name": "Bomba-relógio",
+      "description": "Arremessa uma bomba no local-alvo, que gruda em unidades que se aproximarem (priorizando Campeões). Ela detona após 3 segundos, causando dano em área. Se uma Bomba-relógio for detonada antecipadamente por outra, o efeito também atordoa inimigos."
+    },
+    {
+      "id": "Zilean.W",
+      "ability": "W",
+      "name": "Retroceder",
+      "description": "Zilean pode se preparar para confrontos futuros, reduzindo o Tempo de Recarga de suas outras habilidades básicas."
+    },
+    {
+      "id": "Zilean.E",
+      "ability": "E",
+      "name": "Distorção no Tempo",
+      "description": "Zilean manipula o tempo ao redor de qualquer unidade, causando Lentidão a um inimigo ou concedendo Velocidade de Movimento a um aliado por um curto período."
+    },
+    {
+      "id": "Zilean.R",
+      "ability": "R",
+      "name": "Alteração Temporal",
+      "description": "Zilean coloca uma runa protetora do tempo em um Campeão aliado, teletransportando-o de volta no tempo se ele receber um dano letal."
+    },
+    {
+      "id": "Zilean.P",
+      "ability": "P",
+      "name": "Tempo Engarrafado",
+      "description": "Zilean armazena tempo como Experiência, podendo concedê-la aos aliados. Quando tiver Experiência o suficiente para completar o nível de um aliado, Zilean pode clicar com o botão direito nele para conceder os pontos. Zilean recebe a mesma quantidade de Experiência que concede."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Bomba-relógio: Arremessa uma bomba no local-alvo, que gruda em unidades que se aproximarem (priorizando Campeões). Ela detona após 3 segundos, causando dano em área. Se uma Bomba-relógio for detonada antecipadamente por outra, o efeito também atordoa inimigos.",
+      "Alteração Temporal: Zilean coloca uma runa protetora do tempo em um Campeão aliado, teletransportando-o de volta no tempo se ele receber um dano letal."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode combinar o uso de Bomba-relógio e Retroceder para posicionar duas Bombas-relógio rapidamente em um alvo. Posicionar a segunda bomba detonará a primeira e atordoará todos os inimigos próximos.",
+      "Distorção no Tempo é uma maneira eficaz de ajudar aliados a acabar com seus inimigos, ou escapar de uma batalha perdida.",
+      "Alteração Temporal é um impedimento poderoso a quem ataca seus aliados, mas conjurá-la cedo demais em um confronto pode fazer com que o inimigo troque de alvo antecipadamente, tornando seu efeito menos eficaz."
+    ],
+    "against": [
+      "Às vezes é bom, caso você consiga acompanhar a velocidade de Zilean, aguardar até que o efeito de seu Ultimate tenha acabado antes de dar o golpe final.",
+      "Zilean é frágil se a equipe toda se concentrar nele, mas é muito difícil de matar caso contrário. Combine com sua equipe para abatê-lo."
+    ]
+  }
+}

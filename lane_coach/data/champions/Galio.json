@@ -1,0 +1,92 @@
+{
+  "id": "Galio",
+  "name": "Galio",
+  "title": "o Colosso",
+  "tags": [
+    "Tank",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Galio.json",
+    "label": "Riot Data Dragon — Galio",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Galio.Q",
+      "ability": "Q",
+      "name": "Ventos de Guerra",
+      "description": "Galio dispara duas rajadas de vento que convergem em um grande tornado e causam dano ao longo do tempo."
+    },
+    {
+      "id": "Galio.W",
+      "ability": "W",
+      "name": "Escudo de Durand",
+      "description": "Galio carrega em postura defensiva, movendo-se lentamente. Ao soltar o carregamento, ele provocará e causará dano a inimigos próximos."
+    },
+    {
+      "id": "Galio.E",
+      "ability": "E",
+      "name": "Soco Justiceiro",
+      "description": "Galio dá um passo para trás e avança, arremessando ao ar o primeiro Campeão com que colidir."
+    },
+    {
+      "id": "Galio.R",
+      "ability": "R",
+      "name": "Entrada Heroica",
+      "description": "Galio marca a posição de um aliado como ponto de aterrissagem e concede um escudo mágico a todos os aliados na área. Após um intervalo, ele aterrissa no local, arremessando os inimigos próximos ao ar."
+    },
+    {
+      "id": "Galio.P",
+      "ability": "P",
+      "name": "Esmagada Colossal",
+      "description": "A cada poucos segundos, o próximo ataque básico de Galio causa Dano Mágico adicional em área."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Ventos de Guerra: Galio dispara duas rajadas de vento que convergem em um grande tornado e causam dano ao longo do tempo.",
+      "Entrada Heroica: Galio marca a posição de um aliado como ponto de aterrissagem e concede um escudo mágico a todos os aliados na área. Após um intervalo, ele aterrissa no local, arremessando os inimigos próximos ao ar."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "É possível soltar o Escudo de Durand mesmo sob efeitos de controle de grupo.",
+      "Dá para usar os ícones de aliados no minimapa para conjurar a Entrada Heroica.",
+      "O passo para trás de Soco da Justiça pode ser usado para desviar de habilidades inimigas."
+    ],
+    "against": [
+      "Galio move-se mais devagar enquanto carrega o Escudo de Durand.",
+      "Entrada Heroica pode ser interrompida antes que Galio faça o salto.",
+      "Galio não pode atravessar paredes com Soco da Justiça."
+    ]
+  }
+}

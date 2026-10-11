@@ -1,0 +1,92 @@
+{
+  "id": "Bard",
+  "name": "Bardo",
+  "title": "o Protetor Andarilho",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Bard.json",
+    "label": "Riot Data Dragon — Bardo",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Bard.Q",
+      "ability": "Q",
+      "name": "Prisão Cósmica",
+      "description": "Bardo dispara um projétil que causa Lentidão ao primeiro inimigo atingido, mantendo seu trajeto em seguida. Caso atinja uma parede, atordoará o alvo inicial; caso atinja outro inimigo, ambos serão atordoados."
+    },
+    {
+      "id": "Bard.W",
+      "ability": "W",
+      "name": "Santuário do Protetor",
+      "description": "Revela um santuário de Vida que fica mais forte ao longo de um curto período, desaparecendo depois de curar e acelerar o primeiro aliado que o tocar."
+    },
+    {
+      "id": "Bard.E",
+      "ability": "E",
+      "name": "Jornada Mágica",
+      "description": "Bardo abre um portal em terreno próximo. Tanto aliados quanto inimigos podem fazer uma viagem de ida através deste terreno ao entrar pelo portal."
+    },
+    {
+      "id": "Bard.R",
+      "ability": "R",
+      "name": "Têmpera do Destino",
+      "description": "Bardo desfere um arco de energia espiritual em um local-alvo, colocando todos os Campeões, tropas, monstros e torres atingidos em estase por um curto período de tempo."
+    },
+    {
+      "id": "Bard.P",
+      "ability": "P",
+      "name": "Chamado do Viajante",
+      "description": "Mipes: Bardo atrai pequenos espíritos que ajudam em seus ataques básicos e causam Dano Mágico adicional. Quando Bardo coleta sinos o suficiente, os mipes também causam dano em uma área e reduzem a velocidade de inimigos atingidos. Sinos: sinos ancestrais aparecem aleatoriamente para Bardo coletar. Eles concedem experiência, Velocidade de Movimento fora de combate e restauram Mana."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Prisão Cósmica: Bardo dispara um projétil que causa Lentidão ao primeiro inimigo atingido, mantendo seu trajeto em seguida. Caso atinja uma parede, atordoará o alvo inicial; caso atinja outro inimigo, ambos serão atordoados.",
+      "Têmpera do Destino: Bardo desfere um arco de energia espiritual em um local-alvo, colocando todos os Campeões, tropas, monstros e torres atingidos em estase por um curto período de tempo."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "É importante coletar sinos para aprimorar os ataques de seus mipes, mas não negligencie seu parceiro de rota! Tente fazer bonito ao trazer um aliado à sua rota com Jornada Mágica.",
+      "Deixe que os Santuários do Protetor acumulem carga - eles curam muito mais quando estão em força total.",
+      "Não se esqueça que os inimigos também podem usar os portais de sua Jornada Mágica e que sua Ultimate também pode atingi-los!"
+    ],
+    "against": [
+      "Os oponentes do Bardo também podem se deslocar através dos portais de Jornada Mágica. Você pode segui-lo, se achar que é seguro.",
+      "Você pode quebrar os santuários de cura do Bardo só de passar por cima deles. Não deixe que seus aliados os peguem sem uma boa luta.",
+      "A Ultimate do Bardo, Têmpera do Destino, afeta aliados, inimigos, monstros e torres. Às vezes pode ser vantajoso entrar nela!"
+    ]
+  }
+}

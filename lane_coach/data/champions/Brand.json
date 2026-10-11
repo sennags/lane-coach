@@ -1,0 +1,92 @@
+{
+  "id": "Brand",
+  "name": "Brand",
+  "title": "a Vingança Flamejante",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Brand.json",
+    "label": "Riot Data Dragon — Brand",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Brand.Q",
+      "ability": "Q",
+      "name": "Cauterizar",
+      "description": "Brand lança uma bola de fogo que causa Dano Mágico. Se o alvo estiver incandescente, Cauterizar o atordoará."
+    },
+    {
+      "id": "Brand.W",
+      "ability": "W",
+      "name": "Pilar de Chamas",
+      "description": "Após um curto intervalo, Brand cria um Pilar de Chamas na área alvo, causando Dano Mágico a unidades inimigas na área. Unidades que estiverem incandescentes sofrem 25% de dano adicional."
+    },
+    {
+      "id": "Brand.E",
+      "ability": "E",
+      "name": "Conflagração",
+      "description": "Brand conjura uma poderosa explosão no alvo que se espalha para inimigos próximos, causando Dano Mágico. Se o alvo estiver incandescente, o alcance de Conflagração será dobrado."
+    },
+    {
+      "id": "Brand.R",
+      "ability": "R",
+      "name": "Piroclasma",
+      "description": "Brand desfere uma devastadora torrente de fogo que ressalta 5 vezes, indo de Brand aos inimigos próximos e causando Dano Mágico a cada vez que ressaltar. Os ressaltos priorizam acumular Labareda ao máximo em Campeões. Se o alvo estiver incandescente, Piroclasma causará breve Lentidão a ele."
+    },
+    {
+      "id": "Brand.P",
+      "ability": "P",
+      "name": "Labareda",
+      "description": "As habilidades de Brand deixam seus alvos incandescentes, causando dano ao longo de 4s, acumulando até 3 vezes. Se Brand abate um inimigo que estiver incandescente, ele recupera Mana. Quando Labareda chegar ao máximo de acúmulos em um Campeão ou monstro grande, ela se torna instável. Detona depois de 2s, aplicando efeitos de habilidades e causando muito dano em uma área ao redor da vítima."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Cauterizar: Brand lança uma bola de fogo que causa Dano Mágico. Se o alvo estiver incandescente, Cauterizar o atordoará.",
+      "Piroclasma: Brand desfere uma devastadora torrente de fogo que ressalta 5 vezes, indo de Brand aos inimigos próximos e causando Dano Mágico a cada vez que ressaltar. Os ressaltos priorizam acumular Labareda ao máximo em Campeões. Se o alvo estiver incandescente, Piroclasma causará breve Lentidão a ele."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode dissuadir os inimigos de ficarem próximos de suas tropas incediando-as, devido à Conflagração.",
+      "Você pode usar as habilidades de Brand em uma variedade de combinações para maximizar seu dano em diferentes situações.",
+      "Piroclasma ricocheteia aleatoriamente entre os inimigos, então tente lançá-la em um grupo de inimigos se você quiser acertar o mesmo alvo múltiplas vezes."
+    ],
+    "against": [
+      "Brand precisa acertar uma habilidade para que seu combo possa ser iniciado. Desviar de seu Cauterizar ou Pilar de Chamas quebrará o seu ritmo.",
+      "Tente afastar-se de seus aliados quando vir que Piroclasma foi conjurado. A velocidade inicial do projétil é baixa, o que deve dar à sua equipe tempo para reagir.",
+      "A passiva de Brand lhe dá desempenho excelente contra equipes que ficam muito unidas. Separem-se para enfrentá-lo."
+    ]
+  }
+}

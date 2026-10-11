@@ -1,0 +1,152 @@
+{
+  "Fighter": {
+    "label": "Lutador",
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    }
+  },
+  "Assassin": {
+    "label": "Assassino",
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    }
+  },
+  "Mage": {
+    "label": "Mago",
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    }
+  },
+  "Marksman": {
+    "label": "Atirador",
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    }
+  },
+  "Tank": {
+    "label": "Tanque",
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    }
+  },
+  "Support": {
+    "label": "Suporte",
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    }
+  }
+}

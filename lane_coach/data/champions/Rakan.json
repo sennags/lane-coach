@@ -1,0 +1,91 @@
+{
+  "id": "Rakan",
+  "name": "Rakan",
+  "title": "O Charmoso",
+  "tags": [
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rakan.json",
+    "label": "Riot Data Dragon — Rakan",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Rakan.Q",
+      "ability": "Q",
+      "name": "Pena Reluzente",
+      "description": "Lança uma pluma mágica que causa Dano Mágico. Ao atingir um Campeão ou um monstro épico, Rakan pode curar seus aliados."
+    },
+    {
+      "id": "Rakan.W",
+      "ability": "W",
+      "name": "Entrada Triunfal",
+      "description": "Avança para um local e, ao chegar, arremessa os inimigos próximos ao ar."
+    },
+    {
+      "id": "Rakan.E",
+      "ability": "E",
+      "name": "Dança da Batalha",
+      "description": "Voa até um aliado e concede um escudo a ele. Pode ser conjurada novamente sem custo por um breve período."
+    },
+    {
+      "id": "Rakan.R",
+      "ability": "R",
+      "name": "Rapidez",
+      "description": "Recebe Velocidade de Movimento, encantando e causando Dano Mágico ao tocar nos inimigos."
+    },
+    {
+      "id": "Rakan.P",
+      "ability": "P",
+      "name": "Plumas Mágicas",
+      "description": "Rakan recebe um escudo periodicamente."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Pena Reluzente: Lança uma pluma mágica que causa Dano Mágico. Ao atingir um Campeão ou um monstro épico, Rakan pode curar seus aliados.",
+      "Rapidez: Recebe Velocidade de Movimento, encantando e causando Dano Mágico ao tocar nos inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Rakan precisa que os aliados estejam perto dele para aproveitar ao máximo suas habilidades.",
+      "A velocidade dos avanços de Rakan aumenta com sua Velocidade de Movimento. Use a velocidade adicional para surpreender seus inimigos!",
+      "O perigo pode ser divertido, se você deixar."
+    ],
+    "against": [
+      "As habilidades de movimento de Rakan determinam a sua direção. Tente se aproveitar disso.",
+      "Campeões que aplicam rapidamente Controles de Grupo são bons contra Rakan.",
+      "Quando Rakan está sem aliados por perto, sua mobilidade fica muito prejudicada. Tente pegá-lo quando ele estiver sozinho."
+    ]
+  }
+}

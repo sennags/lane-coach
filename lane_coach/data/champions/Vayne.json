@@ -1,0 +1,91 @@
+{
+  "id": "Vayne",
+  "name": "Vayne",
+  "title": "a Caçadora Noturna",
+  "tags": [
+    "Marksman",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vayne.json",
+    "label": "Riot Data Dragon — Vayne",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Vayne.Q",
+      "ability": "Q",
+      "name": "Rolamento",
+      "description": "Vayne dá uma cambalhota, equilibrando-se para efetuar seu próximo disparo. Seu próximo ataque causará dano adicional."
+    },
+    {
+      "id": "Vayne.W",
+      "ability": "W",
+      "name": "Dardos de Prata",
+      "description": "Vayne aprimora suas flechas com um metal raro, tóxico a qualquer coisa maligna. A cada terceiro ataque consecutivo ou habilidade contra o mesmo alvo causa um percentual da Vida máxima do alvo como Dano Verdadeiro adicional."
+    },
+    {
+      "id": "Vayne.E",
+      "ability": "E",
+      "name": "Condenar",
+      "description": "Vayne puxa uma pesada besta de suas costas e dispara um gigantesco projétil em seu alvo, arremessando-o para trás e causando dano. Caso colida com terreno, ele fica empalado, o que lhe causa dano adicional e atordoamento."
+    },
+    {
+      "id": "Vayne.R",
+      "ability": "R",
+      "name": "Hora Final",
+      "description": "Preparando-se para um confronto épico, Vayne recebe Dano de Ataque aumentado, invisibilidade durante o Rolamento, Tempo de Recarga do Rolamento reduzido e mais Velocidade de Movimento adicional de Caçadora Noturna"
+    },
+    {
+      "id": "Vayne.P",
+      "ability": "P",
+      "name": "Caçadora Noturna",
+      "description": "Vayne caça implacavelmente os malfeitores, ganhando Velocidade de Movimento ao se deslocar em direção a Campeões inimigos próximos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Rolamento: Vayne dá uma cambalhota, equilibrando-se para efetuar seu próximo disparo. Seu próximo ataque causará dano adicional.",
+      "Hora Final: Preparando-se para um confronto épico, Vayne recebe Dano de Ataque aumentado, invisibilidade durante o Rolamento, Tempo de Recarga do Rolamento reduzido e mais Velocidade de Movimento adicional de Caçadora Noturna"
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "O Rolamento tem muitos usos, mas ela não pode passar pelas paredes.",
+      "Condenar pode ser usada tanto para prender alvos nas paredes quanto para garantir um abate, ou escapar de um perseguidor.",
+      "Não entre de primeira em uma luta de equipe grande. Espere seus companheiros de equipe iniciarem."
+    ],
+    "against": [
+      "Vayne é frágil - coloque pressão nela para que ela seja forçada a jogar com mais cautela.",
+      "Impeça que Vayne aproveite a oportunidade de lhe prender a paredes."
+    ]
+  }
+}

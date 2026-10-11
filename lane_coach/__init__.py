@@ -49,8 +49,8 @@ def create_app(test_config=None):
             return page(message='Escolha campeões disponíveis na lista.', status=400)
         if own == enemy:
             return page(message='Escolha dois campeões diferentes para este confronto.', status=400)
-        if lane != 'mid':
-            return page(message='Esta primeira versão cobre apenas a rota do meio.', status=400)
+        if lane not in ('mid', 'general'):
+            return page(message='Use a consulta de perfis gerais de campeões.', status=400)
         return page(guide=knowledge.guide(own, enemy, lane))
 
     @app.get('/healthz')

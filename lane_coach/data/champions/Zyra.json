@@ -1,0 +1,94 @@
+{
+  "id": "Zyra",
+  "name": "Zyra",
+  "title": "a Ascensão dos Espinhos",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zyra.json",
+    "label": "Riot Data Dragon — Zyra",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Zyra.Q",
+      "ability": "Q",
+      "name": "Farpas Mortais",
+      "description": "Vinhas espessas se espalham pelo chão e explodem em farpas, causando Dano Mágico a inimigos dentro da área. Se conjurada perto de uma semente, Farpas Mortais faz surgir uma planta Cospe-Espinhos, que dispara contra inimigos distantes."
+    },
+    {
+      "id": "Zyra.W",
+      "ability": "W",
+      "name": "Crescimento Desenfreado",
+      "description": "Zyra planta uma semente com duração de 60s. Conjurar Farpas Mortais e Pântano das Raízes perto das sementes fará surgir plantas que lutam por Zyra. Zyra pode armazenar várias sementes ao mesmo tempo, e abater inimigos reduz o tempo de recarga de Crescimento Desenfreado."
+    },
+    {
+      "id": "Zyra.E",
+      "ability": "E",
+      "name": "Pântano das Raízes",
+      "description": "Zyra lança vinhas pelo chão para prenderem seu alvo, causando dano e enraizando inimigos atingidos. Se conjurada próxima a uma semente, Pântano das Raízes faz surgir Vinhas Ásperas com ataques de curta distância que reduzem a Velocidade de Movimento do inimigo."
+    },
+    {
+      "id": "Zyra.R",
+      "ability": "R",
+      "name": "Espinhos Sufocantes",
+      "description": "Zyra invoca raízes retorcidas no local-alvo, causando dano a inimigos conforme elas se expandem e arremessando-os ao ar quando se contraem. Plantas ao alcance das raízes ficam enfurecidas."
+    },
+    {
+      "id": "Zyra.P",
+      "ability": "P",
+      "name": "Jardim de Espinhos",
+      "description": "Sementes surgem periodicamente ao redor de Zyra, mais rapidamente dependendo do nível. Zyra pode conjurar Farpas Mortais ou Pântano das Raízes próximo a sementes para fazer surgir plantas que lutarão por ela."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Farpas Mortais: Vinhas espessas se espalham pelo chão e explodem em farpas, causando Dano Mágico a inimigos dentro da área. Se conjurada perto de uma semente, Farpas Mortais faz surgir uma planta Cospe-Espinhos, que dispara contra inimigos distantes.",
+      "Espinhos Sufocantes: Zyra invoca raízes retorcidas no local-alvo, causando dano a inimigos conforme elas se expandem e arremessando-os ao ar quando se contraem. Plantas ao alcance das raízes ficam enfurecidas."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Posicionar uma semente no trajeto de sua habilidade após ter feito a conjuração lhe dá uma chance melhor de posicioná-la no local correto.",
+      "Sementes concedem visão à sua equipe.",
+      "Zyra é ótima para emboscadas - tente fazer armadilhas de sementes em um arbusto e, em seguida, atraia seus inimigos para dentro dele."
+    ],
+    "against": [
+      "As sementes de Zyra podem ser destruídas ao serem pisadas. Caso ela tente fazer com que cresçam enquanto você estiver as destruindo, recue o mais rapidamente possível.",
+      "Mover-se próximo a Zyra pode ser uma boa opção caso ela posicione suas plantas muito longe de si mesma.",
+      "As plantas recebem dano fixo de ataques e habilidades, assim como sentinelas. Elas também expiram rapidamente por conta própria.",
+      "Reposicionar a luta para uma área diferente evitará que Zyra acumule sementes.",
+      "Sementes posicionadas pelo W de Zyra são maiores, têm cor diferente e concedem uma pequena área de visão à equipe dela."
+    ]
+  }
+}

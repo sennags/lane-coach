@@ -1,0 +1,93 @@
+{
+  "id": "Leblanc",
+  "name": "LeBlanc",
+  "title": "a Farsante",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Leblanc.json",
+    "label": "Riot Data Dragon — LeBlanc",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Leblanc.Q",
+      "ability": "Q",
+      "name": "Sigilo de Malícia",
+      "description": "LeBlanc projeta um Sigilo, causando dano e marcando o alvo por 3,5s. Causar dano ao alvo marcado com qualquer Habilidade detona o Sigilo, causando dano adicional. Se qualquer parte dessa combinação abater o alvo, LeBlanc restitui o custo de Mana e parte do Tempo de Recarga restante desta Habilidade."
+    },
+    {
+      "id": "Leblanc.W",
+      "ability": "W",
+      "name": "Distorção",
+      "description": "LeBlanc avança até um local, causando dano aos inimigos próximos de seu destino. Pelos próximos 4s, ativar Distorção novamente faz com que LeBlanc retorne até sua posição inicial."
+    },
+    {
+      "id": "Leblanc.E",
+      "ability": "E",
+      "name": "Correntes Etéreas",
+      "description": "LeBlanc lança uma corrente que prende a primeira unidade atingida. Se o alvo permanecer preso por 1,5s, ele é enraizado e sofre dano adicional."
+    },
+    {
+      "id": "Leblanc.R",
+      "ability": "R",
+      "name": "Mímica",
+      "description": "Leblanc conjura uma versão copiada de uma de suas habilidades."
+    },
+    {
+      "id": "Leblanc.P",
+      "ability": "P",
+      "name": "Imagem-Espelho",
+      "description": "Quando a Vida de LeBlanc está abaixo de 40%, ela fica invisível por 1s e cria uma Imagem-Espelho que não causa dano e dura até 8s."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Sigilo de Malícia: LeBlanc projeta um Sigilo, causando dano e marcando o alvo por 3,5s. Causar dano ao alvo marcado com qualquer Habilidade detona o Sigilo, causando dano adicional. Se qualquer parte dessa combinação abater o alvo, LeBlanc restitui o custo de Mana e parte do Tempo de Recarga restante desta Habilidade.",
+      "Mímica: Leblanc conjura uma versão copiada de uma de suas habilidades."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Distorção permite que você seja agressivo(a) com suas outras habilidades ao mesmo tempo em que mantém-se em segurança.",
+      "Usar Distorção pode ajudar no posicionamento para acertar Correntes Etéreas.",
+      "Você pode emendar Sigilo de Malícia e Correntes Etéreas para impedir que campeões escapem por até 4 segundos."
+    ],
+    "against": [
+      "A ultimate de LeBlanc pode criar a LeBlanc falsa durante a conjuração de uma habilidade ou, raramente, em uma posição distante.",
+      "A LeBlanc falsa criada à distância sempre correrá na direção do Campeão mais próximo, conjurará uma habilidade inofensiva e desaparecerá imediatamente.",
+      "Atacar a LeBlanc evita a maioria de seus truques, especialmente se ela usou sua investida, Distorção, recentemente.",
+      "Atordoar ou silenciar LeBlanc impedirá que ela ative a parte de retorno de Distorção."
+    ]
+  }
+}

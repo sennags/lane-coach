@@ -1,0 +1,90 @@
+{
+  "id": "Caitlyn",
+  "name": "Caitlyn",
+  "title": "a Xerife de Piltover",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Caitlyn.json",
+    "label": "Riot Data Dragon — Caitlyn",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Caitlyn.Q",
+      "ability": "Q",
+      "name": "Pacificadora de Piltover",
+      "description": "Caitlyn prepara seu rifle por 1s para fazer um disparo penetrante que causa Dano Físico (causa menos dano a alvos subsequentes)."
+    },
+    {
+      "id": "Caitlyn.W",
+      "ability": "W",
+      "name": "Armadilha Mecânica Yordle",
+      "description": "Caitlyn posiciona uma armadilha que, quando ativada, revela e imobiliza o Campeão inimigo por 1,5s e concede a Caitlyn um Bem na Mira fortalecido."
+    },
+    {
+      "id": "Caitlyn.E",
+      "ability": "E",
+      "name": "Rede Calibre 90",
+      "description": "Caitlyn atira uma rede pesada para reduzir a velocidade do seu alvo. O recuo projeta Caitlyn para trás."
+    },
+    {
+      "id": "Caitlyn.R",
+      "ability": "R",
+      "name": "Ás na Manga",
+      "description": "Caitlyn se concentra para fazer o disparo perfeito, causando dano drástico em um único alvo a uma longa distância. Campeões inimigos podem interceptar o projétil e tomar dano no lugar de seu aliado."
+    },
+    {
+      "id": "Caitlyn.P",
+      "ability": "P",
+      "name": "Bem na Mira",
+      "description": "A cada poucos ataques básicos, ou contra um alvo preso em uma armadilha ou rede, Caitlyn fará um disparo Bem na Mira causando dano adicional que escala com sua Chance de Acerto Crítico. Em alvos presos por armadilhas ou pela rede, o alcance de Bem na Mira de Caitlyn é dobrado."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Pacificadora de Piltover: Caitlyn prepara seu rifle por 1s para fazer um disparo penetrante que causa Dano Físico (causa menos dano a alvos subsequentes).",
+      "Ás na Manga: Caitlyn se concentra para fazer o disparo perfeito, causando dano drástico em um único alvo a uma longa distância. Campeões inimigos podem interceptar o projétil e tomar dano no lugar de seu aliado."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Faça uso da Armadilha Mecânica Yordle colocando-as preventivamente para assegurar que você terá uma sem recarga durante o combate.",
+      "Evite usar Ás na Manga em grandes lutas corpo a corpo entre equipes uma vez que isto poderia ser bloqueado pelo alvo errado.",
+      "Dispare Rede Calibre 90 na direção oposta à do oponente para reduzir a distância ou atravessar paredes."
+    ],
+    "against": [
+      "Mantenha-se atrás de tropas aliadas se Caitlyn estiver lhe atacando com a Pacificadora de Piltover, que causa menos dano a cada alvo subsequente.",
+      "Você pode interceptar o projétil do Ás na Manga para não acertar um aliado, se você se colocar em seu caminho."
+    ]
+  }
+}

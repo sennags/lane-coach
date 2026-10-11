@@ -1,0 +1,84 @@
+{
+  "id": "Volibear",
+  "name": "Volibear",
+  "title": "a Tempestade Implacável",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Volibear.json",
+    "label": "Riot Data Dragon — Volibear",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Volibear.Q",
+      "ability": "Q",
+      "name": "Esmagamento Trovejante",
+      "description": "Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar."
+    },
+    {
+      "id": "Volibear.W",
+      "ability": "W",
+      "name": "Fúria Selvagem",
+      "description": "Volibear causa dano a um inimigo, marcando-o e aplicando efeitos ao contato. Conjurar a habilidade novamente no mesmo alvo causa dano adicional e cura Volibear."
+    },
+    {
+      "id": "Volibear.E",
+      "ability": "E",
+      "name": "Divisor de Céus",
+      "description": "Volibear invoca um relâmpago em um local, causando dano e Lentidão aos inimigos. Ele também ganhará um Escudo se estiver no raio da explosão."
+    },
+    {
+      "id": "Volibear.R",
+      "ability": "R",
+      "name": "Emissário da Tempestade",
+      "description": "Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional. Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas."
+    },
+    {
+      "id": "Volibear.P",
+      "ability": "P",
+      "name": "A Tempestade Implacável",
+      "description": "Os Ataques e habilidades de Volibear concedem Velocidade de Ataque e, às vezes, fazem com que seus Ataques causem Dano Mágico adicional a inimigos próximos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Esmagamento Trovejante: Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar.",
+      "Emissário da Tempestade: Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional. Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

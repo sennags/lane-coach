@@ -1,0 +1,90 @@
+{
+  "id": "XinZhao",
+  "name": "Xin Zhao",
+  "title": "o Senescal de Demacia",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/XinZhao.json",
+    "label": "Riot Data Dragon — Xin Zhao",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "XinZhao.Q",
+      "ability": "Q",
+      "name": "Golpe de Três Garras",
+      "description": "O próximos 3 ataques normais de Xin Zhao causam mais dano. O último arremessa o oponente ao ar."
+    },
+    {
+      "id": "XinZhao.W",
+      "ability": "W",
+      "name": "Vento Vira Relâmpago",
+      "description": "Xin Zhao golpeia à frente com a lança, causando Lentidão e marcando os inimigos atingidos como Desafiados."
+    },
+    {
+      "id": "XinZhao.E",
+      "ability": "E",
+      "name": "Investida Audaciosa",
+      "description": "Xin Zhao avança na direção de um inimigo, ganhando Velocidade de Ataque e causando dano e Lentidão a todos os inimigos na área temporariamente. Esta Habilidade recebe alcance aumentado contra alvos Desafiados."
+    },
+    {
+      "id": "XinZhao.R",
+      "ability": "R",
+      "name": "Guarda Crescente",
+      "description": "Xin Zhao desafia passivamente um inimigo a quem tenha causado dano recentemente. Ao ativar, ele causa dano a inimigos próximos com base na Vida atual deles e Arremessa alvos não Desafiados para trás, tornando-se imune a qualquer dano causado por Campeões fora do círculo criado."
+    },
+    {
+      "id": "XinZhao.P",
+      "ability": "P",
+      "name": "Determinação",
+      "description": "Cada terceiro ataque básico causa dano adicional e cura Xin Zhao."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Golpe de Três Garras: O próximos 3 ataques normais de Xin Zhao causam mais dano. O último arremessa o oponente ao ar.",
+      "Guarda Crescente: Xin Zhao desafia passivamente um inimigo a quem tenha causado dano recentemente. Ao ativar, ele causa dano a inimigos próximos com base na Vida atual deles e Arremessa alvos não Desafiados para trás, tornando-se imune a qualquer dano causado por Campeões fora do círculo criado."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Xin Zhao é um grande iniciador de combates. Lidere o fronte para começar uma luta e use sua ultimate para causar o máximo de dano possível.",
+      "Tente se posicionar de maneira que o empurrão de sua ultimate tenha o máximo de eficiência."
+    ],
+    "against": [
+      "Xin Zhao é um poderoso iniciador de combates, já que sua investida e sua habilidade Ultimate causam dano em todas as unidades ao seu redor. Tente manter sua equipe espalhada até que ele tenha usado sua habilidade Ultimate.",
+      "Xin Zhao depende muito de seu ''Golpe de Três Garras'' para causar dano e zerar seus Tempos de Recarga, portanto impedi-lo de finalizar seu combo terá um efeito dramático."
+    ]
+  }
+}

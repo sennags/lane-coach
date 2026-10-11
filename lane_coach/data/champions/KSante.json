@@ -1,0 +1,92 @@
+{
+  "id": "KSante",
+  "name": "K'Sante",
+  "title": "o Orgulho de Nazumah.",
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/KSante.json",
+    "label": "Riot Data Dragon — K'Sante",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "KSante.Q",
+      "ability": "Q",
+      "name": "Golpes de Ntofo",
+      "description": "K'Sante executa um golpe, causando dano e Lentidão aos inimigos em uma linha curta à frente. Ao contato, concede um acúmulo de Golpes de Ntofo. Com 2 acúmulos, ele dispara uma onda de choque que puxa os inimigos. Na Forma Irrestrita, o Tempo de Recarga é reduzido."
+    },
+    {
+      "id": "KSante.W",
+      "ability": "W",
+      "name": "Criador de Caminhos",
+      "description": "K'Sante carrega, sofrendo dano reduzido, e depois avança, empurrando e atordoando os inimigos. Na Forma Irrestrita, causa dano aumentado e não empurra nem atordoa mais."
+    },
+    {
+      "id": "KSante.E",
+      "ability": "E",
+      "name": "Passo Forte",
+      "description": "K'Sante avança e recebe um Escudo. Se o alvo for um aliado, K'Sante avança até o aliado com alcance aumentado e os dois recebem Escudo. Quando na Forma Irrestrita, o Tempo de Recarga é reduzido e a velocidade é aumentada."
+    },
+    {
+      "id": "KSante.R",
+      "ability": "R",
+      "name": "Forma Irrestrita",
+      "description": "K'Sante empurra um inimigo, fazendo-o atravessar qualquer parede no caminho. Depois, K'Sante assume a Forma Irrestrita e avança em direção ao inimigo, recebendo aumento de dano, cura e habilidades transformadas ao custo da redução das defesas."
+    },
+    {
+      "id": "KSante.P",
+      "ability": "P",
+      "name": "Instinto Valente",
+      "description": "As habilidades de K'Sante marcam os alvos para que sofram mais dano do próximo ataque dele. Na Forma Irrestrita, K'Sante causa mais dano com todos os ataques e habilidades."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Golpes de Ntofo: K'Sante executa um golpe, causando dano e Lentidão aos inimigos em uma linha curta à frente. Ao contato, concede um acúmulo de Golpes de Ntofo. Com 2 acúmulos, ele dispara uma onda de choque que puxa os inimigos. Na Forma Irrestrita, o Tempo de Recarga é reduzido.",
+      "Forma Irrestrita: K'Sante empurra um inimigo, fazendo-o atravessar qualquer parede no caminho. Depois, K'Sante assume a Forma Irrestrita e avança em direção ao inimigo, recebendo aumento de dano, cura e habilidades transformadas ao custo da redução das defesas."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use Onda Sônica antes de Fúria do Dragão para perseguir o alvo com Ataque Ressonante.",
+      "Aproveite Agitação alternando ataques básicos entre conjurações. Com isso, é possível maximizar o potencial de dano e minimizar o consumo de Energia.",
+      "Conjurar Proteger em si mesmo e usar Vontade de Ferro é uma ótima forma de abater monstros neutros (na selva)."
+    ],
+    "against": [
+      "Permaneça com a equipe espalhada para minimizar o impacto da ultimate de Lee Sin, Fúria do Dragão.",
+      "Lee Sin tem ferramentas poderosas para combater Dano Físico com Vontade de Ferro e Mutilar, mas ainda assim é vulnerável a Dano Mágico.",
+      "Lee Sin depende muito de sua sequência de Habilidades. Use efeitos debilitantes para evitar que ele combine ataques e Habilidades."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "Morgana",
+  "name": "Morgana",
+  "title": "a Caída",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Morgana.json",
+    "label": "Riot Data Dragon — Morgana",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Morgana.Q",
+      "ability": "Q",
+      "name": "Ligação das Trevas",
+      "description": "Morgana prende um inimigo no lugar com magia sombria, forçando-o a sentir a dor que provocou e causando Dano Mágico."
+    },
+    {
+      "id": "Morgana.W",
+      "ability": "W",
+      "name": "Sombra Atormentada",
+      "description": "Morgana conjura uma sombra amaldiçoada em uma área, causando dano aos inimigos que ousarem permanecer em seu círculo sombrio. Eles sofrem Dano Mágico ao longo do tempo, que aumenta quanto mais suas Vidas estiverem baixas."
+    },
+    {
+      "id": "Morgana.E",
+      "ability": "E",
+      "name": "Escudo Negro",
+      "description": "Morgana abençoa um aliado com uma barreira protetora de fogo estelar que absorve Dano Mágico e efeitos de desarme até que quebre."
+    },
+    {
+      "id": "Morgana.R",
+      "ability": "R",
+      "name": "Grilhões da Alma",
+      "description": "Morgana libera a força total de seu poder celestial conforme desprende suas asas e flutua acima do chão. Ela lança correntes de dor sombria nos Campeões inimigos próximos, ganhando Velocidade de Movimento. As correntes causam Lentidão e um dano inicial. Depois de um intervalo, atordoam quem não conseguir quebrá-las."
+    },
+    {
+      "id": "Morgana.P",
+      "ability": "P",
+      "name": "Sifão da Alma",
+      "description": "Morgana drena o espírito dos inimigos, curando-se conforme causa dano a Campeões, tropas grandes e monstros médios e grandes da selva."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Ligação das Trevas: Morgana prende um inimigo no lugar com magia sombria, forçando-o a sentir a dor que provocou e causando Dano Mágico.",
+      "Grilhões da Alma: Morgana libera a força total de seu poder celestial conforme desprende suas asas e flutua acima do chão. Ela lança correntes de dor sombria nos Campeões inimigos próximos, ganhando Velocidade de Movimento. As correntes causam Lentidão e um dano inicial. Depois de um intervalo, atordoam quem não conseguir quebrá-las."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "O uso inteligente de Escudo Negro pode determinar o resultado de confrontos de equipe.",
+      "Itens que proporcionam potencial de sobrevivência permitem que Morgana se torne extremamente difícil de abater quando combinados com Escudo Negro e Grilhões da Alma.",
+      "Solo Atormentado é uma excelente ferramenta de coleta de tropas caso Morgana esteja sozinha em sua rota."
+    ],
+    "against": [
+      "Sombra Atormentada causa toneladas de dano a unidades com muita Vida perdida. Quando estiver com pouca Vida, cuidado com as tentativas de Morgana de aprisionar você.",
+      "Morgana frequentemente precisa acertar sua Ligação das Trevas para preparar seus outros ataques. Use as tropas como escudo para evitar a habilidade.",
+      "Escudo Negro torna Morgana imune a efeitos de desarme, mas pode ser quebrado com Dano Mágico."
+    ]
+  }
+}

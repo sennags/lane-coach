@@ -1,0 +1,93 @@
+{
+  "id": "Lucian",
+  "name": "Lucian",
+  "title": "o Purificador",
+  "tags": [
+    "Marksman",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Lucian.json",
+    "label": "Riot Data Dragon — Lucian",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Lucian.Q",
+      "ability": "Q",
+      "name": "Luz Perfurante",
+      "description": "Lucian faz um disparo de luz perfurante através de um alvo."
+    },
+    {
+      "id": "Lucian.W",
+      "ability": "W",
+      "name": "Chama Ardente",
+      "description": "Lucian dispara um projétil que explode em formato de estrela, marcando e revelando brevemente os inimigos. Ele recebe Velocidade de Movimento por atacar inimigos marcados."
+    },
+    {
+      "id": "Lucian.E",
+      "ability": "E",
+      "name": "Perseguição Implacável",
+      "description": "Lucian avança rapidamente uma curta distância. Disparo Iluminado reduz o Tempo de Recarga de Perseguição Implacável."
+    },
+    {
+      "id": "Lucian.R",
+      "ability": "R",
+      "name": "O Expurgo",
+      "description": "Lucian desfere uma torrente de disparos de suas armas."
+    },
+    {
+      "id": "Lucian.P",
+      "ability": "P",
+      "name": "Disparo Iluminado",
+      "description": "Sempre que Lucian usa uma Habilidade, seu próximo Ataque se transforma em um disparo duplo. Quando Lucian é curado ou protegido por um aliado, ou quando um Campeão inimigo próximo é imobilizado, os próximos dois Ataques básicos dele causam Dano Mágico adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Luz Perfurante: Lucian faz um disparo de luz perfurante através de um alvo.",
+      "O Expurgo: Lucian desfere uma torrente de disparos de suas armas."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Para otimizar sua rajada de dano, tente combinar Perseguição Implacável com Luz Perfurante.",
+      "Chama Ardente explode em formato de estrela. Tente alinhá-la para que as extremidades atinjam campeões inimigos.",
+      "Assim que tiver escolhido o ângulo de O Expurgo, você não poderá mudá-lo. Escolha bem o momento!",
+      "Graças a Disparo Iluminado, Lucian aproveita mais o Dano de Ataque do que a Velocidade de Ataque."
+    ],
+    "against": [
+      "Lucian tem alto dano em rajada, mas pouca sustentação.",
+      "Lucian não pode alterar a direção de O Expurgo. Tome vantagem disso e evite o ângulo dos disparos.",
+      "Luz Perfurante não dá alcance de ataque adicional a Lucian. Ele ainda precisa encontrar um alvo em seu alcance para alinhar o disparo. Evite Luz Perfurante ao antecipar o ângulo que Lucian vai escolher."
+    ]
+  }
+}

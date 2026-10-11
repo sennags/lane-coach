@@ -1,0 +1,92 @@
+{
+  "id": "Nasus",
+  "name": "Nasus",
+  "title": "o Curador das Areias",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nasus.json",
+    "label": "Riot Data Dragon — Nasus",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Nasus.Q",
+      "ability": "Q",
+      "name": "Ataque Sifão",
+      "description": "Nasus ataca seu inimigo, causando dano e aumentando o poder do próximo Ataque Sifão se o alvo for abatido."
+    },
+    {
+      "id": "Nasus.W",
+      "ability": "W",
+      "name": "Murchar",
+      "description": "Nasus envelhece um Campeão inimigo, reduzindo a Velocidade de Movimento e de Ataque do alvo ao longo do tempo."
+    },
+    {
+      "id": "Nasus.E",
+      "ability": "E",
+      "name": "Fogo Espiritual",
+      "description": "Nasus libera uma chama espiritual em um local, causando dano e reduzindo a Armadura dos inimigos que pisarem nela."
+    },
+    {
+      "id": "Nasus.R",
+      "ability": "R",
+      "name": "Fúria das Areias",
+      "description": "Nasus libera uma poderosa tempestade de areia que atinge inimigos próximos. Enquanto a tempestade estiver ativa, ele recebe Vida e Alcance de Ataque adicionais, causa dano a inimigos próximos, reduz o Tempo de Recarga de Ataque Sifão e recebe Armadura e Resistência Mágica adicionais."
+    },
+    {
+      "id": "Nasus.P",
+      "ability": "P",
+      "name": "Devorador de Almas",
+      "description": "Nasus drena a energia espiritual de seu inimigo, acumulando Roubo de Vida adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Ataque Sifão: Nasus ataca seu inimigo, causando dano e aumentando o poder do próximo Ataque Sifão se o alvo for abatido.",
+      "Fúria das Areias: Nasus libera uma poderosa tempestade de areia que atinge inimigos próximos. Enquanto a tempestade estiver ativa, ele recebe Vida e Alcance de Ataque adicionais, causa dano a inimigos próximos, reduz o Tempo de Recarga de Ataque Sifão e recebe Armadura e Resistência Mágica adicionais."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Prestar atenção no golpe fatal com Ataque Sifão terá um grande impacto no fim da partida.",
+      "Fogo Espiritual é uma ótima maneira de acumular recursos em uma rota se estiver só, mas pode ser ruim se tiver companhia e avançar demais. Encontre o equilíbrio entre os golpes fatais de Ataque Sifão e o acúmulo de recursos com feitiços de área de ação.",
+      "Caso esteja com a defesa baixa, os jogadores concentrarão o ataque em você mesmo durante o Ultimate. Tente comprar itens de sobrevivência mesmo que esteja fazendo combinações para causar dano."
+    ],
+    "against": [
+      "Enquanto estiver transformado por seu Ultimate, Nasus é mais forte do que a maioria dos campeões de League. Enfrente-o somente se estiver com muita vantagem.",
+      "Murchar em seu ranque máximo é um contra-ataque muito eficaz em campeões de Dano de Ataque, então tente evitar ser atingido(a) por ele.",
+      "Nasus é propenso a ser atacado aos poucos. Tente não enfrentá-lo quando ele estiver com a Vida cheia."
+    ]
+  }
+}

@@ -2,6 +2,9 @@
   "id": "Zed",
   "name": "Zed",
   "title": "o Mestre das Sombras",
+  "tags": [
+    "Assassin"
+  ],
   "source": {
     "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zed.json",
     "label": "Riot Data Dragon — Zed",
@@ -13,13 +16,13 @@
       "id": "Zed.Q",
       "ability": "Q",
       "name": "Shuriken Laminado",
-      "description": "Zed e suas sombras arremessam seus shurikens.  Cada shuriken causa dano em todos os inimigos atingidos."
+      "description": "Zed e suas sombras arremessam seus shurikens. Cada shuriken causa dano em todos os inimigos atingidos."
     },
     {
       "id": "Zed.W",
       "ability": "W",
       "name": "Sombra Viva",
-      "description": " Efeito passivo:  Zed recebe energia sempre que ele e suas sombras atingem um inimigo com a mesma habilidade. A energia só pode ser recebida uma vez a cada conjuração de habilidade.   Ativo:  A sombra de Zed avança e fica no mesmo lugar por alguns segundos. Quando Sombra Viva é reativada, Zed troca de posição com sua sombra."
+      "description": "Efeito passivo: Zed recebe energia sempre que ele e suas sombras atingem um inimigo com a mesma habilidade. A energia só pode ser recebida uma vez a cada conjuração de habilidade. Ativo: A sombra de Zed avança e fica no mesmo lugar por alguns segundos. Quando Sombra Viva é reativada, Zed troca de posição com sua sombra."
     },
     {
       "id": "Zed.E",
@@ -140,6 +143,19 @@
       }
     },
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "basis": "champion_specific"
+  },
+  "official_tips": {
+    "own": [
+      "Economizar Energia e Tempos de Recarga das habilidades até usar sua Ultimate maximizará o dano de Marca Fatal.",
+      "Usar Sombra Viva duas vezes rapidamente teleportará Zed para sua sombra imediatamente, proporcionando uma fuga rápida.",
+      "Posicionar uma Sombra Viva antes de usar Marca Fatal pode dar a Zed uma fuga segura do combate."
+    ],
+    "against": [
+      "Zed recebe efeitos adicionais de itens de Dano de Ataque que comprar, então itens de Armadura são super efetivos contra ele.",
+      "Zed fica mais vulnerável após usar sua Sombra Viva, pois seu dano, redução de velocidade e mobilidade dependem dela.",
+      "O Corte Sombrio de Zed só reduz sua velocidade se a sombra dele lhe atingir."
+    ]
   }
 }

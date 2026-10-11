@@ -1,0 +1,93 @@
+{
+  "id": "Pyke",
+  "name": "Pyke",
+  "title": "o Estripador das Águas Sangrentas",
+  "tags": [
+    "Support",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Pyke.json",
+    "label": "Riot Data Dragon — Pyke",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Pyke.Q",
+      "ability": "Q",
+      "name": "Espeto de Osso",
+      "description": "Pyke esfaqueia um inimigo à sua frente ou puxa um inimigo em direção a si mesmo."
+    },
+    {
+      "id": "Pyke.W",
+      "ability": "W",
+      "name": "Mergulho Fantasma",
+      "description": "Pyke entra em camuflagem e ganha Velocidade de Movimento significativa que decai ao longo do tempo."
+    },
+    {
+      "id": "Pyke.E",
+      "ability": "E",
+      "name": "Ressaca Espectral",
+      "description": "Pyke avança e deixa para trás um fantasma, que avança até ele e atordoa os Campeões inimigos pelo caminho."
+    },
+    {
+      "id": "Pyke.R",
+      "ability": "R",
+      "name": "Morte das Profundezas",
+      "description": "Pyke teleporta até inimigos com Vida baixa e os executa, permitindo que ele conjure a habilidade novamente e concedendo ouro adicional ao aliado que der assistência."
+    },
+    {
+      "id": "Pyke.P",
+      "ability": "P",
+      "name": "Dádiva dos Afogados",
+      "description": "Quando Pyke está escondido dos inimigos, ele regenera o dano recebido recentemente de Campeões. Pyke também não ganha Vida máxima adicional de nenhuma fonte, mas ganha DdA adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Espeto de Osso: Pyke esfaqueia um inimigo à sua frente ou puxa um inimigo em direção a si mesmo.",
+      "Morte das Profundezas: Pyke teleporta até inimigos com Vida baixa e os executa, permitindo que ele conjure a habilidade novamente e concedendo ouro adicional ao aliado que der assistência."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Pyke é bastante frágil, então não hesite em fugir temporariamente de um combate. Quando estiver escondido dos inimigos, você pode regenerar uma quantidade significativa de Vida com Dádiva dos Afogados.",
+      "Acertar um inimigo segurando Espeto de Osso sempre os puxará pela mesma distância. Use-o em um alcance corpo a corpo para lançar os alvos para trás de você.",
+      "A habilidade ao pressionar Espeto de Osso é bem mais rápida e causa dano adicional.",
+      "Muitas das suas habilidades agressivas também são a sua forma de escapar. Tenha sempre uma estratégia pronta para fugir do combate."
+    ],
+    "against": [
+      "Pyke regenera uma quantidade considerável do dano recebido de Campeões inimigos, mas apenas quando está escondido!",
+      "Quando Pyke estiver escondido em seu Mergulho Fantasma, tubarões começarão a nadar sob os seus pés.",
+      "Tente não ficar perto de aliados com Vida baixa. Se Pyke executá-los usando Morte das Profundezas, você pode ser o próximo na lista."
+    ]
+  }
+}

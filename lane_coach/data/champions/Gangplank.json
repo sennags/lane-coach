@@ -1,0 +1,90 @@
+{
+  "id": "Gangplank",
+  "name": "Gangplank",
+  "title": "o Terror dos Doze Mares",
+  "tags": [
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Gangplank.json",
+    "label": "Riot Data Dragon — Gangplank",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Gangplank.Q",
+      "ability": "Q",
+      "name": "Negociarrr",
+      "description": "Dispara no alvo, saqueando ouro para cada abate de unidade."
+    },
+    {
+      "id": "Gangplank.W",
+      "ability": "W",
+      "name": "Remover Escorbuto",
+      "description": "Come fruta cítrica para curar efeitos de controle de grupo e restaurar Vida."
+    },
+    {
+      "id": "Gangplank.E",
+      "ability": "E",
+      "name": "Barril de Pólvora",
+      "description": "Gangplank posiciona um Barril de Pólvora no local-alvo. Ele explodirá caso seja atacado, causando dano aos inimigos na área e reduzindo a Velocidade de Movimento deles."
+    },
+    {
+      "id": "Gangplank.R",
+      "ability": "R",
+      "name": "Barragem de Canhão",
+      "description": "Gangplank sinaliza para que seu navio bombardeie uma área, causando dano e lentidão aos inimigos."
+    },
+    {
+      "id": "Gangplank.P",
+      "ability": "P",
+      "name": "Julgamento de Fogo",
+      "description": "Periodicamente, o ataque corpo a corpo de Gangplank deixará seu inimigo em chamas."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Negociarrr: Dispara no alvo, saqueando ouro para cada abate de unidade.",
+      "Barragem de Canhão: Gangplank sinaliza para que seu navio bombardeie uma área, causando dano e lentidão aos inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Negociarrr aplica efeitos ao contato, tais como os do Malho Congelado e do Cutelo Negro.",
+      "Procurar no mapa por inimigos com pouca Vida pode lhe render um abate surpresa com Barragem de Canhão.",
+      "Tente posicionar Barragem de Canhão na rota de fuga para impedir que inimigos escapem ilesos."
+    ],
+    "against": [
+      "Negociarrr causa uma boa quantia de Dano Físico. Itens que concedem Armadura podem ajudar caso um Gangplank inimigo esteja se saindo bem na partida.",
+      "Assim que Gangplank chega ao nível 6, cuidado com seu Ultimate de alcance global, a Barragem de Canhão!"
+    ]
+  }
+}

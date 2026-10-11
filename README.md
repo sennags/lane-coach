@@ -1,8 +1,8 @@
 # Lane Coach
 
-Perfis de Yone, Ahri, Yasuo e Zed: pontos fortes, fracos, habilidades e plano para lane phase, mid e late game. A combinação dos arquivos de cada campeão atende às 12 duplas direcionais, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
+Catálogo completo: 173 campeões do Data Dragon 16.20.1, com habilidades, imagens locais, perfis e seleção pesquisável. A consulta combina dois arquivos em memória, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
 
-**Estado:** versão local 0.3. Dois perfis lado a lado, com comportamento típico e plano por fase; o perfil adversário inclui orientações de resposta. As dicas de micro anteriores continuam em seção expansível. Dicas editoriais ainda sem revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
+**Estado:** versão local 0.4. Dois perfis lado a lado, com comportamento típico e plano por fase; o perfil adversário inclui orientações de resposta. As dicas de micro específicas anteriores aparecem quando há conteúdo editorial disponível para os campeões selecionados. Os quatro perfis originais são específicos por campeão. Os outros 169 têm habilidades e dicas do catálogo oficial, quando disponíveis, e planos gerais pela classe principal da Riot. A interface identifica o plano por classe. Todo conteúdo estratégico ainda aguarda revisão especializada. A tela não usa IA; existe um comando de avaliação opcional com Groq, sem teste real do provedor ainda. Sem deploy público. Nenhum conteúdo do MOBAFire foi copiado.
 
 ## Executar no Windows
 
@@ -55,13 +55,13 @@ Próximos passos: revisar os três guias com fontes e patch; publicar a versão 
 
 ## Créditos
 
-Ilustrações da Riot Games obtidas do Data Dragon em 2026-10-11: `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/{Champion}_0.jpg`, para Yone, Ahri, Yasuo e Zed. Esses endereços não fixam patch e não são fonte das recomendações. Textos demonstrativos próprios.
+Ilustrações da Riot Games obtidas do Data Dragon em 2026-10-11: `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/{Champion}_0.jpg`, para os IDs listados em `lane_coach/data/roster.json`. Esses endereços não fixam patch e não são fonte das recomendações. Planos editoriais próprios; habilidades e dicas do catálogo são atribuídas à Riot.
 
 Lane Coach isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties, are trademarks or registered trademarks of Riot Games, Inc.
 
 ## Base e avaliação da IA
 
-Cada campeão contém `facts` (descrições oficiais de habilidades), `tips` (dicas editoriais com IDs de evidência), `source` (URL, patch dos dados e data de acesso) e `profile`: `identity`, `strengths`, `weaknesses`, `phases` e estado de revisão. Em cada fase (`lane`, `mid`, `late`), `typical` descreve o comportamento habitual, `plan` orienta quem joga com o campeão e `against` orienta quem o enfrenta. A base rejeita perfis sem fases ou campos obrigatórios e revisão sem data. Adicionar um campeão exige conteúdo completo e ilustração local; não basta acrescentar um nome ao seletor. A fonte da habilidade não comprova a estratégia nem interações especiais. O patch 16.20.1 identifica o snapshot dos dados, não uma revisão competitiva das dicas. O contexto não contém nível, vida ou cooldown atual: orientações devem ser condicionais.
+Cada campeão contém `facts` (descrições oficiais de habilidades), `tips` (dicas editoriais com IDs de evidência), `source` (URL, patch dos dados e data de acesso) e `profile`: `identity`, `strengths`, `weaknesses`, `phases` e estado de revisão. Em cada fase (`lane`, `mid`, `late`), `typical` descreve o comportamento habitual, `plan` orienta quem joga com o campeão e `against` orienta quem o enfrenta. A base rejeita perfis sem fases ou campos obrigatórios e revisão sem data. Adicionar um campeão exige conteúdo completo e ilustração local; não basta acrescentar um nome ao seletor. A fonte da habilidade não comprova a estratégia nem interações especiais. O patch 16.20.1 identifica o snapshot dos dados, não uma revisão competitiva das dicas. O contexto não contém nível, vida ou cooldown atual: orientações devem ser condicionais. Os perfis são gerais e não indicam a melhor rota de cada campeão. O parâmetro `lane=general` é usado pela tela; `lane=mid` é mantido por compatibilidade.
 
 Para inspecionar o contexto sem rede, chave ou custo:
 
@@ -86,3 +86,17 @@ Documentação oficial: [API compatível](https://console.groq.com/docs/openai),
 Os testes do adaptador usam respostas simuladas para sucesso, timeout, cota, JSON inválido, truncamento, tamanho e evidências. Não equivalem a uma chamada real ou avaliação de qualidade do modelo.
 
 A consulta principal é independente de IA, chave e orçamento de geração. Os perfis não calculam vencedor, dano, vantagem por nível, builds ou resultados garantidos. O comando Groq abaixo é uma ferramenta experimental do operador para uma etapa futura.
+
+## Atualizar o elenco oficial
+
+```powershell
+.\.venv\Scripts\python.exe scripts/import_roster.py --patch 16.20.1
+```
+
+Execute a importação com o servidor parado e revise o diff antes de publicar. Ela baixa o catálogo, dados e imagens ausentes com concorrência limitada; valida a base completa em uma pasta temporária antes de copiar os arquivos. Preserva perfis específicos e dicas editoriais existentes. Não chama IA nem exige uma chave Riot. O patch é explícito; arquivos JSON em cache opcionais devem corresponder à versão solicitada.
+
+`lane_coach/data/roster.json` registra a lista e as fontes do snapshot. `profile_templates.json` contém os planos editoriais por classe usados para perfis iniciais; eles não são análises individualizadas. As dicas oficiais `allytips` e `enemytips` podem estar ausentes ou conter orientações antigas, inclusive após reworks. São identificadas como dicas do catálogo, sem declaração de revisão competitiva. O importador não fabrica dicas oficiais quando elas estão vazias.
+
+O snapshot não se atualiza sozinho: novos campeões ou patches exigem nova importação e revisão. A seleção inteira funciona sem rede externa durante o uso, sem chave de IA e sem gerar todas as combinações. Os testes verificam correspondência com o manifesto, habilidades, imagens, preservação dos quatro perfis e uma consulta por campeão.
+
+Fontes: [Data Dragon — documentação oficial](https://developer.riotgames.com/docs/lol#data-dragon), [catálogo pt_BR 16.20.1](https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion.json). Ilustrações do elenco usam a mesma origem oficial indicada nos créditos.

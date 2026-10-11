@@ -1,0 +1,92 @@
+{
+  "id": "Ivern",
+  "name": "Ivern",
+  "title": "o Pai do Verde",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ivern.json",
+    "label": "Riot Data Dragon — Ivern",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ivern.Q",
+      "ability": "Q",
+      "name": "Encantador de Raízes",
+      "description": "Ivern conjura uma vinha, causando dano e enraizando os alvos inimigos atingidos. Os aliados de Ivern podem avançar rapidamente em direção ao alvo enraizado."
+    },
+    {
+      "id": "Ivern.W",
+      "ability": "W",
+      "name": "Formação de Arbustos",
+      "description": "Em arbustos, os Ataques de Ivern e seus aliados próximos causam Dano Mágico adicional. Ivern pode ativar a habilidade para criar um arbusto."
+    },
+    {
+      "id": "Ivern.E",
+      "ability": "E",
+      "name": "Semente Engatilhada",
+      "description": "Ivern concede a um aliado um Escudo que explode depois de uma breve duração, causando Lentidão e dano aos inimigos. O Escudo é redefinido se não atingir inimigos."
+    },
+    {
+      "id": "Ivern.R",
+      "ability": "R",
+      "name": "Margarida!",
+      "description": "Ivern invoca sua amiga Margarida para lutar ao seu lado. Reconjure para fazer Margarida atacar ou se mover."
+    },
+    {
+      "id": "Ivern.P",
+      "ability": "P",
+      "name": "Amigo da Floresta",
+      "description": "Ivern não pode atacar ou ser atacado por monstros não épicos. Ele pode criar bosques mágicos que crescem ao longo do tempo em acampamentos da selva. Quando o bosque estiver em seu tamanho final, Ivern pode libertar os monstros para receber ouro e experiência."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Encantador de Raízes: Ivern conjura uma vinha, causando dano e enraizando os alvos inimigos atingidos. Os aliados de Ivern podem avançar rapidamente em direção ao alvo enraizado.",
+      "Margarida!: Ivern invoca sua amiga Margarida para lutar ao seu lado. Reconjure para fazer Margarida atacar ou se mover."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Tente ajudar seus aliados a seguir um bom Encantador de Raízes com Semente Engatilhada!",
+      "Use Formação de Arbustos para preparar futuros pontos de emboscadas.",
+      "Margarida pode bloquear disparos de precisão e reduzir a velocidade de inimigos. Use-a para proteger seus colegas de equipe."
+    ],
+    "against": [
+      "Ivern pode ser incrivelmente escorregadio. Cuidado ao persegui-lo por muito tempo.",
+      "Os arbustos de Ivern têm duração muito longa. Cuidado com emboscadas!",
+      "Cuidado ao enfrentar Ivern sozinho se ele puder usar Margarida."
+    ]
+  }
+}

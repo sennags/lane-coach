@@ -1,0 +1,92 @@
+{
+  "id": "Milio",
+  "name": "Milio",
+  "title": "A Chama Gentil",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Milio.json",
+    "label": "Riot Data Dragon — Milio",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Milio.Q",
+      "ability": "Q",
+      "name": "Ultramega Chute Flamejante",
+      "description": "Milio chuta uma bola que empurra um inimigo. A bola é lançada para cima ao contato e cai na direção do alvo, causando dano e Lentidão aos inimigos que estiverem na área atingida."
+    },
+    {
+      "id": "Milio.W",
+      "ability": "W",
+      "name": "Fogueira Aconchegante",
+      "description": "Cria uma zona fortalecida que cura aliados e aumenta o Alcance de Ataque de quem estiver dentro dela. A zona acompanha o aliado mais próximo do local de conjuração."
+    },
+    {
+      "id": "Milio.E",
+      "ability": "E",
+      "name": "Abraços Quentinhos",
+      "description": "Milio concede um Escudo a um aliado, aumentando temporariamente a Velocidade de Movimento dele. Esta Habilidade tem 2 cargas."
+    },
+    {
+      "id": "Milio.R",
+      "ability": "R",
+      "name": "Sopro de Vida",
+      "description": "Milio libera uma onda de chamas reconfortantes que cura os aliados ao alcance, além de remover efeitos de controle de grupo."
+    },
+    {
+      "id": "Milio.P",
+      "ability": "P",
+      "name": "A Todo Vapor!",
+      "description": "As habilidades de Milio encantam aliados ao toque, fazendo com que o próximo ataque deles cause uma explosão de dano adicional e queime o alvo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Ultramega Chute Flamejante: Milio chuta uma bola que empurra um inimigo. A bola é lançada para cima ao contato e cai na direção do alvo, causando dano e Lentidão aos inimigos que estiverem na área atingida.",
+      "Sopro de Vida: Milio libera uma onda de chamas reconfortantes que cura os aliados ao alcance, além de remover efeitos de controle de grupo."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Milio precisa que os aliados estejam perto dele para aproveitar ao máximo suas Habilidades.",
+      "A velocidade dos avanços de Milio aumenta com a Velocidade de Movimento. Use a velocidade adicional para surpreender seus inimigos!",
+      "O perigo pode ser divertido, se você deixar."
+    ],
+    "against": [
+      "As Habilidades de movimento do Milio determinam a sua direção. Tente se aproveitar disso.",
+      "Campeões que aplicam Controles de Grupo rapidamente são bons contra Milio.",
+      "Quando Milio está sem aliados por perto, sua mobilidade fica muito prejudicada. Tente pegá-lo quando ele estiver sozinho."
+    ]
+  }
+}

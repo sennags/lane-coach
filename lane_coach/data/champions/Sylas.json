@@ -1,0 +1,91 @@
+{
+  "id": "Sylas",
+  "name": "Sylas",
+  "title": "o Abjugado",
+  "tags": [
+    "Mage",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sylas.json",
+    "label": "Riot Data Dragon — Sylas",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Sylas.Q",
+      "ability": "Q",
+      "name": "Correntes-Chicote",
+      "description": "Sylas chicoteia com suas correntes, que se intersectam no local-alvo, causando dano e reduzindo a velocidade dos inimigos. Após um intervalo, há uma explosão de energia mágica no ponto da intersecção, causando dano."
+    },
+    {
+      "id": "Sylas.W",
+      "ability": "W",
+      "name": "Regicida",
+      "description": "Sylas avança em um inimigo com uma força mágica, causando dano e curando-se contra Campeões inimigos."
+    },
+    {
+      "id": "Sylas.E",
+      "ability": "E",
+      "name": "Evasão / Abdução",
+      "description": "Sylas avança por uma curta distância, podendo reconjurar a habilidade para arremessar suas correntes e se arrastar na direção do inimigo atingido."
+    },
+    {
+      "id": "Sylas.R",
+      "ability": "R",
+      "name": "Usurpar",
+      "description": "Sylas rouba a habilidade ultimate do inimigo e pode conjurá-la sem custo."
+    },
+    {
+      "id": "Sylas.P",
+      "ability": "P",
+      "name": "Explosão de Petricita",
+      "description": "Após conjurar uma habilidade, Sylas armazena uma carga de Explosão de Petricita. Seus ataques básicos gastam uma carga e agitam as correntes energizadas ao redor dele, causando Dano Mágico adicional a inimigos atingidos. Enquanto Sylas tiver pelo menos uma carga de Explosão de Petricita, ele recebe Velocidade de Ataque."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Correntes-Chicote: Sylas chicoteia com suas correntes, que se intersectam no local-alvo, causando dano e reduzindo a velocidade dos inimigos. Após um intervalo, há uma explosão de energia mágica no ponto da intersecção, causando dano.",
+      "Usurpar: Sylas rouba a habilidade ultimate do inimigo e pode conjurá-la sem custo."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Espere até que você ou seu inimigo esteja com a Vida baixa antes de usar Regicida e obter maior proveito.",
+      "Use suas habilidades de maneira intercalada para aproveitar ao máximo a Explosão de Petricita.",
+      "O uso inteligente das ultimates dos inimigos pode revelar novas maneiras de abordar os confrontos de equipe."
+    ],
+    "against": [
+      "A barra de Vida de Sylas pode enganar, cuidado com seu Regicida!",
+      "Tente lutar contra Sylas quando ele não for capaz de roubar sua ultimate."
+    ]
+  }
+}

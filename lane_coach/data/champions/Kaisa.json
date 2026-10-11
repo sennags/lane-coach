@@ -1,0 +1,92 @@
+{
+  "id": "Kaisa",
+  "name": "Kai'Sa",
+  "title": "a Filha do Vazio",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kaisa.json",
+    "label": "Riot Data Dragon — Kai'Sa",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Kaisa.Q",
+      "ability": "Q",
+      "name": "Chuva Icathiana",
+      "description": "Kai'Sa dispara uma chuva de projéteis que correm atrás de alvos próximos. Arma Viva: Chuva Icathiana é aprimorada e lança mais mísseis."
+    },
+    {
+      "id": "Kaisa.W",
+      "ability": "W",
+      "name": "Exploradora do Vazio",
+      "description": "Kai'Sa lança um projétil de longo alcance, marcando inimigos com sua passiva. Arma Viva: Exploradora do Vazio é aprimorada e aplica mais marcas passivas e tem o Tempo de Recarga reduzido ao acertar um Campeão."
+    },
+    {
+      "id": "Kaisa.E",
+      "ability": "E",
+      "name": "Sobrecarga",
+      "description": "Kai'Sa aumenta brevemente sua Velocidade de Movimento, depois aumenta sua Velocidade de Ataque. Arma Viva: Sobrecarga é aprimorada e concede Invisibilidade por um breve momento."
+    },
+    {
+      "id": "Kaisa.R",
+      "ability": "R",
+      "name": "Instinto Assassino",
+      "description": "Kai'Sa avança para perto de um Campeão inimigo."
+    },
+    {
+      "id": "Kaisa.P",
+      "ability": "P",
+      "name": "Segunda Pele",
+      "description": "Os ataques básicos de Kai'Sa acumulam Plasma, causando Dano Mágico adicional crescente. Efeitos imobilizadores de aliados ajudam a acumular Plasma. Além disso, as aquisições de itens de Kai'Sa aprimoram suas habilidades básicas, deixando-as mais poderosas."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Chuva Icathiana: Kai'Sa dispara uma chuva de projéteis que correm atrás de alvos próximos. Arma Viva: Chuva Icathiana é aprimorada e lança mais mísseis.",
+      "Instinto Assassino: Kai'Sa avança para perto de um Campeão inimigo."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Tente surpreender carregadores inimigos isolados para aplicar dano explosivo com a Chuva Icathiana.",
+      "Trabalhe em equipe para coordenar sua ultimate e otimizar o dano com a sua passiva.",
+      "Lembre-se de comprar itens que evoluam ao menos 1 ou 2 das suas habilidades."
+    ],
+    "against": [
+      "Kai'Sa é muito boa em atingir inimigos isolados. Fiquem juntos contra ela.",
+      "Kai'Sa é vulnerável ao alcance maior de magos e carregadores de longa distância.",
+      "Não esqueça de colocar sentinelas nos seus pontos cegos para ver Kai'Sa se aproximando."
+    ]
+  }
+}

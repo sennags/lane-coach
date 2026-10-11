@@ -1,16 +1,17 @@
 {% extends 'base.html' %}
 {% block content %}
 <section class="intro" aria-labelledby="page-title">
-  <div><p class="eyebrow"><span class="small-line"></span> PERFIS DE CAMPEÕES / MID LANE</p>
+  <div><p class="eyebrow"><span class="small-line"></span> PERFIS DE CAMPEÕES / SUMMONER’S RIFT</p>
     <h1 id="page-title">A próxima troca<br>começa <em>aqui.</em></h1>
     <p class="intro-copy">Conheça seu kit e o do adversário.<br>Da primeira troca à última luta.</p>
   </div>
-  <aside class="intro-note"><span class="note-number">04 / 03</span><p>Quatro campeões.<br>Três fases do jogo.</p><span class="muted">Yone · Ahri · Yasuo · Zed</span></aside>
+  <aside class="intro-note"><span class="note-number">{{ champions|length }} / 03</span><p>Elenco completo.<br>Três fases do jogo.</p><span class="muted">Habilidades · Perfis · Dicas</span></aside>
 </section>
 <section class="matchup-builder" aria-labelledby="builder-title">
-  <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ ROTA DO MEIO</span></div>
+  <div class="section-heading"><h2 id="builder-title"><span>01</span> Monte seu confronto</h2><span class="lane-tag">↗ PERFIS GERAIS</span></div>
   <form action="{{ url_for('matchup') }}#analysis" method="get" id="matchup-form">
-    <input type="hidden" name="lane" value="mid">
+    <input type="hidden" name="lane" value="general">
+    <div class="champion-search"><label for="roster-search">Buscar campeões nos dois seletores</label><input type="search" id="roster-search" placeholder="Nome do campeão" autocomplete="off" aria-describedby="search-status"><p id="search-status" role="status">Digite para reduzir a lista. As escolhas atuais permanecem disponíveis.</p></div>
     <div class="arena">
       {% for side, champion, field, label in [('ally', own, 'champion', 'Seu campeão'), ('enemy', enemy, 'opponent', 'Campeão adversário')] %}
       <div class="champion-card {{ side }}" data-card="{{ field }}">
@@ -26,7 +27,8 @@
       {% if loop.first %}<div class="versus" aria-hidden="true"><span>VS</span></div>{% endif %}
       {% endfor %}
     </div>
-    <div class="action-row"><p>Escolha dois campeões entre <strong>Yone, Ahri, Yasuo e Zed</strong>.<br><span>Pontos fortes, vulnerabilidades e planos para lane, mid e late game.</span></p><button type="submit" class="primary-button">Ver perfis dos campeões <span aria-hidden="true">↗</span></button></div>
+    <div class="action-row"><p>Escolha entre <strong>{{ champions|length }} campeões</strong> do catálogo da Riot.<br><span>Pontos fortes, vulnerabilidades e planos para lane, mid e late game.</span></p><button type="submit" class="primary-button">Ver perfis dos campeões <span aria-hidden="true">↗</span></button></div>
+
   </form>
 </section>
 <section id="analysis" class="analysis" aria-labelledby="analysis-title" tabindex="-1">
@@ -37,7 +39,7 @@
   {% if guide.status == 'demo' %}<div class="demo-warning"><strong>Dicas editoriais em avaliação.</strong> A base descreve habilidades; as sugestões ainda não foram revisadas por especialista. Não observamos sua partida nem sabemos quais habilidades estão disponíveis.</div>{% endif %}
   <div class="guide-lead"><h3>{{ guide.title }}</h3><p>{{ guide.summary }}</p></div>
   <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
-  <details class="micro-library"><summary>Dicas de micro dos dois kits <span>5 decisões para praticar</span></summary>
+  {% if guide.sections %}<details class="micro-library"><summary>Dicas de micro dos kits <span>{{ guide.sections|length }} decisões editoriais disponíveis</span></summary>
   <div class="guide-grid">
     {% for section in guide.sections %}
     <article class="guide-section"><span class="guide-number">0{{ loop.index }}</span><div>
@@ -53,7 +55,7 @@
     {% endfor %}
     <aside class="source-card"><span class="eyebrow">TRANSPARÊNCIA</span><h3>Como essas dicas foram escolhidas?</h3><p>Combinamos ameaças do adversário com ferramentas do seu campeão. A seleção é local e não usa IA. Não é um guia específico validado para esta dupla.</p><dl><dt>Patch da estratégia</dt><dd>{{ guide.patch }}</dd><dt>Revisão especializada</dt><dd>{{ guide.reviewed_at or 'Pendente' }}</dd><dt>Versão da base</dt><dd>{{ guide.revision }}</dd></dl></aside>
   </div>
-  </details>
+  </details>{% endif %}
 {% else %}
   <div class="section-heading"><h2 id="analysis-title"><span>02</span> Um plano para a sua lane</h2><span class="quiet-label">O QUE VOCÊ VAI ENCONTRAR</span></div>
   <div class="preview-grid"><article><span class="preview-icon">◎</span><h3>Forças e vulnerabilidades</h3><p>Entenda seu kit e as ameaças do adversário.</p></article><article><span class="preview-icon">↗</span><h3>Plano por fase</h3><p>Veja o que cada campeão busca na lane, no mid e no late game.</p></article><article><span class="preview-icon">≋</span><h3>Habilidades e micro</h3><p>Consulte as habilidades e decisões práticas para executar suas trocas.</p></article></div>

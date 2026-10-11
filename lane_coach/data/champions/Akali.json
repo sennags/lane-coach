@@ -1,0 +1,90 @@
+{
+  "id": "Akali",
+  "name": "Akali",
+  "title": "a Assassina Renegada",
+  "tags": [
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Akali.json",
+    "label": "Riot Data Dragon — Akali",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Akali.Q",
+      "ability": "Q",
+      "name": "Golpe dos Cinco Pontos",
+      "description": "Akali atira cinco kunais, causando redução de velocidade e dano com base em seu Dano de Ataque adicional e Poder de Habilidade."
+    },
+    {
+      "id": "Akali.W",
+      "ability": "W",
+      "name": "Proteção do Crepúsculo",
+      "description": "Akali solta uma proteção de fumaça e recebe Velocidade de Movimento por um curto período. Enquanto estiver dentro da proteção, Akali se torna invisível e não pode ser selecionada como alvo de habilidades e ataques inimigos. Atacar ou usar habilidades fará com que ela seja revelada brevemente."
+    },
+    {
+      "id": "Akali.E",
+      "ability": "E",
+      "name": "Investida Shuriken",
+      "description": "Salta para trás e atira uma shuriken para a frente, causando Dano Mágico. O primeiro inimigo ou nuvem de fumaça que forem atingidos são marcados. Conjure novamente para avançar ao alvo marcado, causando dano adicional."
+    },
+    {
+      "id": "Akali.R",
+      "ability": "R",
+      "name": "Execução Perfeita",
+      "description": "Akali salta em uma direção, causando dano aos inimigos que atingir. Conjurar novamente: Akali avança em uma direção, executando todos os inimigos que atingir."
+    },
+    {
+      "id": "Akali.P",
+      "ability": "P",
+      "name": "Marca do Assassino",
+      "description": "Causar dano a Campeões com habilidades cria um círculo de energia em volta deles. Sair desse círculo fortalece o próximo Ataque de Akali com alcance e dano adicionais."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Golpe dos Cinco Pontos: Akali atira cinco kunais, causando redução de velocidade e dano com base em seu Dano de Ataque adicional e Poder de Habilidade.",
+      "Execução Perfeita: Akali salta em uma direção, causando dano aos inimigos que atingir. Conjurar novamente: Akali avança em uma direção, executando todos os inimigos que atingir."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Akali é especialista em abater Campeões frágeis. Deixe sua equipe iniciar a investida e ataque a retaguarda inimiga.",
+      "Proteção do Crepúsculo oferece segurança mesmo nas situações mais perigosas. Use esse tempo para guardar Energia para um ataque rápido logo depois."
+    ],
+    "against": [
+      "Akali ainda pode ser atingida por habilidades com área de ação enquanto estiver obscurecida dentro da Proteção do Crepúsculo. Fazer isso vai revelar brevemente sua posição.",
+      "O Golpe dos Cinco Pontos de Akali é poderoso quando usado em alcance e Energia máxima. Inicie um confronto quando ela estiver com pouca Energia para maximizar suas chances de vencer trocas.",
+      "Retorne para a base se sua Vida estiver baixa e Akali tiver sua ultimate disponível."
+    ]
+  }
+}

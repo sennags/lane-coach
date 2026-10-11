@@ -1,0 +1,92 @@
+{
+  "id": "Alistar",
+  "name": "Alistar",
+  "title": "o Minotauro",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Alistar.json",
+    "label": "Riot Data Dragon — Alistar",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Alistar.Q",
+      "ability": "Q",
+      "name": "Pulverizar",
+      "description": "Alistar golpeia o chão, causando dano a inimigos próximos e arremessando-os ao ar."
+    },
+    {
+      "id": "Alistar.W",
+      "ability": "W",
+      "name": "Cabeçada",
+      "description": "Alistar atinge o inimigo com sua cabeça, causando dano e jogando o alvo para trás."
+    },
+    {
+      "id": "Alistar.E",
+      "ability": "E",
+      "name": "Atropelar",
+      "description": "Alistar atropela unidades inimigas próximas, ignorando colisão com unidades e recebendo acúmulos caso cause dano a um Campeão inimigo. O próximo ataque básico com o máximo de acúmulos contra um Campeão inimigo causa Dano Mágico adicional e o atordoa."
+    },
+    {
+      "id": "Alistar.R",
+      "ability": "R",
+      "name": "Vontade Indestrutível",
+      "description": "Alistar solta um urro selvagem, removendo todos os efeitos de Controle de Grupo de si mesmo, além de reduzir o Dano Físico e Mágico enquanto durar o efeito."
+    },
+    {
+      "id": "Alistar.P",
+      "ability": "P",
+      "name": "Urro Triunfante",
+      "description": "Alistar carrega seu urro ao atordoar, deslocar a posição de Campeões inimigos ou quando inimigos próximos morrem. Quando estiver com o máximo de cargas, ele cura a si mesmo e aos Campeões aliados próximos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Pulverizar: Alistar golpeia o chão, causando dano a inimigos próximos e arremessando-os ao ar.",
+      "Vontade Indestrutível: Alistar solta um urro selvagem, removendo todos os efeitos de Controle de Grupo de si mesmo, além de reduzir o Dano Físico e Mágico enquanto durar o efeito."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Usar Pulverizar pode permitir que você estabeleça um melhor posicionamento para a Cabeçada.",
+      "A Velocidade de Movimento é muito importante em Alistar. Considere quais botas comprar cuidadosamente.",
+      "Usar Flash pode permitir que você pegue seu alvo com a guarda baixa para lançá-lo contra seus aliados com Pulverizar e Cabeçada."
+    ],
+    "against": [
+      "Alistar incomoda bastante, mas é muito resistente. Tente alvejar causadores de dano mais frágeis.",
+      "Atenção para a combinação Pulverizar + Cabeçada quando estiver ao redor das torres.",
+      "Quando Alistar usa sua habilidade Ultimate, geralmente é melhor se afastar e esperar até que o efeito acabe antes de atacá-lo."
+    ]
+  }
+}

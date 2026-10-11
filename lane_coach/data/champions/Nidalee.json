@@ -1,0 +1,92 @@
+{
+  "id": "Nidalee",
+  "name": "Nidalee",
+  "title": "a Caçadora Bestial",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nidalee.json",
+    "label": "Riot Data Dragon — Nidalee",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Nidalee.Q",
+      "ability": "Q",
+      "name": "Arremessar Lança / Bote",
+      "description": "Na forma humana, Nidalee arremessa uma lança perfurante em seu alvo, que acumula dano enquanto está no ar. Como puma, seu próximo ataque irá tentar ferir o inimigo de maneira letal, causando dano inversamente proporcional à Vida do alvo."
+    },
+    {
+      "id": "Nidalee.W",
+      "ability": "W",
+      "name": "Arapuca / Investida",
+      "description": "Na forma humana, Nidalee posiciona uma armadilha para seus oponentes descuidados que, quando ativada, causa dano e os revela. Em forma de puma, ela salta em uma direção, causando dano na área em que aterrissar."
+    },
+    {
+      "id": "Nidalee.E",
+      "ability": "E",
+      "name": "Ímpeto Selvagem / Patada",
+      "description": "Na forma humana, Nidalee canaliza o espírito do puma para curar seus aliados e lhes concede Velocidade de Ataque por um curto período de tempo. Em forma de puma, ela golpeia em uma direção, causando dano aos inimigos à sua frente."
+    },
+    {
+      "id": "Nidalee.R",
+      "ability": "R",
+      "name": "Aspecto do Puma",
+      "description": "Nidalee transforma-se em um puma, recebendo novas habilidades."
+    },
+    {
+      "id": "Nidalee.P",
+      "ability": "P",
+      "name": "Espreitar",
+      "description": "Mover-se pelos arbustos aumenta a Velocidade de Movimento de Nidalee em 10% por 2 segundos, aumentando para 30% em direção a campeões inimigos visíveis dentre 1400 de alcance. Atingir Campeões ou monstros com Arremessar Lança ou Arapuca aciona uma Caçada , que concede Visão Mágica deles por 4 segundos. Durante esse tempo, Nidalee recebe 10% de Velocidade de Movimento (aumentando para 30% em direção ao alvo Caçado ) e o uso de Bote ou Investida contra o alvo é aprimorado."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Arremessar Lança / Bote: Na forma humana, Nidalee arremessa uma lança perfurante em seu alvo, que acumula dano enquanto está no ar. Como puma, seu próximo ataque irá tentar ferir o inimigo de maneira letal, causando dano inversamente proporcional à Vida do alvo.",
+      "Aspecto do Puma: Nidalee transforma-se em um puma, recebendo novas habilidades."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use os arbustos a seu favor! Entrar e sair de um arbusto pode alterar drasticamente a sua eficácia em combate.",
+      "Inicie confrontos de equipe com Arremessar Lança e, em seguida, troque para a forma de puma para perseguir alvos Caçados.",
+      "As armadilhas de Arapuca causam dano com base na Vida atual de suas vítimas. Posicione-as à frente de sua equipe antes que os confrontos iniciem ao avançar para ajudar sua equipe a causar dano à linha de frente do inimigo."
+    ],
+    "against": [
+      "O efeito negativo de Caçada de Nidalee só é aplicado com Arremessar Lança e Arapuca. Evite ser atingido(a) por essas habilidades para reduzir as chances de ela causar mais dano.",
+      "Arremessar Lança de Nidalee causa mais dano conforme sua distância. Se ela estiver longe, é muito importante esquivar-se.",
+      "O Bote de Nidalee causa muito dano em alvos Caçados, mas ela precisa se aproximar para usá-lo. Guarde suas habilidades defensivas ou de controle de grupo para quando ela avançar para o abate."
+    ]
+  }
+}

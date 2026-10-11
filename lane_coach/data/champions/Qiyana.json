@@ -1,0 +1,83 @@
+{
+  "id": "Qiyana",
+  "name": "Qiyana",
+  "title": "a Imperatriz dos Elementos",
+  "tags": [
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Qiyana.json",
+    "label": "Riot Data Dragon — Qiyana",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Qiyana.Q",
+      "ability": "Q",
+      "name": "Cólera Elemental / Lâmina de Ixtal",
+      "description": "Qiyana brande sua arma, causando dano com um efeito adicional baseado no seu elemento."
+    },
+    {
+      "id": "Qiyana.W",
+      "ability": "W",
+      "name": "Terraforme",
+      "description": "Qiyana avança para um local e encanta sua arma com um elemento. Ataques e habilidades causam dano adicional enquanto sua arma estiver encantada."
+    },
+    {
+      "id": "Qiyana.E",
+      "ability": "E",
+      "name": "Audácia",
+      "description": "Qiyana avança em um inimigo e causa dano."
+    },
+    {
+      "id": "Qiyana.R",
+      "ability": "R",
+      "name": "Suprema Demonstração de Talento",
+      "description": "Qiyana lança uma onda de choque que detona quaisquer elementos que ela acertar, atordoando e causando dano a inimigos próximos."
+    },
+    {
+      "id": "Qiyana.P",
+      "ability": "P",
+      "name": "Privilégio da Realeza",
+      "description": "O primeiro ataque básico ou habilidade de Qiyana contra cada inimigo causa dano adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Cólera Elemental / Lâmina de Ixtal: Qiyana brande sua arma, causando dano com um efeito adicional baseado no seu elemento.",
+      "Suprema Demonstração de Talento: Qiyana lança uma onda de choque que detona quaisquer elementos que ela acertar, atordoando e causando dano a inimigos próximos."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "MonkeyKing",
+  "name": "Wukong",
+  "title": "o Macaco Rei",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/MonkeyKing.json",
+    "label": "Riot Data Dragon — Wukong",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "MonkeyKing.Q",
+      "ability": "Q",
+      "name": "Golpe Destruidor",
+      "description": "O próximo ataque de Wukong recebe Alcance de Ataque, causa dano adicional e reduz a Armadura do alvo por alguns segundos."
+    },
+    {
+      "id": "MonkeyKing.W",
+      "ability": "W",
+      "name": "Guerreiro Trapaceiro",
+      "description": "Wukong fica Invisível e avança em uma direção, deixando para trás um clone que atacará inimigos próximos."
+    },
+    {
+      "id": "MonkeyKing.E",
+      "ability": "E",
+      "name": "Resplendor das Nuvens",
+      "description": "Wukong avança em direção ao inimigo-alvo e conjura imagens de si próprio para atacar inimigos próximos, causando dano aos atingidos."
+    },
+    {
+      "id": "MonkeyKing.R",
+      "ability": "R",
+      "name": "Ciclone",
+      "description": "Wukong estende seu cajado e gira repetidamente, recebendo Velocidade de Movimento. Inimigos atingidos sofrem dano e são arremessados ao ar."
+    },
+    {
+      "id": "MonkeyKing.P",
+      "ability": "P",
+      "name": "Pele de Pedra",
+      "description": "Wukong recebe Armadura e Regeneração de Vida máxima cumulativas quando luta contra Campeões e monstros."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Golpe Destruidor: O próximo ataque de Wukong recebe Alcance de Ataque, causa dano adicional e reduz a Armadura do alvo por alguns segundos.",
+      "Ciclone: Wukong estende seu cajado e gira repetidamente, recebendo Velocidade de Movimento. Inimigos atingidos sofrem dano e são arremessados ao ar."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Chamariz e Resplendor das Nuvens funcionam bem juntos para atingir rapidamente seu inimigo e fugir antes que eles possam revidar.",
+      "Tente usar Chamariz próximo a um arbusto para fazer com que um inimigo reaja à sua movimentação."
+    ],
+    "against": [
+      "Wukong costuma usar Chamariz depois de Resplendor das Nuvens. Segure suas habilidades por tempo suficiente e atinja o Wukong verdadeiro.",
+      "Wukong fica mais difícil de abater quando está próximo de seus inimigos. Tente isolá-lo para ter vantagem."
+    ]
+  }
+}

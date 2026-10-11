@@ -1,0 +1,90 @@
+{
+  "id": "Nautilus",
+  "name": "Nautilus",
+  "title": "o Titã das Profundezas",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nautilus.json",
+    "label": "Riot Data Dragon — Nautilus",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Nautilus.Q",
+      "ability": "Q",
+      "name": "Lançar Âncora",
+      "description": "Nautilus arremessa sua âncora à frente. Se acertar um inimigo, ele puxa a si mesmo e ao alvo para perto um do outro, causando Dano Mágico. Se acertar um terreno, Nautilus avança em direção a ele."
+    },
+    {
+      "id": "Nautilus.W",
+      "ability": "W",
+      "name": "Ira do Titã",
+      "description": "Nautilus recebe um Escudo temporário. Enquanto o Escudo persistir, seus Ataques causam dano ao longo do tempo ao alvo e a inimigos próximos."
+    },
+    {
+      "id": "Nautilus.E",
+      "ability": "E",
+      "name": "Correnteza",
+      "description": "Nautilus cria três ondas explosivas ao redor de si. Cada explosão causa dano e Lentidão aos inimigos."
+    },
+    {
+      "id": "Nautilus.R",
+      "ability": "R",
+      "name": "Carga de Profundidade",
+      "description": "Nautilus lança uma onda de choque na terra que persegue o oponente. Essa onda rasga a terra em cima dela, arremessando os inimigos ao ar. Quando ela alcança o oponente, a onda de choque explode, arremessando o alvo ao ar e atordoando ele."
+    },
+    {
+      "id": "Nautilus.P",
+      "ability": "P",
+      "name": "Âncora Impactante",
+      "description": "O primeiro Ataque de Nautilus a um alvo causa Dano Físico aumentado e Enraíza-o brevemente."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Lançar Âncora: Nautilus arremessa sua âncora à frente. Se acertar um inimigo, ele puxa a si mesmo e ao alvo para perto um do outro, causando Dano Mágico. Se acertar um terreno, Nautilus avança em direção a ele.",
+      "Carga de Profundidade: Nautilus lança uma onda de choque na terra que persegue o oponente. Essa onda rasga a terra em cima dela, arremessando os inimigos ao ar. Quando ela alcança o oponente, a onda de choque explode, arremessando o alvo ao ar e atordoando ele."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Enquanto age em emboscada, considere mirar Lançar Âncora no terreno próximo e dê sequência à isto com a Correnteza para uma maior frequência de acerto.",
+      "A Correnteza tem um tempo de explosão atrasado na ativação - você pode usar isto enquanto foge ou quando inimigos estão chegando para atrasá-los."
+    ],
+    "against": [
+      "Se Nautilus usar Correnteza próximo a você, fique no lugar até que o efeito de ondulações termine antes de correr. Se correr antecipadamente você cairá direto nas explosões secundárias, fazendo com que você receba dano adicional e sofra Lentidão.",
+      "Enquanto Nautilus estiver protegido, ele é capaz de causar grandes quantidades de dano de efeito de área com seus ataques básicos - considere derrubar o escudo se você tiver tempo."
+    ]
+  }
+}

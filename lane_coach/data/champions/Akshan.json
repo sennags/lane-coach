@@ -1,0 +1,86 @@
+{
+  "id": "Akshan",
+  "name": "Akshan",
+  "title": "o Sentinela Rebelde",
+  "tags": [
+    "Marksman",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Akshan.json",
+    "label": "Riot Data Dragon — Akshan",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Akshan.Q",
+      "ability": "Q",
+      "name": "Bumerangue Vingativo",
+      "description": "Akshan arremessa um bumerangue que causa dano na ida e na volta, ganhando alcance a cada vez que atingir um inimigo."
+    },
+    {
+      "id": "Akshan.W",
+      "ability": "W",
+      "name": "Rebeldia",
+      "description": "Akshan marca Campeões inimigos passivamente como Canalhas quando eles abatem Campeões aliados. Se Akshan abater um Canalha, ressuscita o aliado abatido, recebendo ouro adicional e removendo todas as marcas. Quando a Habilidade é ativada, Akshan fica camuflado, recebendo Velocidade de Movimento e Regeneração de Mana enquanto se move em direção a Canalhas. Akshan perde a camuflagem rapidamente enquanto não estiver em um arbusto ou próximo a um terreno."
+    },
+    {
+      "id": "Akshan.E",
+      "ability": "E",
+      "name": "Impulso Heroico",
+      "description": "Akshan dispara um arpéu em um terreno e se balança ao redor dele, atirando repetidamente no inimigo mais próximo enquanto estiver se balançando. Ele pode saltar antecipadamente ou ser derrubado ao colidir com Campeões ou terrenos."
+    },
+    {
+      "id": "Akshan.R",
+      "ability": "R",
+      "name": "Punição",
+      "description": "Akshan trava a mira em um Campeão inimigo e começa a armazenar balas. Ao terminar, ele dispara todas as balas armazenadas, causando dano com base na Vida perdida do primeiro Campeão, tropa ou estrutura que atingir."
+    },
+    {
+      "id": "Akshan.P",
+      "ability": "P",
+      "name": "Lutando Sujo",
+      "description": "Os Ataques e Habilidades de Akshan causam dano adicional a cada terceiro acerto e concedem a ele um Escudo se o alvo for um Campeão. Ao Atacar, ele desfere um Ataque adicional que causa dano reduzido. Se cancelar o Ataque adicional, ele recebe Velocidade de Movimento."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Bumerangue Vingativo: Akshan arremessa um bumerangue que causa dano na ida e na volta, ganhando alcance a cada vez que atingir um inimigo.",
+      "Punição: Akshan trava a mira em um Campeão inimigo e começa a armazenar balas. Ao terminar, ele dispara todas as balas armazenadas, causando dano com base na Vida perdida do primeiro Campeão, tropa ou estrutura que atingir."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Akshan ri da cara do perigo, lutando contra o mal com carisma, determinação e desejo de vingança, mas, estranhamente, sem vestir uma camisa sequer. É extremamente habilidoso na arte do combate furtivo, capaz de sumir da vista dos inimigos e reaparecer quando menos se espera. Com um firme senso de justiça e uma arma lendária que pode reverter a morte, ele corrige os delitos dos canalhas de Runeterra e vive de acordo com um código de conduta particular: \"Não seja babaca\"."
+    ],
+    "against": []
+  }
+}

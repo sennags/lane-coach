@@ -1,0 +1,91 @@
+{
+  "id": "Kled",
+  "name": "Kled",
+  "title": "o Cavaleiro Intratável",
+  "tags": [
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kled.json",
+    "label": "Riot Data Dragon — Kled",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Kled.Q",
+      "ability": "Q",
+      "name": "Armadilha na Corda",
+      "description": "Kled arremessa uma armadilha de urso que causa dano e se prende a um Campeão inimigo. Caso fique preso por um curto período, o alvo recebe Dano Físico adicional e é puxado em direção a Kled. Quando desmontado, esta habilidade é substituída por Pistola de Bolso, um disparo a distância que empurra Kled para trás e restaura coragem."
+    },
+    {
+      "id": "Kled.W",
+      "ability": "W",
+      "name": "Tendências Violentas",
+      "description": "Kled recebe muita Velocidade de Ataque por quatro ataques. O quarto ataque causa mais dano."
+    },
+    {
+      "id": "Kled.E",
+      "ability": "E",
+      "name": "Justar",
+      "description": "Kled avança, causando Dano Físico e recebendo um breve surto de velocidade. Ele pode conjurar esta habilidade novamente para recuar através do alvo inicial, causando a mesma quantidade de dano."
+    },
+    {
+      "id": "Kled.R",
+      "ability": "R",
+      "name": "Avançaaaaaaar!!!",
+      "description": "Kled e Skaarl avançam em direção a um local, deixando um rastro que concede velocidade e criando um escudo. Skaarl marca e vai de encontro ao primeiro Campeão inimigo encontrado."
+    },
+    {
+      "id": "Kled.P",
+      "ability": "P",
+      "name": "Skaarl, a Lagarto Covarde",
+      "description": "Kled fica em sua possante montaria, Skaarl, que toma dano por ele. Quando a Vida dela acaba, Kled desmonta. Enquanto desmontado, as habilidades de Kled mudam e ele causa menos dano a Campeões. Kled pode restaurar a coragem de Skaarl ao enfrentar inimigos. Quando a coragem chega ao máximo, Kled volta a montar em Skaarl com uma parte de sua Vida."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Armadilha na Corda: Kled arremessa uma armadilha de urso que causa dano e se prende a um Campeão inimigo. Caso fique preso por um curto período, o alvo recebe Dano Físico adicional e é puxado em direção a Kled. Quando desmontado, esta habilidade é substituída por Pistola de Bolso, um disparo a distância que empurra Kled para trás e restaura coragem.",
+      "Avançaaaaaaar!!!: Kled e Skaarl avançam em direção a um local, deixando um rastro que concede velocidade e criando um escudo. Skaarl marca e vai de encontro ao primeiro Campeão inimigo encontrado."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Kled gera um pouco de coragem ao abater tropas, mas muito mais ao enfrentar Campeões.",
+      "O último acerto de Tendências Violentas causa mais dano que os três primeiros - não deixe de acertá-lo!",
+      "Avançaaaaaaar!!! pode ser conjurado por uma grande distância. Tente prever onde a equipe inimiga estará na hora que você os alcançar."
+    ],
+    "against": [
+      "Kled gera coragem ao causar dano a inimigos com sua Pistola de Bolso e ataques básicos, abater tropas, atacar estruturas ou monstros épicos.",
+      "Fique atento à barra de coragem de Kled quando ele estiver sem sua montaria: quando ela chega a 100%, ele volta a montá-la e recupera uma quantia razoável de Vida.",
+      "Kled é muito mais ameaçador quando tem Tendências Violentas pronta para usar."
+    ]
+  }
+}

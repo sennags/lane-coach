@@ -1,0 +1,93 @@
+{
+  "id": "KogMaw",
+  "name": "Kog'Maw",
+  "title": "a Boca do Abismo",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/KogMaw.json",
+    "label": "Riot Data Dragon — Kog'Maw",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "KogMaw.Q",
+      "ability": "Q",
+      "name": "Cusparada Cáustica",
+      "description": "Kog'Maw dispara um projétil corrosivo que causa Dano Mágico, corroendo a Armadura e Resistência Mágica do alvo por um curto período de tempo. Kog'Maw também recebe Velocidade de Ataque adicional."
+    },
+    {
+      "id": "KogMaw.W",
+      "ability": "W",
+      "name": "Barragem Bio-Arcana",
+      "description": "Os ataques de Kog'Maw recebem alcance e causam um percentual da Vida máxima do alvo como Dano Mágico %i:OnHit% ao contato ."
+    },
+    {
+      "id": "KogMaw.E",
+      "ability": "E",
+      "name": "Gosma do Vazio",
+      "description": "Kog'Maw lança uma gosma que causa dano em todos os inimigos pelos quais ela passa, deixando um rastro que reduz a velocidade de inimigos que ficarem sobre ela."
+    },
+    {
+      "id": "KogMaw.R",
+      "ability": "R",
+      "name": "Artilharia Viva",
+      "description": "Kog'Maw dispara uma cápsula de artilharia a uma grande distância, causando Dano Mágico (aumentado drasticamente em inimigos com pouca Vida) e revelando alvos não invisíveis. Além disso, mais de uma Artilharia Viva em um curto período de tempo faz com que custem Mana adicional."
+    },
+    {
+      "id": "KogMaw.P",
+      "ability": "P",
+      "name": "Surpresa Icathiana",
+      "description": "Ao morrer, Kog'Maw explode depois de 4s, causando Dano Verdadeiro a inimigos próximos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Cusparada Cáustica: Kog'Maw dispara um projétil corrosivo que causa Dano Mágico, corroendo a Armadura e Resistência Mágica do alvo por um curto período de tempo. Kog'Maw também recebe Velocidade de Ataque adicional.",
+      "Artilharia Viva: Kog'Maw dispara uma cápsula de artilharia a uma grande distância, causando Dano Mágico (aumentado drasticamente em inimigos com pouca Vida) e revelando alvos não invisíveis. Além disso, mais de uma Artilharia Viva em um curto período de tempo faz com que custem Mana adicional."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Kog'Maw pode atingir campeões muito distantes com sua habilidade Barragem Bio-Arcana.",
+      "Use Gosma do Vazio para preparar uma Artilharia Viva perfeita.",
+      "Aproveite o máximo que puder de sua Surpresa Icathiana."
+    ],
+    "against": [
+      "Kog'Maw não tem uma boa habilidade para fugir, sendo especialmente propenso a receber emboscadas.",
+      "Fuja de Kog'Maw quando ele morrer!",
+      "O alcance de Artilharia Viva aumenta a cada ranque.",
+      "Barragem Bio-Arcana permite que Kog'Maw derrote o Barão Na'Shor logo no início da partida. É uma boa ideia deixar uma sentinela no Barão Na'Shor quando Kog'Maw construir sua Espada do Rei Destruído."
+    ]
+  }
+}

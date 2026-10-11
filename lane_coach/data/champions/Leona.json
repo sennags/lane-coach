@@ -1,0 +1,91 @@
+{
+  "id": "Leona",
+  "name": "Leona",
+  "title": "a Alvorada Radiante",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Leona.json",
+    "label": "Riot Data Dragon — Leona",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Leona.Q",
+      "ability": "Q",
+      "name": "Proteção da Aurora",
+      "description": "Leona usa seu escudo para fazer seu próximo ataque básico, causando Dano Mágico adicional e atordoando o alvo."
+    },
+    {
+      "id": "Leona.W",
+      "ability": "W",
+      "name": "Eclipse",
+      "description": "Leona ergue seu escudo para receber redução de dano, Armadura e Resistência Mágica. Quando a duração chegar ao fim, caso haja inimigos próximos, ela causará Dano Mágico a eles e prolongará a duração do efeito."
+    },
+    {
+      "id": "Leona.E",
+      "ability": "E",
+      "name": "Lâmina Zênite",
+      "description": "Leona projeta uma imagem solar da sua espada, causando Dano Mágico a todos os inimigos em uma fila. Quando a imagem some, o último campeão inimigo a ser acertado fica imobilizado por um curto periodo e Leona o ataca."
+    },
+    {
+      "id": "Leona.R",
+      "ability": "R",
+      "name": "Labareda Solar",
+      "description": "Leona invoca um raio de energia solar do céu, causando dano aos inimigos em uma área. Inimigos no centro da área são atordoados, enquanto inimigos próximos à extremidade sofrem redução de velocidade."
+    },
+    {
+      "id": "Leona.P",
+      "ability": "P",
+      "name": "Luz do Sol",
+      "description": "Habilidades que causam dano atingem os inimigos com Luz do Sol por 1,5s. Quando Campeões aliados causam dano a esses alvos, a Luz do Sol é consumida para causar Dano Mágico adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Proteção da Aurora: Leona usa seu escudo para fazer seu próximo ataque básico, causando Dano Mágico adicional e atordoando o alvo.",
+      "Labareda Solar: Leona invoca um raio de energia solar do céu, causando dano aos inimigos em uma área. Inimigos no centro da área são atordoados, enquanto inimigos próximos à extremidade sofrem redução de velocidade."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Lidere a investida e marque seus inimigos com Luz do Sol antes que seus aliados causem dano.",
+      "Proteção da Aurora e Lâmina Zênite formam uma poderosa combinação de ataque.",
+      "Você pode absorver uma quantia gigantesca de dano usando Eclipse, mas precisa ficar próximo(a) a inimigos para receber a duração adicional."
+    ],
+    "against": [
+      "Quando Leona ativa o Eclipse, você tem três segundos para se afastar dela antes que ela cause dano.",
+      "Apenas adversários no centro da Labareda Solar ficam atordoados, então se você for rápido, poderá evitar isto muitas vezes."
+    ]
+  }
+}

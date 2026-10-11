@@ -1,0 +1,91 @@
+{
+  "id": "Sivir",
+  "name": "Sivir",
+  "title": "a Mestra da Batalha",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sivir.json",
+    "label": "Riot Data Dragon — Sivir",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Sivir.Q",
+      "ability": "Q",
+      "name": "Lâmina Bumerangue",
+      "description": "Sivir arremessa sua lâmina como um bumerangue, causando dano tanto na ida quanto na volta."
+    },
+    {
+      "id": "Sivir.W",
+      "ability": "W",
+      "name": "Ricochete",
+      "description": "Os próximos ataques básicos de Sivir recebem Velocidade de Ataque adicional e ricocheteiam em alvos próximos, causando dano reduzido enquanto rebatem."
+    },
+    {
+      "id": "Sivir.E",
+      "ability": "E",
+      "name": "Escudo de Feitiço",
+      "description": "Cria uma barreira mágica que bloqueia a habilidade de um único inimigo lançada em Sivir. Ela recebe Vida e uma explosão de Velocidade de Movimento se uma habilidade for bloqueada."
+    },
+    {
+      "id": "Sivir.R",
+      "ability": "R",
+      "name": "Na Caçada",
+      "description": "Sivir conduz os aliados até a batalha, concedendo uma explosão de Velocidade de Movimento a eles por um curto período. Além disso, os ataques de Sivir reduzem o Tempo de Recarga das habilidades."
+    },
+    {
+      "id": "Sivir.P",
+      "ability": "P",
+      "name": "Pés Ligeiros",
+      "description": "Sivir ganha um pequeno impulso de Velocidade de Movimento quando ela ataca um campeão inimigo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Lâmina Bumerangue: Sivir arremessa sua lâmina como um bumerangue, causando dano tanto na ida quanto na volta.",
+      "Na Caçada: Sivir conduz os aliados até a batalha, concedendo uma explosão de Velocidade de Movimento a eles por um curto período. Além disso, os ataques de Sivir reduzem o Tempo de Recarga das habilidades."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "A Lâmina Bumerangue de Sivir retorna à ela após alcançar a distância máxima, então você pode trocar de posição para acertar um inimigo que tenha esquivado do ataque.",
+      "Ricochete zera o temporizador de ataques básicos de Sivir ao ser ativado. Portanto, ativar esta habilidade imediatamente após desferir um ataque normal maximizará o dano causado.",
+      "Tente economizar o Escudo de Feitiço de Sivir para habilidades inimigas que podem causar desarmes, tais como atordoamentos e enraizamentos."
+    ],
+    "against": [
+      "Lâmina Bumerangue custa muita Mana; desvie dela para atrasar Sivir. Se ela te acertar no caminho de ida, desvie durante o caminho de volta.",
+      "Sivir é uma Campeã poderosa para avançar. Deixá-la sozinha em rota por muito tempo costuma resultar em ver suas torres no chão.",
+      "Na fase de rotas contra Sivir, é possível atrapalhar o tempo de seu Escudo de Feitiço ao fingir um ataque e recuar logo em seguida."
+    ]
+  }
+}

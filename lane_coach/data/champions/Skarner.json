@@ -1,0 +1,92 @@
+{
+  "id": "Skarner",
+  "name": "Skarner",
+  "title": "o Soberano Primordial",
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Skarner.json",
+    "label": "Riot Data Dragon — Skarner",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Skarner.Q",
+      "ability": "Q",
+      "name": "Terra Arrasada/Sublevação",
+      "description": "Skarner arranca um pedregulho do chão que fortalece seus Ataques e pode ser arremessado como um projétil poderoso."
+    },
+    {
+      "id": "Skarner.W",
+      "ability": "W",
+      "name": "Bastião Sísmico",
+      "description": "Skarner recebe um Escudo e cria um terremoto cuja onda de choque causa dano e Lentidão aos inimigos."
+    },
+    {
+      "id": "Skarner.E",
+      "ability": "E",
+      "name": "Impacto de Ixtal",
+      "description": "Skarner avança e atravessa o terreno. Se colidir com um Campeão ou monstro grande, ele o empurrará contra uma parede próxima para causar dano e atordoá-lo."
+    },
+    {
+      "id": "Skarner.R",
+      "ability": "R",
+      "name": "Empalar",
+      "description": "As caudas de Skarner atacam e suprimem Campeões inimigos. Após serem suprimidas, as vítimas serão arrastadas por Skarner enquanto ele se movimenta."
+    },
+    {
+      "id": "Skarner.P",
+      "ability": "P",
+      "name": "Linhas de Vibração",
+      "description": "Os Ataques do Skarner, Terra Arrasada, Sublevação e Empalar, aplicam Tremor. Com o máximo de acúmulos de Tremor, os inimigos sofrem Dano Mágico com base na Vida máxima ao longo da duração."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Terra Arrasada/Sublevação: Skarner arranca um pedregulho do chão que fortalece seus Ataques e pode ser arremessado como um projétil poderoso.",
+      "Empalar: As caudas de Skarner atacam e suprimem Campeões inimigos. Após serem suprimidas, as vítimas serão arrastadas por Skarner enquanto ele se movimenta."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Ataques básicos aplicam Tremor. Foque no seu alvo e reaplique o efeito para maximizar o dano causado.",
+      "Capturar Espirais Cristalinas antes de tentar conquistar objetivos neutros ou encarar confrontos de equipe perto delas melhora consideravelmente o desempenho de Skarner.",
+      "Empalar é extremamente poderosa quando usada para posicionar um inimigo para que seus aliados o ataquem."
+    ],
+    "against": [
+      "Impacto de Ixtal pode ser interrompida por qualquer Atordoamento, Enraizamento ou Arremesso ao Ar. Guarde uma habilidade para quando ele estiver vindo emboscar!",
+      "É possível se esquivar de Empalar. Use Flash ou outra habilidade para sair do alcance.",
+      "O dano contínuo de Skarner pode acabar com você. Cuidado para não ignorá-lo."
+    ]
+  }
+}

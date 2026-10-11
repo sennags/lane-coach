@@ -1,0 +1,93 @@
+{
+  "id": "Swain",
+  "name": "Swain",
+  "title": "o Grande General Noxiano",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Swain.json",
+    "label": "Riot Data Dragon — Swain",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Swain.Q",
+      "ability": "Q",
+      "name": "Mão da Morte",
+      "description": "Swain dispara vários raios de poder sombrio que perfuram os inimigos. Inimigos atingidos sofrem mais dano para cada raio que os atingir."
+    },
+    {
+      "id": "Swain.W",
+      "ability": "W",
+      "name": "Visão do Império",
+      "description": "Swain abre um olho demoníaco que causa dano e reduz a velocidade dos inimigos. Campeões atingidos são revelados e concedem um Fragmento de Alma a Swain."
+    },
+    {
+      "id": "Swain.E",
+      "ability": "E",
+      "name": "Nuncamova",
+      "description": "Swain lança uma onda de poder demoníaco à frente. Em seguida, a onda retorna para Swain e enraíza os inimigos que atingir. Swain pode escolher puxar todos os Campeões inimigos enraizados para perto. Esta Habilidade tem Tempo de Recarga reduzido durante Ascensão Demoníaca."
+    },
+    {
+      "id": "Swain.R",
+      "ability": "R",
+      "name": "Ascensão Demoníaca",
+      "description": "Swain se transforma em demônio e drena Vida de Campeões, tropas e monstros neutros próximos. Swain pode conjurar Chama Demoníaca para dizimar e causar Lentidão a inimigos próximos com uma explosão de fogo espiritual. Essa forma é indefinida enquanto Swain drenar Campeões inimigos."
+    },
+    {
+      "id": "Swain.P",
+      "ability": "P",
+      "name": "Bando Voraz",
+      "description": "Os corvos de Swain coletam Fragmentos de Alma que o curam e aumentam permanentemente a Vida máxima dele."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Mão da Morte: Swain dispara vários raios de poder sombrio que perfuram os inimigos. Inimigos atingidos sofrem mais dano para cada raio que os atingir.",
+      "Ascensão Demoníaca: Swain se transforma em demônio e drena Vida de Campeões, tropas e monstros neutros próximos. Swain pode conjurar Chama Demoníaca para dizimar e causar Lentidão a inimigos próximos com uma explosão de fogo espiritual. Essa forma é indefinida enquanto Swain drenar Campeões inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Se você está com problemas para prender inimigos com Nuncamova, tente lançá-la em oponentes quando eles estão perto de suas tropas de forma que a explosão os surpreenda.",
+      "Durante a fase de rotas, tente usar o dano perfurante de Mão da Morte para causar dano a inimigos de um distância segura.",
+      "Visão do Império é bem difícil de acertar por si só, então tente procurar por combates pelo mapa nos quais os inimigos podem estar distraídos ou sob efeitos de Controle de Grupo.",
+      "Ascensão Demoníaca pode fazer com que Swain seja mais difícil de abater, mas é bem fácil fugir dele. Tente construir itens que reduzam a velocidade de seus oponentes para mantê-los distantes caso sua mobilidade seja muito alta."
+    ],
+    "against": [
+      "A passiva de Swain é muito poderosa se você estiver imobilizado. Tome cuidado dobrado quando estiver próximo de inimigos que possuem efeitos imobilizadores.",
+      "Uma alta mobilidade pode neutralizar todas as habilidades básicas de Swain: Mão da Morte causa mais dano quanto mais perto ele estiver, Visão do Império possui um intervalo longo e Nuncamova precisa estar vindo na sua direção para ser perigosa.",
+      "Comprar um item com Feridas Dolorosas fará com que abater Swain durante sua Ascensão Demoníaca seja mais fácil."
+    ]
+  }
+}

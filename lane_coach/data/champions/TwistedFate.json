@@ -1,0 +1,91 @@
+{
+  "id": "TwistedFate",
+  "name": "Twisted Fate",
+  "title": "o Mestre das Cartas",
+  "tags": [
+    "Mage",
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/TwistedFate.json",
+    "label": "Riot Data Dragon — Twisted Fate",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "TwistedFate.Q",
+      "ability": "Q",
+      "name": "Curingas",
+      "description": "Twisted Fate arremessa três cartas, causando dano a cada inimigo que elas atravessam."
+    },
+    {
+      "id": "TwistedFate.W",
+      "ability": "W",
+      "name": "Escolha uma Carta",
+      "description": "Twisted Fate escolhe uma carta mágica de seu baralho e a usa em seu próximo ataque, causando efeitos adicionais."
+    },
+    {
+      "id": "TwistedFate.E",
+      "ability": "E",
+      "name": "Baralho Marcado",
+      "description": "A cada 4 ataques, Twisted Fate causa dano adicional. Além disso, sua Velocidade de Ataque aumenta."
+    },
+    {
+      "id": "TwistedFate.R",
+      "ability": "R",
+      "name": "Destino",
+      "description": "Twisted Fate prevê o futuro de seus adversários, revelando todos os Campeões inimigos e habilitando o uso de Portal, que o teleporta para qualquer local-alvo em 1,5s."
+    },
+    {
+      "id": "TwistedFate.P",
+      "ability": "P",
+      "name": "Dados Viciados",
+      "description": "Ao abater uma unidade, Twisted Fate rola seu dado da ''sorte'' e recebe de 1 a 6 de ouro adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Curingas: Twisted Fate arremessa três cartas, causando dano a cada inimigo que elas atravessam.",
+      "Destino: Twisted Fate prevê o futuro de seus adversários, revelando todos os Campeões inimigos e habilitando o uso de Portal, que o teleporta para qualquer local-alvo em 1,5s."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Coordene a melhor hora para usar Destino com seus aliados e embosque seus inimigos.",
+      "Personagens invisíveis normalmente escapam de uma batalha com pouca Vida. Aproveite-se da habilidade Destino para revelá-las e acabar com elas.",
+      "Twisted Fate é viável tanto com Dano de Ataque quanto com Poder de Habilidade. Isto permite que ele entre em diferentes composições de equipe."
+    ],
+    "against": [
+      "Concentre-se em desviar dos Curingas quando seu campeão não tiver Vida suficiente para aguentar muito dano.",
+      "Caso tenha pouca Vida, use Destino como um indicador para fugir na hora certa. Ele lhe ajudará a escapar de qualquer emboscada em potencial."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "Orianna",
+  "name": "Orianna",
+  "title": "a Donzela Mecânica",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Orianna.json",
+    "label": "Riot Data Dragon — Orianna",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Orianna.Q",
+      "ability": "Q",
+      "name": "Comando: Atacar",
+      "description": "Orianna comanda sua Esfera para avançar no local-alvo, causando Dano Mágico ao longo do caminho (causa menos dano a alvos subsequentes). A Esfera permanece no mesmo lugar após o comando."
+    },
+    {
+      "id": "Orianna.W",
+      "ability": "W",
+      "name": "Comando: Dissonância",
+      "description": "Orianna comanda que sua Esfera desfira um pulso de energia, causando Dano Mágico ao seu redor. Isso deixa para trás um campo que aumenta a Velocidade de Movimento de aliados e causa Lentidão aos inimigos."
+    },
+    {
+      "id": "Orianna.E",
+      "ability": "E",
+      "name": "Comando: Proteger",
+      "description": "Orianna comanda que sua Esfera se prenda a um Campeão aliado, concedendo a ele um Escudo e causando Dano Mágico a qualquer inimigo que ela atravessar em seu trajeto. Além disso, a Esfera concede Armadura e Resistência Mágica adicionais ao Campeão ao qual estiver presa."
+    },
+    {
+      "id": "Orianna.R",
+      "ability": "R",
+      "name": "Comando: Onda de Choque",
+      "description": "Orianna comanda sua Esfera para desferir uma onda de choque, causando Dano Mágico e deslocando inimigos próximos em direção à Esfera após um curto intervalo."
+    },
+    {
+      "id": "Orianna.P",
+      "ability": "P",
+      "name": "Dando Corda",
+      "description": "Os Ataques de Orianna causam Dano Mágico adicional. O dano aumenta a cada vez que ela Ataca o mesmo alvo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Comando: Atacar: Orianna comanda sua Esfera para avançar no local-alvo, causando Dano Mágico ao longo do caminho (causa menos dano a alvos subsequentes). A Esfera permanece no mesmo lugar após o comando.",
+      "Comando: Onda de Choque: Orianna comanda sua Esfera para desferir uma onda de choque, causando Dano Mágico e deslocando inimigos próximos em direção à Esfera após um curto intervalo."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Comando: Proteger pode ser usado em si mesma para que a Esfera retorne rapidamente. Combine isso com Comando: Atacar para desferir uma agressão rápida.",
+      "Comando: Dissonância é uma poderosa ferramenta de fuga se Orianna estiver com a Esfera. A combinação de velocidade e de deixar um obstáculo que causa lentidão pode ser bem poderosa.",
+      "Comando: Onda de Choque pode ser usado tanto para trazer inimigos em sua direção quanto para afastá-los de você, dependendo do posicionamento da Esfera."
+    ],
+    "against": [
+      "Orianna pode afetar uma área somente se a Esfera estiver por perto. Use isso em sua vantagem.",
+      "Tenha atenção no retorno da Esfera de Orianna. Isso pode levar a situações inesperadas."
+    ]
+  }
+}

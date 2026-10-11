@@ -1,0 +1,90 @@
+{
+  "id": "Udyr",
+  "name": "Udyr",
+  "title": "o Andarilho Espiritual",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Udyr.json",
+    "label": "Riot Data Dragon — Udyr",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Udyr.Q",
+      "ability": "Q",
+      "name": "Garra Selvagem",
+      "description": "Udyr recebe Velocidade de Ataque, e seus próximos dois Ataques causam Dano Físico adicional. Reconjuração: recebe ainda mais Velocidade de Ataque, e seus próximos dois Ataques conjuram relâmpagos no alvo."
+    },
+    {
+      "id": "Udyr.W",
+      "ability": "W",
+      "name": "Manto de Ferro",
+      "description": "Udyr recebe um Escudo e seus próximos dois Ataques o curam. Reconjuração: recebe um Escudo ainda maior e cura com base na Vida máxima pelos próximos segundos."
+    },
+    {
+      "id": "Udyr.E",
+      "ability": "E",
+      "name": "Investida Ardente",
+      "description": "Udyr recebe Velocidade de Movimento e causa Atordoamento em seu primeiro Ataque a cada alvo. Reconjuração: recebe ainda mais Velocidade de Movimento e imunidade a efeitos imobilizadores por alguns segundos."
+    },
+    {
+      "id": "Udyr.R",
+      "ability": "R",
+      "name": "Tempestade Alada",
+      "description": "Udyr cerca a si mesmo com uma tempestade glacial, causando dano e Lentidão a inimigos próximos. Reconjuração: fortalece e desencadeia a tempestade, fazendo com que ela siga inimigos e cause dano adicional."
+    },
+    {
+      "id": "Udyr.P",
+      "ability": "P",
+      "name": "Ponte Espiritual",
+      "description": "Udyr tem quatro Habilidades básicas que o fazem alternar entre Posturas e pode Reconjurar uma Habilidade para renová-la com efeitos adicionais na ultimate. Além disso, após usar uma Habilidade, os próximos dois Ataques de Udyr recebem Velocidade de Ataque."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Garra Selvagem: Udyr recebe Velocidade de Ataque, e seus próximos dois Ataques causam Dano Físico adicional. Reconjuração: recebe ainda mais Velocidade de Ataque, e seus próximos dois Ataques conjuram relâmpagos no alvo.",
+      "Tempestade Alada: Udyr cerca a si mesmo com uma tempestade glacial, causando dano e Lentidão a inimigos próximos. Reconjuração: fortalece e desencadeia a tempestade, fazendo com que ela siga inimigos e cause dano adicional."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Dano é aplicado ao escudo de tartaruga após ter atenuado o golpe. Por isso, comprar itens defensivos pode aumentar drasticamente sua capacidade de sobrevivência.",
+      "Udyr é um dos melhores dentro da selva no jogo. Tirar vantagem disto pode dar à sua equipe uma grande vantagem de EXP e controle do mapa."
+    ],
+    "against": [
+      "Udyr tem opções à distância limitadas, tente ficar longe.",
+      "Depois de usar a versão Desperta e mais poderosa de uma habilidade, Udyr não pode Despertar outras habilidades por algum tempo."
+    ]
+  }
+}

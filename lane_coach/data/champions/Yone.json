@@ -2,6 +2,10 @@
   "id": "Yone",
   "name": "Yone",
   "title": "o Inesquecido",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
   "source": {
     "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Yone.json",
     "label": "Riot Data Dragon — Yone",
@@ -13,13 +17,13 @@
       "id": "Yone.Q",
       "ability": "Q",
       "name": "Aço Mortal",
-      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta.  Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com dois acúmulos, Aço Mortal faz Yone avançar com o vento,  Arremessando ao ar  os inimigos."
+      "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com dois acúmulos, Aço Mortal faz Yone avançar com o vento, Arremessando ao ar os inimigos."
     },
     {
       "id": "Yone.W",
       "ability": "W",
       "name": "Fenda Espiritual",
-      "description": "Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe.  O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque."
+      "description": "Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe. O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque."
     },
     {
       "id": "Yone.E",
@@ -140,6 +144,11 @@
       }
     },
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "basis": "champion_specific"
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
   }
 }

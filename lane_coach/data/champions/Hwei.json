@@ -1,0 +1,91 @@
+{
+  "id": "Hwei",
+  "name": "Hwei",
+  "title": "o Visionário",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Hwei.json",
+    "label": "Riot Data Dragon — Hwei",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Hwei.Q",
+      "ability": "Q",
+      "name": "Tema: Desastre",
+      "description": "Hwei vislumbra uma série de desastres, o que lhe permite pintar um golpe devastador. Substitui as Habilidades de Hwei por Habilidades de dano: Fogo Devastador, Raio Cortante e Fissura Derretida."
+    },
+    {
+      "id": "Hwei.W",
+      "ability": "W",
+      "name": "Tema: Serenidade",
+      "description": "Hwei vislumbra uma série de serenidades, o que lhe permite pintar visões revigorantes. Substitui as Habilidades de Hwei por Habilidades de utilidade: Corrente Fugaz, Lagoa da Reflexão e Luzes Vivas."
+    },
+    {
+      "id": "Hwei.E",
+      "ability": "E",
+      "name": "Tema: Tormento",
+      "description": "Hwei vislumbra uma série de tormentos, o que lhe permite pintar visões controladoras. Substitui as Habilidades de Hwei por Habilidades de Controle de Grupo: Semblante Sinistro, Olhar do Abismo e Gorja Esmagadora."
+    },
+    {
+      "id": "Hwei.R",
+      "ability": "R",
+      "name": "Desespero Vertiginoso",
+      "description": "Hwei pinta uma paisagem de puro desespero. O primeiro Campeão inimigo atingido se torna o centro de uma pintura em expansão que causa dano e Lentidão aos inimigos próximos. A visão explode depois de atingir seu tamanho máximo ou quando o Campeão for abatido."
+    },
+    {
+      "id": "Hwei.P",
+      "ability": "P",
+      "name": "Assinatura do Visionário",
+      "description": "Hwei prepara os Campeões inimigos que sofrerem dano de suas Habilidades para deixar sua inconfundível assinatura. Atingir um inimigo com uma segunda Habilidade de dano conclui a assinatura, que fica sob ele. A assinatura detona após um breve intervalo, causando Dano Mágico a todos os inimigos dentro do alcance."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Tema: Desastre: Hwei vislumbra uma série de desastres, o que lhe permite pintar um golpe devastador. Substitui as Habilidades de Hwei por Habilidades de dano: Fogo Devastador, Raio Cortante e Fissura Derretida.",
+      "Desespero Vertiginoso: Hwei pinta uma paisagem de puro desespero. O primeiro Campeão inimigo atingido se torna o centro de uma pintura em expansão que causa dano e Lentidão aos inimigos próximos. A visão explode depois de atingir seu tamanho máximo ou quando o Campeão for abatido."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Acalme-se, respire e concentre-se.",
+      "Cada pincelada exige precisão e intenção."
+    ],
+    "against": [
+      "Hwei precisa prever seu posicionamento e leva tempo para conjurar. Pegue ele de surpresa!",
+      "O raio de Hwei é mortal, mas lento, além de causar mais dano quando você está sozinho ou incapaz de se mover.",
+      "Depois que Hwei pinta Tormento, ele fica vulnerável a iniciações."
+    ]
+  }
+}

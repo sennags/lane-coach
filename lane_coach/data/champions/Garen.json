@@ -1,0 +1,93 @@
+{
+  "id": "Garen",
+  "name": "Garen",
+  "title": "o Poder de Demacia",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Garen.json",
+    "label": "Riot Data Dragon — Garen",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Garen.Q",
+      "ability": "Q",
+      "name": "Acerto Decisivo",
+      "description": "Garen recebe um impulso de Velocidade de Movimento, libertando-se de todos os efeitos de Lentidão. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o."
+    },
+    {
+      "id": "Garen.W",
+      "ability": "W",
+      "name": "Coragem",
+      "description": "Garen aumenta sua Armadura e Resistência Mágica passivamente ao abater inimigos. Ele também pode ativar essa habilidade para receber um escudo e Tenacidade por um breve período, seguido de uma quantidade menor de redução de dano com maior duração."
+    },
+    {
+      "id": "Garen.E",
+      "ability": "E",
+      "name": "Julgamento",
+      "description": "Garen gira rapidamente a espada ao redor do corpo dele, causando Dano Físico a inimigos próximos."
+    },
+    {
+      "id": "Garen.R",
+      "ability": "R",
+      "name": "Justiça Demaciana",
+      "description": "Garen evoca o Poder de Demacia para tentar executar um Campeão inimigo."
+    },
+    {
+      "id": "Garen.P",
+      "ability": "P",
+      "name": "Perseverança",
+      "description": "Se Garen não tiver sido atingido recentemente por dano ou habilidades inimigas, ele regenera um percentual de sua Vida total a cada segundo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Acerto Decisivo: Garen recebe um impulso de Velocidade de Movimento, libertando-se de todos os efeitos de Lentidão. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o.",
+      "Justiça Demaciana: Garen evoca o Poder de Demacia para tentar executar um Campeão inimigo."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "A regeneração de Garen aumenta drasticamente caso ele possa evitar o recebimento de dano por muitos segundos.",
+      "Julgamento causa o máximo de dano quando atinge um único alvo. Para trocas eficazes, tente posicionar-se de maneira que somente o campeão inimigo seja atingido.",
+      "Garen só é impedido por Tempos de Recarga, o que faz de itens tais como a Lâmina Fantasma de Youmuu e o Brutalizador muito eficazes para ele."
+    ],
+    "against": [
+      "Acumule itens de Armadura para reduzir a grande quantidade de Dano Físico que Garen causa.",
+      "Tente fugir de Garen conforme sua Vida diminui, pois ele pode lhe executar rapidamente com Justiça Demaciana.",
+      "Muito cuidado ao atacar Garen em um arbusto. Isto normalmente leva a receber o dano total de Julgamento.",
+      "Julgamento causa o máximo de dano quando atinge um único alvo. Se não for possível escapar de seu raio, mova-se através de tropas aliadas para reduzir o dano recebido."
+    ]
+  }
+}

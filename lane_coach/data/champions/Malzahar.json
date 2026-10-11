@@ -1,0 +1,91 @@
+{
+  "id": "Malzahar",
+  "name": "Malzahar",
+  "title": "o Profeta do Vazio",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Malzahar.json",
+    "label": "Riot Data Dragon — Malzahar",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Malzahar.Q",
+      "ability": "Q",
+      "name": "Chamado do Vazio",
+      "description": "Malzahar abre dois portais para o Vazio. Depois de um breve intervalo, eles disparam projéteis que causam Dano Mágico e silenciam Campeões inimigos."
+    },
+    {
+      "id": "Malzahar.W",
+      "ability": "W",
+      "name": "Enxame do Vazio",
+      "description": "Malzahar invoca Voidlings para atacar inimigos próximos."
+    },
+    {
+      "id": "Malzahar.E",
+      "ability": "E",
+      "name": "Visões Maléficas",
+      "description": "Malzahar infecta a mente de seu alvo com visões cruéis de sua própria morte, causando dano ao longo do tempo. Usar as outras habilidades de Malzahar no alvo reiniciará o efeito. Se o alvo for abatido enquanto afligido pelas visões, elas são transmitidas para uma unidade inimiga próxima e Malzahar recebe Mana. Os Voidlings de Malzahar são atraídos para as unidades afetadas."
+    },
+    {
+      "id": "Malzahar.R",
+      "ability": "R",
+      "name": "Aperto Ínfero",
+      "description": "Malzahar canaliza a essência do Vazio para suprimir o Campeão-alvo sobre uma área de energia negativa."
+    },
+    {
+      "id": "Malzahar.P",
+      "ability": "P",
+      "name": "Oscilação do Vazio",
+      "description": "Caso não tenha sofrido dano ou efeitos de Controle de Grupo recentemente, Malzahar recebe uma enorme redução de dano e imunidade a Controles de Grupo, que duram um curto período após sofrer dano."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Chamado do Vazio: Malzahar abre dois portais para o Vazio. Depois de um breve intervalo, eles disparam projéteis que causam Dano Mágico e silenciam Campeões inimigos.",
+      "Aperto Ínfero: Malzahar canaliza a essência do Vazio para suprimir o Campeão-alvo sobre uma área de energia negativa."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Espere até que haja inimigos próximos aos Voidlings para conjurar Enxame do Vazio.",
+      "Use Chamado do Vazio e Aperto Ínfero para renovar a duração de Visões Maléficas nos inimigos.",
+      "Evitar o dano na fase de rotas maximiza o tempo de funcionamento da Oscilação do Vazio, aumentando drasticamente a segurança de Malzahar."
+    ],
+    "against": [
+      "Quando Malzahar atinge uma habilidade em inimigos afetados por Visões Maléficas, o tempo delas é reiniciado.",
+      "Evite as levas de tropas que foram afetadas por Visões Maléficas. Nunca se sabe quando elas podem morrer e passar as visões para você.",
+      "Malzahar é especialmente perigoso quando estiver com o Enxame do Vazio acumulado."
+    ]
+  }
+}

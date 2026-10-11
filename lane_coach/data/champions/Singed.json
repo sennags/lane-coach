@@ -1,0 +1,92 @@
+{
+  "id": "Singed",
+  "name": "Singed",
+  "title": "o Químico Louco",
+  "tags": [
+    "Tank",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Singed.json",
+    "label": "Riot Data Dragon — Singed",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Singed.Q",
+      "ability": "Q",
+      "name": "Rastro de Veneno",
+      "description": "Deixa um rastro de veneno atrás de Singed, causando dano aos inimigos que passam por este caminho."
+    },
+    {
+      "id": "Singed.W",
+      "ability": "W",
+      "name": "Mega Adesivo",
+      "description": "Joga um frasco de Mega Adesivo no chão, reduzindo a velocidade e prendendo os inimigos que pisam nele."
+    },
+    {
+      "id": "Singed.E",
+      "ability": "E",
+      "name": "Lançar",
+      "description": "Causa dano ao inimigo alvo e o arremessa pelo ar para trás de Singed. Se o alvo que Singed arremessar aterrissar em seu Mega Adesivo, ele ficará enraizado."
+    },
+    {
+      "id": "Singed.R",
+      "ability": "R",
+      "name": "Poção da Insanidade",
+      "description": "Singed bebe uma mistura de compostos químicos potentes que concede a ele atributos de combate aumentados e faz com que o Rastro de Veneno aplique Feridas Dolorosas."
+    },
+    {
+      "id": "Singed.P",
+      "ability": "P",
+      "name": "Corrente de Ar Nociva",
+      "description": "Ao passar por Campeões próximos, Singed ganha Velocidade de Movimento."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Rastro de Veneno: Deixa um rastro de veneno atrás de Singed, causando dano aos inimigos que passam por este caminho.",
+      "Poção da Insanidade: Singed bebe uma mistura de compostos químicos potentes que concede a ele atributos de combate aumentados e faz com que o Rastro de Veneno aplique Feridas Dolorosas."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Rastro de Veneno é muito efetivo para matar, permitindo à Singed dominar o fluxo de qualquer rota em que ele esteja.",
+      "Use Poção da Insanidade para iludir seus oponentes fazendo-os perseguir você por seu Rastro de Veneno.",
+      "Arremessar inimigos na sua torre poderá causar grande quantidade de dano à eles."
+    ],
+    "against": [
+      "Mantenha distância para evitar ser arremessado em direção aos aliados de Singed.",
+      "Singed precisa ficar próximo de sua equipe para ser efetivo. Tente tirar vantagem disto usando efeitos de controle de grupo nele enquanto estiver atacando seus aliados.",
+      "Tenha cuidado quando perseguir Singed. Ele é muito difícil de derrubar e pode deixar seu Rastro de Veneno para causar dano a você em sua perseguição."
+    ]
+  }
+}

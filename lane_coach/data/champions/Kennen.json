@@ -1,0 +1,90 @@
+{
+  "id": "Kennen",
+  "name": "Kennen",
+  "title": "o Coração da Tempestade",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kennen.json",
+    "label": "Riot Data Dragon — Kennen",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Kennen.Q",
+      "ability": "Q",
+      "name": "Shuriken Trovejante",
+      "description": "Kennen arremessa um shuriken de alta velocidade em um local, causando dano e adicionando uma Marca da Tormenta a qualquer oponente atingido."
+    },
+    {
+      "id": "Kennen.W",
+      "ability": "W",
+      "name": "Surto Elétrico",
+      "description": "Kennen passivamente causa dano adicional e adiciona uma Marca da Tormenta a seu alvo a cada certo número de ataques. Ele pode ativar essa habilidade para causar dano e adicionar outra Marca da Tormenta a alvos que já estão marcados."
+    },
+    {
+      "id": "Kennen.E",
+      "ability": "E",
+      "name": "Investida Relâmpago",
+      "description": "Kennen assume uma forma de relâmpago, permitindo que passe por unidades e aplique a Marca da Tormenta. Ele também ganha Velocidade de Movimento ao assumir essa forma e Velocidade de Ataque ao sair dela."
+    },
+    {
+      "id": "Kennen.R",
+      "ability": "R",
+      "name": "Turbilhão Cortante",
+      "description": "Kennen invoca uma tempestade que atinge campeões inimigos próximos com Dano Mágico."
+    },
+    {
+      "id": "Kennen.P",
+      "ability": "P",
+      "name": "Marca da Tormenta",
+      "description": "Kennen atordoa os inimigos que atingir 3 vezes com suas habilidades."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Shuriken Trovejante: Kennen arremessa um shuriken de alta velocidade em um local, causando dano e adicionando uma Marca da Tormenta a qualquer oponente atingido.",
+      "Turbilhão Cortante: Kennen invoca uma tempestade que atinge campeões inimigos próximos com Dano Mágico."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode atordoar seus oponentes ao infligir-lhes 3 Marcas da Tormenta.",
+      "Investida Relâmpago pode ser usado para iniciar confrontos com seu componente de recuperação de Energia, permitindo que use outras habilidades em seguida.",
+      "Você pode acertar uma Marca da Tormenta inicial em um oponente com Shuriken Trovejante e, em seguida, adicionar mais um acúmulo com Surto Elétrico."
+    ],
+    "against": [
+      "Considere jogar com um pouco mais de cautela contra Kennen caso esteja com o efeito negativo da Marca da Tormenta. Caso ele lhe atinja com 3 Marcas da Tormenta, você será atordoado.",
+      "Kennen é frágil por natureza, então vire e ataque caso ele fique descuidado com Investida Relâmpago."
+    ]
+  }
+}

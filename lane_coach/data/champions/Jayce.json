@@ -1,0 +1,92 @@
+{
+  "id": "Jayce",
+  "name": "Jayce",
+  "title": "o Defensor do Amanhã",
+  "tags": [
+    "Fighter",
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jayce.json",
+    "label": "Riot Data Dragon — Jayce",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Jayce.Q",
+      "ability": "Q",
+      "name": "Aos Céus! / Disparo Chocante",
+      "description": "Empunhadura de Martelo: Salta na direção de um inimigo, causando Dano Físico e Lentidão. Empunhadura de Canhão: Dispara um orbe de eletricidade que detona ao atingir um inimigo (ou ao alcançar o fim de seu trajeto), causando Dano Físico a todos os inimigos atingidos."
+    },
+    {
+      "id": "Jayce.W",
+      "ability": "W",
+      "name": "Campo Elétrico / Hipercarga",
+      "description": "Empunhadura de Martelo: Passivo: Restaura Mana a cada acerto. Ativo: Cria um campo elétrico que causa dano a inimigos próximos por muitos segundos. Empunhadura de Canhão: Recebe um impulso de energia, aumentando a Velocidade de Ataque para seu máximo por diversos ataques."
+    },
+    {
+      "id": "Jayce.E",
+      "ability": "E",
+      "name": "Golpe Trovejante / Portão Acelerador",
+      "description": "Empunhadura de Martelo: causa Dano Mágico e empurra inimigos por uma curta distância. Empunhadura de Canhão: posiciona um Portão Acelerador que aumenta a Velocidade de Movimento dos Campeões aliados que o atravessarem. Se Disparo Chocante for usada através do portão, a velocidade, o alcance e o dano do projétil aumentarão."
+    },
+    {
+      "id": "Jayce.R",
+      "ability": "R",
+      "name": "Canhão de Mercúrio / Martelo de Mercúrio",
+      "description": "Empunhadura de Martelo: Transforma o Martelo de Mercúrio em Canhão de Mercúrio, recebendo novas habilidades e ataques à distância. O primeiro ataque desta forma reduzirá a Armadura e a Resistência Mágica do alvo. Empunhadura de Canhão: Transforma o Canhão de Mercúrio em Martelo de Mercúrio, recebendo novas habilidades, aumentando a Resistência Mágica e a Armadura. O primeiro ataque desta forma causará Dano Mágico adicional."
+    },
+    {
+      "id": "Jayce.P",
+      "ability": "P",
+      "name": "Capacitor Hextec",
+      "description": "Quando Jayce troca de arma, ele recebe Velocidade de Movimento por um curto período."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Aos Céus! / Disparo Chocante: Empunhadura de Martelo: Salta na direção de um inimigo, causando Dano Físico e Lentidão. Empunhadura de Canhão: Dispara um orbe de eletricidade que detona ao atingir um inimigo (ou ao alcançar o fim de seu trajeto), causando Dano Físico a todos os inimigos atingidos.",
+      "Canhão de Mercúrio / Martelo de Mercúrio: Empunhadura de Martelo: Transforma o Martelo de Mercúrio em Canhão de Mercúrio, recebendo novas habilidades e ataques à distância. O primeiro ataque desta forma reduzirá a Armadura e a Resistência Mágica do alvo. Empunhadura de Canhão: Transforma o Canhão de Mercúrio em Martelo de Mercúrio, recebendo novas habilidades, aumentando a Resistência Mágica e a Armadura. O primeiro ataque desta forma causará Dano Mágico adicional."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Certifique-se de trocar de empunhadura com frequência. Isso aprimorará seus ataques e lhe concederá momentos breves de aceleração.",
+      "Caso perceba que está tomando muito dano, tente usar a Empunhadura de Martelo de Jayce, já que ela concede defesa adicional.",
+      "Para aumentar seu alcance e dano, tente conjurar Disparo Chocante através do Portão Acelerador."
+    ],
+    "against": [
+      "Jayce pode atacar corpo a corpo ou à distância. Mantenha atenção à sua empunhadura e cor da arma para saber como ele vai atacar.",
+      "Caso veja Jayce usar seu Portão Acelerador, tenha cuidado: ele provavelmente vai conjurar Disparo Chocante.",
+      "Jayce é forte no início das partidas. Caso ele fique em vantagem, jogue na defensiva."
+    ]
+  }
+}

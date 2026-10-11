@@ -1,0 +1,92 @@
+{
+  "id": "Twitch",
+  "name": "Twitch",
+  "title": "o Semeador da Peste",
+  "tags": [
+    "Marksman",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Twitch.json",
+    "label": "Riot Data Dragon — Twitch",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Twitch.Q",
+      "ability": "Q",
+      "name": "Emboscada",
+      "description": "Twitch fica Camuflado por um curto período e recebe Velocidade de Movimento. Ao sair da Camuflagem, Twitch recebe Velocidade de Ataque por um curto período. Quando um Campeão inimigo com Veneno Mortal é abatido, o Tempo de Recarga de Emboscada é reiniciado."
+    },
+    {
+      "id": "Twitch.W",
+      "ability": "W",
+      "name": "Tonel de Veneno",
+      "description": "Twitch joga um tonel de veneno que explode em uma área, causando Lentidão e veneno mortal aos alvos."
+    },
+    {
+      "id": "Twitch.E",
+      "ability": "E",
+      "name": "Contaminar",
+      "description": "Twitch causa ainda mais destruição em inimigos envenenados com uma explosão de suas pestes."
+    },
+    {
+      "id": "Twitch.R",
+      "ability": "R",
+      "name": "Passando Fogo",
+      "description": "Twitch desfere o poder total de sua besta, fazendo disparos de longuíssimo alcance que perfuram todos os inimigos pegos em seu trajeto."
+    },
+    {
+      "id": "Twitch.P",
+      "ability": "P",
+      "name": "Veneno Mortal",
+      "description": "Os ataques básicos de Twitch infectam o alvo %i:OnHit% ao contato , causando Dano Verdadeiro a cada segundo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Emboscada: Twitch fica Camuflado por um curto período e recebe Velocidade de Movimento. Ao sair da Camuflagem, Twitch recebe Velocidade de Ataque por um curto período. Quando um Campeão inimigo com Veneno Mortal é abatido, o Tempo de Recarga de Emboscada é reiniciado.",
+      "Passando Fogo: Twitch desfere o poder total de sua besta, fazendo disparos de longuíssimo alcance que perfuram todos os inimigos pegos em seu trajeto."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "A Velocidade de Ataque de Twitch é uma das maiores de todo o jogo; tente comprar itens com efeitos ao contato, tais como Cutelo Negro ou Limite da Razão.",
+      "Contaminar tem um grande alcance; aplique quantas unidades de Veneno Mortal forem possíveis antes de usá-la.",
+      "Você pode alcançar um inimigo fora do alcance do ataque com Tonel de Veneno."
+    ],
+    "against": [
+      "Twitch é frágil. Trabalhe com seus colegas de equipe para focar nele quando puderem pegá-lo sem Camuflagem.",
+      "Escudos de Feitiço não bloqueiam o dano de Veneno Mortal, mas bloqueiam os efeitos que Twitch pode acionar com ele.",
+      "Se suspeitar que Twitch deixou a rota, avise seus colegas de equipe que ele está ''desaparecido ('MIA')''."
+    ]
+  }
+}

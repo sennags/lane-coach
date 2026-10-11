@@ -1,0 +1,92 @@
+{
+  "id": "Vladimir",
+  "name": "Vladimir",
+  "title": "o Sanguinário Escarlate",
+  "tags": [
+    "Mage",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vladimir.json",
+    "label": "Riot Data Dragon — Vladimir",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Vladimir.Q",
+      "ability": "Q",
+      "name": "Transfusão",
+      "description": "Vladimir rouba vida do inimigo-alvo. Quando sua reserva estiver cheia, Transfusão terá os benefícios de dano e cura drasticamente aumentados por um breve período."
+    },
+    {
+      "id": "Vladimir.W",
+      "ability": "W",
+      "name": "Poça de Sangue",
+      "description": "Vladimir mergulha numa poça de sangue, tornando-se inalvejável por 2s. Além disso, inimigos na poça sofrem redução de Velocidade de Movimento e Vladimir drena Vida deles."
+    },
+    {
+      "id": "Vladimir.E",
+      "ability": "E",
+      "name": "Maré de Sangue",
+      "description": "Vladimir paga com a própria Vida para carregar uma reserva de sangue que, quando desferida, causa dano em área ao seu redor, mas pode ser bloqueada por unidades inimigas."
+    },
+    {
+      "id": "Vladimir.R",
+      "ability": "R",
+      "name": "Hemopraga",
+      "description": "Vladimir infecta uma área com uma praga virulenta. Inimigos afetados recebem dano crescente enquanto durar o efeito. Depois de alguns segundos, Hemopraga causa Dano Mágico aos inimigos infectados e cura Vladimir a cada Campeão inimigo atingido."
+    },
+    {
+      "id": "Vladimir.P",
+      "ability": "P",
+      "name": "Pacto Vermelho",
+      "description": "Cada 30 pontos de Vida adicional concedem 1 de Poder de Habilidade a Vladimir, e cada 1 ponto de Poder de Habilidade concede a ele 1,6 de Vida adicional (não cumulativos entre si)."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Transfusão: Vladimir rouba vida do inimigo-alvo. Quando sua reserva estiver cheia, Transfusão terá os benefícios de dano e cura drasticamente aumentados por um breve período.",
+      "Hemopraga: Vladimir infecta uma área com uma praga virulenta. Inimigos afetados recebem dano crescente enquanto durar o efeito. Depois de alguns segundos, Hemopraga causa Dano Mágico aos inimigos infectados e cura Vladimir a cada Campeão inimigo atingido."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Transfusão instantaneamente causa dano ao inimigo antes de curar Vladimir, tornando-o um dos melhores golpes finais do jogo.",
+      "Conjure Hemopraga onde ela atingir o maior número possível de unidades.",
+      "Poça de Sangue explode mísseis que se aproximam, sendo muito útil para desviar de desarmes."
+    ],
+    "against": [
+      "Tente derrubar Vladimir antes que a Hemopraga detone, pois ela o curará para cada Campeão inimigo afligido.",
+      "Forçar Vladimir a usar sua Poça de Sangue no início de um confronto maximizará o custo de Vida desta habilidade para ele.",
+      "Itens que contra-atacam o acúmulo de Vida, tais como Tormento de Liandry e Espada do Rei Destruído, são muito eficazes contra Vladimir."
+    ]
+  }
+}

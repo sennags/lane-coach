@@ -1,0 +1,92 @@
+{
+  "id": "Braum",
+  "name": "Braum",
+  "title": "o Coração de Freljord",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Braum.json",
+    "label": "Riot Data Dragon — Braum",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Braum.Q",
+      "ability": "Q",
+      "name": "Mordida do Inverno",
+      "description": "Braum dispara rajadas congelantes de seu escudo, causando Dano Mágico e redução de velocidade. Aplica um acúmulo de Golpes Concussivos ."
+    },
+    {
+      "id": "Braum.W",
+      "ability": "W",
+      "name": "Eu te Protejo",
+      "description": "Braum salta à frente de um Campeão ou tropa aliada alvo. Ao aterrissar, ele e o aliado recebem Armadura e Resistência Mágica por alguns segundos."
+    },
+    {
+      "id": "Braum.E",
+      "ability": "E",
+      "name": "Inquebrável",
+      "description": "Braum levanta seu escudo em uma direção por muitos segundos, interceptando todos os projéteis e fazendo com que o atinjam e sejam destruídos. Ele nega completamente o dano do primeiro ataque e reduz o dano de todos os ataques seguintes provenientes da mesma direção."
+    },
+    {
+      "id": "Braum.R",
+      "ability": "R",
+      "name": "Fissura Glacial",
+      "description": "Braum golpeia o chão, arremessando ao ar inimigos próximos e em linha reta à sua frente. Uma fissura é deixada no caminho, causando redução de velocidade nos inimigos."
+    },
+    {
+      "id": "Braum.P",
+      "ability": "P",
+      "name": "Golpes Concussivos",
+      "description": "Os ataques básicos de Braum aplicam Golpes Concussivos. Uma vez que o primeiro acúmulo é aplicado, os ataques básicos de aliados também acumulam Golpes Concussivos. Ao atingir 4 acúmulos, o alvo é atordoado e sofre Dano Mágico. Pelos próximos segundos, ele não pode receber acúmulos, mas recebe Dano Mágico adicional dos ataques de Braum."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Mordida do Inverno: Braum dispara rajadas congelantes de seu escudo, causando Dano Mágico e redução de velocidade. Aplica um acúmulo de Golpes Concussivos .",
+      "Fissura Glacial: Braum golpeia o chão, arremessando ao ar inimigos próximos e em linha reta à sua frente. Uma fissura é deixada no caminho, causando redução de velocidade nos inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Trabalhe com seus aliados para acumular Golpes Concussivos, encoraje-os a dar ataques básicos em alvos marcados.",
+      "Salte na frente de colegas mais frágeis e proteja-os de projéteis com Inquebrável.",
+      "Fissura Glacial deixa uma poderosa zona de lentidão. Posicione-a bem para dividir confrontos de equipe e evitar a aproximação inimiga."
+    ],
+    "against": [
+      "Braum precisa acertar Mordida do Inverno ou um ataque básico para iniciar os Golpes Concussivos. Caso receba uma marca, saia do alcance de combate antes de ser atingido mais 3 vezes para evitar o atordoamento.",
+      "A ultimate de Braum demora muito para ser conjurada, então use esse tempo para desviar. Caminhar por cima do chão congelado lhe causará Lentidão. Posicione-se de maneira que não cruze este caminho.",
+      "Inquebrável dá a Braum uma defesa direcional extremamente forte. É melhor esperar até que acabe ou aproveitar outra posição."
+    ]
+  }
+}

@@ -3,11 +3,21 @@
     <p class="eyebrow">{{ 'SEU CAMPEÃO' if profile.side == 'ally' else 'ADVERSÁRIO' }}</p>
     <h3 id="profile-{{ profile.side }}">{{ profile.name }}</h3>
     <p>{{ profile.profile.identity }}</p>
+    {% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. O plano por fase é geral; detalhes específicos do campeão ainda precisam de revisão.</p>{% endif %}
   </header>
   <div class="profile-traits">
     <section><h4>Pontos fortes</h4><ul>{% for point in profile.profile.strengths %}<li>{{ point }}</li>{% endfor %}</ul></section>
     <section><h4>Pontos fracos</h4><ul>{% for point in profile.profile.weaknesses %}<li>{{ point }}</li>{% endfor %}</ul></section>
   </div>
+  {% if profile.official_tips is defined %}
+  {% set own_tips = profile.official_tips.own %}
+  {% set enemy_tips = profile.official_tips.against %}
+  {% if own_tips or enemy_tips %}<details class="official-advice"><summary>Dicas do catálogo da Riot</summary>
+    {% if own_tips %}<h4>Jogando com {{ profile.name }}</h4><ul>{% for tip in own_tips %}<li>{{ tip }}</li>{% endfor %}</ul>{% endif %}
+    {% if enemy_tips %}<h4>Jogando contra {{ profile.name }}</h4><ul>{% for tip in enemy_tips %}<li>{{ tip }}</li>{% endfor %}</ul>{% endif %}
+    <p class="coverage-note">Dicas fornecidas no Data Dragon. Podem conter orientações antigas; confira as habilidades atuais abaixo. Não houve revisão competitiva dessas dicas.</p>
+  </details>{% endif %}
+  {% endif %}
   <section class="profile-phases" aria-label="Plano por fase de {{ profile.name }}">
     {% for key, label in [('lane', 'Lane phase'), ('mid', 'Mid game'), ('late', 'Late game')] %}
     {% set phase = profile.profile.phases[key] %}

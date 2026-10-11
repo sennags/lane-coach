@@ -1,0 +1,90 @@
+{
+  "id": "Neeko",
+  "name": "Neeko",
+  "title": "a Camaleoa Curiosa",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Neeko.json",
+    "label": "Riot Data Dragon — Neeko",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Neeko.Q",
+      "ability": "Q",
+      "name": "Explosão Florescente",
+      "description": "Neeko arremessa uma semente, causando Dano Mágico. A semente floresce novamente ao atingir Campeões ou abater unidades."
+    },
+    {
+      "id": "Neeko.W",
+      "ability": "W",
+      "name": "Metamorfa",
+      "description": "Neeko causa Dano Mágico adicional passivamente a cada terceiro ataque, aumentando brevemente sua Velocidade de Movimento. Neeko pode ativar a habilidade para enviar um clone em uma direção e reconjurar para mudar a direção do clone."
+    },
+    {
+      "id": "Neeko.E",
+      "ability": "E",
+      "name": "Farpas Emaranhadas",
+      "description": "Neeko arremessa um emaranhado que causa dano e enraíza tudo o que atravessa. Se o emaranhado abater um inimigo ou atravessar um Campeão, ele aumentará de tamanho, terá mais velocidade e enraizará por mais tempo."
+    },
+    {
+      "id": "Neeko.R",
+      "ability": "R",
+      "name": "Florescer Repentino",
+      "description": "Após uma curta preparação, Neeko salta, arremessando ao ar todos os inimigos próximos. Ao aterrissar, inimigos próximos sofrem dano e atordoamento. A preparação fica oculta se Neeko estiver disfarçada."
+    },
+    {
+      "id": "Neeko.P",
+      "ability": "P",
+      "name": "Encanto Inerente",
+      "description": "Neeko pode imitar um Campeão aliado ou outras unidades no mapa. O disfarce será quebrado ao sofrer efeitos de Controle de Grupo imobilizantes, conjurar habilidades de dano, causar dano a torres inimigas como um não Campeão ou sofrer dano equivalente à barra de Vida do disfarce."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Explosão Florescente: Neeko arremessa uma semente, causando Dano Mágico. A semente floresce novamente ao atingir Campeões ou abater unidades.",
+      "Florescer Repentino: Após uma curta preparação, Neeko salta, arremessando ao ar todos os inimigos próximos. Ao aterrissar, inimigos próximos sofrem dano e atordoamento. A preparação fica oculta se Neeko estiver disfarçada."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode configurar a passiva dela para usar atalhos no menu de opções. O padrão é Shift+F1 a F5",
+      "Tente usar Encanto Inerente com moderação, já que usos sem sucesso vão deixar seus inimigos em alerta."
+    ],
+    "against": [
+      "Ficar atrás de tropas enquanto estiver jogando contra Neeko é muito perigoso, já que a habilidade Farpas Emaranhadas se fortalece se atingir mais inimigos.",
+      "Os avisos visuais de Florescer Repentino são invisíveis se Neeko estiver disfarçada."
+    ]
+  }
+}

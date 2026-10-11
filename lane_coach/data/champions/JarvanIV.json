@@ -1,0 +1,91 @@
+{
+  "id": "JarvanIV",
+  "name": "Jarvan IV",
+  "title": "o Exemplo de Demacia",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/JarvanIV.json",
+    "label": "Riot Data Dragon — Jarvan IV",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "JarvanIV.Q",
+      "ability": "Q",
+      "name": "Ataque do Dragão",
+      "description": "Jarvan IV estende sua lança, causando Dano Físico e reduzindo a Armadura de inimigos atingidos. Além disto, ela puxará Jarvan na direção de seu Estandarte Demaciano, arremessando inimigos em seu trajeto ao ar."
+    },
+    {
+      "id": "JarvanIV.W",
+      "ability": "W",
+      "name": "Égide de Ouro",
+      "description": "Jarvan IV invoca os antigos reis de Demacia para protegê-lo do perigo e atrasar os inimigos próximos."
+    },
+    {
+      "id": "JarvanIV.E",
+      "ability": "E",
+      "name": "Estandarte Demaciano",
+      "description": "Jarvan IV carrega o orgulho de Demacia, recebendo passivamente Velocidade de Ataque adicional. Ativar o Estandarte Demaciano permite a Jarvan IV posicionar uma bandeira demaciana que causa Dano Mágico e concede Velocidade de Ataque a campeões aliados próximos."
+    },
+    {
+      "id": "JarvanIV.R",
+      "ability": "R",
+      "name": "Cataclisma",
+      "description": "Jarvan IV heroicamente salta em direção ao alvo com força o suficiente para deformar o terreno, criando uma arena ao seu redor. Os inimigos próximos recebem dano no momento do impacto."
+    },
+    {
+      "id": "JarvanIV.P",
+      "ability": "P",
+      "name": "Cadência Marcial",
+      "description": "O primeiro ataque básico de Jarvan a um inimigo causa Dano Físico adicional com base na Vida atual dele. Este efeito não ocorrerá no mesmo inimigo novamente por alguns segundos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Ataque do Dragão: Jarvan IV estende sua lança, causando Dano Físico e reduzindo a Armadura de inimigos atingidos. Além disto, ela puxará Jarvan na direção de seu Estandarte Demaciano, arremessando inimigos em seu trajeto ao ar.",
+      "Cataclisma: Jarvan IV heroicamente salta em direção ao alvo com força o suficiente para deformar o terreno, criando uma arena ao seu redor. Os inimigos próximos recebem dano no momento do impacto."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode usar o combo Ataque do Dragão / Estandarte Demaciano para sair das suas próprias arenas Cataclisma.",
+      "Divida seus ataques básicos para diferentes campeões no início da luta para maximizar o dano.",
+      "Use Estandarte Demaciano como uma ferramenta observadora quando estiver preocupado quanto aos inimigos que estão chegando."
+    ],
+    "against": [
+      "Mantenha-se afastado do caminho entre Jarvan IV e seu Estandarte Demaciano para evitar ser lançado ao ar.",
+      "O terreno do Cataclisma tem uma força assustadora para se lutar contra, mas habilidades de movimento podem passar por ele."
+    ]
+  }
+}

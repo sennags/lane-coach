@@ -1,0 +1,83 @@
+{
+  "id": "Vex",
+  "name": "Vex",
+  "title": "a Melancolista",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vex.json",
+    "label": "Riot Data Dragon — Vex",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Vex.Q",
+      "ability": "Q",
+      "name": "Rajada Mistral",
+      "description": "Lança um projétil que causa dano e acelera no meio do trajeto."
+    },
+    {
+      "id": "Vex.W",
+      "ability": "W",
+      "name": "Espaço Pessoal",
+      "description": "Recebe um Escudo e causa dano a inimigos próximos."
+    },
+    {
+      "id": "Vex.E",
+      "ability": "E",
+      "name": "Penumbra Iminente",
+      "description": "Invoca uma área que causa dano e Lentidão aos inimigos, além de aplicar Escuridão."
+    },
+    {
+      "id": "Vex.R",
+      "ability": "R",
+      "name": "Onda Sombria",
+      "description": "Dispara um projétil que marca um Campeão inimigo. Reconjure para avançar até o alvo e causar dano."
+    },
+    {
+      "id": "Vex.P",
+      "ability": "P",
+      "name": "Destruição e Escuridão",
+      "description": "Periodicamente, Vex é fortalecida, fazendo com que a próxima Habilidade básica dela cause Temor aos inimigos e interrompa avanços. Sempre que um inimigo próximo avança, Vex aplica uma marca que é consumida para causar dano adicional, além de reduzir o Tempo de Recarga do estado fortalecido."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Rajada Mistral: Lança um projétil que causa dano e acelera no meio do trajeto.",
+      "Onda Sombria: Dispara um projétil que marca um Campeão inimigo. Reconjure para avançar até o alvo e causar dano."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

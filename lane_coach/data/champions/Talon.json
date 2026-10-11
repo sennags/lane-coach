@@ -1,0 +1,91 @@
+{
+  "id": "Talon",
+  "name": "Talon",
+  "title": "a Sombra da Lâmina",
+  "tags": [
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Talon.json",
+    "label": "Riot Data Dragon — Talon",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Talon.Q",
+      "ability": "Q",
+      "name": "Diplomacia Noxiana",
+      "description": "Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo."
+    },
+    {
+      "id": "Talon.W",
+      "ability": "W",
+      "name": "Ancinho",
+      "description": "Talon envia um voleio de adagas que retorna a ele, causando Dano Físico a cada vez que passar por um inimigo. As lâminas que retornarem causam dano adicional e reduzem a velocidade da unidade."
+    },
+    {
+      "id": "Talon.E",
+      "ability": "E",
+      "name": "Caminho do Assassino",
+      "description": "Talon salta sobre quaisquer terrenos ou estruturas, até uma distância máxima. Esta habilidade possui um Tempo de Recarga baixo, mas deixa o terreno inutilizável por um longo período de tempo."
+    },
+    {
+      "id": "Talon.R",
+      "ability": "R",
+      "name": "Ataque das Sombras",
+      "description": "Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina."
+    },
+    {
+      "id": "Talon.P",
+      "ability": "P",
+      "name": "Limiar da Lâmina",
+      "description": "As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Diplomacia Noxiana: Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo.",
+      "Ataque das Sombras: Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Você pode usar Caminho do Assassino para chegar às costas do inimigo e se posicionar para um ataque de Diplomacia Noxiana.",
+      "Ataque das Sombras é uma ferramenta de fuga poderosa, mas também pode ser ofensivamente utilizada para atacar um grupo.",
+      "Lembre de escolher seu alvo antes da batalha. Concentrar todas as habilidades de Talon em um único alvo pode ser bastante recompensador, mas dividí-las entre vários pode lhe deixar vulnerável."
+    ],
+    "against": [
+      "Todos os ataques de Talon causam Dano Físico. Compre Armadura para acabar com seu dano de rajada.",
+      "Talon depende muito de Ataque das Sombras para escapar de uma luta. Depois de utilizada, ele fica significativamente mais vulnerável.",
+      "Talon tem um poder de vaguear sem paralelos. Não deixe de saber onde ele está e puxe a rota agressivamente para forçá-lo a continuar lá."
+    ]
+  }
+}

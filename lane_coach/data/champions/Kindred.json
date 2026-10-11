@@ -1,0 +1,91 @@
+{
+  "id": "Kindred",
+  "name": "Kindred",
+  "title": "os Caçadores Eternos",
+  "tags": [
+    "Marksman"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kindred.json",
+    "label": "Riot Data Dragon — Kindred",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Kindred.Q",
+      "ability": "Q",
+      "name": "Dança de Flechas",
+      "description": "Os Kindred rolam e disparam até três flechas em alvos próximos."
+    },
+    {
+      "id": "Kindred.W",
+      "ability": "W",
+      "name": "Frenesi do Lobo",
+      "description": "O Lobo se enraivece e ataca inimigos à sua volta. A Ovelha ganha acúmulos passivamente ao se mover e atacar. Quando totalmente carregado, o próximo ataque da Ovelha recupera Vida."
+    },
+    {
+      "id": "Kindred.E",
+      "ability": "E",
+      "name": "Pesar Crescente",
+      "description": "A Ovelha faz um disparo cuidadoso, reduzindo a velocidade de seu alvo. Se a Ovelha atacar o alvo mais duas vezes, seu próximo ataque fará com que o Lobo salte no inimigo, golpeando-o e causando muito dano."
+    },
+    {
+      "id": "Kindred.R",
+      "ability": "R",
+      "name": "Refúgio da Ovelha",
+      "description": "A Ovelha concede refúgio contra a morte para todos os seres vivos em uma área. Até que seu efeito acabe, nada pode morrer. No fim de sua duração, as unidades são curadas."
+    },
+    {
+      "id": "Kindred.P",
+      "ability": "P",
+      "name": "Marca Familiar",
+      "description": "Os Kindred marcam alvos para Caçar. Concluir uma Caçada fortalece permanentemente as habilidades básicas deles. A cada 4 caçadas concluídas, o Alcance de Ataque também aumenta."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Dança de Flechas: Os Kindred rolam e disparam até três flechas em alvos próximos.",
+      "Refúgio da Ovelha: A Ovelha concede refúgio contra a morte para todos os seres vivos em uma área. Até que seu efeito acabe, nada pode morrer. No fim de sua duração, as unidades são curadas."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Mover-se entre ataques enquanto caça pela selva lhe ajudará a evitar dano e também a gerar mais curas do Frenesi do Lobo.",
+      "Escolha com cuidado quais caçadas quer fazer; completar a maioria delas é a chave para ter sucesso conforme a partida progride.",
+      "Não entre de cara em um grande confronto de equipes. Aguarde até que seus colegas de equipe iniciem."
+    ],
+    "against": [
+      "Os Kindred são frágeis, então coloque pressão neles para que sejam forçados a jogar com mais cautela.",
+      "Faça as caçadas que o Lobo ativa em acampamentos da selva para reduzir o dano que os Kindred causam.",
+      "Quando os Kindred usarem o Refúgio da Ovelha, entre nele. A habilidade impede que todos os Campeões morram."
+    ]
+  }
+}

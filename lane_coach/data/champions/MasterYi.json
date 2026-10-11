@@ -1,0 +1,92 @@
+{
+  "id": "MasterYi",
+  "name": "Master Yi",
+  "title": "o Espadachim Wuju",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/MasterYi.json",
+    "label": "Riot Data Dragon — Master Yi",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "MasterYi.Q",
+      "ability": "Q",
+      "name": "Ataque Alpha",
+      "description": "Master Yi se teleporta pelo campo de batalha tão rápido que não pode ser visto, causando Dano Físico a várias unidades pelo caminho enquanto fica inalvejável. O Ataque Alpha pode causar Acerto Crítico e Dano Físico adicional contra monstros. Ataques básicos reduzem o Tempo de Recarga de Ataque Alpha."
+    },
+    {
+      "id": "MasterYi.W",
+      "ability": "W",
+      "name": "Meditar",
+      "description": "Master Yi rejuvenesce seu corpo com a força da mente, restaurando Vida e recebendo dano reduzido por um curto período. Além disso, ele recebe acúmulos de Ataque Duplo e pausa a duração restante de Estilo Wuju e de Highlander para cada segundo de canalização."
+    },
+    {
+      "id": "MasterYi.E",
+      "ability": "E",
+      "name": "Estilo Wuju",
+      "description": "Concede Dano Verdadeiro adicional em ataques básicos."
+    },
+    {
+      "id": "MasterYi.R",
+      "ability": "R",
+      "name": "Highlander",
+      "description": "Master Yi se movimenta com extrema agilidade, aumentando temporariamente suas Velocidades de Ataque e de Movimento, tornando-se imune a todos os efeitos de Lentidão. Abates ou assistências de Campeões estendem a duração de Highlander enquanto a habilidade estiver ativa. Reduz passivamente o Tempo de Recarga das outras habilidades a cada abate ou assistência."
+    },
+    {
+      "id": "MasterYi.P",
+      "ability": "P",
+      "name": "Ataque duplo",
+      "description": "A cada alguns ataques básicos consecutivos, Master Yi ataca duas vezes."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Ataque Alpha: Master Yi se teleporta pelo campo de batalha tão rápido que não pode ser visto, causando Dano Físico a várias unidades pelo caminho enquanto fica inalvejável. O Ataque Alpha pode causar Acerto Crítico e Dano Físico adicional contra monstros. Ataques básicos reduzem o Tempo de Recarga de Ataque Alpha.",
+      "Highlander: Master Yi se movimenta com extrema agilidade, aumentando temporariamente suas Velocidades de Ataque e de Movimento, tornando-se imune a todos os efeitos de Lentidão. Abates ou assistências de Campeões estendem a duração de Highlander enquanto a habilidade estiver ativa. Reduz passivamente o Tempo de Recarga das outras habilidades a cada abate ou assistência."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Se você está na rota contra jogadores de longo alcance, aumentar o nível de Meditar pode permitir que você fique na rota por mais tempo e suba de níveis mais rápido do que o normal.",
+      "O Estilo Wuju é muito forte no início da partida para as tropas que recebem golpe final.",
+      "Tente usar Ataque Alpha em uma tropa na frente de um campeão inimigo para que você se posicione à uma distância segura ao final do feitiço."
+    ],
+    "against": [
+      "Meditar é um método eficaz de curar ao longo do tempo, mas deixa Master Yi suscetível a emboscadas coordenadas no início da partida.",
+      "Se Master Yi tentar acumular ouro com Ataque Alpha, tente atingi-lo algumas vezes para que tenha que gastar Mana e Meditar para se curar.",
+      "Embora Master Yi não possa sofrer Lentidão enquanto usa Highlander, outros desarmes podem interrompê-lo."
+    ]
+  }
+}

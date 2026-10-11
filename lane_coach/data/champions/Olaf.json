@@ -1,0 +1,91 @@
+{
+  "id": "Olaf",
+  "name": "Olaf",
+  "title": "o Berserker",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Olaf.json",
+    "label": "Riot Data Dragon — Olaf",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Olaf.Q",
+      "ability": "Q",
+      "name": "Ressaca",
+      "description": "Olaf arremessa um machado no local-alvo, causando dano e reduzindo a Armadura e a Velocidade de Movimento dos inimigos que atravessar. Se Olaf apanhar o machado, o Tempo de Recarga da habilidade é redefinido."
+    },
+    {
+      "id": "Olaf.W",
+      "ability": "W",
+      "name": "Duro na Queda",
+      "description": "Olaf recebe aumento de Velocidade de Ataque e um Escudo."
+    },
+    {
+      "id": "Olaf.E",
+      "ability": "E",
+      "name": "Balanço Temerário",
+      "description": "Olaf ataca com tal força que causa Dano Verdadeiro a seu alvo e a si mesmo, recuperando o custo de Vida caso destrua o alvo."
+    },
+    {
+      "id": "Olaf.R",
+      "ability": "R",
+      "name": "Ragnarok",
+      "description": "Olaf recebe Armadura e Resistência Mágica adicionais passivamente. Ele pode ativar essa habilidade para se tornar imune a desarmes enquanto continuar atacando."
+    },
+    {
+      "id": "Olaf.P",
+      "ability": "P",
+      "name": "Fúria Berserker",
+      "description": "Olaf recebe Velocidade de Ataque e Roubo de Vida com base na sua Vida perdida."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Ressaca: Olaf arremessa um machado no local-alvo, causando dano e reduzindo a Armadura e a Velocidade de Movimento dos inimigos que atravessar. Se Olaf apanhar o machado, o Tempo de Recarga da habilidade é redefinido.",
+      "Ragnarok: Olaf recebe Armadura e Resistência Mágica adicionais passivamente. Ele pode ativar essa habilidade para se tornar imune a desarmes enquanto continuar atacando."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Olaf pode combinar Fúria Berserker, Golpes Nefastos e Ragnarok quando estiver com pouca Vida para ficar extremamente forte.",
+      "A cura adicional concedida por Golpes Nefastos também amplifica seu Roubo de Vida de todas as origens, assim como as curas de seus aliados."
+    ],
+    "against": [
+      "Olaf torna-se mais perigoso quanto menos Vida tiver. Economize seus desarmes para acabar com ele.",
+      "Impedir Olaf de alcançar seu machado minimizará sua agressividade durante a fase de rotas.",
+      "Olaf tem sua defesa reduzida durante o efeito de ''Ragnarok'', embora esteja imune a desarmes. Se não conseguir escapar durante Ragnarok, tente concentrar seu dano nele em conjunto com sua equipe."
+    ]
+  }
+}

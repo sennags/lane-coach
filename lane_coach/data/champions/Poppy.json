@@ -1,0 +1,91 @@
+{
+  "id": "Poppy",
+  "name": "Poppy",
+  "title": "a Guardiã do Martelo",
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Poppy.json",
+    "label": "Riot Data Dragon — Poppy",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Poppy.Q",
+      "ability": "Q",
+      "name": "Choque do Martelo",
+      "description": "Poppy golpeia com o martelo, causando dano e criando uma área que reduz a velocidade de inimigos e explode após um intervalo."
+    },
+    {
+      "id": "Poppy.W",
+      "ability": "W",
+      "name": "Presença Inabalável",
+      "description": "Poppy recebe Armadura e Resistência Mágica passivamente, que aumentam quando ela estiver com Vida baixa. Ela pode ativar Presença Inabalável para receber Velocidade de Movimento e impedir avanços inimigos ao seu redor, fazendo com que o inimigo impedido sofra redução de velocidade e fique preso ao chão."
+    },
+    {
+      "id": "Poppy.E",
+      "ability": "E",
+      "name": "Investida Heroica",
+      "description": "Poppy avança até o alvo e o empurra para trás. Se o alvo colidir com uma parede, ele será atordoado."
+    },
+    {
+      "id": "Poppy.R",
+      "ability": "R",
+      "name": "Veredito da Guardiã",
+      "description": "Poppy canaliza um golpe com o martelo que empurra inimigos para muito longe."
+    },
+    {
+      "id": "Poppy.P",
+      "ability": "P",
+      "name": "Embaixadora de Ferro",
+      "description": "Poppy arremessa seu broquel, que bate no alvo e cai no chão. Ela pode apanhá-lo para receber um escudo temporário."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Choque do Martelo: Poppy golpeia com o martelo, causando dano e criando uma área que reduz a velocidade de inimigos e explode após um intervalo.",
+      "Veredito da Guardiã: Poppy canaliza um golpe com o martelo que empurra inimigos para muito longe."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "A Embaixadora de Ferro tende a aterrissar próximo a paredes, tente levar vantagem disso com Investida Heroica.",
+      "Veredito da Guardiã pode ser solto imediatamente para arremessar o inimigo para cima. Aproveite disso em duelos."
+    ],
+    "against": [
+      "Poppy pode impedir que inimigos próximos façam avanços rápidos com Presença Inabalável.",
+      "Quando Poppy começa a girar o martelo, ela está carregando sua Veredito da Guardiã.",
+      "Você pode pisar no escudo de Poppy para impedi-la de usá-lo."
+    ]
+  }
+}

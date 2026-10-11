@@ -1,0 +1,92 @@
+{
+  "id": "Warwick",
+  "name": "Warwick",
+  "title": "a Ira Desimpedida de Zaun",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Warwick.json",
+    "label": "Riot Data Dragon — Warwick",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Warwick.Q",
+      "ability": "Q",
+      "name": "Presas da Fera",
+      "description": "Warwick lança-se à frente e morde seu alvo, causando dano com base em sua Vida máxima e curando a si mesmo com o dano causado."
+    },
+    {
+      "id": "Warwick.W",
+      "ability": "W",
+      "name": "Caçada Sangrenta",
+      "description": "Warwick detecta inimigos com menos de 50% de Vida, recebendo Velocidade de Movimento ao deslocar-se na direção deles e Velocidade de Ataque ao atacá-los. Quando eles ficarem com menos de 25% de Vida, Warwick entrará em frenesi e esses efeitos triplicarão."
+    },
+    {
+      "id": "Warwick.E",
+      "ability": "E",
+      "name": "Uivo Primitivo",
+      "description": "Warwick recebe redução de dano por 2,5 segundos. Ao fim do efeito, ou caso seja reativado, ele uiva, fazendo com que inimigos próximos fujam por 1 segundo."
+    },
+    {
+      "id": "Warwick.R",
+      "ability": "R",
+      "name": "Coerção Infinita",
+      "description": "Warwick salta em uma direção (escalando com a Velocidade de Movimento adicional dele), suprimindo o primeiro Campeão atingido por 1,5s."
+    },
+    {
+      "id": "Warwick.P",
+      "ability": "P",
+      "name": "Fome Eterna",
+      "description": "Os ataques básicos de Warwick causam Dano Mágico adicional. Se ele estiver com menos de 50% de Vida, cura a si mesmo com a mesma quantia. Se ele estiver com menos de 25% de Vida, a cura é triplicada."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Presas da Fera: Warwick lança-se à frente e morde seu alvo, causando dano com base em sua Vida máxima e curando a si mesmo com o dano causado.",
+      "Coerção Infinita: Warwick salta em uma direção (escalando com a Velocidade de Movimento adicional dele), suprimindo o primeiro Campeão atingido por 1,5s."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Siga as trilhas de sua Caçada Sangrenta em direção a Campeões inimigos com pouca vida.",
+      "A distância de Coerção Infinita (R) escala com qualquer Velocidade de Movimento recebida, inclusive de efeitos aliados e Feitiços de Invocador.",
+      "Presas da Fera (Q) seguirá inimigos que correm, avançam e teleportam caso você mantenha o botão segurado."
+    ],
+    "against": [
+      "Os ataques de Warwick o curam quando estiver com pouca Vida. Guarde seus desarmes para acabar com ele.",
+      "Warwick fica mais forte contra inimigos com pouca Vida. Cuide dos seus pontos de Vida para inibi-lo.",
+      "O alcance da habilidade Ultimate de Warwick escala com sua Velocidade de Movimento."
+    ]
+  }
+}

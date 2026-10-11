@@ -1,0 +1,92 @@
+{
+  "id": "Diana",
+  "name": "Diana",
+  "title": "o Escárnio da Lua",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Diana.json",
+    "label": "Riot Data Dragon — Diana",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Diana.Q",
+      "ability": "Q",
+      "name": "Golpe Crescente",
+      "description": "Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos com Plenilúnio, revelando-os por 3s se não estiverem furtivos."
+    },
+    {
+      "id": "Diana.W",
+      "ability": "W",
+      "name": "Cascata Lívida",
+      "description": "Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe resistência adicional."
+    },
+    {
+      "id": "Diana.E",
+      "ability": "E",
+      "name": "Zênite Lunar",
+      "description": "Torna-se a encarnação viva da lua vingativa, avançando contra um inimigo e causando Dano Mágico. Zênite Lunar não tem Tempo de Recarga ao avançar em um inimigo afetado por Plenilúnio. Todos os outros inimigos terão o efeito de Plenilúnio removido independentemente de terem sido o alvo de Zênite Lunar."
+    },
+    {
+      "id": "Diana.R",
+      "ability": "R",
+      "name": "Colapso Minguante",
+      "description": "Diana revela e atrai todos os inimigos próximos e reduz a velocidade deles. Se Diana atrair um ou mais Campeões inimigos, o Plenilúnio cai sobre ela depois de um breve intervalo, causando Dano Mágico em uma área ao seu redor, aumentado a cada alvo atraído além do primeiro."
+    },
+    {
+      "id": "Diana.P",
+      "ability": "P",
+      "name": "Espada de Prata Lunar",
+      "description": "Cada terceiro Ataque atinge os inimigos próximos, causando Dano Mágico adicional. Depois de conjurar uma Habilidade, Diana recebe Velocidade de Ataque por 5s."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Golpe Crescente: Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos com Plenilúnio, revelando-os por 3s se não estiverem furtivos.",
+      "Colapso Minguante: Diana revela e atrai todos os inimigos próximos e reduz a velocidade deles. Se Diana atrair um ou mais Campeões inimigos, o Plenilúnio cai sobre ela depois de um breve intervalo, causando Dano Mágico em uma área ao seu redor, aumentado a cada alvo atraído além do primeiro."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Acertar Golpe Crescente é muito importante, mas não tenha medo de errar. O Tempo de Recarga é curto e o custo de Mana é baixo.",
+      "Considere os momentos certos para conjurar Zênite Lunar sem Plenilúnio e para aguardar até o próximo Golpe Crescente.",
+      "Use Colapso Minguante e Zênite Lunar para ficar próximo(a) aos alvos e ativar Espada de Prata Lunar para causar mais dano."
+    ],
+    "against": [
+      "Desvie de Golpe Crescente ou movimente-se para um local seguro se estiver sob efeito de Plenilúnio.",
+      "As esferas de Cascata Lívida duram apenas alguns segundos. Evite Diana e a enfrente após o escudo se dissipar.",
+      "Diana pode ser muito agressiva se usar Zênite Lunar sem Plenilúnio, mas você pode puní-la com lentidão ou atordoamento quando ela não puder voltar à sua posição inicial."
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "Belveth",
+  "name": "Bel'Veth",
+  "title": "a Imperatriz do Vazio",
+  "tags": [
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Belveth.json",
+    "label": "Riot Data Dragon — Bel'Veth",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Belveth.Q",
+      "ability": "Q",
+      "name": "Impulso do Vazio",
+      "description": "Bel'Veth avança na direção escolhida e causa dano a todos os inimigos atravessados."
+    },
+    {
+      "id": "Belveth.W",
+      "ability": "W",
+      "name": "Acima e Abaixo",
+      "description": "Bel'Veth bate a cauda no chão, causando dano e Lentidão, além de Arremessar os inimigos ao ar."
+    },
+    {
+      "id": "Belveth.E",
+      "ability": "E",
+      "name": "Turbilhão da Realeza",
+      "description": "Bel'Veth se enraíza num lugar, canalizando uma tempestade de golpes ao redor de si, visando o inimigo com a Vida mais baixa, além de receber Roubo de Vida e redução de dano."
+    },
+    {
+      "id": "Belveth.R",
+      "ability": "R",
+      "name": "Banquete Eterno",
+      "description": "Bel'Veth consome os restos de Coral do Vazio e revela sua Forma Verdadeira, recebendo Vida máxima, Alcance de Ataque e Velocidade de Ataque. Consumir Coral do Vazio dos restos de um monstro épico concederá a ela a capacidade de invocar Rêmoras do Vazio."
+    },
+    {
+      "id": "Belveth.P",
+      "ability": "P",
+      "name": "Morte em Lavanda ",
+      "description": "Bel'Veth recebe acúmulos de Velocidade de Ataque permanente depois de eliminar tropas, monstros grandes e Campeões. Além disso, ela recebe Velocidade de Ataque adicional temporária depois de usar uma Habilidade."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Impulso do Vazio: Bel'Veth avança na direção escolhida e causa dano a todos os inimigos atravessados.",
+      "Banquete Eterno: Bel'Veth consome os restos de Coral do Vazio e revela sua Forma Verdadeira, recebendo Vida máxima, Alcance de Ataque e Velocidade de Ataque. Consumir Coral do Vazio dos restos de um monstro épico concederá a ela a capacidade de invocar Rêmoras do Vazio."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

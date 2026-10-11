@@ -1,0 +1,94 @@
+{
+  "id": "Illaoi",
+  "name": "Illaoi",
+  "title": "a Sacerdotisa Cráquem",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Illaoi.json",
+    "label": "Riot Data Dragon — Illaoi",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Illaoi.Q",
+      "ability": "Q",
+      "name": "Golpe de Tentáculo",
+      "description": "Aumenta o dano causado por Tentáculos. Quando ativada, Illaoi golpeia com um Tentáculo que causa Dano Físico."
+    },
+    {
+      "id": "Illaoi.W",
+      "ability": "W",
+      "name": "Lição Dura",
+      "description": "Illaoi salta em direção a seu alvo, causando Dano Físico e fazendo com que Tentáculos próximos também golpeiem o alvo."
+    },
+    {
+      "id": "Illaoi.E",
+      "ability": "E",
+      "name": "Teste de Espírito",
+      "description": "Illaoi arranca o espírito do corpo de um inimigo, forçando-o a permanecer perante ela. Espíritos ecoam um percentual do dano que recebem ao alvo original. Se abatido, ou caso se afaste muito do espírito, o alvo se transforma em um Recipiente e inicia o surgimento de Tentáculos."
+    },
+    {
+      "id": "Illaoi.R",
+      "ability": "R",
+      "name": "Salto de Fé",
+      "description": "Illaoi golpeia o chão com seu ídolo, causando Dano Físico a inimigos próximos. Um Tentáculo surge para cada campeão atingido."
+    },
+    {
+      "id": "Illaoi.P",
+      "ability": "P",
+      "name": "Profetisa de um Deus Ancião",
+      "description": "Illaoi e os Recipientes que ela cria fazem surgir Tentáculos em terreno intransponível próximo. Tentáculos golpeiam espíritos, Recipientes e vítimas da Lição Dura de Illaoi. Tentáculos causam Dano Físico a inimigos atingidos e curarão Illaoi caso atinjam um Campeão."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Golpe de Tentáculo: Aumenta o dano causado por Tentáculos. Quando ativada, Illaoi golpeia com um Tentáculo que causa Dano Físico.",
+      "Salto de Fé: Illaoi golpeia o chão com seu ídolo, causando Dano Físico a inimigos próximos. Um Tentáculo surge para cada campeão atingido."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Tentáculos são uma imensa fonte de poder. Não lute sem eles.",
+      "Espíritos herdam a Vida atual de seus alvos. Se o seu objetivo é fazer um",
+      "Recipiente",
+      ", tente abaixar um pouco a Vida de seu oponente para facilitar o abate do espírito.",
+      "Salto de Fé é melhor usado para dar sequência a um engajamento forte ou ao receber um engajamento. Tenha cuidado ao ser o primeiro golpe de um confronto."
+    ],
+    "against": [
+      "Abater Tentáculos sempre que possível facilita muito a vencer um confronto contra Illaoi.",
+      "Quando seu espírito for arrancado, lute por ele se puder. Causar dano a Illaoi reduz a duração do espírito.",
+      "Evite agrupar-se para o Salto de Fé e reduza o número de Tentáculos disponíveis para Illaoi."
+    ]
+  }
+}

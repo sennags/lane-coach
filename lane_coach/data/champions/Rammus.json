@@ -1,0 +1,90 @@
+{
+  "id": "Rammus",
+  "name": "Rammus",
+  "title": "o Tatu Blindado",
+  "tags": [
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rammus.json",
+    "label": "Riot Data Dragon — Rammus",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Rammus.Q",
+      "ability": "Q",
+      "name": "Bola do Poder",
+      "description": "Rammus acelera em forma de bola na direção de seus inimigos, causando dano e lentidão nos alvos afetados pelo impacto."
+    },
+    {
+      "id": "Rammus.W",
+      "ability": "W",
+      "name": "Bola Curva Defensiva",
+      "description": "Rammus assume uma posição defensiva, aumentando bastante sua Armadura e sua Resistência Mágica e devolvendo dano aos inimigos que o atacarem."
+    },
+    {
+      "id": "Rammus.E",
+      "ability": "E",
+      "name": "Provocação Enlouquecedora",
+      "description": "Rammus provoca um Campeão inimigo ou um monstro, fazendo com que o ataquem ferozmente."
+    },
+    {
+      "id": "Rammus.R",
+      "ability": "R",
+      "name": "Colisão Ascendente",
+      "description": "Rammus salta e se joga com força na área-alvo, causando Dano Mágico e Lentidão aos inimigos atingidos. Se a Habilidade for conjurada enquanto Rammus estiver com Bola do Poder ativa, ele também arremessará ao ar os inimigos próximos ao centro."
+    },
+    {
+      "id": "Rammus.P",
+      "ability": "P",
+      "name": "Casco Espetado",
+      "description": "Rammus recebe escalamento de Dano de Ataque adicional com sua Armadura e sua Resistência Mágica."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Bola do Poder: Rammus acelera em forma de bola na direção de seus inimigos, causando dano e lentidão nos alvos afetados pelo impacto.",
+      "Colisão Ascendente: Rammus salta e se joga com força na área-alvo, causando Dano Mágico e Lentidão aos inimigos atingidos. Se a Habilidade for conjurada enquanto Rammus estiver com Bola do Poder ativa, ele também arremessará ao ar os inimigos próximos ao centro."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Bola do Poder pode ser usada como um eficaz mecanismo de escapada.",
+      "Provocar um campeão próximo à sua torre pode fazer com que ela ataque seu inimigo.",
+      "Tremores e Bola Curva Defensiva podem ser usados no fim da partida para demolir torres. Costuma valer a pena, caso tenha levado a pior em um confronto de equipe, sair do meio e atacar as estruturas."
+    ],
+    "against": [
+      "Preste atenção especial para o momento em que sua Bola Curva Defensiva acaba. Rammus fica com atributos muito menores (comparado a um tanque normal) quando não está nesta forma.",
+      "Rammus frequentemente acumula muita Armadura, deixando-o especialmente vulnerável a ataques de habilidades quando não está em sua Bola Curva Defensiva."
+    ]
+  }
+}

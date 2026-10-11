@@ -1,0 +1,91 @@
+{
+  "id": "Taliyah",
+  "name": "Taliyah",
+  "title": "a Tecelã de Pedras",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Taliyah.json",
+    "label": "Riot Data Dragon — Taliyah",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Taliyah.Q",
+      "ability": "Q",
+      "name": "Voleio Entrelaçado",
+      "description": "Taliyah arremessa uma rajada de pedras na direção-alvo, movimentando-se livremente durante a conjuração. Isso cria um Terreno Manipulado sob ela. Se Taliyah conjurar Voleio Entrelaçado em Terreno Manipulado, ela consome o terreno para arremessar um pedregulho fortalecido que causa Lentidão a inimigos."
+    },
+    {
+      "id": "Taliyah.W",
+      "ability": "W",
+      "name": "Empurrão Sísmico",
+      "description": "Taliyah faz com que uma área do terreno irrompa e arremesse inimigos na direção de sua escolha."
+    },
+    {
+      "id": "Taliyah.E",
+      "ability": "E",
+      "name": "Terra Desfiada",
+      "description": "Taliyah cria um campo minado de Lentidão. Caso inimigos avancem ou sejam arremessados através dele, as minas explodem, atordoando-os."
+    },
+    {
+      "id": "Taliyah.R",
+      "ability": "R",
+      "name": "Muro da Tecelã",
+      "description": "Taliyah cria uma parede comprida e desliza sobre ela."
+    },
+    {
+      "id": "Taliyah.P",
+      "ability": "P",
+      "name": "Deslizar em Pedras",
+      "description": "Taliyah recebe Velocidade de Movimento próxima a paredes."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Voleio Entrelaçado: Taliyah arremessa uma rajada de pedras na direção-alvo, movimentando-se livremente durante a conjuração. Isso cria um Terreno Manipulado sob ela. Se Taliyah conjurar Voleio Entrelaçado em Terreno Manipulado, ela consome o terreno para arremessar um pedregulho fortalecido que causa Lentidão a inimigos.",
+      "Muro da Tecelã: Taliyah cria uma parede comprida e desliza sobre ela."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Tente arremessar inimigos em Terra Desfiada usando o Empurrão Sísmico.",
+      "Lembre-se, não é obrigatório usar o Muro da Tecelã o tempo todo.",
+      "Assim que tiver o Cetro de Cristal de Rylai, conjurar Voleio Entrelaçado nos inimigos que estiverem lhe perseguindo é uma ótima maneira de fazer com que se arrependam."
+    ],
+    "against": [
+      "Quando Taliyah conjura Terra Desfiada na rota, fique de prontidão para o Empurrão Sísmico. Se ela te empurrar para cima do próprio campo minado, os arremessos e pedras vão quebrar seus ossos.",
+      "O Voleio Entrelaçado de Taliyah fica travado em uma só direção. Se ela começar a jogar pedras em você, desvie para o lado!"
+    ]
+  }
+}

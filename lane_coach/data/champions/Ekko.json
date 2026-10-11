@@ -1,0 +1,92 @@
+{
+  "id": "Ekko",
+  "name": "Ekko",
+  "title": "o Rapaz que Estilhaçou o Tempo",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ekko.json",
+    "label": "Riot Data Dragon — Ekko",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ekko.Q",
+      "ability": "Q",
+      "name": "Giratempo",
+      "description": "Ekko arremessa uma granada que se expande em um campo de distorção temporal ao atingir um Campeão inimigo, causando dano e reduzindo a velocidade de todos dentro de sua área de ação. Após um intervalo, a granada retorna em direção a Ekko, causando dano no trajeto de volta."
+    },
+    {
+      "id": "Ekko.W",
+      "ability": "W",
+      "name": "Convergência Paralela",
+      "description": "Os ataques básicos de Ekko causam Dano Mágico adicional aos inimigos com Vida baixa. Ekko pode conjurar Convergência Paralela para separar a linha do tempo, causando uma anomalia após alguns segundos e reduzindo a velocidade de inimigos pegos por ela. Se Ekko adentrar a anomalia, ele receberá um escudo e acionará uma detonação que atordoa os inimigos, colocando-os em estase temporal."
+    },
+    {
+      "id": "Ekko.E",
+      "ability": "E",
+      "name": "Mergulho Fásico",
+      "description": "Ekko faz um rolamento evasivo enquanto carrega seu Revo-Z. Seu próximo ataque causa dano adicional e distorce a realidade, teleportando-o a seu alvo."
+    },
+    {
+      "id": "Ekko.R",
+      "ability": "R",
+      "name": "Cronoquebra",
+      "description": "Ekko estilhaça sua linha do tempo, tornando-se inalvejável e rebobinando para um ponto mais favorável no tempo. Ele retorna para qualquer ponto que esteve nos últimos segundos e se cura em um percentual do dano recebido nesta duração. Inimigos próximos a sua área de chegada recebem dano massivo."
+    },
+    {
+      "id": "Ekko.P",
+      "ability": "P",
+      "name": "Ressonância Revo-Z",
+      "description": "Cada terceiro ataque ou habilidade de dano no mesmo alvo causa Dano Mágico adicional e concede a Ekko um impulso de velocidade se o alvo for um Campeão."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Giratempo: Ekko arremessa uma granada que se expande em um campo de distorção temporal ao atingir um Campeão inimigo, causando dano e reduzindo a velocidade de todos dentro de sua área de ação. Após um intervalo, a granada retorna em direção a Ekko, causando dano no trajeto de volta.",
+      "Cronoquebra: Ekko estilhaça sua linha do tempo, tornando-se inalvejável e rebobinando para um ponto mais favorável no tempo. Ele retorna para qualquer ponto que esteve nos últimos segundos e se cura em um percentual do dano recebido nesta duração. Inimigos próximos a sua área de chegada recebem dano massivo."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Cronoquebra é uma poderosa ferramenta de escape, mas também pode ser muito forte quando usada para atacar. Não subestime seu potencial de dano.",
+      "Vale a pena arriscar-se para acionar a Ressonância Revo-Z em um campeão inimigo. A Velocidade de Movimento adicional facilita a escapada.",
+      "A aceleração de Mergulho Fásico é uma ótima ferramenta para aplicar as outras habilidades de Ekko em seguida. Use-o para acertar duas vezes com Giratempo ou para detonar Convergência Paralela em uma boa posição."
+    ],
+    "against": [
+      "Ekko fica significantemente mais fraco quando sua ultimate não estiver disponível. Atente-se à trilha que ele deixa em seu caminho para determinar se Cronoquebra está disponível.",
+      "A área de atordoamento de Ekko leva 3s para ser armada. Atenção para a imagem que ele cria ao conjurar e tente adivinhar onde a área foi posicionada.",
+      "O segundo acerto de Giratempo causa mais dano do que o primeiro; tente evitá-lo."
+    ]
+  }
+}

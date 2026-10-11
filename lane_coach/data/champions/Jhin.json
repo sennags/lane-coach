@@ -1,0 +1,92 @@
+{
+  "id": "Jhin",
+  "name": "Jhin",
+  "title": "o Virtuoso",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jhin.json",
+    "label": "Riot Data Dragon — Jhin",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Jhin.Q",
+      "ability": "Q",
+      "name": "Granada Dançante",
+      "description": "Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate."
+    },
+    {
+      "id": "Jhin.W",
+      "ability": "W",
+      "name": "Florescer Mortal",
+      "description": "Jhin brande sua bengala, fazendo um disparo único com incrível alcance. Ele atravessa tropas e monstros, mas para no primeiro Campeão atingido. Se o alvo foi recentemente atingido por aliados de Jhin, por Armadilhas de Lótus ou recebeu dano de Jhin, ele será enraizado."
+    },
+    {
+      "id": "Jhin.E",
+      "ability": "E",
+      "name": "Audiência Cativa",
+      "description": "Jhin posiciona uma armadilha de lótus invisível que floresce ao ser pisada. Ela reduz a velocidade de inimigos próximos antes de causar dano com uma explosão de pétalas serrilhadas. Beleza em Morte - Quando Jhin abate um Campeão inimigo, uma armadilha de lótus florescerá próximo a seu cadáver."
+    },
+    {
+      "id": "Jhin.R",
+      "ability": "R",
+      "name": "Aclamação",
+      "description": "Jhin canaliza, transformando a Sussurro em um mega-canhão de ombro. Ela é capaz de fazer 4 super disparos com extremo alcance que atravessam tropas e monstros, mas que param no primeiro campeão atingido. A Sussurro mutila os inimigos atingidos, o que reduz sua velocidade e aumenta o dano de execução. O 4º disparo é feito com perfeição, de poder épico e garante um acerto crítico."
+    },
+    {
+      "id": "Jhin.P",
+      "ability": "P",
+      "name": "Sussurro",
+      "description": "Sussurro, o canhão de mão de Jhin, é um instrumento preciso que foi projetado para causar muito dano. Ele dispara com frequência fixa e carrega apenas quatro projéteis. Jhin encanta o projétil final com magia sombria para causar Acerto Crítico e dano de execução adicional. Sempre que causa um Acerto Crítico, Sussurro inspira Jhin com um impulso de Velocidade de Movimento."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Granada Dançante: Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate.",
+      "Aclamação: Jhin canaliza, transformando a Sussurro em um mega-canhão de ombro. Ela é capaz de fazer 4 super disparos com extremo alcance que atravessam tropas e monstros, mas que param no primeiro campeão atingido. A Sussurro mutila os inimigos atingidos, o que reduz sua velocidade e aumenta o dano de execução. O 4º disparo é feito com perfeição, de poder épico e garante um acerto crítico."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Florescer Mortal tem um alcance incrível. Ao aproximar-se de um confronto, certifique-se de olhar em volta por inimigos que podem ser enraizados.",
+      "Sua Ultimate causa bem menos dano a inimigos com Vida cheia. Procure ir atrás de alvos enfraquecidos em fuga.",
+      "Você ainda pode conjurar habilidades enquanto recarrega. Usa-as para preencher esse tempo."
+    ],
+    "against": [
+      "Florescer Mortal somente enraíza aqueles atingidos por um dos ataques básicos, armadilhas ou aliados de Jhin dentro dos últimos 4s.",
+      "Jhin posiciona armadilhas invisíveis pelo mapa. Cuidado por onde pisa!",
+      "Os ataques de Jhin são bem potentes, mas ele fica sem munição após o 4º disparo. Use essa janela para avançar nele e atacar com tudo."
+    ]
+  }
+}

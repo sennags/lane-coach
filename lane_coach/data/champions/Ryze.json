@@ -1,0 +1,91 @@
+{
+  "id": "Ryze",
+  "name": "Ryze",
+  "title": "o Mago Rúnico",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ryze.json",
+    "label": "Riot Data Dragon — Ryze",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Ryze.Q",
+      "ability": "Q",
+      "name": "Sobrecarregar",
+      "description": "Passivamente, as outras habilidades básicas de Ryze redefinem o Tempo de Recarga de Sobrecarregar e carregam uma runa. Quando Ryze conjura Sobrecarregar com 2 runas carregadas, ele recebe um breve surto de Velocidade de Movimento. Ao conjurar, Ryze arremessa uma carga de energia pura em linha reta, causando dano ao primeiro inimigo atingido. Se o alvo estiver afetado por Fluxo, Sobrecarregar causa dano adicional e rebate para inimigos próximos atingidos por Fluxo."
+    },
+    {
+      "id": "Ryze.W",
+      "ability": "W",
+      "name": "Prisão de Runa",
+      "description": "Ryze prende um alvo em uma prisão de runas, causando dano e reduzindo sua Velocidade de Movimento. Se o alvo estiver afetado por Fluxo, ele é enraizado."
+    },
+    {
+      "id": "Ryze.E",
+      "ability": "E",
+      "name": "Fluxo de Feitiço",
+      "description": "Ryze lança um orbe de puro poder mágico que causa dano a um inimigo e um efeito negativo em todos os inimigos próximos. As habilidades de Ryze têm efeitos adicionais contra a unidade afetada."
+    },
+    {
+      "id": "Ryze.R",
+      "ability": "R",
+      "name": "Portal de Reinos",
+      "description": "Passivamente, Sobrecarregar causa ainda mais dano contra alvos afetados por Fluxo. Ao conjurar, Ryze cria um portal para um local próximo. Após alguns segundos, aliados próximos ao portal são teleportados ao local alvo."
+    },
+    {
+      "id": "Ryze.P",
+      "ability": "P",
+      "name": "Maestria Arcana",
+      "description": "As habilidades de Ryze causam dano adicional com base em seu Mana adicional. Ele recebe um percentual de aumento de Mana máximo com base em seu Poder de Habilidade."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Sobrecarregar: Passivamente, as outras habilidades básicas de Ryze redefinem o Tempo de Recarga de Sobrecarregar e carregam uma runa. Quando Ryze conjura Sobrecarregar com 2 runas carregadas, ele recebe um breve surto de Velocidade de Movimento. Ao conjurar, Ryze arremessa uma carga de energia pura em linha reta, causando dano ao primeiro inimigo atingido. Se o alvo estiver afetado por Fluxo, Sobrecarregar causa dano adicional e rebate para inimigos próximos atingidos por Fluxo.",
+      "Portal de Reinos: Passivamente, Sobrecarregar causa ainda mais dano contra alvos afetados por Fluxo. Ao conjurar, Ryze cria um portal para um local próximo. Após alguns segundos, aliados próximos ao portal são teleportados ao local alvo."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use o efeito passivo de Sobrecarregar para otimizar o máximo de dano ou o máximo de velocidade de movimento.",
+      "O Tempo de Recarga curto de Fluxo de Feitiço permite que Fluxo seja espalhado em diversos inimigos.",
+      "Ryze pode mover-se e conjurar outras habilidades enquanto Portal de Reinos estiver sendo carregado sem cancelar sua conjuração."
+    ],
+    "against": [
+      "Ryze é especialmente perigoso para oponentes marcados com Fluxo.",
+      "Use o tempo de carregamento do Portal de Reinos para saber como lidar com o que pode sair dele.",
+      "Usar controle de grupo em Ryze durante o carregamento de Portal de Reinos cancelará o portal."
+    ]
+  }
+}

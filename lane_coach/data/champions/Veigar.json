@@ -1,0 +1,91 @@
+{
+  "id": "Veigar",
+  "name": "Veigar",
+  "title": "o Pequeno Mestre do Mal",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Veigar.json",
+    "label": "Riot Data Dragon — Veigar",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Veigar.Q",
+      "ability": "Q",
+      "name": "Golpe Maligno",
+      "description": "Veigar faz um disparo de energia das trevas que causa Dano Mágico aos dois primeiros inimigos atingidos. Unidades abatidas por este disparo concedem a ele um pouco de Poder de Habilidade permanentemente."
+    },
+    {
+      "id": "Veigar.W",
+      "ability": "W",
+      "name": "Matéria Escura",
+      "description": "Veigar invoca uma grande massa de Matéria Escura que cai do céu sobre o local-alvo, causando Dano Mágico ao chegar no chão. Os acúmulos de Poder Maligno Fenomenal reduzem o Tempo de Recarga de Matéria Escura."
+    },
+    {
+      "id": "Veigar.E",
+      "ability": "E",
+      "name": "Horizonte de Eventos",
+      "description": "Veigar distorce os limites do espaço, criando uma prisão que Atordoa os inimigos que a atravessam."
+    },
+    {
+      "id": "Veigar.R",
+      "ability": "R",
+      "name": "Explosão Primordial",
+      "description": "Explode o Campeão-alvo inimigo, causando uma grande quantia de Dano Mágico, que aumenta com base na Vida perdida do alvo."
+    },
+    {
+      "id": "Veigar.P",
+      "ability": "P",
+      "name": "Poder Maligno Fenomenal",
+      "description": "Veigar é o maior ser maligno a chegar ao coração de Runeterra - e vai ficar cada vez maior! Atingir um Campeão inimigo com uma habilidade ou executar um golpe final concede a Veigar um aumento permanente de Poder de Habilidade."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Golpe Maligno: Veigar faz um disparo de energia das trevas que causa Dano Mágico aos dois primeiros inimigos atingidos. Unidades abatidas por este disparo concedem a ele um pouco de Poder de Habilidade permanentemente.",
+      "Explosão Primordial: Explode o Campeão-alvo inimigo, causando uma grande quantia de Dano Mágico, que aumenta com base na Vida perdida do alvo."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use Horizonte de Eventos para aumentar suas chances de acertar Matéria Escura.",
+      "Veigar é extremamente dependente de Mana e de Redução do Tempo de Recarga. Tente comprar itens com estes atributos para aumentar a eficácia de sua passiva e de Golpe Maligno.",
+      "Veigar é um pouco frágil. Vale a pena selecionar ao menos um feitiço de invocador que possa ser usado de maneira defensiva."
+    ],
+    "against": [
+      "Matéria Escura causa muito dano, mas pode ser evitada. Preste atenção no som e indicador visual para estar ciente de quando e onde a habilidade cairá.",
+      "Horizonte de Eventos atordoa somente em sua borda. Caso esteja dentro da habilidade, ainda poderá se movimentar e atacar.",
+      "A Ultimate de Veigar causa dano aumentado com base em sua Vida perdida."
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "Fiora",
+  "name": "Fiora",
+  "title": "a Grande Duelista",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Fiora.json",
+    "label": "Riot Data Dragon — Fiora",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Fiora.Q",
+      "ability": "Q",
+      "name": "Estocada",
+      "description": "Fiora avança em uma direção e golpeia um inimigo próximo, causando Dano Físico e aplicando efeitos de contato."
+    },
+    {
+      "id": "Fiora.W",
+      "ability": "W",
+      "name": "Ripostar",
+      "description": "Fiora apara todo o dano e desarmes recebidos por um curto período de tempo, golpeando na direção alvo em seguida. Este golpe reduz a velocidade do primeiro campeão inimigo atingido. O golpe pode atordoar caso Fiora tenha bloqueado um efeito imobilizante com esta habilidade."
+    },
+    {
+      "id": "Fiora.E",
+      "ability": "E",
+      "name": "Esgrima",
+      "description": "Fiora ganha aumento na Velocidade de Ataque pelos próximos dois ataques. O primeiro ataque reduz a velocidade do alvo e o segundo ataque causará acerto crítico."
+    },
+    {
+      "id": "Fiora.R",
+      "ability": "R",
+      "name": "Desafio Grandioso",
+      "description": "Fiora revela todos os quatro Pontos Vitais de um Campeão inimigo e recebe Velocidade de Movimento enquanto estiver perto dele. Se atingir todos os quatro Pontos Vitais ou se o alvo morrer depois que ela atingir pelo menos um deles, Fiora e os aliados que estiverem na área serão curados pelos próximos segundos."
+    },
+    {
+      "id": "Fiora.P",
+      "ability": "P",
+      "name": "Dança da Duelista",
+      "description": "Fiora revelou um Ponto Vital neste Campeão. Se atingir o Ponto Vital , ela restaurará Vida e receberá Velocidade de Movimento ."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Estocada: Fiora avança em uma direção e golpeia um inimigo próximo, causando Dano Físico e aplicando efeitos de contato.",
+      "Desafio Grandioso: Fiora revela todos os quatro Pontos Vitais de um Campeão inimigo e recebe Velocidade de Movimento enquanto estiver perto dele. Se atingir todos os quatro Pontos Vitais ou se o alvo morrer depois que ela atingir pelo menos um deles, Fiora e os aliados que estiverem na área serão curados pelos próximos segundos."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Graças à Dança da Duelista, Fiora é excelente em trocas rápidas. Use a Velocidade de Movimento adicional por atingir um Ponto Vital para escapar ilesa ou preparar a próxima troca.",
+      "Desafio Grandioso permite que Fiora derrube até mesmo os oponentes mais resistentes, recuperando-se em seguida, caso tenha sucesso. Não hesite em atacar a linha de frente do inimigo."
+    ],
+    "against": [
+      "Dança da Duelista mostra a você de onde Fiora tentará atacar, então prepare-se para puni-la quando fizer a tentativa.",
+      "Tenha cuidado ao conjurar desarmes imobilizantes em Fiora. Caso Ripostar esteja disponível, ela pode virar este poder contra você."
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Cassiopeia",
+  "name": "Cassiopeia",
+  "title": "o Abraço da Serpente",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Cassiopeia.json",
+    "label": "Riot Data Dragon — Cassiopeia",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Cassiopeia.Q",
+      "ability": "Q",
+      "name": "Explosão Venenosa",
+      "description": "Cassiopeia atinge uma área com veneno após um breve intervalo, recebendo Velocidade de Movimento caso atinja um Campeão inimigo."
+    },
+    {
+      "id": "Cassiopeia.W",
+      "ability": "W",
+      "name": "Miasma",
+      "description": "Cassiopeia lança diversas nuvens de veneno que reduzem a velocidade, prendem ao chão e causam dano leve aos inimigos que as atravessarem. Inimigos presos ao chão não podem usar habilidades de movimentação."
+    },
+    {
+      "id": "Cassiopeia.E",
+      "ability": "E",
+      "name": "Presas Duplas",
+      "description": "Cassiopeia desfere um ataque que causa dano adicional a alvos envenenados, curando a si mesma com um percentual do dano causado. Se o alvo morrer com este ataque, Cassiopeia recupera Mana."
+    },
+    {
+      "id": "Cassiopeia.R",
+      "ability": "R",
+      "name": "Olhar Petrificador",
+      "description": "Cassiopeia lança uma espiral de energia mágica de seus olhos, atordoando quaisquer inimigos à sua frente que estiverem de frente para ela e reduzindo a velocidade de quaisquer outros que estiverem de costas."
+    },
+    {
+      "id": "Cassiopeia.P",
+      "ability": "P",
+      "name": "Graça Serpentina",
+      "description": "Todos os efeitos de Velocidade de Movimento são mais eficazes em Cassiopeia."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Explosão Venenosa: Cassiopeia atinge uma área com veneno após um breve intervalo, recebendo Velocidade de Movimento caso atinja um Campeão inimigo.",
+      "Olhar Petrificador: Cassiopeia lança uma espiral de energia mágica de seus olhos, atordoando quaisquer inimigos à sua frente que estiverem de frente para ela e reduzindo a velocidade de quaisquer outros que estiverem de costas."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use Presas Duplas em alvos estáticos envenenados, tais como monstros e unidades atordoadas por seu Olhar Petrificador para causar o máximo de dano.",
+      "Conduza seu inimigo ao alvejá-lo com Explosão Venenosa para garantir o acerto."
+    ],
+    "against": [
+      "Cuidado com o potencial de dano de Cassiopeia com Presas Duplas quando caso esteja envenenado(a).",
+      "Não fique de frente para Cassiopeia quando ela conjurar Olhar Petrificador. Isso causará lentidão em vez de atordoamento."
+    ]
+  }
+}

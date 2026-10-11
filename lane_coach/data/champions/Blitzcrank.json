@@ -1,0 +1,90 @@
+{
+  "id": "Blitzcrank",
+  "name": "Blitzcrank",
+  "title": "o Grande Golem a Vapor",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Blitzcrank.json",
+    "label": "Riot Data Dragon — Blitzcrank",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Blitzcrank.Q",
+      "ability": "Q",
+      "name": "Puxão Biônico",
+      "description": "Blitzcrank dispara a mão direita para pegar um inimigo no trajeto, causando dano e puxando-o em sua direção."
+    },
+    {
+      "id": "Blitzcrank.W",
+      "ability": "W",
+      "name": "Turbo",
+      "description": "Blitzcrank sobrecarrega-se para aumentar drasticamente suas Velocidades de Ataque e de Movimento. Após o fim do efeito, sofre Lentidão temporariamente."
+    },
+    {
+      "id": "Blitzcrank.E",
+      "ability": "E",
+      "name": "Punho do Poder",
+      "description": "Blitzcrank carrega seu punho para fazer com que o próximo Ataque cause o dobro de dano e arremesse o alvo ao ar."
+    },
+    {
+      "id": "Blitzcrank.R",
+      "ability": "R",
+      "name": "Campo Estático",
+      "description": "Inimigos atacados por Blitzcrank são marcados e sofrem dano de eletricidade após 1s. Ele também pode ativar esta habilidade para remover escudos de inimigos próximos, causar dano e silenciá-los brevemente."
+    },
+    {
+      "id": "Blitzcrank.P",
+      "ability": "P",
+      "name": "Barreira de Mana",
+      "description": "Blitzcrank recebe um Escudo com base em seu Mana ao ficar com a Vida baixa."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Puxão Biônico: Blitzcrank dispara a mão direita para pegar um inimigo no trajeto, causando dano e puxando-o em sua direção.",
+      "Campo Estático: Inimigos atacados por Blitzcrank são marcados e sofrem dano de eletricidade após 1s. Ele também pode ativar esta habilidade para remover escudos de inimigos próximos, causar dano e silenciá-los brevemente."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "O ''combo'' 1-2-3 de Puxão Biônico, Punho do Poder e Campo Estático pode devastar um oponente isolado.",
+      "Usar o puxão de Blitzcrank para puxar um inimigo para o alcance de sua torre, seguido de um Punho do Poder, permitirá que a torre acerte vários disparos nele."
+    ],
+    "against": [
+      "Barreira de Mana, a passiva de Blitzcrank, lhe concede um escudo quando estiver com pouca Vida.",
+      "Fique atrás de suas tropas e evite de ser pego pelo Puxão Biônico. A habilidade de Blitzcrank puxa apenas o primeiro alvo inimigo que encontra."
+    ]
+  }
+}

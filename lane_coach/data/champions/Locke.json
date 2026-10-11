@@ -1,0 +1,84 @@
+{
+  "id": "Locke",
+  "name": "Locke",
+  "title": "o Exorcista das Cinzas",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Locke.json",
+    "label": "Riot Data Dragon — Locke",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Locke.Q",
+      "ability": "Q",
+      "name": "Pregos Ritualísticos",
+      "description": "Locke prepara um conjunto de Pregos Anímicos para arremessar, causando dano e marcando os inimigos atingidos. Ele pode consumir as marcas para causar dano adicional com seus Ataques."
+    },
+    {
+      "id": "Locke.W",
+      "ability": "W",
+      "name": "Ignição da Alma",
+      "description": "Locke incendeia a própria alma, recebendo Velocidade de Ataque e Velocidade de Movimento e causando dano a si mesmo. Ao final da duração, Locke recupera Vida com base em parte do dano sofrido durante o efeito."
+    },
+    {
+      "id": "Locke.E",
+      "ability": "E",
+      "name": "Perseguição das Cinzas",
+      "description": "Locke se teleporta para um local e avança para atacar o próximo alvo, causando dano a inimigos no trajeto."
+    },
+    {
+      "id": "Locke.R",
+      "ability": "R",
+      "name": "Purgatório",
+      "description": "Locke arremessa um artefato de restrição que causa dano e pode executar os inimigos atingidos. Locke ganha poder adicional ao aprisionar Campeões inimigos."
+    },
+    {
+      "id": "Locke.P",
+      "ability": "P",
+      "name": "Estaca de Prata",
+      "description": "Os Ataques de Locke causam Dano Mágico adicional ao contato, aumentado com base na Vida perdida do inimigo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Pregos Ritualísticos: Locke prepara um conjunto de Pregos Anímicos para arremessar, causando dano e marcando os inimigos atingidos. Ele pode consumir as marcas para causar dano adicional com seus Ataques.",
+      "Purgatório: Locke arremessa um artefato de restrição que causa dano e pode executar os inimigos atingidos. Locke ganha poder adicional ao aprisionar Campeões inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

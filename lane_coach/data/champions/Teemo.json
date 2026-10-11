@@ -1,0 +1,90 @@
+{
+  "id": "Teemo",
+  "name": "Teemo",
+  "title": "o Explorador Veloz",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Teemo.json",
+    "label": "Riot Data Dragon — Teemo",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Teemo.Q",
+      "ability": "Q",
+      "name": "Dardo Ofuscante",
+      "description": "Obscurece a visão de um inimigo com um poderoso veneno, causando dano e cegueira ao alvo pela duração do efeito."
+    },
+    {
+      "id": "Teemo.W",
+      "ability": "W",
+      "name": "Mover Depressa",
+      "description": "Teemo corre por aí, aumentando passivamente sua Velocidade de Movimento até ser atingido por um Campeão ou torre inimiga. Ele pode sair em disparada para receber Velocidade de Movimento adicional (que não é interrompida por ataques) por um breve período."
+    },
+    {
+      "id": "Teemo.E",
+      "ability": "E",
+      "name": "Tiro Tóxico",
+      "description": "Cada um dos ataques de Teemo envenenará o alvo %i:OnHit% ao contato , causando dano no impacto e a cada segundo seguinte por 4s."
+    },
+    {
+      "id": "Teemo.R",
+      "ability": "R",
+      "name": "Armadilha Venenosa",
+      "description": "Teemo arremessa uma armadilha venenosa explosiva usando um dos cogumelos que guardou na mochila. Se um inimigo pisa na armadilha, ela solta uma nuvem venenosa que causa Lentidão e dano ao longo do tempo. Se Teemo arremessar um cogumelo em cima de outro, ele saltará, recebendo alcance adicional."
+    },
+    {
+      "id": "Teemo.P",
+      "ability": "P",
+      "name": "Técnicas de Guerrilha",
+      "description": "Se Teemo permanece imóvel e não faz nada por um curto período, fica Invisível por tempo indefinido. Caso esteja em um arbusto, Teemo pode manter sua Invisibilidade enquanto se move. Ao sair da Invisibilidade, Teemo ativa Elemento-Surpresa, aumentando a própria Velocidade de Ataque por alguns segundos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Dardo Ofuscante: Obscurece a visão de um inimigo com um poderoso veneno, causando dano e cegueira ao alvo pela duração do efeito.",
+      "Armadilha Venenosa: Teemo arremessa uma armadilha venenosa explosiva usando um dos cogumelos que guardou na mochila. Se um inimigo pisa na armadilha, ela solta uma nuvem venenosa que causa Lentidão e dano ao longo do tempo. Se Teemo arremessar um cogumelo em cima de outro, ele saltará, recebendo alcance adicional."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Os cogumelos de Teemo podem ser usados para matar levas de monstros com muita eficácia.",
+      "Coloque os cogumelos em locais chave no mapa, tais como próximo ao Dragão ou Barão Na'Shor, para revelar quando seus inimigos tentarem matá-los."
+    ],
+    "against": [
+      "O Tiro Tóxico de Teemo pune jogadores que são atingidos e recuam, portanto fique a uma distância segura até que esteja pronto para atacar.",
+      "Pode ser útil usar a Lente do Oráculo (Amuleto) para destruir os cogumelos em volta das localizações principais."
+    ]
+  }
+}

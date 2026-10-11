@@ -1,0 +1,89 @@
+{
+  "id": "Viktor",
+  "name": "Viktor",
+  "title": "o Arauto do Arcano",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Viktor.json",
+    "label": "Riot Data Dragon — Viktor",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Viktor.Q",
+      "ability": "Q",
+      "name": "Poder do Sifão",
+      "description": "Viktor explode uma unidade inimiga com Dano Mágico, recebendo um Escudo e fortalecendo seu próximo ataque básico. Aprimoramento: o Escudo de Poder do Sifão aumenta em 60% e Viktor recebe Velocidade de Movimento adicional depois de conjurar a habilidade."
+    },
+    {
+      "id": "Viktor.W",
+      "ability": "W",
+      "name": "Campo Gravítico",
+      "description": "Viktor conjura um campo gravitacional pesado que causa Lentidão a inimigos atingidos pelo seu raio de ação. Inimigos que permanecem tempo demais no campo são atordoados. Aprimoramento: as habilidades de Viktor causam Lentidão a inimigos atingidos."
+    },
+    {
+      "id": "Viktor.E",
+      "ability": "E",
+      "name": "Raio Hextec",
+      "description": "Viktor usa seu braço biomecânico para disparar um Raio Hextec que corta o campo em linha reta, causando dano a todos os inimigos no trajeto. Aprimoramento: uma explosão segue o rastro do Raio Hextec, causando Dano Mágico."
+    },
+    {
+      "id": "Viktor.R",
+      "ability": "R",
+      "name": "Tempestade Arcana",
+      "description": "Viktor conjura uma Tempestade Arcana no campo, causando Dano Mágico e interrompendo canalizações inimigas. A Tempestade causa Dano Mágico periodicamente a todos os inimigos próximos e pode ser redirecionada por Viktor. Aprimoramento: A Tempestade Arcana se move 25% mais rapidamente e, sempre que Campeões morrem após sofrer dano dela, aumenta de tamanho e duração."
+    },
+    {
+      "id": "Viktor.P",
+      "ability": "P",
+      "name": "Gloriosa Evolução",
+      "description": "Viktor receberá Fragmentos Hex sempre que abater um inimigo. Com 100 Fragmentos Hex obtidos, ele receberá permanentemente o Aprimoramento de uma habilidade ativa. Depois de aprimorar todas as habilidades básicas, ele pode obter 100 Fragmentos Hex para aprimorar a ultimate."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Poder do Sifão: Viktor explode uma unidade inimiga com Dano Mágico, recebendo um Escudo e fortalecendo seu próximo ataque básico. Aprimoramento: o Escudo de Poder do Sifão aumenta em 60% e Viktor recebe Velocidade de Movimento adicional depois de conjurar a habilidade.",
+      "Tempestade Arcana: Viktor conjura uma Tempestade Arcana no campo, causando Dano Mágico e interrompendo canalizações inimigas. A Tempestade causa Dano Mágico periodicamente a todos os inimigos próximos e pode ser redirecionada por Viktor. Aprimoramento: A Tempestade Arcana se move 25% mais rapidamente e, sempre que Campeões morrem após sofrer dano dela, aumenta de tamanho e duração."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "O Raio Hextec é uma poderosa ferramenta de poke e de área de negação. Use-o em combinação com Campo Gravítico para controlar a posição do seu inimigo.",
+      "Não se esqueça de escolher o aprimoramento certo no momento certo."
+    ],
+    "against": [
+      "Muito cuidado com a distância que mantém de Viktor. Seu controle do campo de batalha aumenta conforme a proximidade que tiver de seu oponente.",
+      "Fique de olho em quantos aprimoramentos Viktor tiver finalizado através da cor da luz de seu cajado (roxa, amarela, azul e vermelha)."
+    ]
+  }
+}

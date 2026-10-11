@@ -1,0 +1,91 @@
+{
+  "id": "Sona",
+  "name": "Sona",
+  "title": "a Mestra das Cordas",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sona.json",
+    "label": "Riot Data Dragon — Sona",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Sona.Q",
+      "ability": "Q",
+      "name": "Hino do Valor",
+      "description": "Sona toca o Hino do Valor, conjurando rajadas de som, causando Dano Mágico a dois inimigos próximos, priorizando Campeões e monstros. Sona recebe uma aura temporária que concede dano adicional no próximo ataque de aliados próximos contra inimigos."
+    },
+    {
+      "id": "Sona.W",
+      "ability": "W",
+      "name": "Ária da Perseverança",
+      "description": "Sona toca a Ária da Perseverança, conjurando melodias protetoras, curando a si mesma e a um aliado ferido próximo. Sona recebe uma aura temporária que concede um escudo momentâneo a aliados marcados pela área."
+    },
+    {
+      "id": "Sona.E",
+      "ability": "E",
+      "name": "Canção da Celeridade",
+      "description": "Sona toca a Canção da Celeridade, concedendo Velocidade de Movimento adicional a aliados próximos. Sona recebe uma aura temporária que concede Velocidade de Movimento adicional a Campeões aliados marcados pela área."
+    },
+    {
+      "id": "Sona.R",
+      "ability": "R",
+      "name": "Crescendo",
+      "description": "Sona toca o seu melhor acorde, causando Dano Mágico, atordoando Campeões inimigos e forçando-os a dançar."
+    },
+    {
+      "id": "Sona.P",
+      "ability": "P",
+      "name": "Power Chord",
+      "description": "Accelerando : Sona recebe Aceleração permanentemente para as Habilidades básicas (exceto a ultimate), caso use-as corretamente, até um limite. Depois disso, o uso bem-sucedido reduz o Tempo de Recarga restante da ultimate. Power Chord : depois de algumas Habilidades conjuradas, o próximo Ataque de Sona causará Dano Mágico adicional e um efeito extra com base na última Habilidade básica ativada por ela."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Hino do Valor: Sona toca o Hino do Valor, conjurando rajadas de som, causando Dano Mágico a dois inimigos próximos, priorizando Campeões e monstros. Sona recebe uma aura temporária que concede dano adicional no próximo ataque de aliados próximos contra inimigos.",
+      "Crescendo: Sona toca o seu melhor acorde, causando Dano Mágico, atordoando Campeões inimigos e forçando-os a dançar."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Certifique-se de encontrar seus aliados enquanto as auras de Sona estiverem ativas, mas evite ser surpreendido por inimigos.",
+      "Economize Crescendo para os momentos que podem virar o jogo.",
+      "O uso bem pensado de Ária da Perseverança lhe concederá o máximo de sobrevivência."
+    ],
+    "against": [
+      "Espalhem-se quando você vir Sona e então ela não poderá fazer toda sua equipe dançar.",
+      "Mate Sona primeiro, visto que ela irá curar sua equipe inteira se for ignorada por muito tempo."
+    ]
+  }
+}

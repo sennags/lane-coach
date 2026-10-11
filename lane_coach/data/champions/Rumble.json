@@ -1,0 +1,92 @@
+{
+  "id": "Rumble",
+  "name": "Rumble",
+  "title": "a Ameaça Mecânica",
+  "tags": [
+    "Fighter",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rumble.json",
+    "label": "Riot Data Dragon — Rumble",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Rumble.Q",
+      "ability": "Q",
+      "name": "Cospe-Fogo",
+      "description": "Rumble incinera os inimigos à sua frente, causando Dano Mágico em área de cone por 3 segundos. O dano aumenta enquanto ele estiver na Zona de Perigo."
+    },
+    {
+      "id": "Rumble.W",
+      "ability": "W",
+      "name": "Escudo de Sucata",
+      "description": "Rumble puxa um escudo que o protege de dano e lhe concede um rápido aumento de velocidade. Enquanto estiver na Zona de Perigo, a Resistência do Escudo e a velocidade adicional aumentam."
+    },
+    {
+      "id": "Rumble.E",
+      "ability": "E",
+      "name": "Arpão Elétrico",
+      "description": "Rumble lança um arpão, eletrocutando o alvo com Dano Mágico, causando Lentidão e reduzindo a Resistência Mágica dele. Ele pode carregar 2 arpões por vez. O dano e o percentual de Lentidão aumentarão dentro da Zona de Perigo."
+    },
+    {
+      "id": "Rumble.R",
+      "ability": "R",
+      "name": "O Equalizador",
+      "description": "Rumble dispara um grupo de mísseis, criando uma parede de fogo que causa dano e Lentidão a inimigos."
+    },
+    {
+      "id": "Rumble.P",
+      "ability": "P",
+      "name": "Titã do Ferro-Velho",
+      "description": "Cada habilidade que Rumble conjura lhe concede Aquecimento. Ao chegar em 50% de Aquecimento, ele entra na Zona de Perigo, concedendo efeitos adicionais a todas as suas habilidades. Ao chegar a 100% de Aquecimento, ele começa a superaquecer, recebendo Velocidade de Ataque adicional e dano adicional em seus ataques básicos, mas fica incapaz de conjurar habilidades por alguns segundos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Cospe-Fogo: Rumble incinera os inimigos à sua frente, causando Dano Mágico em área de cone por 3 segundos. O dano aumenta enquanto ele estiver na Zona de Perigo.",
+      "O Equalizador: Rumble dispara um grupo de mísseis, criando uma parede de fogo que causa dano e Lentidão a inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Tente se adaptar para ficar na Zona de Perigo e maximizar sua eficácia. É fácil superaquecer se você alternar rapidamente suas habilidades.",
+      "Tente manter seus inimigos no alcance de seu Cospe-Fogo. Isto pode causar muito dano ao longo do tempo.",
+      "Se você está vencendo uma luta, pode usar seu Ultimate para proteger um caminho de fuga."
+    ],
+    "against": [
+      "Muita atenção na barra de Aquecimento de Rumble. Caso o veja Superaquecer, corra para o abate enquanto suas habilidades estiverem desativadas.",
+      "O Ultimate de Rumble pode causar muito dano se você ficar dentro da área de ação. Quando ver os mísseis caindo, corra o mais rapidamente possível.",
+      "Rumble praticamente só causa Dano Mágico. Construa Resistência Mágica para proteger-se contra ele."
+    ]
+  }
+}

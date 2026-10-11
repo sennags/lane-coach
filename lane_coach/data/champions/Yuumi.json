@@ -1,0 +1,84 @@
+{
+  "id": "Yuumi",
+  "name": "Yuumi",
+  "title": "a Gata Mágica",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Yuumi.json",
+    "label": "Riot Data Dragon — Yuumi",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Yuumi.Q",
+      "ability": "Q",
+      "name": "Projétil Errante",
+      "description": "Yuumi dispara um projétil, causando dano e Lentidão ao primeiro alvo que atingir. O projétil causa dano adicional e a Lentidão é fortalecida se demorar pelo menos 1,35s para chegar até o alvo. Enquanto Yuumi estiver com o Melhor Amigo, a Lentidão sempre será fortalecida e a Campeã concederá dano adicional ao contato para o aliado. Enquanto ela estiver Conectada, o projétil poderá ser controlado pelo cursor do mouse por um breve período."
+    },
+    {
+      "id": "Yuumi.W",
+      "ability": "W",
+      "name": "Você e Eu!",
+      "description": "Yuumi avança em direção a um aliado-alvo, tornando-se inalvejável por qualquer ataque, exceto de torres. Enquanto Conectada ao Melhor Amigo, ela recebe Resistência do Escudo e Cura, e concede cura ao contato para o aliado."
+    },
+    {
+      "id": "Yuumi.E",
+      "ability": "E",
+      "name": "Frenética",
+      "description": "Protege Yuumi com um Escudo e aumenta a Velocidade de Movimento e a Velocidade de Ataque. Se ela estiver conectada, isso afetará o aliado em vez dela."
+    },
+    {
+      "id": "Yuumi.R",
+      "ability": "R",
+      "name": "Capítulo Final",
+      "description": "Yuumi canaliza cinco ondas que causam dano a inimigos e curam aliados. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização. Enquanto estiver com o Melhor Amigo, esta Habilidade também seguirá o cursor do mouse."
+    },
+    {
+      "id": "Yuumi.P",
+      "ability": "P",
+      "name": "Amizade Felina",
+      "description": "Periodicamente, quando Yuumi atinge um Campeão com um Ataque ou Habilidade, ela restaura Vida para si e para o próximo aliado a quem ela se Conectar. Enquanto Conectada, Yuumi cria um laço especial com os aliados. O aliado com o laço mais forte aprimora as Habilidades de Yuumi enquanto ela estiver Conectada a ele."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Projétil Errante: Yuumi dispara um projétil, causando dano e Lentidão ao primeiro alvo que atingir. O projétil causa dano adicional e a Lentidão é fortalecida se demorar pelo menos 1,35s para chegar até o alvo. Enquanto Yuumi estiver com o Melhor Amigo, a Lentidão sempre será fortalecida e a Campeã concederá dano adicional ao contato para o aliado. Enquanto ela estiver Conectada, o projétil poderá ser controlado pelo cursor do mouse por um breve período.",
+      "Capítulo Final: Yuumi canaliza cinco ondas que causam dano a inimigos e curam aliados. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização. Enquanto estiver com o Melhor Amigo, esta Habilidade também seguirá o cursor do mouse."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

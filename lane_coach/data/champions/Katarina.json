@@ -1,0 +1,91 @@
+{
+  "id": "Katarina",
+  "name": "Katarina",
+  "title": "a Lâmina Sinistra",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Katarina.json",
+    "label": "Riot Data Dragon — Katarina",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Katarina.Q",
+      "ability": "Q",
+      "name": "Lâmina Saltitante",
+      "description": "Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão."
+    },
+    {
+      "id": "Katarina.W",
+      "ability": "W",
+      "name": "Preparação",
+      "description": "Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga para cima."
+    },
+    {
+      "id": "Katarina.E",
+      "ability": "E",
+      "name": "Shunpo",
+      "description": "Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou golpeando o inimigo mais próximo caso não seja."
+    },
+    {
+      "id": "Katarina.R",
+      "ability": "R",
+      "name": "Lótus da Morte",
+      "description": "Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos."
+    },
+    {
+      "id": "Katarina.P",
+      "ability": "P",
+      "name": "Voracidade",
+      "description": "Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga , Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Lâmina Saltitante: Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão.",
+      "Lótus da Morte: Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Apanhar as Adagas reduz significantemente o Tempo de Recarga de Shunpo.",
+      "Tente aguardar até que a outra equipe esteja distraída enfrentando sua equipe e use Shunpo para teleportar-se para a briga, desferindo um Lótus da Morte logo em seguida.",
+      "Usar Shunpo em um Campeão aliado, Adaga ou tropa pode ser uma ótima tática de fuga."
+    ],
+    "against": [
+      "As habilidades de Katarina causam Dano Mágico, então mesmo se ela estiver criando itens de Dano de Ataque, consiga Resistência Mágica para se opor a ela.",
+      "Tente economizar um desarme para quando Katarina usar sua Lótus da Morte."
+    ]
+  }
+}

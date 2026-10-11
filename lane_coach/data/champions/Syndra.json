@@ -1,0 +1,91 @@
+{
+  "id": "Syndra",
+  "name": "Syndra",
+  "title": "a Soberana Sombria",
+  "tags": [
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Syndra.json",
+    "label": "Riot Data Dragon — Syndra",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Syndra.Q",
+      "ability": "Q",
+      "name": "Esfera Negra",
+      "description": "Syndra conjura uma Esfera Negra, causando Dano Mágico. A esfera permanece em seu lugar e pode ser manipulada por seus outros poderes."
+    },
+    {
+      "id": "Syndra.W",
+      "ability": "W",
+      "name": "Força de Vontade",
+      "description": "Syndra apanha e arremessa uma Esfera Negra ou tropa inimiga, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos."
+    },
+    {
+      "id": "Syndra.E",
+      "ability": "E",
+      "name": "Dispersar os Fracos",
+      "description": "Syndra afasta inimigos e Esferas Negras, causando Dano Mágico. Inimigos atingidos pelas Esferas Negras ficam atordoados."
+    },
+    {
+      "id": "Syndra.R",
+      "ability": "R",
+      "name": "Poder Irrestrito",
+      "description": "Syndra bombardeia um Campeão inimigo com todas as suas Esferas Negras."
+    },
+    {
+      "id": "Syndra.P",
+      "ability": "P",
+      "name": "Transcender",
+      "description": "Syndra coleta Farpas de Ira ao subir de nível ou causar dano a inimigos, aprimorando as próprias habilidades. Esfera Negra : Syndra pode segurar uma carga adicional. Força de Vontade : Dano Verdadeiro adicional. Dispersar os Fracos : largura aumentada e causa Lentidão a todos os alvos. Poder Irrestrito : executa alvos com a Vida baixa."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Esfera Negra: Syndra conjura uma Esfera Negra, causando Dano Mágico. A esfera permanece em seu lugar e pode ser manipulada por seus outros poderes.",
+      "Poder Irrestrito: Syndra bombardeia um Campeão inimigo com todas as suas Esferas Negras."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Para maximizar o dano de seu Ultimate, use-o quando houver muitas esferas no campo de batalha.",
+      "Após atingir um campeão inimigo com Força de Vontade, continue com Esfera Negra. Eles sofrerão Lentidão e terão dificuldades em evitá-la.",
+      "Leve uma de suas habilidades ao ranque 5 o mais rápido que puder, pois elas ganham poderosos efeitos extra no ranque máximo."
+    ],
+    "against": [
+      "Pegue botas o quanto antes ao jogar contra Syndra. Elas ajudarão a evitar muitas de suas habilidades.",
+      "Ataque Syndra após ela usar Dispersar os Fracos. A habilidade tem longo Tempo de Recarga e a deixará vulnerável.",
+      "No ranque máximo, as habilidades de Syndra recebem efeitos adicionais e mudam de aparência."
+    ]
+  }
+}

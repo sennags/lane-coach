@@ -1,0 +1,92 @@
+{
+  "id": "Evelynn",
+  "name": "Evelynn",
+  "title": "o Abraço da Agonia",
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Evelynn.json",
+    "label": "Riot Data Dragon — Evelynn",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Evelynn.Q",
+      "ability": "Q",
+      "name": "Espinho de Ódio",
+      "description": "Evelynn ataca com seu Chicote, causando dano ao primeiro inimigo atingido. Depois, ela dispara uma linha de espinhos algumas vezes contra inimigos próximos."
+    },
+    {
+      "id": "Evelynn.W",
+      "ability": "W",
+      "name": "Fascinação",
+      "description": "Evelynn amaldiçoa seu alvo, fazendo com que o próximo ataque ou habilidade dela o encante e reduza sua Resistência Mágica depois um intervalo."
+    },
+    {
+      "id": "Evelynn.E",
+      "ability": "E",
+      "name": "Chicotada",
+      "description": "Evelynn açoita seu alvo com seu Chicote, causando dano. Depois, ela ganha Velocidade de Movimento por um breve período."
+    },
+    {
+      "id": "Evelynn.R",
+      "ability": "R",
+      "name": "Última Carícia",
+      "description": "Evelynn fica inalvejável por um breve período e dizima a área à sua frente antes de se mover uma longa distância para trás."
+    },
+    {
+      "id": "Evelynn.P",
+      "ability": "P",
+      "name": "Sombra Demoníaca",
+      "description": "Quando está fora de combate, Evelynn entra em Sombra Demoníaca. A Sombra Demoníaca cura Evelynn quando ela está com pouca Vida e concede Camuflagem após o nível 6."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Assassino: procura um alvo vulnerável e uma janela para concentrar dano e reposicionar.",
+    "weaknesses": [
+      "Entrar sem conectar dano ou sem uma opção de saída pode comprometer a tentativa.",
+      "Proteção, controle e agrupamento do adversário podem dificultar o acesso ao alvo."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura uma janela de aproximação ou de habilidades para ameaçar uma troca decisiva.",
+        "plan": "Observe vida, recursos e ferramentas defensivas antes de entrar. Preserve acesso ao farm quando a tentativa de dano não for segura.",
+        "against": "Não ofereça alcance gratuitamente durante o farm. Observe a ferramenta de aproximação antes de gastar sua proteção."
+      },
+      "mid": {
+        "typical": "Busca alvos expostos e ângulos em que o adversário tenha menos proteção disponível.",
+        "plan": "Escolha uma entrada com saída plausível e evite comprometer todos os recursos contra um alvo protegido.",
+        "against": "Reduza oportunidades de isolamento e acompanhe a aproximação antes de perseguir."
+      },
+      "late": {
+        "typical": "Espera uma oportunidade para ameaçar um alvo importante durante a luta.",
+        "plan": "Identifique as respostas defensivas que impedem sua entrada e espere uma janela real. Não trate uma sequência como finalização garantida.",
+        "against": "Preserve proteção para o alvo ameaçado e mantenha distância suficiente para responder à entrada."
+      }
+    },
+    "strengths": [
+      "Espinho de Ódio: Evelynn ataca com seu Chicote, causando dano ao primeiro inimigo atingido. Depois, ela dispara uma linha de espinhos algumas vezes contra inimigos próximos.",
+      "Última Carícia: Evelynn fica inalvejável por um breve período e dizima a área à sua frente antes de se mover uma longa distância para trás."
+    ],
+    "basis": "class_based",
+    "class_label": "Assassino",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "O tempo de armação da Fascinação pode parecer longo, mas o encanto e a fragmentação da Resistência Mágica dão a Evelynn uma vantagem enorme, fazendo valer a espera.",
+      "Enquanto estiver em furtividade, preste atenção a quando estiver (quase) sendo detectado por Campeões inimigos. Isso pode ser identificado através dos olhos brilhantes amarelos e vermelhos sobre Campeões inimigos que estiverem próximos.",
+      "Se estiver com pouca Vida, você pode utilizar a cura e a camuflagem da Sombra Demoníaca para voltar à luta e surpreender os adversários."
+    ],
+    "against": [
+      "Comprar Sentinelas Detectoras pode ajudar você a detectar a localização de Evelynn e se preparar para as suas emboscadas.",
+      "Grande parte da ameaça de Evellyn vem de seu encanto Fascinação. Proteja aliados marcados com Fascinação ou, se tiver sido marcado, certifique-se de que seus aliados estejam entre você e o lugar de onde Evelynn pode atacar.",
+      "Se suspeitar que Evelynn está prestes a emboscar um de seus colegas de equipe, avise-os com sinais de alerta no minimapa e mensagens no bate-papo."
+    ]
+  }
+}

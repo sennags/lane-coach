@@ -2,6 +2,10 @@
   "id": "Ahri",
   "name": "Ahri",
   "title": "a Raposa de Nove Caudas",
+  "tags": [
+    "Mage",
+    "Assassin"
+  ],
   "source": {
     "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ahri.json",
     "label": "Riot Data Dragon — Ahri",
@@ -13,7 +17,7 @@
       "id": "Ahri.Q",
       "ability": "Q",
       "name": "Orbe da Ilusão",
-      "description": "Ahri lança e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta. "
+      "description": "Ahri lança e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta."
     },
     {
       "id": "Ahri.W",
@@ -140,6 +144,18 @@
       }
     },
     "status": "editorial_unreviewed",
-    "reviewed_at": null
+    "reviewed_at": null,
+    "basis": "champion_specific"
+  },
+  "official_tips": {
+    "own": [
+      "Use Encanto para iniciar seus combos. Isso fará o acerto de Orbe da Ilusão e Fogo de Raposa muito mais fácil.",
+      "Inicie os confrontos de equipe com Encanto e vá atrás dos fujões com Ímpeto Espiritual.",
+      "Ímpeto Espiritual habilita as habilidades de Ahri, abre caminhos para Encanto, ajuda a acertar Orbe da Ilusão em dobro e se fecha para permitir o uso de Fogo de Raposa."
+    ],
+    "against": [
+      "A capacidade de sobrevivência de Ahri é drasticamente reduzida quando sua habilidade Ultimate, Ímpeto Espiritual, estiver inativa.",
+      "Fique atrás das tropas para fazer com que seja difícil o uso de Encanto. Isto reduzirá significativamente o potencial de dano de Ahri."
+    ]
   }
 }

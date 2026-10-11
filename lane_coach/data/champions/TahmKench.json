@@ -1,0 +1,90 @@
+{
+  "id": "TahmKench",
+  "name": "Tahm Kench",
+  "title": "o Rei do Rio",
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/TahmKench.json",
+    "label": "Riot Data Dragon — Tahm Kench",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "TahmKench.Q",
+      "ability": "Q",
+      "name": "Língua-chicote",
+      "description": "Tahm Kench ataca com a língua, causando dano e Lentidão à primeira unidade atingida, além de se curar se a unidade for um Campeão inimigo. Aplica um acúmulo de Um Gosto Adquirido a Campeões inimigos. Se o Campeão já tiver 3 acúmulos de Um Gosto Adquirido , ele será Atordoado e os acúmulos serão consumidos."
+    },
+    {
+      "id": "TahmKench.W",
+      "ability": "W",
+      "name": "Mergulho Abissal",
+      "description": "Mergulha e reaparece no local-alvo, causando dano e Arremessando ao ar todos os inimigos em uma área."
+    },
+    {
+      "id": "TahmKench.E",
+      "ability": "E",
+      "name": "Pele Grossa",
+      "description": "Passivo: Tahm Kench armazena uma porcentagem do dano sofrido e se cura com base nela quando fora de combate. Ativo: converte todo o dano armazenado em um Escudo temporário."
+    },
+    {
+      "id": "TahmKench.R",
+      "ability": "R",
+      "name": "Devorar",
+      "description": "Tahm Kench devora um Campeão por alguns segundos, causando Dano Mágico se for um inimigo ou concedendo Escudo se for um aliado."
+    },
+    {
+      "id": "TahmKench.P",
+      "ability": "P",
+      "name": "Um Gosto Adquirido",
+      "description": "Tahm Kench usa o próprio corpo para impulsionar os Ataques, causando dano adicional com base na Vida total dele. Causar dano a Campeões inimigos aumenta os acúmulos de Um Gosto Adquirido . Com três acúmulos, ele pode usar Devorar em um Campeão inimigo."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Língua-chicote: Tahm Kench ataca com a língua, causando dano e Lentidão à primeira unidade atingida, além de se curar se a unidade for um Campeão inimigo. Aplica um acúmulo de Um Gosto Adquirido a Campeões inimigos. Se o Campeão já tiver 3 acúmulos de Um Gosto Adquirido , ele será Atordoado e os acúmulos serão consumidos.",
+      "Devorar: Tahm Kench devora um Campeão por alguns segundos, causando Dano Mágico se for um inimigo ou concedendo Escudo se for um aliado."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Sua função mais importante como suporte é manter aliados frágeis em segurança. Pense bem no alcance e no Tempo de Recarga de Devorar, posicionando-se de forma estratégica!",
+      "Tenha muito cuidado ao decidir quando usar o efeito ativo de Pele Grossa. Às vezes, o uso antecipado do escudo para evitar dano é bom, mas há outros casos em que a cura é bem mais vantajosa."
+    ],
+    "against": [
+      "Caso Tahm Kench use o escudo de Pele Grossa, lembre-se de que ele abriu mão de uma boa cura. Ele também não acumulará nova Vida cinza até que Pele Grossa saia do Tempo de Recarga. Use isso em sua vantagem!",
+      "Fique de olho no Mergulho Abissal: é possível cancelar a canalização com efeitos imobilizadores de Controle de Grupo."
+    ]
+  }
+}

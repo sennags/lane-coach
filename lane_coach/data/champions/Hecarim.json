@@ -1,0 +1,90 @@
+{
+  "id": "Hecarim",
+  "name": "Hecarim",
+  "title": "a Sombra da Guerra",
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Hecarim.json",
+    "label": "Riot Data Dragon — Hecarim",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Hecarim.Q",
+      "ability": "Q",
+      "name": "Enfurecido",
+      "description": "Hecarim golpeia inimigos próximos, causando Dano Físico. Caso ele cause dano a ao menos um inimigo, os usos subsequentes da habilidade causam mais dano e têm menor Tempo de Recarga."
+    },
+    {
+      "id": "Hecarim.W",
+      "ability": "W",
+      "name": "Espírito do Pavor",
+      "description": "Hecarim recebe Armadura e Resistência Mágica. Ele causa Dano Mágico a inimigos próximos e recebe Vida equivalente a um percentual de qualquer dano que esses inimigos receberem."
+    },
+    {
+      "id": "Hecarim.E",
+      "ability": "E",
+      "name": "Ataque Devastador",
+      "description": "Hecarim recebe Velocidade de Movimento crescente e ignora colisão com unidades por um curto período. O próximo Ataque dele empurra o alvo e causa Dano Físico adicional com base na distância percorrida desde a ativação da Habilidade."
+    },
+    {
+      "id": "Hecarim.R",
+      "ability": "R",
+      "name": "Massacre das Sombras",
+      "description": "Hecarim invoca cavaleiros espectrais e avança, causando Dano Mágico em linha reta. Hecarim desfere uma onda de choque ao terminar o ataque, fazendo com que inimigos próximos se afastem aterrorizados."
+    },
+    {
+      "id": "Hecarim.P",
+      "ability": "P",
+      "name": "Caminho da Guerra",
+      "description": "Hecarim recebe Dano de Ataque equivalente a um percentual de sua Velocidade de Movimento adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Enfurecido: Hecarim golpeia inimigos próximos, causando Dano Físico. Caso ele cause dano a ao menos um inimigo, os usos subsequentes da habilidade causam mais dano e têm menor Tempo de Recarga.",
+      "Massacre das Sombras: Hecarim invoca cavaleiros espectrais e avança, causando Dano Mágico em linha reta. Hecarim desfere uma onda de choque ao terminar o ataque, fazendo com que inimigos próximos se afastem aterrorizados."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Espírito do Pavor restaura Vida quando inimigos próximos recebem dano, incluindo o dano causado por aliados. Use-o durante uma grande briga para maximizar a sobrevivência de Hecarim.",
+      "Ataque Devastador causa mais dano com base na distância percorrida. Tente usar Massacre das Sombras ou feitiços de invocador tais como Fantasma ou Flash para maximizar esse dano."
+    ],
+    "against": [
+      "Hecarim recebe Vida de inimigos próximos com Espírito do Pavor, mas não tem durabilidade. Use dano em rajada.",
+      "A ultimate de Hecarim faz com que seus oponentes fujam aterrorizados. Faça sua equipe se espalhar e reduza o poder dele em confrontos."
+    ]
+  }
+}

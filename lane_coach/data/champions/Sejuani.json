@@ -1,0 +1,91 @@
+{
+  "id": "Sejuani",
+  "name": "Sejuani",
+  "title": "a Fúria do Norte",
+  "tags": [
+    "Tank"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sejuani.json",
+    "label": "Riot Data Dragon — Sejuani",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Sejuani.Q",
+      "ability": "Q",
+      "name": "Ataque do Ártico",
+      "description": "Sejuani avança em investida, lançando os inimigos pelos ares. A investida cessa após acertar um Campeão inimigo."
+    },
+    {
+      "id": "Sejuani.W",
+      "ability": "W",
+      "name": "Ira do Inverno",
+      "description": "Sejuani usa a maça duas vezes, causando dano e aplicando acúmulos de Congelar."
+    },
+    {
+      "id": "Sejuani.E",
+      "ability": "E",
+      "name": "Congelamento Permanente",
+      "description": "Sejuani congela e atordoa um Campeão inimigo que tiver o máximo de acúmulos de Congelar."
+    },
+    {
+      "id": "Sejuani.R",
+      "ability": "R",
+      "name": "Prisão Glacial",
+      "description": "Sejuani arremessa sua boleadeira, congelando e atordoando o primeiro Campeão que acertar, criando uma tempestade de gelo que causa lentidão aos demais inimigos."
+    },
+    {
+      "id": "Sejuani.P",
+      "ability": "P",
+      "name": "Fúria do Norte",
+      "description": "Após ficar fora de combate, Sejuani recebe Armadura Congelada, que concede Armadura, Resistência Mágica e imunidade a reduções de velocidade. Armadura Congelada persiste por um curto período após Sejuani sofrer dano e Sejuani pode causar dano a um inimigo atordoado para estilhaçá-la, causando muito Dano Mágico."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Ataque do Ártico: Sejuani avança em investida, lançando os inimigos pelos ares. A investida cessa após acertar um Campeão inimigo.",
+      "Prisão Glacial: Sejuani arremessa sua boleadeira, congelando e atordoando o primeiro Campeão que acertar, criando uma tempestade de gelo que causa lentidão aos demais inimigos."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Use o Ataque do Ártico para escapar de situações ruins, interromper canalizações de feitiços ou perseguir inimigos.",
+      "Os aliados corpo a corpo podem acumular Congelar para sua Congelamento Permanente, então fique de olho em quem eles estão atacando.",
+      "Guarde Prisão Glacial para quando seus aliados estiverem por perto para tirar vantagem dela."
+    ],
+    "against": [
+      "Esquivar-se do Ataque do Ártico e da Prisão Glacial pode lhe dar uma grande vantagem.",
+      "Concentre-se em evitar o segundo golpe da Ira do Inverno, que concentra a maior parte do dano.",
+      "Inimigos corpo a corpo também acumulam Congelar para Sejuani, portanto tenha cuidado perto deles."
+    ]
+  }
+}

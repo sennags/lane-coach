@@ -1,0 +1,91 @@
+{
+  "id": "Tristana",
+  "name": "Tristana",
+  "title": "a Artilheira Yordle",
+  "tags": [
+    "Marksman",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Tristana.json",
+    "label": "Riot Data Dragon — Tristana",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Tristana.Q",
+      "ability": "Q",
+      "name": "Tiro Rápido",
+      "description": "Tristana dispara rapidamente com seu canhão, aumentando sua Velocidade de Ataque por um curto período de tempo."
+    },
+    {
+      "id": "Tristana.W",
+      "ability": "W",
+      "name": "Salto-foguete",
+      "description": "Tristana dispara no chão para lançar-se ao local-alvo, causando dano e reduzindo a Velocidade de Movimento das unidades ao seu redor por um breve momento ao aterrissar."
+    },
+    {
+      "id": "Tristana.E",
+      "ability": "E",
+      "name": "Carga Explosiva",
+      "description": "Quando Tristana abate uma unidade, seus projéteis explodem com estilhaços, causando dano a inimigos próximos. Isso pode ser ativado para posicionar uma bomba em um alvo inimigo, que explodirá após uma curta duração, causando dano a unidades ao seu redor."
+    },
+    {
+      "id": "Tristana.R",
+      "ability": "R",
+      "name": "Tiro Destruidor",
+      "description": "Tristana carrega uma gigantesca bala de canhão em sua arma e a dispara em uma unidade inimiga. Isso causa Dano Mágico e empurra o alvo para trás. Se o alvo estiver carregando uma bomba da Carga Explosiva, o raio de explosão da bomba é dobrado."
+    },
+    {
+      "id": "Tristana.P",
+      "ability": "P",
+      "name": "Tiro Certeiro",
+      "description": "Aumenta o Alcance de Ataque de Tristana conforme ela sobe de nível."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Tiro Rápido: Tristana dispara rapidamente com seu canhão, aumentando sua Velocidade de Ataque por um curto período de tempo.",
+      "Tiro Destruidor: Tristana carrega uma gigantesca bala de canhão em sua arma e a dispara em uma unidade inimiga. Isso causa Dano Mágico e empurra o alvo para trás. Se o alvo estiver carregando uma bomba da Carga Explosiva, o raio de explosão da bomba é dobrado."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Sua gigantesca arma permite que Tristana dispare em alvos a uma grande distância. Use isso para impedir que os inimigos se aproximem de você.",
+      "Use Salto-foguete após ter acumulado Carga Explosiva em um inimigo para acabar com ele em uma rajada de dano.",
+      "Use Tiro Rápido para ajudar no acúmulo de Carga Explosiva em Campeões inimigos."
+    ],
+    "against": [
+      "Caso veja Tristana ativar Tiro Rápido em uma luta, atordoe-a e tente afastar-se até que a habilidade acabe.",
+      "Fique longe de suas tropas e de monstros para receber menos dano colateral de Carga Explosiva."
+    ]
+  }
+}

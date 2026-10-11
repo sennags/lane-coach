@@ -1,0 +1,91 @@
+{
+  "id": "Kayn",
+  "name": "Kayn",
+  "title": "o Ceifador das Sombras",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kayn.json",
+    "label": "Riot Data Dragon — Kayn",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Kayn.Q",
+      "ability": "Q",
+      "name": "Corte Ceifador",
+      "description": "Kayn avança, depois ataca. Ambos dão dano."
+    },
+    {
+      "id": "Kayn.W",
+      "ability": "W",
+      "name": "Alcance da Lâmina",
+      "description": "Kayn causa dano e reduz a velocidade dos alvos na linha de fogo."
+    },
+    {
+      "id": "Kayn.E",
+      "ability": "E",
+      "name": "Passo das Sombras",
+      "description": "Kayn pode atravessar terrenos."
+    },
+    {
+      "id": "Kayn.R",
+      "ability": "R",
+      "name": "Transgressão do Umbral",
+      "description": "Kayn se esconde no corpo de um inimigo e causa bastante dano quando rasga sua saída."
+    },
+    {
+      "id": "Kayn.P",
+      "ability": "P",
+      "name": "A Foice Darkin",
+      "description": "Kayn empunha uma arma ancestral, lutando contra Rhaast, o darkin que vive dentro dela, pelo controle. Ou o Darkin triunfará ou Kayn dominará Rhaast para se tornar o Assassino das Sombras . Darkin: Cura uma porcentagem do dano de habilidades causado a Campeões. Assassino das Sombras: Causa dano adicional nos primeiros segundos em combate com Campeões inimigos."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Corte Ceifador: Kayn avança, depois ataca. Ambos dão dano.",
+      "Transgressão do Umbral: Kayn se esconde no corpo de um inimigo e causa bastante dano quando rasga sua saída."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Observe a fila da sua equipe e da equipe inimiga ao fazer a seleção de Campeões.",
+      "Lembre-se que os inimigos próximos podem ver em que parede você está."
+    ],
+    "against": [
+      "A Transgressão do Umbral exige, primeiramente, que Kayn cause dano a um alvo. Tente desviar do Alcance da Lâmina para evitar uma conjuração de longo alcance da Transgressão do Umbral.",
+      "Quando Kayn estiver em um terreno perto de você, surgirá uma notificação visual na borda do terreno em que ele se encontra.",
+      "Cause dano a Kayn enquanto ele estiver no Passo das Sombras para reduzir sua duração ou aplique um rígido Controle de Grupo (atordoar, encantar, arremessar, etc.) para acabar imediatamente com o Passo das Sombras."
+    ]
+  }
+}

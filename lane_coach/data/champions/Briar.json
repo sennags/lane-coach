@@ -1,0 +1,84 @@
+{
+  "id": "Briar",
+  "name": "Briar",
+  "title": "a Fome Contida",
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Briar.json",
+    "label": "Riot Data Dragon — Briar",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Briar.Q",
+      "ability": "Q",
+      "name": "Vertigem",
+      "description": "Briar salta até uma unidade e atinge inimigos com um golpe giratório, atordoando e fragmentando a Armadura de todos que atingir."
+    },
+    {
+      "id": "Briar.W",
+      "ability": "W",
+      "name": "Frenesi Sanguinário/Ataque Faminto",
+      "description": "Briar salta e quebra sua berlinda, entrando num Frenesi Sanguinário que faz com que ela persiga o inimigo mais próximo (priorizando Campeões). Enquanto estiver no Frenesi, ela ganha Velocidade de Ataque e Velocidade de Movimento aumentadas, e seus ataques causam dano em área perto do alvo. Briar pode reativar esta Habilidade enquanto estiver no Frenesi para dar uma MORDIDA no alvo no próximo ataque dela, causando dano adicional baseado na Vida perdida e cura com base no dano causado."
+    },
+    {
+      "id": "Briar.E",
+      "ability": "E",
+      "name": "Grito Arrepiante",
+      "description": "Briar se concentra novamente, removendo Frenesi Sanguinário e canalizando sua energia em um grito poderoso que causa dano e Lentidão a inimigos. Ao carregar, ela recebe dano reduzido e se cura em uma parte de sua Vida máxima. Um grito totalmente carregado empurra inimigos, causando dano adicional e atordoando os que atingirem uma parede."
+    },
+    {
+      "id": "Briar.R",
+      "ability": "R",
+      "name": "Morte Certa",
+      "description": "Briar lança o hemólito da berlinda dela, marcando o primeiro Campeão atingido como sua presa. Depois, ela avança diretamente, causando temor a inimigos próximos ao chegar no alvo e entrando num estado de hemomania total. Ela persegue a presa até a morte, recebendo os benefícios de Frenesi Sanguinário, além de Armadura, Resistência Mágica, Roubo de Vida e Velocidade de Movimento adicionais."
+    },
+    {
+      "id": "Briar.P",
+      "ability": "P",
+      "name": "Maldição Carmesim",
+      "description": "Os Ataques e as Habilidades de Briar acumulam sangramento que cura Briar numa quantidade do dano causado. Constantemente faminta, ela ganha cura aumentada com base na Vida perdida, mas não tem Regeneração de Vida inata."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Lutador: procura uma distância em que consiga conectar habilidades e continuar a troca.",
+    "weaknesses": [
+      "Uma entrada sem saída ou sem apoio pode expor o campeão à resposta de vários inimigos.",
+      "Trocas fora do alcance útil desperdiçam tempo e recursos; mobilidade e sustentação variam entre os kits."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura espaço para farmar e iniciar trocas quando encontra uma janela de habilidade ou posicionamento.",
+        "plan": "Identifique sua ferramenta de entrada e de saída. Escolha uma troca curta ou longa considerando o kit, sem presumir vantagem apenas por ser lutador.",
+        "against": "Observe os recursos usados para aproximar e sustentar a troca. Reavalie a distância depois que forem gastos."
+      },
+      "mid": {
+        "typical": "Pode pressionar uma rota lateral ou acompanhar uma luta em que consiga alcançar seu alvo.",
+        "plan": "Escolha onde seu kit consegue contribuir e evite entrar longe do apoio disponível. Prepare a saída antes de comprometer mobilidade.",
+        "against": "Não aceite uma disputa prolongada sem avaliar as habilidades disponíveis e o apoio próximo."
+      },
+      "late": {
+        "typical": "Busca uma entrada ou proteção de aliados que permita continuar atuando durante a luta.",
+        "plan": "Avalie o controle inimigo e a posição do time antes de entrar. Troque de alvo se o objetivo inicial ficar inacessível.",
+        "against": "Controle a aproximação e proteja o alvo ameaçado. A resposta adequada depende de quais ferramentas o lutador mantém disponíveis."
+      }
+    },
+    "strengths": [
+      "Vertigem: Briar salta até uma unidade e atinge inimigos com um golpe giratório, atordoando e fragmentando a Armadura de todos que atingir.",
+      "Morte Certa: Briar lança o hemólito da berlinda dela, marcando o primeiro Campeão atingido como sua presa. Depois, ela avança diretamente, causando temor a inimigos próximos ao chegar no alvo e entrando num estado de hemomania total. Ela persegue a presa até a morte, recebendo os benefícios de Frenesi Sanguinário, além de Armadura, Resistência Mágica, Roubo de Vida e Velocidade de Movimento adicionais."
+    ],
+    "basis": "class_based",
+    "class_label": "Lutador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

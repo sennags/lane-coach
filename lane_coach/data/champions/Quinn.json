@@ -1,0 +1,94 @@
+{
+  "id": "Quinn",
+  "name": "Quinn",
+  "title": "as Asas de Demacia",
+  "tags": [
+    "Marksman",
+    "Assassin"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Quinn.json",
+    "label": "Riot Data Dragon — Quinn",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Quinn.Q",
+      "ability": "Q",
+      "name": "Investida Anuviante",
+      "description": "Quinn chama Valor para marcar um inimigo e prejudicar sua visão antes de causar dano a todos os inimigos na área."
+    },
+    {
+      "id": "Quinn.W",
+      "ability": "W",
+      "name": "Sentidos Apurados",
+      "description": "Passivamente concede Velocidade de Ataque e de Movimento a Quinn após ela atacar um alvo marcado com Rapina . Ative para Valor revelar uma grande área próxima."
+    },
+    {
+      "id": "Quinn.E",
+      "ability": "E",
+      "name": "Salto",
+      "description": "Quinn avança em direção a um inimigo, causando Dano Físico e reduzindo a Velocidade de Movimento do alvo. Ao alcançar seu alvo, ela salta dele, interrompendo-o brevemente, e aterrissa a uma distância próxima de seu alcance máximo de ataque."
+    },
+    {
+      "id": "Quinn.R",
+      "ability": "R",
+      "name": "Retaguarda do Inimigo",
+      "description": "Quinn e Valor se juntam para voar em alta velocidade. Encerrar a Habilidade conjura Bombardeio, que causa dano a inimigos próximos e marca Campeões com Rapina."
+    },
+    {
+      "id": "Quinn.P",
+      "ability": "P",
+      "name": "Rapina",
+      "description": "Valor, a águia demaciana de Quinn, periodicamente marca inimigos com Rapina . O primeiro Ataque básico de Quinn contra alvos marcados com Rapina causará Dano Físico adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Investida Anuviante: Quinn chama Valor para marcar um inimigo e prejudicar sua visão antes de causar dano a todos os inimigos na área.",
+      "Retaguarda do Inimigo: Quinn e Valor se juntam para voar em alta velocidade. Encerrar a Habilidade conjura Bombardeio, que causa dano a inimigos próximos e marca Campeões com Rapina."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Atacar um alvo",
+      "Vulnerável",
+      "marcado por Valor colocará Rapina em Tempo de Recarga. Consumir rapidamente as marcas de Rapina permitirá que as gere mais rapidamente.",
+      "Salto é poderoso, mas deve ser usado com cautela. Inimigos podem atacar Quinn quando ela os atinge. Salto pode ser usado para cruzar terreno caso suas costas estejam viradas para uma parede.",
+      "Use Retaguarda do Inimigo para deslocar-se por longas distâncias rapidamente, para acumular recursos das tropas pelo mapa ou para perseguir alvos feridos."
+    ],
+    "against": [
+      "Após receber a marca, afaste-se de Quinn para que ela não se aproveite disso.",
+      "Muita atenção no posicionamento de Quinn. Retaguarda do Inimigo pode permitir que Valor cruze o mapa muito rapidamente e lhe ataque de surpresa.",
+      "Quando Quinn estiver usando Retaguarda do Inimigo, causar dano a ela remove temporariamente a sua Velocidade de Movimento adicional."
+    ]
+  }
+}

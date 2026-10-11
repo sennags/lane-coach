@@ -1,0 +1,84 @@
+{
+  "id": "Renata",
+  "name": "Renata Glasc",
+  "title": "a Baronesa da Química",
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Renata.json",
+    "label": "Riot Data Dragon — Renata Glasc",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Renata.Q",
+      "ability": "Q",
+      "name": "Negócio Fechado",
+      "description": "Renata envia um foguete que enraíza o primeiro inimigo atingido. Ela pode reconjurar a habilidade para arremessar a unidade em uma direção."
+    },
+    {
+      "id": "Renata.W",
+      "ability": "W",
+      "name": "Empréstimo",
+      "description": "Renata fortalece um Campeão aliado para lutar, atrasando a morte dele e salvando-o se ele conseguir uma eliminação."
+    },
+    {
+      "id": "Renata.E",
+      "ability": "E",
+      "name": "Programa de Fidelidade",
+      "description": "Renata envia um par de foguetes quimtec, concedendo Escudo aos aliados e causando dano e Lentidão aos inimigos atingidos."
+    },
+    {
+      "id": "Renata.R",
+      "ability": "R",
+      "name": "Apropriação Agressiva",
+      "description": "Renata envia uma onda de produtos químicos, fazendo com que inimigos atingidos entrem em estado de Berserk."
+    },
+    {
+      "id": "Renata.P",
+      "ability": "P",
+      "name": "Financiamento",
+      "description": "Os Ataques de Renata causam dano adicional e marcam inimigos. Os aliados de Renata podem atacar inimigos marcados para causar dano adicional."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Suporte: busca ampliar as opções dos aliados usando as ferramentas particulares do kit.",
+    "weaknesses": [
+      "Usar proteção ou controle cedo demais pode abrir uma janela para a resposta inimiga.",
+      "Uma jogada sem um aliado em posição de acompanhar pode ter pouco efeito ou expor o campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura proteger o parceiro, disputar espaço ou criar uma oportunidade de troca.",
+        "plan": "Acompanhe a posição do parceiro antes de usar controle ou proteção. Escolha a distância de atuação de acordo com o alcance do kit.",
+        "against": "Observe qual habilidade cria pressão ou protege o aliado e procure responder quando ela for usada."
+      },
+      "mid": {
+        "typical": "Acompanha o time e usa controle ou proteção para facilitar uma jogada.",
+        "plan": "Escolha o aliado e a ameaça prioritários antes de comprometer sua habilidade principal. Evite iniciar sem continuação.",
+        "against": "Considere o suporte ao escolher o alvo: ele pode impedir uma tentativa que parecia favorável."
+      },
+      "late": {
+        "typical": "Busca usar suas ferramentas no momento decisivo de aproximação ou proteção.",
+        "plan": "Reserve recursos para a ameaça que realmente decide a luta e mantenha posição que permita ajudar.",
+        "against": "Acompanhe as habilidades defensivas e de controle antes de comprometer todos os recursos em um alvo protegido."
+      }
+    },
+    "strengths": [
+      "Negócio Fechado: Renata envia um foguete que enraíza o primeiro inimigo atingido. Ela pode reconjurar a habilidade para arremessar a unidade em uma direção.",
+      "Apropriação Agressiva: Renata envia uma onda de produtos químicos, fazendo com que inimigos atingidos entrem em estado de Berserk."
+    ],
+    "basis": "class_based",
+    "class_label": "Suporte",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [],
+    "against": []
+  }
+}

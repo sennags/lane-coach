@@ -1,0 +1,93 @@
+{
+  "id": "Smolder",
+  "name": "Smolder",
+  "title": "o Filhote Flamejante",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Smolder.json",
+    "label": "Riot Data Dragon — Smolder",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Smolder.Q",
+      "ability": "Q",
+      "name": "Super-Hálito Flamejante",
+      "description": "Smolder cospe fogo em um inimigo. Conforme obtém mais acúmulos, a Habilidade se torna ainda mais poderosa."
+    },
+    {
+      "id": "Smolder.W",
+      "ability": "W",
+      "name": "Atchim!",
+      "description": "Smolder dá um adorável espirro flamejante que explode ao atingir Campeões inimigos."
+    },
+    {
+      "id": "Smolder.E",
+      "ability": "E",
+      "name": "Voa, Voa, Voa",
+      "description": "Smolder voa, ignorando os terrenos e bombardeando o inimigo com a Vida mais baixa."
+    },
+    {
+      "id": "Smolder.R",
+      "ability": "R",
+      "name": "MANHÊÊÊ!",
+      "description": "Smolder chama sua mãe para cuspir fogo das alturas, causando dano adicional e Lentidão aos inimigos no centro das chamas."
+    },
+    {
+      "id": "Smolder.P",
+      "ability": "P",
+      "name": "Treinamento Dracônico",
+      "description": "Acertar Campeões com habilidades e abater inimigos com Super-Hálito Flamejante concede um acúmulo de Treinamento Dracônico. Os acúmulos aumentam o dano das habilidades básicas de Smolder."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Super-Hálito Flamejante: Smolder cospe fogo em um inimigo. Conforme obtém mais acúmulos, a Habilidade se torna ainda mais poderosa.",
+      "MANHÊÊÊ!: Smolder chama sua mãe para cuspir fogo das alturas, causando dano adicional e Lentidão aos inimigos no centro das chamas."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Smolder tem um início de jogo vulnerável. Foque em acumular passivamente e ficar vivo para se tornar um dragão forte depois!",
+      "Smolder depende da equipe para ficar em segurança. Busque sempre aliados que possam ajudar você contra ameaças inimigas.",
+      "Smolder pode causar bastante dano em área contra inimigos. Tente encontrar oportunidades em que os inimigos estejam juntos."
+    ],
+    "against": [
+      "Smolder depende da equipe para ficar em segurança. Ataque-o quando a equipe não puder ajudá-lo.",
+      "Não lute em grupo contra Smolder!",
+      "Smolder é mais vulnerável nas etapas iniciais da partida. Tente se aproveitar das fraquezas dele antes que ele aprenda como ser dragão!",
+      "O voo de Smolder pode ser interrompido por Controle de Grupo pesado e impactado por Lentidões."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "Heimerdinger",
+  "name": "Heimerdinger",
+  "title": "o Inventor Idolatrado",
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Heimerdinger.json",
+    "label": "Riot Data Dragon — Heimerdinger",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Heimerdinger.Q",
+      "ability": "Q",
+      "name": "Torre Evolutiva H-28G",
+      "description": "Heimerdinger posiciona um canhão-torre automático equipado com um ataque secundário de feixes perfurantes (canhões causam metade do dano a torres)."
+    },
+    {
+      "id": "Heimerdinger.W",
+      "ability": "W",
+      "name": "Micro-Mísseis Hextec",
+      "description": "Heimerdinger dispara mísseis de longo alcance que convergem na direção do cursor."
+    },
+    {
+      "id": "Heimerdinger.E",
+      "ability": "E",
+      "name": "Granada de Tempestade de Elétrons CH-2",
+      "description": "Heimerdinger lança uma granada em um local, causando dano a unidades inimigas, atordoando todos que forem diretamente atingidos e deixando as unidades próximas lentas."
+    },
+    {
+      "id": "Heimerdinger.R",
+      "ability": "R",
+      "name": "MELHORIA!!!",
+      "description": "Heimerdinger inventa um aprimoramento, fazendo com que sua próxima habilidade tenha efeitos adicionais."
+    },
+    {
+      "id": "Heimerdinger.P",
+      "ability": "P",
+      "name": "Afinidade Hextec",
+      "description": "Recebe Velocidade de Movimento enquanto próxima a torres aliadas e torres posicionadas por Heimerdinger."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Mago: organiza alcance, posicionamento e janelas de habilidades para causar dano ou controle.",
+    "weaknesses": [
+      "Gastar habilidades importantes sem acertar ou sem propósito pode deixar uma janela de resposta.",
+      "A segurança depende do alcance e das ferramentas defensivas do kit; não presuma mobilidade disponível."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de dano ou controle usando suas habilidades.",
+        "plan": "Observe custo e recarga antes de usar habilidades apenas para pressionar. Considere o ângulo do ataque e a resposta inimiga ao avançar.",
+        "against": "Procure a janela depois de uma habilidade importante ser usada e evite repetir uma trajetória previsível."
+      },
+      "mid": {
+        "typical": "Contribui com pressão de habilidades, controle de espaço ou apoio às jogadas do time.",
+        "plan": "Escolha uma posição que permita usar o kit e responder a uma aproximação. Guarde uma ferramenta relevante quando houver ameaça de entrada.",
+        "against": "Evite atravessar áreas de ameaça sem uma resposta e considere o ângulo das habilidades."
+      },
+      "late": {
+        "typical": "Busca acertar habilidades relevantes enquanto mantém uma posição útil na luta.",
+        "plan": "Priorize alvos alcançáveis e preserve sua posição entre conjurações. Não avance apenas para completar uma sequência de dano.",
+        "against": "Acompanhe as janelas de habilidades e evite oferecer vários alvos a efeitos em área."
+      }
+    },
+    "strengths": [
+      "Torre Evolutiva H-28G: Heimerdinger posiciona um canhão-torre automático equipado com um ataque secundário de feixes perfurantes (canhões causam metade do dano a torres).",
+      "MELHORIA!!!: Heimerdinger inventa um aprimoramento, fazendo com que sua próxima habilidade tenha efeitos adicionais."
+    ],
+    "basis": "class_based",
+    "class_label": "Mago",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "O posicionamento das torres pode ser um fator decisivo em combate. Contra a maioria dos inimigos, é melhor se as torres darem suporte uma à outra. Mas, se o inimigo puder causar muito dano em área de ação, as torres podem ser derrubadas muito rapidamente. Posicionar torres nos arbustos pode render um ataque surpresa a seu favor.",
+      "O sucesso da Granada de Tempestade de Elétrons é muito importante para a sobrevivência de Heimerdinger. A lentidão e o atordoamento são ambos capazes de manter inimigos em seu lugar tempo o suficiente para apanhar bastante, mas também são a primeira linha de defesa contra um ataque surpresa.",
+      "Espalhar os Micro-Mísseis Hextec leva a dano mais confiável e mais eficácia contra múltiplos alvos, mas concentrá-lo causa o maior impacto."
+    ],
+    "against": [
+      "É melhor destruir todas as torres de Heimerdinger o quanto antes com a ajuda das tropas do que derrubá-las uma por vez.",
+      "Muita atenção à ''MELHORIA!!!'' de Heimerdinger, pois ela pode ser usada para resolver a maior parte das encrencas em que ele se mete. Assim que sua ultimate terminar, acabe com ele!"
+    ]
+  }
+}

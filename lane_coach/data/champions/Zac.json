@@ -1,0 +1,92 @@
+{
+  "id": "Zac",
+  "name": "Zac",
+  "title": "a Arma Secreta",
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zac.json",
+    "label": "Riot Data Dragon — Zac",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Zac.Q",
+      "ability": "Q",
+      "name": "Esticada",
+      "description": "Zac estica um braço, agarrando um inimigo. Atacar um inimigo diferente o fará arremessar ambos os alvos na direção um do outro."
+    },
+    {
+      "id": "Zac.W",
+      "ability": "W",
+      "name": "Matéria Instável",
+      "description": "Zac explode para fora em direção a inimigos próximos, causando um percentual de suas Vidas máximas como Dano Mágico."
+    },
+    {
+      "id": "Zac.E",
+      "ability": "E",
+      "name": "Estilingue Elástico",
+      "description": "Zac segura o chão com seus braços e se estica para trás, lançando-se para frente."
+    },
+    {
+      "id": "Zac.R",
+      "ability": "R",
+      "name": "Vamos pular!",
+      "description": "Zac pula quatro vezes, arremessando inimigos atingidos ao ar e reduzindo a velocidade deles."
+    },
+    {
+      "id": "Zac.P",
+      "ability": "P",
+      "name": "Divisão Celular",
+      "description": "Sempre que Zac atinge um inimigo com uma habilidade, ele perde parte de si mesmo que pode ser reabsorvida para restaurar Vida. Ao receber dano letal, Zac divide-se em 4 pedaços que tentam se recombinar. Se qualquer pedaço permanecer, ele ressuscitará uma quantia de Vida, dependendo da vida dos pedaços sobreviventes. Cada pedaço tem um percentual da Vida máxima de Zac, de sua Armadura e de Resistência Mágica. Essa habilidade tem 5 minutos de Tempo de Recarga."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Tanque: usa suas ferramentas de controle e defesa para criar espaço ou proteger aliados.",
+    "weaknesses": [
+      "Iniciar sem continuação do time pode gastar recursos sem criar uma oportunidade útil.",
+      "Sobrevivência depende das habilidades, itens e ameaças presentes; não é imunidade a dano."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm, trocas compatíveis com o kit e oportunidades de controle quando há apoio.",
+        "plan": "Escolha quando usar defesa e quando disputar espaço. Se estiver na selva, aplique o plano ao primeiro clear e às entradas, não a uma troca de lane.",
+        "against": "Observe o controle e a defesa usados antes de comprometer sua troca ou saída."
+      },
+      "mid": {
+        "typical": "Busca criar espaço, iniciar uma jogada ou impedir uma entrada inimiga.",
+        "plan": "Confirme a posição dos aliados antes de iniciar. Considere proteger uma ameaça do seu time em vez de sempre buscar o adversário.",
+        "against": "Evite oferecer uma entrada fácil e considere se ele está protegendo um aliado ou preparando iniciação."
+      },
+      "late": {
+        "typical": "Alterna entre iniciação e proteção conforme as ameaças de cada time.",
+        "plan": "Escolha a função mais útil para a luta e preserve o controle necessário para executá-la. Resistir ao dano não substitui apoio do time.",
+        "against": "Não concentre todos os recursos defensivos na primeira entrada; avalie as ameaças que vêm atrás."
+      }
+    },
+    "strengths": [
+      "Esticada: Zac estica um braço, agarrando um inimigo. Atacar um inimigo diferente o fará arremessar ambos os alvos na direção um do outro.",
+      "Vamos pular!: Zac pula quatro vezes, arremessando inimigos atingidos ao ar e reduzindo a velocidade deles."
+    ],
+    "basis": "class_based",
+    "class_label": "Tanque",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Apanhar pedaços de gosma é muito importante para se manter vivo.",
+      "Quando Divisão Celular estiver pronta, tente morrer em uma posição que dificulte a equipe inimiga a matar suas poças.",
+      "Carregar Estilingue Elástico da Névoa de Guerra dará a inimigos menos tempo para reagir."
+    ],
+    "against": [
+      "Zac se cura a partir da gosma que se separa dele. Você pode destruir as poças de gosma ao pisar nelas.",
+      "Destrua todas as poças de Zac quando ele se dividir para impedi-lo de se reconstruir.",
+      "Silenciamento, atordoamento, imobilizações e lançamentos ao ar interrompem Zac quando ele estiver carregando Estilingue Elástico."
+    ]
+  }
+}

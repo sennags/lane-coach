@@ -1,0 +1,92 @@
+{
+  "id": "Varus",
+  "name": "Varus",
+  "title": "a Flecha da Vingança",
+  "tags": [
+    "Marksman",
+    "Mage"
+  ],
+  "source": {
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Varus.json",
+    "label": "Riot Data Dragon — Varus",
+    "patch": "16.20.1",
+    "accessed_at": "2026-10-11"
+  },
+  "facts": [
+    {
+      "id": "Varus.Q",
+      "ability": "Q",
+      "name": "Flecha Perfurante",
+      "description": "Varus prepara um poderoso disparo, que ganha alcance e dano extra quanto mais demorar para ser lançado."
+    },
+    {
+      "id": "Varus.W",
+      "ability": "W",
+      "name": "Aljava da Ruína",
+      "description": "Passivo: Os ataques básicos de Varus causam Dano Mágico adicional e aplicam Arruinar. As outras habilidades de Varus detonam os acúmulos de Arruinar, causando Dano Mágico com base na Vida máxima do alvo. Ativo: Varus fortalece sua próxima Flecha Perfurante."
+    },
+    {
+      "id": "Varus.E",
+      "ability": "E",
+      "name": "Chuva de Flechas",
+      "description": "Varus dispara uma chuva de flechas que causa Dano Físico e profana o terreno. Terrenos profanados reduzem a Velocidade de Movimento, autocura e regeneração dos inimigos."
+    },
+    {
+      "id": "Varus.R",
+      "ability": "R",
+      "name": "Corrente da Corrupção",
+      "description": "Varus lança um tentáculo de corrupção que causa dano e imobiliza o primeiro Campeão inimigo atingido, espalhando-se ainda para os Campeões inimigos próximos que ainda não estiverem infectados, imobilizando-os ao contato."
+    },
+    {
+      "id": "Varus.P",
+      "ability": "P",
+      "name": "Vingança Viva",
+      "description": "Ao conseguir um abate ou assistência, Varus recebe Dano de Ataque e Poder de Habilidade temporariamente. O efeito é maior se o inimigo for um Campeão."
+    }
+  ],
+  "tips": [],
+  "profile": {
+    "identity": "Atirador: busca tempo e alcance para aplicar ataques ou habilidades sem perder posicionamento.",
+    "weaknesses": [
+      "Avançar para causar dano pode expor o campeão a controle e aproximação inimiga.",
+      "Dano útil depende de acesso a um alvo e de tempo para atacar; alcance, recarga e defesa variam por campeão."
+    ],
+    "phases": {
+      "lane": {
+        "typical": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação.",
+        "plan": "Intercale farm e pressão sem caminhar para controle evitável. Considere os recursos do parceiro quando estiver na rota inferior.",
+        "against": "Observe a distância de ataque e evite sofrer dano repetido ao disputar minions sem uma troca possível."
+      },
+      "mid": {
+        "typical": "Procura renda e uma posição com apoio para participar das próximas disputas.",
+        "plan": "Acompanhe ameaças de entrada antes de se expor para atacar. Tenha um caminho de recuo que não dependa de uma habilidade já gasta.",
+        "against": "Pressione a posição de ataque usando seu kit e avalie a proteção disponível antes de avançar."
+      },
+      "late": {
+        "typical": "Busca continuar causando dano durante a luta a partir de uma posição protegida.",
+        "plan": "Ataque o alvo que você consegue alcançar com segurança e reposicione entre ações. Não atravesse toda a luta para alcançar um alvo distante.",
+        "against": "Coordene aproximação e controle; uma tentativa isolada pode falhar se houver proteção disponível."
+      }
+    },
+    "strengths": [
+      "Flecha Perfurante: Varus prepara um poderoso disparo, que ganha alcance e dano extra quanto mais demorar para ser lançado.",
+      "Corrente da Corrupção: Varus lança um tentáculo de corrupção que causa dano e imobiliza o primeiro Campeão inimigo atingido, espalhando-se ainda para os Campeões inimigos próximos que ainda não estiverem infectados, imobilizando-os ao contato."
+    ],
+    "basis": "class_based",
+    "class_label": "Atirador",
+    "status": "editorial_unreviewed",
+    "reviewed_at": null
+  },
+  "official_tips": {
+    "own": [
+      "Adicionar um ponto inicial em Aljava da Ruína ajudará a atacar os campeões inimigos e provocar golpes fatais em tropas.",
+      "Durante batalhas de curta distância, pode ser uma ideia melhor disparar rapidamente a Flecha Perfurante, em vez de carregar ao poder máximo.",
+      "Tente tirar vantagem do longo alcance da Flecha Perfurante para atirar nos campeões inimigos antes de uma luta ou enquanto eles estiverem fugindo."
+    ],
+    "against": [
+      "Caso seja afetado por Arruinar, as habilidades de Varus lhe causarão dano adicional.",
+      "Ao conseguir um abate ou assistência, Varus recebe Velocidade de Ataque temporariamente e se torna muito mais perigoso.",
+      "Você ficará preso no local caso uma gavinha da habilidade Ultimate de Varus, Corrente da Corrupção, lhe alcance. Você pode destruir a gavinha se afastando dela."
+    ]
+  }
+}
