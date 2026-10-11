@@ -141,5 +141,25 @@
       "Preste atenção especial para o momento em que sua Bola Curva Defensiva acaba. Rammus fica com atributos muito menores (comparado a um tanque normal) quando não está nesta forma.",
       "Rammus frequentemente acumula muita Armadura, deixando-o especialmente vulnerável a ataques de habilidades quando não está em sua Bola Curva Defensiva."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Evite invadir sozinho; procure apoio para aproveitar o controle.",
+      "gank": "Pode gankar cedo com Q/E; não precisa esperar R.",
+      "invasion_risk": "Ter a limpeza pressionada ou gastar Q antes de avaliar a saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rammus.json"
+    ]
   }
 }

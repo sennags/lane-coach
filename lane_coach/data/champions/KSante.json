@@ -143,5 +143,23 @@
       "Lee Sin tem ferramentas poderosas para combater Dano Físico com Vontade de Ferro e Mutilar, mas ainda assim é vulnerável a Dano Mágico.",
       "Lee Sin depende muito de sua sequência de Habilidades. Use efeitos debilitantes para evitar que ele combine ataques e Habilidades."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Protege a frente e pode separar uma ameaça para combate próximo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/KSante.json"
+    ]
   }
 }

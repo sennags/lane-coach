@@ -142,5 +142,23 @@
       "Os ataques de Fizz se tornam extremamente mortíferos por alguns segundos depois que ele usa seu ataque fortalecido – mantenha-o longe enquanto seu tridente estiver brilhando!",
       "Fizz é um alvo evasivo quando suas habilidades não estão em Tempo de Recarga – faça com que ele as use rapidamente e dê sequência com ataques de Controle de Grupo ou que causem bastante dano!"
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Slayer",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Busca uma entrada curta sobre um alvo exposto."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Fizz.json"
+    ]
   }
 }

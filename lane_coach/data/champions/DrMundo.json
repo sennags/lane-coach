@@ -142,5 +142,23 @@
       "Tente coordenar habilidades de dano alto com seus aliados logo depois de Dr. Mundo usar sua ultimate; mas se você não for capaz de matá-lo rapidamente com uma explosão, ele irá curar o dano.",
       "Tente usar Incendiar quando Dr. Mundo usar Sadismo, para anular uma grande porção de sua cura."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Ocupa a frente e força inimigos a gastar tempo com sua aproximação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/DrMundo.json"
+    ]
   }
 }

@@ -142,5 +142,23 @@
       "Riven só causa Dano Físico. Priorize muita Armadura se uma Riven inimiga sair do seu controle.",
       "Riven se sobressai em duelar com mais de um atacante corpo a corpo ao mesmo tempo, pois estará causando praticamente a mesma quantia de dano. Ao atacá-la em conjunto, não a enfrente até que tenha usado todo o seu ataque combinado."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona uma borda da luta com ataques e reposicionamentos curtos."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Riven.json"
+    ]
   }
 }

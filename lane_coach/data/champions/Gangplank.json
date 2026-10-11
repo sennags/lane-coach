@@ -141,5 +141,23 @@
       "Negociarrr causa uma boa quantia de Dano Físico. Itens que concedem Armadura podem ajudar caso um Gangplank inimigo esteja se saindo bem na partida.",
       "Assim que Gangplank chega ao nível 6, cuidado com seu Ultimate de alcance global, a Barragem de Canhão!"
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Specialist",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Controla áreas preparadas e pune grupos que ocupam esses espaços."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Gangplank.json"
+    ]
   }
 }

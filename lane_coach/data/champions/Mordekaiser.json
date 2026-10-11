@@ -143,5 +143,23 @@
       "O dano que ele causa pode ser convertido em um escudo e consumido em troca de cura.",
       "Reino da Morte separa você completamente dos seus aliados. Tente guardar suas habilidades de mobilidade para escapar do Mordekaiser quando já estiver dentro."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona combate próximo e pode retirar uma ameaça da formação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Mordekaiser.json"
+    ]
   }
 }

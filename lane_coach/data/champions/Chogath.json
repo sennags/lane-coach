@@ -143,5 +143,23 @@
       "Concentre-se em impedir que Cho'Gath chegue a seu tamanho máximo.",
       "Ruptura tem uma nuvem de fumaça que indica a área em que vai atingir. Atente-se a ela para impedir que Cho'Gath combine suas habilidades."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Ocupa a frente e dificulta a aproximação sobre aliados."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Chogath.json"
+    ]
   }
 }

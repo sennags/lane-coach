@@ -143,5 +143,23 @@
       "Singed precisa ficar próximo de sua equipe para ser efetivo. Tente tirar vantagem disto usando efeitos de controle de grupo nele enquanto estiver atacando seus aliados.",
       "Tenha cuidado quando perseguir Singed. Ele é muito difícil de derrubar e pode deixar seu Rastro de Veneno para causar dano a você em sua perseguição."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Specialist",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Desorganiza a frente e pune perseguição pelo caminho preparado."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Singed.json"
+    ]
   }
 }

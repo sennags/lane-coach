@@ -142,5 +142,25 @@
       "Quando Taliyah conjura Terra Desfiada na rota, fique de prontidão para o Empurrão Sísmico. Se ela te empurrar para cima do próprio campo minado, os arremessos e pedras vão quebrar seus ossos.",
       "O Voleio Entrelaçado de Taliyah fica travado em uma só direção. Se ela começar a jogar pedras em você, desvie para o lado!"
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Mantenha distância e prepare W/E para contestar.",
+      "gank": "Pode gankar cedo com W/E; R amplia o acesso pelo mapa.",
+      "invasion_risk": "Ser alcançada quando o controle ou o caminho de recuo não está disponível."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Taliyah.json"
+    ]
   }
 }

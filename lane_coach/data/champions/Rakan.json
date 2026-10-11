@@ -142,5 +142,23 @@
       "Campeões que aplicam rapidamente Controles de Grupo são bons contra Rakan.",
       "Quando Rakan está sem aliados por perto, sua mobilidade fica muito prejudicada. Tente pegá-lo quando ele estiver sozinho."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria uma entrada rápida e retorna para a cobertura aliada."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rakan.json"
+    ]
   }
 }

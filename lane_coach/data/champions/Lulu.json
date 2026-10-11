@@ -141,5 +141,23 @@
       "Os disparos do silfo de Lulu podem ser interceptados - esconda-se atrás de suas tropas para evitar os ataques adicionais dela.",
       "Lulu desempenha melhor quando seus oponentes vão para cima com tudo. Não dê a ela essa oportunidade! Use táticas de distância para forçar ela e seu parceiro para fora da rota."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém um aliado ativo e interrompe quem tenta alcançá-lo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Lulu.json"
+    ]
   }
 }

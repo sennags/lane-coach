@@ -27,7 +27,8 @@ def test_two_sections_with_official_fallback(tmp_path):
     specific = client.get('/matchup?champion=Akshan&opponent=Aatrox&lane=top').text
     assert 'traits-pair' not in specific
     assert 'micro-library' not in specific
-    assert specific.count('class="direct-plan"') == 6
+    assert 'class="direct-plan"' not in specific
+    assert specific.count('class="classification-facts"') == 2
     assert specific.count('class="ability-coaching"') == 10
     assert 'Descrição oficial' not in specific
     fallback = client.get('/matchup?champion=Yuumi&opponent=Singed&lane=support').text

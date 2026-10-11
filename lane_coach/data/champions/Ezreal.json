@@ -143,5 +143,23 @@
       "Ezreal funciona puramente com disparos de precisão, então certifique-se de ter tropas entre ele e você.",
       "O Disparo Místico aplica efeitos de contato, incluindo a Insígnia de Brasa."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Pressiona à distância e intercala ataques com cobertura."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ezreal.json"
+    ]
   }
 }

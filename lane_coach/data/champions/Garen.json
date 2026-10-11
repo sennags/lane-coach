@@ -144,5 +144,23 @@
       "Muito cuidado ao atacar Garen em um arbusto. Isto normalmente leva a receber o dano total de Julgamento.",
       "Julgamento causa o máximo de dano quando atinge um único alvo. Se não for possível escapar de seu raio, mova-se através de tropas aliadas para reduzir o dano recebido."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Pressiona um alvo alcançável e recua para recuperar capacidade de combate."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Garen.json"
+    ]
   }
 }

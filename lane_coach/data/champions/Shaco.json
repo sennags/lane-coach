@@ -141,5 +141,25 @@
       "Se Shaco estiver bem no início de partida, vale investir em Sentinelas Invisíveis e posicioná-las em seus acampamentos da Selva.",
       "Se Shaco usar Enganar para entrar em uma luta, ele não conseguirá utilizar a habilidade novamente em tão pouco tempo para escapar. Trabalhe com sua equipe para abatê-lo rapidamente."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Prepare caixas e preserve uma saída antes de invadir.",
+      "gank": "Pode gankar cedo com Q e posicionamento das caixas.",
+      "invasion_risk": "Ser encontrado sem Q ou atrair reforços para uma entrada sem saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Shaco.json"
+    ]
   }
 }

@@ -143,5 +143,25 @@
       "Os arbustos de Ivern têm duração muito longa. Cuidado com emboscadas!",
       "Cuidado ao enfrentar Ivern sozinho se ele puder usar Margarida."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Pode contestar camps preparados, com apoio das rotas.",
+      "gank": "Pode gankar cedo com Q e escudo; precisa de acompanhamento.",
+      "invasion_risk": "Ficar isolado durante a coleta ou sem aliado para aproveitar o controle."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ivern.json"
+    ]
   }
 }

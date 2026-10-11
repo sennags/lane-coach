@@ -142,5 +142,25 @@
       "Quando Poppy começa a girar o martelo, ela está carregando sua Veredito da Guardiã.",
       "Você pode pisar no escudo de Poppy para impedi-la de usá-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Procure invasão com terreno favorável e apoio.",
+      "gank": "Pode gankar cedo; paredes e avanços inimigos favorecem o kit.",
+      "invasion_risk": "Disputar em área aberta sem controle útil ou acompanhamento."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Poppy.json"
+    ]
   }
 }

@@ -210,5 +210,23 @@
       "Zed fica mais vulnerável após usar sua Sombra Viva, pois seu dano, redução de velocidade e mobilidade dependem dela.",
       "O Corte Sombrio de Zed só reduz sua velocidade se a sombra dele lhe atingir."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Procura acertar habilidades pelo corpo e pela sombra, ameaçando aproximar quando existe uma oportunidade."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zed.json"
+    ]
   }
 }

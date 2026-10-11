@@ -142,5 +142,23 @@
       "Gragas pode afastar todo mundo com sua ultimate. Tenha cuidado para não ser empurrado em sua direção, pior ainda, para uma torre inimiga.",
       "Barrigada tem um Tempo de Recarga muito baixo, fazendo com que seja difícil correr atrás de Gragas. Não se sobrecarregue perseguindo-o."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Reorganiza a luta deslocando ameaças ou separando um alvo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Gragas.json"
+    ]
   }
 }

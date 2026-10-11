@@ -145,5 +145,23 @@
       "Reposicionar a luta para uma área diferente evitará que Zyra acumule sementes.",
       "Sementes posicionadas pelo W de Zyra são maiores, têm cor diferente e concedem uma pequena área de visão à equipe dela."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Controla uma região preparada e pune grupos que tentam atravessar."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zyra.json"
+    ]
   }
 }

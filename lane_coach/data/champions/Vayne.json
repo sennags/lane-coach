@@ -142,5 +142,23 @@
       "Vayne é frágil - coloque pressão nela para que ela seja forçada a jogar com mais cautela.",
       "Impeça que Vayne aproveite a oportunidade de lhe prender a paredes."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém ataques num alvo próximo enquanto evita a entrada."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vayne.json"
+    ]
   }
 }

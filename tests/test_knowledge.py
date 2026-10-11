@@ -70,10 +70,9 @@ def test_profile_output_preserves_perspective_and_escapes_content(knowledge, tmp
     assert response.status_code == 200
     assert '<script>alert(1)</script>' not in response.text
     assert '&lt;script&gt;alert(1)&lt;/script&gt;' in response.text
-    assert 'Plano para quem joga Ahri' in response.text
-    assert 'Sua resposta contra Yone' in response.text
-    assert 'Sua resposta contra Ahri' not in response.text
-    assert response.text.count('data-phase="late"') == 2
+    assert 'aria-label="Categorias de Ahri"' in response.text
+    assert 'aria-label="Categorias de Yone"' in response.text
+    assert 'data-phase=' not in response.text
 
 
 def valid_output():

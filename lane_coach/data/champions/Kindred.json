@@ -142,5 +142,25 @@
       "Faça as caçadas que o Lobo ativa em acampamentos da selva para reduzir o dano que os Kindred causam.",
       "Quando os Kindred usarem o Refúgio da Ovelha, entre nele. A habilidade impede que todos os Campeões morram."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode contestar camps com alcance e prioridade.",
+      "gank": "Pode gankar cedo com Q/E e espaço para atacar.",
+      "invasion_risk": "Invadir por uma marca sem conferir os inimigos próximos."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kindred.json"
+    ]
   }
 }

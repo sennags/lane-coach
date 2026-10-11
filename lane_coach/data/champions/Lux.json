@@ -142,5 +142,23 @@
       "Lux tem poderosas habilidades de controle de grupo. Tente movimentar-se constantemente e atacar de diferentes direções para que então ela não possa dominar uma área específica.",
       "Ao recuar com Vida baixa, prepare-se para se esquivar da Centelha Final de Lux. Um feixe de luz vermelha é disparado antes do raio principal, então tente mover-se para o lado se possível."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria pressão à distância e uma captura para o time."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Lux.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "A ultimate de Braum demora muito para ser conjurada, então use esse tempo para desviar. Caminhar por cima do chão congelado lhe causará Lentidão. Posicione-se de maneira que não cruze este caminho.",
       "Inquebrável dá a Braum uma defesa direcional extremamente forte. É melhor esperar até que acabe ou aproveitar outra posição."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Protege o espaço de ataque dos aliados e freia quem entra."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Braum.json"
+    ]
   }
 }

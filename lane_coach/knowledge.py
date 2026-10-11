@@ -4,6 +4,7 @@ import json
 from copy import deepcopy
 from pathlib import Path
 from .cooldowns import valid_cooldowns
+from .classification import validate_classification
 
 
 LANES = {'general': 'Selecionar lane', 'top': 'Top', 'jungle': 'Jungle', 'mid': 'Mid', 'adc': 'ADC', 'support': 'Support'}
@@ -18,6 +19,7 @@ class KnowledgeBase:
         self.champions = {}
         for path in sorted(Path(directory).glob('*.json')):
             champion = json.loads(path.read_text(encoding='utf-8'))
+            validate_classification(champion.get('classification'))
             if champion['id'] in self.champions:
                 raise ValueError('Duplicate champion')
             facts = {fact['id'] for fact in champion['facts']}

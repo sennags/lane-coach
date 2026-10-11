@@ -144,5 +144,23 @@
       "Quando Pyke estiver escondido em seu Mergulho Fantasma, tubarões começarão a nadar sob os seus pés.",
       "Tente não ficar perto de aliados com Vida baixa. Se Pyke executá-los usando Morte das Profundezas, você pode ser o próximo na lista."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria uma captura e procura uma finalização com saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Pyke.json"
+    ]
   }
 }

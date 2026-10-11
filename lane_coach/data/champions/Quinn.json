@@ -145,5 +145,23 @@
       "Muita atenção no posicionamento de Quinn. Retaguarda do Inimigo pode permitir que Valor cruze o mapa muito rapidamente e lhe ataque de surpresa.",
       "Quando Quinn estiver usando Retaguarda do Inimigo, causar dano a ela remove temporariamente a sua Velocidade de Movimento adicional."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Specialist",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona alvos expostos por um lado e mantém distância de ataque."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Quinn.json"
+    ]
   }
 }

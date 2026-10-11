@@ -142,5 +142,25 @@
       "Quando Kayn estiver em um terreno perto de você, surgirá uma notificação visual na borda do terreno em que ele se encontra.",
       "Cause dano a Kayn enquanto ele estiver no Passo das Sombras para reduzir sua duração ou aplique um rígido Controle de Grupo (atordoar, encantar, arremessar, etc.) para acabar imediatamente com o Passo das Sombras."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Invada por terreno com prioridade e caminho de saída.",
+      "gank": "Pode gankar antes da transformação; terreno abre ângulos.",
+      "invasion_risk": "Disputar sem vantagem antes de preparar recursos para a transformação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kayn.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "Quebrar uma parede de A Caixa intencionalmente pode permitir que um aliado vulnerável escape ileso.",
       "Thresh depende de coletar almas para uma porção de sua defesa e dano. Tente lhe causar dano enquanto ele se movimenta para coletá-las."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria uma captura ou oferece uma saída a um aliado."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Thresh.json"
+    ]
   }
 }

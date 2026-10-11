@@ -143,5 +143,25 @@
       "Usar o Flash é uma maneira bem segura de escapar do Zero Absoluto.",
       "A Maior Bola de Neve de Todas move-se muito rapidamente, mas não faz curvas tão rápido assim, então não tente fugir dela em linha reta. Em vez disso, faça curvas fechadas e repentinas."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode contestar camps com Q e apoio próximo.",
+      "gank": "Pode gankar cedo com a bola de neve e uma trajetória útil.",
+      "invasion_risk": "Ter a entrada bloqueada e ficar cercado longe dos aliados."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nunu.json"
+    ]
   }
 }

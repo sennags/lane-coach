@@ -144,5 +144,23 @@
       "O alcance de Artilharia Viva aumenta a cada ranque.",
       "Barragem Bio-Arcana permite que Kog'Maw derrote o Barão Na'Shor logo no início da partida. É uma boa ideia deixar uma sentinela no Barão Na'Shor quando Kog'Maw construir sua Espada do Rei Destruído."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém dano contínuo de trás da proteção."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/KogMaw.json"
+    ]
   }
 }

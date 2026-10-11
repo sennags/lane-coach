@@ -144,5 +144,23 @@
       "Azir causa dano imenso ao longo de um prolongado período de tempo, mas não causa a rajada de dano que os outros magos causam. Tente atacá-lo antes que ele consiga virar a mesa em um confronto.",
       "Imagine que os Soldados de Areia sejam fogo. Não fique no fogo."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Mantém dano à distância controlando o espaço dos soldados."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Azir.json"
+    ]
   }
 }

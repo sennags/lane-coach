@@ -142,5 +142,25 @@
       "Fique perto de seus aliados quando Paranoia for lançado - existe força nos números!",
       "Horror Indescritível de Nocturne é desarmado com a distância, então economize suas habilidades de movimento para quando ele lançá-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Dispute com Q e escudo disponíveis; confira as rotas.",
+      "gank": "Pode gankar cedo, mas R amplia o acesso à rota.",
+      "invasion_risk": "Gastar o escudo ou ficar sem caminho para manter o medo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nocturne.json"
+    ]
   }
 }

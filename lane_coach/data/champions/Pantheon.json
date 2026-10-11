@@ -143,5 +143,23 @@
       "Tenha cuidado ao ficar perto de Pantheon quando você estiver com a Vida baixa, já que uma Lança Meteórica arremessada executa inimigos de Vida baixa.",
       "Constelação Cadente dá vários segundos de advertência antes de Pantheon chegar. Use esse tempo para sair do caminho ou planejar uma forma de lidar com ele."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria uma captura curta e protege a resposta com o corpo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Pantheon.json"
+    ]
   }
 }

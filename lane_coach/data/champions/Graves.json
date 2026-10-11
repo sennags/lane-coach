@@ -140,5 +140,25 @@
       "A maior parte do dano de Graves é Dano Físico, então é melhor fazer itens de Armadura.",
       "Sair da área de ação de Cortina de Fumaça remove seu efeito imediatamente."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode pressionar camps com prioridade e espaço para recuar.",
+      "gank": "Gank cedo depende de alcance e rota de aproximação.",
+      "invasion_risk": "Ser cercado ou perder espaço para recarregar e reposicionar."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Graves.json"
+    ]
   }
 }

@@ -140,5 +140,23 @@
       "Prepare-se para desviar da provocação de Shen e o puna caso erre seu ataque.",
       "Assim que Shen chega ao nível 6, tenha atenção em sua Ultimate de alcance global, a qual pode virar confrontos rapidamente."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Protege um aliado e interrompe a aproximação sobre ele."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Shen.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "As animações e barra de recursos de Gnar mudam conforme ele se aproxima da transformação.",
       "A ultimate de Gnar causa atordoamento caso ele lhe arremesse em uma parede. Tenha cuidado ao enfrentá-lo próximo de uma."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Specialist",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Alterna pressão móvel e entrada em área conforme a forma."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Gnar.json"
+    ]
   }
 }

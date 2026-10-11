@@ -50,28 +50,23 @@
 <p>{{ message }}</p>
 </section>
 {% elif guide %}
-<section id="analysis" class="phase-section" aria-label="Orientações por fase">
-<header class="phase-header enhanced-only">
-<div class="tabs" role="group" aria-label="Fase do jogo">{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}<button type="button" data-phase-button="{{ key }}" aria-pressed="{{ 'true' if key == 'lane' else 'false' }}" class="{{ 'active' if key == 'lane' else '' }}">{{ label }}</button>{% endfor %}</div>
-</header>
-<div class="brief-grid">
-{% for profile in guide.profiles %}<article class="phase-profile {{ profile.side }}" aria-label="Plano de {{ profile.name }}">
-{% for key,label in [('lane','Lane phase'),('mid','Mid game'),('late','Late game')] %}{% set phase=profile.direct[key] %}
-<section class="phase-panel brief {{ profile.side }}" data-phase="{{ key }}">
-<h2 class="fallback-phase-title">{{ label }}</h2>
+<section id="analysis" class="classification-grid" aria-label="Categorias dos campeões">
+{% for profile in guide.profiles %}{% set category=profile.classification %}
+<article class="classification-profile {{ profile.side }}" aria-label="Categorias de {{ profile.name }}">
 <div class="brief-heading">
-<span class="perspective">{{ 'SEU PLANO' if profile.side == 'ally' else 'COMO RESPONDER' }}</span>
+<span class="perspective">{{ 'SEU CAMPEÃO' if profile.side == 'ally' else 'ADVERSÁRIO' }}</span>
 <h3>{{ profile.name }}</h3>
 </div>
-<span class="sr-only">{{ 'Plano para quem joga ' + profile.name if profile.side == 'ally' else 'Sua resposta contra ' + profile.name }}</span>
-<dl class="direct-plan">
-<div><dt>RECURSO</dt><dd>{{ phase.resource }}</dd></div>
-<div class="direct-action"><dt>AÇÃO</dt><dd>{{ phase.action }}</dd></div>
-<div><dt>CUIDADO</dt><dd>{{ phase.caution }}</dd></div>
+<dl class="classification-facts">
+<div><dt>ROLE PRINCIPAL</dt><dd>{{ classification_roles[category.primary_role] }}</dd></div>
+<div><dt>{{ 'JUNGLE' if category.behavior.context == 'jungle' else 'LANE' }}</dt><dd>{{ tendency_labels[category.behavior.tendency] }}{% if category.behavior.context == 'jungle' %}
+<dl class="jungle-behavior"><div><dt>INVASÃO</dt><dd>{{ category.behavior.invade }}</dd></div><div><dt>GANK</dt><dd>{{ category.behavior.gank }}</dd></div><div><dt>RISCO</dt><dd>{{ category.behavior.invasion_risk }}</dd></div></dl>
+{% endif %}</dd></div>
+<div><dt>CLASSE</dt><dd>{{ category['class'] }}</dd></div>
+<div><dt>DANO PREDOMINANTE</dt><dd>{{ damage_labels[category.damage] }}</dd></div>
 </dl>
-{% if profile.profile.basis == 'class_based' %}<p class="coverage-note">Perfil inicial por classe: {{ profile.profile.class_label }}. Orientação geral, sem revisão específica do campeão.</p>{% endif %}</section>{% endfor %}</article>{% endfor %}</div>
+</article>{% endfor %}
 </section>
-<p class="lane-note">{% if selected_lane != 'general' %}Sua lane: {{ lanes[selected_lane] }}. {% endif %}Perfis independentes por campeão; a rota selecionada ainda não altera as orientações.</p>
 <section class="abilities-section" aria-labelledby="abilities-title">
 <h2 id="abilities-title">HABILIDADES</h2>
 <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>

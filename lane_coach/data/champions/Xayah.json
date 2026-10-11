@@ -141,5 +141,23 @@
       "Lutas prolongadas na mesma área de Xayah permite que ela solte várias Plumas. Tente manter-se em movimento!",
       "Esteja preparado ao partir para o abate. A capacidade de ficar inalvejável concedida por Tempestade de Plumas pode rapidamente mudar o rumo de uma emboscada a favor de Xayah."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém ataques e prepara uma resposta à aproximação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Xayah.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "Maré Violenta tem um alcance muito longo, mas desloca-se muito devagar. Preste atenção em quando ela estiver se aproximando para sair do caminho.",
       "Evite lutar contra um oponente sob efeito da Bênção da Conjuradora. Sua duração é curta, então esperar acabar pode ser uma boa ideia."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Sustenta um aliado ativo e dificulta a aproximação inimiga."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nami.json"
+    ]
   }
 }

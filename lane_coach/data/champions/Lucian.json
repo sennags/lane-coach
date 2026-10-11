@@ -144,5 +144,23 @@
       "Lucian não pode alterar a direção de O Expurgo. Tome vantagem disso e evite o ângulo dos disparos.",
       "Luz Perfurante não dá alcance de ataque adicional a Lucian. Ele ainda precisa encontrar um alvo em seu alcance para alinhar o disparo. Evite Luz Perfurante ao antecipar o ângulo que Lucian vai escolher."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona com ataques curtos alternados com movimento."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Lucian.json"
+    ]
   }
 }

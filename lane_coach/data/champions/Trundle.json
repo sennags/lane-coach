@@ -142,5 +142,25 @@
       "Trundle é muito poderoso em combates com base em posicionamento. Tente afastá-lo de sua área de Domínio Congelado.",
       "Certifique-se de sair do alcance de seu Pilar de Gelo o mais rápido possível, uma vez que isso reduz drasticamente sua Velocidade de Movimento."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode contestar duelos com Q/W e prioridade.",
+      "gank": "Pode gankar cedo se o pilar impedir a retirada.",
+      "invasion_risk": "Perseguir um duelo até os reforços inimigos chegarem."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Trundle.json"
+    ]
   }
 }

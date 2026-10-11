@@ -142,5 +142,23 @@
       "Às vezes é bom, caso você consiga acompanhar a velocidade de Zilean, aguardar até que o efeito de seu Ultimate tenha acabado antes de dar o golpe final.",
       "Zilean é frágil se a equipe toda se concentrar nele, mas é muito difícil de matar caso contrário. Combine com sua equipe para abatê-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Protege uma janela de sobrevivência e ajusta a distância da luta."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zilean.json"
+    ]
   }
 }

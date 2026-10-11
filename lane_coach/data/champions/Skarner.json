@@ -143,5 +143,25 @@
       "É possível se esquivar de Empalar. Use Flash ou outra habilidade para sair do alcance.",
       "O dano contínuo de Skarner pode acabar com você. Cuidado para não ignorá-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Dispute com terreno e prioridade; evite entrada isolada.",
+      "gank": "Pode gankar cedo atravessando terreno com E.",
+      "invasion_risk": "Ter a aproximação interrompida e ficar distante do apoio."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Skarner.json"
+    ]
   }
 }

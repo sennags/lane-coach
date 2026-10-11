@@ -141,5 +141,23 @@
       "Tente ficar longe das paredes. Ornn fica bem menos forte quando não consegue atordoar você.",
       "Ataque Ornn para impedir que ele crie itens na rota."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Prepara uma entrada longa e ocupa a frente para o time."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ornn.json"
+    ]
   }
 }

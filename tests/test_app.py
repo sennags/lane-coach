@@ -26,7 +26,7 @@ def test_reverse(app):
     response = app.test_client().get('/matchup?champion=Ahri&opponent=Yone&lane=mid')
     assert response.status_code == 200
     assert 'Ahri contra Yone' in response.text
-    assert 'Sua resposta contra Yone' in response.text
+    assert 'aria-label="Categorias de Yone"' in response.text
 
 def test_privacy(app):
     response = app.test_client().get('/')
@@ -71,5 +71,5 @@ def test_lane_selection_is_validated_and_preserved(app, lane):
     response = app.test_client().get(f'/matchup?champion=Yone&opponent=Ahri&lane={lane}')
     assert response.status_code == 200
     assert f'value="{lane}" selected' in response.text
-    assert 'a rota selecionada ainda não altera' in response.text
+    assert response.text.count('class="classification-facts"') == 2
     assert app.extensions['knowledge'].context('Yone', 'Ahri', lane)['lane'] == lane

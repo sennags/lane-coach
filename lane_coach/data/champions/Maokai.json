@@ -143,5 +143,25 @@
       "O Tempo de Recarga da autocura de Maokai depende muito de quantas vezes ele foi acertado por suas habilidades. Cuidado ao gastar habilidades nele.",
       "Maokai vai evitar de receber dano enquanto estiver usando Avanço Retorcido, então não desperdice duas habilidades."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Invada com aliados; seu controle precisa de acompanhamento.",
+      "gank": "Pode gankar cedo com W/Q e acesso ao alvo.",
+      "invasion_risk": "Entrar sozinho e não ter dano ou saída para terminar a disputa."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Maokai.json"
+    ]
   }
 }

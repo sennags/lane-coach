@@ -143,5 +143,23 @@
       "Atenção para a combinação Pulverizar + Cabeçada quando estiver ao redor das torres.",
       "Quando Alistar usa sua habilidade Ultimate, geralmente é melhor se afastar e esperar até que o efeito acabe antes de atacá-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Abre espaço com controle ou afasta quem ameaça um aliado."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Alistar.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "Xerath leva muito tempo para engajar com Ritual Arcano. Tenha atenção em sua animação de conjuração e comece a desviar.",
       "O Véu da Banshee faz com que seja muito mais difícil para Xerath acertar Orbe Eletrizante em você."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona à distância antes e durante a aproximação dos times."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Xerath.json"
+    ]
   }
 }

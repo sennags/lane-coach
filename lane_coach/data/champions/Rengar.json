@@ -143,5 +143,25 @@
       "A habilidade passiva de Rengar permite que ele salte a partir de um arbusto, portanto evite de enfrentá-lo próximo a arbustos.",
       "Rengar coloca um indicador sobre o Campeão inimigo mais próximo quando estiver camuflado durante sua Ultimate."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Procure disputa perto de arbustos e com ferocidade preparada.",
+      "gank": "Pode gankar cedo por arbustos; R amplia os ângulos.",
+      "invasion_risk": "Invadir sem arbusto útil ou comprometer os recursos de sobrevivência."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rengar.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "Urgot pode causar e absorver uma quantidade absurda de dano com Expurgar, mas reduz sua própria velocidade enquanto dispara.",
       "Se você for atingido por Pior que a Morte, faça tudo que puder para não ficar abaixo do limite de execução (25% de sua Vida máxima) até o efeito acabar."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Mantém pressão próxima enquanto ameaça uma finalização."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Urgot.json"
+    ]
   }
 }

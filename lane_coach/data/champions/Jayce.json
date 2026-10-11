@@ -144,5 +144,23 @@
       "Caso veja Jayce usar seu Portão Acelerador, tenha cuidado: ele provavelmente vai conjurar Disparo Chocante.",
       "Jayce é forte no início das partidas. Caso ele fique em vantagem, jogue na defensiva."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona à distância antes de escolher um contato curto."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jayce.json"
+    ]
   }
 }

@@ -142,5 +142,23 @@
       "As habilidades de Katarina causam Dano Mágico, então mesmo se ela estiver criando itens de Dano de Ataque, consiga Resistência Mágica para se opor a ela.",
       "Tente economizar um desarme para quando Katarina usar sua Lótus da Morte."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Slayer",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Busca uma eliminação que permita continuar a luta."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Katarina.json"
+    ]
   }
 }

@@ -113,5 +113,23 @@
     "against": [
       "Cada arma de Aphelios tem fraquezas diferentes. Tente explorar aquelas que funcionam melhor para o seu Campeão. Cuidado com a arma de gravidade roxa, pois ela pode te enraizar."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Procura farm e oportunidades de atacar quando o adversário se compromete com uma ação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Aphelios.json"
+    ]
   }
 }

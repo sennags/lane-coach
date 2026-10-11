@@ -144,5 +144,23 @@
       "Atacar a LeBlanc evita a maioria de seus truques, especialmente se ela usou sua investida, Distorção, recentemente.",
       "Atordoar ou silenciar LeBlanc impedirá que ela ative a parte de retorno de Distorção."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona um alvo exposto e recua antes da resposta."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Leblanc.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "Kassadin gasta mais Mana a cada vez consecutiva que usa Caminhar na Fenda. Tenha isso em mente quando o estiver perseguindo.",
       "Ele precisa usar 6 habilidades para que Força de Pulso, sua habilidade de lentidão, fique disponível. Caso aumente o nível dessa habilidade, tenha cautela ao usar suas habilidades contra ele."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Slayer",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Busca alvos expostos com aproximação e saída pelo reposicionamento."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kassadin.json"
+    ]
   }
 }

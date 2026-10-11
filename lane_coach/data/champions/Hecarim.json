@@ -141,5 +141,25 @@
       "Hecarim recebe Vida de inimigos próximos com Espírito do Pavor, mas não tem durabilidade. Use dano em rajada.",
       "A ultimate de Hecarim faz com que seus oponentes fujam aterrorizados. Faça sua equipe se espalhar e reduza o poder dele em confrontos."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Prepare Q e apoio antes de disputar camps.",
+      "gank": "Pode gankar cedo com E; R oferece outra entrada.",
+      "invasion_risk": "Ser pressionado sem preparar dano ou gastar E sem saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Hecarim.json"
+    ]
   }
 }

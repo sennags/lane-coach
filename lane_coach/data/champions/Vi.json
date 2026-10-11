@@ -143,5 +143,25 @@
       "Ela quebra sua Armadura e recebe Velocidade de Ataque caso consiga lhe atingir três vezes seguidas. Evite confrontos longos contra ela.",
       "Guarde seus efeitos de deslocamento até que Vi termine de usar a Ult, pois sua Ult não pode ser parada."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode disputar com Q preparada e apoio das rotas.",
+      "gank": "Pode gankar cedo com Q; R torna o acesso mais direto.",
+      "invasion_risk": "Errar Q ou usá-la para entrar sem caminho de saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vi.json"
+    ]
   }
 }

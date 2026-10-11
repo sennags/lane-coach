@@ -140,5 +140,23 @@
       "Muito cuidado com a distância que mantém de Viktor. Seu controle do campo de batalha aumenta conforme a proximidade que tiver de seu oponente.",
       "Fique de olho em quantos aprimoramentos Viktor tiver finalizado através da cor da luz de seu cajado (roxa, amarela, azul e vermelha)."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém dano por uma região preparada e freia aproximações."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Viktor.json"
+    ]
   }
 }

@@ -144,5 +144,23 @@
       "Uma alta mobilidade pode neutralizar todas as habilidades básicas de Swain: Mão da Morte causa mais dano quanto mais perto ele estiver, Visão do Império possui um intervalo longo e Nuncamova precisa estar vindo na sua direção para ser perigosa.",
       "Comprar um item com Feridas Dolorosas fará com que abater Swain durante sua Ascensão Demoníaca seja mais fácil."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona luta prolongada perto dos alvos e sustenta presença."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Swain.json"
+    ]
   }
 }

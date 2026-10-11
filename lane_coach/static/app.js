@@ -57,12 +57,3 @@ if (form && dialog && typeof dialog.showModal === 'function') {
   });
   document.documentElement.classList.add('js');
 }
-const phaseButtons = [...document.querySelectorAll('[data-phase-button]')];
-const showPhase = phase => {
-  document.querySelectorAll('.phase-panel[data-phase]').forEach(panel => { panel.hidden = panel.dataset.phase !== phase; });
-  phaseButtons.forEach(button => { const active = button.dataset.phaseButton === phase; button.classList.toggle('active', active); button.setAttribute('aria-pressed', active); });
-};
-if (document.documentElement.classList.contains('js') && phaseButtons.length) {
-  phaseButtons.forEach(button => button.addEventListener('click', () => showPhase(button.dataset.phaseButton)));
-  showPhase('lane');
-}

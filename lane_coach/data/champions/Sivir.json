@@ -142,5 +142,23 @@
       "Sivir é uma Campeã poderosa para avançar. Deixá-la sozinha em rota por muito tempo costuma resultar em ver suas torres no chão.",
       "Na fase de rotas contra Sivir, é possível atrapalhar o tempo de seu Escudo de Feitiço ao fingir um ataque e recuar logo em seguida."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém dano na formação e ajuda o time a mudar a distância da luta."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sivir.json"
+    ]
   }
 }

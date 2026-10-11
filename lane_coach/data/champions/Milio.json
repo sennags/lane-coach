@@ -143,5 +143,23 @@
       "Campeões que aplicam Controles de Grupo rapidamente são bons contra Milio.",
       "Quando Milio está sem aliados por perto, sua mobilidade fica muito prejudicada. Tente pegá-lo quando ele estiver sozinho."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Amplia o espaço de ataque de um aliado e responde à entrada."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Milio.json"
+    ]
   }
 }

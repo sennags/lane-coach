@@ -141,5 +141,23 @@
       "Se Nautilus usar Correnteza próximo a você, fique no lugar até que o efeito de ondulações termine antes de correr. Se correr antecipadamente você cairá direto nas explosões secundárias, fazendo com que você receba dano adicional e sofra Lentidão.",
       "Enquanto Nautilus estiver protegido, ele é capaz de causar grandes quantidades de dano de efeito de área com seus ataques básicos - considere derrubar o escudo se você tiver tempo."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Prende uma ameaça para o time ou protege contra entrada."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nautilus.json"
+    ]
   }
 }

@@ -143,5 +143,23 @@
       "Jhin posiciona armadilhas invisíveis pelo mapa. Cuidado por onde pisa!",
       "Os ataques de Jhin são bem potentes, mas ele fica sem munição após o 4º disparo. Use essa janela para avançar nele e atacar com tudo."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Contribui com ataques espaçados e controle de alvos expostos."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jhin.json"
+    ]
   }
 }

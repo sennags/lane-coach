@@ -142,5 +142,23 @@
       "Preste bastante atenção para a barra de Fúria de Renekton visto que isto normalmente significa que ele está prestes a atacar.",
       "Evite que Renekton possa lutar e ganhar Fúria por contínua perturbação e reduzirá severamente a eficácia de suas habilidades."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona uma entrada curta sobre um alvo alcançável."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Renekton.json"
+    ]
   }
 }

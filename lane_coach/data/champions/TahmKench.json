@@ -141,5 +141,23 @@
       "Caso Tahm Kench use o escudo de Pele Grossa, lembre-se de que ele abriu mão de uma boa cura. Ele também não acumulará nova Vida cinza até que Pele Grossa saia do Tempo de Recarga. Use isso em sua vantagem!",
       "Fique de olho no Mergulho Abissal: é possível cancelar a canalização com efeitos imobilizadores de Controle de Grupo."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Ocupa a frente e pode salvar um aliado do foco."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/TahmKench.json"
+    ]
   }
 }

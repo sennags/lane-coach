@@ -143,5 +143,25 @@
       "Movimentação imprevisível ou se esconder atrás de ondas de tropas pode tornar difícil para Amumu instigar uma luta com Lançar Bandagens.",
       "Evitar a compra de diversos itens de Vida pode ser uma boa solução para lidar com a habilidade Desespero de Amumu."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Evite duelos sem apoio; procure alvos com Q.",
+      "gank": "Pode gankar cedo com Q; R amplia o controle.",
+      "invasion_risk": "Ser pressionado durante a limpeza sem rota de saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Amumu.json"
+    ]
   }
 }

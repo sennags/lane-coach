@@ -143,5 +143,23 @@
       "Atente-se ao som de carregamento da Ventania Uivante caso Janna tente atingir você de fora da tela ou de um arbusto.",
       "O principal ponto forte de Janna é fortalecer outro aliado. Se você conseguir atingi-lo, isso enfraquecerá a capacidade dela de lhe enfrentar."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém aliados vivos e interrompe aproximações sobre eles."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Janna.json"
+    ]
   }
 }

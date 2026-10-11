@@ -142,5 +142,23 @@
       "Impedir Olaf de alcançar seu machado minimizará sua agressividade durante a fase de rotas.",
       "Olaf tem sua defesa reduzida durante o efeito de ''Ragnarok'', embora esteja imune a desarmes. Se não conseguir escapar durante Ragnarok, tente concentrar seu dano nele em conjunto com sua equipe."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona contato próximo sem depender de parar a entrada inimiga."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Olaf.json"
+    ]
   }
 }

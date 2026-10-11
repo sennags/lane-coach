@@ -142,5 +142,23 @@
       "Kalista não pode cancelar seu ataque básico caso ele seja iniciado. Embora ela seja muito móvel, isso proporciona uma janela para acertar habilidades nela caso antecipe o momento em que ela vai começar a atacar.",
       "Se conseguir quebrar a linha de visão de Kalista, inclusive com arbustos, seus ataques básicos não lhe acertarão, caindo no chão."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Mantém dano em movimento junto do aliado ligado."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kalista.json"
+    ]
   }
 }

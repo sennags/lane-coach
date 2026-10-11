@@ -142,5 +142,23 @@
       "Gwen precisa atingir algo para reconjurar sua ultimate. Tente se esquivar dela entre as conjurações.",
       "Gwen precisa atacar algumas vezes para acumular dano. Tente ser mais veloz que ela."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Slayer",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém pressão próxima enquanto restringe ameaças externas."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Gwen.json"
+    ]
   }
 }

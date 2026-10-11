@@ -143,5 +143,23 @@
       "Kai'Sa é vulnerável ao alcance maior de magos e carregadores de longa distância.",
       "Não esqueça de colocar sentinelas nos seus pontos cegos para ver Kai'Sa se aproximando."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém ataques e pode acompanhar uma oportunidade de finalização."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kaisa.json"
+    ]
   }
 }

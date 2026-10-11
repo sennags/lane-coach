@@ -143,5 +143,23 @@
       "Você pode quebrar os santuários de cura do Bardo só de passar por cima deles. Não deixe que seus aliados os peguem sem uma boa luta.",
       "A Ultimate do Bardo, Têmpera do Destino, afeta aliados, inimigos, monstros e torres. Às vezes pode ser vantajoso entrar nela!"
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria oportunidades de controle e caminhos para entrada ou recuo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Bard.json"
+    ]
   }
 }

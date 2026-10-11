@@ -143,5 +143,23 @@
       "Forçar Vladimir a usar sua Poça de Sangue no início de um confronto maximizará o custo de Vida desta habilidade para ele.",
       "Itens que contra-atacam o acúmulo de Vida, tais como Tormento de Liandry e Espada do Rei Destruído, são muito eficazes contra Vladimir."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Pressiona grupos próximos mantendo uma janela de sobrevivência."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Vladimir.json"
+    ]
   }
 }

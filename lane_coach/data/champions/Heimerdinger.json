@@ -142,5 +142,23 @@
       "É melhor destruir todas as torres de Heimerdinger o quanto antes com a ajuda das tropas do que derrubá-las uma por vez.",
       "Muita atenção à ''MELHORIA!!!'' de Heimerdinger, pois ela pode ser usada para resolver a maior parte das encrencas em que ele se mete. Assim que sua ultimate terminar, acabe com ele!"
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Defende uma região preparada e pune aproximações até ela."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Heimerdinger.json"
+    ]
   }
 }

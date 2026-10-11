@@ -994,13 +994,19 @@ details>summary:focus-visible {
 }
 .tabs button { white-space: nowrap; }
 
-/* Plano direto: phase guidance followed by abilities. */
-.direct-plan { margin:18px 0 0; }
-.direct-plan>div { display:grid; grid-template-columns:85px minmax(0,1fr); gap:14px; padding:15px 0; border-top:1px solid var(--line); }
-.direct-plan dt { font:10px Consolas,monospace; letter-spacing:.7px; color:var(--muted); padding-top:3px; }
-.direct-plan dd { margin:0; font-size:13px; line-height:1.65; }
-.direct-plan .direct-action { border-left:2px solid var(--red); padding-left:10px; padding-right:10px; background:var(--surface); }
-.direct-action dt { color:var(--red); }
+/* Independent categories followed by abilities. */
+.classification-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:36px; margin:24px 0 28px; }
+.classification-profile { border-top:2px solid var(--red); padding-top:17px; min-width:0; }
+.classification-profile.enemy { border-top-color:var(--text); }
+.classification-profile h3 { font:25px Impact,sans-serif; font-weight:normal; text-transform:uppercase; letter-spacing:.5px; }
+.classification-facts { margin:18px 0 0; }
+.classification-facts>div { display:grid; grid-template-columns:130px minmax(0,1fr); gap:14px; padding:16px 0; border-top:1px solid var(--line); }
+.classification-facts>div>dt { font:10px Consolas,monospace; line-height:1.5; color:var(--muted); padding-top:4px; }
+.classification-facts>div>dd { margin:0; font-size:16px; font-weight:bold; line-height:1.5; }
+.jungle-behavior { margin:12px 0 0; }
+.jungle-behavior>div { margin-top:10px; }
+.jungle-behavior dt { font:10px Consolas,monospace; color:var(--muted); margin-bottom:4px; }
+.jungle-behavior dd { margin:0; font-size:13px; font-weight:normal; line-height:1.6; }
 .ability-coaching { margin:0; }
 .ability-copy .ability-cooldown { font:11px Consolas,monospace; line-height:1.7; color:var(--muted); margin:8px 0 12px; }
 .ability-coaching>div { display:grid; grid-template-columns:48px minmax(0,1fr); gap:10px; margin-top:8px; }
@@ -1008,11 +1014,12 @@ details>summary:focus-visible {
 .ability-coaching>div:last-child dt { color:var(--red); }
 .ability-coaching dd { margin:0; font-size:13px; line-height:1.65; }
 @media(max-width:700px) {
-  .direct-plan>div { grid-template-columns:70px minmax(0,1fr); gap:12px; }
+  .classification-grid { grid-template-columns:1fr; gap:24px; }
+  .classification-facts>div { grid-template-columns:115px minmax(0,1fr); gap:12px; }
   .ability-coaching>div { grid-template-columns:1fr; gap:5px; }
 }
 @media(max-width:360px) {
-  .direct-plan>div { grid-template-columns:1fr; gap:7px; }
+  .classification-facts>div { grid-template-columns:100px minmax(0,1fr); gap:10px; }
 }
 
 .center-controls { grid-column:1 / -1; display:grid; justify-items:center; background:var(--bg); padding:14px 0; }

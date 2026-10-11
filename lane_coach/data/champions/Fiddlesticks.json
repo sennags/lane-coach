@@ -135,5 +135,25 @@
   "official_tips": {
     "own": [],
     "against": []
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Prefira limpeza; evite duelos em que interrompam W.",
+      "gank": "R abre a principal entrada; antes, depende de alcance para Q.",
+      "invasion_risk": "Perder vida ou tempo quando o inimigo interrompe a drenagem."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Fiddlesticks.json"
+    ]
   }
 }

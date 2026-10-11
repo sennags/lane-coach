@@ -142,5 +142,23 @@
       "Caso veja Tristana ativar Tiro Rápido em uma luta, atordoe-a e tente afastar-se até que a habilidade acabe.",
       "Fique longe de suas tropas e de monstros para receber menos dano colateral de Carga Explosiva."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Mantém ataques com alcance e pode acompanhar uma finalização."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Tristana.json"
+    ]
   }
 }

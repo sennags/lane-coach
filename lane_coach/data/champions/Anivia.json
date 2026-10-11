@@ -142,5 +142,23 @@
       "Se você estiver jogando com um Campeão de ataque à distância, fique longe o suficiente de Anivia para poder se esquivar do Lampejo Gelado mais facilmente.",
       "Tente lutar com Anivia nas rotas. Na selva ela pode bloquear os caminhos com níveis baixos de Cristalizar."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Controla passagens e dificulta a aproximação inimiga."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Anivia.json"
+    ]
   }
 }

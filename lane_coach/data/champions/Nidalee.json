@@ -144,5 +144,25 @@
       "Arremessar Lança de Nidalee causa mais dano conforme sua distância. Se ela estiver longe, é muito importante esquivar-se.",
       "O Bote de Nidalee causa muito dano em alvos Caçados, mas ela precisa se aproximar para usá-lo. Guarde suas habilidades defensivas ou de controle de grupo para quando ela avançar para o abate."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode pressionar camps com prioridade e acerto de Q.",
+      "gank": "Pode gankar cedo; acertar a lança prepara a aproximação.",
+      "invasion_risk": "Errar a preparação e entrar em forma corpo a corpo sem saída."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Nidalee.json"
+    ]
   }
 }

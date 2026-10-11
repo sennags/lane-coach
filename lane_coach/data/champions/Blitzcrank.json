@@ -141,5 +141,23 @@
       "Barreira de Mana, a passiva de Blitzcrank, lhe concede um escudo quando estiver com pouca Vida.",
       "Fique atrás de suas tropas e evite de ser pego pelo Puxão Biônico. A habilidade de Blitzcrank puxa apenas o primeiro alvo inimigo que encontra."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Cria capturas puxando um inimigo para perto do time."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Blitzcrank.json"
+    ]
   }
 }

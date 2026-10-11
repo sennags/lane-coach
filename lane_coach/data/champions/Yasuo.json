@@ -218,5 +218,23 @@
       "O momento mais fraco de Yasuo é logo após desferir seu tornado. Enfrente-o neste momento.",
       "O escudo de 'Decisão' de Yasuo dura só 2 segundos. Cause dano a ele para ativar a proteção. Ataque quando o efeito acabar."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Acumula Q, usa minions para mudar de ângulo e ameaça Q circular durante o E."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Yasuo.json"
+    ]
   }
 }

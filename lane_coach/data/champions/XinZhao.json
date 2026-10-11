@@ -141,5 +141,25 @@
       "Xin Zhao é um poderoso iniciador de combates, já que sua investida e sua habilidade Ultimate causam dano em todas as unidades ao seu redor. Tente manter sua equipe espalhada até que ele tenha usado sua habilidade Ultimate.",
       "Xin Zhao depende muito de seu ''Golpe de Três Garras'' para causar dano e zerar seus Tempos de Recarga, portanto impedi-lo de finalizar seu combo terá um efeito dramático."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode disputar cedo com acesso ao alvo e prioridade.",
+      "gank": "Pode gankar cedo com E e preparação do Q.",
+      "invasion_risk": "Gastar E para avançar e ficar sem saída quando chegam reforços."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/XinZhao.json"
+    ]
   }
 }

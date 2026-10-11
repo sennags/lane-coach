@@ -143,5 +143,25 @@
       "A área de atordoamento de Ekko leva 3s para ser armada. Atenção para a imagem que ele cria ao conjurar e tente adivinhar onde a área foi posicionada.",
       "O segundo acerto de Giratempo causa mais dano do que o primeiro; tente evitá-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Evite invadir sem preparar W e uma saída.",
+      "gank": "Pode gankar cedo com W bem colocado; R melhora a saída.",
+      "invasion_risk": "Receber pressão antes de preparar W ou sem mobilidade."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Ekko.json"
+    ]
   }
 }

@@ -140,5 +140,23 @@
       "Tente enfrentá-lo em pequenos golpes em vez de ir frente a frente contra ele. Impedi-lo de atacar consecutivamente reduz drasticamente seu potencial de dano.",
       "Jax pode desviar de todos os ataques recebidos por um curto período de tempo, atordoando os inimigos em seu alcance quando este efeito acaba. Espere para acertá-lo depois que sua evasão tiver acabado."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Slayer",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Pressiona duelo próximo e mantém ataques após a entrada."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jax.json"
+    ]
   }
 }

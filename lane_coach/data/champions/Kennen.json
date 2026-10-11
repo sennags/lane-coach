@@ -141,5 +141,23 @@
       "Considere jogar com um pouco mais de cautela contra Kennen caso esteja com o efeito negativo da Marca da Tormenta. Caso ele lhe atinja com 3 Marcas da Tormenta, você será atordoado.",
       "Kennen é frágil por natureza, então vire e ataque caso ele fique descuidado com Investida Relâmpago."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Specialist",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Ameaça uma entrada em grupo seguida de controle acumulado."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Kennen.json"
+    ]
   }
 }

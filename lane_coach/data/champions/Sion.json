@@ -142,5 +142,23 @@
       "Mesmo que Sion ainda atinja um Golpe Demolidor, fazer com que solte a carga antes do esperado reduz seu impacto.",
       "Use o tempo após a morte de Sion para reposicionar-se e preparar-se para seu retorno."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Ocupa a frente e cria uma entrada em linha com apoio."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sion.json"
+    ]
   }
 }

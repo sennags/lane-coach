@@ -143,5 +143,23 @@
       "O Ultimate de Rumble pode causar muito dano se você ficar dentro da área de ação. Quando ver os mísseis caindo, corra o mais rapidamente possível.",
       "Rumble praticamente só causa Dano Mágico. Construa Resistência Mágica para proteger-se contra ele."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Controla uma faixa da luta e pressiona contato próximo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Rumble.json"
+    ]
   }
 }

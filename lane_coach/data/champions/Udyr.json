@@ -147,5 +147,25 @@
       "Udyr tem opções à distância limitadas, tente ficar longe.",
       "Depois de usar a versão Desperta e mais poderosa de uma habilidade, Udyr não pode Despertar outras habilidades por algum tempo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Prepare a postura adequada e confira o apoio antes de invadir.",
+      "gank": "Pode gankar cedo com velocidade e controle; precisa alcançar o alvo.",
+      "invasion_risk": "Ser mantido à distância ou gastar os recursos antes de chegar ao inimigo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Udyr.json"
+    ]
   }
 }

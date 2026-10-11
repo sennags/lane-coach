@@ -141,5 +141,23 @@
       "Se você é um personagem de Dano Físico fique atrás de seus aliados quando lutar com Malphite. Estrondar Terreno pode reduzir significativamente sua potência de dano.",
       "Malphite é um dentre os tanques que são capazes de ser um Caçador da Selva. Tenha cuidado caso ele tenha Golpear."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Cria uma entrada em grupo ou interrompe a ameaça aos aliados."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Malphite.json"
+    ]
   }
 }

@@ -142,5 +142,23 @@
       "Talon depende muito de Ataque das Sombras para escapar de uma luta. Depois de utilizada, ele fica significativamente mais vulnerável.",
       "Talon tem um poder de vaguear sem paralelos. Não deixe de saber onde ele está e puxe a rota agressivamente para forçá-lo a continuar lá."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Ameaça alvos separados por caminhos laterais."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Talon.json"
+    ]
   }
 }

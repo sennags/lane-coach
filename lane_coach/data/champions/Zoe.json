@@ -142,5 +142,23 @@
       "Zoe sempre retorna ao ponto inicial após conjurar Salto Dimensional, o que a deixa vulnerável a um contra-ataque.",
       "A Bolha do Soninho vai mais longe quando atravessa paredes. Não deixe Zoe se esconder na névoa de guerra para evitar que ela acione a habilidade."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Busca uma captura à distância mantendo uma posição de retorno segura."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zoe.json"
+    ]
   }
 }

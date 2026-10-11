@@ -141,5 +141,23 @@
       "Wukong costuma usar Chamariz depois de Resplendor das Nuvens. Segure suas habilidades por tempo suficiente e atinja o Wukong verdadeiro.",
       "Wukong fica mais difícil de abater quando está próximo de seus inimigos. Tente isolá-lo para ter vantagem."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Entra por um lado e desorganiza alvos próximos."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/MonkeyKing.json"
+    ]
   }
 }

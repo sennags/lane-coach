@@ -141,5 +141,23 @@
       "Dança da Duelista mostra a você de onde Fiora tentará atacar, então prepare-se para puni-la quando fizer a tentativa.",
       "Tenha cuidado ao conjurar desarmes imobilizantes em Fiora. Caso Ripostar esteja disponível, ela pode virar este poder contra você."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona um alvo por lados diferentes em combate próximo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Fiora.json"
+    ]
   }
 }

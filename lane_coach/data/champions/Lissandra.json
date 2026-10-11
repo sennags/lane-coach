@@ -142,5 +142,23 @@
       "O Círculo Ártico de Lissandra tem muito Tempo de Recarga nos níveis iniciais; enfrente-a enquanto estiver neste estado.",
       "O Estilhaço de Gelo somente causa Lentidão à primeira unidade atingida. Aborde Lissandra por trás das tropas de sua equipe para evitar tal Lentidão."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Cria uma captura ou interrompe a entrada sobre um aliado."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Lissandra.json"
+    ]
   }
 }

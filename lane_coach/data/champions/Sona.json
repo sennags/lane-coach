@@ -142,5 +142,23 @@
       "Espalhem-se quando você vir Sona e então ela não poderá fazer toda sua equipe dançar.",
       "Mate Sona primeiro, visto que ela irá curar sua equipe inteira se for ignorada por muito tempo."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Sustenta a formação enquanto cria uma resposta em grupo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sona.json"
+    ]
   }
 }

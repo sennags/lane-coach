@@ -142,5 +142,23 @@
       "A ultimate de Jinx causa menos dano quanto mais próximo você estiver dela.",
       "As granadas-armadilha de Jinx têm longo Tempo de Recarga e são o seu meio primário de proteção pessoal. Se ela errar o seu uso, terá dificuldades em escapar se enfrentar uma investida."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Mantém dano à distância e amplia pressão após uma eliminação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Jinx.json"
+    ]
   }
 }

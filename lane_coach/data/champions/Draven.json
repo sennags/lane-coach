@@ -140,5 +140,23 @@
       "Lance habilidades em direção ao ponto de chegada da Revolução do Machado de Draven.",
       "Faça com que Draven deixe cair seus machados. Isso fará com que ele enfraqueça drasticamente."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Causa dano com ataques enquanto mantém os machados e a posição."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Draven.json"
+    ]
   }
 }

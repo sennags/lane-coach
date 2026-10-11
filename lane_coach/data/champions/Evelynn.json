@@ -143,5 +143,25 @@
       "Grande parte da ameaça de Evellyn vem de seu encanto Fascinação. Proteja aliados marcados com Fascinação ou, se tiver sido marcado, certifique-se de que seus aliados estejam entre você e o lugar de onde Evelynn pode atacar.",
       "Se suspeitar que Evelynn está prestes a emboscar um de seus colegas de equipe, avise-os com sinais de alerta no minimapa e mensagens no bate-papo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Prefira limpeza a invasões sem apoio.",
+      "gank": "Pode gankar antes do R; camuflagem amplia os ângulos depois.",
+      "invasion_risk": "Ser localizada e pressionada durante a limpeza inicial."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Evelynn.json"
+    ]
   }
 }

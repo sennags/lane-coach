@@ -142,5 +142,25 @@
       "Concentre-se em evitar o segundo golpe da Ira do Inverno, que concentra a maior parte do dano.",
       "Inimigos corpo a corpo também acumulam Congelar para Sejuani, portanto tenha cuidado perto deles."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Dispute com aliados para aproveitar controle e passiva.",
+      "gank": "Pode gankar cedo com Q/E; aliados corpo a corpo ajudam.",
+      "invasion_risk": "Encontrar disputa isolada sem condição de aplicar todo o controle."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Sejuani.json"
+    ]
   }
 }

@@ -114,5 +114,23 @@
       "O raio de Hwei é mortal, mas lento, além de causar mais dano quando você está sozinho ou incapaz de se mover.",
       "Depois que Hwei pinta Tormento, ele fica vulnerável a iniciações."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Procura farm e oportunidades de dano ou controle usando suas habilidades."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Hwei.json"
+    ]
   }
 }

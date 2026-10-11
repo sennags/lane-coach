@@ -143,5 +143,25 @@
       "Warwick fica mais forte contra inimigos com pouca Vida. Cuide dos seus pontos de Vida para inibi-lo.",
       "O alcance da habilidade Ultimate de Warwick escala com sua Velocidade de Movimento."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode disputar com condição para continuar atacando e apoio.",
+      "gank": "Pode gankar cedo; alvos feridos ajudam a aproximação.",
+      "invasion_risk": "Seguir um alvo ferido até uma área sem visão ou com reforços."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Warwick.json"
+    ]
   }
 }

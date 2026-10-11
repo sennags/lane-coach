@@ -143,5 +143,23 @@
       "Tente afastar-se de seus aliados quando vir que Piroclasma foi conjurado. A velocidade inicial do projétil é baixa, o que deve dar à sua equipe tempo para reagir.",
       "A passiva de Brand lhe dá desempenho excelente contra equipes que ficam muito unidas. Separem-se para enfrentá-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona grupos próximos com dano em área e explosões atrasadas."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Brand.json"
+    ]
   }
 }

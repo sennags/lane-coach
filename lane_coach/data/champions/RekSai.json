@@ -143,5 +143,25 @@
       "A Mordida Feroz de Rek'Sai causa mais dano conforme ela acumula Fúria. Tenha cuidado perto dela quando sua Fúria estiver cheia.",
       "Quando Rek'Sai estiver próxima, ela pode ver a sua posição e a de seus aliados, mas somente caso não estejam se movendo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Pode disputar cedo com informação e prioridade.",
+      "gank": "Pode gankar cedo por túneis e aproximação para o arremesso.",
+      "invasion_risk": "Usar o acesso para entrar em inimigos com apoio superior."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/RekSai.json"
+    ]
   }
 }

@@ -142,5 +142,23 @@
       "Evite as levas de tropas que foram afetadas por Visões Maléficas. Nunca se sabe quando elas podem morrer e passar as visões para você.",
       "Malzahar é especialmente perigoso quando estiver com o Enxame do Vazio acumulado."
     ]
+  },
+  "classification": {
+    "primary_role": "mid",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Prende uma ameaça para o time concentrar sua resposta."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Malzahar.json"
+    ]
   }
 }

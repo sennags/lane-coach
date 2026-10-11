@@ -7,6 +7,7 @@ from flask import Flask, jsonify, render_template, request
 from . import db
 from .knowledge import KnowledgeBase, LANES, MAINTENANCE_CHAMPIONS
 from .generation import preview_ai
+from .classification import ROLES, DAMAGE, TENDENCIES
 
 
 def create_app(test_config=None):
@@ -34,6 +35,7 @@ def create_app(test_config=None):
             enemy=choices.get(enemy, choices['Ahri']), guide=guide, message=message,
             lanes=LANES, selected_lane=request.args.get('lane', 'general'),
             maintenance_champions=MAINTENANCE_CHAMPIONS, message_title=message_title,
+            classification_roles=ROLES, damage_labels=DAMAGE, tendency_labels=TENDENCIES,
         ), status
 
     @app.get('/')

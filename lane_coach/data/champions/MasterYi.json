@@ -143,5 +143,25 @@
       "Se Master Yi tentar acumular ouro com Ataque Alpha, tente atingi-lo algumas vezes para que tenha que gastar Mana e Meditar para se curar.",
       "Embora Master Yi não possa sofrer Lentidão enquanto usa Highlander, outros desarmes podem interrompê-lo."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Slayer",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Priorize limpeza; invada apenas com vantagem e informação.",
+      "gank": "Gank cedo depende de alvo exposto ou controle aliado.",
+      "invasion_risk": "Ser interrompido e cercado durante a limpeza ou a meditação."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/MasterYi.json"
+    ]
   }
 }

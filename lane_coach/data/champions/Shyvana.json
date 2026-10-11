@@ -144,5 +144,25 @@
       "Todas as habilidades básicas de Shyvana atingem vários inimigos quando ela está na Forma de Dragão. É importante que Campeões inimigos não se agrupem ao enfrentá-la.",
       "A Barra de Fúria da Shyvana indica que a ultimate dela pode ser ativada. Atacá-la quando a Fúria dela estiver baixa pode ser muito eficaz."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "mixed",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Priorize limpeza; disputar cedo depende de apoio.",
+      "gank": "Pode gankar antes, mas R oferece a principal aproximação.",
+      "invasion_risk": "Ser pressionada sem uma ferramenta segura de aproximação ou fuga."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Shyvana.json"
+    ]
   }
 }

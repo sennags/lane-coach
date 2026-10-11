@@ -142,5 +142,23 @@
       "A velocidade adicional de Miss Fortune é removida caso seja atingida por um inimigo.",
       "A Miss Fortune é fácil de abater se você conseguir alcançá-la; concentre-se nela no início de confrontos de equipe."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Pressiona grupos alinhados a partir de uma posição coberta."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/MissFortune.json"
+    ]
   }
 }

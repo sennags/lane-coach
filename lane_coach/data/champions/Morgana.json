@@ -143,5 +143,23 @@
       "Morgana frequentemente precisa acertar sua Ligação das Trevas para preparar seus outros ataques. Use as tropas como escudo para evitar a habilidade.",
       "Escudo Negro torna Morgana imune a efeitos de desarme, mas pode ser quebrado com Dano Mágico."
     ]
+  },
+  "classification": {
+    "primary_role": "support",
+    "class": "Controller",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Cria uma captura e protege aliados de uma entrada com controle."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Morgana.json"
+    ]
   }
 }

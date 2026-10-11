@@ -141,5 +141,23 @@
       "O Tiro Tóxico de Teemo pune jogadores que são atingidos e recuam, portanto fique a uma distância segura até que esteja pronto para atacar.",
       "Pode ser útil usar a Lente do Oráculo (Amuleto) para destruir os cogumelos em volta das localizações principais."
     ]
+  },
+  "classification": {
+    "primary_role": "top",
+    "class": "Specialist",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "lane",
+      "condition": "Prepara regiões perigosas e limita os ataques de uma ameaça."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Teemo.json"
+    ]
   }
 }

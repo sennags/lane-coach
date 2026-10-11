@@ -143,5 +143,23 @@
       "Escudos de Feitiço não bloqueiam o dano de Veneno Mortal, mas bloqueiam os efeitos que Twitch pode acionar com ele.",
       "Se suspeitar que Twitch deixou a rota, avise seus colegas de equipe que ele está ''desaparecido ('MIA')''."
     ]
+  },
+  "classification": {
+    "primary_role": "adc",
+    "class": "Marksman",
+    "damage": "physical",
+    "behavior": {
+      "tendency": "passive",
+      "context": "lane",
+      "condition": "Busca um ângulo coberto para dano em vários alvos alinhados."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Twitch.json"
+    ]
   }
 }

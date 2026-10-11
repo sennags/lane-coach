@@ -143,5 +143,25 @@
       "As esferas de Cascata Lívida duram apenas alguns segundos. Evite Diana e a enfrente após o escudo se dissipar.",
       "Diana pode ser muito agressiva se usar Zênite Lunar sem Plenilúnio, mas você pode puní-la com lentidão ou atordoamento quando ela não puder voltar à sua posição inicial."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Fighter",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Priorize limpeza; disputar cedo depende de apoio.",
+      "gank": "Pode gankar com Q/E; R amplia a ameaça em grupo.",
+      "invasion_risk": "Ser invadida quando não consegue alcançar ou sair do alvo."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Diana.json"
+    ]
   }
 }

@@ -143,5 +143,25 @@
       "Destrua todas as poças de Zac quando ele se dividir para impedi-lo de se reconstruir.",
       "Silenciamento, atordoamento, imobilizações e lançamentos ao ar interrompem Zac quando ele estiver carregando Estilingue Elástico."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Tank",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "aggressive",
+      "context": "jungle",
+      "invade": "Evite invadir sozinho; procure apoio para aproveitar E.",
+      "gank": "Pode gankar cedo por terreno com E preparada.",
+      "invasion_risk": "Ter a preparação interrompida ou ser isolado na limpeza."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Zac.json"
+    ]
   }
 }

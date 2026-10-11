@@ -140,5 +140,25 @@
       "Karthus pode lançar feitiços por um curto período depois que ele for morto. Afaste-se de seu corpo para ficar a salvo.",
       "Certifique-se de que você sempre tenha Vida suficiente para sobreviver ao Réquiem, mesmo se você tiver que voltar para a base mais frequentemente para curar."
     ]
+  },
+  "classification": {
+    "primary_role": "jungle",
+    "class": "Mage",
+    "damage": "magic",
+    "behavior": {
+      "tendency": "passive",
+      "context": "jungle",
+      "invade": "Priorize limpeza; invadir sozinho exige espaço para acertar Q.",
+      "gank": "Pode gankar com W; R permite contribuir sem chegar à rota.",
+      "invasion_risk": "Ser alcançado durante a limpeza sem apoio para criar distância."
+    },
+    "status": "editorial_unreviewed",
+    "reviewed_at": null,
+    "content_patch": "16.20.1",
+    "authored_at": "2026-10-11",
+    "basis": "Editorial: posição de referência, classe funcional, tendência inicial e dano predominante. Não mede popularidade, vitória ou proporções de dano; ataques básicos incidentais não tornam todo mago misto.",
+    "sources": [
+      "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/pt_BR/champion/Karthus.json"
+    ]
   }
 }

@@ -59,7 +59,7 @@ def make_record(data, patch, templates, existing=None):
         if existing['profile'].get('basis') != 'class_based':
             profile = existing['profile']
             profile.setdefault('basis', 'champion_specific')
-    return {
+    record = {
         'id': key, 'name': data['name'], 'title': data['title'], 'tags': data['tags'],
         'source': {'url': f'https://ddragon.leagueoflegends.com/cdn/{patch}/data/pt_BR/champion/{key}.json',
                    'label': f"Riot Data Dragon — {data['name']}", 'patch': patch,
@@ -68,6 +68,10 @@ def make_record(data, patch, templates, existing=None):
         'official_tips': {'own': [plain(tip) for tip in data.get('allytips', [])],
                           'against': [plain(tip) for tip in data.get('enemytips', [])]},
     }
+    if existing and 'classification' in existing:
+        # Updating Riot facts does not review position, behavior or damage categories.
+        record['classification'] = deepcopy(existing['classification'])
+    return record
 
 
 def main():
