@@ -34,7 +34,7 @@ def test_two_sections_with_official_fallback(tmp_path):
     assert 'Perfil inicial por classe' not in fallback
     assert 'Notas de uso e limite ainda não preparadas' not in fallback
     assert fallback.count('class="ability-coaching"') == 10
-    assert 'Riot Data Dragon' in fallback
+    assert 'class="profile-source"' not in fallback
 
 
 @pytest.mark.parametrize('field,value', [('resource', ''), ('caution', 42), ('coaching', {'use': 'only'})])

@@ -64,4 +64,5 @@ def test_zeri_and_belveth_do_not_present_catalog_timer_as_only_cooldown(tmp_path
     assert 'Intervalo entre disparos: 1 ÷ Velocidade de Ataque total' in html
     assert 'Cada direção tem recarga própria' in html
     assert 'Intervalo entre usos: 4 / 3,25 / 2,5 / 1,75 / 1 s' in html
-    assert 'LoL Wiki · disparos do Q' in html
+    assert 'LoL Wiki · disparos do Q' not in html
+    assert 'wiki.leagueoflegends.com' not in html

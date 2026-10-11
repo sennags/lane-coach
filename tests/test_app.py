@@ -10,7 +10,7 @@ def app(tmp_path):
 def test_guides(app, opponent):
     response = app.test_client().get(f'/matchup?champion=Yone&opponent={opponent}&lane=mid')
     assert response.status_code == 200
-    assert 'Riot Data Dragon' in response.text
+    assert 'class="profile-source"' not in response.text
     assert 'Descrição oficial' not in response.text
     assert 'class="review"' not in response.text
 
