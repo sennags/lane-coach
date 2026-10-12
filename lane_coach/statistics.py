@@ -1,6 +1,7 @@
 """Collect a small ranked sample, persist anonymous summaries and query matchups."""
 import hashlib
 import json
+import logging
 import math
 import random
 import sqlite3
@@ -316,6 +317,8 @@ class StatisticsService:
             error = RiotError('collection_failed')
         finally:
             self.store.finish(error)
+            if error:
+                logging.getLogger(__name__).warning('Riot collection stopped (%s).', error.code)
 
     def request(self, own, enemy, lane, schedule=True):
         result = self.store.snapshot(own, enemy, lane, self.catalog)

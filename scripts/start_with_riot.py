@@ -63,18 +63,19 @@ def main():
         if not hidden_input_available():
             print('Execute este comando em um PowerShell aberto para digitar a chave com seguranca.')
             return 1
-        print('A chave fica oculta enquanto voce cola. Pressione Enter depois.', flush=True)
+        print('Cole a chave com o botao direito ou Shift+Insert; depois pressione Enter.', flush=True)
+        print('O texto da chave fica oculto; no Python 3.14 aparecem apenas asteriscos.', flush=True)
         try:
             with warnings.catch_warnings():
                 # Never fall back to echoing a credential in an unsupported terminal.
                 warnings.simplefilter('error', getpass.GetPassWarning)
-                key = getpass.getpass('Chave Riot: ')
+                options = {'echo_char': '*'} if sys.version_info >= (3, 14) else {}
+                key = getpass.getpass('Chave Riot: ', **options)
         except (getpass.GetPassWarning, EOFError, OSError):
             print('Execute este comando em um PowerShell aberto para digitar a chave com seguranca.')
             return 1
-    key = key.strip()
-    if not key or any(character.isspace() for character in key):
-        parser.error('A chave esta vazia ou contem espacos. Copie-a novamente do portal Riot.')
+    if not key or not key.isascii() or any(not 33 <= ord(character) <= 126 for character in key):
+        parser.error('Entrada invalida: copie a chave novamente e cole com o botao direito ou Shift+Insert.')
     os.environ['RIOT_API_KEY'] = key
 
     log_path = ROOT / 'instance/server-error.log'

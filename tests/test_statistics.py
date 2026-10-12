@@ -1,6 +1,9 @@
 """Simulated Riot responses; these tests do not contact the authenticated API."""
 import json
+import socket
+import ssl
 from concurrent.futures import ThreadPoolExecutor
+from http.client import IncompleteRead
 from io import BytesIO
 from urllib.error import HTTPError, URLError
 
@@ -205,7 +208,7 @@ def test_testing_does_not_inherit_live_credentials_or_statistics_path(tmp_path, 
     assert not live_path.exists()
 
 
-@pytest.mark.parametrize('failure', ['quota', 'auth', 'timeout', 'bad_json', 'oversized'])
+@pytest.mark.parametrize('failure', ['quota', 'auth', 'transport', 'bad_json', 'oversized'])
 def test_riot_failures_and_token_never_leak(failure):
     def fake_open(request, timeout):
         assert timeout == 6
@@ -213,7 +216,7 @@ def test_riot_failures_and_token_never_leak(failure):
         assert 'test-secret' not in request.full_url
         if failure == 'quota': raise HTTPError(request.full_url, 429, 'test-secret', {'Retry-After': '321'}, None)
         if failure == 'auth': raise HTTPError(request.full_url, 403, 'test-secret', {}, None)
-        if failure == 'timeout': raise URLError('test-secret')
+        if failure == 'transport': raise URLError('test-secret')
         if failure == 'bad_json': return BytesIO(b'test-secret')
         return BytesIO(b'x' * 8_000_001)
     client = RiotClient('test-secret', lambda: None, Clock())
@@ -222,6 +225,70 @@ def test_riot_failures_and_token_never_leak(failure):
         client.get('/lol/match/v5/matches/BR1_1')
     assert 'test-secret' not in str(error.value)
     if failure == 'quota': assert error.value.retry_after == 321
+
+
+@pytest.mark.parametrize(('failure', 'code'), [
+    (ssl.SSLCertVerificationError('test-secret'), 'tls_certificate_error'),
+    (ssl.SSLError('test-secret'), 'tls_error'),
+    (socket.gaierror('test-secret'), 'dns_error'),
+    (TimeoutError('test-secret'), 'request_timeout'),
+    (ConnectionResetError('test-secret'), 'connection_error'),
+])
+@pytest.mark.parametrize('wrapped', [False, True])
+def test_transport_causes_are_distinct_without_exception_text(failure, code, wrapped):
+    client = RiotClient('test-secret', lambda: None, Clock())
+    def fake_open(request, timeout):
+        raise URLError(failure) if wrapped else failure
+    client.opener.open = fake_open
+    with pytest.raises(RiotError) as caught:
+        client.get('/lol/match/v5/matches/by-puuid/private-player/ids')
+    assert caught.value.code == code
+    assert str(caught.value) == code
+    assert 'test-secret' not in str(caught.value) and 'private-player' not in str(caught.value)
+
+
+@pytest.mark.parametrize('status', [302, 400, 500, 502, 503])
+def test_http_failure_status_is_preserved_without_response_content(status):
+    client = RiotClient('test-secret', lambda: None, Clock())
+    def fake_open(request, timeout):
+        raise HTTPError(request.full_url, status, 'test-secret', {}, BytesIO(b'test-secret'))
+    client.opener.open = fake_open
+    with pytest.raises(RiotError) as caught:
+        client.get('/lol/match/v5/matches/by-puuid/private-player/ids')
+    assert str(caught.value) == f'http_{status}'
+
+
+@pytest.mark.parametrize('key', ['\x16test-secret', 'test-secret\n', 'test\tsecret', 'test secret',
+                                '\x00test-secret', 'test-secret\x7f', 'test-secret\u200b'])
+def test_invalid_header_key_is_rejected_before_quota_or_network(key):
+    def unexpected(*args, **kwargs):
+        pytest.fail('Invalid key must not reserve quota or contact Riot')
+    client = RiotClient(key, unexpected, Clock())
+    client.opener.open = unexpected
+    with pytest.raises(RiotError) as caught:
+        client.get('/lol/league/v4/entries/RANKED_SOLO_5x5/IRON/IV?page=1', platform=True)
+    assert str(caught.value) == 'invalid_key'
+
+
+def test_incomplete_response_records_failure_and_preserves_cache(tmp_path, caplog):
+    catalog_path = tmp_path / 'catalog.json'
+    catalog_path.write_text(json.dumps(CATALOG), encoding='utf-8')
+    clock = Clock()
+    service = StatisticsService(tmp_path / 'stats.sqlite3', 'test-secret', catalog_path, clock)
+    seed(service.store)
+    clock.now += 7 * 3600
+    def fake_open(request, timeout):
+        raise IncompleteRead(b'test-secret-private-player', 200)
+    service.client.opener.open = fake_open
+    cursor = service.store.claim()
+    service.run(cursor)
+    with service.store.connection() as con:
+        result = dict(con.execute('SELECT * FROM collector WHERE id=1').fetchone())
+    assert result['last_error'] == 'invalid_response'
+    assert result['lease_until'] == 0 and result['last_success'] == 0
+    assert 'test-secret' not in caplog.text and 'private-player' not in caplog.text
+    assert 'invalid_response' in caplog.text
+    assert service.request('Yone', 'Ahri', 'mid')['sample'] == 30
 
 
 def test_collector_uses_ladder_and_deduplicates_without_raw_storage(tmp_path):
