@@ -2,11 +2,11 @@
 
 Catálogo completo: 173 campeões do Data Dragon 16.20.1, com habilidades, imagens locais, perfis e seleção pesquisável dos dois campeões. A consulta combina dois arquivos em memória, sem cadastrar guias por confronto. Flask + HTML/CSS; SQLite legado preservado.
 
-**Estado:** versão local 0.9, com categorias independentes por campeão no visual Seleção competitiva. A ficha substitui os planos e abas de fases: role principal, tendência agressiva/passiva, classe funcional e dano predominante (Físico/Mágico/Misto). HABILIDADES permanece abaixo. Os planos antigos continuam nos JSON e no contexto CLI, sem aparecer na tela.
+**Estado:** versão local 0.10, com consulta de estatísticas por campeão/adversário/rota. Role, classe e dano continuam independentes; o rótulo editorial Agressivo/Passivo saiu da tela e foi substituído pela tendência estatística do confronto quando há amostra suficiente. Sem dados, não se inventa uma tendência. HABILIDADES mantém ícone, tecla, nome e recarga, com espaço para uma evolução futura; USO/LIMITE saíram da interface e continuam nos JSON. Planos antigos permanecem na base/CLI. Visual Seleção competitiva preservado.
 
-Os 171 campeões disponíveis têm perfis editoriais individuais e notas de uso/limite em P/Q/W/E/R. Os seis perfis anteriores foram preservados; os outros 165 receberam notas baseadas no snapshot mecânico oficial, com papéis condicionais por campeão em combate. Aphelios e Hwei permanecem em manutenção e não são apresentados como prontos. Toda orientação estratégica continua sem revisão especializada; “perfil individual” não significa confronto validado, estatística ou adaptação por rota. Descrições oficiais permanecem na base, sem aparecer na interface. Consulta sem IA, cadastro ou histórico de visitantes; experimento Groq continua somente CLI. Sem deploy público.
+Os 171 campeões disponíveis têm perfis e notas editoriais preservados na base. Aphelios e Hwei permanecem em manutenção. Role, classe, dano e orientações de jungle continuam sem revisão especializada; fontes do kit não comprovam estratégia. Descrições oficiais permanecem na base, sem aparecer na interface. Consulta sem IA, cadastro ou histórico de visitantes; Groq continua somente CLI. Sem deploy público.
 
-Os 173 registros têm `classification`, incluindo os dois em manutenção. A posição é uma referência editorial, sem afirmar frequência estatística no patch. A tendência indica uma leitura inicial do kit, não uma regra para todas as partidas; a condição que a sustenta fica na base. Para os 40 campeões cuja posição de referência é Jungle, a ficha mostra possibilidade de invasão, preparação de gank e risco de sofrer invasão, sem inventar minutos ou garantir duelos. Classe usa Controller/Fighter/Mage/Marksman/Slayer/Tank/Specialist como taxonomia editorial; os tags oficiais permanecem intactos. Dano predominante não é AD/AP, não é medição percentual e não classifica como misto qualquer mago que também dê ataques básicos. Builds e dano verdadeiro podem alterar a composição do dano.
+Os 173 registros têm `classification`, incluindo os dois em manutenção. Posição é uma referência editorial, sem afirmar popularidade. Tendência agressiva/passiva e sua condição continuam na base como conteúdo antigo, sem alimentar o rótulo visível. Para os 40 campeões com referência Jungle, invasão/gank/risco editorial permanecem. Classe usa Controller/Fighter/Mage/Marksman/Slayer/Tank/Specialist; tags oficiais intactos. Dano predominante não é AD/AP nem medição percentual; builds e dano verdadeiro podem alterar a composição do dano.
 
 Classificações registram patch de conteúdo, data de autoria, fontes do kit e `editorial_unreviewed`; essas fontes não comprovam popularidade de posição ou vantagem no confronto. Atualizar o catálogo preserva a classificação e seu patch original, exigindo revisão editorial separada. Novos registros sem classificação completa são rejeitados pelo carregamento; não recebem valores automáticos por classe.
 
@@ -22,13 +22,50 @@ py -3 -m venv .venv
 
 Abra http://127.0.0.1:5000. O Waitress escuta apenas neste computador por padrão. Ctrl+C encerra. Não é necessário ativar a venv.
 
-A página inicial mostra Yone e Ahri. Cada lado apresenta quatro categorias e, abaixo, Passiva/Q/W/E/R sempre visíveis, com ícone oficial local, tecla, nome, recarga base e notas de uso/limite. HABILIDADES continua como título único preto e centralizado. Passivas sem número e valores zero do catálogo são identificados; recargas não acompanham a partida. O aviso geral sobre recargas, descrições oficiais e linhas de fonte/patch/data ao final das habilidades continuam removidos; fontes e revisão permanecem na base.
+A página inicial mostra Yone/Ahri. Ao selecionar uma lane, a página e `GET /api/statistics?champion=Yone&opponent=Ahri&lane=mid` consultam os resumos salvos e podem iniciar uma coleta limitada em segundo plano. Busca/troca preservam o outro campeão e a lane; o servidor valida a seleção e mantém a consulta útil durante falhas. Sem JavaScript, resultados já salvos são renderizados no servidor; uma coleta nova fica disponível após recarregar. Composições permanece futura.
 
-**Trocar campeão** abre busca nos dois lados; a seleção preserva o outro campeão e a lane e impede campeões iguais. A barra de Top/Jungle/Mid/ADC/Support fica abaixo de VS, com seleção vermelha. A lane selecionada registra contexto, sem recalcular categorias. As categorias funcionam também sem JavaScript, com seletores nativos e botão de consulta. Composições permanece futura.
+HABILIDADES continua como título único preto/centralizado, com dez ícones locais, nomes, teclas e recargas. USO/LIMITE e descrições ficam somente na base. Avisos/links/fontes removidos não foram restaurados. Passivas sem valor e valores zero do catálogo são identificados; recargas não acompanham a partida. O espaço reservado nas habilidades não contém dados provisórios.
 
-O visual preserva navegação lateral, vermelho, retratos inclinados e adversário à direita. Não há abas de fases, planos por fase ou subtítulos oficiais sob os nomes.
+Os JSON são carregados no início; reinicie após alterá-los. SQLite legado guarda guias antigos e continua necessário à inicialização/healthz. Estatísticas usam um banco separado `instance/match-statistics.sqlite3`, sem modificar os dados legados. Não há histórico de consultas de visitantes nem geração de IA na página.
 
-A base atual fica em `lane_coach/data/champions/*.json` e é carregada em memória no início. Reinicie o servidor depois de editar os arquivos. A versão da base é calculada pelo conteúdo. Não há geração antecipada de combinações nem histórico de consultas. O SQLite da primeira versão é preservado para não perder conteúdo anterior; seus guias não alimentam mais a tela. Não há cache de respostas de IA nesta etapa.
+## Estatísticas: recorte e interpretação
+
+Recorte inicial: BR1, ranked solo/duo (fila 420), Summoner's Rift, patch local 16.20 e eventos até 15 minutos, sem filtro de elo. Apenas partidas completas com duração mínima de 15 minutos; remakes e encerramento precoce são excluídos. Posição vem de `teamPosition`; uma posição ausente/inválida não entra na comparação.
+
+As porcentagens contam **partidas** com pelo menos um abate ou morte diretamente entre adversários da mesma posição, em qualquer região do mapa, até 900.000 ms inclusive. Vários abates na mesma partida contam uma vez; matar e morrer podem ocorrer juntos, portanto as porcentagens não precisam somar 100. Abate sem assistência não é prova de duelo puro. Abates de outros adversários e mortes para torres não entram nessas métricas.
+
+Amostra mínima operacional: 30 partidas únicas por dupla/posição. “Abates mais frequentes”, “Mortes mais frequentes” ou “Sem tendência clara” usam um intervalo de Wilson de 95% sobre partidas discordantes (matou sem morrer versus morreu sem matar). Não classifica agressividade, causalidade, vencedor ou recomendação de troca. Esse método e a amostra precisam de avaliação com partidas reais antes de conclusões competitivas.
+
+Itens: até três itens mais frequentes no inventário final, disponíveis no catálogo do patch e com custo total de pelo menos 2.000 de ouro. Cada item exige presença em ao menos cinco partidas da amostra; exibe frequência, vitória e contagem. Não calcula sequência de compra, venda/undo, item core ideal ou efeito causal de um item; itens transformados não elegíveis no catálogo podem ficar fora. Não há runas ou importação de sites de builds.
+
+A coleta alterna tiers da ladder pública do BR: IRON a DIAMOND na divisão IV/páginas 1–3, e MASTER/GRANDMASTER/CHALLENGER. Escolhe um jogador transitório por lote e examina até oito partidas de seus 20 jogos recentes. A amostra é de conveniência, **não representativa de todos os elos**; a posição atual na ladder não comprova o elo histórico da partida. Não existe busca direta por dupla na Match-V5: confrontos raros podem demorar a formar amostra.
+
+## Configurar Riot e coletar
+
+A chave fica somente no ambiente do servidor. Não cole a chave no chat, no Git ou no navegador. O aplicativo não lê `.env` automaticamente. Pare o servidor local antes de iniciar outra instância na mesma porta. No PowerShell, com uma chave obtida no portal Riot:
+
+```powershell
+$riotCredential = Read-Host 'Chave Riot' -AsSecureString
+$env:RIOT_API_KEY = [System.Net.NetworkCredential]::new('', $riotCredential).Password
+$env:PORT = '5003'
+try {
+    .\.venv\Scripts\python.exe server.py
+} finally {
+    Remove-Item Env:RIOT_API_KEY
+}
+```
+
+Sem chave, fichas/habilidades continuam úteis; resultados já persistidos ainda podem ser consultados. Para coleta manual num terminal com RIOT_API_KEY configurada: `.\.venv\Scripts\python.exe -m flask --app lane_coach collect-stats`. Cada lote é limitado; outra tentativa durante intervalo/cota não inicia coleta. A página consulta/atualiza resultados em segundo plano, sem rebaixar uma amostra salva a zero quando o provedor falha.
+
+Limites locais persistidos e atômicos: até 18 chamadas/segundo e 90/120 segundos; uma coleta global por vez, intervalo mínimo de 60 segundos, até oito partidas por lote. Timeout de seis segundos por chamada; sem redirecionamento de credenciais ou retry automático. HTTP 429 respeita Retry-After; 401/403 pausa por uma hora. Chaves compartilhadas com outras ferramentas também podem atingir a cota do provedor.
+
+Resumos anônimos persistidos: hash de partida para deduplicação, patch, datas, pares/posição, indicadores de abate/morte/assistência, vitória e IDs dos itens finais. Nenhum nome, PUUID, Riot ID, payload bruto ou posição dos eventos é salvo. Retenção máxima: 30 dias desde coleta e 5.000 partidas; dados antigos deixam a amostra. Cache de amostra suficiente permanece fresco por até seis horas; dados anteriores são preservados enquanto atualiza. A validade não muda o patch ou revisa conteúdo.
+
+`STATISTICS_DATABASE` pode ser definido no ambiente ou configuração Flask para um caminho persistente alternativo. Backup: `.\.venv\Scripts\python.exe -m flask --app lane_coach backup-db --statistics instance/stats-backup.sqlite3`. Para restaurar, pare a aplicação e substitua o banco de estatísticas por uma cópia do backup; nunca publique bancos/backups. Não compartilhar o banco entre hosts independentes sem reavaliar os limites.
+
+Após atualizar e revisar o elenco, execute `python scripts/import_statistics_catalog.py --patch 16.20.1` com a versão local correta. O script importa apenas IDs e rótulos oficiais de itens; não altera classificações/habilidades. O patch da base estatística deve acompanhar o catálogo local.
+
+A documentação foi conferida; **não houve teste autenticado com Riot nesta entrega**, pois não havia chave configurada. Os testes usam respostas simuladas e identificadas. Não publicar a coleta com chave de desenvolvimento/pessoal: conferir acesso e chave de produção antes de abrir ao público. [Match-V5](https://developer.riotgames.com/apis#match-v5/GET_getTimeline), [League-V4](https://developer.riotgames.com/apis#league-v4), [chaves e limites](https://developer.riotgames.com/docs/portal).
 
 ## Testes e backup
 
@@ -47,6 +84,8 @@ O backup usa a API SQLite e recusa sobrescrever arquivos. Para restaurar, pare o
 - `lane_coach/data/champions/`: um JSON por campeão, com fatos oficiais, fonte e dicas editoriais separadas.
 - `lane_coach/knowledge.py`: composição determinística da perspectiva escolhida.
 - `lane_coach/classification.py`: categorias permitidas e validação de contexto/proveniência.
+- `lane_coach/riot.py` e `statistics.py`: cliente Riot, limites, coleta e agregação anônima.
+- `lane_coach/data/statistics_catalog.json`: IDs oficiais de campeões e rótulos de itens do patch local.
 - `lane_coach/generation.py`: avaliação Groq somente por CLI.
 - `lane_coach/data/guides.json`: conteúdo legado preservado da versão 0.1.
 - `lane_coach/templates/` e `static/`: interface e imagens locais.
@@ -56,7 +95,7 @@ O backup usa a API SQLite e recusa sobrescrever arquivos. Para restaurar, pare o
 
 ## Proteção de dados
 
-Na página: sem cadastro, cookies, analytics, conta Riot ou chamadas a IA. O banco guarda somente campeões e guias. Imagens são servidas localmente. A seleção aparece na URL e pode ficar no histórico do navegador; não inclua dados pessoais. O aplicativo não registra consultas nem configura logs de acesso. Erros de banco registram apenas a classe da exceção.
+Na página: sem cadastro, cookies, analytics, conta Riot de visitante ou chamadas a IA. Coleta Riot acontece somente no backend; dados de jogadores são transitórios. O banco guarda somente campeões e guias. Imagens são servidas localmente. A seleção aparece na URL e pode ficar no histórico do navegador; não inclua dados pessoais. O aplicativo não registra consultas nem configura logs de acesso. Erros de banco registram apenas a classe da exceção.
 
 Validação no servidor, SQL parametrizado, escape de templates e CSP restritiva. Não há credenciais necessárias nesta etapa. `.env`, bancos e ambientes locais são ignorados pelo Git. Revise arquivos antes de publicar.
 
@@ -74,9 +113,9 @@ O lançamento deve ser totalmente gratuito. Cloudflare e Supabase foram sugerido
 - Privacidade: conferir retenção de logs do provedor e evitar registrar query strings. Não configurar chaves de IA para a versão pública atual.
 - Após publicar: validar HTTPS, página inicial, seleção de dois campeões, categorias, habilidades, imagens locais, celular e respostas 400/404. Registrar URL pública neste README.
 
-Verificação local da ficha: 89 testes pytest passaram; após o ajuste editorial de Naafiri para referência Jungle, 15 testes de categorias/catálogo passaram. A suíte verifica validação, proveniência, isolamento entre consultas, manutenção, escape HTML, seleção, privacidade, persistência e preservação de classificações na importação sem atribuir uma revisão ao patch novo. Comparação com Git dos 173 registros confirmou que somente `classification` foi acrescentado: habilidades, recargas, tags, fontes, perfis e dicas anteriores preservados. Playwright/Edge headless verificou Yone/Ahri, Lee Sin/Evelynn, Ashe/Sona e Poppy/Naafiri em 1440px/390px/320px: duas fichas, quatro categorias por lado, habilidades, busca/troca, lane preservada, manutenção e fallback sem JavaScript. Sem overflow, cookies, chamadas externas, falhas de recursos ou erros JavaScript no fluxo verificado. Capturas das fichas em desktop/celular inspecionadas. Esses testes não validam as classificações editoriais, a estratégia competitiva ou hospedagem pública.
+Verificação local da versão 0.10: 113 testes pytest passaram, incluindo deduplicação, denominadores e duas perspectivas, recortes, timeline inválida, amostra mínima, itens, privacidade, quotas concorrentes, lease persistente, backup/reinício e falha do provedor preservando dados. Casos de Riot são simulados; não equivalem a teste do provedor ou validação competitiva.
 
-Próximos passos: decidir hospedagem, publicar e verificar a versão determinística; revisar categorias e notas por campeão com fontes e patch. IA analítica e builds permanecem futuras. Não há limite de IA implementado porque ainda não existe geração por IA na página.
+Próximos passos: configurar chave Riot local e validar coleta com partidas reais, avaliar amostra e método, depois decidir hospedagem e verificar a URL pública. Sequência de builds, runas e IA analítica continuam futuras. Nenhuma geração de IA na página.
 
 ## Créditos
 

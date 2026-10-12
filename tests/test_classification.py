@@ -44,11 +44,11 @@ def test_categories_replace_phase_plans_and_jungle_has_own_context(tmp_path):
     assert html.count('class="classification-facts"') == 2
     assert html.count('class="jungle-behavior"') == 2
     assert '<dt>LANE</dt>' not in html
-    assert '<dt>JUNGLE</dt>' in html
+    assert '<dt>CONFRONTO</dt>' in html
     assert 'INVASÃO' in html and 'GANK' in html and 'RISCO' in html
     assert 'data-phase-button' not in html and 'data-phase=' not in html
     assert 'não é um contador da partida' not in html
-    assert html.count('class="ability-coaching"') == 10
+    assert html.count('class="ability-coaching"') == 0
     reverse = client.get('/matchup?champion=Evelynn&opponent=LeeSin&lane=jungle').text
     assert reverse.index('Categorias de Evelynn') < reverse.index('Categorias de Lee Sin')
 

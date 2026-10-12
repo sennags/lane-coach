@@ -8,6 +8,7 @@ from . import db
 from .knowledge import KnowledgeBase, LANES, MAINTENANCE_CHAMPIONS
 from .generation import preview_ai
 from .classification import ROLES, DAMAGE, TENDENCIES
+from .statistics import StatisticsService, collect_stats
 
 
 def create_app(test_config=None):
@@ -15,31 +16,55 @@ def create_app(test_config=None):
     app.config.from_mapping(
         DATABASE=os.environ.get('DATABASE_PATH', str(Path(app.instance_path) / 'lane-coach.sqlite3')),
         MAX_CONTENT_LENGTH=16 * 1024,
+        RIOT_API_KEY=os.environ.get('RIOT_API_KEY', ''),
+        STATISTICS_DATABASE=os.environ.get('STATISTICS_DATABASE'),
     )
     if test_config:
         app.config.update(test_config)
+        if test_config.get('TESTING') and 'RIOT_API_KEY' not in test_config:
+            app.config['RIOT_API_KEY'] = ''
+        if test_config.get('TESTING') and 'STATISTICS_DATABASE' not in test_config:
+            app.config['STATISTICS_DATABASE'] = None
     knowledge = KnowledgeBase(app.config.get('KNOWLEDGE_PATH'))
     app.extensions['knowledge'] = knowledge
     app.cli.add_command(preview_ai)
     db.init_app(app)
     with app.app_context():
         db.initialize()
+    statistics_path = app.config.get('STATISTICS_DATABASE') or str(
+        Path(app.config['DATABASE']).with_name('match-statistics.sqlite3'))
+    statistics_service = StatisticsService(statistics_path, app.config['RIOT_API_KEY'])
+    app.extensions['statistics'] = statistics_service
+    app.cli.add_command(collect_stats)
+
+    def statistics_for(own, enemy, lane):
+        result = statistics_service.request(own, enemy, lane)
+        for side in result['sides']:
+            side['name'] = knowledge.champions[side['champion']]['name']
+        return result
 
     def page(guide=None, message=None, status=200, message_title='Seleção inválida'):
         champions = sorted(knowledge.champions.values(), key=lambda champion: champion['name'])
         choices = {champion['id']: champion for champion in champions}
         own = request.args.get('champion', 'Yone')
         enemy = request.args.get('opponent', 'Ahri')
+        try:
+            stats = statistics_for(own, enemy, request.args.get('lane', 'general')) if guide else None
+        except sqlite3.Error:
+            stats = {'state': 'unavailable'}
         return render_template(
             'index.html', champions=champions, own=choices.get(own, choices['Yone']),
             enemy=choices.get(enemy, choices['Ahri']), guide=guide, message=message,
             lanes=LANES, selected_lane=request.args.get('lane', 'general'),
             maintenance_champions=MAINTENANCE_CHAMPIONS, message_title=message_title,
             classification_roles=ROLES, damage_labels=DAMAGE, tendency_labels=TENDENCIES,
+            statistics=stats,
         ), status
 
     @app.get('/')
     def index():
+        if request.args:
+            return page(message='Use os seletores para consultar um confronto.', status=400)
         return page(guide=knowledge.guide('Yone', 'Ahri', 'general'))
 
     @app.get('/matchup')
@@ -59,6 +84,22 @@ def create_app(test_config=None):
             return page(message='Aphelios e Hwei estão em manutenção para revisão dos seus kits diferenciados. Escolha outro campeão.',
                         status=503, message_title='Campeão em manutenção')
         return page(guide=knowledge.guide(own, enemy, lane))
+
+    @app.get('/api/statistics')
+    def matchup_statistics():
+        fields = ('champion', 'opponent', 'lane')
+        if set(request.args) != set(fields) or any(len(request.args.getlist(key)) != 1 for key in fields):
+            return jsonify(error='Seleção inválida.'), 400
+        own, enemy, lane = (request.args[key] for key in fields)
+        if own not in knowledge.champions or enemy not in knowledge.champions or own == enemy or lane not in LANES:
+            return jsonify(error='Seleção inválida.'), 400
+        if own in MAINTENANCE_CHAMPIONS or enemy in MAINTENANCE_CHAMPIONS:
+            return jsonify(error='Campeão em manutenção.'), 503
+        try:
+            result = statistics_for(own, enemy, lane)
+            return jsonify(**result, html=render_template('_matchup_statistics.html', statistics=result))
+        except sqlite3.Error:
+            return jsonify(error='Estatísticas temporariamente indisponíveis.'), 503
 
     @app.get('/healthz')
     def health():

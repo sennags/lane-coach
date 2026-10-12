@@ -26,4 +26,4 @@ def test_repeat_cooldowns_compact_and_scaling_not_mixed_with_damage(tmp_path):
     assert '4 / 4 / 4' not in html
     assert 'Velocidade de Ataque adicional, até o mínimo de 1,33 s' in html
     assert 'Recarga base: 120 / 100 / 80 s' in html
-    assert html.count('class="ability-coaching"') == 10
+    assert html.count('class="ability-coaching"') == 0

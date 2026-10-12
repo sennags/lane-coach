@@ -1,0 +1,30 @@
+{% if statistics.state == 'choose_lane' %}
+<p class="statistics-status">Selecione a lane para consultar o confronto.</p>
+{% elif statistics.state == 'unavailable' %}
+<p class="statistics-status">Estatísticas temporariamente indisponíveis.</p>
+{% elif statistics.state == 'loading' %}
+<p class="statistics-status" role="status">Coletando partidas para este confronto… {{ statistics.sample }}/{{ statistics.minimum }} na amostra mínima.</p>
+{% elif statistics.state == 'insufficient' %}
+<p class="statistics-status">Amostra insuficiente: {{ statistics.sample }}/{{ statistics.minimum }} partidas. Ainda não há uma tendência confiável.</p>
+{% elif statistics.state == 'ready' %}
+<section class="statistics-result" aria-label="Estatísticas do confronto">
+<p class="statistics-meta">{{ statistics.sample }} partidas · {{ statistics.lane_label }} · BR · Ranked solo/duo · sem filtro de elo · patch {{ statistics.patch }}{% if statistics.updating %} · atualizando{% endif %}</p>
+<div class="statistics-grid">
+{% for side in statistics.sides %}
+<article aria-label="Estatísticas de {{ side.name }}">
+<h3>{{ side.name }}</h3>
+<dl class="lane-rates">
+<div><dt>MATOU O ADVERSÁRIO ATÉ 15 MIN</dt><dd>{{ side.kill_pct }}%</dd></div>
+<div><dt>MORREU PARA O ADVERSÁRIO ATÉ 15 MIN</dt><dd>{{ side.death_pct }}%</dd></div>
+<div><dt>ABATE SEM ASSISTÊNCIA ATÉ 15 MIN</dt><dd>{{ side.unassisted_pct }}%</dd></div>
+</dl>
+{% if side['items'] %}
+<h4 class="items-title">ITENS NO INVENTÁRIO FINAL</h4>
+<ul class="item-statistics">{% for item in side['items'] %}<li><strong>{{ item.name }}</strong><span>{{ item.frequency }}% de uso · {{ item.win_rate }}% de vitória · {{ item.count }} partidas</span></li>{% endfor %}</ul>
+{% else %}<p class="statistics-status">Sem amostra suficiente por item.</p>{% endif %}
+</article>
+{% endfor %}
+</div>
+<p class="statistics-note">Percentuais de partidas com ao menos um evento contra o adversário da mesma posição, em qualquer lugar do mapa. Ambos podem ocorrer na mesma partida. Itens a partir de 2.000 de ouro; inventário final não é ordem de compra nem recomendação.</p>
+</section>
+{% endif %}

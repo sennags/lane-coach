@@ -57,3 +57,31 @@ if (form && dialog && typeof dialog.showModal === 'function') {
   });
   document.documentElement.classList.add('js');
 }
+const statisticsPanel = document.querySelector('#matchup-statistics');
+if (statisticsPanel && new URL(statisticsPanel.dataset.url, location.origin).searchParams.get('lane') !== 'general') {
+  let statisticsAttempts = 0;
+  const refreshStatistics = async () => {
+    statisticsAttempts += 1;
+    try {
+      const response = await fetch(statisticsPanel.dataset.url, { headers: { Accept: 'application/json' } });
+      if (!response.ok) throw new Error('Statistics unavailable');
+      const result = await response.json();
+      statisticsPanel.innerHTML = result.html;
+      document.querySelectorAll('[data-stat-side]').forEach(label => {
+        label.textContent = result.state === 'ready' ? result.sides[Number(label.dataset.statSide)].tendency : 'Aguardando dados';
+      });
+      if (result.state === 'loading' && statisticsAttempts < 20) setTimeout(refreshStatistics, 3000);
+    } catch {
+      const message = document.createElement('p');
+      message.className = 'statistics-status';
+      if (statisticsPanel.querySelector('.statistics-result')) {
+        message.textContent = 'Não foi possível atualizar. Dados salvos preservados.';
+      } else {
+        statisticsPanel.replaceChildren();
+        message.textContent = 'Estatísticas temporariamente indisponíveis.';
+      }
+      statisticsPanel.append(message);
+    }
+  };
+  refreshStatistics();
+}

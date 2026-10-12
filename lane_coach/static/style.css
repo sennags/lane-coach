@@ -999,6 +999,22 @@ details>summary:focus-visible {
 .classification-profile { border-top:2px solid var(--red); padding-top:17px; min-width:0; }
 .classification-profile.enemy { border-top-color:var(--text); }
 .classification-profile h3 { font:25px Impact,sans-serif; font-weight:normal; text-transform:uppercase; letter-spacing:.5px; }
+.ability-copy { min-height:100px; }
+.matchup-tendency { font-size:14px; }
+.statistics-status,.statistics-meta,.statistics-note { font-size:12px; line-height:1.7; color:var(--muted); }
+#matchup-statistics { margin:0 0 26px; }
+.statistics-result { border-top:1px solid var(--line); padding:18px 0; }
+.statistics-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:36px; margin:18px 0; }
+.statistics-grid article { min-width:0; }
+.statistics-grid h3 { font:22px Impact,sans-serif; text-transform:uppercase; margin-bottom:14px; }
+.lane-rates { margin:0; }
+.lane-rates>div { display:flex; justify-content:space-between; gap:12px; padding:12px 0; border-top:1px solid var(--line); }
+.lane-rates dt { font:10px Consolas,monospace; line-height:1.6; }
+.lane-rates dd { margin:0; font-size:18px; font-weight:bold; color:var(--red); white-space:nowrap; }
+.items-title { font:11px Consolas,monospace; margin:20px 0 10px; }
+.item-statistics { list-style:none; padding:0; margin:0; }
+.item-statistics li { border-top:1px solid var(--line); padding:12px 0; font-size:13px; line-height:1.6; }
+.item-statistics span { display:block; font:10px Consolas,monospace; color:var(--muted); margin-top:5px; }
 .classification-facts { margin:18px 0 0; }
 .classification-facts>div { display:grid; grid-template-columns:130px minmax(0,1fr); gap:14px; padding:16px 0; border-top:1px solid var(--line); }
 .classification-facts>div>dt { font:10px Consolas,monospace; line-height:1.5; color:var(--muted); padding-top:4px; }
@@ -1015,6 +1031,8 @@ details>summary:focus-visible {
 .ability-coaching dd { margin:0; font-size:13px; line-height:1.65; }
 @media(max-width:700px) {
   .classification-grid { grid-template-columns:1fr; gap:24px; }
+  .statistics-grid { grid-template-columns:1fr; gap:24px; }
+  .ability-copy { min-height:85px; }
   .classification-facts>div { grid-template-columns:115px minmax(0,1fr); gap:12px; }
   .ability-coaching>div { grid-template-columns:1fr; gap:5px; }
 }

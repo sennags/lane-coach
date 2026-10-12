@@ -7,13 +7,9 @@
       <span class="ability-key" aria-label="{{ 'Passiva' if key == 'P' else 'Habilidade ' ~ key }}">{{ key }}</span>
       <div class="ability-copy"><h4>{{ fact.name }}</h4>
       <p class="ability-cooldown">{% if fact.cooldown_label %}{{ fact.cooldown_label }}{% elif fact.cooldown %}Recarga base: {% if fact.cooldown|unique|list|length == 1 %}{{ fact.cooldown[0] }}{% else %}{{ fact.cooldown|join(' / ') }}{% endif %} s{% if not fact.cooldown|max %} · valor do catálogo{% endif %}{% else %}Recarga não informada pelo catálogo{% endif %}{% if fact.cooldown_note %}<br>{{ fact.cooldown_note }}{% endif %}{% if fact.cooldown_source and not fact.cooldown_source.url.startswith('https://wiki.leagueoflegends.com/') %}<br><a href="{{ fact.cooldown_source.url }}" rel="noreferrer">{{ fact.cooldown_source.label }}</a>{% endif %}</p>
-      {% if fact.coaching %}
-      <dl class="ability-coaching"><div><dt>USO</dt><dd>{{ fact.coaching.use }}</dd></div><div><dt>LIMITE</dt><dd>{{ fact.coaching.limit }}</dd></div></dl>
-      {% endif %}
       </div>
     </div>
     {% endfor %}
-    {% if not profile.facts|selectattr('coaching', 'defined')|list %}<p class="coverage-note">Notas de uso e limite ainda não preparadas.</p>{% endif %}
     {% endfor %}
   </div>
 </article>
