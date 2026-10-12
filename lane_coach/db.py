@@ -60,20 +60,15 @@ def initialize():
 
 @click.command('backup-db')
 @click.argument('destination', type=click.Path(dir_okay=False))
-@click.option('--statistics', is_flag=True, help='Back up anonymous statistics instead of legacy guides.')
 @with_appcontext
-def backup_db(destination, statistics=False):
+def backup_db(destination):
     """Back up the live SQLite database without overwriting existing files."""
     path = Path(destination).resolve()
     if path.exists():
         raise click.ClickException('O destino já existe. Escolha um novo arquivo.')
     path.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(path) as output:
-        if statistics:
-            with current_app.extensions['statistics'].store.connection() as connection:
-                connection.backup(output)
-        else:
-            get_db().backup(output)
+        get_db().backup(output)
     click.echo(f'Backup criado: {path}')
 
 

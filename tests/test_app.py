@@ -73,3 +73,25 @@ def test_lane_selection_is_validated_and_preserved(app, lane):
     assert f'value="{lane}" selected' in response.text
     assert response.text.count('class="classification-facts"') == 2
     assert app.extensions['knowledge'].context('Yone', 'Ahri', lane)['lane'] == lane
+
+
+def test_local_selection_does_not_open_external_connections(tmp_path, monkeypatch):
+    import socket
+    def unexpected(*args, **kwargs):
+        pytest.fail('Local champion selection must not open an external connection')
+    monkeypatch.setattr(socket, 'create_connection', unexpected)
+    app = create_app({'TESTING': True, 'DATABASE': str(tmp_path / 'local.sqlite3')})
+    client = app.test_client()
+    for route in ('/', '/matchup?champion=Yone&opponent=Ahri&lane=mid',
+                  '/matchup?champion=LeeSin&opponent=Evelynn&lane=jungle'):
+        response = client.get(route)
+        assert response.status_code == 200
+        assert response.text.count('class="ability-entry"') == 10
+        assert 'Aguardando dados' not in response.text
+        assert 'matchup-statistics' not in response.text
+    assert client.get('/api/statistics?champion=Yone&opponent=Ahri&lane=mid').status_code == 404
+    assert client.post('/matchup').status_code == 405
+    assert not any(rule.rule.startswith('/api/') for rule in app.url_map.iter_rules())
+    assert set(app.cli.commands) == {'backup-db'}
+    assert set(app.extensions) == {'knowledge'}
+    assert {path.name for path in tmp_path.iterdir()} == {'local.sqlite3'}

@@ -59,15 +59,16 @@
 </div>
 <dl class="classification-facts">
 <div><dt>ROLE PRINCIPAL</dt><dd>{{ classification_roles[category.primary_role] }}</dd></div>
-<div><dt>CONFRONTO</dt><dd><span class="matchup-tendency" data-stat-side="{{ loop.index0 }}">{{ statistics.sides[loop.index0].tendency if statistics.state == 'ready' else 'Selecione a lane' if statistics.state == 'choose_lane' else 'Aguardando dados' }}</span>{% if category.behavior.context == 'jungle' %}
+{% if category.behavior.context == 'jungle' %}
+<div><dt>JUNGLE</dt><dd>
 <dl class="jungle-behavior"><div><dt>INVASÃO</dt><dd>{{ category.behavior.invade }}</dd></div><div><dt>GANK</dt><dd>{{ category.behavior.gank }}</dd></div><div><dt>RISCO</dt><dd>{{ category.behavior.invasion_risk }}</dd></div></dl>
-{% endif %}</dd></div>
+</dd></div>
+{% endif %}
 <div><dt>CLASSE</dt><dd>{{ category['class'] }}</dd></div>
 <div><dt>DANO PREDOMINANTE</dt><dd>{{ damage_labels[category.damage] }}</dd></div>
 </dl>
 </article>{% endfor %}
 </section>
-<div id="matchup-statistics" data-url="{{ url_for('matchup_statistics', champion=own.id, opponent=enemy.id, lane=selected_lane) }}" aria-live="polite" aria-atomic="true">{% include '_matchup_statistics.html' %}</div>
 <section class="abilities-section" aria-labelledby="abilities-title">
 <h2 id="abilities-title">HABILIDADES</h2>
 <div class="profiles-grid">{% for profile in guide.profiles %}{% include '_champion_profile.html' %}{% endfor %}</div>
