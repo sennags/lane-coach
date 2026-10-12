@@ -42,18 +42,15 @@ A coleta alterna tiers da ladder pública do BR: IRON a DIAMOND na divisão IV/p
 
 ## Configurar Riot e coletar
 
-A chave fica somente no ambiente do servidor. Não cole a chave no chat, no Git ou no navegador. O aplicativo não lê `.env` automaticamente. Pare o servidor local antes de iniciar outra instância na mesma porta. No PowerShell, com uma chave obtida no portal Riot:
+A chave fica somente no processo do servidor. Não cole a chave no chat, no Git ou no navegador. O aplicativo não lê `.env` automaticamente. No PowerShell, dentro da pasta do projeto, execute:
 
 ```powershell
-$riotCredential = Read-Host 'Chave Riot' -AsSecureString
-$env:RIOT_API_KEY = [System.Net.NetworkCredential]::new('', $riotCredential).Password
-$env:PORT = '5003'
-try {
-    .\.venv\Scripts\python.exe server.py
-} finally {
-    Remove-Item Env:RIOT_API_KEY
-}
+.\.venv\Scripts\python.exe scripts/start_with_riot.py
 ```
+
+Quando aparecer `Chave Riot:`, cole a chave e pressione Enter. A entrada fica oculta. O comando verifica `/healthz` e mostra `Servidor pronto: http://127.0.0.1:5005/`; abra esse endereço, mantenha o PowerShell aberto e selecione uma lane. Ctrl+C encerra. Ao iniciar novamente, será necessário fornecer a chave de novo, salvo se `RIOT_API_KEY` já estiver no ambiente. O comando também funciona a partir de outra pasta quando os caminhos do Python e do script são absolutos.
+
+O aviso `waitress.queue: Task queue depth is 1` indica tarefas aguardando atendimento; sozinho não comprova erro da Riot. O inicializador grava avisos/erros em `instance/server-error.log` (até 512 KB e uma cópia anterior) para evitar que a escrita no terminal bloqueie a fila do servidor. Não há log de acesso. Se a porta estiver ocupada, pare a instância anterior com Ctrl+C ou use `--port 5006`; o comando não encerra outros processos.
 
 Sem chave, fichas/habilidades continuam úteis; resultados já persistidos ainda podem ser consultados. Para coleta manual num terminal com RIOT_API_KEY configurada: `.\.venv\Scripts\python.exe -m flask --app lane_coach collect-stats`. Cada lote é limitado; outra tentativa durante intervalo/cota não inicia coleta. A página consulta/atualiza resultados em segundo plano, sem rebaixar uma amostra salva a zero quando o provedor falha.
 
@@ -97,7 +94,7 @@ O backup usa a API SQLite e recusa sobrescrever arquivos. Para restaurar, pare o
 
 Na página: sem cadastro, cookies, analytics, conta Riot de visitante ou chamadas a IA. Coleta Riot acontece somente no backend; dados de jogadores são transitórios. O banco guarda somente campeões e guias. Imagens são servidas localmente. A seleção aparece na URL e pode ficar no histórico do navegador; não inclua dados pessoais. O aplicativo não registra consultas nem configura logs de acesso. Erros de banco registram apenas a classe da exceção.
 
-Validação no servidor, SQL parametrizado, escape de templates e CSP restritiva. Não há credenciais necessárias nesta etapa. `.env`, bancos e ambientes locais são ignorados pelo Git. Revise arquivos antes de publicar.
+Validação no servidor, SQL parametrizado, escape de templates e CSP restritiva. A consulta de fichas/habilidades funciona sem credenciais; a coleta requer chave Riot somente no servidor. `.env`, bancos e ambientes locais são ignorados pelo Git. Revise arquivos antes de publicar.
 
 ## Deploy e próximos passos
 
